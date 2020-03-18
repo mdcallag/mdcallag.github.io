@@ -1,5 +1,5 @@
 # Overview
 
 Guide:
-* Benchmarks
+* [Benchmarks](database-benchmarks.md)
 
