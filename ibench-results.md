@@ -21,7 +21,7 @@ Note:
 * All of the rates are the average over the entire test step.
 * The full test output has per-interval averages but the goal here is to condense the results for a test step to one line.
   Limiting that to one line makes it easier to compare results between different configurations and DBMS when ther
-* The headers for HW efficiency metrics, CPU or IO /insert, in the Load step should have used **i** rather than **q** 
+* The headers for HW efficiency metrics, CPU or IO /insert, in the Load step I should have used **i** rather than **q** 
   (see rpq, rkbpq, etc). Perhaps it is too late to fix that -- :clown_face:. But HW efficiency metrics are valuable as
   they often explain why one DBMS is faster than another.
 * The example data is from an in-memory workload so rps, rkbps, rkbpq are zero because there were no storage reads.
