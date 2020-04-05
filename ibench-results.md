@@ -11,10 +11,16 @@ Below I frequently assume that writes == inserts and reads == short range querie
 
 # Load
 
-Example output:
+Example output without vsz and rss
 ```
 ips	qps	rps	rkbps	wkbps	rpq	rkbpq	wkbpq	csps	cpups	cspq	cpupq	dbgb	maxop	p50	p99	tag
 21711	0	0.0	0	35629	0.000	0.000	1.641	8996	8.0	0.414	370	11	0.292	21435	19826	50m.in57.c8b
+```
+
+Example output with vsz and rss
+```
+ips     qps     rps     rkbps   wkbps   rpq     rkbpq   wkbpq   csps    cpups   cspq    cpupq   dbgb    vsz     rss     maxop   p50     p99     tag
+50441   0       0.3     3       197213  0.000   0.000   3.910   18387   71.1    0.365   1409    64      25.1    23.3    0.477   8349    3050    80m.mo425.c5b
 ```
 
 Note:
@@ -41,6 +47,7 @@ Legend:
   is 2X larger for DBMS A than for DBMS B, then DBMS A uses 2X more CPU/insert. This value can only be compared for tests
   on servers with the same number of CPUs, because it is based on utilization (vmstat sy and us) not on CPU seconds.
 * dbgb - database size in GB
+* vsz, rss - VSZ and RSS in GB for database process, measured via *ps aux*
 * maxop - max response time for an insert in milliseconds
 * p50, p99 - the 50th and 99th percentile of the per-interval insert rates. Assume the test uses 10 second intervals and
 and ran for 10,000 seconds. Then there will be 1000 intervals and an average insert rate per interval. The rates are sorted
