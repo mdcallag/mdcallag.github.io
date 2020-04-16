@@ -12,4 +12,4 @@
 # Linkbench
 
 * [Overview](http://smalldatum.blogspot.com/2017/06/all-about-linkbench.html)
-* Guide to results
+* [Guide to results](linkbench-results.md)
