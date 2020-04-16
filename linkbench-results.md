@@ -1,4 +1,3 @@
-
 # Overview
 
 This describes the formatted results extracted from the Linkbench benchmark output.
@@ -8,20 +7,6 @@ The scripts generate one line of text per test step and I currently use several 
 The load step is insert only on tables that only have PK indexes.
 The index step creates an index on the Link table.
 The run step does short-running transactions.
-
-l.post.eff.op
-ips     secs    rpi     rkbpi   wkbpi   cspi    cpupi   csecpq  dsecpq  csec    dsec    dbgb    cnf
-311740  2440    0.001   0.133   0.067   0.0     84      0.0     3.2     2421    2421    209.8   my56.c5
-121296  6271    0.001   0.144   0.066   0.0     218     0.0     8.4     6402    6402    264.4   my57.c5
-l.post.eff.sec
-ips     secs    rps     rmbps   wmbps   csps    cpups   cutil   dutil   cnf
-311740  2440    448     40      21      1518    26.1    0.000   0.992   my56.c5
-121296  6271    141     17      8       1911    26.5    0.000   1.021   my57.c5
-
-l.rt
-ips     secs    n9      nx      nm      l9      lx      lm      c9      cx      cm      cnf
-26272   25146   43      1419    26      77      1259    39      69      1087    35      my56.c5
-39330   16798   64      1949    22      81      2190    26      73      1448    24      my57.c5
 
 Helper scripts that run the benchmark generate many output files so filenames are encoded to make it easy for me to find results.
 The files I describe here include:
@@ -73,8 +58,46 @@ Legend:
 * vsz, rss - VSZ and RSS in GB for database process, measured via \*ps aux\*
 * cnf - the DBMS and configuration
 
+*l.rt* has response time metrics for the multi-row inserts (batch writes) done during the load.
+```
+ips     secs    n9      nx      nm      l9      lx      lm      c9      cx      cm      cnf
+26272   25146   43      1419    26      77      1259    39      69      1087    35      my56.c5
+39330   16798   64      1949    22      81      2190    26      73      1448    24      my57.c5
+```
+
+Legend:
+* ips - inserts/second
+* secs - duration of test step in seconds
+* n9, nx, nm - p99, max and mean response time in milliseconds for Node inserts
+* l9, lx, lm - p99, max and mean response time in milliseconds for Link inserts
+* c9, cx, cm - p99, max and mean response time in milliseconds for Count inserts
+
 Note:
 * All of the rates are the average over the entire test step.
 * The full test output has per-interval averages but the goal here is to condense the results for a test step to one line.
   Limiting that to one line makes it easier to compare results between different configurations and DBMS.
 
+# Index
+
+*l.post.eff.op* - has per-row efficiency metrics for create index
+```
+ips     secs    rpi     rkbpi   wkbpi   cspi    cpupi   csecpq  dsecpq  csec    dsec    dbgb    cnf
+311740  2440    0.001   0.133   0.067   0.0     84      0.0     3.2     2421    2421    209.8   mo425.c5
+107679  7064    0.002   0.132   0.066   0.0     239     0.0     9.3     7109    7109    219.8   mo44pre.c5
+121296  6271    0.001   0.144   0.066   0.0     218     0.0     8.4     6402    6402    264.4   mo440rc0.c5
+```
+
+The legend [from Load](master#load) applies here.
+During the load rows are inserted into 3 collections (Link, Node, Count) and the efficiency metrics are divided by the
+number of rows inserted into all collections.
+Here a secondary index is created on the Link collection and the denominator is the number of rows in the Link collection.
+
+*l.post.eff.sec* - has per-second efficiency metrics for create index
+```
+ips     secs    rps     rmbps   wmbps   csps    cpups   cutil   dutil   cnf
+311740  2440    448     40      21      1518    26.1    0.000   0.992   mo425.c5
+107679  7064    181     14      7       1670    25.7    0.000   1.006   mo44pre.c5
+121296  6271    141     17      8       1911    26.5    0.000   1.021   mo440rc0.c5
+```
+
+The legend [from Load](master#load) applies here.
