@@ -10,21 +10,20 @@ The run step does short-running transactions.
 
 Helper scripts that run the benchmark generate many output files so filenames are encoded to make it easy for me to find results.
 The files I describe here include:
-* l.pre.eff.op - *l.pre* means *load* and *eff.op* means per-operation efficiency metrics like CPU and IO per insert
-* l.pre.eff.sec - *l.pre* means *load* and *eff.sec* means per-second efficiency metrics CPU utilization and MB read/second from storage
-* l.post.eff.op - *l.post* means *index* and *eff.op* means per-operation efficiency metrics like CPU or IO per indexed row
-* l.post.eff.sec - *l.post* means *index* and *eff.sec* means per-second efficiency metrics like CPU utilization and MB read/second from storage
-* l.rt - *l* means *load* and *rt* means response time for the multi-row inserts during the load
+* **l.pre.eff.op** - **l.pre** means **load** and **eff.op** means per-operation efficiency metrics like CPU and IO per insert
+* **l.pre.eff.sec** - **l.pre** means **load** and **eff.sec** means per-second efficiency metrics CPU utilization and MB read/second from storage
+* **l.post.eff.op** - **l.post** means **index** and **eff.op** means per-operation efficiency metrics like CPU or IO per indexed row
+* **l.post.eff.sec** - **l.post** means **index** and **eff.sec** means per-second efficiency metrics like CPU utilization and MB read/second from storage
+* **l.rt** - **l** means **load** and **rt** means response time for the multi-row inserts during the load
 
 # Load
 
-*l.pre.eff.op* has per-operation efficiency metrics for the load
+l.pre.eff.op has per-operation efficiency metrics for the load
 ```
 ips     secs    rpi     rkbpi   wkbpi   cspi    cpupi   csecpq  dsecpq  csec    dsec    dbgb    cnf
 30248   25147   0.000   0.000   0.522   0.1     865     8.7     21.0    15954   15954   188.7   my56.c5
 45282   16798   0.000   0.000   0.601   0.1     611     5.0     19.6    14901   14901   243.5   my57.c5
 ```
-
 Legend:
 * ips - inserts/second
 * secs - duration of test step in seconds
@@ -41,7 +40,7 @@ Legend:
 * dbgb - database size in GB
 * cnf - the DBMS and configuration
 
-*l.pre.eff.sec* has per-second efficiency metrics for the load
+l.pre.eff.sec has per-second efficiency metrics for the load
 ```
 ips     secs    rps     rmbps   wmbps   csps    cpups   cutil   dutil   cnf
 30248   25147   0       0       15      2512    26.2    0.262   0.634   my56.c5
@@ -58,7 +57,7 @@ Legend:
 * vsz, rss - VSZ and RSS in GB for database process, measured via \*ps aux\*
 * cnf - the DBMS and configuration
 
-*l.rt* has response time metrics for the multi-row inserts (batch writes) done during the load.
+l.rt has response time metrics for the multi-row inserts (batch writes) done during the load.
 ```
 ips     secs    n9      nx      nm      l9      lx      lm      c9      cx      cm      cnf
 26272   25146   43      1419    26      77      1259    39      69      1087    35      my56.c5
@@ -79,7 +78,7 @@ Note:
 
 # Index
 
-*l.post.eff.op* - has per-row efficiency metrics for create index
+l.post.eff.op - has per-row efficiency metrics for create index
 ```
 ips     secs    rpi     rkbpi   wkbpi   cspi    cpupi   csecpq  dsecpq  csec    dsec    dbgb    cnf
 311740  2440    0.001   0.133   0.067   0.0     84      0.0     3.2     2421    2421    209.8   mo425.c5
@@ -92,7 +91,7 @@ During the load rows are inserted into 3 collections (Link, Node, Count) and the
 number of rows inserted into all collections.
 Here a secondary index is created on the Link collection and the denominator is the number of rows in the Link collection.
 
-*l.post.eff.sec* - has per-second efficiency metrics for create index
+l.post.eff.sec - has per-second efficiency metrics for create index
 ```
 ips     secs    rps     rmbps   wmbps   csps    cpups   cutil   dutil   cnf
 311740  2440    448     40      21      1518    26.1    0.000   0.992   mo425.c5
