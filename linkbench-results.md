@@ -23,6 +23,11 @@ The examples below are from the tag L6.P16:
 * **r.rt.node.L6.P16** - **r** means a run step, **rt.node** means response time for operations on the Node collection, **L6.P16** is a tag described above
 * **r.rt.link.L6.P16** - **r** means a run step, **rt.link** means response time for operations on the Link and Count collections, **L6.P16** is a tag described above
 
+Note:
+* Rates are the average over the entire test step.
+* The full test output has per-interval averages but the goal here is to condense the results for a test step to one line.
+  Limiting that to one line makes it easier to compare results between different configurations and DBMS.
+
 # Load
 
 ## Per operation
@@ -86,11 +91,7 @@ Legend:
 * n9, nx, nm - p99, max and mean response time in milliseconds for Node inserts
 * l9, lx, lm - p99, max and mean response time in milliseconds for Link inserts
 * c9, cx, cm - p99, max and mean response time in milliseconds for Count inserts
-
-Note:
-* All of the rates are the average over the entire test step.
-* The full test output has per-interval averages but the goal here is to condense the results for a test step to one line.
-  Limiting that to one line makes it easier to compare results between different configurations and DBMS.
+* cnf - the DBMS and configuration
 
 # Index
 
@@ -122,39 +123,82 @@ The legend [from Load](https://github.com/mdcallag/mdcallag.github.io/blob/maste
 
 # Run
 
-z3.r.eff.op.L6.P16
+## Per operation
+
+**r.eff.op.L6.P16**
 ```
 qps     secs    rpq     rkbpq   wkbpq   cspq    cpupq   csecpq  dsecpq  csec    dsec    dbgb    cnf
 12379   3600    0.195   1.638   2.132   8.2     3697    160.1   0.0     7134    0       34.0    pg12.c7b20s1
-10665   3600    0.010   0.087   1.132   5.6     7283    747.0   426.6   28680   16379   19.4    rx56.c5b20s1
-10719   3600    0.007   0.059   1.122   5.6     7280    737.0   435.3   28439   16796   14.3    rx56.c6b20s1
 10488   3601    0.007   0.060   3.787   7.4     6566    712.1   367.3   26896   13873   30.9    in80.c9b20s1
 ```
 
-z3.r.eff.sec.L6.P16
+The legend [from Load](https://github.com/mdcallag/mdcallag.github.io/blob/master/linkbench-results.md#per-operation) applies here although **i** has been replaced by **q**.
+Alas, I should have **t** because these are per transaction not per query and qps means transactions/second.
+Sorry, more :clown_face: from me.
+
+## Per second
+
+**r.eff.sec.L6.P16**
 ```
 qps     secs    rps     rmbps   wmbps   csps    cpups   cutil   dutil   vsz     rss     cnf
 12379   3600    2416    20      26      101891  45.8    1.982   0.000   0.1     0.0     pg12.c7b20s1
-10665   3600    104     1       12      59991   77.7    7.967   4.550   28.5    21.9    rx56.c5b20s1
-10719   3600    74      1       12      60320   78.0    7.900   4.666   29.2    21.8    rx56.c6b20s1
 10488   3601    72      1       39      77527   68.9    7.469   3.853   25.0    23.1    in80.c9b20s1
 ```
 
-z4.r.rt.node.L6.P16
+The legend [from Load](https://github.com/mdcallag/mdcallag.github.io/blob/master/linkbench-results.md#per-second) applies here but **i** has been replaced by **q**.
+Alas, I should have **t** because these are per transaction not per query and qps means transactions/second.
+Sorry, more :clown_face: from me.
+
+## Response time
+
+Linkbench uses 3 tables and there are ~10 transaction type. Many transaction types are single-operation but some are multi-operation and need transactions.
+The tables are Node, Link and Count.
+All transaction types for Node only access Node.
+For Link and Count, some transaction types only access Link or Count while others access both in one transaction.
+
+Each client does a mix of transaction types but the distribution of transaction types is skewed.
+The distribution is configurable, but the one I use is based on production from a few years back
+and the percentage of frequency for each type is:
+```
+addlink     = 5.35038
+deletelink  = 0.98401
+updatelink  = 4.75589
+countlink   = 4.27898
+getlink     = 12.14725
+getlinklist = 22.57039
+getnode     = 43.9869
+addnode     = 2.61198
+updatenode  = 3.06256
+deletenode  = 0.25166
+```
+
+**r.rt.node.L6.P16**
 ```
 an9     anx     anm     un9     unx     unm     dn9     dnx     dnm     gn9     gnx     gnm     cnf
 9       233.1   2.904   10      261.4   2.803   10      162.4   2.784   4       235.1   0.289   pg12.c7b20s1
-14      415.2   1.978   14      373.0   1.903   14      400.0   1.882   2       310.5   0.259   rx56.c5b20s1
-14      317.1   1.956   14      344.5   1.875   14      297.7   1.853   2       266.1   0.258   rx56.c6b20s1
 13      446.6   3.177   13      446.4   3.036   13      447.3   2.987   0.8     261.0   0.235   in80.c9b20s1
 ```
 
-z4.r.rt.link.L6.P16
+Legend:
+* an9, anx, anm - p99, max and mean response time in milliseconds for add-node
+* un9, unx, unm - p99, max and mean response time in milliseconds for update-node
+* dn9, dnx, dnm - p99, max and mean response time in milliseconds for delete-node
+* gn9, gnx, gnm - p99, max and mean response time in milliseconds for get-node
+* cnf - the DBMS and configuration
+
+**r.rt.link.L6.P16**
 ```
 al9     alx     alm     dl9     dlx     dlm     ul9     ulx     ulm     cl9     clx     clm     mg9     mgx     mgm     gll9    gllx    gllm    cnf
 12      261.4   3.854   12      190.9   3.364   11      255.6   3.797   5       233.2   0.408   4       226.7   0.407   25      633.1   2.234   pg12.c7b20s1
-15      414.9   2.358   15      375.3   2.217   15      415.8   2.474   2       96.3    0.253   4       300.6   0.417   68      334.6   4.159   rx56.c5b20s1
-15      344.2   2.318   15      344.8   2.187   15      344.0   2.436   2       145.4   0.251   4       267.8   0.415   68      322.2   4.156   rx56.c6b20s1
 14      448.5   3.644   14      231.2   3.219   14      448.0   3.729   3       238.2   0.266   3       167.8   0.379   58      581.7   3.417   in80.c9b20s1
 ```
+
+Legend:
+* al9, alx, alm - p99, max and mean response time in milliseconds for add-link
+* dl9, dlx, dlm - p99, max and mean response time in milliseconds for delete-link
+* ul9, ulx, ulm - p99, max and mean response time in milliseconds for update-node
+* cl9, clx, clm - p99, max and mean response time in milliseconds for count-link
+* mg9, mgx, mgm - p99, max and mean response time in milliseconds for multiget-link
+* gll9, gllx, gllm - p99, max and mean response time in milliseconds for get-links-list
+* cnf - the DBMS and configuration
 
