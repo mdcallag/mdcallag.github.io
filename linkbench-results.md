@@ -20,7 +20,8 @@ The files I describe here include:
 
 ## Per operation
 
-**l.pre.eff.op** has per-operation efficiency metrics for the load
+**l.pre.eff.op** has per-operation efficiency metrics for the load. Performance data is collected from vmstat, iostat and elsewhere and then normalized (divided by) the workload rate. Here the workload rate is the number of inserts/second.
+
 ```
 ips     secs    rpi     rkbpi   wkbpi   cspi    cpupi   csecpq  dsecpq  csec    dsec    dbgb    cnf
 30248   25147   0.000   0.000   0.522   0.1     865     8.7     21.0    15954   15954   188.7   my56.c5
@@ -44,7 +45,8 @@ Legend:
 
 ## Per second
 
-**l.pre.eff.sec** has per-second efficiency metrics for the load
+**l.pre.eff.sec** has per-second efficiency metrics for the load. This shows performance data as rates (per second). Much of the data is from vmstat and iostat.
+
 ```
 ips     secs    rps     rmbps   wmbps   csps    cpups   cutil   dutil   vsz     rss     cnf
 30248   25147   0       0       15      2512    26.2    0.262   0.634   13.0    11.3    my56.c5
@@ -87,7 +89,7 @@ Note:
 
 ## Per operation
 
-**l.post.eff.op** - has per-row efficiency metrics for create index
+**l.post.eff.op** - has per-row efficiency metrics for create index. Performance data is collected from vmstat, iostat and elsewhere and then normalized (divided by) the workload rate. Here the workload rate is the number of indexed rows/second.
 ```
 ips     secs    rpi     rkbpi   wkbpi   cspi    cpupi   csecpq  dsecpq  csec    dsec    dbgb    cnf
 311740  2440    0.001   0.133   0.067   0.0     84      0.0     3.2     2421    2421    209.8   my56.c6
@@ -102,7 +104,7 @@ Here a secondary index is created on the Link collection and the denominator is 
 
 ## Per second
 
-**l.post.eff.sec** - has per-second efficiency metrics for create index
+**l.post.eff.sec** - has per-second efficiency metrics for create index.  This shows performance data as rates (per second). Much of the data is from vmstat and iostat.
 ```
 ips     secs    rps     rmbps   wmbps   csps    cpups   cutil   dutil   vsz     rss     cnf
 311740  2440    448     40      21      1518    26.1    0.000   0.992   13.9    12.0    my40.c2
