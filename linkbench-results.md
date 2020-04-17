@@ -199,6 +199,6 @@ Legend:
 * ul9, ulx, ulm - p99, max and mean response time in milliseconds for update-node
 * cl9, clx, clm - p99, max and mean response time in milliseconds for count-link
 * mg9, mgx, mgm - p99, max and mean response time in milliseconds for multiget-link
-* gll9, gllx, gllm - p99, max and mean response time in milliseconds for get-links-list
+* gll9, gllx, gllm - p99, max and mean response time in milliseconds for get-link-list
 * cnf - the DBMS and configuration
 
