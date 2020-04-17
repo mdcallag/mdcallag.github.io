@@ -111,4 +111,4 @@ ips     secs    rps     rmbps   wmbps   csps    cpups   cutil   dutil   vsz     
 121296  6271    141     17      8       1911    26.5    0.000   1.021   17.2    14.7    pg12.c0
 ```
 
-The legend [from Load](master#load) applies here.
+The legend [from Load](https://github.com/mdcallag/mdcallag.github.io/blob/master/linkbench-results.md#per-second) applies here.
