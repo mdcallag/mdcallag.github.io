@@ -86,7 +86,8 @@ ips     secs    rpi     rkbpi   wkbpi   cspi    cpupi   csecpq  dsecpq  csec    
 107679  7064    0.002   0.132   0.066   0.0     239     0.0     9.3     7109    7109    219.8   my80.c1
 ```
 
-The legend [from Load](master#load) applies here.
+The legend [from Load](master#load) applies here although the **i** in columns above means per-indexed rather than per-inserted row.
+
 During the load rows are inserted into 3 collections (Link, Node, Count) and the efficiency metrics are divided by the
 number of rows inserted into all collections.
 Here a secondary index is created on the Link collection and the denominator is the number of rows in the Link collection.
