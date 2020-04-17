@@ -96,7 +96,7 @@ ips     secs    rpi     rkbpi   wkbpi   cspi    cpupi   csecpq  dsecpq  csec    
 107679  7064    0.002   0.132   0.066   0.0     239     0.0     9.3     7109    7109    219.8   my80.c1
 ```
 
-The legend [from Load](master#load) applies here although the **i** in columns above means per-indexed rather than per-inserted row.
+The legend [from Load](https://github.com/mdcallag/mdcallag.github.io/blob/master/linkbench-results.md#per-operation) applies here although the **i** in columns above means per-indexed rather than per-inserted row.
 
 During the load rows are inserted into 3 collections (Link, Node, Count) and the efficiency metrics are divided by the
 number of rows inserted into all collections.
