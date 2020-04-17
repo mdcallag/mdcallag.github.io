@@ -18,7 +18,7 @@ The files I describe here include:
 
 # Load
 
-l.pre.eff.op has per-operation efficiency metrics for the load
+**l.pre.eff.op** has per-operation efficiency metrics for the load
 ```
 ips     secs    rpi     rkbpi   wkbpi   cspi    cpupi   csecpq  dsecpq  csec    dsec    dbgb    cnf
 30248   25147   0.000   0.000   0.522   0.1     865     8.7     21.0    15954   15954   188.7   my56.c5
@@ -40,10 +40,11 @@ Legend:
 * dbgb - database size in GB
 * cnf - the DBMS and configuration
 
-l.pre.eff.sec has per-second efficiency metrics for the load
+**l.pre.eff.sec** has per-second efficiency metrics for the load
 ```
-ips     secs    rps     rmbps   wmbps   csps    cpups   cutil   dutil   cnf
-30248   25147   0       0       15      2512    26.2    0.262   0.634   my56.c5
+ips     secs    rps     rmbps   wmbps   csps    cpups   cutil   dutil   vsz     rss     cnf
+30248   25147   0       0       15      2512    26.2    0.262   0.634   13.0    11.3    my56.c5
+45282   16798   0       0       27      4095    27.7    0.228   0.887   14.1    12.4    my56.c5
 ```
 
 Legend:
@@ -57,7 +58,7 @@ Legend:
 * vsz, rss - VSZ and RSS in GB for database process, measured via \*ps aux\*
 * cnf - the DBMS and configuration
 
-l.rt has response time metrics for the multi-row inserts (batch writes) done during the load.
+**l.rt** has response time metrics for the multi-row inserts (batch writes) done during the load.
 ```
 ips     secs    n9      nx      nm      l9      lx      lm      c9      cx      cm      cnf
 26272   25146   43      1419    26      77      1259    39      69      1087    35      my56.c5
@@ -78,12 +79,11 @@ Note:
 
 # Index
 
-l.post.eff.op - has per-row efficiency metrics for create index
+**l.post.eff.op** - has per-row efficiency metrics for create index
 ```
 ips     secs    rpi     rkbpi   wkbpi   cspi    cpupi   csecpq  dsecpq  csec    dsec    dbgb    cnf
-311740  2440    0.001   0.133   0.067   0.0     84      0.0     3.2     2421    2421    209.8   mo425.c5
-107679  7064    0.002   0.132   0.066   0.0     239     0.0     9.3     7109    7109    219.8   mo44pre.c5
-121296  6271    0.001   0.144   0.066   0.0     218     0.0     8.4     6402    6402    264.4   mo440rc0.c5
+311740  2440    0.001   0.133   0.067   0.0     84      0.0     3.2     2421    2421    209.8   my56.c6
+107679  7064    0.002   0.132   0.066   0.0     239     0.0     9.3     7109    7109    219.8   my80.c1
 ```
 
 The legend [from Load](master#load) applies here.
@@ -91,12 +91,11 @@ During the load rows are inserted into 3 collections (Link, Node, Count) and the
 number of rows inserted into all collections.
 Here a secondary index is created on the Link collection and the denominator is the number of rows in the Link collection.
 
-l.post.eff.sec - has per-second efficiency metrics for create index
+**l.post.eff.sec** - has per-second efficiency metrics for create index
 ```
-ips     secs    rps     rmbps   wmbps   csps    cpups   cutil   dutil   cnf
-311740  2440    448     40      21      1518    26.1    0.000   0.992   mo425.c5
-107679  7064    181     14      7       1670    25.7    0.000   1.006   mo44pre.c5
-121296  6271    141     17      8       1911    26.5    0.000   1.021   mo440rc0.c5
+ips     secs    rps     rmbps   wmbps   csps    cpups   cutil   dutil   vsz     rss     cnf
+311740  2440    448     40      21      1518    26.1    0.000   0.992   13.9    12.0    my40.c2
+121296  6271    141     17      8       1911    26.5    0.000   1.021   17.2    14.7    pg12.c0
 ```
 
 The legend [from Load](master#load) applies here.
