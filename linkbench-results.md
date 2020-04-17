@@ -18,6 +18,8 @@ The files I describe here include:
 
 # Load
 
+## Per operation
+
 **l.pre.eff.op** has per-operation efficiency metrics for the load
 ```
 ips     secs    rpi     rkbpi   wkbpi   cspi    cpupi   csecpq  dsecpq  csec    dsec    dbgb    cnf
@@ -40,6 +42,8 @@ Legend:
 * dbgb - database size in GB
 * cnf - the DBMS and configuration
 
+## Per second
+
 **l.pre.eff.sec** has per-second efficiency metrics for the load
 ```
 ips     secs    rps     rmbps   wmbps   csps    cpups   cutil   dutil   vsz     rss     cnf
@@ -57,6 +61,8 @@ Legend:
 * cutil, dutil - csec/secs and dsec/dsecs
 * vsz, rss - VSZ and RSS in GB for database process, measured via \*ps aux\*
 * cnf - the DBMS and configuration
+
+## Response time
 
 **l.rt** has response time metrics for the multi-row inserts (batch writes) done during the load.
 ```
@@ -79,6 +85,8 @@ Note:
 
 # Index
 
+## Per operation
+
 **l.post.eff.op** - has per-row efficiency metrics for create index
 ```
 ips     secs    rpi     rkbpi   wkbpi   cspi    cpupi   csecpq  dsecpq  csec    dsec    dbgb    cnf
@@ -91,6 +99,8 @@ The legend [from Load](master#load) applies here although the **i** in columns a
 During the load rows are inserted into 3 collections (Link, Node, Count) and the efficiency metrics are divided by the
 number of rows inserted into all collections.
 Here a secondary index is created on the Link collection and the denominator is the number of rows in the Link collection.
+
+## Per second
 
 **l.post.eff.sec** - has per-second efficiency metrics for create index
 ```
