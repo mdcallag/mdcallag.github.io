@@ -14,7 +14,7 @@ Below I frequently assume that writes == inserts and reads == short range querie
 Example output with vsz and rss
 ```
 ips     qps     rps     rkbps   wkbps   rpq     rkbpq   wkbpq   csps    cpups   cspq    cpupq   ccpupq  dbgb    vsz     rss     maxop   p50     p90     tag
-124805  0       0       0       110669  0.000   0.000   0.887   19298   47.5    0.155   61      2       13      3.4     2.2     0.536   16018   13616   rx56.c5b40
+124805  0       0       0       110669  0.000   0.000   0.887   19298   47.5    0.155   61      2       13      3.4     2.2     0.536   16018   13616   rx56.c5
 ```
 
 Note:
@@ -45,8 +45,7 @@ Legend:
 and ran for 10,000 seconds. Then there will be 1000 intervals and an average insert rate per interval. The rates are sorted
 and then p50 and p90 are the rates at the 50th and 90th percentile.
 * tag - name of the configuration tested. This names the DBMS, storage engine and configuration options that are 
-  explained elsewhere. In the example, **50m.in57.c8b**, the load step inserted 50M rows, in57 is InnoDB from MySQL 5.7
-  and c8b is the configuraton file (my.cnf).
+  explained elsewhere. In the example, **rx56.c5**, rx56 is MyRocks from MySQL 5.6 and c5b is the configuraton file (my.cnf).
 
 # Run
 
@@ -66,7 +65,7 @@ Legend:
 
 ```
 ips     qps     rps     rkbps   wkbps   rpq     rkbpq   wkbpq   csps    cpups   cspq    cpupq   ccpupq  dbgb    vsz     rss     maxop   p50     p90     tag
-794     25535   0       0       1492    0.000   0.000   0.058   99442   43.1    3.894   270     16      16      37.6    33.1    0.015   3181    3002    rx56.c5b40
+794     25535   0       0       1492    0.000   0.000   0.058   99442   43.1    3.894   270     16      16      37.6    33.1    0.015   3181    3002    rx56.c5
 ```
 
 # Scan
@@ -90,5 +89,5 @@ Legend:
 
 ```
 secs	mrps	rps	rmbps	wmbps	rpo	rkbpo	csps	cpups	cspo	Mcpupo	tag
-11	4.545	0	0.0	5.9	0.000	0.000	1410	5.5	0.000	1.320	50m.in57.c8b
+11	4.545	0	0.0	5.9	0.000	0.000	1410	5.5	0.000	1.320	in57.c8b
 ```
