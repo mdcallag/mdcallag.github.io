@@ -60,7 +60,7 @@ Legend:
 * rpq - storage read /query computed from rps/qps
 * rkbpq, wkbpq - storage read and write KB /query computed as rkbps/qps and wkbps/qps.
 * cspq, context switches /query
-* cpupq, ccpupq - total CPU microseconds /query and client CPU microseconds /query
+* cpupq, ccpupq - total and client CPU microseconds /query
 * maxop - max response time for a query in milliseconds
 * p50, p99 - the 50th and 99th percentile of the per-interval query rates.
 
