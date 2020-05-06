@@ -41,7 +41,7 @@ Legend:
 * dbgb - database size in GB
 * vsz, rss - VSZ and RSS in GB for database process, measured via *ps aux*
 * maxop - max response time for an insert in milliseconds
-* p50, p90 - the 50th and 90th percentile of the per-interval insert rates. These are per-client while *ips* is the average rate across all clients. If there are 8 clients and *ips* is 80,000 then the per-client p50 rate might be 10,000.
+* p50, p90 - the 50th and 90th percentile of the per-interval insert rates. These are per-client while *ips* is the average rate across all clients. If there are 8 clients and *ips* is 80,000 then the per-client p50 rate might be 10,000. The insert rates tend to increase over time and the p90 rate is a good estimate of the per-client insert rate near test end.
 * tag - name of the configuration tested. This names the DBMS, storage engine and configuration options that are 
   explained elsewhere. In the example, **rx56.c5**, rx56 is MyRocks from MySQL 5.6 and c5b is the configuraton file (my.cnf).
 
