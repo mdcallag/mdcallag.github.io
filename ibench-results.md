@@ -36,7 +36,7 @@ Legend:
 * csps - context switch /second per vmstat
 * cpups - CPU utilization, the sum of the us and sy columns per vmstat
 * cspq - context switches /insert computed from csps/ips. Pretend this is named cpupi.
-* cpupq - CPU microseconds /insert. Pretend this is named cpupi.
+* cpupq - CPU microseconds /insert. Pretend this is named cpupi. This includes CPU by the client, DBMS and anything else running on the server.
 * ccpupq - client CPU microseconds /insert. Similar to cpupq but only counts the CPU consumed by the benchmark client
 * dbgb - database size in GB
 * vsz, rss - VSZ and RSS in GB for database process, measured via *ps aux*
