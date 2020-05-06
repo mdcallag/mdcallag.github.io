@@ -88,5 +88,5 @@ Legend:
 
 ```
 secs	mrps	rps	rmbps	wmbps	rpo	rkbpo	csps	cpups	cspo	Mcpupo	tag
-11	4.545	0	0.0	5.9	0.000	0.000	1410	5.5	0.000	1.320	in57.c8b
+11	4.545	0	0.0	5.9	0.000	0.000	1410	5.5	0.000	1.320	rx56.c5b
 ```
