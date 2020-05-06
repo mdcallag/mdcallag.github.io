@@ -11,16 +11,10 @@ Below I frequently assume that writes == inserts and reads == short range querie
 
 # Load
 
-Example output without vsz and rss
-```
-ips	qps	rps	rkbps	wkbps	rpq	rkbpq	wkbpq	csps	cpups	cspq	cpupq	dbgb	maxop	p50	p99	tag
-21711	0	0.0	0	35629	0.000	0.000	1.641	8996	8.0	0.414	370	11	0.292	21435	19826	50m.in57.c8b
-```
-
 Example output with vsz and rss
 ```
-ips     qps     rps     rkbps   wkbps   rpq     rkbpq   wkbpq   csps    cpups   cspq    cpupq   dbgb    vsz     rss     maxop   p50     p99     tag
-50441   0       0.3     3       197213  0.000   0.000   3.910   18387   71.1    0.365   1409    64      25.1    23.3    0.477   8349    3050    80m.mo425.c5b
+ips     qps     rps     rkbps   wkbps   rpq     rkbpq   wkbpq   csps    cpups   cspq    cpupq   ccpupq  dbgb    vsz     rss     maxop   p50     p99     tag
+124805  0       0       0       110669  0.000   0.000   0.887   19298   47.5    0.155   61      2       13      3.4     2.2     0.536   16018   13616   rx56.c5b40
 ```
 
 Note:
@@ -42,10 +36,8 @@ Legend:
 * csps - context switch /second per vmstat
 * cpups - CPU utilization, the sum of the us and sy columns per vmstat
 * cspq - context switches /insert computed from csps/ips. Pretend this is named cpupi.
-* cpupq - CPU/insert computed from (cpups/ips)*1M. Pretend this is named cpupi. 
-  cpupq is multiplied by 1,000,000 so I can display the value as an integer. When this value
-  is 2X larger for DBMS A than for DBMS B, then DBMS A uses 2X more CPU/insert. This value can only be compared for tests
-  on servers with the same number of CPUs, because it is based on utilization (vmstat sy and us) not on CPU seconds.
+* cpupq - CPU microseconds /insert. Pretend this is named cpupi.
+* ccpupq - client CPU microseconds /insert. Similar to cpupq but only counts the CPU consumed by the benchmark client
 * dbgb - database size in GB
 * vsz, rss - VSZ and RSS in GB for database process, measured via *ps aux*
 * maxop - max response time for an insert in milliseconds
@@ -67,13 +59,14 @@ Legend:
 * qps - queries/second. Each query is a short range scan. Queries are not rate-limited.
 * rpq - storage read /query computed from rps/qps
 * rkbpq, wkbpq - storage read and write KB /query computed as rkbps/qps and wkbps/qps.
-* cspq, cpupq - context switch /query and CPU/query computed from csps/qps and cpups/qps.
+* cspq, context switches /query
+* cpupq, ccpupq - total CPU microseconds /query and client CPU microseconds /query
 * maxop - max response time for a query in milliseconds
 * p50, p99 - the 50th and 99th percentile of the per-interval query rates.
 
 ```
-ips	qps	rps	rkbps	wkbps	rpq	rkbpq	wkbpq	csps	cpups	cspq	cpupq	dbgb	maxop	p50	p99	tag
-998	3412	0.0	0	19317	0.000	0.000	5.661	18542	7.1	5.434	2084	11	0.023	3415	3354	50m.in57.c8b
+ips     qps     rps     rkbps   wkbps   rpq     rkbpq   wkbpq   csps    cpups   cspq    cpupq   ccpupq  dbgb    vsz     rss   
+794     25535   0       0       1492    0.000   0.000   0.058   99442   43.1    3.894   270     16      16      37.6    33.1    0.015   3181    3002    rx56.c5b40
 ```
 
 # Scan
