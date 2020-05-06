@@ -11,7 +11,7 @@ Below I frequently assume that writes == inserts and reads == short range querie
 
 # Load
 
-Example output with vsz and rss
+Example output:
 ```
 ips     qps     rps     rkbps   wkbps   rpq     rkbpq   wkbpq   csps    cpups   cspq    cpupq   ccpupq  dbgb    vsz     rss     maxop   p50     p90     tag
 124805  0       0       0       110669  0.000   0.000   0.887   19298   47.5    0.155   61      2       13      3.4     2.2     0.536   16018   13616   rx56.c5
@@ -61,6 +61,7 @@ Legend:
 * maxop - max response time for a query in milliseconds
 * p50, p90 - the 50th and 90th percentile of the per-client, per-interval query rates.
 
+Example output:
 ```
 ips     qps     rps     rkbps   wkbps   rpq     rkbpq   wkbpq   csps    cpups   cspq    cpupq   ccpupq  dbgb    vsz     rss     maxop   p50     p90     tag
 794     25535   0       0       1492    0.000   0.000   0.058   99442   43.1    3.894   270     16      16      37.6    33.1    0.015   3181    3002    rx56.c5
