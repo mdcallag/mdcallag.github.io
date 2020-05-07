@@ -90,3 +90,18 @@ Legend:
 secs	mrps	rps	rmbps	wmbps	rpo	rkbpo	csps	cpups	cspo	Mcpupo	tag
 11	4.545	0	0.0	5.9	0.000	0.000	1410	5.5	0.000	1.320	rx56.c5b
 ```
+
+# Response Time Histograms
+
+These are provided for load, q1000 and q100. They list the percentage of responses that are in each bucket. Each response is counted once in the bucket in which it fits. The 256us bucket has all responses that take <= 256 microseconds. The 1ms bucket has all repsonses that take between 256us and 1 millisecond, and so on. The buckets are:
+* 256us - 256 microseconds
+* 1ms, 4ms, 16mx, 64ms, 256ms - *ms* is milliseconds
+* 1s, 4s, 16s - *s* is seconds
+* gt - all responses > 16 seconds
+* max - the max response time in seconds
+* tag - the DBMS and configuration 
+
+```
+256us   1ms     4ms     16ms    64ms    256ms   1s      4s      16s     gt      max     tag
+0.000   0.000   82.919  15.837  1.073   0.161   0.010   0.000   0.000   0.000   0.45814 pg12.c7b40
+```
