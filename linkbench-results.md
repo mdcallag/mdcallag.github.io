@@ -52,7 +52,7 @@ Legend:
 * csecpq, dsecpq - CPU seconds /insert for the bench mark client (csecpq) and DBMS process (dsecpq). Note that dsecpq
   and dsec is bogus for Postgres (my scripts assume a long-lived process).
 * csec, dsec - CPU seconds for the benchmark client (csec) and DBMS process (dsec). See prior point for dsec and Postgres.
-* dbgb - database size in GB
+* dbgb - database size in GB. This includes everything in the database directory (db files, redo log, replication log, error log) and can be misleading. For example, unless replication logs are kept for the same time period for all DBMS it isn't comparable.
 * cnf - the DBMS and configuration
 
 ## Per second
