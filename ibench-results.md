@@ -38,7 +38,7 @@ Legend:
 * cspq - context switches /insert computed from csps/ips. Pretend this is named cpupi.
 * cpupq - CPU microseconds /insert. Pretend this is named cpupi. This includes CPU by the client, DBMS and anything else running on the server.
 * ccpupq - client CPU microseconds /insert. Similar to cpupq but only counts the CPU consumed by the benchmark client
-* dbgb - database size in GB
+* dbgb - database size in GB. This includes everything in the database directory (db files, redo log, replication log, error log) and can be misleading. For example, unless replication logs are kept for the same time period for all DBMS it isn't comparable.
 * vsz, rss - VSZ and RSS in GB for database process, measured via *ps aux*
 * maxop - max response time for an insert in milliseconds
 * p50, p90 - the 50th and 90th percentile of the per-interval insert rates. These are per-client while *ips* is the average rate across all clients. If there are 8 clients and *ips* is 80,000 then the per-client p50 rate might be 10,000. The insert rates tend to increase over time and the p90 rate is a good estimate of the per-client insert rate near test end.
