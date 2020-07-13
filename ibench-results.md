@@ -8,7 +8,7 @@ The scripts generate one line of text per test step and I currently use several 
 The test steps are:
 * l.i0 - loads without secondary indexes
 * l.x - creates secondary indexes
-* l.i1 - continues with load with the secondary indexes in place. This will be slower than **l.i0** because of secondary index maintenance.
+* l.i1 - continues the load with the secondary indexes in place. This will be slower than **l.i0** because of secondary index maintenance.
 * q100, q200, q400, q600, q800, q1000 - these steps do range queries concurrent with inserts. For each table (collection) there is one query client and one insert client. The insert client has a rate limit, indicated by the number that follows *q* so that **q100** means to do 100 insert/s per client. Sometimes the DBMS is unable to sustain the target insert rate.
 
 Below I frequently assume that writes == inserts and reads == short range queries.
@@ -36,7 +36,7 @@ Legend:
 * rps - storage reads /second per iostat
 * rkbps, wkbps - storage read KB and write KB /second per iostat
 * rpq - storage read /insert computed from rps/ips
-* rkbpq, wkbpi - storage read and write KB /insert computed as rkbps/ips and wkbps/ips. Pretend this is rkbpi and wkbpi.
+* rkbpq, wkbpi - storage read and write KB /insert computed as rkbps/ips and wkbps/ips. Pretend this is rkbpi.
 * csps - context switch /second per vmstat
 * cpups - CPU utilization, the sum of the us and sy columns per vmstat
 * cspq - context switches /insert computed from csps/ips. Pretend this is named cpupi.
