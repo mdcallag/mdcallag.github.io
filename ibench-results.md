@@ -15,6 +15,8 @@ Below I frequently assume that writes == inserts and reads == short range querie
 
 # Load
 
+This is valid for l.i0, l.x and l.i1. For **l.x** metrics are normalized by the number of indexed rows (documents) -- so IPS means indexed rows/second.
+
 Example output:
 ```
 ips     qps     rps     rkbps   wkbps   rpq     rkbpq   wkbpi   csps    cpups   cspq    cpupq   dbgb1   dbgb2   rss     maxop   p50     p99     tag
