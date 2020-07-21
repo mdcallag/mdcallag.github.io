@@ -2,5 +2,5 @@
 
 * [Benchmarks](database-benchmarks.md)
 * [Hello](hello.html)
-* [HelloIbench](20_07_01_ibench_40m/hello.html)
+* [Insert Benchmark: CPU-bound, ~100m rows](20_07_01_ibench_cpu/all.html)
 
