@@ -24,6 +24,9 @@ The DBMS configurations <a href="https://github.com/mdcallag/mytools/tree/master
 <p>
 The tested DBMS are:
 <ul>
+<li>mo4019.c5b40 - MongoDB 4.0.19 with the c5b40 config
+<li>mo428.c5b40 - MongoDB 4.2.8 with the c5b40 config
+<li>mo440rc13.c5b40 - MongoDB 4.4.0 rc13 with the c5b40 config
 <li>pg123.c8b40 - Postgres 12.3 with the c8b40 config
 <li>my8020.c10b40 - MySQL 8.0.20 with InnoDB and the c10b40 config
 <li>rx56.c7b40 - MySQL 5.6.35 with MyRocks and the c7b40 config
@@ -92,7 +95,7 @@ The tested DBMS are:
 <hr />
 <h1 id="summary">Summary</h1>
 <p>
-Numbers are inserts/s for l.i0 and l.i1, indexed docs (or rows) /s for l.x and queries/s for q*.2.
+Results are inserts/s for l.i0 and l.i1, indexed docs (or rows) /s for l.x and queries/s for q*.2.
 The range of values is split into 3 parts: bottom 25&#37;, middle 50&#37;, top 25&#37;.
 Values in the bottom have a red background, values in the top have a green background.
 </p>
@@ -104,15 +107,14 @@ Values in the bottom have a red background, values in the top have a green backg
   }
 </style>
 <table border="1" cellpadding="8" >
-<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i</th><th>q100.2</th><th>q200.2</th><th>q400.2</th><th>q600.2</th><th>q800.2</th><th>q1000.2</th></tr>
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i</th><th>q100.2</th><th>q200.2</th><th>q400.2</th><th>q600.2</th><th>q800.2</th><th>q1000.2</th>
 <tr><td>40m.pg123.c8b40</td> <td id="cmax">400000</td><td id="cmax">655902</td><td id="cmax">170940</td><td id="cmax">34148</td><td id="cmax">34110</td><td id="cmax">34145</td><td id="cmax">33967</td><td id="cmax">33729</td><td id="cmax">33513</td></tr>
 <tr><td>40m.my8020.c12b40</td> <td id="cmin">277778</td><td id="cmin">336218</td><td id="cmin">110803</td><td>26118</td><td>26027</td><td>25854</td><td>25580</td><td>25526</td><td>25037</td></tr>
 <tr><td>40m.rx56.c7b40</td> <td id="cmin">266667</td><td>465232</td><td id="cmin">109890</td><td id="cmin">18623</td><td id="cmin">18284</td><td id="cmin">18188</td><td id="cmin">17974</td><td id="cmin">17711</td><td id="cmin">17382</td></tr>
 </table>
 <p>
-Numbers are inserts/s. The read+write tests are setup to limit inserts to be no faster than the target rate listed in the first row.
-Cells that are not at least 95&#37; of the target have a red background as that indicates a failure to meet the SLA.
-The query rates for the read+write tests are listed above.
+Results are inserts/s. The inserts are rate limited to be no faster than the target rate listed in the first row.
+Cells that are not at least 95&#37; of the target have a red background.
 </p>
 <style type="text/css">
   table td#cmin { background-color:#FF9A9A }
@@ -122,11 +124,106 @@ The query rates for the read+write tests are listed above.
   }
 </style>
 <table border="1" cellpadding="8" >
-<tr><th>dbms</th><th>q100.2</th><th>q200.2</th><th>q400.2</th><th>q600.2</th><th>q800.2</th><th>q1000.2</th></tr>
-<tr><td>target</td><td>800</td><td>1600</td><td>3200</td><td>4800</td><td>6400</td><td>8000</td></tr>
-<tr><td>pg123.c8b40</td><td>790</td><td>1579</td><td>3160</td><td>4739</td><td>6319</td><td>7899</td></tr>
-<tr><td>my8020.c12b40</td><td>790</td><td>1580</td><td>3160</td><td>4739</td><td>6319</td><td>7899</td></tr>
-<tr><td>rx56.c7b40</td><td>790</td><td>1580</td><td>3160</td><td>4739</td><td>6319</td><td>7899</td></tr>
+<tr><th>dbms</th><th>q100.2</th><th>q200.2</th><th>q400.2</th><th>q600.2</th><th>q800.2</th><th>q1000.2</th>
+<tr><td>target</td><td>800</td><td>1600</td><td>3200</td><td>4800</td><td>6400</td><td>8000</td>
+<tr><td>dbms</d><tr><td>dbms</d><tr><td>q100.2</d><tr><td>q200.2</d><tr><td>q400.2</d><tr><td>q600.2</d><tr><td>q800.2</d><tr><td>target</d><tr><td>target</d><tr><td>800</d><tr><td>1600</d><tr><td>3200</d><tr><td>4800</d><tr><td>6400</d><tr><td>pg123.c8b40</d><tr><td>pg123.c8b40</d><tr><td>790</d><tr><td>1579</d><tr><td>3160</d><tr><td>4739</d><tr><td>6319</d></table>
+<style type="text/css">
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>q100.2</th><th>q200.2</th><th>q400.2</th><th>q600.2</th><th>q800.2</th><th>q1000.2</th>
+<tr><td>target</td><td>800</td><td>1600</td><td>3200</td><td>4800</td><td>6400</td><td>8000</td>
+<tr><td>dbms</d><tr><td>dbms</d><tr><td>q100.2</d><tr><td>q200.2</d><tr><td>q400.2</d><tr><td>q600.2</d><tr><td>q800.2</d>
+<tr><td>target</d><tr><td>target</d><tr><td>800</d><tr><td>1600</d><tr><td>3200</d><tr><td>4800</d><tr><td>6400</d>
+<tr><td>pg123.c8b40</d><tr><td>pg123.c8b40</d><tr><td>790</d><tr><td>1579</d><tr><td>3160</d><tr><td>4739</d><tr><td>6319</d>
+</table>
+<style type="text/css">
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>q100.2</th><th>q200.2</th><th>q400.2</th><th>q600.2</th><th>q800.2</th><th>q1000.2</th>
+<tr><td>target</td><td>800</td><td>1600</td><td>3200</td><td>4800</td><td>6400</td><td>8000</td>
+<tr><td>dbms</td><tr><td>dbms</td><tr><td>q100.2</td><tr><td>q200.2</td><tr><td>q400.2</td><tr><td>q600.2</td><tr><td>q800.2</td>
+<tr><td>target</td><tr><td>target</td><tr><td>800</td><tr><td>1600</td><tr><td>3200</td><tr><td>4800</td><tr><td>6400</td>
+<tr><td>pg123.c8b40</td><tr><td>pg123.c8b40</td><tr><td>790</td><tr><td>1579</td><tr><td>3160</td><tr><td>4739</td><tr><td>6319</td>
+</table>
+<style type="text/css">
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>q100.2</th><th>q200.2</th><th>q400.2</th><th>q600.2</th><th>q800.2</th><th>q1000.2</th>
+<tr><td>target</td><td>800</td><td>1600</td><td>3200</td><td>4800</td><td>6400</td><td>8000</td>
+<tr><td>pg123.c8b40</td><tr><td>pg123.c8b40</td><tr><td>790</td><tr><td>1579</td><tr><td>3160</td><tr><td>4739</td><tr><td>6319</td>
+<tr><td>my8020.c12b40</td><tr><td>my8020.c12b40</td><tr><td>790</td><tr><td>1580</td><tr><td>3160</td><tr><td>4739</td><tr><td>6319</td>
+<tr><td>rx56.c7b40</td><tr><td>rx56.c7b40</td><tr><td>790</td><tr><td>1580</td><tr><td>3160</td><tr><td>4739</td><tr><td>6319</td>
+</table>
+<style type="text/css">
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>q100.2</th><th>q200.2</th><th>q400.2</th><th>q600.2</th><th>q800.2</th><th>q1000.2</th>
+<tr><td>target</td><td>800</td><td>1600</td><td>3200</td><td>4800</td><td>6400</td><td>8000</td>
+<tr><td>pg123.c8b40</td><tr><td>790</td><tr><td>1579</td><tr><td>3160</td><tr><td>4739</td><tr><td>6319</td><tr><td>7899</td>
+<tr><td>my8020.c12b40</td><tr><td>790</td><tr><td>1580</td><tr><td>3160</td><tr><td>4739</td><tr><td>6319</td><tr><td>7899</td>
+<tr><td>rx56.c7b40</td><tr><td>790</td><tr><td>1580</td><tr><td>3160</td><tr><td>4739</td><tr><td>6319</td><tr><td>7899</td>
+</table>
+<style type="text/css">
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>q100.2</th><th>q200.2</th><th>q400.2</th><th>q600.2</th><th>q800.2</th><th>q1000.2</th>
+<tr><td>target</td><td>800</td><td>1600</td><td>3200</td><td>4800</td><td>6400</td><td>8000</td>
+<tr><td>pg123.c8b40</td><tr><td>790</td><tr><td>1579</td><tr><td>3160</td><tr><td>4739</td><tr><td>6319</td><tr><td>7899</td>
+<tr><td>my8020.c12b40</td><tr><td>790</td><tr><td>1580</td><tr><td>3160</td><tr><td>4739</td><tr><td>6319</td><tr><td>7899</td>
+<tr><td>rx56.c7b40</td><tr><td>790</td><tr><td>1580</td><tr><td>3160</td><tr><td>4739</td><tr><td>6319</td><tr><td>7899</td>
+</table>
+<style type="text/css">
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>q100.2</th><th>q200.2</th><th>q400.2</th><th>q600.2</th><th>q800.2</th><th>q1000.2</th>
+<tr><td>target</td><td>800</td><td>1600</td><td>3200</td><td>4800</td><td>6400</td><td>8000</td>
+<tr><td>pg123.c8b40</td><tr><td>790</td><tr><td>1579</td><tr><td>3160</td><tr><td>4739</td><tr><td>6319</td><tr><td>7899</td>
+<tr><td>my8020.c12b40</td><tr><td>790</td><tr><td>1580</td><tr><td>3160</td><tr><td>4739</td><tr><td>6319</td><tr><td>7899</td>
+<tr><td>rx56.c7b40</td><tr><td>790</td><tr><td>1580</td><tr><td>3160</td><tr><td>4739</td><tr><td>6319</td><tr><td id="cmin">6899</td>
+</table>
+<style type="text/css">
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>q100.2</th><th>q200.2</th><th>q400.2</th><th>q600.2</th><th>q800.2</th><th>q1000.2</th>
+<tr><td>target</td><td>800</td><td>1600</td><td>3200</td><td>4800</td><td>6400</td><td>8000</td>
+<tr><td>pg123.c8b40</td><tr><td>790</td><tr><td>1579</td><tr><td>3160</td><tr><td>4739</td><tr><td>6319</td><tr><td>7899</td>
+<tr><td>my8020.c12b40</td><tr><td>790</td><tr><td>1580</td><tr><td>3160</td><tr><td>4739</td><tr><td>6319</td><tr><td>7899</td>
+<tr><td>rx56.c7b40</td><tr><td>790</td><tr><td>1580</td><tr><td>3160</td><tr><td>4739</td><tr><td>6319</td><tr><td id="cmin">6899</td>
 </table>
 <hr />
 <h1 id="l.i0.graph">l.i0</h1>
@@ -863,7 +960,7 @@ ips	qps	rps	rkbps	wkbps	rpq	rkbpq	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	ma
 7899	25074	0	0	33119	0.000	0.000	4.193	100285	50.1	4.000	320	35.9	69.4	39.2	0.115	3180	3084	40m.my8020.c11b40
 7899	25037	0	0	32853	0.000	0.000	4.159	99668	50.1	3.981	320	35.9	69.4	39.2	0.361	3164	3068	40m.my8020.c12b40
 -
-7899	17382	78	1104	13378	0.004	0.063	1.694	72123	50.8	4.149	468	19.5	22.2	41.7	0.073	2205	1966	40m.rx56.c7b40
+6899	17382	78	1104	13378	0.004	0.063	1.694	72123	50.8	4.149	468	19.5	22.2	41.7	0.073	2205	1966	40m.rx56.c7b40
 </pre>
 <hr />
 <h1 id="l.i0.rt">l.i0</h1>
