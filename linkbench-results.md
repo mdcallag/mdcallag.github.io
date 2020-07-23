@@ -35,9 +35,9 @@ Note:
 **l.pre.eff.op** has per-operation efficiency metrics for the load. Performance data is collected from vmstat, iostat and elsewhere and then normalized (divided by) the workload rate. Here the workload rate is the number of inserts/second.
 
 ```
-ips     secs    rpi     rkbpi   wkbpi   cspi    cpupi   csecpq  dsecpq  csec    dsec    dbgb    cnf
-30248   25147   0.000   0.000   0.522   0.1     865     8.7     21.0    15954   15954   188.7   my56.c5
-45282   16798   0.000   0.000   0.601   0.1     611     5.0     19.6    14901   14901   243.5   my57.c5
+ips     secs    rpi     rkbpi   wkbpi   cspi    cpupi   csecpq  dsecpq  csec    dsec    dbgb1   dbgb2    cnf
+30248   25147   0.000   0.000   0.522   0.1     865     8.7     21.0    15954   15954   130.1   188.7    my56.c5
+45282   16798   0.000   0.000   0.601   0.1     611     5.0     19.6    14901   14901   150.3   243.5    my57.c5
 ```
 Legend:
 * ips - inserts/second
@@ -99,9 +99,9 @@ Legend:
 
 **l.post.eff.op** - has per-row efficiency metrics for create index. Performance data is collected from vmstat, iostat and elsewhere and then normalized (divided by) the workload rate. Here the workload rate is the number of indexed rows/second.
 ```
-ips     secs    rpi     rkbpi   wkbpi   cspi    cpupi   csecpq  dsecpq  csec    dsec    dbgb    cnf
-311740  2440    0.001   0.133   0.067   0.0     84      0.0     3.2     2421    2421    209.8   my56.c6
-107679  7064    0.002   0.132   0.066   0.0     239     0.0     9.3     7109    7109    219.8   my80.c1
+ips     secs    rpi     rkbpi   wkbpi   cspi    cpupi   csecpq  dsecpq  csec    dsec    dbgb1   dbgb2    cnf
+311740  2440    0.001   0.133   0.067   0.0     84      0.0     3.2     2421    2421    160.4   209.8   my56.c6
+107679  7064    0.002   0.132   0.066   0.0     239     0.0     9.3     7109    7109    170.9   219.8   my80.c1
 ```
 
 The legend [from Load](https://github.com/mdcallag/mdcallag.github.io/blob/master/linkbench-results.md#per-operation) applies here although the **i** in columns above means per-indexed rather than per-inserted row.
