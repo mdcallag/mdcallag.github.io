@@ -1,3 +1,5 @@
+# Explaining explain
+
 I learned a few things while trying to understand which predicates from a query will be index access predicates with MySQL. My focus with MySQL in the past and MongoDB today is such that I don't write or explain MQL or SQL queries on a daily basis and there is much for me to learn. What I learned today with MySQL is to trust the optimizer trace. But be careful with both the key_len column in explain and slow log output. [Use The Index, Luke explains](https://use-the-index-luke.com/sql/explain-plan/mysql/access-filter-predicates) index access and index filter predicates.
 
 The full SQL for my test case is here. There is a table with an index on (x,y,z). There are not null constraints on all columns (not shown below).
