@@ -26,6 +26,10 @@ So the style of predicates in Q1 and Q2 don't satisfy the requirements for MySQL
 
 1. Seek to (x=1, y=3, z=1) in the index
 2. Scan until z > 1
+3. Seek to (x=$current, y=3, z=3)
+4. Scan until z > 3
+5. Seek to (x=$current, y=3, z=5)
+6. Scan until z > 5
 3. Seek to (next distinct value x, y=3, z=1) and goto 2 if x is <= 3
 
 When I ask about things like this I wonder whether I missed something obvious (MySQL already supports this) or whether this is nonsense. I don't think MySQL already supports this but am happy to be corrected and learn more.
@@ -33,8 +37,8 @@ When I ask about things like this I wonder whether I missed something obvious (M
 # The data
 
 This lists the queried table in index order, excluding the *bloat* column and rows for x >= 5. Each row is tagged with *Q1*, *Q2* or *Q3* when that row is in the result set for that query. This makes it clear that the result for Q3 is co-located in the index -- seek once, then call next to get the rest. The result for Q1 and Q2 is not co-located. It is three parts and in theory there are two ways to get that from the index
-1. Seek to the start for each part and call next (in this case there is only one row in each part so the next call doesn't get more). There will be 3 seeks.
-2. Seek to the first row (x=1, y=3, z=3) and keep calling next until x > 3.
+1. Seek to the start for each part and call next. There is only one row in each part so the next call doesn't get more rows. There will be 3 seeks and one row per seek.
+2. Seek to the first row (x=1, y=3, z=3) and keep calling next until x > 3. There will be one seek and 20 or 21 calls to next.
 
 <pre>
 x       y       z      result set
@@ -157,7 +161,7 @@ I am not sure whether *Rows_examined* is incremented before or after index filte
 
 I am still confused after using explain and the slow log. Next up is to use the [optimizer trace tool](http://oysteing.blogspot.com/2016/01/how-to-get-optimizer-trace-for-query.html). This might be the first time I have used it and it quickly made me less confused.
 
-This is part of the trace for Q1 and shows that the index access predicate is limited to x, thus y and z will be index filter predicates. But from below I am confused why explained shows that key_len=12. While I don't show it here the result is the same if I change Q1 to be index-only by using *select x,y,z*.
+This is part of the trace for Q1 and shows that the index access predicate is limited to x, thus y and z will be index filter predicates. While I don't show it here the result is the same if I change Q1 to be index-only by using *select x,y,z*.
 <pre>
                   "chosen_range_access_summary": {
                     "range_access_plan": {
