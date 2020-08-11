@@ -159,6 +159,16 @@ At this point I am still confused and check the slow query log with *slow-log-ex
 
 I am not sure whether *Rows_examined* is incremented before or after index filter predicates have been applied. I hoped that *Read_key* meant seek but the [docs aren't clear](https://dev.mysql.com/doc/refman/8.0/en/slow-query-log.html) and it can't mean seek given the results above. As I show in [the Data section](https://github.com/mdcallag/mdcallag.github.io/new/master#the-data) the result for Q1 and Q2 has 3 rows and the rows are not adjacent in the index. So there is either 1 seek followed by 20 nexts or 3 seeks. There isn't 1 seek followed by 3 nexts -- but the slow log shows Read_key=1, Read_next=3 for Q1 and Q2.
 
+# Enhanced explain
+
+Explain output result is interesting but doesn't distinguish between access and filter predicates. The output for *explain format=tree* is similar.
+<pre>
+explain analyze select x,y,z from t where x >= 1 and x <= 3 and y = 3 and z in (1,3,5)\G'
+
+EXPLAIN: -> Filter: ((t.y = 3) and (t.x >= 1) and (t.x <= 3) and (t.z in (1,3,5)))  (cost=4.47 rows=1) (actual time=0.050..0.094 rows=3 loops=1)
+    -> Index range scan on t using x1  (cost=4.47 rows=21) (actual time=0.045..0.083 rows=21 loops=1)
+</pre>
+
 # Optimizer trace
 
 I am still confused after using explain and the slow log. Next up is to use the [optimizer trace tool](http://oysteing.blogspot.com/2016/01/how-to-get-optimizer-trace-for-query.html). This might be the first time I have used it and it quickly made me less confused.
