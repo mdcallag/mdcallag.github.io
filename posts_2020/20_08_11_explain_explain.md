@@ -191,3 +191,35 @@ This is part of the trace for Q1 and shows that the index access predicate is li
 </pre>
 
 This post is long enough so I won't show the trace output for Q2. It is the same as the trace above.
+
+# Reasons for not getting the skip scan optimization
+
+The optimizer trace explains why index skip scan isn't done. Here is an example for a version of Q1 that isn't index-only for the index on (x,y,z). When the query isn't index only, the reason is *query_references_nonkey_column*. When the query is changed to be index-only the reason for changes to *prefix_not_const_equality*.
+
+<pre>
+Query is: select * from t where x >= 1 and x <= 3 and y = 3 and z in (1,3,5);
+
+                  "skip_scan_range": {
+                    "potential_skip_scan_indexes": [
+                      {
+                        "index": "x1",
+                        "usable": false,
+                        "cause": "query_references_nonkey_column"
+                      }
+                    ]
+                  },
+</pre>
+
+<pre>
+Query is: select x,y,z from t where x >= 1 and x <= 3 and y = 3 and z in (1,3,5)
+
+                  "skip_scan_range": {
+                    "potential_skip_scan_indexes": [
+                      {
+                        "index": "x1",
+                        "usable": false,
+                        "cause": "prefix_not_const_equality"
+                      }
+                    ]
+                  },
+</pre>
