@@ -223,3 +223,49 @@ Query is: select x,y,z from t where x >= 1 and x <= 3 and y = 3 and z in (1,3,5)
                     ]
                   },
 </pre>
+
+# Explain format=json
+
+Wow, *explain format=json* provides the data I want without having to use optimizer trace. This is nice. Here *used_key_parts* only has *x*. While *key_length=12* that can be explained by *used_columns* containing *x, y and z*. The output could be more clear that they are used for filter predicates, but the *used_key_parts* section has what I need.
+
+<pre>
+explain format=json select x,y,z from t where x >= 1 and x <= 3 and y = 3 and z in (1,3,5)\G'
+
+*************************** 1. row ***************************
+EXPLAIN: {
+  "query_block": {
+    "select_id": 1,
+    "cost_info": {
+      "query_cost": "4.47"
+    },
+    "table": {
+      "table_name": "t",
+      "access_type": "range",
+      "possible_keys": [
+        "x1"
+      ],
+      "key": "x1",
+      "used_key_parts": [
+        "x"
+      ],
+      "key_length": "12",
+      "rows_examined_per_scan": 21,
+      "rows_produced_per_join": 0,
+      "filtered": "3.00",
+      "using_index": true,
+      "cost_info": {
+        "read_cost": "4.41",
+        "eval_cost": "0.06",
+        "prefix_cost": "4.47",
+        "data_read_per_join": "141"
+      },
+      "used_columns": [
+        "x",
+        "y",
+        "z"
+      ],
+      "attached_condition": "((`test`.`t`.`y` = 3) and (`test`.`t`.`x` >= 1) and (`test`.`t`.`x` <= 3) and (`test`.`t`.`z` in (1,3,5)))"
+    }
+  }
+}
+</pre>
