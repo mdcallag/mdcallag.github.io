@@ -15,7 +15,7 @@ Posts for 2020:
   * [IO-bound 800m rows, 8 users](reports/20_09_11_ibench_1t_8u_800m/all.html)
   * [IO-bound 2000m rows, 8 users](reports/20_09_11_ibench_1t_8u_2000m/all.html)
 * Linkbench
-  * [CPU-bound, maxid1=10m, 8 users](reports/20_09_11_linkb_8u_10m_inno.html)
-  * [IO-bound, maxid1=200m, 8 users](reports/20_09_11_linkb_8u_200m_inno.html)
-  * [IO-bound, maxid1=500m, 8 users](reports/20_09_11_linkb_8u_500m_inno.html)
+  * [CPU-bound, maxid1=10m, 8 users](reports/20_09_11_linkb_10m_inno/all.html)
+  * [IO-bound, maxid1=200m, 8 users](reports/20_09_11_linkb_200m_inno/all.html)
+  * [IO-bound, maxid1=500m, 8 users](reports/20_09_11_linkb_500m_inno/all.html)
 
