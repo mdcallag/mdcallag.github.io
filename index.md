@@ -5,6 +5,8 @@ Pinned:
 
 Posts for 2020:
 * [Explaining explain to understand index usage in MySQL](posts_2020/20_08_11_explain_explain.md)
+
+Benchmark reports for 2020:
 * Insert benchmark tests with a table per user
   * [CPU-bound, 15m rows, 1 user](reports/20_09_11_ibench_1u_15m/all.html)
   * [CPU-bound, 40m rows, 8 user](reports/20_09_11_ibench_8u_40m/all.html)
