@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>q.L12.ips1000 per-second graphs</title>
+</head>
+<body>
+<p>
+These have results per 1-second interval for: insert rate (IPS), max insert reponse time, query rate (QPS) and max query response time.
+The results are from 1 client while the test may have N clients where N > 1.
+The test is run with a rate limit for the number of inserts/s. In some cases the DBMS is unable to sustain that rate. When a DBMS can sustain that rate IPS will be a horizontal line.
+</p>
+<h1 id=\"toc\">Contents</h1>
+<ul>
+<li>rx56.cx0: <a href="#rx56.cx0.ips">IPS</a>, <a href="#rx56.cx0.imax">max insert response time</a>, <a href="#rx56.cx0.qps">QPS</a> and <a href="#rx56.cx0.qmax">max query response time</a>
+<li>rx56.cx1: <a href="#rx56.cx1.ips">IPS</a>, <a href="#rx56.cx1.imax">max insert response time</a>, <a href="#rx56.cx1.qps">QPS</a> and <a href="#rx56.cx1.qmax">max query response time</a>
+<li>rx56.cx3: <a href="#rx56.cx3.ips">IPS</a>, <a href="#rx56.cx3.imax">max insert response time</a>, <a href="#rx56.cx3.qps">QPS</a> and <a href="#rx56.cx3.qmax">max query response time</a>
+<li>rx56.cx4a: <a href="#rx56.cx4a.ips">IPS</a>, <a href="#rx56.cx4a.imax">max insert response time</a>, <a href="#rx56.cx4a.qps">QPS</a> and <a href="#rx56.cx4a.qmax">max query response time</a>
+<li>rx56.cx4b: <a href="#rx56.cx4b.ips">IPS</a>, <a href="#rx56.cx4b.imax">max insert response time</a>, <a href="#rx56.cx4b.qps">QPS</a> and <a href="#rx56.cx4b.qmax">max query response time</a>
+<li>rx56.cx5a: <a href="#rx56.cx5a.ips">IPS</a>, <a href="#rx56.cx5a.imax">max insert response time</a>, <a href="#rx56.cx5a.qps">QPS</a> and <a href="#rx56.cx5a.qmax">max query response time</a>
+<li>rx56.cx5b: <a href="#rx56.cx5b.ips">IPS</a>, <a href="#rx56.cx5b.imax">max insert response time</a>, <a href="#rx56.cx5b.qps">QPS</a> and <a href="#rx56.cx5b.qmax">max query response time</a>
+<li>rx56.cx5c: <a href="#rx56.cx5c.ips">IPS</a>, <a href="#rx56.cx5c.imax">max insert response time</a>, <a href="#rx56.cx5c.qps">QPS</a> and <a href="#rx56.cx5c.qmax">max query response time</a>
+<li>rx56.cx6a: <a href="#rx56.cx6a.ips">IPS</a>, <a href="#rx56.cx6a.imax">max insert response time</a>, <a href="#rx56.cx6a.qps">QPS</a> and <a href="#rx56.cx6a.qmax">max query response time</a>
+<li>rx56.cx6b: <a href="#rx56.cx6b.ips">IPS</a>, <a href="#rx56.cx6b.imax">max insert response time</a>, <a href="#rx56.cx6b.qps">QPS</a> and <a href="#rx56.cx6b.qmax">max query response time</a>
+<li>rx56.cx6c: <a href="#rx56.cx6c.ips">IPS</a>, <a href="#rx56.cx6c.imax">max insert response time</a>, <a href="#rx56.cx6c.qps">QPS</a> and <a href="#rx56.cx6c.qmax">max query response time</a>
+<li>rx56.cx8: <a href="#rx56.cx8.ips">IPS</a>, <a href="#rx56.cx8.imax">max insert response time</a>, <a href="#rx56.cx8.qps">QPS</a> and <a href="#rx56.cx8.qmax">max query response time</a>
+<li>rx56.cx9a: <a href="#rx56.cx9a.ips">IPS</a>, <a href="#rx56.cx9a.imax">max insert response time</a>, <a href="#rx56.cx9a.qps">QPS</a> and <a href="#rx56.cx9a.qmax">max query response time</a>
+<li>rx56.cx9b: <a href="#rx56.cx9b.ips">IPS</a>, <a href="#rx56.cx9b.imax">max insert response time</a>, <a href="#rx56.cx9b.qps">QPS</a> and <a href="#rx56.cx9b.qmax">max query response time</a>
+<li>rx56.cx10: <a href="#rx56.cx10.ips">IPS</a>, <a href="#rx56.cx10.imax">max insert response time</a>, <a href="#rx56.cx10.qps">QPS</a> and <a href="#rx56.cx10.qmax">max query response time</a>
+<li>rx56.cx11: <a href="#rx56.cx11.ips">IPS</a>, <a href="#rx56.cx11.imax">max insert response time</a>, <a href="#rx56.cx11.qps">QPS</a> and <a href="#rx56.cx11.qmax">max query response time</a>
+<li>rx56.cx12: <a href="#rx56.cx12.ips">IPS</a>, <a href="#rx56.cx12.imax">max insert response time</a>, <a href="#rx56.cx12.qps">QPS</a> and <a href="#rx56.cx12.qmax">max query response time</a>
+</ul>
+<hr />
+<h1 id="rx56.cx0.ips">rx56.cx0: IPS</h1>
+<img src="rx56.cx0.q.L12.ips1000.ips.png">rx56.cx0</a>
+<hr />
+<h1 id="rx56.cx0.imax">rx56.cx0: max insert response time</h1>
+<img src="rx56.cx0.q.L12.ips1000.imax.png">rx56.cx0</a>
+<hr />
+<h1 id="rx56.cx0.qps">rx56.cx0: QPS</h1>
+<img src="rx56.cx0.q.L12.ips1000.qps.png">rx56.cx0</a>
+<hr />
+<h1 id="rx56.cx0.qmax">rx56.cx0: max query response time</h1>
+<img src="rx56.cx0.q.L12.ips1000.qmax.png">rx56.cx0</a>
+<hr />
+<h1 id="rx56.cx1.ips">rx56.cx1: IPS</h1>
+<img src="rx56.cx1.q.L12.ips1000.ips.png">rx56.cx1</a>
+<hr />
+<h1 id="rx56.cx1.imax">rx56.cx1: max insert response time</h1>
+<img src="rx56.cx1.q.L12.ips1000.imax.png">rx56.cx1</a>
+<hr />
+<h1 id="rx56.cx1.qps">rx56.cx1: QPS</h1>
+<img src="rx56.cx1.q.L12.ips1000.qps.png">rx56.cx1</a>
+<hr />
+<h1 id="rx56.cx1.qmax">rx56.cx1: max query response time</h1>
+<img src="rx56.cx1.q.L12.ips1000.qmax.png">rx56.cx1</a>
+<hr />
+<h1 id="rx56.cx3.ips">rx56.cx3: IPS</h1>
+<img src="rx56.cx3.q.L12.ips1000.ips.png">rx56.cx3</a>
+<hr />
+<h1 id="rx56.cx3.imax">rx56.cx3: max insert response time</h1>
+<img src="rx56.cx3.q.L12.ips1000.imax.png">rx56.cx3</a>
+<hr />
+<h1 id="rx56.cx3.qps">rx56.cx3: QPS</h1>
+<img src="rx56.cx3.q.L12.ips1000.qps.png">rx56.cx3</a>
+<hr />
+<h1 id="rx56.cx3.qmax">rx56.cx3: max query response time</h1>
+<img src="rx56.cx3.q.L12.ips1000.qmax.png">rx56.cx3</a>
+<hr />
+<h1 id="rx56.cx4a.ips">rx56.cx4a: IPS</h1>
+<img src="rx56.cx4a.q.L12.ips1000.ips.png">rx56.cx4a</a>
+<hr />
+<h1 id="rx56.cx4a.imax">rx56.cx4a: max insert response time</h1>
+<img src="rx56.cx4a.q.L12.ips1000.imax.png">rx56.cx4a</a>
+<hr />
+<h1 id="rx56.cx4a.qps">rx56.cx4a: QPS</h1>
+<img src="rx56.cx4a.q.L12.ips1000.qps.png">rx56.cx4a</a>
+<hr />
+<h1 id="rx56.cx4a.qmax">rx56.cx4a: max query response time</h1>
+<img src="rx56.cx4a.q.L12.ips1000.qmax.png">rx56.cx4a</a>
+<hr />
+<h1 id="rx56.cx4b.ips">rx56.cx4b: IPS</h1>
+<img src="rx56.cx4b.q.L12.ips1000.ips.png">rx56.cx4b</a>
+<hr />
+<h1 id="rx56.cx4b.imax">rx56.cx4b: max insert response time</h1>
+<img src="rx56.cx4b.q.L12.ips1000.imax.png">rx56.cx4b</a>
+<hr />
+<h1 id="rx56.cx4b.qps">rx56.cx4b: QPS</h1>
+<img src="rx56.cx4b.q.L12.ips1000.qps.png">rx56.cx4b</a>
+<hr />
+<h1 id="rx56.cx4b.qmax">rx56.cx4b: max query response time</h1>
+<img src="rx56.cx4b.q.L12.ips1000.qmax.png">rx56.cx4b</a>
+<hr />
+<h1 id="rx56.cx5a.ips">rx56.cx5a: IPS</h1>
+<img src="rx56.cx5a.q.L12.ips1000.ips.png">rx56.cx5a</a>
+<hr />
+<h1 id="rx56.cx5a.imax">rx56.cx5a: max insert response time</h1>
+<img src="rx56.cx5a.q.L12.ips1000.imax.png">rx56.cx5a</a>
+<hr />
+<h1 id="rx56.cx5a.qps">rx56.cx5a: QPS</h1>
+<img src="rx56.cx5a.q.L12.ips1000.qps.png">rx56.cx5a</a>
+<hr />
+<h1 id="rx56.cx5a.qmax">rx56.cx5a: max query response time</h1>
+<img src="rx56.cx5a.q.L12.ips1000.qmax.png">rx56.cx5a</a>
+<hr />
+<h1 id="rx56.cx5b.ips">rx56.cx5b: IPS</h1>
+<img src="rx56.cx5b.q.L12.ips1000.ips.png">rx56.cx5b</a>
+<hr />
+<h1 id="rx56.cx5b.imax">rx56.cx5b: max insert response time</h1>
+<img src="rx56.cx5b.q.L12.ips1000.imax.png">rx56.cx5b</a>
+<hr />
+<h1 id="rx56.cx5b.qps">rx56.cx5b: QPS</h1>
+<img src="rx56.cx5b.q.L12.ips1000.qps.png">rx56.cx5b</a>
+<hr />
+<h1 id="rx56.cx5b.qmax">rx56.cx5b: max query response time</h1>
+<img src="rx56.cx5b.q.L12.ips1000.qmax.png">rx56.cx5b</a>
+<hr />
+<h1 id="rx56.cx5c.ips">rx56.cx5c: IPS</h1>
+<img src="rx56.cx5c.q.L12.ips1000.ips.png">rx56.cx5c</a>
+<hr />
+<h1 id="rx56.cx5c.imax">rx56.cx5c: max insert response time</h1>
+<img src="rx56.cx5c.q.L12.ips1000.imax.png">rx56.cx5c</a>
+<hr />
+<h1 id="rx56.cx5c.qps">rx56.cx5c: QPS</h1>
+<img src="rx56.cx5c.q.L12.ips1000.qps.png">rx56.cx5c</a>
+<hr />
+<h1 id="rx56.cx5c.qmax">rx56.cx5c: max query response time</h1>
+<img src="rx56.cx5c.q.L12.ips1000.qmax.png">rx56.cx5c</a>
+<hr />
+<h1 id="rx56.cx6a.ips">rx56.cx6a: IPS</h1>
+<img src="rx56.cx6a.q.L12.ips1000.ips.png">rx56.cx6a</a>
+<hr />
+<h1 id="rx56.cx6a.imax">rx56.cx6a: max insert response time</h1>
+<img src="rx56.cx6a.q.L12.ips1000.imax.png">rx56.cx6a</a>
+<hr />
+<h1 id="rx56.cx6a.qps">rx56.cx6a: QPS</h1>
+<img src="rx56.cx6a.q.L12.ips1000.qps.png">rx56.cx6a</a>
+<hr />
+<h1 id="rx56.cx6a.qmax">rx56.cx6a: max query response time</h1>
+<img src="rx56.cx6a.q.L12.ips1000.qmax.png">rx56.cx6a</a>
+<hr />
+<h1 id="rx56.cx6b.ips">rx56.cx6b: IPS</h1>
+<img src="rx56.cx6b.q.L12.ips1000.ips.png">rx56.cx6b</a>
+<hr />
+<h1 id="rx56.cx6b.imax">rx56.cx6b: max insert response time</h1>
+<img src="rx56.cx6b.q.L12.ips1000.imax.png">rx56.cx6b</a>
+<hr />
+<h1 id="rx56.cx6b.qps">rx56.cx6b: QPS</h1>
+<img src="rx56.cx6b.q.L12.ips1000.qps.png">rx56.cx6b</a>
+<hr />
+<h1 id="rx56.cx6b.qmax">rx56.cx6b: max query response time</h1>
+<img src="rx56.cx6b.q.L12.ips1000.qmax.png">rx56.cx6b</a>
+<hr />
+<h1 id="rx56.cx6c.ips">rx56.cx6c: IPS</h1>
+<img src="rx56.cx6c.q.L12.ips1000.ips.png">rx56.cx6c</a>
+<hr />
+<h1 id="rx56.cx6c.imax">rx56.cx6c: max insert response time</h1>
+<img src="rx56.cx6c.q.L12.ips1000.imax.png">rx56.cx6c</a>
+<hr />
+<h1 id="rx56.cx6c.qps">rx56.cx6c: QPS</h1>
+<img src="rx56.cx6c.q.L12.ips1000.qps.png">rx56.cx6c</a>
+<hr />
+<h1 id="rx56.cx6c.qmax">rx56.cx6c: max query response time</h1>
+<img src="rx56.cx6c.q.L12.ips1000.qmax.png">rx56.cx6c</a>
+<hr />
+<h1 id="rx56.cx8.ips">rx56.cx8: IPS</h1>
+<img src="rx56.cx8.q.L12.ips1000.ips.png">rx56.cx8</a>
+<hr />
+<h1 id="rx56.cx8.imax">rx56.cx8: max insert response time</h1>
+<img src="rx56.cx8.q.L12.ips1000.imax.png">rx56.cx8</a>
+<hr />
+<h1 id="rx56.cx8.qps">rx56.cx8: QPS</h1>
+<img src="rx56.cx8.q.L12.ips1000.qps.png">rx56.cx8</a>
+<hr />
+<h1 id="rx56.cx8.qmax">rx56.cx8: max query response time</h1>
+<img src="rx56.cx8.q.L12.ips1000.qmax.png">rx56.cx8</a>
+<hr />
+<h1 id="rx56.cx9a.ips">rx56.cx9a: IPS</h1>
+<img src="rx56.cx9a.q.L12.ips1000.ips.png">rx56.cx9a</a>
+<hr />
+<h1 id="rx56.cx9a.imax">rx56.cx9a: max insert response time</h1>
+<img src="rx56.cx9a.q.L12.ips1000.imax.png">rx56.cx9a</a>
+<hr />
+<h1 id="rx56.cx9a.qps">rx56.cx9a: QPS</h1>
+<img src="rx56.cx9a.q.L12.ips1000.qps.png">rx56.cx9a</a>
+<hr />
+<h1 id="rx56.cx9a.qmax">rx56.cx9a: max query response time</h1>
+<img src="rx56.cx9a.q.L12.ips1000.qmax.png">rx56.cx9a</a>
+<hr />
+<h1 id="rx56.cx9b.ips">rx56.cx9b: IPS</h1>
+<img src="rx56.cx9b.q.L12.ips1000.ips.png">rx56.cx9b</a>
+<hr />
+<h1 id="rx56.cx9b.imax">rx56.cx9b: max insert response time</h1>
+<img src="rx56.cx9b.q.L12.ips1000.imax.png">rx56.cx9b</a>
+<hr />
+<h1 id="rx56.cx9b.qps">rx56.cx9b: QPS</h1>
+<img src="rx56.cx9b.q.L12.ips1000.qps.png">rx56.cx9b</a>
+<hr />
+<h1 id="rx56.cx9b.qmax">rx56.cx9b: max query response time</h1>
+<img src="rx56.cx9b.q.L12.ips1000.qmax.png">rx56.cx9b</a>
+<hr />
+<h1 id="rx56.cx10.ips">rx56.cx10: IPS</h1>
+<img src="rx56.cx10.q.L12.ips1000.ips.png">rx56.cx10</a>
+<hr />
+<h1 id="rx56.cx10.imax">rx56.cx10: max insert response time</h1>
+<img src="rx56.cx10.q.L12.ips1000.imax.png">rx56.cx10</a>
+<hr />
+<h1 id="rx56.cx10.qps">rx56.cx10: QPS</h1>
+<img src="rx56.cx10.q.L12.ips1000.qps.png">rx56.cx10</a>
+<hr />
+<h1 id="rx56.cx10.qmax">rx56.cx10: max query response time</h1>
+<img src="rx56.cx10.q.L12.ips1000.qmax.png">rx56.cx10</a>
+<hr />
+<h1 id="rx56.cx11.ips">rx56.cx11: IPS</h1>
+<img src="rx56.cx11.q.L12.ips1000.ips.png">rx56.cx11</a>
+<hr />
+<h1 id="rx56.cx11.imax">rx56.cx11: max insert response time</h1>
+<img src="rx56.cx11.q.L12.ips1000.imax.png">rx56.cx11</a>
+<hr />
+<h1 id="rx56.cx11.qps">rx56.cx11: QPS</h1>
+<img src="rx56.cx11.q.L12.ips1000.qps.png">rx56.cx11</a>
+<hr />
+<h1 id="rx56.cx11.qmax">rx56.cx11: max query response time</h1>
+<img src="rx56.cx11.q.L12.ips1000.qmax.png">rx56.cx11</a>
+<hr />
+<h1 id="rx56.cx12.ips">rx56.cx12: IPS</h1>
+<img src="rx56.cx12.q.L12.ips1000.ips.png">rx56.cx12</a>
+<hr />
+<h1 id="rx56.cx12.imax">rx56.cx12: max insert response time</h1>
+<img src="rx56.cx12.q.L12.ips1000.imax.png">rx56.cx12</a>
+<hr />
+<h1 id="rx56.cx12.qps">rx56.cx12: QPS</h1>
+<img src="rx56.cx12.q.L12.ips1000.qps.png">rx56.cx12</a>
+<hr />
+<h1 id="rx56.cx12.qmax">rx56.cx12: max query response time</h1>
+<img src="rx56.cx12.q.L12.ips1000.qmax.png">rx56.cx12</a>
+</ul>
+</body>
+</html>
