@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>q.L6.ips400 per-second graphs</title>
+</head>
+<body>
+<p>
+These have results per 1-second interval for: insert rate (IPS), max insert reponse time, query rate (QPS) and max query response time.
+The results are from 1 client while the test may have N clients where N > 1.
+The test is run with a rate limit for the number of inserts/s. In some cases the DBMS is unable to sustain that rate. When a DBMS can sustain that rate IPS will be a horizontal line.
+</p>
+<h1 id=\"toc\">Contents</h1>
+<ul>
+<li>my8021.cx1: <a href="#my8021.cx1.ips">IPS</a>, <a href="#my8021.cx1.imax">max insert response time</a>, <a href="#my8021.cx1.qps">QPS</a> and <a href="#my8021.cx1.qmax">max query response time</a>
+<li>my8021.cx2a: <a href="#my8021.cx2a.ips">IPS</a>, <a href="#my8021.cx2a.imax">max insert response time</a>, <a href="#my8021.cx2a.qps">QPS</a> and <a href="#my8021.cx2a.qmax">max query response time</a>
+<li>my8021.cx2b: <a href="#my8021.cx2b.ips">IPS</a>, <a href="#my8021.cx2b.imax">max insert response time</a>, <a href="#my8021.cx2b.qps">QPS</a> and <a href="#my8021.cx2b.qmax">max query response time</a>
+<li>my8021.cx2c: <a href="#my8021.cx2c.ips">IPS</a>, <a href="#my8021.cx2c.imax">max insert response time</a>, <a href="#my8021.cx2c.qps">QPS</a> and <a href="#my8021.cx2c.qmax">max query response time</a>
+<li>my8021.cx6a: <a href="#my8021.cx6a.ips">IPS</a>, <a href="#my8021.cx6a.imax">max insert response time</a>, <a href="#my8021.cx6a.qps">QPS</a> and <a href="#my8021.cx6a.qmax">max query response time</a>
+<li>my8021.cx6b: <a href="#my8021.cx6b.ips">IPS</a>, <a href="#my8021.cx6b.imax">max insert response time</a>, <a href="#my8021.cx6b.qps">QPS</a> and <a href="#my8021.cx6b.qmax">max query response time</a>
+<li>my8021.cx6c: <a href="#my8021.cx6c.ips">IPS</a>, <a href="#my8021.cx6c.imax">max insert response time</a>, <a href="#my8021.cx6c.qps">QPS</a> and <a href="#my8021.cx6c.qmax">max query response time</a>
+<li>my8021.cx6d: <a href="#my8021.cx6d.ips">IPS</a>, <a href="#my8021.cx6d.imax">max insert response time</a>, <a href="#my8021.cx6d.qps">QPS</a> and <a href="#my8021.cx6d.qmax">max query response time</a>
+<li>my8021.cx8: <a href="#my8021.cx8.ips">IPS</a>, <a href="#my8021.cx8.imax">max insert response time</a>, <a href="#my8021.cx8.qps">QPS</a> and <a href="#my8021.cx8.qmax">max query response time</a>
+<li>my8021.cx10a: <a href="#my8021.cx10a.ips">IPS</a>, <a href="#my8021.cx10a.imax">max insert response time</a>, <a href="#my8021.cx10a.qps">QPS</a> and <a href="#my8021.cx10a.qmax">max query response time</a>
+<li>my8021.cx10b: <a href="#my8021.cx10b.ips">IPS</a>, <a href="#my8021.cx10b.imax">max insert response time</a>, <a href="#my8021.cx10b.qps">QPS</a> and <a href="#my8021.cx10b.qmax">max query response time</a>
+<li>my8021.cx11a: <a href="#my8021.cx11a.ips">IPS</a>, <a href="#my8021.cx11a.imax">max insert response time</a>, <a href="#my8021.cx11a.qps">QPS</a> and <a href="#my8021.cx11a.qmax">max query response time</a>
+<li>my8021.cx13: <a href="#my8021.cx13.ips">IPS</a>, <a href="#my8021.cx13.imax">max insert response time</a>, <a href="#my8021.cx13.qps">QPS</a> and <a href="#my8021.cx13.qmax">max query response time</a>
+<li>my8021.cx14: <a href="#my8021.cx14.ips">IPS</a>, <a href="#my8021.cx14.imax">max insert response time</a>, <a href="#my8021.cx14.qps">QPS</a> and <a href="#my8021.cx14.qmax">max query response time</a>
+<li>my8021.cx15a: <a href="#my8021.cx15a.ips">IPS</a>, <a href="#my8021.cx15a.imax">max insert response time</a>, <a href="#my8021.cx15a.qps">QPS</a> and <a href="#my8021.cx15a.qmax">max query response time</a>
+<li>my8021.cx16: <a href="#my8021.cx16.ips">IPS</a>, <a href="#my8021.cx16.imax">max insert response time</a>, <a href="#my8021.cx16.qps">QPS</a> and <a href="#my8021.cx16.qmax">max query response time</a>
+<li>my8021.cx18: <a href="#my8021.cx18.ips">IPS</a>, <a href="#my8021.cx18.imax">max insert response time</a>, <a href="#my8021.cx18.qps">QPS</a> and <a href="#my8021.cx18.qmax">max query response time</a>
+</ul>
+<hr />
+<h1 id="my8021.cx1.ips">my8021.cx1: IPS</h1>
+<img src="my8021.cx1.q.L6.ips400.ips.png">my8021.cx1</a>
+<hr />
+<h1 id="my8021.cx1.imax">my8021.cx1: max insert response time</h1>
+<img src="my8021.cx1.q.L6.ips400.imax.png">my8021.cx1</a>
+<hr />
+<h1 id="my8021.cx1.qps">my8021.cx1: QPS</h1>
+<img src="my8021.cx1.q.L6.ips400.qps.png">my8021.cx1</a>
+<hr />
+<h1 id="my8021.cx1.qmax">my8021.cx1: max query response time</h1>
+<img src="my8021.cx1.q.L6.ips400.qmax.png">my8021.cx1</a>
+<hr />
+<h1 id="my8021.cx2a.ips">my8021.cx2a: IPS</h1>
+<img src="my8021.cx2a.q.L6.ips400.ips.png">my8021.cx2a</a>
+<hr />
+<h1 id="my8021.cx2a.imax">my8021.cx2a: max insert response time</h1>
+<img src="my8021.cx2a.q.L6.ips400.imax.png">my8021.cx2a</a>
+<hr />
+<h1 id="my8021.cx2a.qps">my8021.cx2a: QPS</h1>
+<img src="my8021.cx2a.q.L6.ips400.qps.png">my8021.cx2a</a>
+<hr />
+<h1 id="my8021.cx2a.qmax">my8021.cx2a: max query response time</h1>
+<img src="my8021.cx2a.q.L6.ips400.qmax.png">my8021.cx2a</a>
+<hr />
+<h1 id="my8021.cx2b.ips">my8021.cx2b: IPS</h1>
+<img src="my8021.cx2b.q.L6.ips400.ips.png">my8021.cx2b</a>
+<hr />
+<h1 id="my8021.cx2b.imax">my8021.cx2b: max insert response time</h1>
+<img src="my8021.cx2b.q.L6.ips400.imax.png">my8021.cx2b</a>
+<hr />
+<h1 id="my8021.cx2b.qps">my8021.cx2b: QPS</h1>
+<img src="my8021.cx2b.q.L6.ips400.qps.png">my8021.cx2b</a>
+<hr />
+<h1 id="my8021.cx2b.qmax">my8021.cx2b: max query response time</h1>
+<img src="my8021.cx2b.q.L6.ips400.qmax.png">my8021.cx2b</a>
+<hr />
+<h1 id="my8021.cx2c.ips">my8021.cx2c: IPS</h1>
+<img src="my8021.cx2c.q.L6.ips400.ips.png">my8021.cx2c</a>
+<hr />
+<h1 id="my8021.cx2c.imax">my8021.cx2c: max insert response time</h1>
+<img src="my8021.cx2c.q.L6.ips400.imax.png">my8021.cx2c</a>
+<hr />
+<h1 id="my8021.cx2c.qps">my8021.cx2c: QPS</h1>
+<img src="my8021.cx2c.q.L6.ips400.qps.png">my8021.cx2c</a>
+<hr />
+<h1 id="my8021.cx2c.qmax">my8021.cx2c: max query response time</h1>
+<img src="my8021.cx2c.q.L6.ips400.qmax.png">my8021.cx2c</a>
+<hr />
+<h1 id="my8021.cx6a.ips">my8021.cx6a: IPS</h1>
+<img src="my8021.cx6a.q.L6.ips400.ips.png">my8021.cx6a</a>
+<hr />
+<h1 id="my8021.cx6a.imax">my8021.cx6a: max insert response time</h1>
+<img src="my8021.cx6a.q.L6.ips400.imax.png">my8021.cx6a</a>
+<hr />
+<h1 id="my8021.cx6a.qps">my8021.cx6a: QPS</h1>
+<img src="my8021.cx6a.q.L6.ips400.qps.png">my8021.cx6a</a>
+<hr />
+<h1 id="my8021.cx6a.qmax">my8021.cx6a: max query response time</h1>
+<img src="my8021.cx6a.q.L6.ips400.qmax.png">my8021.cx6a</a>
+<hr />
+<h1 id="my8021.cx6b.ips">my8021.cx6b: IPS</h1>
+<img src="my8021.cx6b.q.L6.ips400.ips.png">my8021.cx6b</a>
+<hr />
+<h1 id="my8021.cx6b.imax">my8021.cx6b: max insert response time</h1>
+<img src="my8021.cx6b.q.L6.ips400.imax.png">my8021.cx6b</a>
+<hr />
+<h1 id="my8021.cx6b.qps">my8021.cx6b: QPS</h1>
+<img src="my8021.cx6b.q.L6.ips400.qps.png">my8021.cx6b</a>
+<hr />
+<h1 id="my8021.cx6b.qmax">my8021.cx6b: max query response time</h1>
+<img src="my8021.cx6b.q.L6.ips400.qmax.png">my8021.cx6b</a>
+<hr />
+<h1 id="my8021.cx6c.ips">my8021.cx6c: IPS</h1>
+<img src="my8021.cx6c.q.L6.ips400.ips.png">my8021.cx6c</a>
+<hr />
+<h1 id="my8021.cx6c.imax">my8021.cx6c: max insert response time</h1>
+<img src="my8021.cx6c.q.L6.ips400.imax.png">my8021.cx6c</a>
+<hr />
+<h1 id="my8021.cx6c.qps">my8021.cx6c: QPS</h1>
+<img src="my8021.cx6c.q.L6.ips400.qps.png">my8021.cx6c</a>
+<hr />
+<h1 id="my8021.cx6c.qmax">my8021.cx6c: max query response time</h1>
+<img src="my8021.cx6c.q.L6.ips400.qmax.png">my8021.cx6c</a>
+<hr />
+<h1 id="my8021.cx6d.ips">my8021.cx6d: IPS</h1>
+<img src="my8021.cx6d.q.L6.ips400.ips.png">my8021.cx6d</a>
+<hr />
+<h1 id="my8021.cx6d.imax">my8021.cx6d: max insert response time</h1>
+<img src="my8021.cx6d.q.L6.ips400.imax.png">my8021.cx6d</a>
+<hr />
+<h1 id="my8021.cx6d.qps">my8021.cx6d: QPS</h1>
+<img src="my8021.cx6d.q.L6.ips400.qps.png">my8021.cx6d</a>
+<hr />
+<h1 id="my8021.cx6d.qmax">my8021.cx6d: max query response time</h1>
+<img src="my8021.cx6d.q.L6.ips400.qmax.png">my8021.cx6d</a>
+<hr />
+<h1 id="my8021.cx8.ips">my8021.cx8: IPS</h1>
+<img src="my8021.cx8.q.L6.ips400.ips.png">my8021.cx8</a>
+<hr />
+<h1 id="my8021.cx8.imax">my8021.cx8: max insert response time</h1>
+<img src="my8021.cx8.q.L6.ips400.imax.png">my8021.cx8</a>
+<hr />
+<h1 id="my8021.cx8.qps">my8021.cx8: QPS</h1>
+<img src="my8021.cx8.q.L6.ips400.qps.png">my8021.cx8</a>
+<hr />
+<h1 id="my8021.cx8.qmax">my8021.cx8: max query response time</h1>
+<img src="my8021.cx8.q.L6.ips400.qmax.png">my8021.cx8</a>
+<hr />
+<h1 id="my8021.cx10a.ips">my8021.cx10a: IPS</h1>
+<img src="my8021.cx10a.q.L6.ips400.ips.png">my8021.cx10a</a>
+<hr />
+<h1 id="my8021.cx10a.imax">my8021.cx10a: max insert response time</h1>
+<img src="my8021.cx10a.q.L6.ips400.imax.png">my8021.cx10a</a>
+<hr />
+<h1 id="my8021.cx10a.qps">my8021.cx10a: QPS</h1>
+<img src="my8021.cx10a.q.L6.ips400.qps.png">my8021.cx10a</a>
+<hr />
+<h1 id="my8021.cx10a.qmax">my8021.cx10a: max query response time</h1>
+<img src="my8021.cx10a.q.L6.ips400.qmax.png">my8021.cx10a</a>
+<hr />
+<h1 id="my8021.cx10b.ips">my8021.cx10b: IPS</h1>
+<img src="my8021.cx10b.q.L6.ips400.ips.png">my8021.cx10b</a>
+<hr />
+<h1 id="my8021.cx10b.imax">my8021.cx10b: max insert response time</h1>
+<img src="my8021.cx10b.q.L6.ips400.imax.png">my8021.cx10b</a>
+<hr />
+<h1 id="my8021.cx10b.qps">my8021.cx10b: QPS</h1>
+<img src="my8021.cx10b.q.L6.ips400.qps.png">my8021.cx10b</a>
+<hr />
+<h1 id="my8021.cx10b.qmax">my8021.cx10b: max query response time</h1>
+<img src="my8021.cx10b.q.L6.ips400.qmax.png">my8021.cx10b</a>
+<hr />
+<h1 id="my8021.cx11a.ips">my8021.cx11a: IPS</h1>
+<img src="my8021.cx11a.q.L6.ips400.ips.png">my8021.cx11a</a>
+<hr />
+<h1 id="my8021.cx11a.imax">my8021.cx11a: max insert response time</h1>
+<img src="my8021.cx11a.q.L6.ips400.imax.png">my8021.cx11a</a>
+<hr />
+<h1 id="my8021.cx11a.qps">my8021.cx11a: QPS</h1>
+<img src="my8021.cx11a.q.L6.ips400.qps.png">my8021.cx11a</a>
+<hr />
+<h1 id="my8021.cx11a.qmax">my8021.cx11a: max query response time</h1>
+<img src="my8021.cx11a.q.L6.ips400.qmax.png">my8021.cx11a</a>
+<hr />
+<h1 id="my8021.cx13.ips">my8021.cx13: IPS</h1>
+<img src="my8021.cx13.q.L6.ips400.ips.png">my8021.cx13</a>
+<hr />
+<h1 id="my8021.cx13.imax">my8021.cx13: max insert response time</h1>
+<img src="my8021.cx13.q.L6.ips400.imax.png">my8021.cx13</a>
+<hr />
+<h1 id="my8021.cx13.qps">my8021.cx13: QPS</h1>
+<img src="my8021.cx13.q.L6.ips400.qps.png">my8021.cx13</a>
+<hr />
+<h1 id="my8021.cx13.qmax">my8021.cx13: max query response time</h1>
+<img src="my8021.cx13.q.L6.ips400.qmax.png">my8021.cx13</a>
+<hr />
+<h1 id="my8021.cx14.ips">my8021.cx14: IPS</h1>
+<img src="my8021.cx14.q.L6.ips400.ips.png">my8021.cx14</a>
+<hr />
+<h1 id="my8021.cx14.imax">my8021.cx14: max insert response time</h1>
+<img src="my8021.cx14.q.L6.ips400.imax.png">my8021.cx14</a>
+<hr />
+<h1 id="my8021.cx14.qps">my8021.cx14: QPS</h1>
+<img src="my8021.cx14.q.L6.ips400.qps.png">my8021.cx14</a>
+<hr />
+<h1 id="my8021.cx14.qmax">my8021.cx14: max query response time</h1>
+<img src="my8021.cx14.q.L6.ips400.qmax.png">my8021.cx14</a>
+<hr />
+<h1 id="my8021.cx15a.ips">my8021.cx15a: IPS</h1>
+<img src="my8021.cx15a.q.L6.ips400.ips.png">my8021.cx15a</a>
+<hr />
+<h1 id="my8021.cx15a.imax">my8021.cx15a: max insert response time</h1>
+<img src="my8021.cx15a.q.L6.ips400.imax.png">my8021.cx15a</a>
+<hr />
+<h1 id="my8021.cx15a.qps">my8021.cx15a: QPS</h1>
+<img src="my8021.cx15a.q.L6.ips400.qps.png">my8021.cx15a</a>
+<hr />
+<h1 id="my8021.cx15a.qmax">my8021.cx15a: max query response time</h1>
+<img src="my8021.cx15a.q.L6.ips400.qmax.png">my8021.cx15a</a>
+<hr />
+<h1 id="my8021.cx16.ips">my8021.cx16: IPS</h1>
+<img src="my8021.cx16.q.L6.ips400.ips.png">my8021.cx16</a>
+<hr />
+<h1 id="my8021.cx16.imax">my8021.cx16: max insert response time</h1>
+<img src="my8021.cx16.q.L6.ips400.imax.png">my8021.cx16</a>
+<hr />
+<h1 id="my8021.cx16.qps">my8021.cx16: QPS</h1>
+<img src="my8021.cx16.q.L6.ips400.qps.png">my8021.cx16</a>
+<hr />
+<h1 id="my8021.cx16.qmax">my8021.cx16: max query response time</h1>
+<img src="my8021.cx16.q.L6.ips400.qmax.png">my8021.cx16</a>
+<hr />
+<h1 id="my8021.cx18.ips">my8021.cx18: IPS</h1>
+<img src="my8021.cx18.q.L6.ips400.ips.png">my8021.cx18</a>
+<hr />
+<h1 id="my8021.cx18.imax">my8021.cx18: max insert response time</h1>
+<img src="my8021.cx18.q.L6.ips400.imax.png">my8021.cx18</a>
+<hr />
+<h1 id="my8021.cx18.qps">my8021.cx18: QPS</h1>
+<img src="my8021.cx18.q.L6.ips400.qps.png">my8021.cx18</a>
+<hr />
+<h1 id="my8021.cx18.qmax">my8021.cx18: max query response time</h1>
+<img src="my8021.cx18.q.L6.ips400.qmax.png">my8021.cx18</a>
+</ul>
+</body>
+</html>
