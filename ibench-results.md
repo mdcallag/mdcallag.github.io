@@ -17,10 +17,16 @@ Below I frequently assume that writes == inserts and reads == short range querie
 
 This is valid for l.i0, l.x and l.i1. For **l.x** metrics are normalized by the number of indexed rows (documents) -- so IPS means indexed rows/second.
 
-Example output:
+Example output, old version
 ```
 ips     qps     rps     rkbps   wkbps   rpq     rkbpq   wkbpi   csps    cpups   cspq    cpupq   dbgb1   dbgb2   rss     maxop   p50     p99     tag
 60000   0       0       0       9041    0.000   0.000   0.151   5990    11.2    0.100   30      0.7     1.5     0.6     0.101   62533   50146   rx56.c7b40
+```
+
+Example output, current version
+```
+ips     qps     rps     rmbps   wps     wmbps   rpq     rkbpq   wpi     wkbpi   csps    cpups   cspq    cpupq   dbgb1   dbgb2   rss     maxop   p50     p99     tag
+103093  0       0       0.0     38.3    15.4    0.000   0.000   0.000   0.153   10495   45.5    0.102   18      1.0     2.0     1.1     0.103   101988  83911   rx56.cx6a
 ```
 
 Note:
@@ -30,14 +36,15 @@ Note:
 * The headers for HW efficiency metrics, CPU or IO /insert, in the Load step should have used **i** rather than **q** 
   (see rpq, rkbpq, etc). Perhaps it is too late to fix that -- :clown_face:. But HW efficiency metrics are valuable as
   they often explain why one DBMS is faster than another.
-* The example data is from an in-memory workload so rps, rkbps, rkbpq are zero because there were no storage reads.
+* The example data is from an in-memory workload so there were no storage reads.
 
 Legend:
 * ips - inserts/second
 * qps - queries/second. Will be zero for Load and non-zero for [Run](master#Run).
-* rps - storage reads /second per iostat
-* rkbps, wkbps - storage read KB and write KB /second per iostat
+* rps, wps - storage reads/second and writes/second from iostat
+* rmbps, wmbps - storage read MB and write MB /second from iostat. Previously this was KB rather than MB.
 * rpq - storage read /insert computed from rps/ips
+* wpi - storage write /insert computed from wps/ips
 * rkbpq, wkbpi - storage read and write KB /insert computed as rkbps/ips and wkbps/ips. Pretend this is rkbpi.
 * csps - context switch /second per vmstat
 * cpups - CPU utilization, the sum of the us and sy columns per vmstat
@@ -53,7 +60,8 @@ Legend:
 # Run
 
 The legend [from Load](master#load) applies here but I explain where it differs. The load step is insert-only, the run step
-is read-write.
+is read-write. For some of the metrics below, the denominator is qps rather than qps+ips. This approach isn't perfect but
+is useful for doing comparisons with rpq, rkbpq, cpupq between different DBMS.
 
 Legend:
 * ips - inserts/second. The run step uses a rate-limited writer and ips should be close to that rate limit. But in some
@@ -67,10 +75,16 @@ Legend:
 * maxop - max response time for a query in milliseconds
 * p50, p99 - the 50th and 99th percentile of the per-client, per-interval query rates.
 
-Example output:
+Example output, old version
 ```
 ips     qps     rps     rkbps   wkbps   rpq     rkbpq   wkbpi   csps    cpups   cspq    cpupq   dbgb1   dbgb2   rss     maxop   p50     p99     tag
 99      3156    0       0       25      0.000   0.000   0.249   12472   5.2     3.952   264     3.5     6.1     3.3     0.001   3165    3117    rx56.c7b40
+```
+
+Example output, new version
+```
+ips     qps     rps     rmbps   wps     wmbps   rpq     rkbpq   wpi     wkbpi   csps    cpups   cspq    cpupq   dbgb1   dbgb2   rss     maxop   p50     p99     tag
+200     5123    0       0.0     3.9     0.7     0.000   0.000   0.019   3.705   19698   26.3    3.845   205     4.8     8.5     4.7     0.010   5130    5018    rx56.cx6a
 ```
 
 # Response Time Histograms
