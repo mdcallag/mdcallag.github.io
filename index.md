@@ -7,9 +7,21 @@ Posts for 2020:
 * [Explaining explain to understand index usage in MySQL](posts_2020/20_08_11_explain_explain.md)
 
 Benchmark reports for 2021:
-* [Insert benchmark, 20M rows, 1 user, NUC server](reports/21_01_21_ibench_20m/all.html)
-* [Insert benchmark, 100M rows, 1 user, NUC server](reports/21_01_21_ibench_100m/all.html)
-* [Insert benchmark, 500M rows, 1 user, NUC server](reports/21_01_21_ibench_500m/all.html)
+* November
+** Insert benchmark, Intel NUC, 1 user, 20M rows (in memory)
+*** [InnoDB + MyRocks + Postgres](reports/21_11_09_report.x.20m.all.etldirs/all.html)
+*** [InnoDB](reports/21_11_09_report.x.20m.my.etldirs/all.html)
+*** [MyRocks](reports/21_11_09_report.x.20m.fbmy.etldirs/all.html)
+*** [Postgres](reports/21_11_09_report.x.20m.pg.etldirs/all.html)
+** Insert benchmark, Intel NUC, 1 user, 500M rows (IO-bound)
+*** [InnoDB + MyRocks + Postgres](reports/21_11_09_report.x.500m.all.etldirs/all.html)
+*** [InnoDB](reports/21_11_09_report.x.500m.my.etldirs/all.html)
+*** [MyRocks](reports/21_11_09_report.x.500m.fbmy.etldirs/all.html)
+*** [Postgres](reports/21_11_09_report.x.500m.pg.etldirs/all.html)
+* January, Intel NUC
+** [Insert benchmark, 20M rows, 1 user, NUC server](reports/21_01_21_ibench_20m/all.html)
+** [Insert benchmark, 100M rows, 1 user, NUC server](reports/21_01_21_ibench_100m/all.html)
+** [Insert benchmark, 500M rows, 1 user, NUC server](reports/21_01_21_ibench_500m/all.html)
 
 Benchmark reports for 2020:
 * Insert benchmark tests with a table per user

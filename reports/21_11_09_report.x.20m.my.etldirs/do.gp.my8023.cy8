@@ -1,0 +1,253 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:98292]
+set terminal dumb 200, 50
+set output 'my8023.cy8.l.i0.ips.txt'
+plot "20m.my8023.cy8/l.i0/gpi.ips" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.l.i0.ips.png'
+plot "20m.my8023.cy8/l.i0/gpi.ips" using 1:2 title "my8023.cy8", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:69573]
+set terminal dumb 200, 50
+set output 'my8023.cy8.l.i0.imax.txt'
+plot "20m.my8023.cy8/l.i0/gpi.imax" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.l.i0.imax.png'
+plot "20m.my8023.cy8/l.i0/gpi.imax" using 1:2 title "my8023.cy8", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:39334]
+set terminal dumb 200, 50
+set output 'my8023.cy8.l.i1.ips.txt'
+plot "20m.my8023.cy8/l.i1/gpi.ips" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.l.i1.ips.png'
+plot "20m.my8023.cy8/l.i1/gpi.ips" using 1:2 title "my8023.cy8", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:95718]
+set terminal dumb 200, 50
+set output 'my8023.cy8.l.i1.imax.txt'
+plot "20m.my8023.cy8/l.i1/gpi.imax" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.l.i1.imax.png'
+plot "20m.my8023.cy8/l.i1/gpi.imax" using 1:2 title "my8023.cy8", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L2.ips100"
+set yrange [0:120]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L2.ips100.ips.txt'
+plot "20m.my8023.cy8/q.L2.ips100/gpi.ips" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L2.ips100.ips.png'
+plot "20m.my8023.cy8/q.L2.ips100/gpi.ips" using 1:2 title "my8023.cy8", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L2.ips100"
+set yrange [0:31356]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L2.ips100.imax.txt'
+plot "20m.my8023.cy8/q.L2.ips100/gpi.imax" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L2.ips100.imax.png'
+plot "20m.my8023.cy8/q.L2.ips100/gpi.imax" using 1:2 title "my8023.cy8", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L2.ips100"
+set yrange [0:6770]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L2.ips100.qps.txt'
+plot "20m.my8023.cy8/q.L2.ips100/gpi.qps" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L2.ips100.qps.png'
+plot "20m.my8023.cy8/q.L2.ips100/gpi.qps" using 1:2 title "my8023.cy8", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L2.ips100"
+set yrange [0:28707]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L2.ips100.qmax.txt'
+plot "20m.my8023.cy8/q.L2.ips100/gpi.qmax" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L2.ips100.qmax.png'
+plot "20m.my8023.cy8/q.L2.ips100/gpi.qmax" using 1:2 title "my8023.cy8", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L4.ips200"
+set yrange [0:240]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L4.ips200.ips.txt'
+plot "20m.my8023.cy8/q.L4.ips200/gpi.ips" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L4.ips200.ips.png'
+plot "20m.my8023.cy8/q.L4.ips200/gpi.ips" using 1:2 title "my8023.cy8", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L4.ips200"
+set yrange [0:32533]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L4.ips200.imax.txt'
+plot "20m.my8023.cy8/q.L4.ips200/gpi.imax" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L4.ips200.imax.png'
+plot "20m.my8023.cy8/q.L4.ips200/gpi.imax" using 1:2 title "my8023.cy8", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L4.ips200"
+set yrange [0:6792]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L4.ips200.qps.txt'
+plot "20m.my8023.cy8/q.L4.ips200/gpi.qps" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L4.ips200.qps.png'
+plot "20m.my8023.cy8/q.L4.ips200/gpi.qps" using 1:2 title "my8023.cy8", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L4.ips200"
+set yrange [0:27837]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L4.ips200.qmax.txt'
+plot "20m.my8023.cy8/q.L4.ips200/gpi.qmax" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L4.ips200.qmax.png'
+plot "20m.my8023.cy8/q.L4.ips200/gpi.qmax" using 1:2 title "my8023.cy8", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L6.ips400"
+set yrange [0:480]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L6.ips400.ips.txt'
+plot "20m.my8023.cy8/q.L6.ips400/gpi.ips" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L6.ips400.ips.png'
+plot "20m.my8023.cy8/q.L6.ips400/gpi.ips" using 1:2 title "my8023.cy8", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L6.ips400"
+set yrange [0:33034]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L6.ips400.imax.txt'
+plot "20m.my8023.cy8/q.L6.ips400/gpi.imax" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L6.ips400.imax.png'
+plot "20m.my8023.cy8/q.L6.ips400/gpi.imax" using 1:2 title "my8023.cy8", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L6.ips400"
+set yrange [0:6712]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L6.ips400.qps.txt'
+plot "20m.my8023.cy8/q.L6.ips400/gpi.qps" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L6.ips400.qps.png'
+plot "20m.my8023.cy8/q.L6.ips400/gpi.qps" using 1:2 title "my8023.cy8", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L6.ips400"
+set yrange [0:30206]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L6.ips400.qmax.txt'
+plot "20m.my8023.cy8/q.L6.ips400/gpi.qmax" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L6.ips400.qmax.png'
+plot "20m.my8023.cy8/q.L6.ips400/gpi.qmax" using 1:2 title "my8023.cy8", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L8.ips600"
+set yrange [0:720]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L8.ips600.ips.txt'
+plot "20m.my8023.cy8/q.L8.ips600/gpi.ips" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L8.ips600.ips.png'
+plot "20m.my8023.cy8/q.L8.ips600/gpi.ips" using 1:2 title "my8023.cy8", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L8.ips600"
+set yrange [0:31453]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L8.ips600.imax.txt'
+plot "20m.my8023.cy8/q.L8.ips600/gpi.imax" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L8.ips600.imax.png'
+plot "20m.my8023.cy8/q.L8.ips600/gpi.imax" using 1:2 title "my8023.cy8", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L8.ips600"
+set yrange [0:6712]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L8.ips600.qps.txt'
+plot "20m.my8023.cy8/q.L8.ips600/gpi.qps" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L8.ips600.qps.png'
+plot "20m.my8023.cy8/q.L8.ips600/gpi.qps" using 1:2 title "my8023.cy8", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L8.ips600"
+set yrange [0:14913]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L8.ips600.qmax.txt'
+plot "20m.my8023.cy8/q.L8.ips600/gpi.qmax" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L8.ips600.qmax.png'
+plot "20m.my8023.cy8/q.L8.ips600/gpi.qmax" using 1:2 title "my8023.cy8", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L10.ips800"
+set yrange [0:960]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L10.ips800.ips.txt'
+plot "20m.my8023.cy8/q.L10.ips800/gpi.ips" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L10.ips800.ips.png'
+plot "20m.my8023.cy8/q.L10.ips800/gpi.ips" using 1:2 title "my8023.cy8", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L10.ips800"
+set yrange [0:31422]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L10.ips800.imax.txt'
+plot "20m.my8023.cy8/q.L10.ips800/gpi.imax" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L10.ips800.imax.png'
+plot "20m.my8023.cy8/q.L10.ips800/gpi.imax" using 1:2 title "my8023.cy8", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L10.ips800"
+set yrange [0:6655]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L10.ips800.qps.txt'
+plot "20m.my8023.cy8/q.L10.ips800/gpi.qps" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L10.ips800.qps.png'
+plot "20m.my8023.cy8/q.L10.ips800/gpi.qps" using 1:2 title "my8023.cy8", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L10.ips800"
+set yrange [0:17343]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L10.ips800.qmax.txt'
+plot "20m.my8023.cy8/q.L10.ips800/gpi.qmax" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L10.ips800.qmax.png'
+plot "20m.my8023.cy8/q.L10.ips800/gpi.qmax" using 1:2 title "my8023.cy8", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L12.ips1000"
+set yrange [0:1200]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L12.ips1000.ips.txt'
+plot "20m.my8023.cy8/q.L12.ips1000/gpi.ips" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L12.ips1000.ips.png'
+plot "20m.my8023.cy8/q.L12.ips1000/gpi.ips" using 1:2 title "my8023.cy8", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L12.ips1000"
+set yrange [0:31502]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L12.ips1000.imax.txt'
+plot "20m.my8023.cy8/q.L12.ips1000/gpi.imax" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L12.ips1000.imax.png'
+plot "20m.my8023.cy8/q.L12.ips1000/gpi.imax" using 1:2 title "my8023.cy8", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L12.ips1000"
+set yrange [0:6636]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L12.ips1000.qps.txt'
+plot "20m.my8023.cy8/q.L12.ips1000/gpi.qps" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L12.ips1000.qps.png'
+plot "20m.my8023.cy8/q.L12.ips1000/gpi.qps" using 1:2 title "my8023.cy8", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L12.ips1000"
+set yrange [0:28617]
+set terminal dumb 200, 50
+set output 'my8023.cy8.q.L12.ips1000.qmax.txt'
+plot "20m.my8023.cy8/q.L12.ips1000/gpi.qmax" using 1:2 title "my8023.cy8", 
+set terminal png
+set output 'my8023.cy8.q.L12.ips1000.qmax.png'
+plot "20m.my8023.cy8/q.L12.ips1000/gpi.qmax" using 1:2 title "my8023.cy8", 

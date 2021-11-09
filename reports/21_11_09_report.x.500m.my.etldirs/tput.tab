@@ -1,0 +1,19 @@
+<style type="text/css">
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.2</th><th>q200.2</th><th>q400.2</th><th>q600.2</th><th>q800.2</th><th>q1000.2</th></tr>
+<tr><td>500m.my5649.cy8</td> <td id="cmax">110278</td><td id="cmin">71392</td><td>5045</td><td id="cgray">765</td><td id="cgray">853</td><td id="cgray">882</td><td id="cgray">881</td><td id="cgray">890</td><td id="cgray">889</td></tr>
+<tr><td>500m.my5735.cy8</td> <td id="cmax">107782</td><td id="cmax">115979</td><td id="cmax">5698</td><td id="cgray">800</td><td id="cgray">881</td><td id="cgray">907</td><td id="cgray">920</td><td id="cgray">919</td><td id="cgray">911</td></tr>
+<tr><td>500m.my8020.cy8</td> <td id="cmin">75278</td><td id="cmax">112915</td><td id="cmin">3912</td><td id="cgray">727</td><td id="cgray">762</td><td id="cmin">760</td><td id="cmin">764</td><td id="cmin">741</td><td id="cmin">747</td></tr>
+<tr><td>500m.my8022.cy8</td> <td id="cmin">75700</td><td id="cmax">107827</td><td id="cmin">4310</td><td id="cgray">872</td><td id="cgray">926</td><td id="cgray">956</td><td id="cgray">968</td><td id="cgray">949</td><td id="cgray">946</td></tr>
+<tr><td>500m.my8023.cy8</td> <td id="cmin">76958</td><td id="cmax">107433</td><td>5482</td><td id="cgray">896</td><td id="cgray">937</td><td id="cgray">982</td><td id="cgray">967</td><td id="cgray">958</td><td id="cgray">963</td></tr>
+<tr><td>500m.my8026.cy8</td> <td id="cmin">75030</td><td id="cmax">109791</td><td id="cmax">5559</td><td id="cgray">891</td><td id="cgray">945</td><td id="cgray">963</td><td id="cgray">970</td><td id="cgray">979</td><td id="cgray">963</td></tr>
+<tr><td>500m.my8027.cy8</td> <td id="cmin">75290</td><td id="cmax">108529</td><td id="cmax">6042</td><td id="cgray">865</td><td id="cgray">935</td><td id="cgray">977</td><td id="cgray">973</td><td id="cgray">964</td><td id="cgray">952</td></tr>
+</table>
