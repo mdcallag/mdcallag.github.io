@@ -9,11 +9,11 @@ Posts for 2020:
 Benchmark reports for 2021:
 * November
   * Insert benchmark, Intel NUC, 1 user, 20M rows (in memory)
-    * [InnoDB](reports/21_11_30_report.x.20m.my.etldirs/all.html)
-    * [Postgres](reports/21_11_30_report.x.500m.pg.etldirs/all.html)
+    * [InnoDB in MySQL 5.6, 5.7 and 8.0](reports/21_11_30_report.x.20m.my.etldirs/all.html)
+    * [Postgres 12.4, 13.4 and 14.0](reports/21_11_30_report.x.500m.pg.etldirs/all.html)
   * Insert benchmark, Intel NUC, 1 user, 500M rows (IO-bound)
-    * [InnoDB](reports/21_11_30_report.x.500m.my.etldirs/all.html)
-    * [Postgres](reports/21_11_30_report.x.500m.pg.etldirs/all.html)
+    * [InnoDB in MySQL 5.6, 5.7 and 8.0](reports/21_11_30_report.x.500m.my.etldirs/all.html)
+    * [Postgres 12.4, 13.4 and 14.0](reports/21_11_30_report.x.500m.pg.etldirs/all.html)
 * January, Intel NUC
   * [Insert benchmark, 20M rows, 1 user, NUC server](reports/21_01_21_ibench_20m/all.html)
   * [Insert benchmark, 100M rows, 1 user, NUC server](reports/21_01_21_ibench_100m/all.html)
