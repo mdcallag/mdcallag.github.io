@@ -1,0 +1,145 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:132574]
+set terminal dumb 200, 50
+set output 'fbmy5635.cy9a.l.i0.ips.txt'
+plot "500m.fbmy5635.cy9a/l.i0/gpi.ips" using 1:2 title "fbmy5635.cy9a", 
+set terminal png
+set output 'fbmy5635.cy9a.l.i0.ips.png'
+plot "500m.fbmy5635.cy9a/l.i0/gpi.ips" using 1:2 title "fbmy5635.cy9a", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:219993]
+set terminal dumb 200, 50
+set output 'fbmy5635.cy9a.l.i0.imax.txt'
+plot "500m.fbmy5635.cy9a/l.i0/gpi.imax" using 1:2 title "fbmy5635.cy9a", 
+set terminal png
+set output 'fbmy5635.cy9a.l.i0.imax.png'
+plot "500m.fbmy5635.cy9a/l.i0/gpi.imax" using 1:2 title "fbmy5635.cy9a", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:58760]
+set terminal dumb 200, 50
+set output 'fbmy5635.cy9a.l.i1.ips.txt'
+plot "500m.fbmy5635.cy9a/l.i1/gpi.ips" using 1:2 title "fbmy5635.cy9a", 
+set terminal png
+set output 'fbmy5635.cy9a.l.i1.ips.png'
+plot "500m.fbmy5635.cy9a/l.i1/gpi.ips" using 1:2 title "fbmy5635.cy9a", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:82908]
+set terminal dumb 200, 50
+set output 'fbmy5635.cy9a.l.i1.imax.txt'
+plot "500m.fbmy5635.cy9a/l.i1/gpi.imax" using 1:2 title "fbmy5635.cy9a", 
+set terminal png
+set output 'fbmy5635.cy9a.l.i1.imax.png'
+plot "500m.fbmy5635.cy9a/l.i1/gpi.imax" using 1:2 title "fbmy5635.cy9a", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L1.ips100"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'fbmy5635.cy9a.q.L1.ips100.ips.txt'
+plot "500m.fbmy5635.cy9a/q.L1.ips100/gpi.ips" using 1:2 title "fbmy5635.cy9a", 
+set terminal png
+set output 'fbmy5635.cy9a.q.L1.ips100.ips.png'
+plot "500m.fbmy5635.cy9a/q.L1.ips100/gpi.ips" using 1:2 title "fbmy5635.cy9a", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L1.ips100"
+set yrange [0:5172]
+set terminal dumb 200, 50
+set output 'fbmy5635.cy9a.q.L1.ips100.imax.txt'
+plot "500m.fbmy5635.cy9a/q.L1.ips100/gpi.imax" using 1:2 title "fbmy5635.cy9a", 
+set terminal png
+set output 'fbmy5635.cy9a.q.L1.ips100.imax.png'
+plot "500m.fbmy5635.cy9a/q.L1.ips100/gpi.imax" using 1:2 title "fbmy5635.cy9a", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L1.ips100"
+set yrange [0:5833]
+set terminal dumb 200, 50
+set output 'fbmy5635.cy9a.q.L1.ips100.qps.txt'
+plot "500m.fbmy5635.cy9a/q.L1.ips100/gpi.qps" using 1:2 title "fbmy5635.cy9a", 
+set terminal png
+set output 'fbmy5635.cy9a.q.L1.ips100.qps.png'
+plot "500m.fbmy5635.cy9a/q.L1.ips100/gpi.qps" using 1:2 title "fbmy5635.cy9a", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L1.ips100"
+set yrange [0:18306]
+set terminal dumb 200, 50
+set output 'fbmy5635.cy9a.q.L1.ips100.qmax.txt'
+plot "500m.fbmy5635.cy9a/q.L1.ips100/gpi.qmax" using 1:2 title "fbmy5635.cy9a", 
+set terminal png
+set output 'fbmy5635.cy9a.q.L1.ips100.qmax.png'
+plot "500m.fbmy5635.cy9a/q.L1.ips100/gpi.qmax" using 1:2 title "fbmy5635.cy9a", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L2.ips500"
+set yrange [0:958]
+set terminal dumb 200, 50
+set output 'fbmy5635.cy9a.q.L2.ips500.ips.txt'
+plot "500m.fbmy5635.cy9a/q.L2.ips500/gpi.ips" using 1:2 title "fbmy5635.cy9a", 
+set terminal png
+set output 'fbmy5635.cy9a.q.L2.ips500.ips.png'
+plot "500m.fbmy5635.cy9a/q.L2.ips500/gpi.ips" using 1:2 title "fbmy5635.cy9a", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L2.ips500"
+set yrange [0:39914]
+set terminal dumb 200, 50
+set output 'fbmy5635.cy9a.q.L2.ips500.imax.txt'
+plot "500m.fbmy5635.cy9a/q.L2.ips500/gpi.imax" using 1:2 title "fbmy5635.cy9a", 
+set terminal png
+set output 'fbmy5635.cy9a.q.L2.ips500.imax.png'
+plot "500m.fbmy5635.cy9a/q.L2.ips500/gpi.imax" using 1:2 title "fbmy5635.cy9a", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L2.ips500"
+set yrange [0:5906]
+set terminal dumb 200, 50
+set output 'fbmy5635.cy9a.q.L2.ips500.qps.txt'
+plot "500m.fbmy5635.cy9a/q.L2.ips500/gpi.qps" using 1:2 title "fbmy5635.cy9a", 
+set terminal png
+set output 'fbmy5635.cy9a.q.L2.ips500.qps.png'
+plot "500m.fbmy5635.cy9a/q.L2.ips500/gpi.qps" using 1:2 title "fbmy5635.cy9a", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L2.ips500"
+set yrange [0:10705]
+set terminal dumb 200, 50
+set output 'fbmy5635.cy9a.q.L2.ips500.qmax.txt'
+plot "500m.fbmy5635.cy9a/q.L2.ips500/gpi.qmax" using 1:2 title "fbmy5635.cy9a", 
+set terminal png
+set output 'fbmy5635.cy9a.q.L2.ips500.qmax.png'
+plot "500m.fbmy5635.cy9a/q.L2.ips500/gpi.qmax" using 1:2 title "fbmy5635.cy9a", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L3.ips1000"
+set yrange [0:1558]
+set terminal dumb 200, 50
+set output 'fbmy5635.cy9a.q.L3.ips1000.ips.txt'
+plot "500m.fbmy5635.cy9a/q.L3.ips1000/gpi.ips" using 1:2 title "fbmy5635.cy9a", 
+set terminal png
+set output 'fbmy5635.cy9a.q.L3.ips1000.ips.png'
+plot "500m.fbmy5635.cy9a/q.L3.ips1000/gpi.ips" using 1:2 title "fbmy5635.cy9a", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L3.ips1000"
+set yrange [0:40246]
+set terminal dumb 200, 50
+set output 'fbmy5635.cy9a.q.L3.ips1000.imax.txt'
+plot "500m.fbmy5635.cy9a/q.L3.ips1000/gpi.imax" using 1:2 title "fbmy5635.cy9a", 
+set terminal png
+set output 'fbmy5635.cy9a.q.L3.ips1000.imax.png'
+plot "500m.fbmy5635.cy9a/q.L3.ips1000/gpi.imax" using 1:2 title "fbmy5635.cy9a", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L3.ips1000"
+set yrange [0:5811]
+set terminal dumb 200, 50
+set output 'fbmy5635.cy9a.q.L3.ips1000.qps.txt'
+plot "500m.fbmy5635.cy9a/q.L3.ips1000/gpi.qps" using 1:2 title "fbmy5635.cy9a", 
+set terminal png
+set output 'fbmy5635.cy9a.q.L3.ips1000.qps.png'
+plot "500m.fbmy5635.cy9a/q.L3.ips1000/gpi.qps" using 1:2 title "fbmy5635.cy9a", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L3.ips1000"
+set yrange [0:10766]
+set terminal dumb 200, 50
+set output 'fbmy5635.cy9a.q.L3.ips1000.qmax.txt'
+plot "500m.fbmy5635.cy9a/q.L3.ips1000/gpi.qmax" using 1:2 title "fbmy5635.cy9a", 
+set terminal png
+set output 'fbmy5635.cy9a.q.L3.ips1000.qmax.png'
+plot "500m.fbmy5635.cy9a/q.L3.ips1000/gpi.qmax" using 1:2 title "fbmy5635.cy9a", 
