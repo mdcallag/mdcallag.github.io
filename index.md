@@ -6,6 +6,11 @@ Pinned:
 Posts for 2020:
 * [Explaining explain to understand index usage in MySQL](posts_2020/20_08_11_explain_explain.md)
 
+Benchmark reports for 2022:
+* wal_compression in Postgres 15
+  * [Intel NUC, IO-bound](reports/22_05_26_pgwalcomp.500m.nuc.etldirs/all.html)
+  * Intel NUC, not IO-bound (pending)
+
 Benchmark reports for 2021:
 * November
   * Insert benchmark, Intel NUC, 1 user, 20M rows (in memory)
