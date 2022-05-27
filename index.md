@@ -9,7 +9,7 @@ Posts for 2020:
 Benchmark reports for 2022:
 * wal_compression in Postgres 15
   * [Intel NUC, IO-bound](reports/22_05_26_pgwalcomp.500m.nuc.etldirs/all.html)
-  * Intel NUC, not IO-bound (pending)
+  * [Intel NUC, not IO-bound](reports/22_05_26_pgwalcomp.20m.nuc.etldirs/all.html)
 
 Benchmark reports for 2021:
 * November

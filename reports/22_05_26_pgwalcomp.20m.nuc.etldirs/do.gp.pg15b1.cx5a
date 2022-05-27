@@ -1,0 +1,145 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:113314]
+set terminal dumb 200, 50
+set output 'pg15b1.cx5a.l.i0.ips.txt'
+plot "20m.pg15b1.cx5a/l.i0/gpi.ips" using 1:2 title "pg15b1.cx5a", 
+set terminal png
+set output 'pg15b1.cx5a.l.i0.ips.png'
+plot "20m.pg15b1.cx5a/l.i0/gpi.ips" using 1:2 title "pg15b1.cx5a", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:5209]
+set terminal dumb 200, 50
+set output 'pg15b1.cx5a.l.i0.imax.txt'
+plot "20m.pg15b1.cx5a/l.i0/gpi.imax" using 1:2 title "pg15b1.cx5a", 
+set terminal png
+set output 'pg15b1.cx5a.l.i0.imax.png'
+plot "20m.pg15b1.cx5a/l.i0/gpi.imax" using 1:2 title "pg15b1.cx5a", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:49206]
+set terminal dumb 200, 50
+set output 'pg15b1.cx5a.l.i1.ips.txt'
+plot "20m.pg15b1.cx5a/l.i1/gpi.ips" using 1:2 title "pg15b1.cx5a", 
+set terminal png
+set output 'pg15b1.cx5a.l.i1.ips.png'
+plot "20m.pg15b1.cx5a/l.i1/gpi.ips" using 1:2 title "pg15b1.cx5a", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:44601]
+set terminal dumb 200, 50
+set output 'pg15b1.cx5a.l.i1.imax.txt'
+plot "20m.pg15b1.cx5a/l.i1/gpi.imax" using 1:2 title "pg15b1.cx5a", 
+set terminal png
+set output 'pg15b1.cx5a.l.i1.imax.png'
+plot "20m.pg15b1.cx5a/l.i1/gpi.imax" using 1:2 title "pg15b1.cx5a", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L1.ips100"
+set yrange [0:120]
+set terminal dumb 200, 50
+set output 'pg15b1.cx5a.q.L1.ips100.ips.txt'
+plot "20m.pg15b1.cx5a/q.L1.ips100/gpi.ips" using 1:2 title "pg15b1.cx5a", 
+set terminal png
+set output 'pg15b1.cx5a.q.L1.ips100.ips.png'
+plot "20m.pg15b1.cx5a/q.L1.ips100/gpi.ips" using 1:2 title "pg15b1.cx5a", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L1.ips100"
+set yrange [0:51861]
+set terminal dumb 200, 50
+set output 'pg15b1.cx5a.q.L1.ips100.imax.txt'
+plot "20m.pg15b1.cx5a/q.L1.ips100/gpi.imax" using 1:2 title "pg15b1.cx5a", 
+set terminal png
+set output 'pg15b1.cx5a.q.L1.ips100.imax.png'
+plot "20m.pg15b1.cx5a/q.L1.ips100/gpi.imax" using 1:2 title "pg15b1.cx5a", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L1.ips100"
+set yrange [0:9168]
+set terminal dumb 200, 50
+set output 'pg15b1.cx5a.q.L1.ips100.qps.txt'
+plot "20m.pg15b1.cx5a/q.L1.ips100/gpi.qps" using 1:2 title "pg15b1.cx5a", 
+set terminal png
+set output 'pg15b1.cx5a.q.L1.ips100.qps.png'
+plot "20m.pg15b1.cx5a/q.L1.ips100/gpi.qps" using 1:2 title "pg15b1.cx5a", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L1.ips100"
+set yrange [0:8643]
+set terminal dumb 200, 50
+set output 'pg15b1.cx5a.q.L1.ips100.qmax.txt'
+plot "20m.pg15b1.cx5a/q.L1.ips100/gpi.qmax" using 1:2 title "pg15b1.cx5a", 
+set terminal png
+set output 'pg15b1.cx5a.q.L1.ips100.qmax.png'
+plot "20m.pg15b1.cx5a/q.L1.ips100/gpi.qmax" using 1:2 title "pg15b1.cx5a", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L2.ips500"
+set yrange [0:718]
+set terminal dumb 200, 50
+set output 'pg15b1.cx5a.q.L2.ips500.ips.txt'
+plot "20m.pg15b1.cx5a/q.L2.ips500/gpi.ips" using 1:2 title "pg15b1.cx5a", 
+set terminal png
+set output 'pg15b1.cx5a.q.L2.ips500.ips.png'
+plot "20m.pg15b1.cx5a/q.L2.ips500/gpi.ips" using 1:2 title "pg15b1.cx5a", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L2.ips500"
+set yrange [0:53126]
+set terminal dumb 200, 50
+set output 'pg15b1.cx5a.q.L2.ips500.imax.txt'
+plot "20m.pg15b1.cx5a/q.L2.ips500/gpi.imax" using 1:2 title "pg15b1.cx5a", 
+set terminal png
+set output 'pg15b1.cx5a.q.L2.ips500.imax.png'
+plot "20m.pg15b1.cx5a/q.L2.ips500/gpi.imax" using 1:2 title "pg15b1.cx5a", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L2.ips500"
+set yrange [0:9072]
+set terminal dumb 200, 50
+set output 'pg15b1.cx5a.q.L2.ips500.qps.txt'
+plot "20m.pg15b1.cx5a/q.L2.ips500/gpi.qps" using 1:2 title "pg15b1.cx5a", 
+set terminal png
+set output 'pg15b1.cx5a.q.L2.ips500.qps.png'
+plot "20m.pg15b1.cx5a/q.L2.ips500/gpi.qps" using 1:2 title "pg15b1.cx5a", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L2.ips500"
+set yrange [0:10428]
+set terminal dumb 200, 50
+set output 'pg15b1.cx5a.q.L2.ips500.qmax.txt'
+plot "20m.pg15b1.cx5a/q.L2.ips500/gpi.qmax" using 1:2 title "pg15b1.cx5a", 
+set terminal png
+set output 'pg15b1.cx5a.q.L2.ips500.qmax.png'
+plot "20m.pg15b1.cx5a/q.L2.ips500/gpi.qmax" using 1:2 title "pg15b1.cx5a", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L3.ips1000"
+set yrange [0:1378]
+set terminal dumb 200, 50
+set output 'pg15b1.cx5a.q.L3.ips1000.ips.txt'
+plot "20m.pg15b1.cx5a/q.L3.ips1000/gpi.ips" using 1:2 title "pg15b1.cx5a", 
+set terminal png
+set output 'pg15b1.cx5a.q.L3.ips1000.ips.png'
+plot "20m.pg15b1.cx5a/q.L3.ips1000/gpi.ips" using 1:2 title "pg15b1.cx5a", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L3.ips1000"
+set yrange [0:75548]
+set terminal dumb 200, 50
+set output 'pg15b1.cx5a.q.L3.ips1000.imax.txt'
+plot "20m.pg15b1.cx5a/q.L3.ips1000/gpi.imax" using 1:2 title "pg15b1.cx5a", 
+set terminal png
+set output 'pg15b1.cx5a.q.L3.ips1000.imax.png'
+plot "20m.pg15b1.cx5a/q.L3.ips1000/gpi.imax" using 1:2 title "pg15b1.cx5a", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L3.ips1000"
+set yrange [0:8899]
+set terminal dumb 200, 50
+set output 'pg15b1.cx5a.q.L3.ips1000.qps.txt'
+plot "20m.pg15b1.cx5a/q.L3.ips1000/gpi.qps" using 1:2 title "pg15b1.cx5a", 
+set terminal png
+set output 'pg15b1.cx5a.q.L3.ips1000.qps.png'
+plot "20m.pg15b1.cx5a/q.L3.ips1000/gpi.qps" using 1:2 title "pg15b1.cx5a", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L3.ips1000"
+set yrange [0:12301]
+set terminal dumb 200, 50
+set output 'pg15b1.cx5a.q.L3.ips1000.qmax.txt'
+plot "20m.pg15b1.cx5a/q.L3.ips1000/gpi.qmax" using 1:2 title "pg15b1.cx5a", 
+set terminal png
+set output 'pg15b1.cx5a.q.L3.ips1000.qmax.png'
+plot "20m.pg15b1.cx5a/q.L3.ips1000/gpi.qmax" using 1:2 title "pg15b1.cx5a", 
