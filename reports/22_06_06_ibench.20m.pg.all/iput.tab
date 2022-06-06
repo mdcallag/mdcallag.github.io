@@ -1,0 +1,17 @@
+<style type="text/css">
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>pg1211.cx5</td><td>100</td><td>499</td><td>999</td></tr>
+<tr><td>pg137.cx5</td><td>100</td><td>499</td><td>999</td></tr>
+<tr><td>pg143.cx5</td><td>100</td><td>499</td><td>999</td></tr>
+<tr><td>pg15b1.cx5</td><td>100</td><td>499</td><td>999</td></tr>
+<tr><td>target</td><td id=cgray>100</td><td id=cgray>500</td><td id=cgray>1000</td></tr>
+</table>
