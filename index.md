@@ -13,8 +13,10 @@ Benchmark reports for 2022:
 * Insert Benchmark for Postgres 12.11, 13.7, 14.3 and 15b1
   * [Intel NUC, IO-bound](reports/22_06_06_ibench.500m.pg.all/all.html)
   * [Intel NUC, IO-bound, uses prepared statements](reports/22_06_21_ibench.500m.pg.all/all.html)
+  * [Intel NUC, IO-bound, uses prepared statements, 15b1 with patch 1](reports/22_06_23_ibench.500m.pg15b1p1/all.html)
   * [Intel NUC, not IO-bound](reports/22_06_06_ibench.20m.pg.all/all.html)
   * [Intel NUC, not IO-bound, uses prepared statements](reports/22_06_21_ibench.20m.pg.all/all.html)
+  * [Intel NUC, not IO-bound, uses prepared statements, 15b1 with patch 1](reports/22_06_23_ibench.20m.pg15b1p1/all.html)
 * Insert Benchmark for Postgres 14.0, 14.1, 14.2, 14.3
   * [Intel NUC, IO-bound](reports/22_06_06_ibench.500m.pg.v14/all.html)
   * [Intel NUC, not IO-bound](reports/22_06_06_ibench.20m.pg.v14/all.html)
