@@ -98,7 +98,7 @@ Red backgrounds are not used when the minimum value is within 80&#37 of the max 
 </style>
 <table border="1" cellpadding="8" >
 <tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
-<tr><td>20m.pg1211.cx7</td> <td id="cmax">104167</td><td>304545</td><td id="cmax">38760</td><td id="cgray">11285</td><td id="cgray">11194</td><td id="cgray">11306</td><tr><td>20m.pg137.cx7</td> <td id="cmax">107527</td><td>304545</td><td id="cmax">39216</td><td id="cgray">11411</td><td id="cgray">11371</td><td id="cgray">11379</td><tr><td>20m.pg143.cx7</td> <td>100502</td><td>300000</td><td>37951</td><td id="cgray">11328</td><td id="cgray">11178</td><td id="cgray">11216</td><tr><td>20m.pg15b1.cx7</td> <td>92592</td><td id="cmax">309231</td><td>36832</td><td id="cgray">10955</td><td id="cgray">10970</td><td id="cgray">10839</td><tr><td>20m.pg15b1p1.cx7</td> <td id="cmax">105820</td><td id="cmax">309231</td><td id="cmax">38835</td><td id="cgray">11213</td><td id="cgray">11192</td><td id="cgray">11162</td></table>
+<tr><td>20m.pg1211.cx7</td> <td id="cmax">104167</td><td>304545</td><td id="cmax">38760</td><td id="cgray">11285</td><td id="cgray">11194</td><td id="cgray">11306</td><tr><td>20m.pg137.cx7</td> <td id="cmax">107527</td><td>304545</td><td id="cmax">39216</td><td id="cgray">11411</td><td id="cgray">11371</td><td id="cgray">11379</td><tr><td>20m.pg143.cx7</td> <td>100502</td><td>300000</td><td>37951</td><td id="cgray">11328</td><td id="cgray">11178</td><td id="cgray">11216</td><tr><td>20m.pg15b1.cx7</td> <td>92592</td><td id="cmax">309231</td><td>36832</td><td id="cgray">10955</td><td id="cgray">10970</td><td id="cgray">10839</td><tr><td>20m.pg15b1p1.cx7</td> <td id="cmax">105820</td><td id="cmax">309231</td><td id="cmax">38835</td><td id="cgray">11213</td><td id="cgray">11192</td><td id="cgray">11162</td><tr><td>20m.pg15b2.cx7</td> <td>92166</td><td id="cmax">309231</td><td>36765</td><td id="cgray">11288</td><td id="cgray">11128</td><td id="cgray">11165</td></table>
 <p>
 This lists the average rate of inserts/s for the tests that do inserts concurrent with queries.
 For such tests the query rate is listed in the table above.
@@ -121,7 +121,7 @@ Cells that are not at least 95&#37; of the target have a red background to indic
 <tr><td>pg143.cx7</td><td>100</td><td>500</td><td>999</td></tr>
 <tr><td>pg15b1.cx7</td><td>100</td><td>500</td><td>999</td></tr>
 <tr><td>pg15b1p1.cx7</td><td>100</td><td>500</td><td>999</td></tr>
-<tr><td>pg15b2.cx7</td><td id="cmin"></td><td id="cmin"></td><td id="cmin"></td></tr>
+<tr><td>pg15b2.cx7</td><td>100</td><td>499</td><td>999</td></tr>
 <tr><td>target</td><td id=cgray>100</td><td id=cgray>500</td><td id=cgray>1000</td></tr>
 </table>
 <hr />
@@ -165,6 +165,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg143.cx7</td><td></td><td id="c16">77.983</td><td id="c4">22.017</td><td id="c0">0.001</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.004</td></tr>
 <tr><td id="c0">pg15b1.cx7</td><td></td><td id="c0">0.785</td><td id="c20">99.215</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.003</td></tr>
 <tr><td id="c0">pg15b1p1.cx7</td><td></td><td id="c20">98.209</td><td id="c0">1.791</td><td id="c0">0.001</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.005</td></tr>
+<tr><td id="c0">pg15b2.cx7</td><td></td><td id="c0">0.301</td><td id="c20">99.698</td><td id="c0">0.001</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.004</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -176,6 +177,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 100502	0	0	0.0	66.1	43.3	0.000	0.000	0.001	0.441	12161	45.0	0.121	18	1.9	5.2	0.0	0.004	100691	79113	20m.pg143.cx7
 92592	0	0	0.0	60.7	39.5	0.000	0.000	0.001	0.437	11089	42.6	0.120	18	1.9	5.2	0.0	0.003	92799	73220	20m.pg15b1.cx7
 105820	0	0	0.0	67.6	44.2	0.000	0.000	0.001	0.428	12785	44.6	0.121	17	1.9	5.2	0.0	0.005	106184	84510	20m.pg15b1p1.cx7
+92166	0	0	0.0	60.1	39.3	0.000	0.000	0.001	0.437	11057	42.1	0.120	18	1.9	5.2	0.0	0.004	92400	73919	20m.pg15b2.cx7
 </pre>
 <hr />
 <h1 id="l.x.graph">l.x</h1>
@@ -193,6 +195,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 300000	0	0	0.0	58.9	62.3	0.000	0.000	0.000	0.212	1907	24.8	0.006	3	3.7	8.6	0.0	0.002	NA	NA	20m.pg143.cx7
 309231	0	0	0.0	69.6	73.4	0.000	0.000	0.000	0.243	2014	24.8	0.007	3	3.7	8.6	0.0	0.002	NA	NA	20m.pg15b1.cx7
 309231	0	0	0.0	75.2	78.7	0.000	0.000	0.000	0.261	2038	24.6	0.007	3	3.7	8.6	0.0	0.002	NA	NA	20m.pg15b1p1.cx7
+309231	0	0	0.0	74.1	79.4	0.000	0.000	0.000	0.263	2060	24.4	0.007	3	3.7	8.6	0.0	0.002	NA	NA	20m.pg15b2.cx7
 </pre>
 <hr />
 <h1 id="l.i1.graph">l.i1</h1>
@@ -235,6 +238,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg143.cx7</td><td></td><td></td><td id="c20">99.869</td><td id="c0">0.110</td><td id="c0">0.020</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td id="cminr">0.269</td></tr>
 <tr><td id="c0">pg15b1.cx7</td><td></td><td></td><td id="c20">99.883</td><td id="c0">0.094</td><td id="c0">0.022</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td id="cminr">0.259</td></tr>
 <tr><td id="c0">pg15b1p1.cx7</td><td></td><td></td><td id="c20">99.886</td><td id="c0">0.090</td><td id="c0">0.023</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td>0.423</td></tr>
+<tr><td id="c0">pg15b2.cx7</td><td></td><td></td><td id="c20">99.892</td><td id="c0">0.088</td><td id="c0">0.019</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td>0.394</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -246,6 +250,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 37951	0	0	0.0	154.8	64.0	0.000	0.000	0.004	1.726	9554	36.1	0.252	38	8.2	20.8	0.0	0.269	39420	16082	20m.pg143.cx7
 36832	0	0	0.0	169.7	63.7	0.000	0.000	0.005	1.771	9326	36.1	0.253	39	8.2	21.2	0.0	0.259	38058	16130	20m.pg15b1.cx7
 38835	0	0	0.0	150.2	63.3	0.000	0.000	0.004	1.668	9812	36.5	0.253	38	8.2	20.4	0.0	0.423	40257	11138	20m.pg15b1p1.cx7
+36765	0	0	0.0	172.0	63.9	0.000	0.000	0.005	1.779	9352	35.9	0.254	39	8.2	21.2	0.0	0.394	38108	14984	20m.pg15b2.cx7
 </pre>
 <hr />
 <h1 id="q100.1.graph">q100.1</h1>
@@ -286,6 +291,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg143.cx7</td><td id="c20">99.996</td><td id="c0">0.003</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.007</td></tr>
 <tr><td id="c0">pg15b1.cx7</td><td id="c20">99.997</td><td id="c0">0.002</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.004</td></tr>
 <tr><td id="c0">pg15b1p1.cx7</td><td id="c20">99.997</td><td id="c0">0.002</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.004</td></tr>
+<tr><td id="c0">pg15b2.cx7</td><td id="c20">99.996</td><td id="c0">0.003</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.005</td></tr>
 </table>
 <p>Insert response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -321,6 +327,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg143.cx7</td><td></td><td></td><td id="c20">99.979</td><td id="c0">0.021</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.005</td></tr>
 <tr><td id="c0">pg15b1.cx7</td><td></td><td></td><td id="c20">99.958</td><td id="c0">0.042</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.006</td></tr>
 <tr><td id="c0">pg15b1p1.cx7</td><td></td><td></td><td id="c20">99.979</td><td id="c0">0.021</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.005</td></tr>
+<tr><td id="c0">pg15b2.cx7</td><td></td><td></td><td id="c20">99.979</td><td id="c0">0.021</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.005</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -332,6 +339,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 100	11328	0	0.0	196.7	4.4	0.000	0.000	1.969	44.644	43479	26.7	3.838	94	8.3	10.8	0.0	0.007	11331	11204	20m.pg143.cx7
 100	10955	0	0.0	195.5	4.3	0.000	0.000	1.956	44.560	42026	26.5	3.836	97	8.3	10.8	0.0	0.004	10952	10840	20m.pg15b1.cx7
 100	11213	0	0.0	198.8	4.4	0.000	0.000	1.990	44.617	43010	26.6	3.836	95	8.3	10.8	0.0	0.004	11220	11092	20m.pg15b1p1.cx7
+100	11288	0	0.0	195.5	4.3	0.000	0.000	1.959	44.602	43307	26.6	3.836	94	8.3	10.8	0.0	0.005	11299	11172	20m.pg15b2.cx7
 </pre>
 <hr />
 <h1 id="q500.1.graph">q500.1</h1>
@@ -372,6 +380,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg143.cx7</td><td id="c20">99.979</td><td id="c0">0.015</td><td id="c0">0.006</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.005</td></tr>
 <tr><td id="c0">pg15b1.cx7</td><td id="c20">99.980</td><td id="c0">0.014</td><td id="c0">0.006</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.005</td></tr>
 <tr><td id="c0">pg15b1p1.cx7</td><td id="c20">99.981</td><td id="c0">0.014</td><td id="c0">0.005</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.005</td></tr>
+<tr><td id="c0">pg15b2.cx7</td><td id="c20">99.980</td><td id="c0">0.014</td><td id="c0">0.006</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.005</td></tr>
 </table>
 <p>Insert response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -407,6 +416,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg143.cx7</td><td></td><td></td><td id="c20">99.994</td><td id="c0">0.006</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.006</td></tr>
 <tr><td id="c0">pg15b1.cx7</td><td></td><td></td><td id="c20">99.979</td><td id="c0">0.021</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.010</td></tr>
 <tr><td id="c0">pg15b1p1.cx7</td><td></td><td></td><td id="c20">99.983</td><td id="c0">0.017</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.009</td></tr>
+<tr><td id="c0">pg15b2.cx7</td><td></td><td></td><td id="c20">99.971</td><td id="c0">0.028</td><td id="c0">0.001</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.019</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -418,6 +428,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 500	11178	0	0.0	376.7	12.4	0.000	0.000	0.754	25.402	43026	27.2	3.849	97	9.7	13.3	0.0	0.005	11176	11060	20m.pg143.cx7
 500	10970	0	0.0	375.6	12.3	0.000	0.000	0.752	25.311	42203	27.0	3.847	98	9.7	13.3	0.0	0.005	10968	10844	20m.pg15b1.cx7
 500	11192	0	0.0	375.7	12.4	0.000	0.000	0.752	25.387	43045	27.0	3.846	96	9.7	13.3	0.0	0.005	11189	11060	20m.pg15b1p1.cx7
+499	11128	0	0.0	375.8	12.3	0.000	0.000	0.752	25.320	42814	27.0	3.847	97	9.7	13.3	0.0	0.005	11127	10996	20m.pg15b2.cx7
 </pre>
 <hr />
 <h1 id="q1000.1.graph">q1000.1</h1>
@@ -458,6 +469,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg143.cx7</td><td id="c20">99.952</td><td id="c0">0.038</td><td id="c0">0.010</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.006</td></tr>
 <tr><td id="c0">pg15b1.cx7</td><td id="c20">99.952</td><td id="c0">0.038</td><td id="c0">0.010</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.009</td></tr>
 <tr><td id="c0">pg15b1p1.cx7</td><td id="c20">99.954</td><td id="c0">0.036</td><td id="c0">0.010</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.006</td></tr>
+<tr><td id="c0">pg15b2.cx7</td><td id="c20">99.953</td><td id="c0">0.037</td><td id="c0">0.010</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.006</td></tr>
 </table>
 <p>Insert response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -493,6 +505,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg143.cx7</td><td></td><td></td><td id="c20">98.364</td><td id="c0">1.622</td><td id="c0">0.015</td><td></td><td></td><td></td><td></td><td></td><td>0.035</td></tr>
 <tr><td id="c0">pg15b1.cx7</td><td></td><td></td><td id="c20">98.267</td><td id="c0">1.718</td><td id="c0">0.015</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.036</td></tr>
 <tr><td id="c0">pg15b1p1.cx7</td><td></td><td></td><td id="c20">98.367</td><td id="c0">1.624</td><td id="c0">0.009</td><td></td><td></td><td></td><td></td><td></td><td>0.035</td></tr>
+<tr><td id="c0">pg15b2.cx7</td><td></td><td></td><td id="c20">98.316</td><td id="c0">1.670</td><td id="c0">0.014</td><td></td><td></td><td></td><td></td><td></td><td>0.035</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -504,6 +517,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 999	11216	6	0.1	512.3	17.5	0.001	0.005	0.513	17.933	43293	27.6	3.860	98	12.0	16.7	0.0	0.006	11220	11060	20m.pg143.cx7
 999	10839	8	0.1	510.6	17.5	0.001	0.006	0.511	17.902	41835	27.6	3.860	102	12.0	16.7	0.0	0.009	10837	10708	20m.pg15b1.cx7
 999	11162	6	0.1	512.0	17.5	0.001	0.005	0.512	17.936	43056	27.5	3.857	99	12.0	16.7	0.0	0.006	11164	11016	20m.pg15b1p1.cx7
+999	11165	8	0.1	511.1	17.5	0.001	0.006	0.512	17.906	43082	27.6	3.859	99	12.0	16.7	0.0	0.006	11172	11012	20m.pg15b2.cx7
 </pre>
 <hr />
 <h1 id="l.i0.metrics">l.i0</h1>
@@ -518,6 +532,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 100502	0	0	0.0	66.1	43.3	0.000	0.000	0.001	0.441	12161	45.0	0.121	18	1.9	5.2	0.0	0.004	100691	79113	20m.pg143.cx7
 92592	0	0	0.0	60.7	39.5	0.000	0.000	0.001	0.437	11089	42.6	0.120	18	1.9	5.2	0.0	0.003	92799	73220	20m.pg15b1.cx7
 105820	0	0	0.0	67.6	44.2	0.000	0.000	0.001	0.428	12785	44.6	0.121	17	1.9	5.2	0.0	0.005	106184	84510	20m.pg15b1p1.cx7
+92166	0	0	0.0	60.1	39.3	0.000	0.000	0.001	0.437	11057	42.1	0.120	18	1.9	5.2	0.0	0.004	92400	73919	20m.pg15b2.cx7
 </pre>
 <hr />
 <h1 id="l.x.metrics">l.x</h1>
@@ -532,6 +547,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 300000	0	0	0.0	58.9	62.3	0.000	0.000	0.000	0.212	1907	24.8	0.006	3	3.7	8.6	0.0	0.002	NA	NA	20m.pg143.cx7
 309231	0	0	0.0	69.6	73.4	0.000	0.000	0.000	0.243	2014	24.8	0.007	3	3.7	8.6	0.0	0.002	NA	NA	20m.pg15b1.cx7
 309231	0	0	0.0	75.2	78.7	0.000	0.000	0.000	0.261	2038	24.6	0.007	3	3.7	8.6	0.0	0.002	NA	NA	20m.pg15b1p1.cx7
+309231	0	0	0.0	74.1	79.4	0.000	0.000	0.000	0.263	2060	24.4	0.007	3	3.7	8.6	0.0	0.002	NA	NA	20m.pg15b2.cx7
 </pre>
 <hr />
 <h1 id="l.i1.metrics">l.i1</h1>
@@ -546,6 +562,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 37951	0	0	0.0	154.8	64.0	0.000	0.000	0.004	1.726	9554	36.1	0.252	38	8.2	20.8	0.0	0.269	39420	16082	20m.pg143.cx7
 36832	0	0	0.0	169.7	63.7	0.000	0.000	0.005	1.771	9326	36.1	0.253	39	8.2	21.2	0.0	0.259	38058	16130	20m.pg15b1.cx7
 38835	0	0	0.0	150.2	63.3	0.000	0.000	0.004	1.668	9812	36.5	0.253	38	8.2	20.4	0.0	0.423	40257	11138	20m.pg15b1p1.cx7
+36765	0	0	0.0	172.0	63.9	0.000	0.000	0.005	1.779	9352	35.9	0.254	39	8.2	21.2	0.0	0.394	38108	14984	20m.pg15b2.cx7
 </pre>
 <hr />
 <h1 id="q100.1.metrics">q100.1</h1>
@@ -560,6 +577,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 100	11328	0	0.0	196.7	4.4	0.000	0.000	1.969	44.644	43479	26.7	3.838	94	8.3	10.8	0.0	0.007	11331	11204	20m.pg143.cx7
 100	10955	0	0.0	195.5	4.3	0.000	0.000	1.956	44.560	42026	26.5	3.836	97	8.3	10.8	0.0	0.004	10952	10840	20m.pg15b1.cx7
 100	11213	0	0.0	198.8	4.4	0.000	0.000	1.990	44.617	43010	26.6	3.836	95	8.3	10.8	0.0	0.004	11220	11092	20m.pg15b1p1.cx7
+100	11288	0	0.0	195.5	4.3	0.000	0.000	1.959	44.602	43307	26.6	3.836	94	8.3	10.8	0.0	0.005	11299	11172	20m.pg15b2.cx7
 </pre>
 <hr />
 <h1 id="q500.1.metrics">q500.1</h1>
@@ -574,6 +592,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 500	11178	0	0.0	376.7	12.4	0.000	0.000	0.754	25.402	43026	27.2	3.849	97	9.7	13.3	0.0	0.005	11176	11060	20m.pg143.cx7
 500	10970	0	0.0	375.6	12.3	0.000	0.000	0.752	25.311	42203	27.0	3.847	98	9.7	13.3	0.0	0.005	10968	10844	20m.pg15b1.cx7
 500	11192	0	0.0	375.7	12.4	0.000	0.000	0.752	25.387	43045	27.0	3.846	96	9.7	13.3	0.0	0.005	11189	11060	20m.pg15b1p1.cx7
+499	11128	0	0.0	375.8	12.3	0.000	0.000	0.752	25.320	42814	27.0	3.847	97	9.7	13.3	0.0	0.005	11127	10996	20m.pg15b2.cx7
 </pre>
 <hr />
 <h1 id="q1000.1.metrics">q1000.1</h1>
@@ -588,6 +607,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 999	11216	6	0.1	512.3	17.5	0.001	0.005	0.513	17.933	43293	27.6	3.860	98	12.0	16.7	0.0	0.006	11220	11060	20m.pg143.cx7
 999	10839	8	0.1	510.6	17.5	0.001	0.006	0.511	17.902	41835	27.6	3.860	102	12.0	16.7	0.0	0.009	10837	10708	20m.pg15b1.cx7
 999	11162	6	0.1	512.0	17.5	0.001	0.005	0.512	17.936	43056	27.5	3.857	99	12.0	16.7	0.0	0.006	11164	11016	20m.pg15b1p1.cx7
+999	11165	8	0.1	511.1	17.5	0.001	0.006	0.512	17.906	43082	27.6	3.859	99	12.0	16.7	0.0	0.006	11172	11012	20m.pg15b2.cx7
 </pre>
 <hr />
 <h1 id="l.i0.rt">l.i0</h1>
@@ -606,6 +626,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	77.983	22.017	0.001	0.000	0.000	0.000	0.000	0.000	0.000	0.004	pg143.cx7
 0.000	0.785	99.215	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.003	pg15b1.cx7
 0.000	98.209	1.791	0.001	0.000	0.000	0.000	0.000	0.000	0.000	0.005	pg15b1p1.cx7
+0.000	0.301	99.698	0.001	0.000	0.000	0.000	0.000	0.000	0.000	0.004	pg15b2.cx7
 </pre>
 <hr />
 <h1 id="l.x.rt">l.x</h1>
@@ -634,6 +655,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	0.000	99.869	0.110	0.020	0.001	nonzero	0.000	0.000	0.000	0.269	pg143.cx7
 0.000	0.000	99.883	0.094	0.022	nonzero	nonzero	0.000	0.000	0.000	0.259	pg15b1.cx7
 0.000	0.000	99.886	0.090	0.023	0.001	nonzero	0.000	0.000	0.000	0.423	pg15b1p1.cx7
+0.000	0.000	99.892	0.088	0.019	0.001	nonzero	0.000	0.000	0.000	0.394	pg15b2.cx7
 </pre>
 <hr />
 <h1 id="q100.1.rt">q100.1</h1>
@@ -652,6 +674,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 99.996	0.003	0.001	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.007	pg143.cx7
 99.997	0.002	0.001	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.004	pg15b1.cx7
 99.997	0.002	0.001	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.004	pg15b1p1.cx7
+99.996	0.003	0.001	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.005	pg15b2.cx7
 </pre>
 <p>Insert response time histogram</p>
 <pre>
@@ -661,6 +684,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	0.000	99.979	0.021	0.000	0.000	0.000	0.000	0.000	0.000	0.005	pg143.cx7
 0.000	0.000	99.958	0.042	0.000	0.000	0.000	0.000	0.000	0.000	0.006	pg15b1.cx7
 0.000	0.000	99.979	0.021	0.000	0.000	0.000	0.000	0.000	0.000	0.005	pg15b1p1.cx7
+0.000	0.000	99.979	0.021	0.000	0.000	0.000	0.000	0.000	0.000	0.005	pg15b2.cx7
 </pre>
 <hr />
 <h1 id="q500.1.rt">q500.1</h1>
@@ -679,6 +703,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 99.979	0.015	0.006	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.005	pg143.cx7
 99.980	0.014	0.006	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.005	pg15b1.cx7
 99.981	0.014	0.005	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.005	pg15b1p1.cx7
+99.980	0.014	0.006	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.005	pg15b2.cx7
 </pre>
 <p>Insert response time histogram</p>
 <pre>
@@ -688,6 +713,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	0.000	99.994	0.006	0.000	0.000	0.000	0.000	0.000	0.000	0.006	pg143.cx7
 0.000	0.000	99.979	0.021	0.000	0.000	0.000	0.000	0.000	0.000	0.010	pg15b1.cx7
 0.000	0.000	99.983	0.017	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg15b1p1.cx7
+0.000	0.000	99.971	0.028	0.001	0.000	0.000	0.000	0.000	0.000	0.019	pg15b2.cx7
 </pre>
 <hr />
 <h1 id="q1000.1.rt">q1000.1</h1>
@@ -706,6 +732,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 99.952	0.038	0.010	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.006	pg143.cx7
 99.952	0.038	0.010	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg15b1.cx7
 99.954	0.036	0.010	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.006	pg15b1p1.cx7
+99.953	0.037	0.010	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.006	pg15b2.cx7
 </pre>
 <p>Insert response time histogram</p>
 <pre>
@@ -715,6 +742,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	0.000	98.364	1.622	0.015	0.000	0.000	0.000	0.000	0.000	0.035	pg143.cx7
 0.000	0.000	98.267	1.718	0.015	0.000	0.000	0.000	0.000	0.000	0.036	pg15b1.cx7
 0.000	0.000	98.367	1.624	0.009	0.000	0.000	0.000	0.000	0.000	0.035	pg15b1p1.cx7
+0.000	0.000	98.316	1.670	0.014	0.000	0.000	0.000	0.000	0.000	0.035	pg15b2.cx7
 </pre>
 </body>
 </html>
