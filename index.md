@@ -10,7 +10,7 @@ Benchmark reports for 2022:
 * Insert Benchmark to test wal_compression in Postgres 15
   * [Intel NUC, IO-bound](reports/22_05_26_pgwalcomp.500m.nuc.etldirs/all.html)
   * [Intel NUC, not IO-bound](reports/22_05_26_pgwalcomp.20m.nuc.etldirs/all.html)
-* Insert Benchmark for Postgres 12.11, 13.7, 14.3 and 15b1
+* Insert Benchmark for Postgres 12.11, 13.7, 14.3 and 15beta
   * [Intel NUC, IO-bound](reports/22_06_06_ibench.500m.pg.all/all.html)
   * [Intel NUC, IO-bound, uses prepared statements](reports/22_06_21_ibench.500m.pg.all/all.html)
   * [Intel NUC, IO-bound, uses prepared statements, 15b1 with patch 1](reports/22_06_23_ibench.500m.pg15b1p1/all.html)
