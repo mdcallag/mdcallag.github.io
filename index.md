@@ -6,13 +6,6 @@ Pinned:
 Posts for 2020:
 * [Explaining explain to understand index usage in MySQL](posts_2020/20_08_11_explain_explain.md)
 
-drwxr-xr-x 2 mcallaghan mcallaghan  4096 Nov 29 13:12 22_11_29_ibench.20m.pg
-drwxr-xr-x 2 mcallaghan mcallaghan  4096 Nov 29 13:12 22_11_29_ibench.500m.pg
-drwxrwxr-x 2 mcallaghan mcallaghan  4096 Nov 29 13:12 22_11_29_ibench.500m.rx
-drwxrwxr-x 2 mcallaghan mcallaghan  4096 Nov 29 13:12 22_11_29_ibench.20m.rx
-drwxrwxr-x 2 mcallaghan mcallaghan  4096 Nov 29 13:12 22_11_29_ibench.20m.in
-drwxrwxr-x 2 mcallaghan mcallaghan  4096 Nov 29 13:12 22_11_29_ibench.500m.in
-
 Benchmark reports for 2022:
 * Insert Benchmark
   * [Intel NUC, not IO-bound, Postgres](reports/22_11_29_ibench.20m.pg)
