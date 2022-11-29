@@ -6,7 +6,21 @@ Pinned:
 Posts for 2020:
 * [Explaining explain to understand index usage in MySQL](posts_2020/20_08_11_explain_explain.md)
 
+drwxr-xr-x 2 mcallaghan mcallaghan  4096 Nov 29 13:12 22_11_29_ibench.20m.pg
+drwxr-xr-x 2 mcallaghan mcallaghan  4096 Nov 29 13:12 22_11_29_ibench.500m.pg
+drwxrwxr-x 2 mcallaghan mcallaghan  4096 Nov 29 13:12 22_11_29_ibench.500m.rx
+drwxrwxr-x 2 mcallaghan mcallaghan  4096 Nov 29 13:12 22_11_29_ibench.20m.rx
+drwxrwxr-x 2 mcallaghan mcallaghan  4096 Nov 29 13:12 22_11_29_ibench.20m.in
+drwxrwxr-x 2 mcallaghan mcallaghan  4096 Nov 29 13:12 22_11_29_ibench.500m.in
+
 Benchmark reports for 2022:
+* Insert Benchmark
+  * [Intel NUC, not IO-bound, Postgres](reports/22_11_29_ibench.20m.pg)
+  * [Intel NUC, IO-bound, Postgres](reports/22_11_29_ibench.500m.pg)
+  * [Intel NUC, not IO-bound, InnoDB](reports/22_11_29_ibench.20m.in)
+  * [Intel NUC, IO-bound, InnoDB](reports/22_11_29_ibench.500m.in)
+  * [Intel NUC, not IO-bound, MyRocks](reports/22_11_29_ibench.20m.rx)
+  * [Intel NUC, IO-bound, MyRocks](reports/22_11_29_ibench.500m.rx)
 * Insert Benchmark to test wal_compression in Postgres 15
   * [Intel NUC, IO-bound](reports/22_05_26_pgwalcomp.500m.nuc.etldirs/all.html)
   * [Intel NUC, not IO-bound](reports/22_05_26_pgwalcomp.20m.nuc.etldirs/all.html)
