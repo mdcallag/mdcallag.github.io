@@ -1,4 +1,0 @@
-256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
-99.360	0.636	0.003	nonzero	nonzero	0.000	0.000	0.000	0.000	0.000	0.023	my8031.cy8_128gram_64kiops
-97.987	2.011	0.001	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.015	fbmy8028.cy9c_128gram_64kiops
-99.989	0.007	0.003	nonzero	nonzero	0.000	0.000	0.000	0.000	0.000	0.019	pg151.cx7_128gram_64kiops

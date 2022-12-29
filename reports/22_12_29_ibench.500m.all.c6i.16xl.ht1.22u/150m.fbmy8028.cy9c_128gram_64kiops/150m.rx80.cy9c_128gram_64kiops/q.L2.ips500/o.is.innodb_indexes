@@ -1,9 +1,0 @@
-*************************** 1. row ***************************
-       INDEX_ID: 152
-           NAME: PRIMARY
-       TABLE_ID: 1062
-           TYPE: 3
-       N_FIELDS: 6
-        PAGE_NO: 4
-          SPACE: 1
-MERGE_THRESHOLD: 50

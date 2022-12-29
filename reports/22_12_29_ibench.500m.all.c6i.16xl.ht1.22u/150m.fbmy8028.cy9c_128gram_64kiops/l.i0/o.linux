@@ -1,4 +1,0 @@
-10		/proc/sys/vm/dirty_background_ratio
-20		/proc/sys/vm/dirty_ratio
-3000		/proc/sys/vm/dirty_expire_centisecs
-128		/sys/block/nvme1n1/queue/read_ahead_kb

@@ -1,8 +1,0 @@
-2022-12-29T00:03:24.979941Z 0 [Warning] [MY-011068] [Server] The syntax '--ssl=off' is deprecated and will be removed in a future release. Please use --tls-version='' instead.
-2022-12-29T00:03:24.985782Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
-2022-12-29T00:03:24.986611Z 0 [System] [MY-013169] [Server] /home/ubuntu/d/my8031/bin/mysqld (mysqld 8.0.31) initializing of server in progress as process 220352
-2022-12-29T00:03:25.041140Z 0 [Warning] [MY-012358] [InnoDB] Option innodb_dedicated_server is ignored for innodb_buffer_pool_size because innodb_buffer_pool_size=96636764160 is specified explicitly.
-2022-12-29T00:03:25.043345Z 0 [Warning] [MY-013906] [InnoDB] Option innodb_dedicated_server is ignored for innodb_redo_log_capacity, because innodb_redo_log_capacity, innodb_log_file_size or innodb_log_files_in_group is specified explicitly. Redo log capacity: 131072M.
-2022-12-29T00:03:25.054812Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
-2022-12-29T00:03:28.784232Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
-2022-12-29T00:03:29.708448Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
