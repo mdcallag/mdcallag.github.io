@@ -8,13 +8,13 @@ Posts for 2020:
 
 Benchmark reports for 2022:
 * Insert Benchmark on AWS c7g.16xl with io2 SSD (5T, 100K IOPs)
-  * [22 clients](reports/22_12_29_ibench.500m.all.c7g.16xl.22u/all.html)
-  * [44 clients](reports/22_12_29_ibench.500m.all.c7g.16xl.44u/all.html)
+  * [22 clients, 500M rows, cached by DBMS](reports/22_12_29_ibench.500m.all.c7g.16xl.22u/all.html)
+  * [44 clients, 500M rows, cached by DBMS](reports/22_12_29_ibench.500m.all.c7g.16xl.44u/all.html)
 * Insert Benchmark on AWS c6i.16xl with io2 SSD (5T, 64K IOPs)
-  * [22 clients, hyperthread disabled](reports/22_12_29_ibench.500m.all.c6i.16xl.ht0.22u/all.html)
-  * [22 clients, hyperthread enabled](reports/22_12_29_ibench.500m.all.c6i.16xl.ht1.22u/all.html)
-  * [44 clients, hyperthread disabled](reports/22_12_29_ibench.500m.all.c6i.16xl.ht0.44u/all.html)
-  * [44 clients, hyperthread enabled](reports/22_12_29_ibench.500m.all.c6i.16xl.ht1.44u/all.html)
+  * [22 clients, 500M rows, cached by DBMS, hyperthread disabled](reports/22_12_29_ibench.500m.all.c6i.16xl.ht0.22u/all.html)
+  * [22 clients, 500M rows, cached by DBMS, hyperthread enabled](reports/22_12_29_ibench.500m.all.c6i.16xl.ht1.22u/all.html)
+  * [44 clients, 500M rows, cached by DBMS, hyperthread disabled](reports/22_12_29_ibench.500m.all.c6i.16xl.ht0.44u/all.html)
+  * [44 clients, 500M rows, cached by DBMS, hyperthread enabled](reports/22_12_29_ibench.500m.all.c6i.16xl.ht1.44u/all.html)
 * Insert Benchmark
   * [Intel NUC, not IO-bound, Postgres](reports/22_11_29_ibench.20m.pg/all.html)
   * [Intel NUC, IO-bound, Postgres](reports/22_11_29_ibench.500m.pg/all.html)
