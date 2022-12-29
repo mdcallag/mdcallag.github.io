@@ -1,0 +1,31 @@
+Use postgres
+After load: wait for vacuum 0
+After load: wait for vacuum 1
+After load: wait for vacuum 2
+After load: wait for vacuum 3
+After load: wait for vacuum 4
+After load: wait for vacuum 5
+After load: wait for vacuum 6
+After load: wait for vacuum 7
+After load: wait for vacuum 8
+After load: wait for vacuum 9
+After load: wait for vacuum 10
+After load: wait for vacuum 11
+After load: wait for vacuum 12
+After load: wait for vacuum 13
+After load: wait for vacuum 14
+After load: wait for vacuum 15
+After load: wait for vacuum 16
+After load: wait for vacuum 17
+After load: wait for vacuum 18
+After load: wait for vacuum 19
+After load: wait for vacuum 20
+After load: wait for vacuum 21
+Run with ips 100
+Run with ips 500
+Run with ips 1000
+cat: /proc/sys/vm/compact_memory: Permission denied
+cat: /proc/sys/vm/drop_caches: Permission denied
+cat: /proc/sys/vm/mmap_rnd_bits: Permission denied
+cat: /proc/sys/vm/mmap_rnd_compat_bits: Permission denied
+cat: /proc/sys/vm/stat_refresh: Permission denied

@@ -1,0 +1,33 @@
+*************************** 1. row ***************************
+                         POOL_ID: 0
+                       POOL_SIZE: 8192
+                    FREE_BUFFERS: 6976
+                  DATABASE_PAGES: 1200
+              OLD_DATABASE_PAGES: 422
+         MODIFIED_DATABASE_PAGES: 94
+              PENDING_DECOMPRESS: 0
+                   PENDING_READS: 0
+               PENDING_FLUSH_LRU: 0
+              PENDING_FLUSH_LIST: 0
+                PAGES_MADE_YOUNG: 662
+            PAGES_NOT_MADE_YOUNG: 4149
+           PAGES_MADE_YOUNG_RATE: 38.06096968972812
+       PAGES_MADE_NOT_YOUNG_RATE: 0
+               NUMBER_PAGES_READ: 862
+            NUMBER_PAGES_CREATED: 342
+            NUMBER_PAGES_WRITTEN: 4578
+                 PAGES_READ_RATE: 0
+               PAGES_CREATE_RATE: 139.55688886233642
+              PAGES_WRITTEN_RATE: 0
+                NUMBER_PAGES_GET: 103587
+                        HIT_RATE: 1000
+    YOUNG_MAKE_PER_THOUSAND_GETS: 3
+NOT_YOUNG_MAKE_PER_THOUSAND_GETS: 0
+         NUMBER_PAGES_READ_AHEAD: 0
+       NUMBER_READ_AHEAD_EVICTED: 0
+                 READ_AHEAD_RATE: 0
+         READ_AHEAD_EVICTED_RATE: 0
+                    LRU_IO_TOTAL: 12
+                  LRU_IO_CURRENT: 0
+                UNCOMPRESS_TOTAL: 0
+              UNCOMPRESS_CURRENT: 0

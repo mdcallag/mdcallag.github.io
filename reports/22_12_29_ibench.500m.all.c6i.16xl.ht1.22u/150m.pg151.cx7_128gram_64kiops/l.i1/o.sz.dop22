@@ -1,0 +1,29 @@
+86G	/data/m/pg
+with apparent size 
+83G	/data/m/pg
+all
+4.0K	/data/m/pg/PG_VERSION
+38G	/data/m/pg/base
+540K	/data/m/pg/global
+0	/data/m/pg/pg_commit_ts
+0	/data/m/pg/pg_dynshmem
+8.0K	/data/m/pg/pg_hba.conf
+4.0K	/data/m/pg/pg_ident.conf
+4.0K	/data/m/pg/pg_logical
+16K	/data/m/pg/pg_multixact
+0	/data/m/pg/pg_notify
+0	/data/m/pg/pg_replslot
+0	/data/m/pg/pg_serial
+0	/data/m/pg/pg_snapshots
+0	/data/m/pg/pg_stat
+0	/data/m/pg/pg_stat_tmp
+14M	/data/m/pg/pg_subtrans
+0	/data/m/pg/pg_tblspc
+0	/data/m/pg/pg_twophase
+49G	/data/m/pg/pg_wal
+8.0K	/data/m/pg/pg_xact
+4.0K	/data/m/pg/postgresql.auto.conf
+32K	/data/m/pg/postgresql.conf
+32K	/data/m/pg/postgresql.conf.orig
+4.0K	/data/m/pg/postmaster.opts
+4.0K	/data/m/pg/postmaster.pid

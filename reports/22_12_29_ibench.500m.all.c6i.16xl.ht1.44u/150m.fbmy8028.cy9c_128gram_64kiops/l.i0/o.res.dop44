@@ -1,0 +1,340 @@
+44 processes, 2383127 rows-per-process, 140 seconds, 748982.8 rows-per-second, 17022.3 rows-per-second-per-user, 0 queries, 0 queries-per-second
+
+iostat, vmstat normalized by insert rate
+nsamp	r/s	rMB/s	w/s	wMB/s	r/i	rKB/i	w/i	wKB/i	ips
+28	0.0	0.0	1087.0	246.6	0.000	0.000	0.001	0.337	748982.8
+
+nsamp	cs/s	cpu/s	cs/q	cpu/q
+30	591973	47.2	0.790	0.000063
+
+iostat, vmstat normalized by query rate
+nsamp	r/s	rMB/s	w/s	wMB/s	r/q	rKB/q	w/q	wKB/q	qps
+
+nsamp	cs/s	cpu/s	cs/q	cpu/q
+
+dbGB	4.219
+dbdirGB	4.759	/data/m/fbmy
+
+ubuntu    117353 1895  1.4 3895256 1923516 pts/2 Sl   17:20  59:22 /home/ubuntu/d/fbmy80/bin/mysqld --basedir=/home/ubuntu/d/fbmy80 --datadir=/data/m/fbmy/data --plugin-dir=/home/ubuntu/d/fbmy80/lib/plugin --log-error=ip-172-31-67-155.err --pid-file=ip-172-31-67-155.pid
+
+Max insert
+0.102
+0.100
+0.100
+Max query
+
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0      8977     14752        97         6         0         0         0         0         0    0.047285
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0       919     15691      7199        21         2         0         0         0         0    0.096692
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0      1098     15581      7129        21         3         0         0         0         0    0.097723
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0       492     15119      8196        22         3         0         0         0         0    0.097300
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0       351     14784      8670        24         3         0         0         0         0    0.099362
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0       962     13935      8908        24         3         0         0         0         0    0.097075
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0       178     14116      9510        25         3         0         0         0         0    0.095595
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0       249     13745      9810        25         3         0         0         0         0    0.098679
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0       215     13414     10174        26         3         0         0         0         0    0.101936
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0       167     12949     10686        27         3         0         0         0         0    0.097937
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0       282     12619     10900        28         3         0         0         0         0    0.098481
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0       203     12501     11098        27         3         0         0         0         0    0.097912
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0       203     12288     11310        28         3         0         0         0         0    0.097266
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0       205     12259     11337        28         3         0         0         0         0    0.096130
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        83     12674     11043        29         3         0         0         0         0    0.096137
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0       110     12572     11119        28         3         0         0         0         0    0.095960
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        64     12275     11461        29         3         0         0         0         0    0.099521
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        55     12383     11362        29         3         0         0         0         0    0.097679
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        53     13124     10623        29         3         0         0         0         0    0.099164
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        53     13028     10720        28         3         0         0         0         0    0.094334
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        51     12950     10799        29         3         0         0         0         0    0.098202
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        49     13040     10710        30         3         0         0         0         0    0.094557
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        38     13173     10589        29         3         0         0         0         0    0.099144
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        23     13122     10654        30         3         0         0         0         0    0.097683
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        38     12994     10768        29         3         0         0         0         0    0.097322
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        35     13207     10559        28         3         0         0         0         0    0.094355
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        50     13191     10560        28         3         0         0         0         0    0.095420
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        18     13042     10741        28         3         0         0         0         0    0.099769
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0       101     12757     10944        27         3         0         0         0         0    0.095575
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        58     13064     10679        28         3         0         0         0         0    0.095721
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        49     13326     10427        27         3         0         0         0         0    0.095083
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        17     13212     10573        27         3         0         0         0         0    0.097390
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        20     13393     10390        26         3         0         0         0         0    0.098178
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        28     13706     10069        26         3         0         0         0         0    0.097114
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        18     13771     10014        26         3         0         0         0         0    0.098030
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        29     14062      9713        25         3         0         0         0         0    0.095892
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        32     14058      9714        25         3         0         0         0         0    0.098604
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        13     14115      9677        24         3         0         0         0         0    0.094764
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        10     14223      9572        24         3         0         0         0         0    0.095231
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        24     14652      9129        24         3         0         0         0         0    0.096481
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        15     15144      8647        23         3         0         0         0         0    0.097257
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        10     15505      8291        23         3         0         0         0         0    0.098170
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0        21     19593      4196        19         3         0         0         0         0    0.098240
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0      1498     22301        22         8         3         0         0         0         0    0.095389
+
+
+insert and query rate at nth percentile
+50th, 18 / 35 = 66044 insert, 0 query
+75th, 26 / 35 = 42844 insert, 0 query
+90th, 32 / 35 = 38559 insert, 0 query
+95th, 33 / 35 = 37260 insert, 0 query
+99th, 35 / 35 = 29469 insert, 0 query
+50th, 38 / 77 = 24274 insert, 0 query
+75th, 58 / 77 = 18580 insert, 0 query
+90th, 69 / 77 = 13589 insert, 0 query
+95th, 73 / 77 = 12884 insert, 0 query
+99th, 76 / 77 = 1798 insert, 0 query
+50th, 39 / 78 = 22776 insert, 0 query
+75th, 58 / 78 = 17886 insert, 0 query
+90th, 70 / 78 = 13184 insert, 0 query
+95th, 74 / 78 = 12291 insert, 0 query
+99th, 77 / 78 = 400 insert, 0 query
+50th, 42 / 84 = 20884 insert, 0 query
+75th, 63 / 84 = 17490 insert, 0 query
+90th, 76 / 84 = 13192 insert, 0 query
+95th, 80 / 84 = 12287 insert, 0 query
+99th, 83 / 84 = 11488 insert, 0 query
+50th, 44 / 87 = 20778 insert, 0 query
+75th, 65 / 87 = 17587 insert, 0 query
+90th, 78 / 87 = 13184 insert, 0 query
+95th, 83 / 87 = 12287 insert, 0 query
+99th, 86 / 87 = 11588 insert, 0 query
+50th, 44 / 87 = 20878 insert, 0 query
+75th, 65 / 87 = 18186 insert, 0 query
+90th, 78 / 87 = 12989 insert, 0 query
+95th, 83 / 87 = 12494 insert, 0 query
+99th, 86 / 87 = 11188 insert, 0 query
+50th, 46 / 91 = 21277 insert, 0 query
+75th, 68 / 91 = 18286 insert, 0 query
+90th, 82 / 91 = 12786 insert, 0 query
+95th, 86 / 91 = 12390 insert, 0 query
+99th, 90 / 91 = 799 insert, 0 query
+50th, 46 / 92 = 21789 insert, 0 query
+75th, 69 / 92 = 18485 insert, 0 query
+90th, 83 / 92 = 13086 insert, 0 query
+95th, 87 / 92 = 12187 insert, 0 query
+99th, 91 / 92 = 9690 insert, 0 query
+50th, 47 / 94 = 20884 insert, 0 query
+75th, 70 / 94 = 17181 insert, 0 query
+90th, 85 / 94 = 12986 insert, 0 query
+95th, 89 / 94 = 12587 insert, 0 query
+99th, 93 / 94 = 11394 insert, 0 query
+50th, 48 / 97 = 20977 insert, 0 query
+75th, 73 / 97 = 17182 insert, 0 query
+90th, 87 / 97 = 13184 insert, 0 query
+95th, 92 / 97 = 12484 insert, 0 query
+99th, 96 / 97 = 9989 insert, 0 query
+50th, 49 / 98 = 20484 insert, 0 query
+75th, 74 / 98 = 16882 insert, 0 query
+90th, 88 / 98 = 13386 insert, 0 query
+95th, 93 / 98 = 12686 insert, 0 query
+99th, 97 / 98 = 11291 insert, 0 query
+50th, 50 / 99 = 20483 insert, 0 query
+75th, 74 / 99 = 17881 insert, 0 query
+90th, 89 / 99 = 13186 insert, 0 query
+95th, 94 / 99 = 12187 insert, 0 query
+99th, 98 / 99 = 2597 insert, 0 query
+50th, 50 / 100 = 21677 insert, 0 query
+75th, 75 / 100 = 18081 insert, 0 query
+90th, 90 / 100 = 13186 insert, 0 query
+95th, 95 / 100 = 12191 insert, 0 query
+99th, 99 / 100 = 10988 insert, 0 query
+50th, 50 / 100 = 20678 insert, 0 query
+75th, 75 / 100 = 17879 insert, 0 query
+90th, 90 / 100 = 13086 insert, 0 query
+95th, 95 / 100 = 12285 insert, 0 query
+99th, 99 / 100 = 5294 insert, 0 query
+50th, 50 / 101 = 21377 insert, 0 query
+75th, 76 / 101 = 17881 insert, 0 query
+90th, 91 / 101 = 12790 insert, 0 query
+95th, 96 / 101 = 12285 insert, 0 query
+99th, 100 / 101 = 5996 insert, 0 query
+50th, 50 / 100 = 21582 insert, 0 query
+75th, 75 / 100 = 17881 insert, 0 query
+90th, 90 / 100 = 13286 insert, 0 query
+95th, 95 / 100 = 12087 insert, 0 query
+99th, 99 / 100 = 11588 insert, 0 query
+50th, 51 / 102 = 21383 insert, 0 query
+75th, 76 / 102 = 17786 insert, 0 query
+90th, 92 / 102 = 13186 insert, 0 query
+95th, 97 / 102 = 12287 insert, 0 query
+99th, 101 / 102 = 11091 insert, 0 query
+50th, 50 / 100 = 21377 insert, 0 query
+75th, 75 / 100 = 18580 insert, 0 query
+90th, 90 / 100 = 13486 insert, 0 query
+95th, 95 / 100 = 12587 insert, 0 query
+99th, 99 / 100 = 4896 insert, 0 query
+50th, 50 / 99 = 21976 insert, 0 query
+75th, 74 / 99 = 18380 insert, 0 query
+90th, 89 / 99 = 13793 insert, 0 query
+95th, 94 / 99 = 12990 insert, 0 query
+99th, 98 / 99 = 11791 insert, 0 query
+50th, 50 / 99 = 21976 insert, 0 query
+75th, 74 / 99 = 18992 insert, 0 query
+90th, 89 / 99 = 13685 insert, 0 query
+95th, 94 / 99 = 12686 insert, 0 query
+99th, 98 / 99 = 11491 insert, 0 query
+50th, 51 / 102 = 22076 insert, 0 query
+75th, 76 / 102 = 16882 insert, 0 query
+90th, 92 / 102 = 13382 insert, 0 query
+95th, 97 / 102 = 12583 insert, 0 query
+99th, 101 / 102 = 3796 insert, 0 query
+50th, 51 / 102 = 21891 insert, 0 query
+75th, 76 / 102 = 16682 insert, 0 query
+90th, 92 / 102 = 13289 insert, 0 query
+95th, 97 / 102 = 12686 insert, 0 query
+99th, 101 / 102 = 11486 insert, 0 query
+50th, 50 / 101 = 22176 insert, 0 query
+75th, 76 / 101 = 16782 insert, 0 query
+90th, 91 / 101 = 13286 insert, 0 query
+95th, 96 / 101 = 12686 insert, 0 query
+99th, 100 / 101 = 11288 insert, 0 query
+50th, 52 / 104 = 21490 insert, 0 query
+75th, 78 / 104 = 16582 insert, 0 query
+90th, 94 / 104 = 9992 insert, 0 query
+95th, 99 / 104 = 9490 insert, 0 query
+99th, 103 / 104 = 8990 insert, 0 query
+50th, 51 / 102 = 21683 insert, 0 query
+75th, 76 / 102 = 16687 insert, 0 query
+90th, 92 / 102 = 13284 insert, 0 query
+95th, 97 / 102 = 12786 insert, 0 query
+99th, 101 / 102 = 10988 insert, 0 query
+50th, 50 / 100 = 22088 insert, 0 query
+75th, 75 / 100 = 17581 insert, 0 query
+90th, 90 / 100 = 13586 insert, 0 query
+95th, 95 / 100 = 12989 insert, 0 query
+99th, 99 / 100 = 11588 insert, 0 query
+50th, 50 / 100 = 21977 insert, 0 query
+75th, 75 / 100 = 17481 insert, 0 query
+90th, 90 / 100 = 13685 insert, 0 query
+95th, 95 / 100 = 12587 insert, 0 query
+99th, 99 / 100 = 799 insert, 0 query
+50th, 50 / 100 = 21677 insert, 0 query
+75th, 75 / 100 = 17581 insert, 0 query
+90th, 90 / 100 = 13685 insert, 0 query
+95th, 95 / 100 = 12692 insert, 0 query
+99th, 99 / 100 = 11386 insert, 0 query
+50th, 49 / 98 = 21577 insert, 0 query
+75th, 74 / 98 = 18081 insert, 0 query
+90th, 88 / 98 = 13785 insert, 0 query
+95th, 93 / 98 = 12986 insert, 0 query
+99th, 97 / 98 = 11291 insert, 0 query
+50th, 50 / 99 = 21577 insert, 0 query
+75th, 74 / 99 = 17481 insert, 0 query
+90th, 89 / 99 = 13685 insert, 0 query
+95th, 94 / 99 = 13086 insert, 0 query
+99th, 98 / 99 = 5597 insert, 0 query
+50th, 49 / 98 = 22183 insert, 0 query
+75th, 74 / 98 = 18485 insert, 0 query
+90th, 88 / 98 = 13985 insert, 0 query
+95th, 93 / 98 = 12786 insert, 0 query
+99th, 97 / 98 = 11186 insert, 0 query
+50th, 50 / 99 = 21976 insert, 0 query
+75th, 74 / 99 = 18780 insert, 0 query
+90th, 89 / 99 = 13689 insert, 0 query
+95th, 94 / 99 = 12287 insert, 0 query
+99th, 98 / 99 = 10988 insert, 0 query
+50th, 49 / 98 = 21777 insert, 0 query
+75th, 74 / 98 = 17382 insert, 0 query
+90th, 88 / 98 = 13585 insert, 0 query
+95th, 93 / 98 = 12884 insert, 0 query
+99th, 97 / 98 = 2298 insert, 0 query
+50th, 48 / 97 = 22376 insert, 0 query
+75th, 73 / 97 = 18680 insert, 0 query
+90th, 87 / 97 = 13585 insert, 0 query
+95th, 92 / 97 = 12387 insert, 0 query
+99th, 96 / 97 = 10788 insert, 0 query
+50th, 48 / 97 = 22876 insert, 0 query
+75th, 73 / 97 = 17382 insert, 0 query
+90th, 87 / 97 = 13785 insert, 0 query
+95th, 92 / 97 = 12786 insert, 0 query
+99th, 96 / 97 = 11588 insert, 0 query
+50th, 48 / 97 = 22776 insert, 0 query
+75th, 73 / 97 = 16982 insert, 0 query
+90th, 87 / 97 = 13785 insert, 0 query
+95th, 92 / 97 = 12789 insert, 0 query
+99th, 96 / 97 = 11388 insert, 0 query
+50th, 48 / 95 = 21777 insert, 0 query
+75th, 71 / 95 = 19179 insert, 0 query
+90th, 86 / 95 = 13683 insert, 0 query
+95th, 90 / 95 = 12990 insert, 0 query
+99th, 94 / 95 = 11188 insert, 0 query
+50th, 48 / 95 = 21777 insert, 0 query
+75th, 71 / 95 = 19084 insert, 0 query
+90th, 86 / 95 = 13186 insert, 0 query
+95th, 90 / 95 = 12986 insert, 0 query
+99th, 94 / 95 = 11488 insert, 0 query
+50th, 47 / 94 = 22376 insert, 0 query
+75th, 70 / 94 = 18086 insert, 0 query
+90th, 85 / 94 = 13489 insert, 0 query
+95th, 89 / 94 = 12587 insert, 0 query
+99th, 93 / 94 = 11890 insert, 0 query
+50th, 46 / 93 = 23075 insert, 0 query
+75th, 70 / 93 = 17486 insert, 0 query
+90th, 84 / 93 = 13685 insert, 0 query
+95th, 88 / 93 = 12990 insert, 0 query
+99th, 92 / 93 = 11488 insert, 0 query
+50th, 46 / 91 = 23581 insert, 0 query
+75th, 68 / 91 = 17481 insert, 0 query
+90th, 82 / 91 = 13785 insert, 0 query
+95th, 86 / 91 = 12686 insert, 0 query
+99th, 90 / 91 = 11091 insert, 0 query
+50th, 46 / 91 = 23875 insert, 0 query
+75th, 68 / 91 = 17781 insert, 0 query
+90th, 82 / 91 = 13685 insert, 0 query
+95th, 86 / 91 = 13086 insert, 0 query
+99th, 90 / 91 = 11188 insert, 0 query
+50th, 38 / 75 = 31267 insert, 0 query
+75th, 56 / 75 = 19179 insert, 0 query
+90th, 68 / 75 = 13486 insert, 0 query
+95th, 71 / 75 = 12587 insert, 0 query
+99th, 74 / 75 = 11688 insert, 0 query
+50th, 18 / 36 = 68454 insert, 0 query
+75th, 27 / 36 = 65837 insert, 0 query
+90th, 32 / 36 = 63432 insert, 0 query
+95th, 34 / 36 = 54840 insert, 0 query
+99th, 36 / 36 = 54043 insert, 0 query
+
+CPU seconds
+client: 13.26 user, 1.03 system, 14.3 total
+dbms: 3043.0

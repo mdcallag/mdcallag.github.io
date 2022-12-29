@@ -1,0 +1,24 @@
+INFO:  vacuuming "ib.public.pi29"
+INFO:  launched 0 parallel vacuum workers for index cleanup (planned: 2)
+INFO:  finished vacuuming "ib.public.pi29": index scans: 0
+pages: 0 removed, 38568 remain, 1 scanned (0.00% of total)
+tuples: 0 removed, 3936916 remain, 0 are dead but not yet removable
+removable cutoff: 2416126, which was 0 XIDs old when operation ended
+index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+I/O timings: read: 0.000 ms, write: 0.000 ms
+avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+buffer usage: 119 hits, 0 misses, 0 dirtied
+WAL usage: 0 records, 0 full page images, 0 bytes
+system usage: CPU: user: 0.01 s, system: 0.13 s, elapsed: 0.15 s
+INFO:  vacuuming "ib.pg_toast.pg_toast_16681"
+INFO:  finished vacuuming "ib.pg_toast.pg_toast_16681": index scans: 0
+pages: 0 removed, 0 remain, 0 scanned (100.00% of total)
+tuples: 0 removed, 0 remain, 0 are dead but not yet removable
+removable cutoff: 2416126, which was 0 XIDs old when operation ended
+index scan not needed: 0 pages from table (100.00% of total) had 0 dead item identifiers removed
+I/O timings: read: 0.000 ms, write: 0.000 ms
+avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+buffer usage: 19 hits, 0 misses, 0 dirtied
+WAL usage: 0 records, 0 full page images, 0 bytes
+system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+VACUUM

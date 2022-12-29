@@ -1,0 +1,793 @@
+-[ RECORD 1 ]-+---------------------
+relid         | 16401
+indexrelid    | 16407
+schemaname    | public
+relname       | pi1
+indexrelname  | pi1_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 2 ]-+---------------------
+relid         | 16411
+indexrelid    | 16417
+schemaname    | public
+relname       | pi2
+indexrelname  | pi2_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 3 ]-+---------------------
+relid         | 16421
+indexrelid    | 16427
+schemaname    | public
+relname       | pi3
+indexrelname  | pi3_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 4 ]-+---------------------
+relid         | 16431
+indexrelid    | 16437
+schemaname    | public
+relname       | pi4
+indexrelname  | pi4_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 5 ]-+---------------------
+relid         | 16441
+indexrelid    | 16447
+schemaname    | public
+relname       | pi5
+indexrelname  | pi5_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 6 ]-+---------------------
+relid         | 16451
+indexrelid    | 16457
+schemaname    | public
+relname       | pi6
+indexrelname  | pi6_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 7 ]-+---------------------
+relid         | 16461
+indexrelid    | 16467
+schemaname    | public
+relname       | pi7
+indexrelname  | pi7_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 8 ]-+---------------------
+relid         | 16471
+indexrelid    | 16477
+schemaname    | public
+relname       | pi8
+indexrelname  | pi8_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 9 ]-+---------------------
+relid         | 16481
+indexrelid    | 16487
+schemaname    | public
+relname       | pi9
+indexrelname  | pi9_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 10 ]+---------------------
+relid         | 16491
+indexrelid    | 16497
+schemaname    | public
+relname       | pi10
+indexrelname  | pi10_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 11 ]+---------------------
+relid         | 16501
+indexrelid    | 16507
+schemaname    | public
+relname       | pi11
+indexrelname  | pi11_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 12 ]+---------------------
+relid         | 16511
+indexrelid    | 16517
+schemaname    | public
+relname       | pi12
+indexrelname  | pi12_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 13 ]+---------------------
+relid         | 16521
+indexrelid    | 16527
+schemaname    | public
+relname       | pi13
+indexrelname  | pi13_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 14 ]+---------------------
+relid         | 16531
+indexrelid    | 16537
+schemaname    | public
+relname       | pi14
+indexrelname  | pi14_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 15 ]+---------------------
+relid         | 16541
+indexrelid    | 16547
+schemaname    | public
+relname       | pi15
+indexrelname  | pi15_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 16 ]+---------------------
+relid         | 16551
+indexrelid    | 16557
+schemaname    | public
+relname       | pi16
+indexrelname  | pi16_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 17 ]+---------------------
+relid         | 16561
+indexrelid    | 16567
+schemaname    | public
+relname       | pi17
+indexrelname  | pi17_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 18 ]+---------------------
+relid         | 16571
+indexrelid    | 16577
+schemaname    | public
+relname       | pi18
+indexrelname  | pi18_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 19 ]+---------------------
+relid         | 16581
+indexrelid    | 16587
+schemaname    | public
+relname       | pi19
+indexrelname  | pi19_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 20 ]+---------------------
+relid         | 16591
+indexrelid    | 16597
+schemaname    | public
+relname       | pi20
+indexrelname  | pi20_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 21 ]+---------------------
+relid         | 16601
+indexrelid    | 16607
+schemaname    | public
+relname       | pi21
+indexrelname  | pi21_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 22 ]+---------------------
+relid         | 16611
+indexrelid    | 16617
+schemaname    | public
+relname       | pi22
+indexrelname  | pi22_pkey
+idx_scan      | 0
+idx_tup_read  | 0
+idx_tup_fetch | 0
+-[ RECORD 23 ]+---------------------
+relid         | 16401
+indexrelid    | 16620
+schemaname    | public
+relname       | pi1
+indexrelname  | pi1_marketsegment
+idx_scan      | 14083598
+idx_tup_read  | 140835918
+idx_tup_fetch | 3398977
+-[ RECORD 24 ]+---------------------
+relid         | 16411
+indexrelid    | 16621
+schemaname    | public
+relname       | pi2
+indexrelname  | pi2_marketsegment
+idx_scan      | 14200652
+idx_tup_read  | 142006390
+idx_tup_fetch | 3383890
+-[ RECORD 25 ]+---------------------
+relid         | 16421
+indexrelid    | 16622
+schemaname    | public
+relname       | pi3
+indexrelname  | pi3_marketsegment
+idx_scan      | 14041630
+idx_tup_read  | 140416224
+idx_tup_fetch | 3352553
+-[ RECORD 26 ]+---------------------
+relid         | 16431
+indexrelid    | 16623
+schemaname    | public
+relname       | pi4
+indexrelname  | pi4_marketsegment
+idx_scan      | 14118310
+idx_tup_read  | 141183027
+idx_tup_fetch | 3415030
+-[ RECORD 27 ]+---------------------
+relid         | 16401
+indexrelid    | 16624
+schemaname    | public
+relname       | pi1
+indexrelname  | pi1_registersegment
+idx_scan      | 14091610
+idx_tup_read  | 140774692
+idx_tup_fetch | 3276692
+-[ RECORD 28 ]+---------------------
+relid         | 16441
+indexrelid    | 16625
+schemaname    | public
+relname       | pi5
+indexrelname  | pi5_marketsegment
+idx_scan      | 14008384
+idx_tup_read  | 140083764
+idx_tup_fetch | 3373866
+-[ RECORD 29 ]+---------------------
+relid         | 16411
+indexrelid    | 16626
+schemaname    | public
+relname       | pi2
+indexrelname  | pi2_registersegment
+idx_scan      | 14211567
+idx_tup_read  | 141971780
+idx_tup_fetch | 3366325
+-[ RECORD 30 ]+---------------------
+relid         | 16451
+indexrelid    | 16627
+schemaname    | public
+relname       | pi6
+indexrelname  | pi6_marketsegment
+idx_scan      | 14187994
+idx_tup_read  | 141879770
+idx_tup_fetch | 3423757
+-[ RECORD 31 ]+---------------------
+relid         | 16421
+indexrelid    | 16628
+schemaname    | public
+relname       | pi3
+indexrelname  | pi3_registersegment
+idx_scan      | 14044607
+idx_tup_read  | 140304871
+idx_tup_fetch | 3096411
+-[ RECORD 32 ]+---------------------
+relid         | 16461
+indexrelid    | 16629
+schemaname    | public
+relname       | pi7
+indexrelname  | pi7_marketsegment
+idx_scan      | 14159527
+idx_tup_read  | 141595183
+idx_tup_fetch | 3409692
+-[ RECORD 33 ]+---------------------
+relid         | 16431
+indexrelid    | 16630
+schemaname    | public
+relname       | pi4
+indexrelname  | pi4_registersegment
+idx_scan      | 14119793
+idx_tup_read  | 141055870
+idx_tup_fetch | 3372258
+-[ RECORD 34 ]+---------------------
+relid         | 16401
+indexrelid    | 16631
+schemaname    | public
+relname       | pi1
+indexrelname  | pi1_pdc
+idx_scan      | 14085208
+idx_tup_read  | 140852022
+idx_tup_fetch | 373
+-[ RECORD 35 ]+---------------------
+relid         | 16471
+indexrelid    | 16632
+schemaname    | public
+relname       | pi8
+indexrelname  | pi8_marketsegment
+idx_scan      | 14129934
+idx_tup_read  | 141299284
+idx_tup_fetch | 3418313
+-[ RECORD 36 ]+---------------------
+relid         | 16441
+indexrelid    | 16633
+schemaname    | public
+relname       | pi5
+indexrelname  | pi5_registersegment
+idx_scan      | 14013168
+idx_tup_read  | 139989500
+idx_tup_fetch | 3486917
+-[ RECORD 37 ]+---------------------
+relid         | 16411
+indexrelid    | 16634
+schemaname    | public
+relname       | pi2
+indexrelname  | pi2_pdc
+idx_scan      | 14206741
+idx_tup_read  | 142067307
+idx_tup_fetch | 399
+-[ RECORD 38 ]+---------------------
+relid         | 16481
+indexrelid    | 16635
+schemaname    | public
+relname       | pi9
+indexrelname  | pi9_marketsegment
+idx_scan      | 14015670
+idx_tup_read  | 140156629
+idx_tup_fetch | 3390856
+-[ RECORD 39 ]+---------------------
+relid         | 16451
+indexrelid    | 16636
+schemaname    | public
+relname       | pi6
+indexrelname  | pi6_registersegment
+idx_scan      | 14193903
+idx_tup_read  | 141794801
+idx_tup_fetch | 3169773
+-[ RECORD 40 ]+---------------------
+relid         | 16421
+indexrelid    | 16637
+schemaname    | public
+relname       | pi3
+indexrelname  | pi3_pdc
+idx_scan      | 14036563
+idx_tup_read  | 140365518
+idx_tup_fetch | 212
+-[ RECORD 41 ]+---------------------
+relid         | 16491
+indexrelid    | 16638
+schemaname    | public
+relname       | pi10
+indexrelname  | pi10_marketsegment
+idx_scan      | 14025570
+idx_tup_read  | 140255571
+idx_tup_fetch | 3394234
+-[ RECORD 42 ]+---------------------
+relid         | 16461
+indexrelid    | 16639
+schemaname    | public
+relname       | pi7
+indexrelname  | pi7_registersegment
+idx_scan      | 14169454
+idx_tup_read  | 141550401
+idx_tup_fetch | 3513875
+-[ RECORD 43 ]+---------------------
+relid         | 16501
+indexrelid    | 16640
+schemaname    | public
+relname       | pi11
+indexrelname  | pi11_marketsegment
+idx_scan      | 14012204
+idx_tup_read  | 140121981
+idx_tup_fetch | 3374215
+-[ RECORD 44 ]+---------------------
+relid         | 16461
+indexrelid    | 16654
+schemaname    | public
+relname       | pi7
+indexrelname  | pi7_pdc
+idx_scan      | 14166395
+idx_tup_read  | 141663907
+idx_tup_fetch | 337
+-[ RECORD 45 ]+---------------------
+relid         | 16501
+indexrelid    | 16656
+schemaname    | public
+relname       | pi11
+indexrelname  | pi11_registersegment
+idx_scan      | 14012334
+idx_tup_read  | 139983201
+idx_tup_fetch | 3378566
+-[ RECORD 46 ]+---------------------
+relid         | 16501
+indexrelid    | 16669
+schemaname    | public
+relname       | pi11
+indexrelname  | pi11_pdc
+idx_scan      | 14011112
+idx_tup_read  | 140111017
+idx_tup_fetch | 334
+-[ RECORD 47 ]+---------------------
+relid         | 16431
+indexrelid    | 16641
+schemaname    | public
+relname       | pi4
+indexrelname  | pi4_pdc
+idx_scan      | 14119065
+idx_tup_read  | 141190541
+idx_tup_fetch | 386
+-[ RECORD 48 ]+---------------------
+relid         | 16471
+indexrelid    | 16642
+schemaname    | public
+relname       | pi8
+indexrelname  | pi8_registersegment
+idx_scan      | 14128001
+idx_tup_read  | 141140480
+idx_tup_fetch | 3123616
+-[ RECORD 49 ]+---------------------
+relid         | 16511
+indexrelid    | 16643
+schemaname    | public
+relname       | pi12
+indexrelname  | pi12_marketsegment
+idx_scan      | 14055141
+idx_tup_read  | 140551279
+idx_tup_fetch | 3385434
+-[ RECORD 50 ]+---------------------
+relid         | 16471
+indexrelid    | 16657
+schemaname    | public
+relname       | pi8
+indexrelname  | pi8_pdc
+idx_scan      | 14127969
+idx_tup_read  | 141279612
+idx_tup_fetch | 315
+-[ RECORD 51 ]+---------------------
+relid         | 16511
+indexrelid    | 16659
+schemaname    | public
+relname       | pi12
+indexrelname  | pi12_registersegment
+idx_scan      | 14050836
+idx_tup_read  | 140368131
+idx_tup_fetch | 3479251
+-[ RECORD 52 ]+---------------------
+relid         | 16511
+indexrelid    | 16672
+schemaname    | public
+relname       | pi12
+indexrelname  | pi12_pdc
+idx_scan      | 14051063
+idx_tup_read  | 140510494
+idx_tup_fetch | 299
+-[ RECORD 53 ]+---------------------
+relid         | 16441
+indexrelid    | 16644
+schemaname    | public
+relname       | pi5
+indexrelname  | pi5_pdc
+idx_scan      | 14014864
+idx_tup_read  | 140148555
+idx_tup_fetch | 475
+-[ RECORD 54 ]+---------------------
+relid         | 16481
+indexrelid    | 16649
+schemaname    | public
+relname       | pi9
+indexrelname  | pi9_registersegment
+idx_scan      | 14018908
+idx_tup_read  | 140048594
+idx_tup_fetch | 3759237
+-[ RECORD 55 ]+---------------------
+relid         | 16521
+indexrelid    | 16650
+schemaname    | public
+relname       | pi13
+indexrelname  | pi13_marketsegment
+idx_scan      | 13982837
+idx_tup_read  | 139828261
+idx_tup_fetch | 3385504
+-[ RECORD 56 ]+---------------------
+relid         | 16481
+indexrelid    | 16662
+schemaname    | public
+relname       | pi9
+indexrelname  | pi9_pdc
+idx_scan      | 14020190
+idx_tup_read  | 140201803
+idx_tup_fetch | 353
+-[ RECORD 57 ]+---------------------
+relid         | 16521
+indexrelid    | 16663
+schemaname    | public
+relname       | pi13
+indexrelname  | pi13_registersegment
+idx_scan      | 13988404
+idx_tup_read  | 139744380
+idx_tup_fetch | 3773138
+-[ RECORD 58 ]+---------------------
+relid         | 16521
+indexrelid    | 16676
+schemaname    | public
+relname       | pi13
+indexrelname  | pi13_pdc
+idx_scan      | 13991703
+idx_tup_read  | 139916960
+idx_tup_fetch | 419
+-[ RECORD 59 ]+---------------------
+relid         | 16451
+indexrelid    | 16651
+schemaname    | public
+relname       | pi6
+indexrelname  | pi6_pdc
+idx_scan      | 14193319
+idx_tup_read  | 141933026
+idx_tup_fetch | 389
+-[ RECORD 60 ]+---------------------
+relid         | 16491
+indexrelid    | 16652
+schemaname    | public
+relname       | pi10
+indexrelname  | pi10_registersegment
+idx_scan      | 14022791
+idx_tup_read  | 140088891
+idx_tup_fetch | 3246608
+-[ RECORD 61 ]+---------------------
+relid         | 16531
+indexrelid    | 16653
+schemaname    | public
+relname       | pi14
+indexrelname  | pi14_marketsegment
+idx_scan      | 14052636
+idx_tup_read  | 140526164
+idx_tup_fetch | 3390574
+-[ RECORD 62 ]+---------------------
+relid         | 16541
+indexrelid    | 16655
+schemaname    | public
+relname       | pi15
+indexrelname  | pi15_marketsegment
+idx_scan      | 14091033
+idx_tup_read  | 140910182
+idx_tup_fetch | 3421833
+-[ RECORD 63 ]+---------------------
+relid         | 16551
+indexrelid    | 16660
+schemaname    | public
+relname       | pi16
+indexrelname  | pi16_marketsegment
+idx_scan      | 14013201
+idx_tup_read  | 140131930
+idx_tup_fetch | 3399932
+-[ RECORD 64 ]+---------------------
+relid         | 16561
+indexrelid    | 16661
+schemaname    | public
+relname       | pi17
+indexrelname  | pi17_marketsegment
+idx_scan      | 14176589
+idx_tup_read  | 141765815
+idx_tup_fetch | 3446259
+-[ RECORD 65 ]+---------------------
+relid         | 16571
+indexrelid    | 16664
+schemaname    | public
+relname       | pi18
+indexrelname  | pi18_marketsegment
+idx_scan      | 14099487
+idx_tup_read  | 140994748
+idx_tup_fetch | 3418228
+-[ RECORD 66 ]+---------------------
+relid         | 16531
+indexrelid    | 16665
+schemaname    | public
+relname       | pi14
+indexrelname  | pi14_registersegment
+idx_scan      | 14044547
+idx_tup_read  | 140304612
+idx_tup_fetch | 3462531
+-[ RECORD 67 ]+---------------------
+relid         | 16581
+indexrelid    | 16666
+schemaname    | public
+relname       | pi19
+indexrelname  | pi19_marketsegment
+idx_scan      | 14123570
+idx_tup_read  | 141235581
+idx_tup_fetch | 3433204
+-[ RECORD 68 ]+---------------------
+relid         | 16491
+indexrelid    | 16667
+schemaname    | public
+relname       | pi10
+indexrelname  | pi10_pdc
+idx_scan      | 14025784
+idx_tup_read  | 140257700
+idx_tup_fetch | 309
+-[ RECORD 69 ]+---------------------
+relid         | 16541
+indexrelid    | 16668
+schemaname    | public
+relname       | pi15
+indexrelname  | pi15_registersegment
+idx_scan      | 14097898
+idx_tup_read  | 140838612
+idx_tup_fetch | 3478428
+-[ RECORD 70 ]+---------------------
+relid         | 16601
+indexrelid    | 16670
+schemaname    | public
+relname       | pi21
+indexrelname  | pi21_marketsegment
+idx_scan      | 14036230
+idx_tup_read  | 140362110
+idx_tup_fetch | 3408713
+-[ RECORD 71 ]+---------------------
+relid         | 16591
+indexrelid    | 16671
+schemaname    | public
+relname       | pi20
+indexrelname  | pi20_marketsegment
+idx_scan      | 13906569
+idx_tup_read  | 139065585
+idx_tup_fetch | 3357757
+-[ RECORD 72 ]+---------------------
+relid         | 16561
+indexrelid    | 16673
+schemaname    | public
+relname       | pi17
+indexrelname  | pi17_registersegment
+idx_scan      | 14169432
+idx_tup_read  | 141553010
+idx_tup_fetch | 3376818
+-[ RECORD 73 ]+---------------------
+relid         | 16551
+indexrelid    | 16674
+schemaname    | public
+relname       | pi16
+indexrelname  | pi16_registersegment
+idx_scan      | 14022983
+idx_tup_read  | 140091271
+idx_tup_fetch | 3319979
+-[ RECORD 74 ]+---------------------
+relid         | 16611
+indexrelid    | 16675
+schemaname    | public
+relname       | pi22
+indexrelname  | pi22_marketsegment
+idx_scan      | 14012041
+idx_tup_read  | 140120356
+idx_tup_fetch | 3394664
+-[ RECORD 75 ]+---------------------
+relid         | 16571
+indexrelid    | 16677
+schemaname    | public
+relname       | pi18
+indexrelname  | pi18_registersegment
+idx_scan      | 14110499
+idx_tup_read  | 140963170
+idx_tup_fetch | 3537016
+-[ RECORD 76 ]+---------------------
+relid         | 16531
+indexrelid    | 16678
+schemaname    | public
+relname       | pi14
+indexrelname  | pi14_pdc
+idx_scan      | 14051473
+idx_tup_read  | 140514603
+idx_tup_fetch | 363
+-[ RECORD 77 ]+---------------------
+relid         | 16581
+indexrelid    | 16679
+schemaname    | public
+relname       | pi19
+indexrelname  | pi19_registersegment
+idx_scan      | 14125594
+idx_tup_read  | 141116391
+idx_tup_fetch | 3685066
+-[ RECORD 78 ]+---------------------
+relid         | 16541
+indexrelid    | 16680
+schemaname    | public
+relname       | pi15
+indexrelname  | pi15_pdc
+idx_scan      | 14089917
+idx_tup_read  | 140899035
+idx_tup_fetch | 279
+-[ RECORD 79 ]+---------------------
+relid         | 16591
+indexrelid    | 16681
+schemaname    | public
+relname       | pi20
+indexrelname  | pi20_registersegment
+idx_scan      | 13907461
+idx_tup_read  | 138934212
+idx_tup_fetch | 3539374
+-[ RECORD 80 ]+---------------------
+relid         | 16601
+indexrelid    | 16682
+schemaname    | public
+relname       | pi21
+indexrelname  | pi21_registersegment
+idx_scan      | 14041425
+idx_tup_read  | 140274250
+idx_tup_fetch | 3496856
+-[ RECORD 81 ]+---------------------
+relid         | 16611
+indexrelid    | 16683
+schemaname    | public
+relname       | pi22
+indexrelname  | pi22_registersegment
+idx_scan      | 14009542
+idx_tup_read  | 139955612
+idx_tup_fetch | 3702909
+-[ RECORD 82 ]+---------------------
+relid         | 16561
+indexrelid    | 16684
+schemaname    | public
+relname       | pi17
+indexrelname  | pi17_pdc
+idx_scan      | 14166267
+idx_tup_read  | 141662581
+idx_tup_fetch | 317
+-[ RECORD 83 ]+---------------------
+relid         | 16551
+indexrelid    | 16685
+schemaname    | public
+relname       | pi16
+indexrelname  | pi16_pdc
+idx_scan      | 14010024
+idx_tup_read  | 140100082
+idx_tup_fetch | 215
+-[ RECORD 84 ]+---------------------
+relid         | 16571
+indexrelid    | 16686
+schemaname    | public
+relname       | pi18
+indexrelname  | pi18_pdc
+idx_scan      | 14097102
+idx_tup_read  | 140970955
+idx_tup_fetch | 288
+-[ RECORD 85 ]+---------------------
+relid         | 16581
+indexrelid    | 16687
+schemaname    | public
+relname       | pi19
+indexrelname  | pi19_pdc
+idx_scan      | 14119172
+idx_tup_read  | 141191516
+idx_tup_fetch | 467
+-[ RECORD 86 ]+---------------------
+relid         | 16601
+indexrelid    | 16688
+schemaname    | public
+relname       | pi21
+indexrelname  | pi21_pdc
+idx_scan      | 14046282
+idx_tup_read  | 140462676
+idx_tup_fetch | 405
+-[ RECORD 87 ]+---------------------
+relid         | 16591
+indexrelid    | 16689
+schemaname    | public
+relname       | pi20
+indexrelname  | pi20_pdc
+idx_scan      | 13911955
+idx_tup_read  | 139119446
+idx_tup_fetch | 330
+-[ RECORD 88 ]+---------------------
+relid         | 16611
+indexrelid    | 16690
+schemaname    | public
+relname       | pi22
+indexrelname  | pi22_pdc
+idx_scan      | 14009202
+idx_tup_read  | 140091937
+idx_tup_fetch | 312
+

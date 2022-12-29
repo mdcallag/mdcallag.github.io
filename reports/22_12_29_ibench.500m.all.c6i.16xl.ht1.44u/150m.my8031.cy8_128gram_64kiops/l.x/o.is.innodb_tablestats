@@ -1,0 +1,780 @@
+*************************** 1. row ***************************
+         TABLE_ID: 1025
+             NAME: mysql/db
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 1
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 2. row ***************************
+         TABLE_ID: 1026
+             NAME: mysql/user
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 4
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 3. row ***************************
+         TABLE_ID: 1027
+             NAME: mysql/default_roles
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 4. row ***************************
+         TABLE_ID: 1028
+             NAME: mysql/role_edges
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 5. row ***************************
+         TABLE_ID: 1029
+             NAME: mysql/global_grants
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 57
+ CLUST_INDEX_SIZE: 3
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 6. row ***************************
+         TABLE_ID: 1030
+             NAME: mysql/password_history
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 7. row ***************************
+         TABLE_ID: 1031
+             NAME: mysql/func
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 8. row ***************************
+         TABLE_ID: 1032
+             NAME: mysql/plugin
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 9. row ***************************
+         TABLE_ID: 1058
+             NAME: mysql/help_topic
+STATS_INITIALIZED: Uninitialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 0
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 10. row ***************************
+         TABLE_ID: 1059
+             NAME: mysql/help_category
+STATS_INITIALIZED: Uninitialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 0
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 11. row ***************************
+         TABLE_ID: 1061
+             NAME: mysql/help_relation
+STATS_INITIALIZED: Uninitialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 0
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 12. row ***************************
+         TABLE_ID: 1036
+             NAME: mysql/servers
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 13. row ***************************
+         TABLE_ID: 1037
+             NAME: mysql/tables_priv
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 1
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 14. row ***************************
+         TABLE_ID: 1038
+             NAME: mysql/columns_priv
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 15. row ***************************
+         TABLE_ID: 1060
+             NAME: mysql/help_keyword
+STATS_INITIALIZED: Uninitialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 0
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 16. row ***************************
+         TABLE_ID: 1040
+             NAME: mysql/time_zone_name
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 17. row ***************************
+         TABLE_ID: 1041
+             NAME: mysql/time_zone
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 1
+        REF_COUNT: 1
+*************************** 18. row ***************************
+         TABLE_ID: 1042
+             NAME: mysql/time_zone_transition
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 19. row ***************************
+         TABLE_ID: 1043
+             NAME: mysql/time_zone_transition_type
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 20. row ***************************
+         TABLE_ID: 1044
+             NAME: mysql/time_zone_leap_second
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 21. row ***************************
+         TABLE_ID: 1045
+             NAME: mysql/procs_priv
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 1
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 22. row ***************************
+         TABLE_ID: 1046
+             NAME: mysql/component
+STATS_INITIALIZED: Uninitialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 0
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 1
+        REF_COUNT: 1
+*************************** 23. row ***************************
+         TABLE_ID: 1047
+             NAME: mysql/slave_relay_log_info
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 24. row ***************************
+         TABLE_ID: 1048
+             NAME: mysql/slave_master_info
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 25. row ***************************
+         TABLE_ID: 1049
+             NAME: mysql/slave_worker_info
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 26. row ***************************
+         TABLE_ID: 1050
+             NAME: mysql/gtid_executed
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 3
+*************************** 27. row ***************************
+         TABLE_ID: 1051
+             NAME: mysql/replication_asynchronous_connection_failover
+STATS_INITIALIZED: Uninitialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 0
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 28. row ***************************
+         TABLE_ID: 1052
+             NAME: mysql/replication_asynchronous_connection_failover_managed
+STATS_INITIALIZED: Uninitialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 0
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 29. row ***************************
+         TABLE_ID: 1053
+             NAME: mysql/replication_group_member_actions
+STATS_INITIALIZED: Uninitialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 0
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 30. row ***************************
+         TABLE_ID: 1054
+             NAME: mysql/replication_group_configuration_version
+STATS_INITIALIZED: Uninitialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 0
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 31. row ***************************
+         TABLE_ID: 1055
+             NAME: mysql/server_cost
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 6
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 32. row ***************************
+         TABLE_ID: 1056
+             NAME: mysql/engine_cost
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 33. row ***************************
+         TABLE_ID: 1057
+             NAME: mysql/proxies_priv
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 1
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 1
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 34. row ***************************
+         TABLE_ID: 1062
+             NAME: sys/sys_config
+STATS_INITIALIZED: Uninitialized
+         NUM_ROWS: 0
+ CLUST_INDEX_SIZE: 0
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 0
+        REF_COUNT: 1
+*************************** 35. row ***************************
+         TABLE_ID: 1063
+             NAME: ib/pi1
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2338973
+ CLUST_INDEX_SIZE: 10029
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 3
+*************************** 36. row ***************************
+         TABLE_ID: 1064
+             NAME: ib/pi2
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2377536
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 37. row ***************************
+         TABLE_ID: 1065
+             NAME: ib/pi3
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2375007
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 38. row ***************************
+         TABLE_ID: 1066
+             NAME: ib/pi4
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2256604
+ CLUST_INDEX_SIZE: 9645
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 39. row ***************************
+         TABLE_ID: 1067
+             NAME: ib/pi5
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2229368
+ CLUST_INDEX_SIZE: 9517
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 40. row ***************************
+         TABLE_ID: 1068
+             NAME: ib/pi6
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2376254
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 41. row ***************************
+         TABLE_ID: 1069
+             NAME: ib/pi7
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2372984
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 42. row ***************************
+         TABLE_ID: 1070
+             NAME: ib/pi8
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2370730
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 43. row ***************************
+         TABLE_ID: 1072
+             NAME: ib/pi10
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2154306
+ CLUST_INDEX_SIZE: 9196
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 44. row ***************************
+         TABLE_ID: 1071
+             NAME: ib/pi9
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2130825
+ CLUST_INDEX_SIZE: 9132
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 45. row ***************************
+         TABLE_ID: 1073
+             NAME: ib/pi11
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 1549582
+ CLUST_INDEX_SIZE: 6634
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 46. row ***************************
+         TABLE_ID: 1074
+             NAME: ib/pi12
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 1546156
+ CLUST_INDEX_SIZE: 6633
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 47. row ***************************
+         TABLE_ID: 1075
+             NAME: ib/pi13
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2374040
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 48. row ***************************
+         TABLE_ID: 1076
+             NAME: ib/pi14
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2374040
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 49. row ***************************
+         TABLE_ID: 1079
+             NAME: ib/pi17
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 1604296
+ CLUST_INDEX_SIZE: 6890
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 50. row ***************************
+         TABLE_ID: 1078
+             NAME: ib/pi16
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 1621978
+ CLUST_INDEX_SIZE: 6954
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 51. row ***************************
+         TABLE_ID: 1077
+             NAME: ib/pi15
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2374547
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 52. row ***************************
+         TABLE_ID: 1081
+             NAME: ib/pi19
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 1143368
+ CLUST_INDEX_SIZE: 4904
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 53. row ***************************
+         TABLE_ID: 1082
+             NAME: ib/pi20
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2376019
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 54. row ***************************
+         TABLE_ID: 1083
+             NAME: ib/pi21
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2373490
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 55. row ***************************
+         TABLE_ID: 1080
+             NAME: ib/pi18
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 1120176
+ CLUST_INDEX_SIZE: 4775
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 56. row ***************************
+         TABLE_ID: 1085
+             NAME: ib/pi23
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2377584
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 57. row ***************************
+         TABLE_ID: 1084
+             NAME: ib/pi22
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2372756
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 58. row ***************************
+         TABLE_ID: 1086
+             NAME: ib/pi24
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2376806
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 12599
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 59. row ***************************
+         TABLE_ID: 1089
+             NAME: ib/pi27
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 1823280
+ CLUST_INDEX_SIZE: 7787
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 60. row ***************************
+         TABLE_ID: 1087
+             NAME: ib/pi25
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 599933
+ CLUST_INDEX_SIZE: 2597
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 61. row ***************************
+         TABLE_ID: 1092
+             NAME: ib/pi30
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2377078
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 62. row ***************************
+         TABLE_ID: 1090
+             NAME: ib/pi28
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2375748
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 63. row ***************************
+         TABLE_ID: 1088
+             NAME: ib/pi26
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 612495
+ CLUST_INDEX_SIZE: 2661
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 64. row ***************************
+         TABLE_ID: 1091
+             NAME: ib/pi29
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2374781
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 65. row ***************************
+         TABLE_ID: 1093
+             NAME: ib/pi31
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2372521
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 66. row ***************************
+         TABLE_ID: 1094
+             NAME: ib/pi32
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 579808
+ CLUST_INDEX_SIZE: 2469
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 67. row ***************************
+         TABLE_ID: 1095
+             NAME: ib/pi33
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 539544
+ CLUST_INDEX_SIZE: 2341
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 68. row ***************************
+         TABLE_ID: 1096
+             NAME: ib/pi34
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 504512
+ CLUST_INDEX_SIZE: 2148
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 69. row ***************************
+         TABLE_ID: 1097
+             NAME: ib/pi35
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 456776
+ CLUST_INDEX_SIZE: 1956
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 70. row ***************************
+         TABLE_ID: 1101
+             NAME: ib/pi39
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 1261499
+ CLUST_INDEX_SIZE: 5416
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 71. row ***************************
+         TABLE_ID: 1098
+             NAME: ib/pi36
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 432882
+ CLUST_INDEX_SIZE: 1892
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 72. row ***************************
+         TABLE_ID: 1103
+             NAME: ib/pi41
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2376065
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 73. row ***************************
+         TABLE_ID: 1102
+             NAME: ib/pi40
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2376254
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 74. row ***************************
+         TABLE_ID: 1104
+             NAME: ib/pi42
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2375559
+ CLUST_INDEX_SIZE: 10158
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 75. row ***************************
+         TABLE_ID: 1100
+             NAME: ib/pi38
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 426329
+ CLUST_INDEX_SIZE: 1828
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 76. row ***************************
+         TABLE_ID: 1099
+             NAME: ib/pi37
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 420357
+ CLUST_INDEX_SIZE: 1828
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 77. row ***************************
+         TABLE_ID: 1105
+             NAME: ib/pi43
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2300
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2
+*************************** 78. row ***************************
+         TABLE_ID: 1106
+             NAME: ib/pi44
+STATS_INITIALIZED: Initialized
+         NUM_ROWS: 2300
+ CLUST_INDEX_SIZE: 1
+ OTHER_INDEX_SIZE: 0
+ MODIFIED_COUNTER: 0
+          AUTOINC: 2385501
+        REF_COUNT: 2

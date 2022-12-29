@@ -1,0 +1,12 @@
+*************************** 1. row ***************************
+       Table: pi1
+Create Table: CREATE TABLE `pi1` (
+  `transactionid` bigint NOT NULL AUTO_INCREMENT,
+  `dateandtime` datetime DEFAULT NULL,
+  `cashregisterid` int NOT NULL,
+  `customerid` int NOT NULL,
+  `productid` int NOT NULL,
+  `price` float NOT NULL,
+  `data` varchar(4000) DEFAULT NULL,
+  PRIMARY KEY (`transactionid`)
+) ENGINE=InnoDB AUTO_INCREMENT=4766301 DEFAULT CHARSET=latin1

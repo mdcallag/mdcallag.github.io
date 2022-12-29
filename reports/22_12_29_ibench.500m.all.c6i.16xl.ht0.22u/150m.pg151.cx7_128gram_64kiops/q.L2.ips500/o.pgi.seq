@@ -1,0 +1,133 @@
+-[ RECORD 1 ]----------------------
+relid      | 16400
+schemaname | public
+relname    | pi1_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 2 ]----------------------
+relid      | 16460
+schemaname | public
+relname    | pi7_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 3 ]----------------------
+relid      | 16510
+schemaname | public
+relname    | pi12_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 4 ]----------------------
+relid      | 16560
+schemaname | public
+relname    | pi17_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 5 ]----------------------
+relid      | 16600
+schemaname | public
+relname    | pi21_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 6 ]----------------------
+relid      | 16410
+schemaname | public
+relname    | pi2_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 7 ]----------------------
+relid      | 16470
+schemaname | public
+relname    | pi8_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 8 ]----------------------
+relid      | 16520
+schemaname | public
+relname    | pi13_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 9 ]----------------------
+relid      | 16420
+schemaname | public
+relname    | pi3_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 10 ]---------------------
+relid      | 16430
+schemaname | public
+relname    | pi4_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 11 ]---------------------
+relid      | 16480
+schemaname | public
+relname    | pi9_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 12 ]---------------------
+relid      | 16530
+schemaname | public
+relname    | pi14_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 13 ]---------------------
+relid      | 16570
+schemaname | public
+relname    | pi18_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 14 ]---------------------
+relid      | 16610
+schemaname | public
+relname    | pi22_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 15 ]---------------------
+relid      | 16440
+schemaname | public
+relname    | pi5_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 16 ]---------------------
+relid      | 16490
+schemaname | public
+relname    | pi10_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 17 ]---------------------
+relid      | 16540
+schemaname | public
+relname    | pi15_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 18 ]---------------------
+relid      | 16580
+schemaname | public
+relname    | pi19_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 19 ]---------------------
+relid      | 16450
+schemaname | public
+relname    | pi6_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 20 ]---------------------
+relid      | 16500
+schemaname | public
+relname    | pi11_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 21 ]---------------------
+relid      | 16550
+schemaname | public
+relname    | pi16_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+-[ RECORD 22 ]---------------------
+relid      | 16590
+schemaname | public
+relname    | pi20_transactionid_seq
+blks_read  | 2
+blks_hit   | 9318
+

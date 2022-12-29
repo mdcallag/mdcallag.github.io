@@ -1,0 +1,7 @@
+2022-12-28T15:10:54.347197Z 0 [Warning] [MY-011068] [Server] The syntax '--ssl=off' is deprecated and will be removed in a future release. Please use --tls-version=invalid instead.
+2022-12-28T15:10:54.347882Z 0 [Warning] [MY-010080] [Server] The use of InnoDB is mandatory since MySQL 5.7. The former options like '--innodb=0/1/OFF/ON' or '--skip-innodb' are ignored.
+2022-12-28T15:10:54.349008Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-12-28T15:10:54.349018Z 0 [System] [MY-013169] [Server] /home/ubuntu/d/fbmy8028/bin/mysqld (mysqld 8.0.28) initializing of server in progress as process 440013
+2022-12-28T15:10:54.384540Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-12-28T15:10:54.672506Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-12-28T15:10:55.352935Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.

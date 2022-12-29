@@ -1,0 +1,17 @@
+                                                                           Table "public.pi1"
+     Column     |            Type             | Collation | Nullable |                  Default                   | Storage  | Compression | Stats target | Description 
+----------------+-----------------------------+-----------+----------+--------------------------------------------+----------+-------------+--------------+-------------
+ transactionid  | bigint                      |           | not null | nextval('pi1_transactionid_seq'::regclass) | plain    |             |              | 
+ dateandtime    | timestamp without time zone |           |          |                                            | plain    |             |              | 
+ cashregisterid | integer                     |           | not null |                                            | plain    |             |              | 
+ customerid     | integer                     |           | not null |                                            | plain    |             |              | 
+ productid      | integer                     |           | not null |                                            | plain    |             |              | 
+ price          | real                        |           | not null |                                            | plain    |             |              | 
+ data           | character varying(4000)     |           |          |                                            | extended |             |              | 
+Indexes:
+    "pi1_pkey" PRIMARY KEY, btree (transactionid)
+    "pi1_marketsegment" btree (price, customerid)
+    "pi1_pdc" btree (price, dateandtime, customerid)
+    "pi1_registersegment" btree (cashregisterid, price, customerid)
+Access method: heap
+

@@ -1,0 +1,1977 @@
+2022-12-28 14:04:19.807 UTC [88567] LOG:  starting PostgreSQL 15.1 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, 64-bit
+2022-12-28 14:04:19.807 UTC [88567] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-12-28 14:04:19.813 UTC [88567] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-12-28 14:04:19.816 UTC [88570] LOG:  database system was shut down at 2022-12-28 14:04:19 UTC
+2022-12-28 14:04:19.818 UTC [88567] LOG:  database system is ready to accept connections
+2022-12-28 14:04:35.142 UTC [88568] LOG:  checkpoint starting: immediate force wait
+2022-12-28 14:04:35.343 UTC [88568] LOG:  checkpoint complete: wrote 1821 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.196 s, sync=0.003 s, total=0.202 s; sync files=519, longest=0.002 s, average=0.001 s; distance=12259 kB, estimate=12259 kB
+2022-12-28 14:05:37.024 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi1": index scans: 0
+	pages: 0 removed, 46689 remain, 46689 scanned (100.00% of total)
+	tuples: 0 removed, 4766300 remain, 0 are dead but not yet removable
+	removable cutoff: 747360, which was 30469 XIDs old when operation ended
+	new relfrozenxid: 734, which is 2 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.038 ms, write: 0.000 ms
+	avg read rate: 0.011 MB/s, avg write rate: 0.014 MB/s
+	buffer usage: 93426 hits, 3 misses, 4 dirtied
+	WAL usage: 46692 records, 4 full page images, 2787715 bytes
+	system usage: CPU: user: 0.46 s, system: 0.12 s, elapsed: 2.17 s
+2022-12-28 14:05:37.575 UTC [88802] LOG:  automatic analyze of table "ib.public.pi1"
+	I/O timings: read: 0.026 ms, write: 0.000 ms
+	avg read rate: 0.057 MB/s, avg write rate: 0.028 MB/s
+	buffer usage: 30401 hits, 4 misses, 2 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.00 s, elapsed: 0.55 s
+2022-12-28 14:05:38.915 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi7": index scans: 0
+	pages: 0 removed, 40123 remain, 40123 scanned (100.00% of total)
+	tuples: 0 removed, 4095959 remain, 0 are dead but not yet removable
+	removable cutoff: 788664, which was 27061 XIDs old when operation ended
+	new relfrozenxid: 37809, which is 839 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.039 ms, write: 0.000 ms
+	avg read rate: 0.017 MB/s, avg write rate: 0.023 MB/s
+	buffer usage: 80275 hits, 3 misses, 4 dirtied
+	WAL usage: 40124 records, 4 full page images, 2400203 bytes
+	system usage: CPU: user: 0.37 s, system: 0.13 s, elapsed: 1.33 s
+2022-12-28 14:05:39.461 UTC [88802] LOG:  automatic analyze of table "ib.public.pi7"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.014 MB/s, avg write rate: 0.014 MB/s
+	buffer usage: 30078 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.00 s, elapsed: 0.54 s
+2022-12-28 14:05:40.686 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi12": index scans: 0
+	pages: 0 removed, 36620 remain, 36620 scanned (100.00% of total)
+	tuples: 0 removed, 3738418 remain, 0 are dead but not yet removable
+	removable cutoff: 826208, which was 23640 XIDs old when operation ended
+	new relfrozenxid: 88067, which is 1439 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.038 ms, write: 0.000 ms
+	avg read rate: 0.019 MB/s, avg write rate: 0.026 MB/s
+	buffer usage: 73268 hits, 3 misses, 4 dirtied
+	WAL usage: 36621 records, 4 full page images, 2193526 bytes
+	system usage: CPU: user: 0.38 s, system: 0.08 s, elapsed: 1.22 s
+2022-12-28 14:05:41.210 UTC [88802] LOG:  automatic analyze of table "ib.public.pi12"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.015 MB/s, avg write rate: 0.015 MB/s
+	buffer usage: 30071 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.20 s, system: 0.00 s, elapsed: 0.52 s
+2022-12-28 14:05:42.245 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi17": index scans: 0
+	pages: 0 removed, 32243 remain, 32243 scanned (100.00% of total)
+	tuples: 0 removed, 3291516 remain, 0 are dead but not yet removable
+	removable cutoff: 859406, which was 18485 XIDs old when operation ended
+	new relfrozenxid: 166876, which is 2228 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.009 ms, write: 0.000 ms
+	avg read rate: 0.008 MB/s, avg write rate: 0.008 MB/s
+	buffer usage: 64512 hits, 1 misses, 1 dirtied
+	WAL usage: 32243 records, 1 full page images, 1910663 bytes
+	system usage: CPU: user: 0.30 s, system: 0.05 s, elapsed: 1.03 s
+2022-12-28 14:05:42.812 UTC [88802] LOG:  automatic analyze of table "ib.public.pi17"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30068 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.25 s, system: 0.00 s, elapsed: 0.56 s
+2022-12-28 14:05:43.798 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi21": index scans: 0
+	pages: 0 removed, 30149 remain, 30149 scanned (100.00% of total)
+	tuples: 0 removed, 3077780 remain, 0 are dead but not yet removable
+	removable cutoff: 888035, which was 17403 XIDs old when operation ended
+	new relfrozenxid: 239437, which is 2429 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.030 ms, write: 0.000 ms
+	avg read rate: 0.016 MB/s, avg write rate: 0.024 MB/s
+	buffer usage: 60323 hits, 2 misses, 3 dirtied
+	WAL usage: 30151 records, 3 full page images, 1803599 bytes
+	system usage: CPU: user: 0.33 s, system: 0.03 s, elapsed: 0.98 s
+2022-12-28 14:05:44.373 UTC [88802] LOG:  automatic analyze of table "ib.public.pi21"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.014 MB/s, avg write rate: 0.014 MB/s
+	buffer usage: 30070 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.26 s, system: 0.00 s, elapsed: 0.57 s
+2022-12-28 14:05:45.826 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi2": index scans: 0
+	pages: 0 removed, 46689 remain, 46689 scanned (100.00% of total)
+	tuples: 0 removed, 4766300 remain, 0 are dead but not yet removable
+	removable cutoff: 914771, which was 23122 XIDs old when operation ended
+	new relfrozenxid: 14010, which is 149 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.043 ms, write: 0.000 ms
+	avg read rate: 0.016 MB/s, avg write rate: 0.022 MB/s
+	buffer usage: 93409 hits, 3 misses, 4 dirtied
+	WAL usage: 46692 records, 4 full page images, 2787715 bytes
+	system usage: CPU: user: 0.45 s, system: 0.01 s, elapsed: 1.45 s
+2022-12-28 14:05:46.360 UTC [88802] LOG:  automatic analyze of table "ib.public.pi2"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.015 MB/s, avg write rate: 0.015 MB/s
+	buffer usage: 30071 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.00 s, elapsed: 0.53 s
+2022-12-28 14:05:47.804 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi8": index scans: 0
+	pages: 0 removed, 46690 remain, 46690 scanned (100.00% of total)
+	tuples: 0 removed, 4766300 remain, 0 are dead but not yet removable
+	removable cutoff: 946218, which was 21854 XIDs old when operation ended
+	new relfrozenxid: 45708, which is 895 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.039 ms, write: 0.000 ms
+	avg read rate: 0.016 MB/s, avg write rate: 0.022 MB/s
+	buffer usage: 93411 hits, 3 misses, 4 dirtied
+	WAL usage: 46693 records, 4 full page images, 2787774 bytes
+	system usage: CPU: user: 0.40 s, system: 0.04 s, elapsed: 1.44 s
+2022-12-28 14:05:48.315 UTC [88802] LOG:  automatic analyze of table "ib.public.pi8"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30069 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.18 s, system: 0.00 s, elapsed: 0.51 s
+2022-12-28 14:05:49.638 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi13": index scans: 0
+	pages: 0 removed, 43886 remain, 43886 scanned (100.00% of total)
+	tuples: 0 removed, 4480077 remain, 0 are dead but not yet removable
+	removable cutoff: 975231, which was 16179 XIDs old when operation ended
+	new relfrozenxid: 101862, which is 1595 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.020 ms, write: 0.000 ms
+	avg read rate: 0.012 MB/s, avg write rate: 0.012 MB/s
+	buffer usage: 87803 hits, 2 misses, 2 dirtied
+	WAL usage: 43886 records, 2 full page images, 2605797 bytes
+	system usage: CPU: user: 0.31 s, system: 0.03 s, elapsed: 1.32 s
+2022-12-28 14:05:50.153 UTC [88802] LOG:  automatic analyze of table "ib.public.pi13"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.015 MB/s, avg write rate: 0.015 MB/s
+	buffer usage: 30071 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.17 s, system: 0.00 s, elapsed: 0.51 s
+2022-12-28 14:05:51.515 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi3": index scans: 0
+	pages: 0 removed, 46690 remain, 46690 scanned (100.00% of total)
+	tuples: 0 removed, 4766300 remain, 0 are dead but not yet removable
+	removable cutoff: 997446, which was 14042 XIDs old when operation ended
+	new relfrozenxid: 16552, which is 282 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.044 ms, write: 0.000 ms
+	avg read rate: 0.017 MB/s, avg write rate: 0.023 MB/s
+	buffer usage: 93411 hits, 3 misses, 4 dirtied
+	WAL usage: 46693 records, 4 full page images, 2787774 bytes
+	system usage: CPU: user: 0.33 s, system: 0.00 s, elapsed: 1.36 s
+2022-12-28 14:05:52.023 UTC [88802] LOG:  automatic analyze of table "ib.public.pi3"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.015 MB/s, avg write rate: 0.015 MB/s
+	buffer usage: 30071 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.17 s, system: 0.00 s, elapsed: 0.50 s
+2022-12-28 14:05:53.382 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi4": index scans: 0
+	pages: 0 removed, 46691 remain, 46691 scanned (100.00% of total)
+	tuples: 0 removed, 4766300 remain, 0 are dead but not yet removable
+	removable cutoff: 1016347, which was 11883 XIDs old when operation ended
+	new relfrozenxid: 20251, which is 422 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.043 ms, write: 0.000 ms
+	avg read rate: 0.017 MB/s, avg write rate: 0.023 MB/s
+	buffer usage: 93413 hits, 3 misses, 4 dirtied
+	WAL usage: 46694 records, 4 full page images, 2787833 bytes
+	system usage: CPU: user: 0.33 s, system: 0.00 s, elapsed: 1.35 s
+2022-12-28 14:05:53.883 UTC [88802] LOG:  automatic analyze of table "ib.public.pi4"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30069 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.16 s, system: 0.00 s, elapsed: 0.50 s
+2022-12-28 14:05:55.221 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi9": index scans: 0
+	pages: 0 removed, 46690 remain, 46690 scanned (100.00% of total)
+	tuples: 0 removed, 4766300 remain, 0 are dead but not yet removable
+	removable cutoff: 1032393, which was 8137 XIDs old when operation ended
+	new relfrozenxid: 54852, which is 1059 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.032 ms, write: 0.000 ms
+	avg read rate: 0.018 MB/s, avg write rate: 0.023 MB/s
+	buffer usage: 93411 hits, 3 misses, 4 dirtied
+	WAL usage: 46693 records, 4 full page images, 2787774 bytes
+	system usage: CPU: user: 0.32 s, system: 0.01 s, elapsed: 1.33 s
+2022-12-28 14:05:55.712 UTC [88802] LOG:  automatic analyze of table "ib.public.pi9"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.016 MB/s, avg write rate: 0.016 MB/s
+	buffer usage: 30070 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.16 s, system: 0.00 s, elapsed: 0.49 s
+2022-12-28 14:05:57.038 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi14": index scans: 0
+	pages: 0 removed, 46692 remain, 46692 scanned (100.00% of total)
+	tuples: 0 removed, 4766300 remain, 0 are dead but not yet removable
+	removable cutoff: 1042743, which was 4980 XIDs old when operation ended
+	new relfrozenxid: 116969, which is 1960 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.038 ms, write: 0.000 ms
+	avg read rate: 0.018 MB/s, avg write rate: 0.024 MB/s
+	buffer usage: 93415 hits, 3 misses, 4 dirtied
+	WAL usage: 46695 records, 4 full page images, 2787892 bytes
+	system usage: CPU: user: 0.31 s, system: 0.02 s, elapsed: 1.32 s
+2022-12-28 14:05:57.516 UTC [88802] LOG:  automatic analyze of table "ib.public.pi14"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.016 MB/s, avg write rate: 0.016 MB/s
+	buffer usage: 30071 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.16 s, system: 0.00 s, elapsed: 0.47 s
+2022-12-28 14:05:58.905 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi18": index scans: 0
+	pages: 0 removed, 46689 remain, 46689 scanned (100.00% of total)
+	tuples: 0 removed, 4766300 remain, 0 are dead but not yet removable
+	removable cutoff: 1048961, which was 413 XIDs old when operation ended
+	new relfrozenxid: 183815, which is 1953 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.041 ms, write: 0.000 ms
+	avg read rate: 0.017 MB/s, avg write rate: 0.022 MB/s
+	buffer usage: 93409 hits, 3 misses, 4 dirtied
+	WAL usage: 46692 records, 4 full page images, 2787715 bytes
+	system usage: CPU: user: 0.41 s, system: 0.00 s, elapsed: 1.38 s
+2022-12-28 14:05:59.377 UTC [88802] LOG:  automatic analyze of table "ib.public.pi18"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30069 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.16 s, system: 0.00 s, elapsed: 0.47 s
+2022-12-28 14:06:00.670 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi22": index scans: 0
+	pages: 0 removed, 46690 remain, 46690 scanned (100.00% of total)
+	tuples: 0 removed, 4766300 remain, 0 are dead but not yet removable
+	removable cutoff: 1049375, which was 0 XIDs old when operation ended
+	new relfrozenxid: 259474, which is 2337 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.038 ms, write: 0.000 ms
+	avg read rate: 0.018 MB/s, avg write rate: 0.024 MB/s
+	buffer usage: 93411 hits, 3 misses, 4 dirtied
+	WAL usage: 46693 records, 4 full page images, 2787774 bytes
+	system usage: CPU: user: 0.31 s, system: 0.01 s, elapsed: 1.29 s
+2022-12-28 14:06:01.195 UTC [88802] LOG:  automatic analyze of table "ib.public.pi22"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.015 MB/s, avg write rate: 0.015 MB/s
+	buffer usage: 30071 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.20 s, system: 0.00 s, elapsed: 0.52 s
+2022-12-28 14:06:02.526 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi5": index scans: 0
+	pages: 0 removed, 46691 remain, 46691 scanned (100.00% of total)
+	tuples: 0 removed, 4766300 remain, 0 are dead but not yet removable
+	removable cutoff: 1049422, which was 47 XIDs old when operation ended
+	new relfrozenxid: 25045, which is 550 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.052 ms, write: 0.000 ms
+	avg read rate: 0.018 MB/s, avg write rate: 0.023 MB/s
+	buffer usage: 93413 hits, 3 misses, 4 dirtied
+	WAL usage: 46694 records, 4 full page images, 2787833 bytes
+	system usage: CPU: user: 0.36 s, system: 0.00 s, elapsed: 1.33 s
+2022-12-28 14:06:03.000 UTC [88802] LOG:  automatic analyze of table "ib.public.pi5"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.016 MB/s, avg write rate: 0.016 MB/s
+	buffer usage: 30071 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.16 s, system: 0.00 s, elapsed: 0.47 s
+2022-12-28 14:06:04.272 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi10": index scans: 0
+	pages: 0 removed, 46690 remain, 46690 scanned (100.00% of total)
+	tuples: 0 removed, 4766300 remain, 0 are dead but not yet removable
+	removable cutoff: 1049422, which was 142 XIDs old when operation ended
+	new relfrozenxid: 64810, which is 1194 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.042 ms, write: 0.000 ms
+	avg read rate: 0.018 MB/s, avg write rate: 0.025 MB/s
+	buffer usage: 93411 hits, 3 misses, 4 dirtied
+	WAL usage: 46693 records, 4 full page images, 2787774 bytes
+	system usage: CPU: user: 0.31 s, system: 0.00 s, elapsed: 1.27 s
+2022-12-28 14:06:04.751 UTC [88802] LOG:  automatic analyze of table "ib.public.pi10"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30069 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.16 s, system: 0.00 s, elapsed: 0.47 s
+2022-12-28 14:06:04.851 UTC [93144] LOG:  automatic analyze of table "template1.pg_catalog.pg_type"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 3.906 MB/s, avg write rate: 15.625 MB/s
+	buffer usage: 1073 hits, 3 misses, 12 dirtied
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 14:06:04.862 UTC [93144] LOG:  automatic analyze of table "template1.pg_catalog.pg_attribute"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 1.302 MB/s, avg write rate: 4.557 MB/s
+	buffer usage: 518 hits, 2 misses, 7 dirtied
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.01 s
+2022-12-28 14:06:04.863 UTC [93144] LOG:  automatic aggressive vacuum of table "template1.pg_catalog.pg_class": index scans: 0
+	pages: 0 removed, 14 remain, 14 scanned (100.00% of total)
+	tuples: 0 removed, 410 remain, 0 are dead but not yet removable
+	removable cutoff: 1049615, which was 0 XIDs old when operation ended
+	new relfrozenxid: 1049615, which is 1048899 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 69.754 MB/s
+	buffer usage: 54 hits, 0 misses, 1 dirtied
+	WAL usage: 1 records, 1 full page images, 3653 bytes
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 14:06:04.870 UTC [93144] LOG:  automatic analyze of table "template1.pg_catalog.pg_class"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.977 MB/s, avg write rate: 2.930 MB/s
+	buffer usage: 526 hits, 1 misses, 3 dirtied
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 14:06:04.875 UTC [93144] LOG:  automatic analyze of table "template1.pg_catalog.pg_constraint"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 3.125 MB/s, avg write rate: 4.688 MB/s
+	buffer usage: 551 hits, 2 misses, 3 dirtied
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 14:06:04.876 UTC [93144] LOG:  automatic analyze of table "template1.pg_catalog.pg_rewrite"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 7.812 MB/s
+	buffer usage: 127 hits, 0 misses, 1 dirtied
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 14:06:04.879 UTC [93144] LOG:  automatic analyze of table "template1.pg_catalog.pg_description"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 15.625 MB/s
+	buffer usage: 126 hits, 0 misses, 6 dirtied
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 14:06:04.881 UTC [93144] LOG:  automatic aggressive vacuum of table "template1.pg_catalog.pg_depend": index scans: 1
+	pages: 0 removed, 14 remain, 14 scanned (100.00% of total)
+	tuples: 8 removed, 1850 remain, 0 are dead but not yet removable
+	removable cutoff: 1049619, which was 0 XIDs old when operation ended
+	new relfrozenxid: 1049619, which is 1048903 XIDs ahead of previous value
+	index scan needed: 1 pages from table (7.14% of total) had 8 dead item identifiers removed
+	index "pg_depend_depender_index": pages: 10 in total, 0 newly deleted, 0 currently deleted, 0 reusable
+	index "pg_depend_reference_index": pages: 8 in total, 0 newly deleted, 0 currently deleted, 0 reusable
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 25.752 MB/s
+	buffer usage: 98 hits, 0 misses, 8 dirtied
+	WAL usage: 16 records, 8 full page images, 62025 bytes
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 14:06:04.886 UTC [93144] LOG:  automatic analyze of table "template1.pg_catalog.pg_depend"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 1.562 MB/s, avg write rate: 3.125 MB/s
+	buffer usage: 119 hits, 1 misses, 2 dirtied
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 14:06:04.886 UTC [93144] LOG:  automatic analyze of table "template1.pg_catalog.pg_ts_config_map"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 7.812 MB/s
+	buffer usage: 58 hits, 0 misses, 1 dirtied
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 14:06:04.887 UTC [93144] LOG:  automatic analyze of table "template1.pg_catalog.pg_init_privs"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 31.250 MB/s
+	buffer usage: 88 hits, 0 misses, 4 dirtied
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 14:06:04.890 UTC [93144] LOG:  automatic analyze of table "template1.information_schema.sql_features"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 3.906 MB/s, avg write rate: 9.766 MB/s
+	buffer usage: 199 hits, 2 misses, 5 dirtied
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 14:06:06.113 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi15": index scans: 0
+	pages: 0 removed, 46690 remain, 46690 scanned (100.00% of total)
+	tuples: 0 removed, 4766300 remain, 0 are dead but not yet removable
+	removable cutoff: 1049422, which was 249 XIDs old when operation ended
+	new relfrozenxid: 132924, which is 1817 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.050 ms, write: 0.000 ms
+	avg read rate: 0.017 MB/s, avg write rate: 0.023 MB/s
+	buffer usage: 93411 hits, 3 misses, 4 dirtied
+	WAL usage: 46693 records, 4 full page images, 2787774 bytes
+	system usage: CPU: user: 0.31 s, system: 0.00 s, elapsed: 1.36 s
+2022-12-28 14:06:06.597 UTC [88802] LOG:  automatic analyze of table "ib.public.pi15"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.016 MB/s, avg write rate: 0.016 MB/s
+	buffer usage: 30071 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.16 s, system: 0.00 s, elapsed: 0.48 s
+2022-12-28 14:06:08.126 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi19": index scans: 0
+	pages: 0 removed, 46688 remain, 46688 scanned (100.00% of total)
+	tuples: 0 removed, 4766300 remain, 0 are dead but not yet removable
+	removable cutoff: 1049422, which was 346 XIDs old when operation ended
+	new relfrozenxid: 201582, which is 2254 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.042 ms, write: 0.000 ms
+	avg read rate: 0.015 MB/s, avg write rate: 0.020 MB/s
+	buffer usage: 93407 hits, 3 misses, 4 dirtied
+	WAL usage: 46691 records, 4 full page images, 2787656 bytes
+	system usage: CPU: user: 0.31 s, system: 0.00 s, elapsed: 1.52 s
+2022-12-28 14:06:08.631 UTC [88802] LOG:  automatic analyze of table "ib.public.pi19"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.015 MB/s, avg write rate: 0.015 MB/s
+	buffer usage: 30071 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.17 s, system: 0.00 s, elapsed: 0.50 s
+2022-12-28 14:06:08.645 UTC [88802] LOG:  automatic analyze of table "ib.pg_catalog.pg_attribute"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 994 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.01 s
+2022-12-28 14:06:08.649 UTC [88802] LOG:  automatic analyze of table "ib.pg_catalog.pg_class"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 4.688 MB/s, avg write rate: 4.688 MB/s
+	buffer usage: 582 hits, 3 misses, 3 dirtied
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 14:06:08.651 UTC [88802] LOG:  automatic analyze of table "ib.pg_catalog.pg_depend"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 145 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 14:06:08.651 UTC [88802] LOG:  automatic analyze of table "ib.pg_catalog.pg_sequence"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 7.812 MB/s, avg write rate: 7.812 MB/s
+	buffer usage: 78 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 14:06:08.651 UTC [88802] LOG:  skipping vacuum of "pi6" --- lock not available
+2022-12-28 14:06:10.362 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi11": index scans: 0
+	pages: 0 removed, 46689 remain, 46689 scanned (100.00% of total)
+	tuples: 0 removed, 4766300 remain, 0 are dead but not yet removable
+	removable cutoff: 1049469, which was 402 XIDs old when operation ended
+	new relfrozenxid: 75757, which is 1348 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.038 ms, write: 0.000 ms
+	avg read rate: 0.014 MB/s, avg write rate: 0.018 MB/s
+	buffer usage: 93409 hits, 3 misses, 4 dirtied
+	WAL usage: 46692 records, 4 full page images, 2787715 bytes
+	system usage: CPU: user: 0.31 s, system: 0.01 s, elapsed: 1.71 s
+2022-12-28 14:06:10.851 UTC [88802] LOG:  automatic analyze of table "ib.public.pi11"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30069 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.17 s, system: 0.00 s, elapsed: 0.48 s
+2022-12-28 14:06:13.129 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi16": index scans: 0
+	pages: 0 removed, 46691 remain, 46691 scanned (100.00% of total)
+	tuples: 0 removed, 4766300 remain, 0 are dead but not yet removable
+	removable cutoff: 1049564, which was 454 XIDs old when operation ended
+	new relfrozenxid: 149470, which is 1909 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.050 ms, write: 0.000 ms
+	avg read rate: 0.010 MB/s, avg write rate: 0.014 MB/s
+	buffer usage: 93413 hits, 3 misses, 4 dirtied
+	WAL usage: 46694 records, 4 full page images, 2787833 bytes
+	system usage: CPU: user: 0.33 s, system: 0.02 s, elapsed: 2.27 s
+2022-12-28 14:06:13.617 UTC [88802] LOG:  automatic analyze of table "ib.public.pi16"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.016 MB/s, avg write rate: 0.016 MB/s
+	buffer usage: 30071 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.17 s, system: 0.00 s, elapsed: 0.48 s
+2022-12-28 14:06:17.604 UTC [88802] LOG:  automatic vacuum of table "ib.public.pi20": index scans: 0
+	pages: 0 removed, 46689 remain, 46689 scanned (100.00% of total)
+	tuples: 0 removed, 4766300 remain, 0 are dead but not yet removable
+	removable cutoff: 1049719, which was 495 XIDs old when operation ended
+	new relfrozenxid: 219979, which is 2363 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.038 ms, write: 0.000 ms
+	avg read rate: 0.006 MB/s, avg write rate: 0.008 MB/s
+	buffer usage: 93409 hits, 3 misses, 4 dirtied
+	WAL usage: 46692 records, 4 full page images, 2787715 bytes
+	system usage: CPU: user: 0.33 s, system: 0.05 s, elapsed: 3.98 s
+2022-12-28 14:06:18.099 UTC [88802] LOG:  automatic analyze of table "ib.public.pi20"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.016 MB/s, avg write rate: 0.016 MB/s
+	buffer usage: 30071 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.17 s, system: 0.00 s, elapsed: 0.49 s
+2022-12-28 14:06:35.471 UTC [93322] LOG:  automatic analyze of table "ib.public.pi7"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30531 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.17 s, system: 0.13 s, elapsed: 0.61 s
+2022-12-28 14:06:36.047 UTC [93322] LOG:  automatic analyze of table "ib.public.pi12"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.014 MB/s, avg write rate: 0.014 MB/s
+	buffer usage: 30166 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.17 s, system: 0.08 s, elapsed: 0.57 s
+2022-12-28 14:06:36.453 UTC [93322] LOG:  automatic vacuum of table "ib.public.pi17": index scans: 0
+	pages: 0 removed, 46735 remain, 14493 scanned (31.01% of total)
+	tuples: 0 removed, 4770882 remain, 0 are dead but not yet removable
+	removable cutoff: 1050477, which was 0 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.045 ms, write: 0.000 ms
+	avg read rate: 0.077 MB/s, avg write rate: 0.019 MB/s
+	buffer usage: 29068 hits, 4 misses, 1 dirtied
+	WAL usage: 14494 records, 1 full page images, 863472 bytes
+	system usage: CPU: user: 0.08 s, system: 0.01 s, elapsed: 0.40 s
+2022-12-28 14:06:36.982 UTC [93322] LOG:  automatic analyze of table "ib.public.pi17"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30095 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.17 s, system: 0.04 s, elapsed: 0.52 s
+2022-12-28 14:06:37.427 UTC [93322] LOG:  automatic vacuum of table "ib.public.pi21": index scans: 0
+	pages: 0 removed, 46734 remain, 16586 scanned (35.49% of total)
+	tuples: 0 removed, 4770919 remain, 0 are dead but not yet removable
+	removable cutoff: 1050530, which was 319 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.051 ms, write: 0.000 ms
+	avg read rate: 0.070 MB/s, avg write rate: 0.018 MB/s
+	buffer usage: 33254 hits, 4 misses, 1 dirtied
+	WAL usage: 16587 records, 1 full page images, 986959 bytes
+	system usage: CPU: user: 0.08 s, system: 0.02 s, elapsed: 0.44 s
+2022-12-28 14:06:37.944 UTC [93322] LOG:  automatic analyze of table "ib.public.pi21"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.015 MB/s, avg write rate: 0.015 MB/s
+	buffer usage: 30101 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.15 s, system: 0.04 s, elapsed: 0.51 s
+2022-12-28 14:06:37.948 UTC [93322] LOG:  automatic analyze of table "ib.pg_catalog.pg_index"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 1.562 MB/s, avg write rate: 1.562 MB/s
+	buffer usage: 640 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 14:06:39.248 UTC [93322] LOG:  automatic vacuum of table "ib.public.pi6": index scans: 0
+	pages: 0 removed, 46735 remain, 46735 scanned (100.00% of total)
+	tuples: 0 removed, 4770900 remain, 0 are dead but not yet removable
+	removable cutoff: 1051342, which was 2551 XIDs old when operation ended
+	new relfrozenxid: 30932, which is 678 XIDs ahead of previous value
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.075 ms, write: 0.000 ms
+	avg read rate: 0.036 MB/s, avg write rate: 0.024 MB/s
+	buffer usage: 93568 hits, 6 misses, 4 dirtied
+	WAL usage: 46738 records, 4 full page images, 2790429 bytes
+	system usage: CPU: user: 0.26 s, system: 0.06 s, elapsed: 1.29 s
+2022-12-28 14:06:39.736 UTC [93322] LOG:  automatic analyze of table "ib.public.pi6"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30083 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.16 s, system: 0.00 s, elapsed: 0.48 s
+2022-12-28 14:07:04.861 UTC [95570] LOG:  automatic aggressive vacuum of table "template1.pg_catalog.pg_statistic": index scans: 1
+	pages: 0 removed, 26 remain, 26 scanned (100.00% of total)
+	tuples: 152 removed, 404 remain, 0 are dead but not yet removable
+	removable cutoff: 1328202, which was 19 XIDs old when operation ended
+	new relfrozenxid: 1328202, which is 1327486 XIDs ahead of previous value
+	index scan needed: 12 pages from table (46.15% of total) had 151 dead item identifiers removed
+	index "pg_statistic_relid_att_inh_index": pages: 5 in total, 0 newly deleted, 0 currently deleted, 0 reusable
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 31.250 MB/s
+	buffer usage: 94 hits, 0 misses, 2 dirtied
+	WAL usage: 58 records, 3 full page images, 23051 bytes
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 14:07:35.600 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi1": index scans: 0
+	pages: 0 removed, 65989 remain, 19301 scanned (29.25% of total)
+	tuples: 0 removed, 6736346 remain, 0 are dead but not yet removable
+	removable cutoff: 1710153, which was 11390 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.015 ms, write: 0.000 ms
+	avg read rate: 0.011 MB/s, avg write rate: 0.011 MB/s
+	buffer usage: 38726 hits, 1 misses, 1 dirtied
+	WAL usage: 19301 records, 1 full page images, 1147085 bytes
+	system usage: CPU: user: 0.24 s, system: 0.08 s, elapsed: 0.73 s
+2022-12-28 14:07:36.230 UTC [95577] LOG:  automatic analyze of table "ib.public.pi1"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.012 MB/s, avg write rate: 0.012 MB/s
+	buffer usage: 30438 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.25 s, system: 0.05 s, elapsed: 0.62 s
+2022-12-28 14:07:37.004 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi7": index scans: 0
+	pages: 0 removed, 63459 remain, 23338 scanned (36.78% of total)
+	tuples: 0 removed, 6478227 remain, 0 are dead but not yet removable
+	removable cutoff: 1731494, which was 11875 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 46766 hits, 0 misses, 0 dirtied
+	WAL usage: 23338 records, 0 full page images, 1377071 bytes
+	system usage: CPU: user: 0.22 s, system: 0.05 s, elapsed: 0.77 s
+2022-12-28 14:07:37.616 UTC [95577] LOG:  automatic analyze of table "ib.public.pi7"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.013 MB/s, avg write rate: 0.013 MB/s
+	buffer usage: 30122 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.08 s, elapsed: 0.61 s
+2022-12-28 14:07:38.475 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi12": index scans: 0
+	pages: 0 removed, 62194 remain, 25576 scanned (41.12% of total)
+	tuples: 0 removed, 6349254 remain, 0 are dead but not yet removable
+	removable cutoff: 1753038, which was 13306 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 51241 hits, 0 misses, 0 dirtied
+	WAL usage: 25576 records, 0 full page images, 1509113 bytes
+	system usage: CPU: user: 0.22 s, system: 0.10 s, elapsed: 0.85 s
+2022-12-28 14:07:39.068 UTC [95577] LOG:  automatic analyze of table "ib.public.pi12"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30109 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.20 s, system: 0.07 s, elapsed: 0.59 s
+2022-12-28 14:07:39.540 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi17": index scans: 0
+	pages: 0 removed, 60554 remain, 13821 scanned (22.82% of total)
+	tuples: 0 removed, 6181594 remain, 0 are dead but not yet removable
+	removable cutoff: 1775451, which was 7334 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 27732 hits, 0 misses, 0 dirtied
+	WAL usage: 13821 records, 0 full page images, 815568 bytes
+	system usage: CPU: user: 0.14 s, system: 0.03 s, elapsed: 0.47 s
+2022-12-28 14:07:40.148 UTC [95577] LOG:  automatic analyze of table "ib.public.pi17"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30093 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.06 s, elapsed: 0.60 s
+2022-12-28 14:07:40.582 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi21": index scans: 0
+	pages: 0 removed, 59409 remain, 12676 scanned (21.34% of total)
+	tuples: 0 removed, 6064769 remain, 0 are dead but not yet removable
+	removable cutoff: 1792421, which was 6999 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 25440 hits, 0 misses, 0 dirtied
+	WAL usage: 12675 records, 0 full page images, 747954 bytes
+	system usage: CPU: user: 0.13 s, system: 0.03 s, elapsed: 0.43 s
+2022-12-28 14:07:41.194 UTC [95577] LOG:  automatic analyze of table "ib.public.pi21"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.013 MB/s, avg write rate: 0.013 MB/s
+	buffer usage: 30109 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.08 s, elapsed: 0.61 s
+2022-12-28 14:07:41.902 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi2": index scans: 0
+	pages: 0 removed, 67661 remain, 20973 scanned (31.00% of total)
+	tuples: 0 removed, 6907305 remain, 0 are dead but not yet removable
+	removable cutoff: 1808951, which was 11243 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.010 ms, write: 0.000 ms
+	avg read rate: 0.011 MB/s, avg write rate: 0.011 MB/s
+	buffer usage: 42038 hits, 1 misses, 1 dirtied
+	WAL usage: 20973 records, 1 full page images, 1245733 bytes
+	system usage: CPU: user: 0.22 s, system: 0.04 s, elapsed: 0.70 s
+2022-12-28 14:07:42.485 UTC [95577] LOG:  automatic analyze of table "ib.public.pi2"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30088 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.25 s, system: 0.02 s, elapsed: 0.58 s
+2022-12-28 14:07:43.109 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi8": index scans: 0
+	pages: 0 removed, 65527 remain, 18838 scanned (28.75% of total)
+	tuples: 0 removed, 6689287 remain, 0 are dead but not yet removable
+	removable cutoff: 1829310, which was 9986 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.013 ms, write: 0.000 ms
+	avg read rate: 0.013 MB/s, avg write rate: 0.013 MB/s
+	buffer usage: 37769 hits, 1 misses, 1 dirtied
+	WAL usage: 18838 records, 1 full page images, 1119768 bytes
+	system usage: CPU: user: 0.17 s, system: 0.05 s, elapsed: 0.62 s
+2022-12-28 14:07:43.684 UTC [95577] LOG:  automatic analyze of table "ib.public.pi8"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.014 MB/s, avg write rate: 0.014 MB/s
+	buffer usage: 30099 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.04 s, elapsed: 0.57 s
+2022-12-28 14:07:44.333 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi13": index scans: 0
+	pages: 0 removed, 63892 remain, 20007 scanned (31.31% of total)
+	tuples: 0 removed, 6522269 remain, 0 are dead but not yet removable
+	removable cutoff: 1848450, which was 10262 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 40103 hits, 0 misses, 0 dirtied
+	WAL usage: 20007 records, 0 full page images, 1180542 bytes
+	system usage: CPU: user: 0.19 s, system: 0.02 s, elapsed: 0.64 s
+2022-12-28 14:07:44.910 UTC [95577] LOG:  automatic analyze of table "ib.public.pi13"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30099 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.03 s, elapsed: 0.57 s
+2022-12-28 14:07:45.633 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi3": index scans: 0
+	pages: 0 removed, 68791 remain, 22102 scanned (32.13% of total)
+	tuples: 0 removed, 7022538 remain, 0 are dead but not yet removable
+	removable cutoff: 1867940, which was 11186 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.010 ms, write: 0.000 ms
+	avg read rate: 0.011 MB/s, avg write rate: 0.011 MB/s
+	buffer usage: 44296 hits, 1 misses, 1 dirtied
+	WAL usage: 22101 records, 1 full page images, 1312285 bytes
+	system usage: CPU: user: 0.20 s, system: 0.05 s, elapsed: 0.72 s
+2022-12-28 14:07:46.199 UTC [95577] LOG:  automatic analyze of table "ib.public.pi3"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.014 MB/s, avg write rate: 0.014 MB/s
+	buffer usage: 30092 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.01 s, elapsed: 0.56 s
+2022-12-28 14:07:46.925 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi4": index scans: 0
+	pages: 0 removed, 68785 remain, 22095 scanned (32.12% of total)
+	tuples: 0 removed, 7021860 remain, 0 are dead but not yet removable
+	removable cutoff: 1887789, which was 11015 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.011 ms, write: 0.000 ms
+	avg read rate: 0.011 MB/s, avg write rate: 0.011 MB/s
+	buffer usage: 44283 hits, 1 misses, 1 dirtied
+	WAL usage: 22094 records, 1 full page images, 1311872 bytes
+	system usage: CPU: user: 0.22 s, system: 0.03 s, elapsed: 0.72 s
+2022-12-28 14:07:47.508 UTC [95577] LOG:  automatic analyze of table "ib.public.pi4"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30097 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.24 s, system: 0.03 s, elapsed: 0.58 s
+2022-12-28 14:07:48.144 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi9": index scans: 0
+	pages: 0 removed, 66800 remain, 20111 scanned (30.11% of total)
+	tuples: 0 removed, 6819266 remain, 0 are dead but not yet removable
+	removable cutoff: 1907685, which was 9550 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.010 ms, write: 0.000 ms
+	avg read rate: 0.012 MB/s, avg write rate: 0.012 MB/s
+	buffer usage: 40315 hits, 1 misses, 1 dirtied
+	WAL usage: 20110 records, 1 full page images, 1194816 bytes
+	system usage: CPU: user: 0.18 s, system: 0.03 s, elapsed: 0.63 s
+2022-12-28 14:07:48.705 UTC [95577] LOG:  automatic analyze of table "ib.public.pi9"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.014 MB/s, avg write rate: 0.014 MB/s
+	buffer usage: 30103 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.01 s, elapsed: 0.56 s
+2022-12-28 14:07:49.309 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi14": index scans: 0
+	pages: 0 removed, 65191 remain, 18500 scanned (28.38% of total)
+	tuples: 0 removed, 6654858 remain, 0 are dead but not yet removable
+	removable cutoff: 1925387, which was 8555 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 37090 hits, 0 misses, 0 dirtied
+	WAL usage: 18499 records, 0 full page images, 1091570 bytes
+	system usage: CPU: user: 0.16 s, system: 0.04 s, elapsed: 0.60 s
+2022-12-28 14:07:49.881 UTC [95577] LOG:  automatic analyze of table "ib.public.pi14"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30087 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.02 s, elapsed: 0.57 s
+2022-12-28 14:07:50.459 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi18": index scans: 0
+	pages: 0 removed, 63981 remain, 17293 scanned (27.03% of total)
+	tuples: 0 removed, 6531548 remain, 0 are dead but not yet removable
+	removable cutoff: 1942094, which was 7991 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 34675 hits, 0 misses, 0 dirtied
+	WAL usage: 17292 records, 0 full page images, 1020357 bytes
+	system usage: CPU: user: 0.20 s, system: 0.02 s, elapsed: 0.57 s
+2022-12-28 14:07:51.025 UTC [95577] LOG:  automatic analyze of table "ib.public.pi18"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.014 MB/s, avg write rate: 0.014 MB/s
+	buffer usage: 30097 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.24 s, system: 0.01 s, elapsed: 0.56 s
+2022-12-28 14:07:51.531 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi22": index scans: 0
+	pages: 0 removed, 62973 remain, 16284 scanned (25.86% of total)
+	tuples: 0 removed, 6428518 remain, 0 are dead but not yet removable
+	removable cutoff: 1957698, which was 6848 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 32657 hits, 0 misses, 0 dirtied
+	WAL usage: 16283 records, 0 full page images, 960826 bytes
+	system usage: CPU: user: 0.14 s, system: 0.01 s, elapsed: 0.50 s
+2022-12-28 14:07:52.091 UTC [95577] LOG:  automatic analyze of table "ib.public.pi22"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30099 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.24 s, system: 0.00 s, elapsed: 0.55 s
+2022-12-28 14:07:52.856 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi5": index scans: 0
+	pages: 0 removed, 70083 remain, 23393 scanned (33.38% of total)
+	tuples: 0 removed, 7154028 remain, 0 are dead but not yet removable
+	removable cutoff: 1972185, which was 10154 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.015 ms, write: 0.000 ms
+	avg read rate: 0.010 MB/s, avg write rate: 0.010 MB/s
+	buffer usage: 46881 hits, 1 misses, 1 dirtied
+	WAL usage: 23394 records, 1 full page images, 1388572 bytes
+	system usage: CPU: user: 0.23 s, system: 0.03 s, elapsed: 0.76 s
+2022-12-28 14:07:53.396 UTC [95577] LOG:  automatic analyze of table "ib.public.pi5"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.014 MB/s, avg write rate: 0.014 MB/s
+	buffer usage: 30091 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.20 s, system: 0.01 s, elapsed: 0.54 s
+2022-12-28 14:07:54.094 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi10": index scans: 0
+	pages: 0 removed, 68578 remain, 21889 scanned (31.92% of total)
+	tuples: 0 removed, 7000696 remain, 0 are dead but not yet removable
+	removable cutoff: 1989481, which was 8918 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.011 ms, write: 0.000 ms
+	avg read rate: 0.011 MB/s, avg write rate: 0.011 MB/s
+	buffer usage: 43870 hits, 1 misses, 1 dirtied
+	WAL usage: 21889 records, 1 full page images, 1299777 bytes
+	system usage: CPU: user: 0.19 s, system: 0.03 s, elapsed: 0.69 s
+2022-12-28 14:07:54.633 UTC [95577] LOG:  automatic analyze of table "ib.public.pi10"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30096 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.20 s, system: 0.01 s, elapsed: 0.53 s
+2022-12-28 14:07:55.263 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi15": index scans: 0
+	pages: 0 removed, 67146 remain, 20457 scanned (30.47% of total)
+	tuples: 0 removed, 6854703 remain, 0 are dead but not yet removable
+	removable cutoff: 2005094, which was 7705 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.011 ms, write: 0.000 ms
+	avg read rate: 0.012 MB/s, avg write rate: 0.012 MB/s
+	buffer usage: 41006 hits, 1 misses, 1 dirtied
+	WAL usage: 20457 records, 1 full page images, 1215289 bytes
+	system usage: CPU: user: 0.17 s, system: 0.01 s, elapsed: 0.62 s
+2022-12-28 14:07:55.802 UTC [95577] LOG:  automatic analyze of table "ib.public.pi15"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.014 MB/s, avg write rate: 0.014 MB/s
+	buffer usage: 30102 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.20 s, system: 0.01 s, elapsed: 0.53 s
+2022-12-28 14:07:56.411 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi19": index scans: 0
+	pages: 0 removed, 65696 remain, 19009 scanned (28.93% of total)
+	tuples: 0 removed, 6706781 remain, 0 are dead but not yet removable
+	removable cutoff: 2018804, which was 6760 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.013 ms, write: 0.000 ms
+	avg read rate: 0.013 MB/s, avg write rate: 0.013 MB/s
+	buffer usage: 38110 hits, 1 misses, 1 dirtied
+	WAL usage: 19009 records, 1 full page images, 1129857 bytes
+	system usage: CPU: user: 0.18 s, system: 0.02 s, elapsed: 0.60 s
+2022-12-28 14:07:56.947 UTC [95577] LOG:  automatic analyze of table "ib.public.pi19"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30084 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.00 s, elapsed: 0.53 s
+2022-12-28 14:07:57.670 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi6": index scans: 0
+	pages: 0 removed, 70078 remain, 23344 scanned (33.31% of total)
+	tuples: 0 removed, 7154181 remain, 0 are dead but not yet removable
+	removable cutoff: 2031627, which was 7797 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.010 ms, write: 0.000 ms
+	avg read rate: 0.011 MB/s, avg write rate: 0.011 MB/s
+	buffer usage: 46782 hits, 1 misses, 1 dirtied
+	WAL usage: 23345 records, 1 full page images, 1385681 bytes
+	system usage: CPU: user: 0.17 s, system: 0.03 s, elapsed: 0.72 s
+2022-12-28 14:07:58.192 UTC [95577] LOG:  automatic analyze of table "ib.public.pi6"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.015 MB/s, avg write rate: 0.015 MB/s
+	buffer usage: 30107 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.19 s, system: 0.00 s, elapsed: 0.52 s
+2022-12-28 14:07:58.903 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi11": index scans: 0
+	pages: 0 removed, 69962 remain, 23274 scanned (33.27% of total)
+	tuples: 0 removed, 7142058 remain, 0 are dead but not yet removable
+	removable cutoff: 2044421, which was 6452 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.011 ms, write: 0.000 ms
+	avg read rate: 0.011 MB/s, avg write rate: 0.011 MB/s
+	buffer usage: 46641 hits, 1 misses, 1 dirtied
+	WAL usage: 23274 records, 1 full page images, 1381492 bytes
+	system usage: CPU: user: 0.15 s, system: 0.04 s, elapsed: 0.71 s
+2022-12-28 14:07:59.429 UTC [95577] LOG:  automatic analyze of table "ib.public.pi11"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.015 MB/s, avg write rate: 0.015 MB/s
+	buffer usage: 30106 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.18 s, system: 0.00 s, elapsed: 0.52 s
+2022-12-28 14:08:00.091 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi16": index scans: 0
+	pages: 0 removed, 68501 remain, 21811 scanned (31.84% of total)
+	tuples: 0 removed, 6992719 remain, 0 are dead but not yet removable
+	removable cutoff: 2055432, which was 5482 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.011 ms, write: 0.000 ms
+	avg read rate: 0.012 MB/s, avg write rate: 0.012 MB/s
+	buffer usage: 43714 hits, 1 misses, 1 dirtied
+	WAL usage: 21811 records, 1 full page images, 1295175 bytes
+	system usage: CPU: user: 0.15 s, system: 0.02 s, elapsed: 0.66 s
+2022-12-28 14:08:00.618 UTC [95577] LOG:  automatic analyze of table "ib.public.pi16"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30088 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.19 s, system: 0.00 s, elapsed: 0.52 s
+2022-12-28 14:08:01.252 UTC [95577] LOG:  automatic vacuum of table "ib.public.pi20": index scans: 0
+	pages: 0 removed, 67431 remain, 20743 scanned (30.76% of total)
+	tuples: 0 removed, 6883712 remain, 0 are dead but not yet removable
+	removable cutoff: 2065045, which was 4816 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.010 ms, write: 0.000 ms
+	avg read rate: 0.012 MB/s, avg write rate: 0.012 MB/s
+	buffer usage: 41578 hits, 1 misses, 1 dirtied
+	WAL usage: 20742 records, 1 full page images, 1232104 bytes
+	system usage: CPU: user: 0.16 s, system: 0.01 s, elapsed: 0.63 s
+2022-12-28 14:08:01.772 UTC [95577] LOG:  automatic analyze of table "ib.public.pi20"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30088 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.18 s, system: 0.00 s, elapsed: 0.52 s
+2022-12-28 14:08:35.552 UTC [100145] LOG:  automatic analyze of table "ib.public.pi12"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.012 MB/s, avg write rate: 0.012 MB/s
+	buffer usage: 30533 hits, 1 misses, 1 dirtied
+	system usage: CPU: user: 0.19 s, system: 0.16 s, elapsed: 0.67 s
+2022-12-28 14:08:36.163 UTC [100145] LOG:  automatic analyze of table "ib.public.pi17"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30137 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.17 s, system: 0.12 s, elapsed: 0.61 s
+2022-12-28 14:08:36.734 UTC [100145] LOG:  automatic analyze of table "ib.public.pi21"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 30159 hits, 0 misses, 0 dirtied
+	system usage: CPU: user: 0.16 s, system: 0.09 s, elapsed: 0.57 s
+2022-12-28 14:08:36.735 UTC [100145] LOG:  automatic vacuum of table "ib.pg_catalog.pg_statistic": index scans: 1
+	pages: 0 removed, 51 remain, 51 scanned (100.00% of total)
+	tuples: 20 removed, 566 remain, 0 are dead but not yet removable
+	removable cutoff: 2099752, which was 0 XIDs old when operation ended
+	new relfrozenxid: 1049770, which is 1049054 XIDs ahead of previous value
+	index scan needed: 30 pages from table (58.82% of total) had 225 dead item identifiers removed
+	index "pg_statistic_relid_att_inh_index": pages: 5 in total, 0 newly deleted, 0 currently deleted, 0 reusable
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	buffer usage: 148 hits, 0 misses, 0 dirtied
+	WAL usage: 86 records, 0 full page images, 6122 bytes
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 14:09:35.559 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 14:13:35.615 UTC [100214] LOG:  automatic analyze of table "ib.public.pi22"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.431 MB/s
+	buffer usage: 30535 hits, 0 misses, 37 dirtied
+	system usage: CPU: user: 0.19 s, system: 0.16 s, elapsed: 0.67 s
+2022-12-28 14:14:05.915 UTC [88568] LOG:  checkpoint complete: wrote 4401616 buffers (42.0%); 0 WAL file(s) added, 0 removed, 3120 recycled; write=269.462 s, sync=0.028 s, total=270.357 s; sync files=467, longest=0.001 s, average=0.001 s; distance=51131417 kB, estimate=51131417 kB
+2022-12-28 14:14:35.944 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 14:19:05.168 UTC [88568] LOG:  checkpoint complete: wrote 609616 buffers (5.8%); 0 WAL file(s) added, 0 removed, 458 recycled; write=269.061 s, sync=0.031 s, total=269.225 s; sync files=160, longest=0.002 s, average=0.001 s; distance=7501440 kB, estimate=46768420 kB
+2022-12-28 14:19:35.186 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 14:19:35.687 UTC [100304] LOG:  automatic analyze of table "ib.public.pi7"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 1.677 MB/s
+	buffer usage: 30522 hits, 0 misses, 143 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.10 s, elapsed: 0.66 s
+2022-12-28 14:24:05.221 UTC [88568] LOG:  checkpoint complete: wrote 1205544 buffers (11.5%); 0 WAL file(s) added, 0 removed, 460 recycled; write=269.866 s, sync=0.035 s, total=270.035 s; sync files=155, longest=0.002 s, average=0.001 s; distance=7526996 kB, estimate=42844277 kB
+2022-12-28 14:24:35.248 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 14:24:35.801 UTC [100375] LOG:  automatic analyze of table "ib.public.pi13"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 3.006 MB/s
+	buffer usage: 30535 hits, 0 misses, 274 dirtied
+	system usage: CPU: user: 0.20 s, system: 0.14 s, elapsed: 0.71 s
+2022-12-28 14:29:05.258 UTC [88568] LOG:  checkpoint complete: wrote 1091443 buffers (10.4%); 0 WAL file(s) added, 0 removed, 462 recycled; write=269.839 s, sync=0.032 s, total=270.011 s; sync files=159, longest=0.002 s, average=0.001 s; distance=7568981 kB, estimate=39316748 kB
+2022-12-28 14:29:35.288 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 14:31:35.914 UTC [100474] LOG:  automatic analyze of table "ib.public.pi18"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 5.169 MB/s
+	buffer usage: 30519 hits, 0 misses, 483 dirtied
+	system usage: CPU: user: 0.26 s, system: 0.06 s, elapsed: 0.72 s
+2022-12-28 14:34:05.192 UTC [88568] LOG:  checkpoint complete: wrote 1111011 buffers (10.6%); 0 WAL file(s) added, 0 removed, 463 recycled; write=269.746 s, sync=0.029 s, total=269.905 s; sync files=160, longest=0.002 s, average=0.001 s; distance=7586008 kB, estimate=36143674 kB
+2022-12-28 14:34:35.220 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 14:39:05.244 UTC [88568] LOG:  checkpoint complete: wrote 1108983 buffers (10.6%); 0 WAL file(s) added, 0 removed, 465 recycled; write=269.850 s, sync=0.037 s, total=270.025 s; sync files=159, longest=0.002 s, average=0.001 s; distance=7629959 kB, estimate=33292302 kB
+2022-12-28 14:39:35.272 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 14:44:05.206 UTC [88568] LOG:  checkpoint complete: wrote 1110213 buffers (10.6%); 0 WAL file(s) added, 0 removed, 468 recycled; write=269.758 s, sync=0.033 s, total=269.934 s; sync files=155, longest=0.002 s, average=0.001 s; distance=7661346 kB, estimate=30729207 kB
+2022-12-28 14:44:35.236 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 14:46:36.198 UTC [101006] LOG:  automatic analyze of table "ib.public.pi14"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 8.174 MB/s
+	buffer usage: 30503 hits, 0 misses, 860 dirtied
+	system usage: CPU: user: 0.18 s, system: 0.16 s, elapsed: 0.82 s
+2022-12-28 14:49:05.228 UTC [88568] LOG:  checkpoint complete: wrote 1106145 buffers (10.5%); 0 WAL file(s) added, 0 removed, 468 recycled; write=269.829 s, sync=0.030 s, total=269.993 s; sync files=155, longest=0.002 s, average=0.001 s; distance=7670994 kB, estimate=28423385 kB
+2022-12-28 14:49:35.256 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 14:53:36.290 UTC [101103] LOG:  automatic analyze of table "ib.public.pi8"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 9.366 MB/s
+	buffer usage: 30504 hits, 0 misses, 989 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.09 s, elapsed: 0.82 s
+2022-12-28 14:54:05.368 UTC [88568] LOG:  checkpoint complete: wrote 1109432 buffers (10.6%); 0 WAL file(s) added, 185 removed, 287 recycled; write=269.814 s, sync=0.030 s, total=270.113 s; sync files=158, longest=0.002 s, average=0.001 s; distance=7723257 kB, estimate=26353373 kB
+2022-12-28 14:54:35.398 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 14:54:36.328 UTC [101116] LOG:  automatic analyze of table "ib.public.pi19"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 9.471 MB/s
+	buffer usage: 30524 hits, 0 misses, 1028 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.10 s, elapsed: 0.84 s
+2022-12-28 14:59:05.489 UTC [88568] LOG:  checkpoint complete: wrote 1110457 buffers (10.6%); 0 WAL file(s) added, 236 removed, 237 recycled; write=269.643 s, sync=0.029 s, total=270.091 s; sync files=158, longest=0.001 s, average=0.001 s; distance=7757171 kB, estimate=24493752 kB
+2022-12-28 14:59:35.520 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 15:04:05.442 UTC [88568] LOG:  checkpoint complete: wrote 1110957 buffers (10.6%); 0 WAL file(s) added, 214 removed, 262 recycled; write=269.578 s, sync=0.036 s, total=269.923 s; sync files=159, longest=0.002 s, average=0.001 s; distance=7789218 kB, estimate=22823299 kB
+2022-12-28 15:04:35.472 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 15:04:36.508 UTC [101252] LOG:  automatic analyze of table "ib.public.pi1"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 12.188 MB/s
+	buffer usage: 30518 hits, 0 misses, 1415 dirtied
+	system usage: CPU: user: 0.18 s, system: 0.13 s, elapsed: 0.90 s
+2022-12-28 15:09:05.452 UTC [88568] LOG:  checkpoint complete: wrote 1106304 buffers (10.6%); 0 WAL file(s) added, 191 removed, 284 recycled; write=269.624 s, sync=0.029 s, total=269.981 s; sync files=155, longest=0.002 s, average=0.001 s; distance=7789473 kB, estimate=21319916 kB
+2022-12-28 15:09:35.480 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 15:11:36.343 UTC [105968] LOG:  automatic analyze of table "ib.public.pi9"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.156 MB/s
+	buffer usage: 30521 hits, 0 misses, 13 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.11 s, elapsed: 0.64 s
+2022-12-28 15:13:36.373 UTC [105994] LOG:  automatic analyze of table "ib.public.pi15"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.131 MB/s
+	buffer usage: 30520 hits, 0 misses, 11 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.10 s, elapsed: 0.65 s
+2022-12-28 15:14:05.440 UTC [88568] LOG:  checkpoint complete: wrote 1499195 buffers (14.3%); 0 WAL file(s) added, 145 removed, 465 recycled; write=269.573 s, sync=0.054 s, total=269.961 s; sync files=181, longest=0.002 s, average=0.001 s; distance=9993035 kB, estimate=20187228 kB
+2022-12-28 15:14:35.468 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 15:14:36.393 UTC [106008] LOG:  automatic analyze of table "ib.public.pi20"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.176 MB/s
+	buffer usage: 30520 hits, 0 misses, 15 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.14 s, elapsed: 0.66 s
+2022-12-28 15:15:36.507 UTC [106026] LOG:  automatic analyze of table "ib.public.pi2"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 5.966 MB/s
+	buffer usage: 30518 hits, 0 misses, 585 dirtied
+	system usage: CPU: user: 0.19 s, system: 0.15 s, elapsed: 0.76 s
+2022-12-28 15:18:36.518 UTC [106069] LOG:  automatic analyze of table "ib.public.pi4"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 5.899 MB/s
+	buffer usage: 30518 hits, 0 misses, 558 dirtied
+	system usage: CPU: user: 0.19 s, system: 0.12 s, elapsed: 0.73 s
+2022-12-28 15:18:37.242 UTC [106069] LOG:  automatic analyze of table "ib.public.pi10"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 5.805 MB/s
+	buffer usage: 30147 hits, 0 misses, 538 dirtied
+	system usage: CPU: user: 0.20 s, system: 0.10 s, elapsed: 0.72 s
+2022-12-28 15:18:37.939 UTC [106069] LOG:  automatic analyze of table "ib.public.pi16"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 5.929 MB/s
+	buffer usage: 30142 hits, 0 misses, 529 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.06 s, elapsed: 0.69 s
+2022-12-28 15:19:05.469 UTC [88568] LOG:  checkpoint complete: wrote 2144869 buffers (20.5%); 0 WAL file(s) added, 70 removed, 828 recycled; write=269.621 s, sync=0.057 s, total=270.002 s; sync files=159, longest=0.002 s, average=0.001 s; distance=14715935 kB, estimate=19640099 kB
+2022-12-28 15:19:35.500 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 15:19:36.719 UTC [106082] LOG:  automatic analyze of table "ib.public.pi3"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 10.659 MB/s
+	buffer usage: 30520 hits, 0 misses, 1262 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.13 s, elapsed: 0.92 s
+2022-12-28 15:22:36.715 UTC [106124] LOG:  automatic analyze of table "ib.public.pi12"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 9.954 MB/s
+	buffer usage: 30513 hits, 0 misses, 1125 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.12 s, elapsed: 0.88 s
+2022-12-28 15:22:37.532 UTC [106124] LOG:  automatic analyze of table "ib.public.pi17"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 10.229 MB/s
+	buffer usage: 30139 hits, 0 misses, 1071 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.06 s, elapsed: 0.81 s
+2022-12-28 15:22:38.334 UTC [106124] LOG:  automatic analyze of table "ib.public.pi21"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 10.764 MB/s
+	buffer usage: 30141 hits, 0 misses, 1105 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.05 s, elapsed: 0.80 s
+2022-12-28 15:22:39.157 UTC [106124] LOG:  automatic analyze of table "ib.public.pi5"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 10.508 MB/s
+	buffer usage: 30145 hits, 0 misses, 1107 dirtied
+	system usage: CPU: user: 0.18 s, system: 0.11 s, elapsed: 0.82 s
+2022-12-28 15:22:40.006 UTC [106124] LOG:  automatic analyze of table "ib.public.pi6"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 10.766 MB/s
+	buffer usage: 30164 hits, 0 misses, 1170 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.08 s, elapsed: 0.84 s
+2022-12-28 15:22:40.826 UTC [106124] LOG:  automatic analyze of table "ib.public.pi11"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 10.871 MB/s
+	buffer usage: 30153 hits, 0 misses, 1141 dirtied
+	system usage: CPU: user: 0.24 s, system: 0.05 s, elapsed: 0.81 s
+2022-12-28 15:23:36.718 UTC [106138] LOG:  automatic analyze of table "ib.public.pi22"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 9.960 MB/s
+	buffer usage: 30518 hits, 0 misses, 1113 dirtied
+	system usage: CPU: user: 0.17 s, system: 0.17 s, elapsed: 0.87 s
+2022-12-28 15:24:05.357 UTC [88568] LOG:  checkpoint complete: wrote 2038624 buffers (19.4%); 0 WAL file(s) added, 58 removed, 859 recycled; write=269.504 s, sync=0.069 s, total=269.858 s; sync files=160, longest=0.002 s, average=0.001 s; distance=15028455 kB, estimate=19178935 kB
+2022-12-28 15:24:35.384 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 15:24:36.741 UTC [106151] LOG:  automatic analyze of table "ib.public.pi7"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 9.914 MB/s
+	buffer usage: 30503 hits, 0 misses, 1118 dirtied
+	system usage: CPU: user: 0.19 s, system: 0.15 s, elapsed: 0.88 s
+2022-12-28 15:25:36.874 UTC [106167] LOG:  automatic analyze of table "ib.public.pi13"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 13.008 MB/s
+	buffer usage: 30542 hits, 0 misses, 1665 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.13 s, elapsed: 0.99 s
+2022-12-28 15:27:36.905 UTC [106193] LOG:  automatic analyze of table "ib.public.pi18"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 12.992 MB/s
+	buffer usage: 30512 hits, 0 misses, 1673 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.13 s, elapsed: 1.00 s
+2022-12-28 15:29:05.425 UTC [88568] LOG:  checkpoint complete: wrote 2069372 buffers (19.7%); 0 WAL file(s) added, 49 removed, 888 recycled; write=269.686 s, sync=0.056 s, total=270.042 s; sync files=160, longest=0.002 s, average=0.001 s; distance=15348970 kB, estimate=18795938 kB
+2022-12-28 15:29:35.456 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 15:30:37.098 UTC [106235] LOG:  automatic analyze of table "ib.public.pi14"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 15.107 MB/s
+	buffer usage: 30513 hits, 0 misses, 2245 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.15 s, elapsed: 1.16 s
+2022-12-28 15:31:37.072 UTC [106250] LOG:  automatic analyze of table "ib.public.pi8"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 14.908 MB/s
+	buffer usage: 30516 hits, 0 misses, 2143 dirtied
+	system usage: CPU: user: 0.24 s, system: 0.14 s, elapsed: 1.12 s
+2022-12-28 15:31:38.174 UTC [106250] LOG:  automatic analyze of table "ib.public.pi19"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 15.618 MB/s
+	buffer usage: 30161 hits, 0 misses, 2203 dirtied
+	system usage: CPU: user: 0.25 s, system: 0.09 s, elapsed: 1.10 s
+2022-12-28 15:33:37.059 UTC [106276] LOG:  automatic analyze of table "ib.public.pi1"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 15.488 MB/s
+	buffer usage: 30512 hits, 0 misses, 2153 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.14 s, elapsed: 1.08 s
+2022-12-28 15:34:05.406 UTC [88568] LOG:  checkpoint complete: wrote 2057315 buffers (19.6%); 0 WAL file(s) added, 42 removed, 909 recycled; write=269.576 s, sync=0.087 s, total=269.950 s; sync files=160, longest=0.003 s, average=0.001 s; distance=15575404 kB, estimate=18473885 kB
+2022-12-28 15:34:35.436 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 15:37:37.220 UTC [106333] LOG:  automatic analyze of table "ib.public.pi9"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 16.915 MB/s
+	buffer usage: 30517 hits, 0 misses, 2596 dirtied
+	system usage: CPU: user: 0.24 s, system: 0.14 s, elapsed: 1.19 s
+2022-12-28 15:39:05.414 UTC [88568] LOG:  checkpoint complete: wrote 2070668 buffers (19.7%); 0 WAL file(s) added, 32 removed, 938 recycled; write=269.599 s, sync=0.082 s, total=269.979 s; sync files=159, longest=0.002 s, average=0.001 s; distance=15899081 kB, estimate=18216404 kB
+2022-12-28 15:39:35.444 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 15:39:37.211 UTC [106361] LOG:  automatic analyze of table "ib.public.pi15"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 16.035 MB/s
+	buffer usage: 30510 hits, 0 misses, 2387 dirtied
+	system usage: CPU: user: 0.26 s, system: 0.12 s, elapsed: 1.16 s
+2022-12-28 15:40:37.345 UTC [106374] LOG:  automatic analyze of table "ib.public.pi20"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 17.943 MB/s
+	buffer usage: 30513 hits, 0 misses, 2949 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.14 s, elapsed: 1.28 s
+2022-12-28 15:41:37.322 UTC [106389] LOG:  automatic analyze of table "ib.public.pi2"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 17.933 MB/s
+	buffer usage: 30511 hits, 0 misses, 2867 dirtied
+	system usage: CPU: user: 0.27 s, system: 0.11 s, elapsed: 1.24 s
+2022-12-28 15:44:05.429 UTC [88568] LOG:  checkpoint complete: wrote 2071940 buffers (19.8%); 0 WAL file(s) added, 27 removed, 958 recycled; write=269.585 s, sync=0.087 s, total=269.986 s; sync files=159, longest=0.002 s, average=0.001 s; distance=16138493 kB, estimate=18008613 kB
+2022-12-28 15:44:35.456 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 15:45:37.445 UTC [106449] LOG:  automatic analyze of table "ib.public.pi4"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 19.242 MB/s
+	buffer usage: 30527 hits, 0 misses, 3261 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.17 s, elapsed: 1.32 s
+2022-12-28 15:45:38.771 UTC [106449] LOG:  automatic analyze of table "ib.public.pi10"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 19.466 MB/s
+	buffer usage: 30150 hits, 0 misses, 3304 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.11 s, elapsed: 1.32 s
+2022-12-28 15:45:40.074 UTC [106449] LOG:  automatic analyze of table "ib.public.pi16"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 19.516 MB/s
+	buffer usage: 30135 hits, 0 misses, 3255 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.10 s, elapsed: 1.30 s
+2022-12-28 15:46:37.416 UTC [106462] LOG:  automatic analyze of table "ib.public.pi3"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 19.266 MB/s
+	buffer usage: 30511 hits, 0 misses, 3164 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.12 s, elapsed: 1.28 s
+2022-12-28 15:49:05.404 UTC [88568] LOG:  checkpoint complete: wrote 2091259 buffers (19.9%); 0 WAL file(s) added, 20 removed, 985 recycled; write=269.552 s, sync=0.091 s, total=269.949 s; sync files=158, longest=0.003 s, average=0.001 s; distance=16459335 kB, estimate=17853685 kB
+2022-12-28 15:49:35.435 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 15:49:37.521 UTC [106501] LOG:  automatic analyze of table "ib.public.pi12"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 17.494 MB/s
+	buffer usage: 30519 hits, 0 misses, 3023 dirtied
+	system usage: CPU: user: 0.18 s, system: 0.16 s, elapsed: 1.34 s
+2022-12-28 15:49:38.773 UTC [106501] LOG:  automatic analyze of table "ib.public.pi17"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 19.469 MB/s
+	buffer usage: 30139 hits, 0 misses, 3120 dirtied
+	system usage: CPU: user: 0.26 s, system: 0.07 s, elapsed: 1.25 s
+2022-12-28 15:49:40.058 UTC [106501] LOG:  automatic analyze of table "ib.public.pi21"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 18.239 MB/s
+	buffer usage: 30152 hits, 0 misses, 3000 dirtied
+	system usage: CPU: user: 0.25 s, system: 0.04 s, elapsed: 1.28 s
+2022-12-28 15:49:41.485 UTC [106501] LOG:  automatic analyze of table "ib.public.pi5"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 19.966 MB/s
+	buffer usage: 30137 hits, 0 misses, 3647 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.08 s, elapsed: 1.42 s
+2022-12-28 15:49:42.793 UTC [106501] LOG:  automatic analyze of table "ib.public.pi6"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 21.516 MB/s
+	buffer usage: 30148 hits, 0 misses, 3605 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.08 s, elapsed: 1.30 s
+2022-12-28 15:49:44.228 UTC [106501] LOG:  automatic analyze of table "ib.public.pi11"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 19.752 MB/s
+	buffer usage: 30135 hits, 0 misses, 3628 dirtied
+	system usage: CPU: user: 0.26 s, system: 0.06 s, elapsed: 1.43 s
+2022-12-28 15:50:36.190 UTC [106515] LOG:  automatic vacuum of table "ib.pg_catalog.pg_statistic": index scans: 1
+	pages: 0 removed, 51 remain, 51 scanned (100.00% of total)
+	tuples: 56 removed, 566 remain, 0 are dead but not yet removable
+	removable cutoff: 2806128, which was 0 XIDs old when operation ended
+	index scan needed: 29 pages from table (56.86% of total) had 104 dead item identifiers removed
+	index "pg_statistic_relid_att_inh_index": pages: 5 in total, 0 newly deleted, 0 currently deleted, 0 reusable
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 49.595 MB/s
+	buffer usage: 160 hits, 0 misses, 19 dirtied
+	WAL usage: 109 records, 20 full page images, 133521 bytes
+	system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-12-28 15:50:37.595 UTC [106515] LOG:  automatic analyze of table "ib.public.pi22"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 19.284 MB/s
+	buffer usage: 30531 hits, 0 misses, 3468 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.14 s, elapsed: 1.40 s
+2022-12-28 15:51:37.554 UTC [106529] LOG:  automatic analyze of table "ib.public.pi7"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 19.661 MB/s
+	buffer usage: 30520 hits, 0 misses, 3400 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.13 s, elapsed: 1.35 s
+2022-12-28 15:52:37.539 UTC [106542] LOG:  automatic analyze of table "ib.public.pi13"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 20.062 MB/s
+	buffer usage: 30534 hits, 0 misses, 3405 dirtied
+	system usage: CPU: user: 0.20 s, system: 0.15 s, elapsed: 1.32 s
+2022-12-28 15:54:05.429 UTC [88568] LOG:  checkpoint complete: wrote 2105629 buffers (20.1%); 0 WAL file(s) added, 13 removed, 1010 recycled; write=269.568 s, sync=0.100 s, total=269.995 s; sync files=159, longest=0.002 s, average=0.001 s; distance=16767022 kB, estimate=17745019 kB
+2022-12-28 15:54:35.460 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 15:54:37.686 UTC [106568] LOG:  automatic analyze of table "ib.public.pi18"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 17.692 MB/s
+	buffer usage: 30517 hits, 0 misses, 3270 dirtied
+	system usage: CPU: user: 0.26 s, system: 0.13 s, elapsed: 1.44 s
+2022-12-28 15:58:37.657 UTC [106623] LOG:  automatic analyze of table "ib.public.pi14"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 20.542 MB/s
+	buffer usage: 30504 hits, 0 misses, 3597 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.14 s, elapsed: 1.36 s
+2022-12-28 15:59:05.449 UTC [88568] LOG:  checkpoint complete: wrote 2140182 buffers (20.4%); 0 WAL file(s) added, 7 removed, 1041 recycled; write=269.556 s, sync=0.102 s, total=269.989 s; sync files=160, longest=0.002 s, average=0.001 s; distance=17172325 kB, estimate=17687750 kB
+2022-12-28 15:59:35.476 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 15:59:37.944 UTC [106636] LOG:  automatic analyze of table "ib.public.pi8"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 20.102 MB/s
+	buffer usage: 30513 hits, 0 misses, 4225 dirtied
+	system usage: CPU: user: 0.26 s, system: 0.15 s, elapsed: 1.64 s
+2022-12-28 15:59:39.296 UTC [106636] LOG:  automatic analyze of table "ib.public.pi19"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 20.210 MB/s
+	buffer usage: 30162 hits, 0 misses, 3500 dirtied
+	system usage: CPU: user: 0.26 s, system: 0.09 s, elapsed: 1.35 s
+2022-12-28 16:01:37.792 UTC [106664] LOG:  automatic analyze of table "ib.public.pi1"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 21.345 MB/s
+	buffer usage: 30503 hits, 0 misses, 4008 dirtied
+	system usage: CPU: user: 0.25 s, system: 0.11 s, elapsed: 1.46 s
+2022-12-28 16:04:05.429 UTC [88568] LOG:  checkpoint complete: wrote 2133715 buffers (20.3%); 0 WAL file(s) added, 7 removed, 1046 recycled; write=269.558 s, sync=0.104 s, total=269.954 s; sync files=159, longest=0.002 s, average=0.001 s; distance=17242535 kB, estimate=17643228 kB
+2022-12-28 16:04:35.460 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 16:05:40.169 UTC [106720] LOG:  automatic vacuum of table "ib.public.pi2": index scans: 0
+	pages: 0 removed, 90267 remain, 16664 scanned (18.46% of total)
+	tuples: 0 removed, 9214784 remain, 0 are dead but not yet removable
+	removable cutoff: 3003916, which was 880 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 33.190 MB/s
+	buffer usage: 33458 hits, 0 misses, 16109 dirtied
+	WAL usage: 28811 records, 16109 full page images, 132942350 bytes
+	system usage: CPU: user: 0.21 s, system: 0.08 s, elapsed: 3.79 s
+2022-12-28 16:05:43.918 UTC [106720] LOG:  automatic vacuum of table "ib.public.pi9": index scans: 0
+	pages: 0 removed, 90254 remain, 16649 scanned (18.45% of total)
+	tuples: 0 removed, 9213668 remain, 0 are dead but not yet removable
+	removable cutoff: 3004796, which was 880 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 33.527 MB/s
+	buffer usage: 33397 hits, 0 misses, 16085 dirtied
+	WAL usage: 29407 records, 16085 full page images, 132783245 bytes
+	system usage: CPU: user: 0.21 s, system: 0.05 s, elapsed: 3.74 s
+2022-12-28 16:05:44.522 UTC [106720] LOG:  automatic analyze of table "ib.public.pi9"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.116 MB/s
+	buffer usage: 30429 hits, 0 misses, 9 dirtied
+	system usage: CPU: user: 0.17 s, system: 0.12 s, elapsed: 0.60 s
+2022-12-28 16:05:48.232 UTC [106720] LOG:  automatic vacuum of table "ib.public.pi15": index scans: 0
+	pages: 0 removed, 90243 remain, 16639 scanned (18.44% of total)
+	tuples: 0 removed, 9212645 remain, 0 are dead but not yet removable
+	removable cutoff: 3005677, which was 880 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 33.799 MB/s
+	buffer usage: 33376 hits, 0 misses, 16049 dirtied
+	WAL usage: 29127 records, 16049 full page images, 132467419 bytes
+	system usage: CPU: user: 0.20 s, system: 0.04 s, elapsed: 3.70 s
+2022-12-28 16:06:40.082 UTC [106734] LOG:  automatic vacuum of table "ib.public.pi3": index scans: 0
+	pages: 0 removed, 90559 remain, 16954 scanned (18.72% of total)
+	tuples: 0 removed, 9244850 remain, 0 are dead but not yet removable
+	removable cutoff: 3017117, which was 880 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 34.002 MB/s
+	buffer usage: 34038 hits, 0 misses, 16069 dirtied
+	WAL usage: 28324 records, 16069 full page images, 132601636 bytes
+	system usage: CPU: user: 0.20 s, system: 0.10 s, elapsed: 3.69 s
+2022-12-28 16:06:43.729 UTC [106734] LOG:  automatic vacuum of table "ib.public.pi4": index scans: 0
+	pages: 0 removed, 90573 remain, 16967 scanned (18.73% of total)
+	tuples: 0 removed, 9246104 remain, 0 are dead but not yet removable
+	removable cutoff: 3017997, which was 857 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 34.437 MB/s
+	buffer usage: 34033 hits, 0 misses, 16078 dirtied
+	WAL usage: 28505 records, 16078 full page images, 132684812 bytes
+	system usage: CPU: user: 0.20 s, system: 0.06 s, elapsed: 3.64 s
+2022-12-28 16:06:47.330 UTC [106734] LOG:  automatic vacuum of table "ib.public.pi10": index scans: 0
+	pages: 0 removed, 90563 remain, 16956 scanned (18.72% of total)
+	tuples: 0 removed, 9245068 remain, 0 are dead but not yet removable
+	removable cutoff: 3018821, which was 716 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 34.851 MB/s
+	buffer usage: 34010 hits, 0 misses, 16062 dirtied
+	WAL usage: 28419 records, 16062 full page images, 132553635 bytes
+	system usage: CPU: user: 0.19 s, system: 0.05 s, elapsed: 3.60 s
+2022-12-28 16:06:50.945 UTC [106734] LOG:  automatic vacuum of table "ib.public.pi16": index scans: 0
+	pages: 0 removed, 90550 remain, 16943 scanned (18.71% of total)
+	tuples: 0 removed, 9243541 remain, 0 are dead but not yet removable
+	removable cutoff: 3019537, which was 880 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 34.707 MB/s
+	buffer usage: 33984 hits, 0 misses, 16057 dirtied
+	WAL usage: 28451 records, 16057 full page images, 132503999 bytes
+	system usage: CPU: user: 0.19 s, system: 0.04 s, elapsed: 3.61 s
+2022-12-28 16:06:54.525 UTC [106734] LOG:  automatic vacuum of table "ib.public.pi20": index scans: 0
+	pages: 0 removed, 90549 remain, 16945 scanned (18.71% of total)
+	tuples: 0 removed, 9243228 remain, 0 are dead but not yet removable
+	removable cutoff: 3020417, which was 660 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 34.987 MB/s
+	buffer usage: 33988 hits, 0 misses, 16032 dirtied
+	WAL usage: 29205 records, 16032 full page images, 132334144 bytes
+	system usage: CPU: user: 0.20 s, system: 0.03 s, elapsed: 3.57 s
+2022-12-28 16:07:40.035 UTC [106747] LOG:  automatic vacuum of table "ib.public.pi12": index scans: 0
+	pages: 0 removed, 90808 remain, 17202 scanned (18.94% of total)
+	tuples: 0 removed, 9270227 remain, 0 are dead but not yet removable
+	removable cutoff: 3030317, which was 880 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 34.523 MB/s
+	buffer usage: 34534 hits, 0 misses, 16058 dirtied
+	WAL usage: 28079 records, 16058 full page images, 132512485 bytes
+	system usage: CPU: user: 0.22 s, system: 0.08 s, elapsed: 3.63 s
+2022-12-28 16:07:43.636 UTC [106747] LOG:  automatic vacuum of table "ib.public.pi17": index scans: 0
+	pages: 0 removed, 90804 remain, 17198 scanned (18.94% of total)
+	tuples: 0 removed, 9269878 remain, 0 are dead but not yet removable
+	removable cutoff: 3031197, which was 660 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 34.787 MB/s
+	buffer usage: 34494 hits, 0 misses, 16030 dirtied
+	WAL usage: 27999 records, 16030 full page images, 132278965 bytes
+	system usage: CPU: user: 0.21 s, system: 0.05 s, elapsed: 3.60 s
+2022-12-28 16:07:47.202 UTC [106747] LOG:  automatic vacuum of table "ib.public.pi21": index scans: 0
+	pages: 0 removed, 90800 remain, 17193 scanned (18.94% of total)
+	tuples: 0 removed, 9269423 remain, 0 are dead but not yet removable
+	removable cutoff: 3031857, which was 880 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 35.148 MB/s
+	buffer usage: 34484 hits, 0 misses, 16043 dirtied
+	WAL usage: 28082 records, 16043 full page images, 132379955 bytes
+	system usage: CPU: user: 0.19 s, system: 0.04 s, elapsed: 3.56 s
+2022-12-28 16:07:50.778 UTC [106747] LOG:  automatic vacuum of table "ib.public.pi5": index scans: 0
+	pages: 0 removed, 90899 remain, 17292 scanned (19.02% of total)
+	tuples: 0 removed, 9279169 remain, 0 are dead but not yet removable
+	removable cutoff: 3032737, which was 805 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 35.109 MB/s
+	buffer usage: 34684 hits, 0 misses, 16073 dirtied
+	WAL usage: 28124 records, 16073 full page images, 132630955 bytes
+	system usage: CPU: user: 0.19 s, system: 0.04 s, elapsed: 3.57 s
+2022-12-28 16:07:54.351 UTC [106747] LOG:  automatic vacuum of table "ib.public.pi6": index scans: 0
+	pages: 0 removed, 90908 remain, 17304 scanned (19.03% of total)
+	tuples: 0 removed, 9280359 remain, 0 are dead but not yet removable
+	removable cutoff: 3033513, which was 764 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 35.180 MB/s
+	buffer usage: 34707 hits, 0 misses, 16087 dirtied
+	WAL usage: 28135 records, 16087 full page images, 132753628 bytes
+	system usage: CPU: user: 0.19 s, system: 0.03 s, elapsed: 3.57 s
+2022-12-28 16:07:57.898 UTC [106747] LOG:  automatic vacuum of table "ib.public.pi11": index scans: 0
+	pages: 0 removed, 90902 remain, 17297 scanned (19.03% of total)
+	tuples: 0 removed, 9279566 remain, 0 are dead but not yet removable
+	removable cutoff: 3034277, which was 880 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 35.390 MB/s
+	buffer usage: 34692 hits, 0 misses, 16067 dirtied
+	WAL usage: 28072 records, 16067 full page images, 132580651 bytes
+	system usage: CPU: user: 0.18 s, system: 0.02 s, elapsed: 3.54 s
+2022-12-28 16:08:40.057 UTC [106760] LOG:  automatic vacuum of table "ib.public.pi7": index scans: 0
+	pages: 0 removed, 91127 remain, 17521 scanned (19.23% of total)
+	tuples: 0 removed, 9302667 remain, 0 are dead but not yet removable
+	removable cutoff: 3043517, which was 880 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 34.514 MB/s
+	buffer usage: 35173 hits, 0 misses, 16085 dirtied
+	WAL usage: 28137 records, 16085 full page images, 132734585 bytes
+	system usage: CPU: user: 0.21 s, system: 0.09 s, elapsed: 3.64 s
+2022-12-28 16:08:43.675 UTC [106760] LOG:  automatic vacuum of table "ib.public.pi13": index scans: 0
+	pages: 0 removed, 91116 remain, 17511 scanned (19.22% of total)
+	tuples: 0 removed, 9301404 remain, 0 are dead but not yet removable
+	removable cutoff: 3044397, which was 660 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 34.674 MB/s
+	buffer usage: 35120 hits, 0 misses, 16055 dirtied
+	WAL usage: 27883 records, 16055 full page images, 132482009 bytes
+	system usage: CPU: user: 0.21 s, system: 0.06 s, elapsed: 3.61 s
+2022-12-28 16:08:47.244 UTC [106760] LOG:  automatic vacuum of table "ib.public.pi18": index scans: 0
+	pages: 0 removed, 91106 remain, 17502 scanned (19.21% of total)
+	tuples: 0 removed, 9300358 remain, 0 are dead but not yet removable
+	removable cutoff: 3045057, which was 880 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 35.105 MB/s
+	buffer usage: 35102 hits, 0 misses, 16039 dirtied
+	WAL usage: 27604 records, 16039 full page images, 132336786 bytes
+	system usage: CPU: user: 0.20 s, system: 0.03 s, elapsed: 3.56 s
+2022-12-28 16:08:50.818 UTC [106760] LOG:  automatic vacuum of table "ib.public.pi22": index scans: 0
+	pages: 0 removed, 91107 remain, 17502 scanned (19.21% of total)
+	tuples: 0 removed, 9300582 remain, 0 are dead but not yet removable
+	removable cutoff: 3045937, which was 660 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 35.033 MB/s
+	buffer usage: 35102 hits, 0 misses, 16025 dirtied
+	WAL usage: 28213 records, 16025 full page images, 132243500 bytes
+	system usage: CPU: user: 0.19 s, system: 0.04 s, elapsed: 3.57 s
+2022-12-28 16:09:05.588 UTC [88568] LOG:  checkpoint complete: wrote 2157688 buffers (20.6%); 0 WAL file(s) added, 18 removed, 1051 recycled; write=269.572 s, sync=0.101 s, total=270.129 s; sync files=160, longest=0.002 s, average=0.001 s; distance=17519355 kB, estimate=17630841 kB
+2022-12-28 16:09:35.619 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 16:10:37.108 UTC [111407] LOG:  automatic analyze of table "ib.public.pi15"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.118 MB/s
+	buffer usage: 30516 hits, 0 misses, 10 dirtied
+	system usage: CPU: user: 0.20 s, system: 0.15 s, elapsed: 0.66 s
+2022-12-28 16:11:37.156 UTC [111421] LOG:  automatic analyze of table "ib.public.pi2"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.056 MB/s
+	buffer usage: 30510 hits, 0 misses, 5 dirtied
+	system usage: CPU: user: 0.24 s, system: 0.13 s, elapsed: 0.69 s
+2022-12-28 16:11:37.805 UTC [111421] LOG:  automatic analyze of table "ib.public.pi20"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.072 MB/s
+	buffer usage: 30147 hits, 0 misses, 6 dirtied
+	system usage: CPU: user: 0.19 s, system: 0.14 s, elapsed: 0.64 s
+2022-12-28 16:13:37.153 UTC [111447] LOG:  automatic analyze of table "ib.public.pi4"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.047 MB/s
+	buffer usage: 30512 hits, 0 misses, 4 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.14 s, elapsed: 0.66 s
+2022-12-28 16:13:37.800 UTC [111447] LOG:  automatic analyze of table "ib.public.pi10"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.012 MB/s
+	buffer usage: 30136 hits, 0 misses, 1 dirtied
+	system usage: CPU: user: 0.24 s, system: 0.09 s, elapsed: 0.64 s
+2022-12-28 16:13:38.430 UTC [111447] LOG:  automatic analyze of table "ib.public.pi16"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.037 MB/s
+	buffer usage: 30137 hits, 0 misses, 3 dirtied
+	system usage: CPU: user: 0.20 s, system: 0.11 s, elapsed: 0.63 s
+2022-12-28 16:14:05.610 UTC [88568] LOG:  checkpoint complete: wrote 2356756 buffers (22.5%); 0 WAL file(s) added, 0 removed, 1235 recycled; write=269.458 s, sync=0.152 s, total=269.991 s; sync files=181, longest=0.003 s, average=0.001 s; distance=20234320 kB, estimate=20234320 kB
+2022-12-28 16:14:35.640 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 16:14:37.383 UTC [111460] LOG:  automatic analyze of table "ib.public.pi3"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 8.509 MB/s
+	buffer usage: 30509 hits, 0 misses, 965 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.12 s, elapsed: 0.88 s
+2022-12-28 16:15:37.348 UTC [111477] LOG:  automatic analyze of table "ib.public.pi12"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 7.645 MB/s
+	buffer usage: 30509 hits, 0 misses, 821 dirtied
+	system usage: CPU: user: 0.24 s, system: 0.12 s, elapsed: 0.83 s
+2022-12-28 16:15:38.148 UTC [111477] LOG:  automatic analyze of table "ib.public.pi17"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 7.227 MB/s
+	buffer usage: 30135 hits, 0 misses, 740 dirtied
+	system usage: CPU: user: 0.20 s, system: 0.13 s, elapsed: 0.79 s
+2022-12-28 16:15:38.877 UTC [111477] LOG:  automatic analyze of table "ib.public.pi21"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 7.716 MB/s
+	buffer usage: 30141 hits, 0 misses, 720 dirtied
+	system usage: CPU: user: 0.17 s, system: 0.10 s, elapsed: 0.72 s
+2022-12-28 16:15:39.623 UTC [111477] LOG:  automatic analyze of table "ib.public.pi5"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 8.116 MB/s
+	buffer usage: 30147 hits, 0 misses, 775 dirtied
+	system usage: CPU: user: 0.20 s, system: 0.08 s, elapsed: 0.74 s
+2022-12-28 16:15:40.371 UTC [111477] LOG:  automatic analyze of table "ib.public.pi6"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 8.282 MB/s
+	buffer usage: 30140 hits, 0 misses, 794 dirtied
+	system usage: CPU: user: 0.20 s, system: 0.08 s, elapsed: 0.74 s
+2022-12-28 16:15:41.133 UTC [111477] LOG:  automatic analyze of table "ib.public.pi11"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 8.079 MB/s
+	buffer usage: 30146 hits, 0 misses, 788 dirtied
+	system usage: CPU: user: 0.20 s, system: 0.08 s, elapsed: 0.76 s
+2022-12-28 16:16:37.331 UTC [111490] LOG:  automatic analyze of table "ib.public.pi7"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 7.436 MB/s
+	buffer usage: 30516 hits, 0 misses, 771 dirtied
+	system usage: CPU: user: 0.19 s, system: 0.15 s, elapsed: 0.80 s
+2022-12-28 16:16:38.120 UTC [111490] LOG:  automatic analyze of table "ib.public.pi22"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 7.198 MB/s
+	buffer usage: 30165 hits, 0 misses, 726 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.10 s, elapsed: 0.78 s
+2022-12-28 16:17:37.345 UTC [111507] LOG:  automatic analyze of table "ib.public.pi13"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 7.185 MB/s
+	buffer usage: 30512 hits, 0 misses, 744 dirtied
+	system usage: CPU: user: 0.20 s, system: 0.15 s, elapsed: 0.80 s
+2022-12-28 16:18:37.370 UTC [111520] LOG:  automatic analyze of table "ib.public.pi18"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 7.192 MB/s
+	buffer usage: 30511 hits, 0 misses, 754 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.14 s, elapsed: 0.81 s
+2022-12-28 16:19:05.594 UTC [88568] LOG:  checkpoint complete: wrote 2547960 buffers (24.3%); 0 WAL file(s) added, 0 removed, 1209 recycled; write=269.423 s, sync=0.165 s, total=269.955 s; sync files=161, longest=0.004 s, average=0.002 s; distance=19801240 kB, estimate=20191012 kB
+2022-12-28 16:19:35.624 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 16:20:37.625 UTC [111564] LOG:  automatic analyze of table "ib.public.pi8"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 12.248 MB/s
+	buffer usage: 30503 hits, 0 misses, 1643 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.18 s, elapsed: 1.04 s
+2022-12-28 16:20:38.613 UTC [111564] LOG:  automatic analyze of table "ib.public.pi14"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 12.873 MB/s
+	buffer usage: 30142 hits, 0 misses, 1628 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.11 s, elapsed: 0.98 s
+2022-12-28 16:20:39.589 UTC [111564] LOG:  automatic analyze of table "ib.public.pi19"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 13.368 MB/s
+	buffer usage: 30163 hits, 0 misses, 1670 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.08 s, elapsed: 0.97 s
+2022-12-28 16:21:37.548 UTC [111579] LOG:  automatic analyze of table "ib.public.pi1"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 13.450 MB/s
+	buffer usage: 30509 hits, 0 misses, 1651 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.10 s, elapsed: 0.95 s
+2022-12-28 16:23:37.636 UTC [111605] LOG:  automatic analyze of table "ib.public.pi9"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 12.517 MB/s
+	buffer usage: 30505 hits, 0 misses, 1631 dirtied
+	system usage: CPU: user: 0.25 s, system: 0.14 s, elapsed: 1.01 s
+2022-12-28 16:24:05.629 UTC [88568] LOG:  checkpoint complete: wrote 2663715 buffers (25.4%); 0 WAL file(s) added, 0 removed, 1263 recycled; write=269.452 s, sync=0.202 s, total=270.005 s; sync files=160, longest=0.003 s, average=0.002 s; distance=20706441 kB, estimate=20706441 kB
+2022-12-28 16:24:35.661 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 16:26:37.834 UTC [111650] LOG:  automatic analyze of table "ib.public.pi15"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 15.884 MB/s
+	buffer usage: 30515 hits, 0 misses, 2395 dirtied
+	system usage: CPU: user: 0.25 s, system: 0.15 s, elapsed: 1.17 s
+2022-12-28 16:27:37.802 UTC [111663] LOG:  automatic analyze of table "ib.public.pi2"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 16.301 MB/s
+	buffer usage: 30513 hits, 0 misses, 2364 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.12 s, elapsed: 1.13 s
+2022-12-28 16:27:38.935 UTC [111663] LOG:  automatic analyze of table "ib.public.pi20"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 16.763 MB/s
+	buffer usage: 30135 hits, 0 misses, 2431 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.12 s, elapsed: 1.13 s
+2022-12-28 16:29:05.528 UTC [88568] LOG:  checkpoint complete: wrote 2865035 buffers (27.3%); 0 WAL file(s) added, 0 removed, 1314 recycled; write=269.343 s, sync=0.180 s, total=269.868 s; sync files=159, longest=0.003 s, average=0.002 s; distance=21526903 kB, estimate=21526903 kB
+2022-12-28 16:29:35.561 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 16:29:38.273 UTC [111690] LOG:  automatic analyze of table "ib.public.pi4"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 16.065 MB/s
+	buffer usage: 30512 hits, 0 misses, 3249 dirtied
+	system usage: CPU: user: 0.26 s, system: 0.16 s, elapsed: 1.57 s
+2022-12-28 16:29:39.673 UTC [111690] LOG:  automatic analyze of table "ib.public.pi10"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 17.561 MB/s
+	buffer usage: 30139 hits, 0 misses, 3147 dirtied
+	system usage: CPU: user: 0.26 s, system: 0.09 s, elapsed: 1.39 s
+2022-12-28 16:29:41.150 UTC [111690] LOG:  automatic analyze of table "ib.public.pi16"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 16.344 MB/s
+	buffer usage: 30149 hits, 0 misses, 3090 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.13 s, elapsed: 1.47 s
+2022-12-28 16:31:38.034 UTC [111717] LOG:  automatic analyze of table "ib.public.pi3"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 17.891 MB/s
+	buffer usage: 30502 hits, 0 misses, 3016 dirtied
+	system usage: CPU: user: 0.28 s, system: 0.13 s, elapsed: 1.31 s
+2022-12-28 16:32:38.000 UTC [111730] LOG:  automatic analyze of table "ib.public.pi12"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 17.721 MB/s
+	buffer usage: 30513 hits, 0 misses, 2883 dirtied
+	system usage: CPU: user: 0.24 s, system: 0.15 s, elapsed: 1.27 s
+2022-12-28 16:32:39.209 UTC [111730] LOG:  automatic analyze of table "ib.public.pi17"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 18.827 MB/s
+	buffer usage: 30140 hits, 0 misses, 2916 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.11 s, elapsed: 1.20 s
+2022-12-28 16:32:40.440 UTC [111730] LOG:  automatic analyze of table "ib.public.pi21"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 18.354 MB/s
+	buffer usage: 30141 hits, 0 misses, 2892 dirtied
+	system usage: CPU: user: 0.26 s, system: 0.10 s, elapsed: 1.23 s
+2022-12-28 16:32:41.627 UTC [111730] LOG:  automatic analyze of table "ib.public.pi5"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 18.376 MB/s
+	buffer usage: 30150 hits, 0 misses, 2792 dirtied
+	system usage: CPU: user: 0.25 s, system: 0.08 s, elapsed: 1.18 s
+2022-12-28 16:32:42.832 UTC [111730] LOG:  automatic analyze of table "ib.public.pi6"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 18.573 MB/s
+	buffer usage: 30155 hits, 0 misses, 2867 dirtied
+	system usage: CPU: user: 0.27 s, system: 0.07 s, elapsed: 1.20 s
+2022-12-28 16:32:44.043 UTC [111730] LOG:  automatic analyze of table "ib.public.pi11"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 18.935 MB/s
+	buffer usage: 30155 hits, 0 misses, 2935 dirtied
+	system usage: CPU: user: 0.28 s, system: 0.03 s, elapsed: 1.21 s
+2022-12-28 16:33:38.028 UTC [111743] LOG:  automatic analyze of table "ib.public.pi7"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 17.549 MB/s
+	buffer usage: 30503 hits, 0 misses, 2891 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.18 s, elapsed: 1.28 s
+2022-12-28 16:33:39.224 UTC [111743] LOG:  automatic analyze of table "ib.public.pi22"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 18.767 MB/s
+	buffer usage: 30139 hits, 0 misses, 2873 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.11 s, elapsed: 1.19 s
+2022-12-28 16:34:05.618 UTC [88568] LOG:  checkpoint complete: wrote 3123716 buffers (29.8%); 0 WAL file(s) added, 0 removed, 1363 recycled; write=269.538 s, sync=0.124 s, total=270.058 s; sync files=159, longest=0.003 s, average=0.001 s; distance=22333686 kB, estimate=22333686 kB
+2022-12-28 16:34:35.650 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 16:34:37.998 UTC [111756] LOG:  automatic analyze of table "ib.public.pi13"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 17.056 MB/s
+	buffer usage: 30502 hits, 0 misses, 2718 dirtied
+	system usage: CPU: user: 0.27 s, system: 0.13 s, elapsed: 1.24 s
+2022-12-28 16:35:38.203 UTC [111773] LOG:  automatic analyze of table "ib.public.pi18"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 19.164 MB/s
+	buffer usage: 30513 hits, 0 misses, 3520 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.17 s, elapsed: 1.43 s
+2022-12-28 16:37:38.164 UTC [111799] LOG:  automatic analyze of table "ib.public.pi8"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 19.437 MB/s
+	buffer usage: 30510 hits, 0 misses, 3411 dirtied
+	system usage: CPU: user: 0.24 s, system: 0.16 s, elapsed: 1.37 s
+2022-12-28 16:37:39.440 UTC [111799] LOG:  automatic analyze of table "ib.public.pi14"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.006 MB/s, avg write rate: 20.721 MB/s
+	buffer usage: 30148 hits, 1 misses, 3387 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.09 s, elapsed: 1.27 s
+2022-12-28 16:37:40.768 UTC [111799] LOG:  automatic analyze of table "ib.public.pi19"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 20.196 MB/s
+	buffer usage: 30149 hits, 0 misses, 3433 dirtied
+	system usage: CPU: user: 0.26 s, system: 0.09 s, elapsed: 1.32 s
+2022-12-28 16:38:38.176 UTC [111812] LOG:  automatic analyze of table "ib.public.pi1"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 19.212 MB/s
+	buffer usage: 30508 hits, 0 misses, 3369 dirtied
+	system usage: CPU: user: 0.27 s, system: 0.13 s, elapsed: 1.36 s
+2022-12-28 16:39:05.812 UTC [88568] LOG:  checkpoint complete: wrote 3451040 buffers (32.9%); 0 WAL file(s) added, 0 removed, 1420 recycled; write=269.447 s, sync=0.218 s, total=270.163 s; sync files=159, longest=0.004 s, average=0.002 s; distance=23250922 kB, estimate=23250922 kB
+2022-12-28 16:39:35.841 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 16:40:38.335 UTC [111839] LOG:  automatic analyze of table "ib.public.pi9"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.005 MB/s, avg write rate: 20.863 MB/s
+	buffer usage: 30510 hits, 1 misses, 4011 dirtied
+	system usage: CPU: user: 0.24 s, system: 0.15 s, elapsed: 1.50 s
+2022-12-28 16:44:05.737 UTC [88568] LOG:  checkpoint complete: wrote 3699154 buffers (35.3%); 0 WAL file(s) added, 0 removed, 1438 recycled; write=269.233 s, sync=0.201 s, total=269.897 s; sync files=159, longest=0.003 s, average=0.002 s; distance=23563269 kB, estimate=23563269 kB
+2022-12-28 16:44:35.769 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 16:44:42.526 UTC [111892] LOG:  automatic vacuum of table "ib.public.pi2": index scans: 0
+	pages: 0 removed, 111876 remain, 20640 scanned (18.45% of total)
+	tuples: 0 removed, 11421011 remain, 0 are dead but not yet removable
+	removable cutoff: 3972511, which was 2292 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.014 ms, write: 0.000 ms
+	avg read rate: 0.001 MB/s, avg write rate: 28.242 MB/s
+	buffer usage: 41417 hits, 1 misses, 20389 dirtied
+	WAL usage: 37600 records, 20389 full page images, 168311374 bytes
+	system usage: CPU: user: 0.26 s, system: 0.13 s, elapsed: 5.64 s
+2022-12-28 16:44:47.911 UTC [111892] LOG:  automatic vacuum of table "ib.public.pi15": index scans: 0
+	pages: 0 removed, 111800 remain, 20564 scanned (18.39% of total)
+	tuples: 0 removed, 11413538 remain, 0 are dead but not yet removable
+	removable cutoff: 3974765, which was 2586 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.014 ms, write: 0.000 ms
+	avg read rate: 0.001 MB/s, avg write rate: 29.351 MB/s
+	buffer usage: 41233 hits, 1 misses, 20230 dirtied
+	WAL usage: 37720 records, 20230 full page images, 167025823 bytes
+	system usage: CPU: user: 0.25 s, system: 0.10 s, elapsed: 5.38 s
+2022-12-28 16:44:48.579 UTC [111892] LOG:  automatic analyze of table "ib.public.pi15"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.105 MB/s
+	buffer usage: 30417 hits, 0 misses, 9 dirtied
+	system usage: CPU: user: 0.24 s, system: 0.10 s, elapsed: 0.66 s
+2022-12-28 16:44:53.787 UTC [111892] LOG:  automatic vacuum of table "ib.public.pi20": index scans: 0
+	pages: 0 removed, 111814 remain, 20575 scanned (18.40% of total)
+	tuples: 0 removed, 11414046 remain, 0 are dead but not yet removable
+	removable cutoff: 3977514, which was 2478 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.021 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 30.162 MB/s
+	buffer usage: 41255 hits, 1 misses, 20107 dirtied
+	WAL usage: 37261 records, 20107 full page images, 165992805 bytes
+	system usage: CPU: user: 0.24 s, system: 0.09 s, elapsed: 5.20 s
+2022-12-28 16:45:41.678 UTC [111910] LOG:  automatic vacuum of table "ib.public.pi7": index scans: 0
+	pages: 0 removed, 112418 remain, 21180 scanned (18.84% of total)
+	tuples: 0 removed, 11476357 remain, 0 are dead but not yet removable
+	removable cutoff: 3998912, which was 2200 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.019 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 32.828 MB/s
+	buffer usage: 42498 hits, 1 misses, 20076 dirtied
+	WAL usage: 36208 records, 20076 full page images, 165704325 bytes
+	system usage: CPU: user: 0.28 s, system: 0.09 s, elapsed: 4.77 s
+2022-12-28 16:45:46.323 UTC [111910] LOG:  automatic vacuum of table "ib.public.pi12": index scans: 0
+	pages: 0 removed, 112418 remain, 21180 scanned (18.84% of total)
+	tuples: 0 removed, 11476410 remain, 0 are dead but not yet removable
+	removable cutoff: 4001112, which was 1760 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.018 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 33.710 MB/s
+	buffer usage: 42465 hits, 1 misses, 20043 dirtied
+	WAL usage: 36499 records, 20043 full page images, 165451980 bytes
+	system usage: CPU: user: 0.26 s, system: 0.09 s, elapsed: 4.64 s
+2022-12-28 16:45:50.979 UTC [111910] LOG:  automatic vacuum of table "ib.public.pi17": index scans: 0
+	pages: 0 removed, 112408 remain, 21170 scanned (18.83% of total)
+	tuples: 0 removed, 11475078 remain, 0 are dead but not yet removable
+	removable cutoff: 4002872, which was 2200 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.019 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 33.589 MB/s
+	buffer usage: 42445 hits, 1 misses, 20018 dirtied
+	WAL usage: 36507 records, 20018 full page images, 165244389 bytes
+	system usage: CPU: user: 0.25 s, system: 0.08 s, elapsed: 4.65 s
+2022-12-28 16:45:55.638 UTC [111910] LOG:  automatic vacuum of table "ib.public.pi21": index scans: 0
+	pages: 0 removed, 112419 remain, 21180 scanned (18.84% of total)
+	tuples: 0 removed, 11476254 remain, 0 are dead but not yet removable
+	removable cutoff: 4005072, which was 2200 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.018 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 33.500 MB/s
+	buffer usage: 42465 hits, 1 misses, 19974 dirtied
+	WAL usage: 36519 records, 19974 full page images, 164882871 bytes
+	system usage: CPU: user: 0.24 s, system: 0.09 s, elapsed: 4.65 s
+2022-12-28 16:46:00.235 UTC [111910] LOG:  automatic vacuum of table "ib.public.pi3": index scans: 0
+	pages: 0 removed, 112643 remain, 21405 scanned (19.00% of total)
+	tuples: 0 removed, 11499407 remain, 0 are dead but not yet removable
+	removable cutoff: 4007272, which was 1760 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.017 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 34.186 MB/s
+	buffer usage: 42915 hits, 1 misses, 20117 dirtied
+	WAL usage: 37027 records, 20117 full page images, 166080373 bytes
+	system usage: CPU: user: 0.29 s, system: 0.04 s, elapsed: 4.59 s
+2022-12-28 16:46:04.895 UTC [111910] LOG:  automatic vacuum of table "ib.public.pi4": index scans: 0
+	pages: 0 removed, 112672 remain, 21435 scanned (19.02% of total)
+	tuples: 0 removed, 11502038 remain, 0 are dead but not yet removable
+	removable cutoff: 4009032, which was 2200 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.013 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 33.711 MB/s
+	buffer usage: 42976 hits, 1 misses, 20107 dirtied
+	WAL usage: 37475 records, 20107 full page images, 166017913 bytes
+	system usage: CPU: user: 0.27 s, system: 0.06 s, elapsed: 4.65 s
+2022-12-28 16:46:09.480 UTC [111910] LOG:  automatic vacuum of table "ib.public.pi5": index scans: 0
+	pages: 0 removed, 112714 remain, 21474 scanned (19.05% of total)
+	tuples: 0 removed, 11506707 remain, 0 are dead but not yet removable
+	removable cutoff: 4011232, which was 1760 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.017 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 34.254 MB/s
+	buffer usage: 43055 hits, 1 misses, 20101 dirtied
+	WAL usage: 36946 records, 20101 full page images, 165954216 bytes
+	system usage: CPU: user: 0.24 s, system: 0.08 s, elapsed: 4.58 s
+2022-12-28 16:46:14.079 UTC [111910] LOG:  automatic vacuum of table "ib.public.pi10": index scans: 0
+	pages: 0 removed, 112702 remain, 21464 scanned (19.04% of total)
+	tuples: 0 removed, 11505517 remain, 0 are dead but not yet removable
+	removable cutoff: 4012992, which was 2200 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.035 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 34.051 MB/s
+	buffer usage: 43033 hits, 1 misses, 20046 dirtied
+	WAL usage: 37560 records, 20046 full page images, 165526915 bytes
+	system usage: CPU: user: 0.24 s, system: 0.08 s, elapsed: 4.59 s
+2022-12-28 16:46:18.683 UTC [111910] LOG:  automatic vacuum of table "ib.public.pi6": index scans: 0
+	pages: 0 removed, 112789 remain, 21552 scanned (19.11% of total)
+	tuples: 0 removed, 11513708 remain, 0 are dead but not yet removable
+	removable cutoff: 4015192, which was 2200 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.015 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 34.072 MB/s
+	buffer usage: 43210 hits, 1 misses, 20078 dirtied
+	WAL usage: 36965 records, 20078 full page images, 165759039 bytes
+	system usage: CPU: user: 0.25 s, system: 0.05 s, elapsed: 4.60 s
+2022-12-28 16:46:23.252 UTC [111910] LOG:  automatic vacuum of table "ib.public.pi11": index scans: 0
+	pages: 0 removed, 112790 remain, 21552 scanned (19.11% of total)
+	tuples: 0 removed, 11514192 remain, 0 are dead but not yet removable
+	removable cutoff: 4017392, which was 1760 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.014 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 34.283 MB/s
+	buffer usage: 43209 hits, 1 misses, 20049 dirtied
+	WAL usage: 36893 records, 20049 full page images, 165514578 bytes
+	system usage: CPU: user: 0.27 s, system: 0.04 s, elapsed: 4.56 s
+2022-12-28 16:46:27.813 UTC [111910] LOG:  automatic vacuum of table "ib.public.pi16": index scans: 0
+	pages: 0 removed, 112781 remain, 21541 scanned (19.10% of total)
+	tuples: 0 removed, 11513015 remain, 0 are dead but not yet removable
+	removable cutoff: 4019152, which was 2200 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.016 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 34.309 MB/s
+	buffer usage: 43187 hits, 1 misses, 20029 dirtied
+	WAL usage: 37696 records, 20029 full page images, 165391033 bytes
+	system usage: CPU: user: 0.27 s, system: 0.04 s, elapsed: 4.56 s
+2022-12-28 16:46:41.509 UTC [111923] LOG:  automatic vacuum of table "ib.public.pi1": index scans: 0
+	pages: 0 removed, 113066 remain, 21827 scanned (19.30% of total)
+	tuples: 0 removed, 11542233 remain, 0 are dead but not yet removable
+	removable cutoff: 4025312, which was 1760 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.020 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 34.182 MB/s
+	buffer usage: 43791 hits, 1 misses, 20127 dirtied
+	WAL usage: 35639 records, 20127 full page images, 166105154 bytes
+	system usage: CPU: user: 0.26 s, system: 0.13 s, elapsed: 4.60 s
+2022-12-28 16:46:46.050 UTC [111923] LOG:  automatic vacuum of table "ib.public.pi8": index scans: 0
+	pages: 0 removed, 113035 remain, 21797 scanned (19.28% of total)
+	tuples: 0 removed, 11539408 remain, 0 are dead but not yet removable
+	removable cutoff: 4027072, which was 2200 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.014 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 34.540 MB/s
+	buffer usage: 43700 hits, 1 misses, 20077 dirtied
+	WAL usage: 35883 records, 20077 full page images, 165711570 bytes
+	system usage: CPU: user: 0.27 s, system: 0.08 s, elapsed: 4.54 s
+2022-12-28 16:46:50.572 UTC [111923] LOG:  automatic vacuum of table "ib.public.pi13": index scans: 0
+	pages: 0 removed, 113033 remain, 21796 scanned (19.28% of total)
+	tuples: 0 removed, 11539052 remain, 0 are dead but not yet removable
+	removable cutoff: 4029272, which was 1760 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.020 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 34.619 MB/s
+	buffer usage: 43697 hits, 1 misses, 20034 dirtied
+	WAL usage: 36659 records, 20034 full page images, 165390887 bytes
+	system usage: CPU: user: 0.24 s, system: 0.09 s, elapsed: 4.52 s
+2022-12-28 16:46:55.080 UTC [111923] LOG:  automatic vacuum of table "ib.public.pi14": index scans: 0
+	pages: 0 removed, 113064 remain, 21826 scanned (19.30% of total)
+	tuples: 0 removed, 11542173 remain, 0 are dead but not yet removable
+	removable cutoff: 4031032, which was 2200 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.016 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 34.681 MB/s
+	buffer usage: 43757 hits, 1 misses, 20012 dirtied
+	WAL usage: 35842 records, 20012 full page images, 165176355 bytes
+	system usage: CPU: user: 0.25 s, system: 0.07 s, elapsed: 4.50 s
+2022-12-28 16:46:59.580 UTC [111923] LOG:  automatic vacuum of table "ib.public.pi18": index scans: 0
+	pages: 0 removed, 113072 remain, 21835 scanned (19.31% of total)
+	tuples: 0 removed, 11543102 remain, 0 are dead but not yet removable
+	removable cutoff: 4033232, which was 1760 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.016 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 34.721 MB/s
+	buffer usage: 43775 hits, 1 misses, 19999 dirtied
+	WAL usage: 36382 records, 19999 full page images, 165093057 bytes
+	system usage: CPU: user: 0.28 s, system: 0.06 s, elapsed: 4.49 s
+2022-12-28 16:47:04.115 UTC [111923] LOG:  automatic vacuum of table "ib.public.pi22": index scans: 0
+	pages: 0 removed, 113074 remain, 21836 scanned (19.31% of total)
+	tuples: 0 removed, 11543440 remain, 0 are dead but not yet removable
+	removable cutoff: 4034992, which was 2200 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.018 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 34.377 MB/s
+	buffer usage: 43777 hits, 1 misses, 19955 dirtied
+	WAL usage: 36870 records, 19955 full page images, 164760444 bytes
+	system usage: CPU: user: 0.26 s, system: 0.05 s, elapsed: 4.53 s
+2022-12-28 16:47:08.717 UTC [111923] LOG:  automatic vacuum of table "ib.public.pi19": index scans: 0
+	pages: 0 removed, 113150 remain, 21916 scanned (19.37% of total)
+	tuples: 0 removed, 11551299 remain, 0 are dead but not yet removable
+	removable cutoff: 4037192, which was 2200 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.011 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 33.908 MB/s
+	buffer usage: 43937 hits, 1 misses, 19972 dirtied
+	WAL usage: 35887 records, 19972 full page images, 164849425 bytes
+	system usage: CPU: user: 0.28 s, system: 0.05 s, elapsed: 4.60 s
+2022-12-28 16:47:37.611 UTC [111936] LOG:  automatic analyze of table "ib.public.pi2"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.034 MB/s
+	buffer usage: 30503 hits, 0 misses, 3 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.14 s, elapsed: 0.68 s
+2022-12-28 16:47:42.198 UTC [111936] LOG:  automatic vacuum of table "ib.public.pi9": index scans: 0
+	pages: 0 removed, 113573 remain, 22336 scanned (19.67% of total)
+	tuples: 0 removed, 11593534 remain, 0 are dead but not yet removable
+	removable cutoff: 4051713, which was 2200 XIDs old when operation ended
+	index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+	I/O timings: read: 0.016 ms, write: 0.000 ms
+	avg read rate: 0.002 MB/s, avg write rate: 34.174 MB/s
+	buffer usage: 44778 hits, 1 misses, 20063 dirtied
+	WAL usage: 35608 records, 20063 full page images, 165589984 bytes
+	system usage: CPU: user: 0.27 s, system: 0.09 s, elapsed: 4.58 s
+2022-12-28 16:47:42.839 UTC [111936] LOG:  automatic analyze of table "ib.public.pi20"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.061 MB/s
+	buffer usage: 30141 hits, 0 misses, 5 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.10 s, elapsed: 0.64 s
+2022-12-28 16:49:05.737 UTC [88568] LOG:  checkpoint complete: wrote 3880430 buffers (37.0%); 0 WAL file(s) added, 65 removed, 1380 recycled; write=269.309 s, sync=0.173 s, total=269.968 s; sync files=181, longest=0.003 s, average=0.001 s; distance=23672539 kB, estimate=23672539 kB
+2022-12-28 16:49:35.764 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 16:49:37.655 UTC [112054] LOG:  automatic analyze of table "ib.public.pi4"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.077 MB/s
+	buffer usage: 30504 hits, 0 misses, 7 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.18 s, elapsed: 0.70 s
+2022-12-28 16:49:38.302 UTC [112054] LOG:  automatic analyze of table "ib.public.pi10"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.085 MB/s
+	buffer usage: 30143 hits, 0 misses, 7 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.10 s, elapsed: 0.64 s
+2022-12-28 16:49:38.913 UTC [112054] LOG:  automatic analyze of table "ib.public.pi16"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 0.077 MB/s
+	buffer usage: 30136 hits, 0 misses, 6 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.08 s, elapsed: 0.61 s
+2022-12-28 16:51:37.702 UTC [112088] LOG:  automatic analyze of table "ib.public.pi3"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 4.796 MB/s
+	buffer usage: 30515 hits, 0 misses, 450 dirtied
+	system usage: CPU: user: 0.18 s, system: 0.15 s, elapsed: 0.73 s
+2022-12-28 16:52:37.732 UTC [112101] LOG:  automatic analyze of table "ib.public.pi12"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 5.039 MB/s
+	buffer usage: 30505 hits, 0 misses, 485 dirtied
+	system usage: CPU: user: 0.18 s, system: 0.16 s, elapsed: 0.75 s
+2022-12-28 16:52:38.454 UTC [112101] LOG:  automatic analyze of table "ib.public.pi17"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 5.259 MB/s
+	buffer usage: 30136 hits, 0 misses, 486 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.10 s, elapsed: 0.72 s
+2022-12-28 16:52:39.173 UTC [112101] LOG:  automatic analyze of table "ib.public.pi21"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 5.520 MB/s
+	buffer usage: 30138 hits, 0 misses, 508 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.09 s, elapsed: 0.71 s
+2022-12-28 16:52:39.876 UTC [112101] LOG:  automatic analyze of table "ib.public.pi5"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.011 MB/s, avg write rate: 4.645 MB/s
+	buffer usage: 30151 hits, 1 misses, 418 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.09 s, elapsed: 0.70 s
+2022-12-28 16:52:40.585 UTC [112101] LOG:  automatic analyze of table "ib.public.pi6"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 4.154 MB/s
+	buffer usage: 30147 hits, 0 misses, 377 dirtied
+	system usage: CPU: user: 0.25 s, system: 0.06 s, elapsed: 0.70 s
+2022-12-28 16:52:41.260 UTC [112101] LOG:  automatic analyze of table "ib.public.pi11"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 5.050 MB/s
+	buffer usage: 30143 hits, 0 misses, 437 dirtied
+	system usage: CPU: user: 0.18 s, system: 0.09 s, elapsed: 0.67 s
+2022-12-28 16:53:37.770 UTC [112113] LOG:  automatic analyze of table "ib.public.pi7"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 5.058 MB/s
+	buffer usage: 30504 hits, 0 misses, 503 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.15 s, elapsed: 0.77 s
+2022-12-28 16:53:38.456 UTC [112113] LOG:  automatic analyze of table "ib.public.pi22"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 3.815 MB/s
+	buffer usage: 30136 hits, 0 misses, 335 dirtied
+	system usage: CPU: user: 0.18 s, system: 0.12 s, elapsed: 0.68 s
+2022-12-28 16:54:05.718 UTC [88568] LOG:  checkpoint complete: wrote 4434615 buffers (42.3%); 0 WAL file(s) added, 0 removed, 1670 recycled; write=269.260 s, sync=0.157 s, total=269.954 s; sync files=180, longest=0.002 s, average=0.001 s; distance=27370306 kB, estimate=27370306 kB
+2022-12-28 16:54:35.748 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 16:54:37.797 UTC [112126] LOG:  automatic analyze of table "ib.public.pi13"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 3.048 MB/s
+	buffer usage: 30508 hits, 0 misses, 309 dirtied
+	system usage: CPU: user: 0.27 s, system: 0.15 s, elapsed: 0.79 s
+2022-12-28 16:55:37.927 UTC [112153] LOG:  automatic analyze of table "ib.public.pi18"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 9.341 MB/s
+	buffer usage: 30503 hits, 0 misses, 1088 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.17 s, elapsed: 0.90 s
+2022-12-28 16:57:37.950 UTC [112179] LOG:  automatic analyze of table "ib.public.pi8"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 8.961 MB/s
+	buffer usage: 30513 hits, 0 misses, 1038 dirtied
+	system usage: CPU: user: 0.24 s, system: 0.15 s, elapsed: 0.90 s
+2022-12-28 16:57:38.807 UTC [112179] LOG:  automatic analyze of table "ib.public.pi14"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 9.463 MB/s
+	buffer usage: 30142 hits, 0 misses, 1038 dirtied
+	system usage: CPU: user: 0.23 s, system: 0.11 s, elapsed: 0.85 s
+2022-12-28 16:57:39.619 UTC [112179] LOG:  automatic analyze of table "ib.public.pi19"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 9.408 MB/s
+	buffer usage: 30136 hits, 0 misses, 979 dirtied
+	system usage: CPU: user: 0.18 s, system: 0.12 s, elapsed: 0.81 s
+2022-12-28 16:58:37.909 UTC [112192] LOG:  automatic analyze of table "ib.public.pi1"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.009 MB/s, avg write rate: 9.436 MB/s
+	buffer usage: 30512 hits, 1 misses, 1029 dirtied
+	system usage: CPU: user: 0.19 s, system: 0.14 s, elapsed: 0.85 s
+2022-12-28 16:59:05.555 UTC [88568] LOG:  checkpoint complete: wrote 3985318 buffers (38.0%); 0 WAL file(s) added, 0 removed, 1468 recycled; write=269.269 s, sync=0.138 s, total=269.807 s; sync files=160, longest=0.002 s, average=0.001 s; distance=24044649 kB, estimate=27037740 kB
+2022-12-28 16:59:35.584 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 17:00:38.114 UTC [112219] LOG:  automatic analyze of table "ib.public.pi9"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 12.108 MB/s
+	buffer usage: 30511 hits, 0 misses, 1601 dirtied
+	system usage: CPU: user: 0.24 s, system: 0.16 s, elapsed: 1.03 s
+2022-12-28 17:04:05.561 UTC [88568] LOG:  checkpoint complete: wrote 4091496 buffers (39.0%); 0 WAL file(s) added, 0 removed, 1490 recycled; write=269.416 s, sync=0.067 s, total=269.978 s; sync files=159, longest=0.003 s, average=0.001 s; distance=24423549 kB, estimate=26776321 kB
+2022-12-28 17:04:35.592 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 17:04:38.343 UTC [112272] LOG:  automatic analyze of table "ib.public.pi15"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 13.012 MB/s
+	buffer usage: 30505 hits, 0 misses, 2017 dirtied
+	system usage: CPU: user: 0.26 s, system: 0.14 s, elapsed: 1.21 s
+2022-12-28 17:07:38.393 UTC [112315] LOG:  automatic analyze of table "ib.public.pi2"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 16.978 MB/s
+	buffer usage: 30509 hits, 0 misses, 2660 dirtied
+	system usage: CPU: user: 0.24 s, system: 0.15 s, elapsed: 1.22 s
+2022-12-28 17:07:39.537 UTC [112315] LOG:  automatic analyze of table "ib.public.pi20"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 17.749 MB/s
+	buffer usage: 30136 hits, 0 misses, 2599 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.10 s, elapsed: 1.14 s
+2022-12-28 17:09:05.566 UTC [88568] LOG:  checkpoint complete: wrote 4082303 buffers (38.9%); 0 WAL file(s) added, 0 removed, 1514 recycled; write=269.455 s, sync=0.105 s, total=269.974 s; sync files=158, longest=0.003 s, average=0.001 s; distance=24793866 kB, estimate=26578076 kB
+2022-12-28 17:09:35.597 UTC [88568] LOG:  checkpoint starting: time
+2022-12-28 17:09:38.604 UTC [112358] LOG:  automatic analyze of table "ib.public.pi4"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 17.508 MB/s
+	buffer usage: 30504 hits, 0 misses, 3162 dirtied
+	system usage: CPU: user: 0.25 s, system: 0.12 s, elapsed: 1.41 s
+2022-12-28 17:09:39.852 UTC [112358] LOG:  automatic analyze of table "ib.public.pi10"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 19.287 MB/s
+	buffer usage: 30136 hits, 0 misses, 3081 dirtied
+	system usage: CPU: user: 0.21 s, system: 0.12 s, elapsed: 1.24 s
+2022-12-28 17:09:41.155 UTC [112358] LOG:  automatic analyze of table "ib.public.pi16"
+	I/O timings: read: 0.000 ms, write: 0.000 ms
+	avg read rate: 0.000 MB/s, avg write rate: 18.575 MB/s
+	buffer usage: 30136 hits, 0 misses, 3098 dirtied
+	system usage: CPU: user: 0.22 s, system: 0.09 s, elapsed: 1.30 s

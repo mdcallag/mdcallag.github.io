@@ -1,0 +1,131 @@
+275 000776.sst
+106 000821.sst
+ 85 000848.sst
+ 85 000803.sst
+ 85 000788.sst
+ 71 000878.sst
+ 66 000877.sst
+ 66 000876.sst
+ 66 000875.sst
+ 66 000874.sst
+ 66 000873.sst
+ 66 000871.sst
+ 66 000870.sst
+ 66 000868.sst
+ 66 000865.sst
+ 66 000862.sst
+ 66 000859.sst
+ 66 000800.sst
+ 66 000789.sst
+ 66 000779.sst
+ 66 000772.sst
+ 66 000768.sst
+ 66 000762.sst
+ 66 000755.sst
+ 66 000746.sst
+ 66 000738.sst
+ 66 000731.sst
+ 66 000660.sst
+ 66 000601.sst
+ 66 000434.sst
+ 65 000869.sst
+ 65 000863.sst
+ 65 000861.sst
+ 65 000860.sst
+ 65 000853.sst
+ 65 000847.sst
+ 65 000846.sst
+ 65 000840.sst
+ 65 000835.sst
+ 65 000830.sst
+ 65 000826.sst
+ 65 000825.sst
+ 65 000824.sst
+ 65 000823.sst
+ 65 000822.sst
+ 65 000819.sst
+ 65 000814.sst
+ 65 000741.sst
+ 65 000734.sst
+ 65 000652.sst
+ 65 000591.sst
+ 65 000582.sst
+ 65 000581.sst
+ 65 000575.sst
+ 65 000572.sst
+ 65 000571.sst
+ 65 000499.sst
+ 65 000497.sst
+ 65 000491.sst
+ 65 000490.sst
+ 65 000342.sst
+ 65 000079.sst
+ 56 000596.sst
+ 54 000852.sst
+48 ib_logfile1
+48 ib_logfile0
+ 47 000864.sst
+ 40 000872.sst
+ 40 000838.sst
+ 40 000837.sst
+ 40 000836.sst
+ 40 000834.sst
+ 40 000512.sst
+ 34 000833.sst
+ 32 000720.sst
+27 mysql.ibd
+ 22 000867.sst
+ 22 000857.sst
+ 22 000855.sst
+ 22 000851.sst
+16 undo_002
+16 undo_001
+ 16 000843.sst
+ 16 000421.sst
+ 13 000039.sst
+ 13 000036.sst
+ 13 000027.sst
+12 ibtmp1
+12 ibdata1
+ 9 #ib_16384_1.dblwr
+  8 000749.sst
+  7 000858.sst
+  7 000849.sst
+  7 000511.sst
+  6 000827.sst
+  4 MANIFEST-000017
+  4 000813.sst
+  3 000569.sst
+  2 LOG
+1 txlogs
+1 data
+ 1 public_key.pem
+ 1 private_key.pem
+ 1 performance_schema
+ 1 ip-172-31-33-238.pid
+ 1 ip-172-31-33-238.err
+ 1 ip-172-31-33-238-slow.log
+ 1 ib_buffer_pool
+ 1 ib
+ 1 auto.cnf
+ 1 .rocksdb
+ 1 .
+ 1 #ib_16384_0.dblwr
+  1 OPTIONS-000023
+  1 OPTIONS-000021
+  1 LOG.old.1672240260553779
+  1 IDENTITY
+  1 CURRENT
+  1 000794.sst
+  1 ..
+  1 .
+0 binlogs
+0 ..
+0 .
+ 0 test
+ 0 sys
+ 0 mysql
+ 0 ip-172-31-33-238-gaplock.log
+ 0 ..
+ 0 #innodb_temp
+  0 LOCK

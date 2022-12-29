@@ -1,0 +1,26 @@
+512 ibdata1
+ 27 mysql.ibd
+ 16 undo_002
+ 16 undo_001
+ 12 ibtmp1
+ 10 #ib_16384_1.dblwr
+  2 #ib_16384_0.dblwr
+1 data
+  1 public_key.pem
+  1 private_key.pem
+  1 performance_schema
+  1 ip-172-31-33-238.pid
+  1 ip-172-31-33-238.err
+  1 ip-172-31-33-238-slow.log
+  1 ib
+  1 auto.cnf
+  1 .
+0 txlogs
+0 binlogs
+0 ..
+0 .
+  0 test
+  0 sys
+  0 mysql
+  0 ..
+  0 #innodb_temp

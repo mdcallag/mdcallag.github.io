@@ -1,0 +1,52 @@
+pi1_pkey
+-[ RECORD 1 ]------+----------
+version            | 4
+tree_level         | 2
+index_size         | 290086912
+root_block_no      | 412
+internal_pages     | 125
+leaf_pages         | 35285
+empty_pages        | 0
+deleted_pages      | 0
+avg_leaf_density   | 90.09
+leaf_fragmentation | 0
+
+pi1_pdc
+-[ RECORD 1 ]------+----------
+version            | 4
+tree_level         | 3
+index_size         | 757841920
+root_block_no      | 75832
+internal_pages     | 516
+leaf_pages         | 91993
+empty_pages        | 0
+deleted_pages      | 0
+avg_leaf_density   | 62.37
+leaf_fragmentation | 50.89
+
+pi1_marketsegment
+-[ RECORD 1 ]------+----------
+version            | 4
+tree_level         | 2
+index_size         | 427991040
+root_block_no      | 283
+internal_pages     | 188
+leaf_pages         | 52056
+empty_pages        | 0
+deleted_pages      | 0
+avg_leaf_density   | 61.16
+leaf_fragmentation | 50.05
+
+pi1_registersegment
+-[ RECORD 1 ]------+----------
+version            | 4
+tree_level         | 2
+index_size         | 601890816
+root_block_no      | 289
+internal_pages     | 260
+leaf_pages         | 73212
+empty_pages        | 0
+deleted_pages      | 0
+avg_leaf_density   | 60.88
+leaf_fragmentation | 50.12
+

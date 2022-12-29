@@ -1,0 +1,13 @@
+Use mysql
+mkdir: cannot create directory ‘l.i0’: File exists
+mkdir: cannot create directory ‘l.x’: File exists
+mkdir: cannot create directory ‘l.i1’: File exists
+Run with ips 100
+mkdir: cannot create directory ‘q.L1.ips100’: File exists
+Run with ips 500
+Run with ips 1000
+cat: /proc/sys/vm/compact_memory: Permission denied
+cat: /proc/sys/vm/drop_caches: Permission denied
+cat: /proc/sys/vm/mmap_rnd_bits: Permission denied
+cat: /proc/sys/vm/mmap_rnd_compat_bits: Permission denied
+cat: /proc/sys/vm/stat_refresh: Permission denied

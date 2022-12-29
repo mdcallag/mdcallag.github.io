@@ -1,0 +1,12 @@
+pi1
+-[ RECORD 1 ]------+-----------
+table_len          | 1036337152
+tuple_count        | 12914050
+tuple_len          | 929825256
+tuple_percent      | 89.72
+dead_tuple_count   | 0
+dead_tuple_len     | 0
+dead_tuple_percent | 0
+free_space         | 4366788
+free_percent       | 0.42
+

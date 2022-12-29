@@ -1,0 +1,288 @@
+*************************** 1. row ***************************
+     SPACE: 0
+      NAME: innodb_system
+      PATH: ibdata1
+      FLAG: 18432
+SPACE_TYPE: System
+*************************** 2. row ***************************
+     SPACE: 4294967279
+      NAME: innodb_undo_001
+      PATH: ./undo_001
+      FLAG: 0
+SPACE_TYPE: Single
+*************************** 3. row ***************************
+     SPACE: 4294967278
+      NAME: innodb_undo_002
+      PATH: ./undo_002
+      FLAG: 0
+SPACE_TYPE: Single
+*************************** 4. row ***************************
+     SPACE: 1
+      NAME: sys/sys_config
+      PATH: ./sys/sys_config.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 5. row ***************************
+     SPACE: 2
+      NAME: ib/pi1
+      PATH: ./ib/pi1.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 6. row ***************************
+     SPACE: 3
+      NAME: ib/pi2
+      PATH: ./ib/pi2.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 7. row ***************************
+     SPACE: 4
+      NAME: ib/pi3
+      PATH: ./ib/pi3.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 8. row ***************************
+     SPACE: 5
+      NAME: ib/pi4
+      PATH: ./ib/pi4.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 9. row ***************************
+     SPACE: 6
+      NAME: ib/pi5
+      PATH: ./ib/pi5.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 10. row ***************************
+     SPACE: 7
+      NAME: ib/pi6
+      PATH: ./ib/pi6.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 11. row ***************************
+     SPACE: 8
+      NAME: ib/pi7
+      PATH: ./ib/pi7.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 12. row ***************************
+     SPACE: 9
+      NAME: ib/pi8
+      PATH: ./ib/pi8.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 13. row ***************************
+     SPACE: 10
+      NAME: ib/pi9
+      PATH: ./ib/pi9.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 14. row ***************************
+     SPACE: 11
+      NAME: ib/pi10
+      PATH: ./ib/pi10.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 15. row ***************************
+     SPACE: 12
+      NAME: ib/pi11
+      PATH: ./ib/pi11.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 16. row ***************************
+     SPACE: 13
+      NAME: ib/pi12
+      PATH: ./ib/pi12.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 17. row ***************************
+     SPACE: 14
+      NAME: ib/pi13
+      PATH: ./ib/pi13.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 18. row ***************************
+     SPACE: 15
+      NAME: ib/pi14
+      PATH: ./ib/pi14.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 19. row ***************************
+     SPACE: 16
+      NAME: ib/pi15
+      PATH: ./ib/pi15.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 20. row ***************************
+     SPACE: 17
+      NAME: ib/pi16
+      PATH: ./ib/pi16.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 21. row ***************************
+     SPACE: 18
+      NAME: ib/pi17
+      PATH: ./ib/pi17.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 22. row ***************************
+     SPACE: 19
+      NAME: ib/pi18
+      PATH: ./ib/pi18.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 23. row ***************************
+     SPACE: 20
+      NAME: ib/pi19
+      PATH: ./ib/pi19.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 24. row ***************************
+     SPACE: 21
+      NAME: ib/pi20
+      PATH: ./ib/pi20.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 25. row ***************************
+     SPACE: 22
+      NAME: ib/pi21
+      PATH: ./ib/pi21.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 26. row ***************************
+     SPACE: 23
+      NAME: ib/pi22
+      PATH: ./ib/pi22.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 27. row ***************************
+     SPACE: 24
+      NAME: ib/pi23
+      PATH: ./ib/pi23.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 28. row ***************************
+     SPACE: 25
+      NAME: ib/pi24
+      PATH: ./ib/pi24.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 29. row ***************************
+     SPACE: 26
+      NAME: ib/pi25
+      PATH: ./ib/pi25.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 30. row ***************************
+     SPACE: 27
+      NAME: ib/pi26
+      PATH: ./ib/pi26.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 31. row ***************************
+     SPACE: 28
+      NAME: ib/pi27
+      PATH: ./ib/pi27.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 32. row ***************************
+     SPACE: 29
+      NAME: ib/pi28
+      PATH: ./ib/pi28.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 33. row ***************************
+     SPACE: 30
+      NAME: ib/pi29
+      PATH: ./ib/pi29.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 34. row ***************************
+     SPACE: 31
+      NAME: ib/pi30
+      PATH: ./ib/pi30.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 35. row ***************************
+     SPACE: 32
+      NAME: ib/pi31
+      PATH: ./ib/pi31.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 36. row ***************************
+     SPACE: 33
+      NAME: ib/pi32
+      PATH: ./ib/pi32.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 37. row ***************************
+     SPACE: 34
+      NAME: ib/pi33
+      PATH: ./ib/pi33.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 38. row ***************************
+     SPACE: 35
+      NAME: ib/pi34
+      PATH: ./ib/pi34.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 39. row ***************************
+     SPACE: 36
+      NAME: ib/pi35
+      PATH: ./ib/pi35.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 40. row ***************************
+     SPACE: 37
+      NAME: ib/pi36
+      PATH: ./ib/pi36.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 41. row ***************************
+     SPACE: 38
+      NAME: ib/pi37
+      PATH: ./ib/pi37.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 42. row ***************************
+     SPACE: 39
+      NAME: ib/pi38
+      PATH: ./ib/pi38.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 43. row ***************************
+     SPACE: 40
+      NAME: ib/pi39
+      PATH: ./ib/pi39.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 44. row ***************************
+     SPACE: 41
+      NAME: ib/pi40
+      PATH: ./ib/pi40.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 45. row ***************************
+     SPACE: 42
+      NAME: ib/pi41
+      PATH: ./ib/pi41.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 46. row ***************************
+     SPACE: 43
+      NAME: ib/pi42
+      PATH: ./ib/pi42.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 47. row ***************************
+     SPACE: 44
+      NAME: ib/pi43
+      PATH: ./ib/pi43.ibd
+      FLAG: 16417
+SPACE_TYPE: Single
+*************************** 48. row ***************************
+     SPACE: 45
+      NAME: ib/pi44
+      PATH: ./ib/pi44.ibd
+      FLAG: 16417
+SPACE_TYPE: Single

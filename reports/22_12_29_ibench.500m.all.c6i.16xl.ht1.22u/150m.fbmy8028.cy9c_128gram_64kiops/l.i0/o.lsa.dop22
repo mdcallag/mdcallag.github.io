@@ -1,0 +1,137 @@
+127 000892.sst
+ 85 000868.sst
+ 85 000853.sst
+ 71 000916.sst
+ 71 000915.sst
+ 66 000877.sst
+ 66 000873.sst
+ 66 000869.sst
+ 66 000867.sst
+ 66 000864.sst
+ 66 000861.sst
+ 66 000860.sst
+ 66 000857.sst
+ 66 000854.sst
+ 66 000851.sst
+ 66 000849.sst
+ 66 000846.sst
+ 66 000842.sst
+ 66 000841.sst
+ 66 000656.sst
+ 65 000914.sst
+ 65 000913.sst
+ 65 000909.sst
+ 65 000907.sst
+ 65 000906.sst
+ 65 000905.sst
+ 65 000904.sst
+ 65 000903.sst
+ 65 000901.sst
+ 65 000900.sst
+ 65 000898.sst
+ 65 000897.sst
+ 65 000896.sst
+ 65 000895.sst
+ 65 000894.sst
+ 65 000893.sst
+ 65 000891.sst
+ 65 000888.sst
+ 65 000882.sst
+ 65 000824.sst
+ 65 000823.sst
+ 65 000822.sst
+ 65 000821.sst
+ 65 000820.sst
+ 65 000819.sst
+ 65 000816.sst
+ 65 000814.sst
+ 65 000813.sst
+ 65 000812.sst
+ 65 000811.sst
+ 65 000804.sst
+ 65 000734.sst
+ 65 000720.sst
+ 65 000712.sst
+ 65 000635.sst
+ 65 000632.sst
+ 65 000631.sst
+ 65 000630.sst
+ 65 000623.sst
+ 65 000622.sst
+ 65 000617.sst
+ 65 000546.sst
+ 65 000545.sst
+ 65 000366.sst
+ 62 000910.sst
+ 61 000902.sst
+ 57 000833.sst
+ 56 000836.sst
+ 56 000801.sst
+ 50 000885.sst
+48 ib_logfile1
+48 ib_logfile0
+ 47 000732.sst
+ 40 000917.sst
+ 40 000835.sst
+ 40 000834.sst
+ 40 000831.sst
+ 40 000807.sst
+ 40 000717.sst
+ 38 000911.sst
+ 34 000872.sst
+ 34 000639.sst
+ 31 000908.sst
+ 31 000832.sst
+ 31 000646.sst
+27 mysql.ibd
+ 22 000912.sst
+ 22 000890.sst
+ 22 000887.sst
+ 22 000884.sst
+ 22 000879.sst
+ 22 000875.sst
+ 22 000871.sst
+ 22 000742.sst
+16 undo_002
+16 undo_001
+ 16 000899.sst
+ 16 000737.sst
+ 13 000037.sst
+ 13 000034.sst
+12 ibtmp1
+12 ibdata1
+ 9 #ib_16384_1.dblwr
+  4 MANIFEST-000017
+  3 LOG
+1 txlogs
+1 data
+ 1 public_key.pem
+ 1 private_key.pem
+ 1 performance_schema
+ 1 ip-172-31-67-155.pid
+ 1 ip-172-31-67-155.err
+ 1 ip-172-31-67-155-slow.log
+ 1 ib_buffer_pool
+ 1 ib
+ 1 auto.cnf
+ 1 .rocksdb
+ 1 .
+ 1 #ib_16384_0.dblwr
+  1 OPTIONS-000023
+  1 OPTIONS-000021
+  1 LOG.old.1672200182971963
+  1 IDENTITY
+  1 CURRENT
+  1 000845.sst
+  1 ..
+  1 .
+0 binlogs
+0 ..
+0 .
+ 0 test
+ 0 sys
+ 0 mysql
+ 0 ip-172-31-67-155-gaplock.log
+ 0 ..
+ 0 #innodb_temp
+  0 LOCK

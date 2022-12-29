@@ -1,0 +1,22 @@
+python3 iibench.py --dbms=postgres --db_name=ib --secs_per_report=1 --db_host=127.0.0.1 --db_user=root --db_password=pw --engine=pg --engine_options= --unique_checks=1 --bulk_load=0 --max_rows=2383127 --table_name=pi3 --setup --num_secondary_indexes=0 --data_length_min=10 --data_length_max=20 --rows_per_commit=100 --inserts_per_second=0 --query_threads=0 --seed=1672276379 --dbopt=none --use_prepared_query
+i_sec	t_sec	i_ips	t_ips	i_qps	t_qps	max_i	max_q	t_ins	t_query	retry_i	retry_q
+1.0	1.0	152585	152585	0	0	1422	0	152600	0	0	0
+1.0	2.0	161922	157256	0	0	683	0	314700	0	0	0
+1.0	3.0	162427	158980	0	0	674	0	477300	0	0	0
+1.0	4.0	161729	159668	0	0	692	0	639200	0	0	0
+1.0	5.0	161830	160100	0	0	697	0	801200	0	0	0
+1.0	6.0	160831	160222	0	0	1701	0	962200	0	0	0
+1.0	7.0	160832	160309	0	0	719	0	1123100	0	0	0
+1.0	8.0	160129	160287	0	0	700	0	1283400	0	0	0
+1.0	9.0	159472	160196	0	0	696	0	1443000	0	0	0
+1.0	10.0	158630	160040	0	0	1231	0	1601800	0	0	0
+1.0	11.0	157033	159766	0	0	842	0	1759000	0	0	0
+1.0	12.0	153936	159280	0	0	1959	0	1913100	0	0	0
+1.0	13.0	150979	158642	0	0	1966	0	2064200	0	0	0
+1.0	14.0	146544	157777	0	0	1992	0	2210900	0	0	0
+1.0	15.0	146443	157022	0	0	1811	0	2357500	0	0	0
+1.0	16.0	25672	148811	0	0	2176	0	2383200	0	0	0
+Insert rt:     256us       1ms       4ms      16ms      64ms     256ms        1s        4s       16s        gt         max
+Insert rt:         0     23738        94         0         0         0         0         0         0         0    0.002176
+Totals: 16.0 secs, 148805.2 rows/sec, 2383127 rows, 0 insert retry, 0 query retry
+Done

@@ -1,0 +1,12 @@
+-[ RECORD 1 ]---+-----------
+pg_size_pretty  | 1156 MB
+pg_indexes_size | 1212170240
+
+-[ RECORD 1 ]----+----------
+pg_size_pretty   | 715 MB
+pg_relation_size | 749264896
+
+-[ RECORD 1 ]----------+-----------
+pg_size_pretty         | 1871 MB
+pg_total_relation_size | 1961672704
+

@@ -1,0 +1,25 @@
+INFO:  vacuuming "ib.public.pi35"
+INFO:  launched 0 parallel vacuum workers for index cleanup (planned: 2)
+INFO:  finished vacuuming "ib.public.pi35": index scans: 0
+pages: 0 removed, 35041 remain, 1 scanned (0.00% of total)
+tuples: 0 removed, 3577117 remain, 0 are dead but not yet removable
+removable cutoff: 2099278, which was 0 XIDs old when operation ended
+index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+I/O timings: read: 0.000 ms, write: 0.000 ms
+avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+buffer usage: 118 hits, 0 misses, 0 dirtied
+WAL usage: 0 records, 0 full page images, 0 bytes
+system usage: CPU: user: 0.00 s, system: 0.13 s, elapsed: 0.19 s
+INFO:  vacuuming "ib.pg_toast.pg_toast_16741"
+INFO:  finished vacuuming "ib.pg_toast.pg_toast_16741": index scans: 0
+pages: 0 removed, 0 remain, 0 scanned (100.00% of total)
+tuples: 0 removed, 0 remain, 0 are dead but not yet removable
+removable cutoff: 2099278, which was 0 XIDs old when operation ended
+new relfrozenxid: 2099278, which is 1484139 XIDs ahead of previous value
+index scan not needed: 0 pages from table (100.00% of total) had 0 dead item identifiers removed
+I/O timings: read: 0.019 ms, write: 0.000 ms
+avg read rate: 63.004 MB/s, avg write rate: 0.000 MB/s
+buffer usage: 19 hits, 1 misses, 0 dirtied
+WAL usage: 1 records, 0 full page images, 188 bytes
+system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+VACUUM

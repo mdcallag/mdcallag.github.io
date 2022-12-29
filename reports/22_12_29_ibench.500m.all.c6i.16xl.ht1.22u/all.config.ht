@@ -1,0 +1,17 @@
+<p>
+The test server is an c6i.16xl with 32 cores, 64 HW threads (hyperthread enabled), 128G RAM and io2 storage (5T, 64K IOPs).
+The benchmark was run with 22 clients and there was 1 or 2 connections per client (1 for queries, 1 for inserts).
+The benchmark loads 150M rows without secondary indexes, creates secondary indexes, loads another 50M rows then
+does 3 read+write tests for one hour each that do queries as fast as possible with 100, 500 and then 1000 writes/second/client concurrent with the queries.
+The database is cached by the storage engine and the only IO is for writes.
+Clients and the DBMS share one server. The per-database configs are in the per-database subdirectories <a href="https://github.com/mdcallag/mytools/tree/master/bench/conf/nuc8i7.ub1804">here</a>.
+</p>
+<p>
+The tested DBMS are:
+<ul>
+<li>my8031.cy8_128gram_64kiops - MySQL 8.0.31 with InnoDB and the cy8_128gram_64kiops config
+<li>fbmy8028.cy9c_128gram_64kiops - FB MySQL 8.0.28 with MyRocks and the cy9c_128gram_64kiops config
+<li>pg151.cx7_128gram_64kiops - Postgres 15.1 and the cx7_128gram_64kiops config
+</ul>
+</p>
+

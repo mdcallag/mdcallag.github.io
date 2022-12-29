@@ -1,0 +1,839 @@
+*************************** 1. row ***************************
+           Name: pi1
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2385834
+ Avg_row_length: 32
+    Data_length: 76971270
+Max_data_length: 0
+   Index_length: 94605672
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:16
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 2. row ***************************
+           Name: pi10
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2384987
+ Avg_row_length: 34
+    Data_length: 82813193
+Max_data_length: 0
+   Index_length: 95208485
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:25
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 3. row ***************************
+           Name: pi11
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2424077
+ Avg_row_length: 37
+    Data_length: 92037130
+Max_data_length: 0
+   Index_length: 95231516
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:26
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 4. row ***************************
+           Name: pi12
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2386837
+ Avg_row_length: 33
+    Data_length: 80761613
+Max_data_length: 0
+   Index_length: 95258985
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:27
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 5. row ***************************
+           Name: pi13
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2384430
+ Avg_row_length: 33
+    Data_length: 80650554
+Max_data_length: 0
+   Index_length: 95264802
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:28
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 6. row ***************************
+           Name: pi14
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2384471
+ Avg_row_length: 34
+    Data_length: 81183338
+Max_data_length: 0
+   Index_length: 95265853
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:29
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 7. row ***************************
+           Name: pi15
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2386851
+ Avg_row_length: 36
+    Data_length: 86354910
+Max_data_length: 0
+   Index_length: 95282995
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:30
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 8. row ***************************
+           Name: pi16
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2384716
+ Avg_row_length: 35
+    Data_length: 85527221
+Max_data_length: 0
+   Index_length: 95305890
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:31
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 9. row ***************************
+           Name: pi17
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2383200
+ Avg_row_length: 34
+    Data_length: 81562164
+Max_data_length: 0
+   Index_length: 95319247
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:32
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 10. row ***************************
+           Name: pi18
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2384985
+ Avg_row_length: 36
+    Data_length: 87962051
+Max_data_length: 0
+   Index_length: 95333760
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:33
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 11. row ***************************
+           Name: pi19
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2389838
+ Avg_row_length: 36
+    Data_length: 86541742
+Max_data_length: 0
+   Index_length: 95347115
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:34
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 12. row ***************************
+           Name: pi2
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2384767
+ Avg_row_length: 34
+    Data_length: 82939264
+Max_data_length: 0
+   Index_length: 94988334
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:17
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 13. row ***************************
+           Name: pi20
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2387293
+ Avg_row_length: 32
+    Data_length: 77071166
+Max_data_length: 0
+   Index_length: 95337969
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:35
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 14. row ***************************
+           Name: pi21
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2385637
+ Avg_row_length: 32
+    Data_length: 76966137
+Max_data_length: 0
+   Index_length: 95358719
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:36
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 15. row ***************************
+           Name: pi22
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2387319
+ Avg_row_length: 32
+    Data_length: 77068038
+Max_data_length: 0
+   Index_length: 95362493
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:37
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 16. row ***************************
+           Name: pi23
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2383200
+ Avg_row_length: 35
+    Data_length: 84659900
+Max_data_length: 0
+   Index_length: 95367672
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:38
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 17. row ***************************
+           Name: pi24
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2393014
+ Avg_row_length: 40
+    Data_length: 96969663
+Max_data_length: 0
+   Index_length: 95350662
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:39
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 18. row ***************************
+           Name: pi25
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2385060
+ Avg_row_length: 33
+    Data_length: 79113400
+Max_data_length: 0
+   Index_length: 95357320
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:40
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 19. row ***************************
+           Name: pi26
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2383200
+ Avg_row_length: 33
+    Data_length: 79639414
+Max_data_length: 0
+   Index_length: 95379965
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:41
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 20. row ***************************
+           Name: pi27
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2385250
+ Avg_row_length: 33
+    Data_length: 80320754
+Max_data_length: 0
+   Index_length: 95375822
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:42
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 21. row ***************************
+           Name: pi28
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2385353
+ Avg_row_length: 33
+    Data_length: 80874742
+Max_data_length: 0
+   Index_length: 95367140
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:43
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 22. row ***************************
+           Name: pi29
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2383200
+ Avg_row_length: 34
+    Data_length: 82133921
+Max_data_length: 0
+   Index_length: 95378427
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:44
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 23. row ***************************
+           Name: pi3
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2383200
+ Avg_row_length: 35
+    Data_length: 85127518
+Max_data_length: 0
+   Index_length: 95030941
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:18
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 24. row ***************************
+           Name: pi30
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2387195
+ Avg_row_length: 34
+    Data_length: 82843339
+Max_data_length: 0
+   Index_length: 95388847
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:45
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 25. row ***************************
+           Name: pi31
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2405850
+ Avg_row_length: 35
+    Data_length: 84560665
+Max_data_length: 0
+   Index_length: 95394004
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:46
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 26. row ***************************
+           Name: pi32
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2385879
+ Avg_row_length: 35
+    Data_length: 84055827
+Max_data_length: 0
+   Index_length: 95396906
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:47
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 27. row ***************************
+           Name: pi33
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2395365
+ Avg_row_length: 35
+    Data_length: 84219392
+Max_data_length: 0
+   Index_length: 95380705
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:48
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 28. row ***************************
+           Name: pi34
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2389563
+ Avg_row_length: 35
+    Data_length: 85092392
+Max_data_length: 0
+   Index_length: 95379540
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:49
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 29. row ***************************
+           Name: pi35
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2385268
+ Avg_row_length: 35
+    Data_length: 84875140
+Max_data_length: 0
+   Index_length: 95374312
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:50
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 30. row ***************************
+           Name: pi36
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2383200
+ Avg_row_length: 36
+    Data_length: 86223469
+Max_data_length: 0
+   Index_length: 95388551
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:51
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 31. row ***************************
+           Name: pi37
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2390503
+ Avg_row_length: 36
+    Data_length: 86827890
+Max_data_length: 0
+   Index_length: 95393457
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:52
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 32. row ***************************
+           Name: pi38
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2472169
+ Avg_row_length: 37
+    Data_length: 92233727
+Max_data_length: 0
+   Index_length: 95388918
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:53
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 33. row ***************************
+           Name: pi39
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2380436
+ Avg_row_length: 36
+    Data_length: 87132109
+Max_data_length: 0
+   Index_length: 95389133
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:54
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 34. row ***************************
+           Name: pi4
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2386448
+ Avg_row_length: 36
+    Data_length: 88217715
+Max_data_length: 0
+   Index_length: 95068776
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:19
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 35. row ***************************
+           Name: pi40
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2313600
+ Avg_row_length: 36
+    Data_length: 84451084
+Max_data_length: 0
+   Index_length: 95384899
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:55
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 36. row ***************************
+           Name: pi41
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2447527
+ Avg_row_length: 37
+    Data_length: 92717315
+Max_data_length: 0
+   Index_length: 95376652
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:56
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 37. row ***************************
+           Name: pi42
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2383200
+ Avg_row_length: 35
+    Data_length: 84864301
+Max_data_length: 0
+   Index_length: 95348174
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:57
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 38. row ***************************
+           Name: pi43
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2384761
+ Avg_row_length: 33
+    Data_length: 80990269
+Max_data_length: 0
+   Index_length: 95317124
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:58
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 39. row ***************************
+           Name: pi44
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2383415
+ Avg_row_length: 32
+    Data_length: 76831186
+Max_data_length: 0
+   Index_length: 95146412
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:59
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 40. row ***************************
+           Name: pi5
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2385114
+ Avg_row_length: 32
+    Data_length: 76940016
+Max_data_length: 0
+   Index_length: 95090637
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:20
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 41. row ***************************
+           Name: pi6
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2387901
+ Avg_row_length: 32
+    Data_length: 77103905
+Max_data_length: 0
+   Index_length: 95127949
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:21
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 42. row ***************************
+           Name: pi7
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2390654
+ Avg_row_length: 32
+    Data_length: 77273817
+Max_data_length: 0
+   Index_length: 95169773
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:22
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 43. row ***************************
+           Name: pi8
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2386194
+ Avg_row_length: 32
+    Data_length: 77006168
+Max_data_length: 0
+   Index_length: 95179421
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:23
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 44. row ***************************
+           Name: pi9
+         Engine: ROCKSDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 2383397
+ Avg_row_length: 33
+    Data_length: 80049626
+Max_data_length: 0
+   Index_length: 95232594
+      Data_free: 0
+ Auto_increment: 2385501
+    Create_time: 2022-12-28 18:34:24
+    Update_time: NULL
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+sum of data and index length columns in GB
+3.408
+3.904

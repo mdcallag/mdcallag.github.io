@@ -1,0 +1,421 @@
+*************************** 1. row ***************************
+           Name: pi1
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4627840
+ Avg_row_length: 71
+    Data_length: 332283904
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:25
+    Update_time: 2022-12-28 08:37:24
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 2. row ***************************
+           Name: pi10
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4629607
+ Avg_row_length: 71
+    Data_length: 332283904
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:34
+    Update_time: 2022-12-28 08:37:33
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 3. row ***************************
+           Name: pi11
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4630848
+ Avg_row_length: 71
+    Data_length: 332283904
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:35
+    Update_time: 2022-12-28 08:37:34
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 4. row ***************************
+           Name: pi12
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4627810
+ Avg_row_length: 71
+    Data_length: 332283904
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:36
+    Update_time: 2022-12-28 08:37:35
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 5. row ***************************
+           Name: pi13
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4634899
+ Avg_row_length: 71
+    Data_length: 332283904
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:37
+    Update_time: 2022-12-28 08:37:36
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 6. row ***************************
+           Name: pi14
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 3935779
+ Avg_row_length: 71
+    Data_length: 282951680
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:38
+    Update_time: 2022-12-28 08:37:37
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 7. row ***************************
+           Name: pi15
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4611347
+ Avg_row_length: 71
+    Data_length: 331235328
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:39
+    Update_time: 2022-12-28 08:37:38
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 8. row ***************************
+           Name: pi16
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4633356
+ Avg_row_length: 71
+    Data_length: 332283904
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:40
+    Update_time: 2022-12-28 08:37:39
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 9. row ***************************
+           Name: pi17
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4629051
+ Avg_row_length: 71
+    Data_length: 332283904
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:41
+    Update_time: 2022-12-28 08:37:40
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 10. row ***************************
+           Name: pi18
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4637937
+ Avg_row_length: 71
+    Data_length: 332283904
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:42
+    Update_time: 2022-12-28 08:37:41
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 11. row ***************************
+           Name: pi19
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4632873
+ Avg_row_length: 71
+    Data_length: 332283904
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:43
+    Update_time: 2022-12-28 08:37:42
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 12. row ***************************
+           Name: pi2
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4634899
+ Avg_row_length: 71
+    Data_length: 332283904
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:26
+    Update_time: 2022-12-28 08:37:25
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 13. row ***************************
+           Name: pi20
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4637937
+ Avg_row_length: 71
+    Data_length: 332283904
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:44
+    Update_time: 2022-12-28 08:37:43
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 14. row ***************************
+           Name: pi21
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4631861
+ Avg_row_length: 71
+    Data_length: 332283904
+Max_data_length: 0
+   Index_length: 412270592
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:45
+    Update_time: 2022-12-28 08:37:44
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 15. row ***************************
+           Name: pi22
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 3690373
+ Avg_row_length: 70
+    Data_length: 258801664
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:46
+    Update_time: 2022-12-28 08:37:45
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 16. row ***************************
+           Name: pi3
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4626797
+ Avg_row_length: 71
+    Data_length: 332283904
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:27
+    Update_time: 2022-12-28 08:37:26
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 17. row ***************************
+           Name: pi4
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4631077
+ Avg_row_length: 71
+    Data_length: 332283904
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:28
+    Update_time: 2022-12-28 08:37:27
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 18. row ***************************
+           Name: pi5
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 3440494
+ Avg_row_length: 70
+    Data_length: 240959488
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:29
+    Update_time: 2022-12-28 08:37:28
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 19. row ***************************
+           Name: pi6
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4626797
+ Avg_row_length: 71
+    Data_length: 332283904
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:30
+    Update_time: 2022-12-28 08:37:29
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 20. row ***************************
+           Name: pi7
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4630848
+ Avg_row_length: 71
+    Data_length: 332283904
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:31
+    Update_time: 2022-12-28 08:37:30
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 21. row ***************************
+           Name: pi8
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 4634115
+ Avg_row_length: 71
+    Data_length: 332283904
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:32
+    Update_time: 2022-12-28 08:37:31
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+*************************** 22. row ***************************
+           Name: pi9
+         Engine: InnoDB
+        Version: 10
+     Row_format: Dynamic
+           Rows: 3335892
+ Avg_row_length: 70
+    Data_length: 233603072
+Max_data_length: 0
+   Index_length: 0
+      Data_free: 3145728
+ Auto_increment: 4770901
+    Create_time: 2022-12-28 08:37:33
+    Update_time: 2022-12-28 08:37:32
+     Check_time: NULL
+      Collation: latin1_swedish_ci
+       Checksum: NULL
+ Create_options: 
+        Comment: 
+sum of data and index length columns in GB
+6.516
+0.384

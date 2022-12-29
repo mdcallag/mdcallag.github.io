@@ -1,0 +1,204 @@
+-[ RECORD 1 ]------------+------------
+datid                    | 0
+datname                  | 
+numbackends              | 0
+xact_commit              | 0
+xact_rollback            | 0
+blks_read                | 89
+blks_hit                 | 3491
+tup_returned             | 816
+tup_fetched              | 733
+tup_inserted             | 30
+tup_updated              | 4
+tup_deleted              | 1
+conflicts                | 0
+temp_files               | 0
+temp_bytes               | 0
+deadlocks                | 0
+checksum_failures        | 0
+checksum_last_failure    | 
+blk_read_time            | 0
+blk_write_time           | 0
+session_time             | 0
+active_time              | 0
+idle_in_transaction_time | 0
+sessions                 | 0
+sessions_abandoned       | 0
+sessions_fatal           | 0
+sessions_killed          | 0
+stats_reset              | 
+-[ RECORD 2 ]------------+------------
+datid                    | 5
+datname                  | postgres
+numbackends              | 0
+xact_commit              | 13
+xact_rollback            | 0
+blks_read                | 87
+blks_hit                 | 1940
+tup_returned             | 2753
+tup_fetched              | 948
+tup_inserted             | 0
+tup_updated              | 0
+tup_deleted              | 0
+conflicts                | 0
+temp_files               | 0
+temp_bytes               | 0
+deadlocks                | 0
+checksum_failures        | 0
+checksum_last_failure    | 
+blk_read_time            | 17.851
+blk_write_time           | 0
+session_time             | 75.284
+active_time              | 97.426
+idle_in_transaction_time | 0
+sessions                 | 3
+sessions_abandoned       | 0
+sessions_fatal           | 0
+sessions_killed          | 0
+stats_reset              | 
+-[ RECORD 3 ]------------+------------
+datid                    | 16384
+datname                  | me
+numbackends              | 0
+xact_commit              | 10
+xact_rollback            | 0
+blks_read                | 0
+blks_hit                 | 1694
+tup_returned             | 1769
+tup_fetched              | 824
+tup_inserted             | 0
+tup_updated              | 0
+tup_deleted              | 0
+conflicts                | 0
+temp_files               | 0
+temp_bytes               | 0
+deadlocks                | 0
+checksum_failures        | 0
+checksum_last_failure    | 
+blk_read_time            | 3.645
+blk_write_time           | 0
+session_time             | 323.465
+active_time              | 319.573
+idle_in_transaction_time | 0
+sessions                 | 4
+sessions_abandoned       | 0
+sessions_fatal           | 0
+sessions_killed          | 0
+stats_reset              | 
+-[ RECORD 4 ]------------+------------
+datid                    | 1
+datname                  | template1
+numbackends              | 0
+xact_commit              | 902
+xact_rollback            | 0
+blks_read                | 1012
+blks_hit                 | 77153
+tup_returned             | 71805
+tup_fetched              | 25486
+tup_inserted             | 16012
+tup_updated              | 768
+tup_deleted              | 42
+conflicts                | 0
+temp_files               | 0
+temp_bytes               | 0
+deadlocks                | 0
+checksum_failures        | 0
+checksum_last_failure    | 
+blk_read_time            | 0
+blk_write_time           | 0
+session_time             | 14.604
+active_time              | 11.858
+idle_in_transaction_time | 0
+sessions                 | 1
+sessions_abandoned       | 0
+sessions_fatal           | 0
+sessions_killed          | 0
+stats_reset              | 
+-[ RECORD 5 ]------------+------------
+datid                    | 4
+datname                  | template0
+numbackends              | 0
+xact_commit              | 0
+xact_rollback            | 0
+blks_read                | 0
+blks_hit                 | 0
+tup_returned             | 0
+tup_fetched              | 0
+tup_inserted             | 0
+tup_updated              | 0
+tup_deleted              | 0
+conflicts                | 0
+temp_files               | 0
+temp_bytes               | 0
+deadlocks                | 0
+checksum_failures        | 0
+checksum_last_failure    | 
+blk_read_time            | 0
+blk_write_time           | 0
+session_time             | 0
+active_time              | 0
+idle_in_transaction_time | 0
+sessions                 | 0
+sessions_abandoned       | 0
+sessions_fatal           | 0
+sessions_killed          | 0
+stats_reset              | 
+-[ RECORD 6 ]------------+------------
+datid                    | 16386
+datname                  | linkbench
+numbackends              | 0
+xact_commit              | 0
+xact_rollback            | 0
+blks_read                | 0
+blks_hit                 | 0
+tup_returned             | 0
+tup_fetched              | 0
+tup_inserted             | 0
+tup_updated              | 0
+tup_deleted              | 0
+conflicts                | 0
+temp_files               | 0
+temp_bytes               | 0
+deadlocks                | 0
+checksum_failures        | 0
+checksum_last_failure    | 
+blk_read_time            | 0
+blk_write_time           | 0
+session_time             | 0
+active_time              | 0
+idle_in_transaction_time | 0
+sessions                 | 0
+sessions_abandoned       | 0
+sessions_fatal           | 0
+sessions_killed          | 0
+stats_reset              | 
+-[ RECORD 7 ]------------+------------
+datid                    | 16399
+datname                  | ib
+numbackends              | 2
+xact_commit              | 1049956
+xact_rollback            | 0
+blks_read                | 1316500
+blks_hit                 | 222668604
+tup_returned             | 314925210
+tup_fetched              | 31255
+tup_inserted             | 104961716
+tup_updated              | 176
+tup_deleted              | 1
+conflicts                | 0
+temp_files               | 66
+temp_bytes               | 8835661824
+deadlocks                | 0
+checksum_failures        | 0
+checksum_last_failure    | 
+blk_read_time            | 3.999
+blk_write_time           | 0
+session_time             | 1356607.482
+active_time              | 1179124.143
+idle_in_transaction_time | 0
+sessions                 | 127
+sessions_abandoned       | 0
+sessions_fatal           | 0
+sessions_killed          | 0
+stats_reset              | 
+

@@ -1,0 +1,689 @@
+/data/m/fbmy:
+total 12K
+4.0K data
+8.0K txlogs
+   0 ..
+   0 .
+   0 binlogs
+
+/data/m/fbmy/data:
+total 188M
+ 48M ib_logfile0
+ 48M ib_logfile1
+ 27M mysql.ibd
+ 16M undo_001
+ 16M undo_002
+ 12M ibdata1
+ 12M ibtmp1
+8.2M #ib_16384_1.dblwr
+192K #ib_16384_0.dblwr
+ 16K .rocksdb
+ 12K performance_schema
+8.0K ib_buffer_pool
+4.0K .
+4.0K ib
+4.0K ip-172-31-33-238.err
+4.0K private_key.pem
+4.0K public_key.pem
+4.0K ip-172-31-33-238-slow.log
+   0 #innodb_temp
+   0 mysql
+   0 ..
+4.0K auto.cnf
+   0 sys
+   0 test
+4.0K ip-172-31-33-238.pid
+   0 ip-172-31-33-238-gaplock.log
+
+/data/m/fbmy/data/.rocksdb:
+total 21G
+ 68M 008273.sst
+ 68M 008413.sst
+ 68M 008337.sst
+ 68M 008342.sst
+ 68M 008416.sst
+ 68M 008343.sst
+ 68M 008272.sst
+ 68M 008336.sst
+ 68M 008338.sst
+ 68M 008412.sst
+ 68M 008472.sst
+ 68M 008421.sst
+ 68M 008420.sst
+ 68M 008463.sst
+ 68M 008462.sst
+ 67M 008470.sst
+ 66M 008469.sst
+ 66M 008460.sst
+ 66M 008466.sst
+ 66M 008449.sst
+ 66M 008318.sst
+ 66M 008447.sst
+ 66M 008443.sst
+ 66M 008467.sst
+ 66M 008446.sst
+ 66M 008444.sst
+ 66M 008319.sst
+ 65M 007320.sst
+ 65M 008302.sst
+ 65M 008229.sst
+ 65M 008039.sst
+ 65M 007834.sst
+ 65M 007628.sst
+ 65M 008255.sst
+ 65M 007432.sst
+ 65M 008090.sst
+ 65M 008429.sst
+ 65M 007349.sst
+ 65M 007954.sst
+ 65M 007915.sst
+ 65M 007701.sst
+ 65M 008476.sst
+ 65M 007514.sst
+ 65M 007563.sst
+ 65M 007596.sst
+ 65M 008149.sst
+ 65M 008150.sst
+ 65M 007914.sst
+ 65M 007126.sst
+ 65M 008475.sst
+ 65M 007597.sst
+ 65M 008428.sst
+ 65M 007346.sst
+ 65M 007700.sst
+ 65M 007833.sst
+ 65M 007485.sst
+ 65M 007515.sst
+ 65M 007078.sst
+ 65M 008256.sst
+ 65M 008127.sst
+ 65M 008228.sst
+ 65M 007461.sst
+ 65M 008067.sst
+ 65M 008036.sst
+ 65M 007052.sst
+ 65M 008301.sst
+ 65M 007317.sst
+ 65M 007629.sst
+ 65M 008286.sst
+ 65M 007627.sst
+ 65M 007186.sst
+ 65M 007513.sst
+ 65M 007832.sst
+ 65M 008298.sst
+ 65M 008425.sst
+ 65M 007512.sst
+ 65M 007345.sst
+ 65M 007592.sst
+ 65M 007624.sst
+ 65M 008035.sst
+ 65M 007593.sst
+ 65M 007960.sst
+ 65M 008235.sst
+ 65M 008066.sst
+ 65M 008282.sst
+ 65M 008303.sst
+ 65M 007961.sst
+ 65M 007262.sst
+ 65M 008034.sst
+ 65M 007077.sst
+ 65M 008012.sst
+ 65M 008126.sst
+ 65M 007569.sst
+ 65M 007440.sst
+ 65M 008065.sst
+ 65M 007103.sst
+ 65M 007074.sst
+ 65M 008125.sst
+ 65M 007125.sst
+ 65M 007458.sst
+ 65M 006920.sst
+ 65M 007408.sst
+ 65M 008013.sst
+ 65M 007263.sst
+ 65M 008156.sst
+ 65M 008096.sst
+ 65M 008285.sst
+ 65M 007570.sst
+ 65M 007407.sst
+ 65M 008205.sst
+ 65M 007344.sst
+ 65M 007921.sst
+ 65M 008040.sst
+ 65M 008347.sst
+ 65M 007435.sst
+ 65M 007257.sst
+ 65M 007490.sst
+ 65M 007591.sst
+ 65M 008279.sst
+ 65M 008009.sst
+ 65M 008091.sst
+ 65M 007568.sst
+ 65M 008261.sst
+ 65M 008430.sst
+ 65M 008155.sst
+ 65M 008060.sst
+ 65M 007955.sst
+ 65M 007920.sst
+ 65M 008062.sst
+ 65M 007406.sst
+ 65M 008033.sst
+ 65M 007959.sst
+ 65M 007704.sst
+ 65M 007343.sst
+ 65M 008234.sst
+ 65M 007100.sst
+ 65M 007259.sst
+ 65M 008124.sst
+ 65M 008230.sst
+ 65M 007918.sst
+ 65M 007437.sst
+ 65M 008259.sst
+ 65M 008307.sst
+ 65M 008007.sst
+ 65M 008151.sst
+ 65M 007405.sst
+ 65M 007489.sst
+ 65M 007564.sst
+ 65M 008260.sst
+ 65M 007486.sst
+ 65M 007565.sst
+ 65M 008233.sst
+ 65M 007919.sst
+ 65M 008280.sst
+ 65M 008092.sst
+ 65M 008304.sst
+ 65M 008008.sst
+ 65M 008121.sst
+ 65M 006550.sst
+ 65M 008345.sst
+ 65M 008281.sst
+ 65M 007632.sst
+ 65M 008093.sst
+ 65M 008061.sst
+ 65M 008431.sst
+ 65M 008154.sst
+ 65M 007072.sst
+ 65M 008346.sst
+ 65M 007073.sst
+ 65M 007258.sst
+ 65M 007436.sst
+ 65M 007956.sst
+ 65M 006441.sst
+ 65M 008177.sst
+ 65M 007756.sst
+ 65M 005661.sst
+ 65M 006793.sst
+ 65M 007841.sst
+ 65M 007537.sst
+ 65M 007150.sst
+ 65M 003469.sst
+ 65M 007174.sst
+ 65M 005664.sst
+ 65M 005553.sst
+ 65M 003375.sst
+ 65M 005579.sst
+ 65M 007152.sst
+ 65M 005689.sst
+ 65M 007951.sst
+ 65M 008178.sst
+ 65M 007151.sst
+ 65M 008179.sst
+ 65M 006602.sst
+ 65M 007806.sst
+ 65M 007884.sst
+ 65M 007148.sst
+ 65M 007173.sst
+ 65M 005659.sst
+ 65M 007946.sst
+ 65M 008396.sst
+ 65M 007621.sst
+ 65M 007947.sst
+ 65M 008086.sst
+ 65M 002687.sst
+ 65M 006373.sst
+ 65M 007675.sst
+ 65M 008397.sst
+ 65M 006571.sst
+ 65M 006236.sst
+ 65M 008176.sst
+ 65M 007982.sst
+ 65M 007758.sst
+ 65M 006601.sst
+ 65M 006682.sst
+ 65M 006372.sst
+ 65M 007983.sst
+ 65M 008480.sst
+ 65M 006235.sst
+ 65M 007210.sst
+ 65M 005660.sst
+ 65M 005555.sst
+ 65M 007149.sst
+ 65M 008183.sst
+ 65M 005687.sst
+ 65M 007211.sst
+ 65M 007808.sst
+ 65M 007842.sst
+ 65M 007890.sst
+ 65M 007175.sst
+ 65M 006788.sst
+ 65M 008484.sst
+ 65M 007023.sst
+ 65M 008368.sst
+ 65M 006374.sst
+ 65M 005578.sst
+ 65M 007757.sst
+ 65M 001198.sst
+ 65M 006681.sst
+ 65M 007755.sst
+ 65M 007840.sst
+ 65M 007888.sst
+ 65M 006683.sst
+ 65M 002688.sst
+ 65M 007209.sst
+ 65M 008391.sst
+ 65M 007948.sst
+ 65M 007889.sst
+ 65M 005580.sst
+ 65M 008483.sst
+ 65M 007952.sst
+ 65M 007754.sst
+ 65M 008180.sst
+ 65M 006794.sst
+ 65M 006680.sst
+ 65M 006600.sst
+ 65M 007807.sst
+ 65M 007177.sst
+ 65M 007805.sst
+ 65M 007891.sst
+ 65M 007887.sst
+ 65M 006603.sst
+ 65M 006371.sst
+ 65M 005554.sst
+ 65M 007945.sst
+ 65M 008395.sst
+ 65M 007812.sst
+ 65M 007176.sst
+ 65M 007749.sst
+ 65M 007281.sst
+ 65M 007838.sst
+ 65M 007153.sst
+ 65M 006238.sst
+ 65M 000352.sst
+ 65M 006795.sst
+ 65M 005552.sst
+ 65M 008482.sst
+ 65M 006604.sst
+ 65M 002149.sst
+ 65M 008394.sst
+ 65M 005688.sst
+ 65M 008398.sst
+ 65M 007839.sst
+ 65M 007843.sst
+ 65M 007809.sst
+ 65M 007212.sst
+ 65M 006792.sst
+ 65M 003904.sst
+ 65M 005575.sst
+ 65M 007371.sst
+ 65M 005260.sst
+ 65M 005373.sst
+ 65M 006237.sst
+ 64M 008308.sst
+ 64M 008262.sst
+ 63M 008477.sst
+ 63M 008323.sst
+ 59M 007321.sst
+ 71M 008485.sst
+ 57M 007462.sst
+ 53M 002159.sst
+ 48M 008448.sst
+ 48M 007053.sst
+ 47M 008474.sst
+ 46M 008473.sst
+ 41M 008287.sst
+ 40M 008371.sst
+ 40M 008399.sst
+ 40M 007025.sst
+ 40M 007846.sst
+ 40M 003474.sst
+ 40M 006732.sst
+ 39M 007571.sst
+ 39M 008471.sst
+ 39M 008068.sst
+ 37M 008148.sst
+ 36M 007733.sst
+ 34M 007953.sst
+ 34M 008451.sst
+ 33M 003404.sst
+ 31M 007813.sst
+ 31M 007962.sst
+ 29M 007633.sst
+ 29M 008344.sst
+ 29M 007752.sst
+ 27M 008422.sst
+ 26M 007922.sst
+ 25M 008424.sst
+ 25M 008465.sst
+ 24M 008097.sst
+ 23M 008481.sst
+ 20M LOG
+ 20M 008479.sst
+ 19M 008350.sst
+ 16M 007984.sst
+ 16M 006580.sst
+ 16M 007892.sst
+ 15M 007411.sst
+ 13M 000027.sst
+ 13M 000036.sst
+ 13M 000039.sst
+ 13M 008414.sst
+ 13M 008206.sst
+ 12M 003885.sst
+ 10M 007622.sst
+9.7M 007286.sst
+8.4M 007342.sst
+8.1M 007699.sst
+8.0M 008089.sst
+7.7M 008464.sst
+7.6M 008130.sst
+6.7M 005684.sst
+6.4M 006660.sst
+5.7M 008184.sst
+4.7M 007598.sst
+3.7M 006796.sst
+2.9M 008320.sst
+2.0M 008041.sst
+4.0M MANIFEST-000017
+640K 008434.sst
+556K 008157.sst
+128K LOG.old.1672204559675048
+ 16K .
+ 12K 007237.sst
+ 12K 007990.sst
+ 12K 006515.sst
+ 12K OPTIONS-000023
+ 12K OPTIONS-000021
+8.0K 005794.sst
+4.0K ..
+4.0K IDENTITY
+4.0K CURRENT
+   0 LOCK
+
+/data/m/fbmy/data/performance_schema:
+total 1.8M
+ 56K table_lock_waits_123.sdi
+ 48K replication_conn_185.sdi
+ 44K events_statement_133.sdi
+ 44K events_statement_134.sdi
+ 44K events_statement_135.sdi
+ 44K prepared_stateme_198.sdi
+ 44K events_statement_142.sdi
+ 40K events_statement_141.sdi
+ 40K events_statement_143.sdi
+ 36K events_statement_137.sdi
+ 36K events_statement_136.sdi
+ 36K events_statement_139.sdi
+ 36K events_statement_138.sdi
+ 36K table_io_waits_s_121.sdi
+ 32K events_statement_140.sdi
+ 32K table_io_waits_s_122.sdi
+ 28K replication_appl_191.sdi
+ 28K file_summary_by__106.sdi
+ 28K host_cache_108.sdi
+ 24K replication_conn_187.sdi
+ 24K socket_summary_b_163.sdi
+ 24K events_transacti_146.sdi
+ 24K events_transacti_147.sdi
+ 24K events_transacti_148.sdi
+ 24K socket_summary_b_164.sdi
+ 20K file_summary_by__105.sdi
+ 20K replication_appl_190.sdi
+ 20K threads_124.sdi
+ 20K events_waits_cur_95.sdi
+ 20K events_waits_his_96.sdi
+ 20K events_waits_his_97.sdi
+ 20K events_transacti_150.sdi
+ 16K data_locks_183.sdi
+ 16K tls_channel_stat_213.sdi
+ 16K events_transacti_149.sdi
+ 16K events_transacti_152.sdi
+ 16K events_transacti_151.sdi
+ 16K events_transacti_153.sdi
+ 16K data_lock_waits_184.sdi
+ 16K binary_log_trans_212.sdi
+ 16K memory_summary_b_177.sdi
+ 16K replication_grou_192.sdi
+ 12K metadata_locks_182.sdi
+ 12K memory_summary_b_179.sdi
+ 12K events_stages_cu_125.sdi
+ 12K events_stages_hi_126.sdi
+ 12K memory_summary_b_178.sdi
+ 12K memory_summary_b_180.sdi
+ 12K events_stages_hi_127.sdi
+ 12K memory_summary_g_176.sdi
+ 12K table_handles_181.sdi
+ 12K keyring_componen_214.sdi
+ 12K replication_grou_186.sdi
+ 12K socket_instances_162.sdi
+ 12K table_statistics_114.sdi
+ 12K events_stages_su_129.sdi
+ 12K events_waits_sum_102.sdi
+ 12K events_errors_su_156.sdi
+ 12K .
+8.0K replication_appl_188.sdi
+8.0K events_waits_sum_99.sdi
+8.0K variables_info_209.sdi
+8.0K events_statement_145.sdi
+8.0K objects_summary__111.sdi
+8.0K events_stages_su_128.sdi
+8.0K events_errors_su_157.sdi
+8.0K events_waits_sum_100.sdi
+8.0K events_stages_su_131.sdi
+8.0K events_stages_su_130.sdi
+8.0K events_waits_sum_98.sdi
+8.0K events_waits_sum_101.sdi
+8.0K events_errors_su_155.sdi
+8.0K events_errors_su_154.sdi
+8.0K error_log_94.sdi
+8.0K file_instances_104.sdi
+8.0K processlist_113.sdi
+8.0K replication_asyn_195.sdi
+8.0K column_statistic_92.sdi
+8.0K setup_instrument_118.sdi
+8.0K session_query_at_167.sdi
+8.0K setup_threads_120.sdi
+8.0K events_errors_su_158.sdi
+8.0K events_stages_su_132.sdi
+8.0K events_waits_sum_103.sdi
+8.0K replication_appl_193.sdi
+8.0K sql_findings_174.sdi
+8.0K setup_actors_116.sdi
+8.0K setup_objects_119.sdi
+8.0K events_statement_144.sdi
+8.0K rwlock_instances_115.sdi
+8.0K user_defined_fun_211.sdi
+8.0K write_throttling_173.sdi
+8.0K replication_asyn_196.sdi
+8.0K mutex_instances_110.sdi
+8.0K status_by_accoun_200.sdi
+8.0K write_statistics_171.sdi
+8.0K replication_appl_189.sdi
+8.0K write_throttling_172.sdi
+8.0K session_account__166.sdi
+8.0K session_connect__165.sdi
+8.0K keyring_keys_175.sdi
+8.0K replication_appl_194.sdi
+8.0K accounts_160.sdi
+8.0K performance_time_112.sdi
+8.0K log_status_197.sdi
+8.0K user_variables_b_199.sdi
+4.0K ..
+4.0K variables_by_thr_206.sdi
+4.0K status_by_thread_202.sdi
+4.0K status_by_host_201.sdi
+4.0K status_by_user_203.sdi
+4.0K index_statistics_109.sdi
+4.0K cond_instances_93.sdi
+4.0K hosts_161.sdi
+4.0K users_159.sdi
+4.0K replica_statisti_170.sdi
+4.0K setup_consumers_117.sdi
+4.0K persisted_variab_210.sdi
+4.0K session_variable_208.sdi
+4.0K global_variables_207.sdi
+4.0K session_status_205.sdi
+4.0K global_status_204.sdi
+4.0K client_attribute_168.sdi
+4.0K sql_text_169.sdi
+4.0K full_sql_107.sdi
+
+/data/m/fbmy/data/ib:
+total 184K
+8.0K pi10_434.sdi
+8.0K pi11_435.sdi
+8.0K pi12_436.sdi
+8.0K pi13_437.sdi
+8.0K pi14_438.sdi
+8.0K pi15_439.sdi
+8.0K pi16_440.sdi
+8.0K pi17_441.sdi
+8.0K pi18_442.sdi
+8.0K pi19_443.sdi
+8.0K pi20_444.sdi
+8.0K pi21_445.sdi
+8.0K pi22_446.sdi
+8.0K pi1_425.sdi
+8.0K pi2_426.sdi
+8.0K pi3_427.sdi
+8.0K pi4_428.sdi
+8.0K pi5_429.sdi
+8.0K pi6_430.sdi
+8.0K pi7_431.sdi
+8.0K pi8_432.sdi
+8.0K pi9_433.sdi
+4.0K .
+4.0K ..
+
+/data/m/fbmy/data/#innodb_temp:
+total 804K
+ 80K temp_1.ibt
+ 80K temp_10.ibt
+ 80K temp_2.ibt
+ 80K temp_3.ibt
+ 80K temp_4.ibt
+ 80K temp_5.ibt
+ 80K temp_6.ibt
+ 80K temp_7.ibt
+ 80K temp_8.ibt
+ 80K temp_9.ibt
+4.0K ..
+   0 .
+
+/data/m/fbmy/data/mysql:
+total 36K
+ 16K slow_log_237.sdi
+8.0K general_log_236.sdi
+4.0K ..
+   0 .
+4.0K general_log.CSM
+4.0K slow_log.CSM
+   0 general_log.CSV
+   0 slow_log.CSV
+
+/data/m/fbmy/data/sys:
+total 116K
+112K sys_config.ibd
+4.0K ..
+   0 .
+
+/data/m/fbmy/data/test:
+total 4.0K
+4.0K ..
+   0 .
+
+/data/m/fbmy/txlogs:
+total 1.4G
+ 19M 008372.log
+ 19M 008131.log
+ 19M 008100.log
+ 19M 008071.log
+ 19M 008426.log
+ 19M 008265.log
+ 19M 008201.log
+ 19M 008313.log
+ 19M 008404.log
+ 19M 008353.log
+ 19M 008016.log
+ 19M 008224.log
+ 19M 008339.log
+ 19M 008044.log
+ 19M 008122.log
+ 19M 008171.log
+ 19M 008029.log
+ 19M 008283.log
+ 19M 008326.log
+ 19M 008299.log
+ 19M 008094.log
+ 19M 008185.log
+ 19M 008458.log
+ 19M 008063.log
+ 19M 008158.log
+ 19M 008209.log
+ 19M 008435.log
+ 19M 008400.log
+ 19M 008376.log
+ 19M 008237.log
+ 19M 008257.log
+ 19M 008152.log
+ 19M 008211.log
+ 19M 008250.log
+ 19M 008003.log
+ 19M 008456.log
+ 19M 008042.log
+ 19M 007991.log
+ 19M 008392.log
+ 19M 008010.log
+ 19M 008239.log
+ 19M 008454.log
+ 19M 008452.log
+ 19M 008263.log
+ 19M 008187.log
+ 19M 008351.log
+ 19M 008055.log
+ 19M 008402.log
+ 19M 008328.log
+ 19M 008417.log
+ 19M 008160.log
+ 19M 008369.log
+ 19M 008069.log
+ 19M 008348.log
+ 19M 008128.log
+ 19M 008181.log
+ 19M 008018.log
+ 19M 008290.log
+ 19M 008305.log
+ 19M 008324.log
+ 19M 008098.log
+ 19M 008231.log
+ 19M 008277.log
+ 19M 008037.log
+ 19M 008087.log
+ 19M 008146.log
+ 19M 008112.log
+ 19M 008207.log
+ 19M 008432.log
+ 19M 008374.log
+ 19M 007987.log
+ 36M 008478.log
+356K 007989.log
+8.0K .
+   0 ..
+   0 000012.log
+
+/data/m/fbmy/binlogs:
+total 8.0K
+4.0K bl.000001
+   0 ..
+   0 .
+4.0K bl.index

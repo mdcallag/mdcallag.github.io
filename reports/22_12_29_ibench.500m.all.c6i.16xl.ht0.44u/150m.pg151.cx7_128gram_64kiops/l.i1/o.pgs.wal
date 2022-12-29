@@ -1,0 +1,11 @@
+-[ RECORD 1 ]----+------------------------------
+wal_records      | 478254194
+wal_fpi          | 1216711
+wal_bytes        | 51484211444
+wal_buffers_full | 661580
+wal_write        | 1180584
+wal_sync         | 31248
+wal_write_time   | 0
+wal_sync_time    | 0
+stats_reset      | 2022-12-29 01:12:35.029968+00
+

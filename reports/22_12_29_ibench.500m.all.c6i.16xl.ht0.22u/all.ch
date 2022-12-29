@@ -1,0 +1,3 @@
+my8031.cy8_128gram_64kiops
+fbmy8028.cy9c_128gram_64kiops
+pg151.cx7_128gram_64kiops

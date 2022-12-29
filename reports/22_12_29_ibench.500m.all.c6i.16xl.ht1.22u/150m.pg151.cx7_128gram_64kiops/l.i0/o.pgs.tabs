@@ -1,0 +1,529 @@
+-[ RECORD 1 ]-------+------------------------------
+relid               | 16441
+schemaname          | public
+relname             | pi5
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4766300
+n_dead_tup          | 0
+n_mod_since_analyze | 4766300
+n_ins_since_vacuum  | 4766300
+last_vacuum         | 
+last_autovacuum     | 
+last_analyze        | 
+last_autoanalyze    | 
+vacuum_count        | 0
+autovacuum_count    | 0
+analyze_count       | 0
+autoanalyze_count   | 0
+-[ RECORD 2 ]-------+------------------------------
+relid               | 16491
+schemaname          | public
+relname             | pi10
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4766300
+n_dead_tup          | 0
+n_mod_since_analyze | 4766300
+n_ins_since_vacuum  | 4766300
+last_vacuum         | 
+last_autovacuum     | 
+last_analyze        | 
+last_autoanalyze    | 
+vacuum_count        | 0
+autovacuum_count    | 0
+analyze_count       | 0
+autoanalyze_count   | 0
+-[ RECORD 3 ]-------+------------------------------
+relid               | 16601
+schemaname          | public
+relname             | pi21
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4781909
+n_dead_tup          | 0
+n_mod_since_analyze | 1619800
+n_ins_since_vacuum  | 1619800
+last_vacuum         | 
+last_autovacuum     | 2022-12-28 14:05:43.798408+00
+last_analyze        | 
+last_autoanalyze    | 2022-12-28 14:05:44.373438+00
+vacuum_count        | 0
+autovacuum_count    | 1
+analyze_count       | 0
+autoanalyze_count   | 1
+-[ RECORD 4 ]-------+------------------------------
+relid               | 16451
+schemaname          | public
+relname             | pi6
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4766300
+n_dead_tup          | 0
+n_mod_since_analyze | 4766300
+n_ins_since_vacuum  | 4766300
+last_vacuum         | 
+last_autovacuum     | 
+last_analyze        | 
+last_autoanalyze    | 
+vacuum_count        | 0
+autovacuum_count    | 0
+analyze_count       | 0
+autoanalyze_count   | 0
+-[ RECORD 5 ]-------+------------------------------
+relid               | 16551
+schemaname          | public
+relname             | pi16
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4766300
+n_dead_tup          | 0
+n_mod_since_analyze | 4766300
+n_ins_since_vacuum  | 4766300
+last_vacuum         | 
+last_autovacuum     | 
+last_analyze        | 
+last_autoanalyze    | 
+vacuum_count        | 0
+autovacuum_count    | 0
+analyze_count       | 0
+autoanalyze_count   | 0
+-[ RECORD 6 ]-------+------------------------------
+relid               | 16501
+schemaname          | public
+relname             | pi11
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4766300
+n_dead_tup          | 0
+n_mod_since_analyze | 4766300
+n_ins_since_vacuum  | 4766300
+last_vacuum         | 
+last_autovacuum     | 
+last_analyze        | 
+last_autoanalyze    | 
+vacuum_count        | 0
+autovacuum_count    | 0
+analyze_count       | 0
+autoanalyze_count   | 0
+-[ RECORD 7 ]-------+------------------------------
+relid               | 16531
+schemaname          | public
+relname             | pi14
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4766340
+n_dead_tup          | 0
+n_mod_since_analyze | 0
+n_ins_since_vacuum  | 0
+last_vacuum         | 
+last_autovacuum     | 2022-12-28 14:05:57.038489+00
+last_analyze        | 
+last_autoanalyze    | 2022-12-28 14:05:57.516215+00
+vacuum_count        | 0
+autovacuum_count    | 1
+analyze_count       | 0
+autoanalyze_count   | 1
+-[ RECORD 8 ]-------+------------------------------
+relid               | 16481
+schemaname          | public
+relname             | pi9
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4766300
+n_dead_tup          | 0
+n_mod_since_analyze | 0
+n_ins_since_vacuum  | 0
+last_vacuum         | 
+last_autovacuum     | 2022-12-28 14:05:55.221151+00
+last_analyze        | 
+last_autoanalyze    | 2022-12-28 14:05:55.712755+00
+vacuum_count        | 0
+autovacuum_count    | 1
+analyze_count       | 0
+autoanalyze_count   | 1
+-[ RECORD 9 ]-------+------------------------------
+relid               | 16571
+schemaname          | public
+relname             | pi18
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4766440
+n_dead_tup          | 0
+n_mod_since_analyze | 0
+n_ins_since_vacuum  | 0
+last_vacuum         | 
+last_autovacuum     | 2022-12-28 14:05:58.905728+00
+last_analyze        | 
+last_autoanalyze    | 2022-12-28 14:05:59.377446+00
+vacuum_count        | 0
+autovacuum_count    | 1
+analyze_count       | 0
+autoanalyze_count   | 1
+-[ RECORD 10 ]------+------------------------------
+relid               | 16561
+schemaname          | public
+relname             | pi17
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4729036
+n_dead_tup          | 0
+n_mod_since_analyze | 1334700
+n_ins_since_vacuum  | 1435600
+last_vacuum         | 
+last_autovacuum     | 2022-12-28 14:05:42.24563+00
+last_analyze        | 
+last_autoanalyze    | 2022-12-28 14:05:42.812631+00
+vacuum_count        | 0
+autovacuum_count    | 1
+analyze_count       | 0
+autoanalyze_count   | 1
+-[ RECORD 11 ]------+------------------------------
+relid               | 16421
+schemaname          | public
+relname             | pi3
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4766398
+n_dead_tup          | 0
+n_mod_since_analyze | 0
+n_ins_since_vacuum  | 0
+last_vacuum         | 
+last_autovacuum     | 2022-12-28 14:05:51.515566+00
+last_analyze        | 
+last_autoanalyze    | 2022-12-28 14:05:52.023671+00
+vacuum_count        | 0
+autovacuum_count    | 1
+analyze_count       | 0
+autoanalyze_count   | 1
+-[ RECORD 12 ]------+------------------------------
+relid               | 16471
+schemaname          | public
+relname             | pi8
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4766369
+n_dead_tup          | 0
+n_mod_since_analyze | 0
+n_ins_since_vacuum  | 0
+last_vacuum         | 
+last_autovacuum     | 2022-12-28 14:05:47.804344+00
+last_analyze        | 
+last_autoanalyze    | 2022-12-28 14:05:48.315523+00
+vacuum_count        | 0
+autovacuum_count    | 1
+analyze_count       | 0
+autoanalyze_count   | 1
+-[ RECORD 13 ]------+------------------------------
+relid               | 16611
+schemaname          | public
+relname             | pi22
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4766300
+n_dead_tup          | 0
+n_mod_since_analyze | 4766300
+n_ins_since_vacuum  | 4766300
+last_vacuum         | 
+last_autovacuum     | 
+last_analyze        | 
+last_autoanalyze    | 
+vacuum_count        | 0
+autovacuum_count    | 0
+analyze_count       | 0
+autoanalyze_count   | 0
+-[ RECORD 14 ]------+------------------------------
+relid               | 16411
+schemaname          | public
+relname             | pi2
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4766312
+n_dead_tup          | 0
+n_mod_since_analyze | 0
+n_ins_since_vacuum  | 0
+last_vacuum         | 
+last_autovacuum     | 2022-12-28 14:05:45.826267+00
+last_analyze        | 
+last_autoanalyze    | 2022-12-28 14:05:46.360658+00
+vacuum_count        | 0
+autovacuum_count    | 1
+analyze_count       | 0
+autoanalyze_count   | 1
+-[ RECORD 15 ]------+------------------------------
+relid               | 16461
+schemaname          | public
+relname             | pi7
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4795895
+n_dead_tup          | 0
+n_mod_since_analyze | 563000
+n_ins_since_vacuum  | 563000
+last_vacuum         | 
+last_autovacuum     | 2022-12-28 14:05:38.915691+00
+last_analyze        | 
+last_autoanalyze    | 2022-12-28 14:05:39.461011+00
+vacuum_count        | 0
+autovacuum_count    | 1
+analyze_count       | 0
+autoanalyze_count   | 1
+-[ RECORD 16 ]------+------------------------------
+relid               | 16511
+schemaname          | public
+relname             | pi12
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4775683
+n_dead_tup          | 0
+n_mod_since_analyze | 914700
+n_ins_since_vacuum  | 914700
+last_vacuum         | 
+last_autovacuum     | 2022-12-28 14:05:40.68638+00
+last_analyze        | 
+last_autoanalyze    | 2022-12-28 14:05:41.210203+00
+vacuum_count        | 0
+autovacuum_count    | 1
+analyze_count       | 0
+autoanalyze_count   | 1
+-[ RECORD 17 ]------+------------------------------
+relid               | 16581
+schemaname          | public
+relname             | pi19
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4766300
+n_dead_tup          | 0
+n_mod_since_analyze | 4766300
+n_ins_since_vacuum  | 4766300
+last_vacuum         | 
+last_autovacuum     | 
+last_analyze        | 
+last_autoanalyze    | 
+vacuum_count        | 0
+autovacuum_count    | 0
+analyze_count       | 0
+autoanalyze_count   | 0
+-[ RECORD 18 ]------+------------------------------
+relid               | 16431
+schemaname          | public
+relname             | pi4
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4766317
+n_dead_tup          | 0
+n_mod_since_analyze | 0
+n_ins_since_vacuum  | 0
+last_vacuum         | 
+last_autovacuum     | 2022-12-28 14:05:53.382207+00
+last_analyze        | 
+last_autoanalyze    | 2022-12-28 14:05:53.883705+00
+vacuum_count        | 0
+autovacuum_count    | 1
+analyze_count       | 0
+autoanalyze_count   | 1
+-[ RECORD 19 ]------+------------------------------
+relid               | 16401
+schemaname          | public
+relname             | pi1
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4766343
+n_dead_tup          | 0
+n_mod_since_analyze | 0
+n_ins_since_vacuum  | 0
+last_vacuum         | 
+last_autovacuum     | 2022-12-28 14:05:37.024342+00
+last_analyze        | 
+last_autoanalyze    | 2022-12-28 14:05:37.575811+00
+vacuum_count        | 0
+autovacuum_count    | 1
+analyze_count       | 0
+autoanalyze_count   | 1
+-[ RECORD 20 ]------+------------------------------
+relid               | 16541
+schemaname          | public
+relname             | pi15
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4766300
+n_dead_tup          | 0
+n_mod_since_analyze | 4766300
+n_ins_since_vacuum  | 4766300
+last_vacuum         | 
+last_autovacuum     | 
+last_analyze        | 
+last_autoanalyze    | 
+vacuum_count        | 0
+autovacuum_count    | 0
+analyze_count       | 0
+autoanalyze_count   | 0
+-[ RECORD 21 ]------+------------------------------
+relid               | 16591
+schemaname          | public
+relname             | pi20
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4766300
+n_dead_tup          | 0
+n_mod_since_analyze | 4766300
+n_ins_since_vacuum  | 4766300
+last_vacuum         | 
+last_autovacuum     | 
+last_analyze        | 
+last_autoanalyze    | 
+vacuum_count        | 0
+autovacuum_count    | 0
+analyze_count       | 0
+autoanalyze_count   | 0
+-[ RECORD 22 ]------+------------------------------
+relid               | 16521
+schemaname          | public
+relname             | pi13
+seq_scan            | 1
+seq_tup_read        | 0
+idx_scan            | 0
+idx_tup_fetch       | 0
+n_tup_ins           | 4766300
+n_tup_upd           | 0
+n_tup_del           | 0
+n_tup_hot_upd       | 0
+n_live_tup          | 4770475
+n_dead_tup          | 0
+n_mod_since_analyze | 135800
+n_ins_since_vacuum  | 135800
+last_vacuum         | 
+last_autovacuum     | 2022-12-28 14:05:49.638866+00
+last_analyze        | 
+last_autoanalyze    | 2022-12-28 14:05:50.153197+00
+vacuum_count        | 0
+autovacuum_count    | 1
+analyze_count       | 0
+autoanalyze_count   | 1
+
