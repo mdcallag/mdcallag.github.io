@@ -21,7 +21,7 @@ An example is <b>my8020.c10b40</b> where <b>my</b> means MySQL, 8020 is version 
 <p>
 The test server is an c6i.16xl with 32 cores, 64 HW threads (hyperthread disabled), 128G RAM and io2 storage (5T, 64K IOPs).
 The benchmark was run with 44 clients and there was 1 or 2 connections per client (1 for queries, 1 for inserts).
-The benchmark loads 150M rows without secondary indexes, creates secondary indexes, loads another 50M rows then
+The benchmark loads 100M rows without secondary indexes, creates secondary indexes, loads another 50M rows then
 does 3 read+write tests for one hour each that do queries as fast as possible with 100, 500 and then 1000 writes/second/client concurrent with the queries.
 The database is cached by the storage engine and the only IO is for writes.
 Clients and the DBMS share one server. The per-database configs are in the per-database subdirectories <a href="https://github.com/mdcallag/mytools/tree/master/bench/conf/nuc8i7.ub1804">here</a>.
