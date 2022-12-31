@@ -31,7 +31,8 @@ The tested DBMS are:
 <ul>
 <li>my8031.cy8_128gram_64kiops - MySQL 8.0.31 with InnoDB and the cy8_128gram_64kiops config
 <li>fbmy8028.cy9c_128gram_64kiops - FB MySQL 8.0.28 with MyRocks and the cy9c_128gram_64kiops config
-<li>pg151.cx7_128gram_64kiops - Postgres 15.1 and the cx7_128gram_64kiops config
+<li>pg151.cx7_128gram_64kiops - Postgres 15.1 and the cx7_128gram_64kiops config, uses prepared statements for queries
+<li>pg151.cx7_128gram_64kiops_noprep - Postgres 15.1 and the cx7_128gram_64kiops config, does not use prepared statements
 </ul>
 </p>
 
@@ -99,7 +100,7 @@ Red backgrounds are not used when the minimum value is within 80&#37 of the max 
 </style>
 <table border="1" cellpadding="8" >
 <tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
-<tr><td>150m.my8031.cy8_128gram_64kiops</td> <td>1294538</td><td id="cmin">739138</td><td id="cmax">563750</td><td id="cmin">223653</td><td id="cmin">217569</td><td id="cmin">208874</td><tr><td>150m.fbmy8028.cy9c_128gram_64kiops</td> <td id="cmin">838861</td><td>1590267</td><td id="cmin">267494</td><td id="cmin">177033</td><td id="cmin">164464</td><td id="cmin">142574</td><tr><td>150m.pg151.cx7_128gram_64kiops</td> <td id="cmax">1542024</td><td id="cmax">2141992</td><td id="cmax">639376</td><td id="cgray">519215</td><td id="cgray">496050</td><td id="cgray">474375</td></table>
+<tr><td>150m.my8031.cy8_128gram_64kiops</td> <td>1294538</td><td id="cmin">739138</td><td id="cmax">563750</td><td id="cmin">223653</td><td id="cmin">217569</td><td id="cmin">208874</td><tr><td>150m.fbmy8028.cy9c_128gram_64kiops</td> <td id="cmin">838861</td><td>1590267</td><td id="cmin">267494</td><td id="cmin">177033</td><td id="cmin">164464</td><td id="cmin">142574</td><tr><td>150m.pg151.cx7_128gram_64kiops</td> <td id="cmax">1542024</td><td id="cmax">2141992</td><td id="cmax">639376</td><td id="cgray">519215</td><td id="cgray">496050</td><td id="cgray">474375</td><tr><td>150m.pg151.cx7_128gram_64kiops_noprep</td> <td id="cmax">1542024</td><td id="cmax">2141992</td><td id="cmax">647269</td><td id="cgray">334881</td><td id="cgray">322304</td><td id="cgray">309354</td></table>
 <p>
 This lists the average rate of inserts/s for the tests that do inserts concurrent with queries.
 For such tests the query rate is listed in the table above.
@@ -120,6 +121,7 @@ Cells that are not at least 95&#37; of the target have a red background to indic
 <tr><td>my8031.cy8_128gram_64kiops</td><td>4342</td><td>21716</td><td>43433</td></tr>
 <tr><td>fbmy8028.cy9c_128gram_64kiops</td><td>4343</td><td>21710</td><td>43433</td></tr>
 <tr><td>pg151.cx7_128gram_64kiops</td><td>4342</td><td>21710</td><td>43314</td></tr>
+<tr><td>pg151.cx7_128gram_64kiops_noprep</td><td>4342</td><td>21710</td><td>43314</td></tr>
 <tr><td>target</td><td id=cgray>4400</td><td id=cgray>22000</td><td id=cgray>44000</td></tr>
 </table>
 <hr />
@@ -161,6 +163,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">my8031.cy8_128gram_64kiops</td><td></td><td id="c11">54.310</td><td id="c9">45.354</td><td id="c0">0.252</td><td id="c0">0.045</td><td id="c0">0.038</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.108</td></tr>
 <tr><td id="c0">fbmy8028.cy9c_128gram_64kiops</td><td></td><td id="c2">8.753</td><td id="c14">68.159</td><td id="c5">22.951</td><td id="c0">0.133</td><td id="c0">0.004</td><td></td><td></td><td></td><td></td><td>0.078</td></tr>
 <tr><td id="c0">pg151.cx7_128gram_64kiops</td><td></td><td id="c19">96.077</td><td id="c1">3.855</td><td id="c0">0.039</td><td id="c0">0.030</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.043</td></tr>
+<tr><td id="c0">pg151.cx7_128gram_64kiops_noprep</td><td></td><td id="c19">96.177</td><td id="c1">3.757</td><td id="c0">0.045</td><td id="c0">0.020</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.033</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -170,6 +173,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 1294538	0	0	0.0	1953.4	336.6	0.000	0.000	0.002	0.266	178314	59.2	0.138	15	7.2	135.8	14.6	0.108	133963	1898	150m.my8031.cy8_128gram_64kiops
 838861	0	0	0.0	1325.3	300.2	0.000	0.000	0.002	0.366	426078	63.9	0.508	24	4.8	5.4	1.8	0.078	120995	57353	150m.fbmy8028.cy9c_128gram_64kiops
 1542024	0	0	0.0	2689.0	623.6	0.000	0.000	0.002	0.414	168575	57.0	0.109	12	10.0	27.1	8.1	0.043	166428	73222	150m.pg151.cx7_128gram_64kiops
+1542024	0	0	0.0	2688.0	624.0	0.000	0.000	0.002	0.414	169359	55.3	0.110	11	10.0	27.1	7.9	0.033	167524	55055	150m.pg151.cx7_128gram_64kiops_noprep
 </pre>
 <hr />
 <h1 id="l.x.graph">l.x</h1>
@@ -185,6 +189,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 739138	0	4382	270.2	14222.4	642.3	0.006	0.374	0.019	0.890	141866	31.1	0.192	13	15.6	144.2	17.5	0.004	NA	NA	150m.my8031.cy8_128gram_64kiops
 1590267	0	9	0.3	1610.4	361.1	0.000	0.000	0.001	0.232	10969	51.1	0.007	10	7.2	7.8	8.4	0.003	NA	NA	150m.fbmy8028.cy9c_128gram_64kiops
 2141992	0	0	0.0	2472.6	596.8	0.000	0.000	0.001	0.285	24042	19.7	0.011	3	19.3	44.8	0.0	0.018	NA	NA	150m.pg151.cx7_128gram_64kiops
+2141992	0	0	0.0	2470.8	596.8	0.000	0.000	0.001	0.285	23910	17.6	0.011	3	19.3	44.8	0.0	0.024	NA	NA	150m.pg151.cx7_128gram_64kiops_noprep
 </pre>
 <hr />
 <h1 id="l.i1.graph">l.i1</h1>
@@ -225,6 +230,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">my8031.cy8_128gram_64kiops</td><td></td><td id="c0">0.261</td><td id="c19">96.906</td><td id="c0">2.446</td><td id="c0">0.222</td><td id="c0">0.165</td><td>nonzero</td><td></td><td></td><td></td><td id="cmaxr">0.283</td></tr>
 <tr><td id="c0">fbmy8028.cy9c_128gram_64kiops</td><td></td><td id="c0">1.691</td><td id="c3">14.539</td><td id="c17">83.608</td><td id="c0">0.147</td><td id="c0">0.014</td><td></td><td></td><td></td><td></td><td id="cminr">0.082</td></tr>
 <tr><td id="c0">pg151.cx7_128gram_64kiops</td><td></td><td id="c4">19.330</td><td id="c16">78.661</td><td id="c0">1.699</td><td id="c0">0.310</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.033</td></tr>
+<tr><td id="c0">pg151.cx7_128gram_64kiops_noprep</td><td></td><td id="c4">20.665</td><td id="c15">77.487</td><td id="c0">1.559</td><td id="c0">0.289</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.035</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -234,6 +240,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 563750	0	5241	81.9	3439.5	439.5	0.009	0.149	0.006	0.798	183896	62.5	0.326	35	27.8	156.4	32.8	0.283	32673	300	150m.my8031.cy8_128gram_64kiops
 267494	0	166	20.5	1551.9	358.3	0.001	0.078	0.006	1.372	147784	40.5	0.552	48	14.3	15.6	10.2	0.082	6343	1399	150m.fbmy8028.cy9c_128gram_64kiops
 639376	0	0	0.0	3225.7	754.1	0.000	0.000	0.005	1.208	335425	59.6	0.525	30	33.6	82.3	25.3	0.033	50696	28470	150m.pg151.cx7_128gram_64kiops
+647269	0	0	0.0	3227.0	754.4	0.000	0.000	0.005	1.193	334913	57.8	0.517	29	33.6	82.3	24.9	0.035	50859	20584	150m.pg151.cx7_128gram_64kiops_noprep
 </pre>
 <hr />
 <h1 id="q100.1.graph">q100.1</h1>
@@ -272,6 +279,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">my8031.cy8_128gram_64kiops</td><td id="c13">66.053</td><td id="c7">33.915</td><td id="c0">0.029</td><td id="c0">0.002</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.029</td></tr>
 <tr><td id="c0">fbmy8028.cy9c_128gram_64kiops</td><td id="c13">65.258</td><td id="c7">34.683</td><td id="c0">0.050</td><td id="c0">0.008</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.049</td></tr>
 <tr><td id="c0">pg151.cx7_128gram_64kiops</td><td id="c20">99.962</td><td id="c0">0.025</td><td id="c0">0.012</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.050</td></tr>
+<tr><td id="c0">pg151.cx7_128gram_64kiops_noprep</td><td id="c20">99.288</td><td id="c0">0.692</td><td id="c0">0.019</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.032</td></tr>
 </table>
 <p>Insert response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -305,6 +313,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">my8031.cy8_128gram_64kiops</td><td></td><td></td><td id="c20">98.666</td><td id="c0">1.330</td><td id="c0">0.003</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.022</td></tr>
 <tr><td id="c0">fbmy8028.cy9c_128gram_64kiops</td><td></td><td id="c7">35.036</td><td id="c13">63.689</td><td id="c0">1.250</td><td id="c0">0.025</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.029</td></tr>
 <tr><td id="c0">pg151.cx7_128gram_64kiops</td><td></td><td id="c0">0.013</td><td id="c20">98.837</td><td id="c0">0.841</td><td id="c0">0.309</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.062</td></tr>
+<tr><td id="c0">pg151.cx7_128gram_64kiops_noprep</td><td></td><td id="c0">0.026</td><td id="c20">98.985</td><td id="c0">0.709</td><td id="c0">0.279</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.075</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -314,6 +323,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 4342	223653	0	0.0	416.9	12.9	0.000	0.000	0.096	3.047	433149	94.8	1.937	136	28.9	157.5	33.8	0.029	5370	3181	150m.my8031.cy8_128gram_64kiops
 4343	177033	0	0.0	47.4	10.6	0.000	0.000	0.011	2.492	342514	94.6	1.935	171	12.2	13.6	40.1	0.049	3420	2477	150m.fbmy8028.cy9c_128gram_64kiops
 4342	519215	0	0.0	1903.1	84.9	0.000	0.000	0.438	20.017	1000170	94.7	1.926	58	35.1	85.5	19.8	0.050	11571	7032	150m.pg151.cx7_128gram_64kiops
+4342	334881	0	0.0	1906.5	85.0	0.000	0.000	0.439	20.056	645539	94.7	1.928	90	35.1	85.5	19.2	0.032	5514	4507	150m.pg151.cx7_128gram_64kiops_noprep
 </pre>
 <hr />
 <h1 id="q500.1.graph">q500.1</h1>
@@ -352,6 +362,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">my8031.cy8_128gram_64kiops</td><td id="c13">65.050</td><td id="c7">34.836</td><td id="c0">0.088</td><td id="c0">0.025</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td></td><td>0.074</td></tr>
 <tr><td id="c0">fbmy8028.cy9c_128gram_64kiops</td><td id="c12">62.137</td><td id="c8">37.684</td><td id="c0">0.142</td><td id="c0">0.035</td><td id="c0">0.002</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.056</td></tr>
 <tr><td id="c0">pg151.cx7_128gram_64kiops</td><td id="c20">99.948</td><td id="c0">0.026</td><td id="c0">0.013</td><td id="c0">0.011</td><td id="c0">0.002</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.111</td></tr>
+<tr><td id="c0">pg151.cx7_128gram_64kiops_noprep</td><td id="c20">99.135</td><td id="c0">0.824</td><td id="c0">0.020</td><td id="c0">0.018</td><td id="c0">0.003</td><td>nonzero</td><td></td><td></td><td></td><td></td><td>0.089</td></tr>
 </table>
 <p>Insert response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -385,6 +396,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">my8031.cy8_128gram_64kiops</td><td></td><td></td><td id="c13">67.083</td><td id="c6">32.175</td><td id="c0">0.742</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cminr">0.077</td></tr>
 <tr><td id="c0">fbmy8028.cy9c_128gram_64kiops</td><td></td><td id="c4">20.182</td><td id="c12">58.894</td><td id="c4">20.085</td><td id="c0">0.839</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cminr">0.067</td></tr>
 <tr><td id="c0">pg151.cx7_128gram_64kiops</td><td></td><td id="c1">5.785</td><td id="c16">81.379</td><td id="c2">8.150</td><td id="c1">4.099</td><td id="c0">0.586</td><td id="c0">0.001</td><td></td><td></td><td></td><td id="cmaxr">0.362</td></tr>
+<tr><td id="c0">pg151.cx7_128gram_64kiops_noprep</td><td></td><td id="c1">6.664</td><td id="c16">80.935</td><td id="c2">8.015</td><td id="c1">3.841</td><td id="c0">0.544</td><td id="c0">0.001</td><td></td><td></td><td></td><td id="cmaxr">0.325</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -394,6 +406,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 21716	217569	0	0.0	991.0	41.6	0.000	0.000	0.046	1.964	425693	94.7	1.957	139	51.4	180.0	53.9	0.074	5150	3149	150m.my8031.cy8_128gram_64kiops
 21710	164464	0	0.0	200.5	46.6	0.000	0.000	0.009	2.200	322421	94.0	1.960	183	17.8	19.8	82.6	0.056	3022	2365	150m.fbmy8028.cy9c_128gram_64kiops
 21710	496050	0	0.0	1411.5	146.8	0.000	0.000	0.065	6.923	957508	94.6	1.930	61	58.1	102.8	0.0	0.111	8318	6617	150m.pg151.cx7_128gram_64kiops
+21710	322304	0	0.0	1417.3	147.2	0.000	0.000	0.065	6.943	623736	94.5	1.935	94	58.1	103.0	0.0	0.089	6233	4333	150m.pg151.cx7_128gram_64kiops_noprep
 </pre>
 <hr />
 <h1 id="q1000.1.graph">q1000.1</h1>
@@ -432,6 +445,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">my8031.cy8_128gram_64kiops</td><td id="c13">62.994</td><td id="c7">36.770</td><td id="c0">0.197</td><td id="c0">0.039</td><td id="c0">0.001</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.044</td></tr>
 <tr><td id="c0">fbmy8028.cy9c_128gram_64kiops</td><td id="c12">57.775</td><td id="c8">41.714</td><td id="c0">0.444</td><td id="c0">0.065</td><td id="c0">0.002</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cminr">0.104</td></tr>
 <tr><td id="c0">pg151.cx7_128gram_64kiops</td><td id="c20">99.831</td><td id="c0">0.063</td><td id="c0">0.083</td><td id="c0">0.013</td><td id="c0">0.010</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td id="cmaxr">0.482</td></tr>
+<tr><td id="c0">pg151.cx7_128gram_64kiops_noprep</td><td id="c20">98.811</td><td id="c0">1.025</td><td id="c0">0.125</td><td id="c0">0.023</td><td id="c0">0.016</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td id="cmaxr">0.494</td></tr>
 </table>
 <p>Insert response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -465,6 +479,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">my8031.cy8_128gram_64kiops</td><td></td><td></td><td id="c11">55.372</td><td id="c9">43.884</td><td id="c0">0.744</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cminr">0.086</td></tr>
 <tr><td id="c0">fbmy8028.cy9c_128gram_64kiops</td><td></td><td id="c1">5.680</td><td id="c11">53.773</td><td id="c8">39.135</td><td id="c0">1.412</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.062</td></tr>
 <tr><td id="c0">pg151.cx7_128gram_64kiops</td><td></td><td id="c0">0.200</td><td id="c16">81.639</td><td id="c3">13.401</td><td id="c1">3.599</td><td id="c0">1.140</td><td id="c0">0.020</td><td></td><td></td><td></td><td id="cmaxr">0.731</td></tr>
+<tr><td id="c0">pg151.cx7_128gram_64kiops_noprep</td><td></td><td id="c0">0.347</td><td id="c16">81.891</td><td id="c3">12.562</td><td id="c1">4.043</td><td id="c0">1.143</td><td id="c0">0.015</td><td></td><td></td><td></td><td id="cmaxr">0.713</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -474,6 +489,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 43433	208874	0	0.0	1814.4	71.6	0.000	0.000	0.042	1.689	415516	94.7	1.989	145	76.5	205.1	77.0	0.044	4365	3117	150m.my8031.cy8_128gram_64kiops
 43433	142574	1	0.1	403.1	91.0	0.000	0.000	0.009	2.145	286115	93.3	2.007	209	29.3	30.4	83.1	0.104	2717	2142	150m.fbmy8028.cy9c_128gram_64kiops
 43314	474375	2	0.0	2155.9	258.3	0.000	0.000	0.050	6.106	924488	93.7	1.949	63	80.4	157.3	0.0	0.482	7736	5896	150m.pg151.cx7_128gram_64kiops
+43314	309354	2	0.0	2160.4	258.7	0.000	0.000	0.050	6.116	608240	93.4	1.966	97	80.4	157.4	0.0	0.494	5558	3692	150m.pg151.cx7_128gram_64kiops_noprep
 </pre>
 <hr />
 <h1 id="l.i0.metrics">l.i0</h1>
@@ -486,6 +502,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 1294538	0	0	0.0	1953.4	336.6	0.000	0.000	0.002	0.266	178314	59.2	0.138	15	7.2	135.8	14.6	0.108	133963	1898	150m.my8031.cy8_128gram_64kiops
 838861	0	0	0.0	1325.3	300.2	0.000	0.000	0.002	0.366	426078	63.9	0.508	24	4.8	5.4	1.8	0.078	120995	57353	150m.fbmy8028.cy9c_128gram_64kiops
 1542024	0	0	0.0	2689.0	623.6	0.000	0.000	0.002	0.414	168575	57.0	0.109	12	10.0	27.1	8.1	0.043	166428	73222	150m.pg151.cx7_128gram_64kiops
+1542024	0	0	0.0	2688.0	624.0	0.000	0.000	0.002	0.414	169359	55.3	0.110	11	10.0	27.1	7.9	0.033	167524	55055	150m.pg151.cx7_128gram_64kiops_noprep
 </pre>
 <hr />
 <h1 id="l.x.metrics">l.x</h1>
@@ -498,6 +515,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 739138	0	4382	270.2	14222.4	642.3	0.006	0.374	0.019	0.890	141866	31.1	0.192	13	15.6	144.2	17.5	0.004	NA	NA	150m.my8031.cy8_128gram_64kiops
 1590267	0	9	0.3	1610.4	361.1	0.000	0.000	0.001	0.232	10969	51.1	0.007	10	7.2	7.8	8.4	0.003	NA	NA	150m.fbmy8028.cy9c_128gram_64kiops
 2141992	0	0	0.0	2472.6	596.8	0.000	0.000	0.001	0.285	24042	19.7	0.011	3	19.3	44.8	0.0	0.018	NA	NA	150m.pg151.cx7_128gram_64kiops
+2141992	0	0	0.0	2470.8	596.8	0.000	0.000	0.001	0.285	23910	17.6	0.011	3	19.3	44.8	0.0	0.024	NA	NA	150m.pg151.cx7_128gram_64kiops_noprep
 </pre>
 <hr />
 <h1 id="l.i1.metrics">l.i1</h1>
@@ -510,6 +528,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 563750	0	5241	81.9	3439.5	439.5	0.009	0.149	0.006	0.798	183896	62.5	0.326	35	27.8	156.4	32.8	0.283	32673	300	150m.my8031.cy8_128gram_64kiops
 267494	0	166	20.5	1551.9	358.3	0.001	0.078	0.006	1.372	147784	40.5	0.552	48	14.3	15.6	10.2	0.082	6343	1399	150m.fbmy8028.cy9c_128gram_64kiops
 639376	0	0	0.0	3225.7	754.1	0.000	0.000	0.005	1.208	335425	59.6	0.525	30	33.6	82.3	25.3	0.033	50696	28470	150m.pg151.cx7_128gram_64kiops
+647269	0	0	0.0	3227.0	754.4	0.000	0.000	0.005	1.193	334913	57.8	0.517	29	33.6	82.3	24.9	0.035	50859	20584	150m.pg151.cx7_128gram_64kiops_noprep
 </pre>
 <hr />
 <h1 id="q100.1.metrics">q100.1</h1>
@@ -522,6 +541,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 4342	223653	0	0.0	416.9	12.9	0.000	0.000	0.096	3.047	433149	94.8	1.937	136	28.9	157.5	33.8	0.029	5370	3181	150m.my8031.cy8_128gram_64kiops
 4343	177033	0	0.0	47.4	10.6	0.000	0.000	0.011	2.492	342514	94.6	1.935	171	12.2	13.6	40.1	0.049	3420	2477	150m.fbmy8028.cy9c_128gram_64kiops
 4342	519215	0	0.0	1903.1	84.9	0.000	0.000	0.438	20.017	1000170	94.7	1.926	58	35.1	85.5	19.8	0.050	11571	7032	150m.pg151.cx7_128gram_64kiops
+4342	334881	0	0.0	1906.5	85.0	0.000	0.000	0.439	20.056	645539	94.7	1.928	90	35.1	85.5	19.2	0.032	5514	4507	150m.pg151.cx7_128gram_64kiops_noprep
 </pre>
 <hr />
 <h1 id="q500.1.metrics">q500.1</h1>
@@ -534,6 +554,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 21716	217569	0	0.0	991.0	41.6	0.000	0.000	0.046	1.964	425693	94.7	1.957	139	51.4	180.0	53.9	0.074	5150	3149	150m.my8031.cy8_128gram_64kiops
 21710	164464	0	0.0	200.5	46.6	0.000	0.000	0.009	2.200	322421	94.0	1.960	183	17.8	19.8	82.6	0.056	3022	2365	150m.fbmy8028.cy9c_128gram_64kiops
 21710	496050	0	0.0	1411.5	146.8	0.000	0.000	0.065	6.923	957508	94.6	1.930	61	58.1	102.8	0.0	0.111	8318	6617	150m.pg151.cx7_128gram_64kiops
+21710	322304	0	0.0	1417.3	147.2	0.000	0.000	0.065	6.943	623736	94.5	1.935	94	58.1	103.0	0.0	0.089	6233	4333	150m.pg151.cx7_128gram_64kiops_noprep
 </pre>
 <hr />
 <h1 id="q1000.1.metrics">q1000.1</h1>
@@ -546,6 +567,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 43433	208874	0	0.0	1814.4	71.6	0.000	0.000	0.042	1.689	415516	94.7	1.989	145	76.5	205.1	77.0	0.044	4365	3117	150m.my8031.cy8_128gram_64kiops
 43433	142574	1	0.1	403.1	91.0	0.000	0.000	0.009	2.145	286115	93.3	2.007	209	29.3	30.4	83.1	0.104	2717	2142	150m.fbmy8028.cy9c_128gram_64kiops
 43314	474375	2	0.0	2155.9	258.3	0.000	0.000	0.050	6.106	924488	93.7	1.949	63	80.4	157.3	0.0	0.482	7736	5896	150m.pg151.cx7_128gram_64kiops
+43314	309354	2	0.0	2160.4	258.7	0.000	0.000	0.050	6.116	608240	93.4	1.966	97	80.4	157.4	0.0	0.494	5558	3692	150m.pg151.cx7_128gram_64kiops_noprep
 </pre>
 <hr />
 <h1 id="l.i0.rt">l.i0</h1>
@@ -562,6 +584,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	54.310	45.354	0.252	0.045	0.038	0.000	0.000	0.000	0.000	0.108	my8031.cy8_128gram_64kiops
 0.000	8.753	68.159	22.951	0.133	0.004	0.000	0.000	0.000	0.000	0.078	fbmy8028.cy9c_128gram_64kiops
 0.000	96.077	3.855	0.039	0.030	0.000	0.000	0.000	0.000	0.000	0.043	pg151.cx7_128gram_64kiops
+0.000	96.177	3.757	0.045	0.020	0.000	0.000	0.000	0.000	0.000	0.033	pg151.cx7_128gram_64kiops_noprep
 </pre>
 <hr />
 <h1 id="l.x.rt">l.x</h1>
@@ -588,6 +611,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	0.261	96.906	2.446	0.222	0.165	nonzero	0.000	0.000	0.000	0.283	my8031.cy8_128gram_64kiops
 0.000	1.691	14.539	83.608	0.147	0.014	0.000	0.000	0.000	0.000	0.082	fbmy8028.cy9c_128gram_64kiops
 0.000	19.330	78.661	1.699	0.310	0.000	0.000	0.000	0.000	0.000	0.033	pg151.cx7_128gram_64kiops
+0.000	20.665	77.487	1.559	0.289	0.000	0.000	0.000	0.000	0.000	0.035	pg151.cx7_128gram_64kiops_noprep
 </pre>
 <hr />
 <h1 id="q100.1.rt">q100.1</h1>
@@ -604,6 +628,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 66.053	33.915	0.029	0.002	nonzero	0.000	0.000	0.000	0.000	0.000	0.029	my8031.cy8_128gram_64kiops
 65.258	34.683	0.050	0.008	nonzero	0.000	0.000	0.000	0.000	0.000	0.049	fbmy8028.cy9c_128gram_64kiops
 99.962	0.025	0.012	0.001	nonzero	0.000	0.000	0.000	0.000	0.000	0.050	pg151.cx7_128gram_64kiops
+99.288	0.692	0.019	0.001	nonzero	0.000	0.000	0.000	0.000	0.000	0.032	pg151.cx7_128gram_64kiops_noprep
 </pre>
 <p>Insert response time histogram</p>
 <pre>
@@ -611,6 +636,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	0.000	98.666	1.330	0.003	0.000	0.000	0.000	0.000	0.000	0.022	my8031.cy8_128gram_64kiops
 0.000	35.036	63.689	1.250	0.025	0.000	0.000	0.000	0.000	0.000	0.029	fbmy8028.cy9c_128gram_64kiops
 0.000	0.013	98.837	0.841	0.309	0.000	0.000	0.000	0.000	0.000	0.062	pg151.cx7_128gram_64kiops
+0.000	0.026	98.985	0.709	0.279	nonzero	0.000	0.000	0.000	0.000	0.075	pg151.cx7_128gram_64kiops_noprep
 </pre>
 <hr />
 <h1 id="q500.1.rt">q500.1</h1>
@@ -627,6 +653,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 65.050	34.836	0.088	0.025	0.001	nonzero	0.000	0.000	0.000	0.000	0.074	my8031.cy8_128gram_64kiops
 62.137	37.684	0.142	0.035	0.002	0.000	0.000	0.000	0.000	0.000	0.056	fbmy8028.cy9c_128gram_64kiops
 99.948	0.026	0.013	0.011	0.002	nonzero	0.000	0.000	0.000	0.000	0.111	pg151.cx7_128gram_64kiops
+99.135	0.824	0.020	0.018	0.003	nonzero	0.000	0.000	0.000	0.000	0.089	pg151.cx7_128gram_64kiops_noprep
 </pre>
 <p>Insert response time histogram</p>
 <pre>
@@ -634,6 +661,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	0.000	67.083	32.175	0.742	nonzero	0.000	0.000	0.000	0.000	0.077	my8031.cy8_128gram_64kiops
 0.000	20.182	58.894	20.085	0.839	nonzero	0.000	0.000	0.000	0.000	0.067	fbmy8028.cy9c_128gram_64kiops
 0.000	5.785	81.379	8.150	4.099	0.586	0.001	0.000	0.000	0.000	0.362	pg151.cx7_128gram_64kiops
+0.000	6.664	80.935	8.015	3.841	0.544	0.001	0.000	0.000	0.000	0.325	pg151.cx7_128gram_64kiops_noprep
 </pre>
 <hr />
 <h1 id="q1000.1.rt">q1000.1</h1>
@@ -650,6 +678,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 62.994	36.770	0.197	0.039	0.001	0.000	0.000	0.000	0.000	0.000	0.044	my8031.cy8_128gram_64kiops
 57.775	41.714	0.444	0.065	0.002	nonzero	0.000	0.000	0.000	0.000	0.104	fbmy8028.cy9c_128gram_64kiops
 99.831	0.063	0.083	0.013	0.010	nonzero	nonzero	0.000	0.000	0.000	0.482	pg151.cx7_128gram_64kiops
+98.811	1.025	0.125	0.023	0.016	nonzero	nonzero	0.000	0.000	0.000	0.494	pg151.cx7_128gram_64kiops_noprep
 </pre>
 <p>Insert response time histogram</p>
 <pre>
@@ -657,6 +686,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	0.000	55.372	43.884	0.744	nonzero	0.000	0.000	0.000	0.000	0.086	my8031.cy8_128gram_64kiops
 0.000	5.680	53.773	39.135	1.412	0.000	0.000	0.000	0.000	0.000	0.062	fbmy8028.cy9c_128gram_64kiops
 0.000	0.200	81.639	13.401	3.599	1.140	0.020	0.000	0.000	0.000	0.731	pg151.cx7_128gram_64kiops
+0.000	0.347	81.891	12.562	4.043	1.143	0.015	0.000	0.000	0.000	0.713	pg151.cx7_128gram_64kiops_noprep
 </pre>
 </body>
 </html>
