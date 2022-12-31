@@ -7,6 +7,10 @@ Posts for 2020:
 * [Explaining explain to understand index usage in MySQL](posts_2020/20_08_11_explain_explain.md)
 
 Benchmark reports for 2022:
+* Insert Benchmark on AWS c7g.2xl with io2 SSD (256G, 10K IOPs)
+  * [1 client, 20M rows, cached by DBMS](reports/22_12_29_ibench.20m.all.c7g.2xl.1u/all.html)
+* Insert Benchmark on AWS c6i.2xl with io2 SSD (256G, 10K IOPs)
+  * [1 client, 20M rows, cached by DBMS, hyperthread disabled](reports/22_12_29_ibench.20m.all.c6i.2xl.ht0.1u/all.html)
 * Insert Benchmark on AWS c7g.16xl with io2 SSD (5T, 100K IOPs)
   * [22 clients, 500M rows, cached by DBMS](reports/22_12_29_ibench.500m.all.c7g.16xl.22u/all.html)
   * [44 clients, 500M rows, cached by DBMS](reports/22_12_29_ibench.500m.all.c7g.16xl.44u/all.html)
