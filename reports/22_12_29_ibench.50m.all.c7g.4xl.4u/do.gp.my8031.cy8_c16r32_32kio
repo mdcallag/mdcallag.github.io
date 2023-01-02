@@ -1,0 +1,145 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:148038]
+set terminal dumb 200, 50
+set output 'my8031.cy8_c16r32_32kio.l.i0.ips.txt'
+plot "50m.my8031.cy8_c16r32_32kio/l.i0/gpi.ips" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set terminal png
+set output 'my8031.cy8_c16r32_32kio.l.i0.ips.png'
+plot "50m.my8031.cy8_c16r32_32kio/l.i0/gpi.ips" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:57472]
+set terminal dumb 200, 50
+set output 'my8031.cy8_c16r32_32kio.l.i0.imax.txt'
+plot "50m.my8031.cy8_c16r32_32kio/l.i0/gpi.imax" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set terminal png
+set output 'my8031.cy8_c16r32_32kio.l.i0.imax.png'
+plot "50m.my8031.cy8_c16r32_32kio/l.i0/gpi.imax" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:46509]
+set terminal dumb 200, 50
+set output 'my8031.cy8_c16r32_32kio.l.i1.ips.txt'
+plot "50m.my8031.cy8_c16r32_32kio/l.i1/gpi.ips" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set terminal png
+set output 'my8031.cy8_c16r32_32kio.l.i1.ips.png'
+plot "50m.my8031.cy8_c16r32_32kio/l.i1/gpi.ips" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:170144]
+set terminal dumb 200, 50
+set output 'my8031.cy8_c16r32_32kio.l.i1.imax.txt'
+plot "50m.my8031.cy8_c16r32_32kio/l.i1/gpi.imax" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set terminal png
+set output 'my8031.cy8_c16r32_32kio.l.i1.imax.png'
+plot "50m.my8031.cy8_c16r32_32kio/l.i1/gpi.imax" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L1.ips100"
+set yrange [0:240]
+set terminal dumb 200, 50
+set output 'my8031.cy8_c16r32_32kio.q.L1.ips100.ips.txt'
+plot "50m.my8031.cy8_c16r32_32kio/q.L1.ips100/gpi.ips" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set terminal png
+set output 'my8031.cy8_c16r32_32kio.q.L1.ips100.ips.png'
+plot "50m.my8031.cy8_c16r32_32kio/q.L1.ips100/gpi.ips" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L1.ips100"
+set yrange [0:8338]
+set terminal dumb 200, 50
+set output 'my8031.cy8_c16r32_32kio.q.L1.ips100.imax.txt'
+plot "50m.my8031.cy8_c16r32_32kio/q.L1.ips100/gpi.imax" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set terminal png
+set output 'my8031.cy8_c16r32_32kio.q.L1.ips100.imax.png'
+plot "50m.my8031.cy8_c16r32_32kio/q.L1.ips100/gpi.imax" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L1.ips100"
+set yrange [0:9244]
+set terminal dumb 200, 50
+set output 'my8031.cy8_c16r32_32kio.q.L1.ips100.qps.txt'
+plot "50m.my8031.cy8_c16r32_32kio/q.L1.ips100/gpi.qps" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set terminal png
+set output 'my8031.cy8_c16r32_32kio.q.L1.ips100.qps.png'
+plot "50m.my8031.cy8_c16r32_32kio/q.L1.ips100/gpi.qps" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L1.ips100"
+set yrange [0:6291]
+set terminal dumb 200, 50
+set output 'my8031.cy8_c16r32_32kio.q.L1.ips100.qmax.txt'
+plot "50m.my8031.cy8_c16r32_32kio/q.L1.ips100/gpi.qmax" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set terminal png
+set output 'my8031.cy8_c16r32_32kio.q.L1.ips100.qmax.png'
+plot "50m.my8031.cy8_c16r32_32kio/q.L1.ips100/gpi.qmax" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L2.ips500"
+set yrange [0:838]
+set terminal dumb 200, 50
+set output 'my8031.cy8_c16r32_32kio.q.L2.ips500.ips.txt'
+plot "50m.my8031.cy8_c16r32_32kio/q.L2.ips500/gpi.ips" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set terminal png
+set output 'my8031.cy8_c16r32_32kio.q.L2.ips500.ips.png'
+plot "50m.my8031.cy8_c16r32_32kio/q.L2.ips500/gpi.ips" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L2.ips500"
+set yrange [0:8352]
+set terminal dumb 200, 50
+set output 'my8031.cy8_c16r32_32kio.q.L2.ips500.imax.txt'
+plot "50m.my8031.cy8_c16r32_32kio/q.L2.ips500/gpi.imax" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set terminal png
+set output 'my8031.cy8_c16r32_32kio.q.L2.ips500.imax.png'
+plot "50m.my8031.cy8_c16r32_32kio/q.L2.ips500/gpi.imax" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L2.ips500"
+set yrange [0:9168]
+set terminal dumb 200, 50
+set output 'my8031.cy8_c16r32_32kio.q.L2.ips500.qps.txt'
+plot "50m.my8031.cy8_c16r32_32kio/q.L2.ips500/gpi.qps" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set terminal png
+set output 'my8031.cy8_c16r32_32kio.q.L2.ips500.qps.png'
+plot "50m.my8031.cy8_c16r32_32kio/q.L2.ips500/gpi.qps" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L2.ips500"
+set yrange [0:6464]
+set terminal dumb 200, 50
+set output 'my8031.cy8_c16r32_32kio.q.L2.ips500.qmax.txt'
+plot "50m.my8031.cy8_c16r32_32kio/q.L2.ips500/gpi.qmax" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set terminal png
+set output 'my8031.cy8_c16r32_32kio.q.L2.ips500.qmax.png'
+plot "50m.my8031.cy8_c16r32_32kio/q.L2.ips500/gpi.qmax" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L3.ips1000"
+set yrange [0:1558]
+set terminal dumb 200, 50
+set output 'my8031.cy8_c16r32_32kio.q.L3.ips1000.ips.txt'
+plot "50m.my8031.cy8_c16r32_32kio/q.L3.ips1000/gpi.ips" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set terminal png
+set output 'my8031.cy8_c16r32_32kio.q.L3.ips1000.ips.png'
+plot "50m.my8031.cy8_c16r32_32kio/q.L3.ips1000/gpi.ips" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L3.ips1000"
+set yrange [0:11661]
+set terminal dumb 200, 50
+set output 'my8031.cy8_c16r32_32kio.q.L3.ips1000.imax.txt'
+plot "50m.my8031.cy8_c16r32_32kio/q.L3.ips1000/gpi.imax" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set terminal png
+set output 'my8031.cy8_c16r32_32kio.q.L3.ips1000.imax.png'
+plot "50m.my8031.cy8_c16r32_32kio/q.L3.ips1000/gpi.imax" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L3.ips1000"
+set yrange [0:9151]
+set terminal dumb 200, 50
+set output 'my8031.cy8_c16r32_32kio.q.L3.ips1000.qps.txt'
+plot "50m.my8031.cy8_c16r32_32kio/q.L3.ips1000/gpi.qps" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set terminal png
+set output 'my8031.cy8_c16r32_32kio.q.L3.ips1000.qps.png'
+plot "50m.my8031.cy8_c16r32_32kio/q.L3.ips1000/gpi.qps" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L3.ips1000"
+set yrange [0:6190]
+set terminal dumb 200, 50
+set output 'my8031.cy8_c16r32_32kio.q.L3.ips1000.qmax.txt'
+plot "50m.my8031.cy8_c16r32_32kio/q.L3.ips1000/gpi.qmax" using 1:2 title "my8031.cy8_c16r32_32kio", 
+set terminal png
+set output 'my8031.cy8_c16r32_32kio.q.L3.ips1000.qmax.png'
+plot "50m.my8031.cy8_c16r32_32kio/q.L3.ips1000/gpi.qmax" using 1:2 title "my8031.cy8_c16r32_32kio", 

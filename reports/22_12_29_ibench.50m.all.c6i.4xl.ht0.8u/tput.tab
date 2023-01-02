@@ -1,0 +1,12 @@
+<style type="text/css">
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>50m.my8031.cy8_c16r32_32kio</td> <td>416667</td><td id="cmin">369118</td><td id="cmin">193798</td><td id="cmin">60062</td><td id="cmin">58976</td><td id="cmin">57582</td><tr><td>50m.fbmy8028.cy9c_c16r32_32kio</td> <td id="cmin">373134</td><td>717143</td><td id="cmin">161290</td><td id="cmin">47306</td><td id="cmin">45931</td><td id="cmin">44085</td><tr><td>50m.pg151.cx7_c16r32_32kio</td> <td id="cmax">543478</td><td id="cmax">1568750</td><td id="cmax">297619</td><td id="cgray">142056</td><td id="cgray">141376</td><td id="cgray">136668</td></table>
