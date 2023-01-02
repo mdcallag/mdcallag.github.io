@@ -1,0 +1,145 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:85464]
+set terminal dumb 200, 50
+set output 'pg146.cx7.l.i0.ips.txt'
+plot "20m.pg146.cx7/l.i0/gpi.ips" using 1:2 title "pg146.cx7", 
+set terminal png
+set output 'pg146.cx7.l.i0.ips.png'
+plot "20m.pg146.cx7/l.i0/gpi.ips" using 1:2 title "pg146.cx7", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:4981]
+set terminal dumb 200, 50
+set output 'pg146.cx7.l.i0.imax.txt'
+plot "20m.pg146.cx7/l.i0/gpi.imax" using 1:2 title "pg146.cx7", 
+set terminal png
+set output 'pg146.cx7.l.i0.imax.png'
+plot "20m.pg146.cx7/l.i0/gpi.imax" using 1:2 title "pg146.cx7", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:36560]
+set terminal dumb 200, 50
+set output 'pg146.cx7.l.i1.ips.txt'
+plot "20m.pg146.cx7/l.i1/gpi.ips" using 1:2 title "pg146.cx7", 
+set terminal png
+set output 'pg146.cx7.l.i1.ips.png'
+plot "20m.pg146.cx7/l.i1/gpi.ips" using 1:2 title "pg146.cx7", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:411896]
+set terminal dumb 200, 50
+set output 'pg146.cx7.l.i1.imax.txt'
+plot "20m.pg146.cx7/l.i1/gpi.imax" using 1:2 title "pg146.cx7", 
+set terminal png
+set output 'pg146.cx7.l.i1.imax.png'
+plot "20m.pg146.cx7/l.i1/gpi.imax" using 1:2 title "pg146.cx7", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L1.ips100"
+set yrange [0:238]
+set terminal dumb 200, 50
+set output 'pg146.cx7.q.L1.ips100.ips.txt'
+plot "20m.pg146.cx7/q.L1.ips100/gpi.ips" using 1:2 title "pg146.cx7", 
+set terminal png
+set output 'pg146.cx7.q.L1.ips100.ips.png'
+plot "20m.pg146.cx7/q.L1.ips100/gpi.ips" using 1:2 title "pg146.cx7", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L1.ips100"
+set yrange [0:8132]
+set terminal dumb 200, 50
+set output 'pg146.cx7.q.L1.ips100.imax.txt'
+plot "20m.pg146.cx7/q.L1.ips100/gpi.imax" using 1:2 title "pg146.cx7", 
+set terminal png
+set output 'pg146.cx7.q.L1.ips100.imax.png'
+plot "20m.pg146.cx7/q.L1.ips100/gpi.imax" using 1:2 title "pg146.cx7", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L1.ips100"
+set yrange [0:13099]
+set terminal dumb 200, 50
+set output 'pg146.cx7.q.L1.ips100.qps.txt'
+plot "20m.pg146.cx7/q.L1.ips100/gpi.qps" using 1:2 title "pg146.cx7", 
+set terminal png
+set output 'pg146.cx7.q.L1.ips100.qps.png'
+plot "20m.pg146.cx7/q.L1.ips100/gpi.qps" using 1:2 title "pg146.cx7", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L1.ips100"
+set yrange [0:6363]
+set terminal dumb 200, 50
+set output 'pg146.cx7.q.L1.ips100.qmax.txt'
+plot "20m.pg146.cx7/q.L1.ips100/gpi.qmax" using 1:2 title "pg146.cx7", 
+set terminal png
+set output 'pg146.cx7.q.L1.ips100.qmax.png'
+plot "20m.pg146.cx7/q.L1.ips100/gpi.qmax" using 1:2 title "pg146.cx7", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L2.ips500"
+set yrange [0:1198]
+set terminal dumb 200, 50
+set output 'pg146.cx7.q.L2.ips500.ips.txt'
+plot "20m.pg146.cx7/q.L2.ips500/gpi.ips" using 1:2 title "pg146.cx7", 
+set terminal png
+set output 'pg146.cx7.q.L2.ips500.ips.png'
+plot "20m.pg146.cx7/q.L2.ips500/gpi.ips" using 1:2 title "pg146.cx7", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L2.ips500"
+set yrange [0:128906]
+set terminal dumb 200, 50
+set output 'pg146.cx7.q.L2.ips500.imax.txt'
+plot "20m.pg146.cx7/q.L2.ips500/gpi.imax" using 1:2 title "pg146.cx7", 
+set terminal png
+set output 'pg146.cx7.q.L2.ips500.imax.png'
+plot "20m.pg146.cx7/q.L2.ips500/gpi.imax" using 1:2 title "pg146.cx7", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L2.ips500"
+set yrange [0:13118]
+set terminal dumb 200, 50
+set output 'pg146.cx7.q.L2.ips500.qps.txt'
+plot "20m.pg146.cx7/q.L2.ips500/gpi.qps" using 1:2 title "pg146.cx7", 
+set terminal png
+set output 'pg146.cx7.q.L2.ips500.qps.png'
+plot "20m.pg146.cx7/q.L2.ips500/gpi.qps" using 1:2 title "pg146.cx7", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L2.ips500"
+set yrange [0:40971]
+set terminal dumb 200, 50
+set output 'pg146.cx7.q.L2.ips500.qmax.txt'
+plot "20m.pg146.cx7/q.L2.ips500/gpi.qmax" using 1:2 title "pg146.cx7", 
+set terminal png
+set output 'pg146.cx7.q.L2.ips500.qmax.png'
+plot "20m.pg146.cx7/q.L2.ips500/gpi.qmax" using 1:2 title "pg146.cx7", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L3.ips1000"
+set yrange [0:1737]
+set terminal dumb 200, 50
+set output 'pg146.cx7.q.L3.ips1000.ips.txt'
+plot "20m.pg146.cx7/q.L3.ips1000/gpi.ips" using 1:2 title "pg146.cx7", 
+set terminal png
+set output 'pg146.cx7.q.L3.ips1000.ips.png'
+plot "20m.pg146.cx7/q.L3.ips1000/gpi.ips" using 1:2 title "pg146.cx7", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L3.ips1000"
+set yrange [0:164073]
+set terminal dumb 200, 50
+set output 'pg146.cx7.q.L3.ips1000.imax.txt'
+plot "20m.pg146.cx7/q.L3.ips1000/gpi.imax" using 1:2 title "pg146.cx7", 
+set terminal png
+set output 'pg146.cx7.q.L3.ips1000.imax.png'
+plot "20m.pg146.cx7/q.L3.ips1000/gpi.imax" using 1:2 title "pg146.cx7", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L3.ips1000"
+set yrange [0:13502]
+set terminal dumb 200, 50
+set output 'pg146.cx7.q.L3.ips1000.qps.txt'
+plot "20m.pg146.cx7/q.L3.ips1000/gpi.qps" using 1:2 title "pg146.cx7", 
+set terminal png
+set output 'pg146.cx7.q.L3.ips1000.qps.png'
+plot "20m.pg146.cx7/q.L3.ips1000/gpi.qps" using 1:2 title "pg146.cx7", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L3.ips1000"
+set yrange [0:124455]
+set terminal dumb 200, 50
+set output 'pg146.cx7.q.L3.ips1000.qmax.txt'
+plot "20m.pg146.cx7/q.L3.ips1000/gpi.qmax" using 1:2 title "pg146.cx7", 
+set terminal png
+set output 'pg146.cx7.q.L3.ips1000.qmax.png'
+plot "20m.pg146.cx7/q.L3.ips1000/gpi.qmax" using 1:2 title "pg146.cx7", 

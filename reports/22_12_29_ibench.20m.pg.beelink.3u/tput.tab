@@ -1,0 +1,12 @@
+<style type="text/css">
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>20m.pg1211.cx7</td> <td>188679</td><td>558333</td><td id="cmax">80645</td><td id="cgray">29987</td><td id="cgray">30302</td><td id="cgray">30186</td><tr><td>20m.pg137.cx7</td> <td id="cmax">190476</td><td id="cmax">628125</td><td id="cmax">80645</td><td id="cgray">29386</td><td id="cgray">29659</td><td id="cgray">29800</td><tr><td>20m.pg146.cx7</td> <td>185185</td><td id="cmax">628125</td><td>79681</td><td id="cgray">29449</td><td id="cgray">29674</td><td id="cgray">29709</td><tr><td>20m.pg151.cx7</td> <td>188679</td><td id="cmax">628125</td><td>80321</td><td id="cgray">29678</td><td id="cgray">30317</td><td id="cgray">30226</td></table>
