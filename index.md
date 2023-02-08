@@ -6,6 +6,8 @@ Pinned:
 Posts for 2020:
 * [Explaining explain to understand index usage in MySQL](posts_2020/20_08_11_explain_explain.md)
 
+Benchmark reports for 2023:
+* Insert benchmark on Intel NUC to show the benefit from the insert buffer [1 client, 500M rows, IO-bound](reports/23_02_08_ibench.500m.ibuf.nuc/all.html)
 Benchmark reports for 2022:
 * Insert Benchmark on Beelink (AMD, 8-core, 16G RAM, NVMe)
   * Cached by DBMS, 20M rows
