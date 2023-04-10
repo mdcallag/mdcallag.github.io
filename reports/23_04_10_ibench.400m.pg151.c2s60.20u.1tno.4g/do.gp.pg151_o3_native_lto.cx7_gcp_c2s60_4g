@@ -1,0 +1,145 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:211562]
+set terminal dumb 200, 50
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.l.i0.ips.txt'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/l.i0/gpi.ips" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set terminal png
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.l.i0.ips.png'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/l.i0/gpi.ips" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:1360234]
+set terminal dumb 200, 50
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.l.i0.imax.txt'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/l.i0/gpi.imax" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set terminal png
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.l.i0.imax.png'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/l.i0/gpi.imax" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:2996]
+set terminal dumb 200, 50
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.l.i1.ips.txt'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/l.i1/gpi.ips" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set terminal png
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.l.i1.ips.png'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/l.i1/gpi.ips" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:466320]
+set terminal dumb 200, 50
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.l.i1.imax.txt'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/l.i1/gpi.imax" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set terminal png
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.l.i1.imax.png'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/l.i1/gpi.imax" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L1.ips100"
+set yrange [0:120]
+set terminal dumb 200, 50
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L1.ips100.ips.txt'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L1.ips100/gpi.ips" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set terminal png
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L1.ips100.ips.png'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L1.ips100/gpi.ips" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L1.ips100"
+set yrange [0:103893]
+set terminal dumb 200, 50
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L1.ips100.imax.txt'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L1.ips100/gpi.imax" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set terminal png
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L1.ips100.imax.png'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L1.ips100/gpi.imax" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L1.ips100"
+set yrange [0:7863]
+set terminal dumb 200, 50
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L1.ips100.qps.txt'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L1.ips100/gpi.qps" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set terminal png
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L1.ips100.qps.png'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L1.ips100/gpi.qps" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L1.ips100"
+set yrange [0:102710]
+set terminal dumb 200, 50
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L1.ips100.qmax.txt'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L1.ips100/gpi.qmax" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set terminal png
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L1.ips100.qmax.png'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L1.ips100/gpi.qmax" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L2.ips500"
+set yrange [0:1018]
+set terminal dumb 200, 50
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L2.ips500.ips.txt'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L2.ips500/gpi.ips" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set terminal png
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L2.ips500.ips.png'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L2.ips500/gpi.ips" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L2.ips500"
+set yrange [0:236857]
+set terminal dumb 200, 50
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L2.ips500.imax.txt'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L2.ips500/gpi.imax" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set terminal png
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L2.ips500.imax.png'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L2.ips500/gpi.imax" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L2.ips500"
+set yrange [0:8649]
+set terminal dumb 200, 50
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L2.ips500.qps.txt'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L2.ips500/gpi.qps" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set terminal png
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L2.ips500.qps.png'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L2.ips500/gpi.qps" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L2.ips500"
+set yrange [0:57464]
+set terminal dumb 200, 50
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L2.ips500.qmax.txt'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L2.ips500/gpi.qmax" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set terminal png
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L2.ips500.qmax.png'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L2.ips500/gpi.qmax" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L3.ips1000"
+set yrange [0:1558]
+set terminal dumb 200, 50
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L3.ips1000.ips.txt'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L3.ips1000/gpi.ips" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set terminal png
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L3.ips1000.ips.png'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L3.ips1000/gpi.ips" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L3.ips1000"
+set yrange [0:280924]
+set terminal dumb 200, 50
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L3.ips1000.imax.txt'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L3.ips1000/gpi.imax" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set terminal png
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L3.ips1000.imax.png'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L3.ips1000/gpi.imax" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L3.ips1000"
+set yrange [0:6868]
+set terminal dumb 200, 50
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L3.ips1000.qps.txt'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L3.ips1000/gpi.qps" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set terminal png
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L3.ips1000.qps.png'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L3.ips1000/gpi.qps" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L3.ips1000"
+set yrange [0:61962]
+set terminal dumb 200, 50
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L3.ips1000.qmax.txt'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L3.ips1000/gpi.qmax" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
+set terminal png
+set output 'pg151_o3_native_lto.cx7_gcp_c2s60_4g.q.L3.ips1000.qmax.png'
+plot "400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g/q.L3.ips1000/gpi.qmax" using 1:2 title "pg151_o3_native_lto.cx7_gcp_c2s60_4g", 
