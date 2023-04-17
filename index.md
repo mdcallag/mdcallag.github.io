@@ -22,6 +22,19 @@ Benchmark reports for 2023:
       * 4 threads & 1 table - [5.6.35](reports/23_04_17_ibench.beelink.20m.4u.1tyes.1g/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.beelink.20m.4u.1tyes.1g/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.beelink.20m.4u.1tyes.1g/report.rx.v68.etldirs/all.html)
     * InnoDB
     * Postgres
+* Compiler options, insert benchmark, small server
+  * Cached by database
+    * MyRocks
+      * 20 threads & 20 tables - [5.6.35](reports/23_04_17_ibench.c2.400m.1tno.cached/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.c2.400m.1tno.cached/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.c2.400m.1tno.cached/report.rx.v68.etldirs/all.html)
+      * 20 threads & 1 table - [5.6.35](reports/23_04_17_ibench.c2.400m.1tyes.cached/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.c2.400m.1tyes.cached/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.c2.400m.1tyes.cached/report.rx.v68.etldirs/all.html)
+    * InnoDB
+    * Postgres
+  * Cached by OS
+    * MyRocks
+      * 20 threads & 20 tables - [5.6.35](reports/23_04_17_ibench.c2.400m.1tno.4g/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.c2.400m.1tno.4g/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.c2.400m.1tno.4g/report.rx.v68.etldirs/all.html)
+      * 20 threads & 1 table - [5.6.35](reports/23_04_17_ibench.c2.400m.1tyes.4g/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.c2.400m.1tyes.4g/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.c2.400m.1tyes.4g/report.rx.v68.etldirs/all.html)
+    * InnoDB
+    * Postgres
 * Compiler options, sysbench, small server ([Beelink](http://smalldatum.blogspot.com/2022/10/small-servers-for-performance-testing-v4.html), 8-core AMD, 16G RAM)
   * MyRocks
     * One thread, one table: [5.6.35](reports/23_03_14_ibench.20m.rx56.beelink.1u.1t/all.html), [8.0.28](reports/23_03_14_ibench.20m.rx80.beelink.1u.1t/all.html), [5.6 vs 8.0](reports/23_03_14_ibench.20m.rx56v80.beelink.1u.1t/all.html)
