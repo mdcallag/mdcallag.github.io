@@ -1,0 +1,15 @@
+<style type="text/css">
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>fbmy5635_rel.cay9c1g</td><td>399</td><td>1994</td><td>3989</td></tr>
+<tr><td>fbmy8028_rel_native_lto.cay9c1g</td><td>399</td><td>1994</td><td>3989</td></tr>
+<tr><td>target</td><td id=cgray>400</td><td id=cgray>2000</td><td id=cgray>4000</td></tr>
+</table>

@@ -1,0 +1,145 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:70839]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel.cay9c1g.l.i0.ips.txt'
+plot "20m.fbmy8028_rel.cay9c1g/l.i0/gpi.ips" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set terminal png
+set output 'fbmy8028_rel.cay9c1g.l.i0.ips.png'
+plot "20m.fbmy8028_rel.cay9c1g/l.i0/gpi.ips" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:140827]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel.cay9c1g.l.i0.imax.txt'
+plot "20m.fbmy8028_rel.cay9c1g/l.i0/gpi.imax" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set terminal png
+set output 'fbmy8028_rel.cay9c1g.l.i0.imax.png'
+plot "20m.fbmy8028_rel.cay9c1g/l.i0/gpi.imax" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:29546]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel.cay9c1g.l.i1.ips.txt'
+plot "20m.fbmy8028_rel.cay9c1g/l.i1/gpi.ips" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set terminal png
+set output 'fbmy8028_rel.cay9c1g.l.i1.ips.png'
+plot "20m.fbmy8028_rel.cay9c1g/l.i1/gpi.ips" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:153744]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel.cay9c1g.l.i1.imax.txt'
+plot "20m.fbmy8028_rel.cay9c1g/l.i1/gpi.imax" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set terminal png
+set output 'fbmy8028_rel.cay9c1g.l.i1.imax.png'
+plot "20m.fbmy8028_rel.cay9c1g/l.i1/gpi.imax" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L1.ips100"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel.cay9c1g.q.L1.ips100.ips.txt'
+plot "20m.fbmy8028_rel.cay9c1g/q.L1.ips100/gpi.ips" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set terminal png
+set output 'fbmy8028_rel.cay9c1g.q.L1.ips100.ips.png'
+plot "20m.fbmy8028_rel.cay9c1g/q.L1.ips100/gpi.ips" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L1.ips100"
+set yrange [0:10645]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel.cay9c1g.q.L1.ips100.imax.txt'
+plot "20m.fbmy8028_rel.cay9c1g/q.L1.ips100/gpi.imax" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set terminal png
+set output 'fbmy8028_rel.cay9c1g.q.L1.ips100.imax.png'
+plot "20m.fbmy8028_rel.cay9c1g/q.L1.ips100/gpi.imax" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L1.ips100"
+set yrange [0:3684]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel.cay9c1g.q.L1.ips100.qps.txt'
+plot "20m.fbmy8028_rel.cay9c1g/q.L1.ips100/gpi.qps" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set terminal png
+set output 'fbmy8028_rel.cay9c1g.q.L1.ips100.qps.png'
+plot "20m.fbmy8028_rel.cay9c1g/q.L1.ips100/gpi.qps" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L1.ips100"
+set yrange [0:9390]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel.cay9c1g.q.L1.ips100.qmax.txt'
+plot "20m.fbmy8028_rel.cay9c1g/q.L1.ips100/gpi.qmax" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set terminal png
+set output 'fbmy8028_rel.cay9c1g.q.L1.ips100.qmax.png'
+plot "20m.fbmy8028_rel.cay9c1g/q.L1.ips100/gpi.qmax" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L2.ips500"
+set yrange [0:838]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel.cay9c1g.q.L2.ips500.ips.txt'
+plot "20m.fbmy8028_rel.cay9c1g/q.L2.ips500/gpi.ips" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set terminal png
+set output 'fbmy8028_rel.cay9c1g.q.L2.ips500.ips.png'
+plot "20m.fbmy8028_rel.cay9c1g/q.L2.ips500/gpi.ips" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L2.ips500"
+set yrange [0:60916]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel.cay9c1g.q.L2.ips500.imax.txt'
+plot "20m.fbmy8028_rel.cay9c1g/q.L2.ips500/gpi.imax" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set terminal png
+set output 'fbmy8028_rel.cay9c1g.q.L2.ips500.imax.png'
+plot "20m.fbmy8028_rel.cay9c1g/q.L2.ips500/gpi.imax" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L2.ips500"
+set yrange [0:3510]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel.cay9c1g.q.L2.ips500.qps.txt'
+plot "20m.fbmy8028_rel.cay9c1g/q.L2.ips500/gpi.qps" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set terminal png
+set output 'fbmy8028_rel.cay9c1g.q.L2.ips500.qps.png'
+plot "20m.fbmy8028_rel.cay9c1g/q.L2.ips500/gpi.qps" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L2.ips500"
+set yrange [0:14869]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel.cay9c1g.q.L2.ips500.qmax.txt'
+plot "20m.fbmy8028_rel.cay9c1g/q.L2.ips500/gpi.qmax" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set terminal png
+set output 'fbmy8028_rel.cay9c1g.q.L2.ips500.qmax.png'
+plot "20m.fbmy8028_rel.cay9c1g/q.L2.ips500/gpi.qmax" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L3.ips1000"
+set yrange [0:1678]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel.cay9c1g.q.L3.ips1000.ips.txt'
+plot "20m.fbmy8028_rel.cay9c1g/q.L3.ips1000/gpi.ips" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set terminal png
+set output 'fbmy8028_rel.cay9c1g.q.L3.ips1000.ips.png'
+plot "20m.fbmy8028_rel.cay9c1g/q.L3.ips1000/gpi.ips" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L3.ips1000"
+set yrange [0:58084]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel.cay9c1g.q.L3.ips1000.imax.txt'
+plot "20m.fbmy8028_rel.cay9c1g/q.L3.ips1000/gpi.imax" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set terminal png
+set output 'fbmy8028_rel.cay9c1g.q.L3.ips1000.imax.png'
+plot "20m.fbmy8028_rel.cay9c1g/q.L3.ips1000/gpi.imax" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L3.ips1000"
+set yrange [0:3452]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel.cay9c1g.q.L3.ips1000.qps.txt'
+plot "20m.fbmy8028_rel.cay9c1g/q.L3.ips1000/gpi.qps" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set terminal png
+set output 'fbmy8028_rel.cay9c1g.q.L3.ips1000.qps.png'
+plot "20m.fbmy8028_rel.cay9c1g/q.L3.ips1000/gpi.qps" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L3.ips1000"
+set yrange [0:29169]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel.cay9c1g.q.L3.ips1000.qmax.txt'
+plot "20m.fbmy8028_rel.cay9c1g/q.L3.ips1000/gpi.qmax" using 1:2 title "fbmy8028_rel.cay9c1g", 
+set terminal png
+set output 'fbmy8028_rel.cay9c1g.q.L3.ips1000.qmax.png'
+plot "20m.fbmy8028_rel.cay9c1g/q.L3.ips1000/gpi.qmax" using 1:2 title "fbmy8028_rel.cay9c1g", 
