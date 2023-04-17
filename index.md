@@ -7,7 +7,7 @@ Posts for 2020:
 * [Explaining explain to understand index usage in MySQL](posts_2020/20_08_11_explain_explain.md)
 
 Benchmark reports for 2023:
-* Compiler options, insert benchmark, small server
+* Compiler options, insert benchmark, small server9 (Beelink, 8 AMD cores, 16G RAM, NVMe SSD)
   * Cached by database
     * MyRocks
       * 1 thread & 1 table - [5.6.35](reports/23_04_17_ibench.beelink.20m.1u.1tno.cached/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.beelink.20m.1u.1tno.cached/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.beelink.20m.1u.1tno.cached/report.rx.v68.etldirs/all.html)
@@ -22,7 +22,7 @@ Benchmark reports for 2023:
       * 4 threads & 1 table - [5.6.35](reports/23_04_17_ibench.beelink.20m.4u.1tyes.1g/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.beelink.20m.4u.1tyes.1g/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.beelink.20m.4u.1tyes.1g/report.rx.v68.etldirs/all.html)
     * InnoDB
     * Postgres
-* Compiler options, insert benchmark, small server
+* Compiler options, insert benchmark, big server (c2-standard-60, 30 cores, hyperthreads disabled, 240G RAM)
   * Cached by database
     * MyRocks
       * 20 threads & 20 tables - [5.6.35](reports/23_04_17_ibench.c2.400m.1tno.cached/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.c2.400m.1tno.cached/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.c2.400m.1tno.cached/report.rx.v68.etldirs/all.html)
