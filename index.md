@@ -11,7 +11,7 @@ Benchmark reports for 2023:
   * at git sha 1ab763fc2
     * Beelink (server with 8 cores, 16G RAM)
       * insert benchmark
-        * cached by Postgres: [1 user, 1 table](reports/23_05_04_ibench.beelink.pg16b.1u.1tno.cached/all.html) :: [4 users, 4 tables](reports/23_05_04_ibench.beelink.pg16b.4u.1tno.cached/all.html) :: [4 users, 1 table](reports/23_05_04_ibench.beelink.pg16b.4u.1tyes.cached/all.html)
+        * cached by Postgres: [1 user, 1 table](reports/23_05_04_ibench.beelink.pg16b.1u.1tno.cached/all.html), [4 users, 4 tables](reports/23_05_04_ibench.beelink.pg16b.4u.1tno.cached/all.html), [4 users, 1 table](reports/23_05_04_ibench.beelink.pg16b.4u.1tyes.cached/all.html)
         * cached by OS page cache: pending
       * sysbench
         * cached by Postgres: pending
@@ -24,9 +24,9 @@ Benchmark reports for 2023:
       * 4 threads & 1 table - [5.6.35](reports/23_04_17_ibench.beelink.20m.4u.1tyes.cached/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.beelink.20m.4u.1tyes.cached/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.beelink.20m.4u.1tyes.cached/report.rx.v68.etldirs/all.html)
     * InnoDB
     * Postgres
-      * 1 thread & 1 table - [Version 15.1 builds](reports/23_05_04_ibench.beelink.pg151.1u.1tno.cached/all.html) :: [Versions 11 to 15](reports/23_05_04_ibench.beelink.pgall.1u.1tno.cached/all.html)
-      * 4 threads & 4 tables - [Version 15.1 builds](reports/23_05_04_ibench.beelink.pg151.4u.1tno.cached/all.html) :: [Versions 11 to 15](reports/23_05_04_ibench.beelink.pgall.4u.1tno.cached/all.html)
-      * 4 threads & 1 table - [Version 15.1 builds](reports/23_05_04_ibench.beelink.pg151.4u.1tyes.cached/all.html) :: [Versions 11 to 15](reports/23_05_04_ibench.beelink.pgall.4u.1tyes.cached/all.html)
+      * 1 thread & 1 table - [Version 15.1 builds](reports/23_05_04_ibench.beelink.pg151.1u.1tno.cached/all.html), [Versions 11 to 15](reports/23_05_04_ibench.beelink.pgall.1u.1tno.cached/all.html)
+      * 4 threads & 4 tables - [Version 15.1 builds](reports/23_05_04_ibench.beelink.pg151.4u.1tno.cached/all.html), [Versions 11 to 15](reports/23_05_04_ibench.beelink.pgall.4u.1tno.cached/all.html)
+      * 4 threads & 1 table - [Version 15.1 builds](reports/23_05_04_ibench.beelink.pg151.4u.1tyes.cached/all.html), [Versions 11 to 15](reports/23_05_04_ibench.beelink.pgall.4u.1tyes.cached/all.html)
   * Cached by OS
     * MyRocks
       * 1 thread & 1 table - [5.6.35](reports/23_04_17_ibench.beelink.20m.1u.1tno.1g/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.beelink.20m.1u.1tno.1g/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.beelink.20m.1u.1tno.1g/report.rx.v68.etldirs/all.html)
@@ -34,9 +34,9 @@ Benchmark reports for 2023:
       * 4 threads & 1 table - [5.6.35](reports/23_04_17_ibench.beelink.20m.4u.1tyes.1g/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.beelink.20m.4u.1tyes.1g/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.beelink.20m.4u.1tyes.1g/report.rx.v68.etldirs/all.html)
     * InnoDB
     * Postgres
-      * 1 thread & 1 table - [Version 15.1 builds](reports/23_05_04_ibench.beelink.pg151.1u.1tno.1g/all.html) :: [Versions 11 to 15](reports/23_05_04_ibench.beelink.pgall.1u.1tno.1g/all.html)
-      * 4 threads & 4 tables - [Version 15.1 builds](reports/23_05_04_ibench.beelink.pg151.4u.1tno.1g/all.html) :: [Versions 11 to 15](reports/23_05_04_ibench.beelink.pgall.4u.1tno.1g/all.html)
-      * 4 threads & 1 table - [Version 15.1 builds](reports/23_05_04_ibench.beelink.pg151.4u.1tyes.1g/all.html) :: [Versions 11 to 15](reports/23_05_04_ibench.beelink.pgall.4u.1tyes.1g/all.html)
+      * 1 thread & 1 table - [Version 15.1 builds](reports/23_05_04_ibench.beelink.pg151.1u.1tno.1g/all.html), [Versions 11 to 15](reports/23_05_04_ibench.beelink.pgall.1u.1tno.1g/all.html)
+      * 4 threads & 4 tables - [Version 15.1 builds](reports/23_05_04_ibench.beelink.pg151.4u.1tno.1g/all.html), [Versions 11 to 15](reports/23_05_04_ibench.beelink.pgall.4u.1tno.1g/all.html)
+      * 4 threads & 1 table - [Version 15.1 builds](reports/23_05_04_ibench.beelink.pg151.4u.1tyes.1g/all.html), [Versions 11 to 15](reports/23_05_04_ibench.beelink.pgall.4u.1tyes.1g/all.html)
 * Compiler options, insert benchmark, big server (c2-standard-60, 30 cores, hyperthreads disabled, 240G RAM)
   * Cached by database
     * MyRocks
@@ -44,12 +44,16 @@ Benchmark reports for 2023:
       * 20 threads & 1 table - [5.6.35](reports/23_04_17_ibench.c2.400m.1tyes.cached/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.c2.400m.1tyes.cached/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.c2.400m.1tyes.cached/report.rx.v68.etldirs/all.html)
     * InnoDB
     * Postgres
+      * 20 threads & 20 tables - [Version 15.1 builds](reports/23_05_04_ibench.c2.pg151.20u.1tno.cached/all.html), [Versions 11 to 15](reports/23_05_04_ibench.c2.pgall.20u.1tno.cached/all.html)
+      * 20 threads & 1 table - [Version 15.1 builds](reports/23_05_04_ibench.c2.pg151.20u.1tyes.cached/all.html), [Versions 11 to 15](reports/23_05_04_ibench.c2.pgall.20u.1tyes.cached/all.html)
   * Cached by OS
     * MyRocks
       * 20 threads & 20 tables - [5.6.35](reports/23_04_17_ibench.c2.400m.1tno.4g/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.c2.400m.1tno.4g/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.c2.400m.1tno.4g/report.rx.v68.etldirs/all.html)
       * 20 threads & 1 table - [5.6.35](reports/23_04_17_ibench.c2.400m.1tyes.4g/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.c2.400m.1tyes.4g/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.c2.400m.1tyes.4g/report.rx.v68.etldirs/all.html)
     * InnoDB
     * Postgres
+      * 20 threads & 20 tables - [Version 15.1 builds](reports/23_05_04_ibench.c2.pg151.20u.1tno.4g/all.html), [Versions 11 to 15](reports/23_05_04_ibench.c2.pg151.20u.1tyes.4g/all.html)
+      * 20 threads & 1 table - [Version 15.1 builds](reports/23_05_04_ibench.c2.pgall.20u.1tno.4g/all.html), [Versions 11 to 15](reports/23_05_04_ibench.c2.pgall.20u.1tyes.4g/all.html)
 * Compiler options, sysbench, small server ([Beelink](http://smalldatum.blogspot.com/2022/10/small-servers-for-performance-testing-v4.html), 8-core AMD, 16G RAM)
   * MyRocks
     * One thread, one table: [5.6.35](reports/23_03_14_ibench.20m.rx56.beelink.1u.1t/all.html), [8.0.28](reports/23_03_14_ibench.20m.rx80.beelink.1u.1t/all.html), [5.6 vs 8.0](reports/23_03_14_ibench.20m.rx56v80.beelink.1u.1t/all.html)

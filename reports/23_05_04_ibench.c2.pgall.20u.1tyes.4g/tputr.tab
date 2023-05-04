@@ -1,0 +1,12 @@
+<style type="text/css">
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>400m.pg1119_o3_native_lto.cx7_gcp_c2s60_4g</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><tr><td>400m.pg1214_o3_native_lto.cx7_gcp_c2s60_4g</td> <td>0.99</td><td>0.99</td><td>1.01</td><td>1.04</td><td>1.03</td><td>1.05</td><tr><td>400m.pg1310_o3_native_lto.cx7_gcp_c2s60_4g</td> <td>0.99</td><td>1.00</td><td>0.99</td><td>1.06</td><td>1.06</td><td>1.07</td><tr><td>400m.pg147_o3_native_lto.cx7_gcp_c2s60_4g</td> <td>0.99</td><td>0.98</td><td>0.99</td><td>1.05</td><td>1.04</td><td>1.04</td><tr><td>400m.pg151_o3_native_lto.cx7_gcp_c2s60_4g</td> <td>1.02</td><td>0.96</td><td>1.01</td><td>1.06</td><td>1.05</td><td>1.05</td><tr><td>400m.pg152_o3_native_lto.cx7_gcp_c2s60_4g</td> <td>0.98</td><td>0.97</td><td>1.00</td><td>1.04</td><td>1.03</td><td>1.04</td></table>
