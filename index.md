@@ -11,7 +11,7 @@ Benchmark reports for 2023:
   * at git sha 1ab763fc2
     * Beelink (server with 8 cores, 16G RAM)
       * insert benchmark
-        * cached by Postgres: [1 user, 1 table](reports/23_05_04_ibench.beelink.pg16b.1u.1tno.cached) :: [4 users, 4 tables](reports/23_05_04_ibench.beelink.pg16b.4u.1tno.cached) :: [4 users, 1 table](reports/23_05_04_ibench.beelink.pg16b.4u.1tyes.cached)
+        * cached by Postgres: [1 user, 1 table](reports/23_05_04_ibench.beelink.pg16b.1u.1tno.cached/all.html) :: [4 users, 4 tables](reports/23_05_04_ibench.beelink.pg16b.4u.1tno.cached/all.html) :: [4 users, 1 table](reports/23_05_04_ibench.beelink.pg16b.4u.1tyes.cached/all.html)
         * cached by OS page cache: pending
       * sysbench
         * cached by Postgres: pending
