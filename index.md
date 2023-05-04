@@ -16,7 +16,7 @@ Benchmark reports for 2023:
       * sysbench
         * cached by Postgres: pending
         * cached by OS page cache: pending
-* Compiler options, insert benchmark, small server9 (Beelink, 8 AMD cores, 16G RAM, NVMe SSD)
+* Compiler options, insert benchmark, small server (Beelink, 8 AMD cores, 16G RAM, NVMe SSD)
   * Cached by database
     * MyRocks
       * 1 thread & 1 table - [5.6.35](reports/23_04_17_ibench.beelink.20m.1u.1tno.cached/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.beelink.20m.1u.1tno.cached/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.beelink.20m.1u.1tno.cached/report.rx.v68.etldirs/all.html)
@@ -24,6 +24,9 @@ Benchmark reports for 2023:
       * 4 threads & 1 table - [5.6.35](reports/23_04_17_ibench.beelink.20m.4u.1tyes.cached/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.beelink.20m.4u.1tyes.cached/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.beelink.20m.4u.1tyes.cached/report.rx.v68.etldirs/all.html)
     * InnoDB
     * Postgres
+      * 1 thread & 1 table - [Version 15.1 builds](23_05_04_ibench.beelink.pg151.1u.1tno.cached/all.html) :: [Versions 11 to 15](23_05_04_ibench.beelink.pgall.1u.1tno.cached/all.html)
+      * 4 threads & 4 tables - [Version 15.1 builds](23_05_04_ibench.beelink.pg151.4u.1tno.cached/all.html) :: [Versions 11 to 15](23_05_04_ibench.beelink.pgall.4u.1tno.cached/all.html)
+      * 4 threads & 1 table - [Version 15.1 builds](23_05_04_ibench.beelink.pg151.4u.1tyes.cached/all.html) :: [Versions 11 to 15](23_05_04_ibench.beelink.pgall.4u.1tyes.cached/all.html)
   * Cached by OS
     * MyRocks
       * 1 thread & 1 table - [5.6.35](reports/23_04_17_ibench.beelink.20m.1u.1tno.1g/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.beelink.20m.1u.1tno.1g/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.beelink.20m.1u.1tno.1g/report.rx.v68.etldirs/all.html)
@@ -31,6 +34,9 @@ Benchmark reports for 2023:
       * 4 threads & 1 table - [5.6.35](reports/23_04_17_ibench.beelink.20m.4u.1tyes.1g/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.beelink.20m.4u.1tyes.1g/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.beelink.20m.4u.1tyes.1g/report.rx.v68.etldirs/all.html)
     * InnoDB
     * Postgres
+      * 1 thread & 1 table - [Version 15.1 builds](23_05_04_ibench.beelink.pg151.1u.1tno.1g/all.html) :: [Versions 11 to 15](23_05_04_ibench.beelink.pgall.1u.1tno.1g/all.html)
+      * 4 threads & 4 tables - [Version 15.1 builds](23_05_04_ibench.beelink.pg151.4u.1tno.1g/all.html) :: [Versions 11 to 15](23_05_04_ibench.beelink.pgall.4u.1tno.1g/all.html)
+      * 4 threads & 1 table - [Version 15.1 builds](23_05_04_ibench.beelink.pg151.4u.1tyes.1g/all.html) :: [Versions 11 to 15](23_05_04_ibench.beelink.pgall.4u.1tyes.1g/all.html)
 * Compiler options, insert benchmark, big server (c2-standard-60, 30 cores, hyperthreads disabled, 240G RAM)
   * Cached by database
     * MyRocks

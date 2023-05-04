@@ -1,0 +1,145 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:96014]
+set terminal dumb 200, 50
+set output 'pg1214_o3_native_lto.cx7.l.i0.ips.txt'
+plot "20m.pg1214_o3_native_lto.cx7/l.i0/gpi.ips" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set terminal png
+set output 'pg1214_o3_native_lto.cx7.l.i0.ips.png'
+plot "20m.pg1214_o3_native_lto.cx7/l.i0/gpi.ips" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:14192]
+set terminal dumb 200, 50
+set output 'pg1214_o3_native_lto.cx7.l.i0.imax.txt'
+plot "20m.pg1214_o3_native_lto.cx7/l.i0/gpi.imax" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set terminal png
+set output 'pg1214_o3_native_lto.cx7.l.i0.imax.png'
+plot "20m.pg1214_o3_native_lto.cx7/l.i0/gpi.imax" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:38852]
+set terminal dumb 200, 50
+set output 'pg1214_o3_native_lto.cx7.l.i1.ips.txt'
+plot "20m.pg1214_o3_native_lto.cx7/l.i1/gpi.ips" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set terminal png
+set output 'pg1214_o3_native_lto.cx7.l.i1.ips.png'
+plot "20m.pg1214_o3_native_lto.cx7/l.i1/gpi.ips" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:13152]
+set terminal dumb 200, 50
+set output 'pg1214_o3_native_lto.cx7.l.i1.imax.txt'
+plot "20m.pg1214_o3_native_lto.cx7/l.i1/gpi.imax" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set terminal png
+set output 'pg1214_o3_native_lto.cx7.l.i1.imax.png'
+plot "20m.pg1214_o3_native_lto.cx7/l.i1/gpi.imax" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L1.ips100"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'pg1214_o3_native_lto.cx7.q.L1.ips100.ips.txt'
+plot "20m.pg1214_o3_native_lto.cx7/q.L1.ips100/gpi.ips" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set terminal png
+set output 'pg1214_o3_native_lto.cx7.q.L1.ips100.ips.png'
+plot "20m.pg1214_o3_native_lto.cx7/q.L1.ips100/gpi.ips" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L1.ips100"
+set yrange [0:16444]
+set terminal dumb 200, 50
+set output 'pg1214_o3_native_lto.cx7.q.L1.ips100.imax.txt'
+plot "20m.pg1214_o3_native_lto.cx7/q.L1.ips100/gpi.imax" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set terminal png
+set output 'pg1214_o3_native_lto.cx7.q.L1.ips100.imax.png'
+plot "20m.pg1214_o3_native_lto.cx7/q.L1.ips100/gpi.imax" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L1.ips100"
+set yrange [0:14787]
+set terminal dumb 200, 50
+set output 'pg1214_o3_native_lto.cx7.q.L1.ips100.qps.txt'
+plot "20m.pg1214_o3_native_lto.cx7/q.L1.ips100/gpi.qps" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set terminal png
+set output 'pg1214_o3_native_lto.cx7.q.L1.ips100.qps.png'
+plot "20m.pg1214_o3_native_lto.cx7/q.L1.ips100/gpi.qps" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L1.ips100"
+set yrange [0:13412]
+set terminal dumb 200, 50
+set output 'pg1214_o3_native_lto.cx7.q.L1.ips100.qmax.txt'
+plot "20m.pg1214_o3_native_lto.cx7/q.L1.ips100/gpi.qmax" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set terminal png
+set output 'pg1214_o3_native_lto.cx7.q.L1.ips100.qmax.png'
+plot "20m.pg1214_o3_native_lto.cx7/q.L1.ips100/gpi.qmax" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L2.ips500"
+set yrange [0:834]
+set terminal dumb 200, 50
+set output 'pg1214_o3_native_lto.cx7.q.L2.ips500.ips.txt'
+plot "20m.pg1214_o3_native_lto.cx7/q.L2.ips500/gpi.ips" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set terminal png
+set output 'pg1214_o3_native_lto.cx7.q.L2.ips500.ips.png'
+plot "20m.pg1214_o3_native_lto.cx7/q.L2.ips500/gpi.ips" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L2.ips500"
+set yrange [0:29894]
+set terminal dumb 200, 50
+set output 'pg1214_o3_native_lto.cx7.q.L2.ips500.imax.txt'
+plot "20m.pg1214_o3_native_lto.cx7/q.L2.ips500/gpi.imax" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set terminal png
+set output 'pg1214_o3_native_lto.cx7.q.L2.ips500.imax.png'
+plot "20m.pg1214_o3_native_lto.cx7/q.L2.ips500/gpi.imax" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L2.ips500"
+set yrange [0:14538]
+set terminal dumb 200, 50
+set output 'pg1214_o3_native_lto.cx7.q.L2.ips500.qps.txt'
+plot "20m.pg1214_o3_native_lto.cx7/q.L2.ips500/gpi.qps" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set terminal png
+set output 'pg1214_o3_native_lto.cx7.q.L2.ips500.qps.png'
+plot "20m.pg1214_o3_native_lto.cx7/q.L2.ips500/gpi.qps" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L2.ips500"
+set yrange [0:22302]
+set terminal dumb 200, 50
+set output 'pg1214_o3_native_lto.cx7.q.L2.ips500.qmax.txt'
+plot "20m.pg1214_o3_native_lto.cx7/q.L2.ips500/gpi.qmax" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set terminal png
+set output 'pg1214_o3_native_lto.cx7.q.L2.ips500.qmax.png'
+plot "20m.pg1214_o3_native_lto.cx7/q.L2.ips500/gpi.qmax" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L3.ips1000"
+set yrange [0:1558]
+set terminal dumb 200, 50
+set output 'pg1214_o3_native_lto.cx7.q.L3.ips1000.ips.txt'
+plot "20m.pg1214_o3_native_lto.cx7/q.L3.ips1000/gpi.ips" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set terminal png
+set output 'pg1214_o3_native_lto.cx7.q.L3.ips1000.ips.png'
+plot "20m.pg1214_o3_native_lto.cx7/q.L3.ips1000/gpi.ips" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L3.ips1000"
+set yrange [0:81841]
+set terminal dumb 200, 50
+set output 'pg1214_o3_native_lto.cx7.q.L3.ips1000.imax.txt'
+plot "20m.pg1214_o3_native_lto.cx7/q.L3.ips1000/gpi.imax" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set terminal png
+set output 'pg1214_o3_native_lto.cx7.q.L3.ips1000.imax.png'
+plot "20m.pg1214_o3_native_lto.cx7/q.L3.ips1000/gpi.imax" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L3.ips1000"
+set yrange [0:14749]
+set terminal dumb 200, 50
+set output 'pg1214_o3_native_lto.cx7.q.L3.ips1000.qps.txt'
+plot "20m.pg1214_o3_native_lto.cx7/q.L3.ips1000/gpi.qps" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set terminal png
+set output 'pg1214_o3_native_lto.cx7.q.L3.ips1000.qps.png'
+plot "20m.pg1214_o3_native_lto.cx7/q.L3.ips1000/gpi.qps" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L3.ips1000"
+set yrange [0:25549]
+set terminal dumb 200, 50
+set output 'pg1214_o3_native_lto.cx7.q.L3.ips1000.qmax.txt'
+plot "20m.pg1214_o3_native_lto.cx7/q.L3.ips1000/gpi.qmax" using 1:2 title "pg1214_o3_native_lto.cx7", 
+set terminal png
+set output 'pg1214_o3_native_lto.cx7.q.L3.ips1000.qmax.png'
+plot "20m.pg1214_o3_native_lto.cx7/q.L3.ips1000/gpi.qmax" using 1:2 title "pg1214_o3_native_lto.cx7", 

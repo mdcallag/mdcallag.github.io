@@ -1,0 +1,12 @@
+<style type="text/css">
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>20m.pg1119_o3_native_lto.cx7</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><tr><td>20m.pg1214_o3_native_lto.cx7</td> <td>0.98</td><td>0.98</td><td>0.98</td><td>1.10</td><td>1.09</td><td>1.08</td><tr><td>20m.pg1310_o3_native_lto.cx7</td> <td>1.04</td><td>0.99</td><td>1.00</td><td>1.13</td><td>1.11</td><td>1.10</td><tr><td>20m.pg147_o3_native_lto.cx7</td> <td>0.97</td><td>0.96</td><td>0.98</td><td>1.12</td><td>1.08</td><td>1.08</td><tr><td>20m.pg151_o3_native_lto.cx7</td> <td>1.04</td><td>1.04</td><td>1.00</td><td>1.10</td><td>1.10</td><td>1.10</td><tr><td>20m.pg152_o3_native_lto.cx7</td> <td>1.04</td><td>1.03</td><td>1.01</td><td>1.11</td><td>1.09</td><td>1.09</td></table>
