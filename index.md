@@ -16,7 +16,7 @@ Benchmark reports for 2023:
       * sysbench
         * cached by Postgres: pending
         * cached by OS page cache: pending
-* Compiler options, insert benchmark, small server (Beelink, 8 AMD cores, 16G RAM, NVMe SSD)
+* Compiler options, insert benchmark, small server (Beelink, 8 AMD cores, 16G RAM, NVMe SSD), May 2023
   * Cached by database
     * MyRocks
       * 1 thread & 1 table - [5.6.35](reports/23_04_17_ibench.beelink.20m.1u.1tno.cached/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.beelink.20m.1u.1tno.cached/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.beelink.20m.1u.1tno.cached/report.rx.v68.etldirs/all.html)
@@ -37,7 +37,7 @@ Benchmark reports for 2023:
       * 1 thread & 1 table - [Version 15.1 builds](reports/23_05_04_ibench.beelink.pg151.1u.1tno.1g/all.html), [Versions 11 to 15](reports/23_05_04_ibench.beelink.pgall.1u.1tno.1g/all.html)
       * 4 threads & 4 tables - [Version 15.1 builds](reports/23_05_04_ibench.beelink.pg151.4u.1tno.1g/all.html), [Versions 11 to 15](reports/23_05_04_ibench.beelink.pgall.4u.1tno.1g/all.html)
       * 4 threads & 1 table - [Version 15.1 builds](reports/23_05_04_ibench.beelink.pg151.4u.1tyes.1g/all.html), [Versions 11 to 15](reports/23_05_04_ibench.beelink.pgall.4u.1tyes.1g/all.html)
-* Compiler options, insert benchmark, big server (c2-standard-60, 30 cores, hyperthreads disabled, 240G RAM)
+* Compiler options, insert benchmark, big server (c2-standard-60, 30 cores, hyperthreads disabled, 240G RAM), May 2023
   * Cached by database
     * MyRocks
       * 20 threads & 20 tables - [5.6.35](reports/23_04_17_ibench.c2.400m.1tno.cached/report.rx56.etldirs/all.html), [8.0.28](reports/23_04_17_ibench.c2.400m.1tno.cached/report.rx80.etldirs/all.html), [5.6 vs 8.0](reports/23_04_17_ibench.c2.400m.1tno.cached/report.rx.v68.etldirs/all.html)
