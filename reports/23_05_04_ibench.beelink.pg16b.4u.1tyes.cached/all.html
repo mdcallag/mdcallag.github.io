@@ -101,6 +101,22 @@ Red backgrounds are not used when the minimum value is within 80&#37 of the max 
 <tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
 <tr><td>20m.pg152_o3_native_lto.cx7</td> <td id="cmax">253164</td><td id="cmax">257692</td><td id="cmax">105263</td><td id="cgray">47118</td><td id="cgray">46367</td><td id="cgray">45650</td><tr><td>20m.pg16prebeta.cx7</td> <td>246914</td><td>251250</td><td>104167</td><td id="cgray">47198</td><td id="cgray">46245</td><td id="cgray">45621</td></table>
 <p>
+This table has relative throughput, throughput for the DBMS relative to the DBMS in the first line,
+using the absolute throughput from the previous table.
+</p>
+<style type="text/css">
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>20m.pg152_o3_native_lto.cx7</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><tr><td>20m.pg16prebeta.cx7</td> <td>0.98</td><td>0.98</td><td>0.99</td><td>1.00</td><td>1.00</td><td>1.00</td></table>
+<p>
 This lists the average rate of inserts/s for the tests that do inserts concurrent with queries.
 For such tests the query rate is listed in the table above.
 The read+write tests are setup so that the insert rate should match the target rate every second.
