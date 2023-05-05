@@ -1,0 +1,145 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:101569]
+set terminal dumb 200, 50
+set output 'pg16prebeta.cx7_1g.l.i0.ips.txt'
+plot "20m.pg16prebeta.cx7_1g/l.i0/gpi.ips" using 1:2 title "pg16prebeta.cx7_1g", 
+set terminal png
+set output 'pg16prebeta.cx7_1g.l.i0.ips.png'
+plot "20m.pg16prebeta.cx7_1g/l.i0/gpi.ips" using 1:2 title "pg16prebeta.cx7_1g", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:12450]
+set terminal dumb 200, 50
+set output 'pg16prebeta.cx7_1g.l.i0.imax.txt'
+plot "20m.pg16prebeta.cx7_1g/l.i0/gpi.imax" using 1:2 title "pg16prebeta.cx7_1g", 
+set terminal png
+set output 'pg16prebeta.cx7_1g.l.i0.imax.png'
+plot "20m.pg16prebeta.cx7_1g/l.i0/gpi.imax" using 1:2 title "pg16prebeta.cx7_1g", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:26142]
+set terminal dumb 200, 50
+set output 'pg16prebeta.cx7_1g.l.i1.ips.txt'
+plot "20m.pg16prebeta.cx7_1g/l.i1/gpi.ips" using 1:2 title "pg16prebeta.cx7_1g", 
+set terminal png
+set output 'pg16prebeta.cx7_1g.l.i1.ips.png'
+plot "20m.pg16prebeta.cx7_1g/l.i1/gpi.ips" using 1:2 title "pg16prebeta.cx7_1g", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:65070]
+set terminal dumb 200, 50
+set output 'pg16prebeta.cx7_1g.l.i1.imax.txt'
+plot "20m.pg16prebeta.cx7_1g/l.i1/gpi.imax" using 1:2 title "pg16prebeta.cx7_1g", 
+set terminal png
+set output 'pg16prebeta.cx7_1g.l.i1.imax.png'
+plot "20m.pg16prebeta.cx7_1g/l.i1/gpi.imax" using 1:2 title "pg16prebeta.cx7_1g", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L1.ips100"
+set yrange [0:238]
+set terminal dumb 200, 50
+set output 'pg16prebeta.cx7_1g.q.L1.ips100.ips.txt'
+plot "20m.pg16prebeta.cx7_1g/q.L1.ips100/gpi.ips" using 1:2 title "pg16prebeta.cx7_1g", 
+set terminal png
+set output 'pg16prebeta.cx7_1g.q.L1.ips100.ips.png'
+plot "20m.pg16prebeta.cx7_1g/q.L1.ips100/gpi.ips" using 1:2 title "pg16prebeta.cx7_1g", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L1.ips100"
+set yrange [0:6544]
+set terminal dumb 200, 50
+set output 'pg16prebeta.cx7_1g.q.L1.ips100.imax.txt'
+plot "20m.pg16prebeta.cx7_1g/q.L1.ips100/gpi.imax" using 1:2 title "pg16prebeta.cx7_1g", 
+set terminal png
+set output 'pg16prebeta.cx7_1g.q.L1.ips100.imax.png'
+plot "20m.pg16prebeta.cx7_1g/q.L1.ips100/gpi.imax" using 1:2 title "pg16prebeta.cx7_1g", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L1.ips100"
+set yrange [0:14101]
+set terminal dumb 200, 50
+set output 'pg16prebeta.cx7_1g.q.L1.ips100.qps.txt'
+plot "20m.pg16prebeta.cx7_1g/q.L1.ips100/gpi.qps" using 1:2 title "pg16prebeta.cx7_1g", 
+set terminal png
+set output 'pg16prebeta.cx7_1g.q.L1.ips100.qps.png'
+plot "20m.pg16prebeta.cx7_1g/q.L1.ips100/gpi.qps" using 1:2 title "pg16prebeta.cx7_1g", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L1.ips100"
+set yrange [0:8503]
+set terminal dumb 200, 50
+set output 'pg16prebeta.cx7_1g.q.L1.ips100.qmax.txt'
+plot "20m.pg16prebeta.cx7_1g/q.L1.ips100/gpi.qmax" using 1:2 title "pg16prebeta.cx7_1g", 
+set terminal png
+set output 'pg16prebeta.cx7_1g.q.L1.ips100.qmax.png'
+plot "20m.pg16prebeta.cx7_1g/q.L1.ips100/gpi.qmax" using 1:2 title "pg16prebeta.cx7_1g", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L2.ips500"
+set yrange [0:600]
+set terminal dumb 200, 50
+set output 'pg16prebeta.cx7_1g.q.L2.ips500.ips.txt'
+plot "20m.pg16prebeta.cx7_1g/q.L2.ips500/gpi.ips" using 1:2 title "pg16prebeta.cx7_1g", 
+set terminal png
+set output 'pg16prebeta.cx7_1g.q.L2.ips500.ips.png'
+plot "20m.pg16prebeta.cx7_1g/q.L2.ips500/gpi.ips" using 1:2 title "pg16prebeta.cx7_1g", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L2.ips500"
+set yrange [0:18951]
+set terminal dumb 200, 50
+set output 'pg16prebeta.cx7_1g.q.L2.ips500.imax.txt'
+plot "20m.pg16prebeta.cx7_1g/q.L2.ips500/gpi.imax" using 1:2 title "pg16prebeta.cx7_1g", 
+set terminal png
+set output 'pg16prebeta.cx7_1g.q.L2.ips500.imax.png'
+plot "20m.pg16prebeta.cx7_1g/q.L2.ips500/gpi.imax" using 1:2 title "pg16prebeta.cx7_1g", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L2.ips500"
+set yrange [0:13790]
+set terminal dumb 200, 50
+set output 'pg16prebeta.cx7_1g.q.L2.ips500.qps.txt'
+plot "20m.pg16prebeta.cx7_1g/q.L2.ips500/gpi.qps" using 1:2 title "pg16prebeta.cx7_1g", 
+set terminal png
+set output 'pg16prebeta.cx7_1g.q.L2.ips500.qps.png'
+plot "20m.pg16prebeta.cx7_1g/q.L2.ips500/gpi.qps" using 1:2 title "pg16prebeta.cx7_1g", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L2.ips500"
+set yrange [0:19509]
+set terminal dumb 200, 50
+set output 'pg16prebeta.cx7_1g.q.L2.ips500.qmax.txt'
+plot "20m.pg16prebeta.cx7_1g/q.L2.ips500/gpi.qmax" using 1:2 title "pg16prebeta.cx7_1g", 
+set terminal png
+set output 'pg16prebeta.cx7_1g.q.L2.ips500.qmax.png'
+plot "20m.pg16prebeta.cx7_1g/q.L2.ips500/gpi.qmax" using 1:2 title "pg16prebeta.cx7_1g", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L3.ips1000"
+set yrange [0:1612]
+set terminal dumb 200, 50
+set output 'pg16prebeta.cx7_1g.q.L3.ips1000.ips.txt'
+plot "20m.pg16prebeta.cx7_1g/q.L3.ips1000/gpi.ips" using 1:2 title "pg16prebeta.cx7_1g", 
+set terminal png
+set output 'pg16prebeta.cx7_1g.q.L3.ips1000.ips.png'
+plot "20m.pg16prebeta.cx7_1g/q.L3.ips1000/gpi.ips" using 1:2 title "pg16prebeta.cx7_1g", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L3.ips1000"
+set yrange [0:31953]
+set terminal dumb 200, 50
+set output 'pg16prebeta.cx7_1g.q.L3.ips1000.imax.txt'
+plot "20m.pg16prebeta.cx7_1g/q.L3.ips1000/gpi.imax" using 1:2 title "pg16prebeta.cx7_1g", 
+set terminal png
+set output 'pg16prebeta.cx7_1g.q.L3.ips1000.imax.png'
+plot "20m.pg16prebeta.cx7_1g/q.L3.ips1000/gpi.imax" using 1:2 title "pg16prebeta.cx7_1g", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L3.ips1000"
+set yrange [0:13885]
+set terminal dumb 200, 50
+set output 'pg16prebeta.cx7_1g.q.L3.ips1000.qps.txt'
+plot "20m.pg16prebeta.cx7_1g/q.L3.ips1000/gpi.qps" using 1:2 title "pg16prebeta.cx7_1g", 
+set terminal png
+set output 'pg16prebeta.cx7_1g.q.L3.ips1000.qps.png'
+plot "20m.pg16prebeta.cx7_1g/q.L3.ips1000/gpi.qps" using 1:2 title "pg16prebeta.cx7_1g", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L3.ips1000"
+set yrange [0:20284]
+set terminal dumb 200, 50
+set output 'pg16prebeta.cx7_1g.q.L3.ips1000.qmax.txt'
+plot "20m.pg16prebeta.cx7_1g/q.L3.ips1000/gpi.qmax" using 1:2 title "pg16prebeta.cx7_1g", 
+set terminal png
+set output 'pg16prebeta.cx7_1g.q.L3.ips1000.qmax.png'
+plot "20m.pg16prebeta.cx7_1g/q.L3.ips1000/gpi.qmax" using 1:2 title "pg16prebeta.cx7_1g", 

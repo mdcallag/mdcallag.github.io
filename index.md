@@ -14,7 +14,7 @@ Benchmark reports for 2023:
         * cached by Postgres: [1 user, 1 table](reports/23_05_04_ibench.beelink.pg16b.1u.1tno.cached/all.html), [4 users, 4 tables](reports/23_05_04_ibench.beelink.pg16b.4u.1tno.cached/all.html), [4 users, 1 table](reports/23_05_04_ibench.beelink.pg16b.4u.1tyes.cached/all.html)
         * cached by OS page cache: pending
       * sysbench
-        * cached by Postgres: pending
+        * cached by Postgres: [1 user, 1 table](reports/23_05_04_ibench.beelink.pg16b.1u.1tno.1g/all.html), [4 users, 4 tables](reports/23_05_04_ibench.beelink.pg16b.4u.1tno.1g/all.html), [4 users, 1 table](reports/23_05_04_ibench.beelink.pg16b.4u.1tyes.1g/all.html)
         * cached by OS page cache: pending
 * Compiler options, insert benchmark, small server (Beelink, 8 AMD cores, 16G RAM, NVMe SSD), May 2023
   * Cached by database
