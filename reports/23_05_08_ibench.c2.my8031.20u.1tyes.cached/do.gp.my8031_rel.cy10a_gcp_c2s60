@@ -1,0 +1,145 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:148868]
+set terminal dumb 200, 50
+set output 'my8031_rel.cy10a_gcp_c2s60.l.i0.ips.txt'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/l.i0/gpi.ips" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set terminal png
+set output 'my8031_rel.cy10a_gcp_c2s60.l.i0.ips.png'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/l.i0/gpi.ips" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:293674]
+set terminal dumb 200, 50
+set output 'my8031_rel.cy10a_gcp_c2s60.l.i0.imax.txt'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/l.i0/gpi.imax" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set terminal png
+set output 'my8031_rel.cy10a_gcp_c2s60.l.i0.imax.png'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/l.i0/gpi.imax" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:12596]
+set terminal dumb 200, 50
+set output 'my8031_rel.cy10a_gcp_c2s60.l.i1.ips.txt'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/l.i1/gpi.ips" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set terminal png
+set output 'my8031_rel.cy10a_gcp_c2s60.l.i1.ips.png'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/l.i1/gpi.ips" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:336990]
+set terminal dumb 200, 50
+set output 'my8031_rel.cy10a_gcp_c2s60.l.i1.imax.txt'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/l.i1/gpi.imax" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set terminal png
+set output 'my8031_rel.cy10a_gcp_c2s60.l.i1.imax.png'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/l.i1/gpi.imax" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L1.ips100"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L1.ips100.ips.txt'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L1.ips100/gpi.ips" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set terminal png
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L1.ips100.ips.png'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L1.ips100/gpi.ips" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L1.ips100"
+set yrange [0:16327]
+set terminal dumb 200, 50
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L1.ips100.imax.txt'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L1.ips100/gpi.imax" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set terminal png
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L1.ips100.imax.png'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L1.ips100/gpi.imax" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L1.ips100"
+set yrange [0:6924]
+set terminal dumb 200, 50
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L1.ips100.qps.txt'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L1.ips100/gpi.qps" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set terminal png
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L1.ips100.qps.png'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L1.ips100/gpi.qps" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L1.ips100"
+set yrange [0:22002]
+set terminal dumb 200, 50
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L1.ips100.qmax.txt'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L1.ips100/gpi.qmax" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set terminal png
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L1.ips100.qmax.png'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L1.ips100/gpi.qmax" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L2.ips500"
+set yrange [0:900]
+set terminal dumb 200, 50
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L2.ips500.ips.txt'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L2.ips500/gpi.ips" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set terminal png
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L2.ips500.ips.png'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L2.ips500/gpi.ips" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L2.ips500"
+set yrange [0:54830]
+set terminal dumb 200, 50
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L2.ips500.imax.txt'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L2.ips500/gpi.imax" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set terminal png
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L2.ips500.imax.png'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L2.ips500/gpi.imax" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L2.ips500"
+set yrange [0:8438]
+set terminal dumb 200, 50
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L2.ips500.qps.txt'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L2.ips500/gpi.qps" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set terminal png
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L2.ips500.qps.png'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L2.ips500/gpi.qps" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L2.ips500"
+set yrange [0:13497]
+set terminal dumb 200, 50
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L2.ips500.qmax.txt'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L2.ips500/gpi.qmax" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set terminal png
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L2.ips500.qmax.png'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L2.ips500/gpi.qmax" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L3.ips1000"
+set yrange [0:1738]
+set terminal dumb 200, 50
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L3.ips1000.ips.txt'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L3.ips1000/gpi.ips" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set terminal png
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L3.ips1000.ips.png'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L3.ips1000/gpi.ips" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L3.ips1000"
+set yrange [0:59400]
+set terminal dumb 200, 50
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L3.ips1000.imax.txt'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L3.ips1000/gpi.imax" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set terminal png
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L3.ips1000.imax.png'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L3.ips1000/gpi.imax" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L3.ips1000"
+set yrange [0:8485]
+set terminal dumb 200, 50
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L3.ips1000.qps.txt'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L3.ips1000/gpi.qps" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set terminal png
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L3.ips1000.qps.png'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L3.ips1000/gpi.qps" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L3.ips1000"
+set yrange [0:25770]
+set terminal dumb 200, 50
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L3.ips1000.qmax.txt'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L3.ips1000/gpi.qmax" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 
+set terminal png
+set output 'my8031_rel.cy10a_gcp_c2s60.q.L3.ips1000.qmax.png'
+plot "400m.my8031_rel.cy10a_gcp_c2s60/q.L3.ips1000/gpi.qmax" using 1:2 title "my8031_rel.cy10a_gcp_c2s60", 

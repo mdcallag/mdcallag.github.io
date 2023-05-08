@@ -1,0 +1,12 @@
+<style type="text/css">
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>400m.my5651_rel.cy10a4g_gcp_c2s60</td> <td id="cmax">293902</td><td>172012</td><td>29976</td><td id="cmin">7736</td><td id="cmin">4883</td><td id="cgray">5259</td><tr><td>400m.my5740_rel_lto.cy10a4g_gcp_c2s60</td> <td id="cmax">290276</td><td id="cmax">209367</td><td id="cmax">36952</td><td id="cgray">23306</td><td id="cgray">8415</td><td id="cgray">4544</td><tr><td>400m.my8022_rel_lto.cy10a4g_gcp_c2s60</td> <td>283688</td><td>192263</td><td id="cmin">27069</td><td id="cgray">27495</td><td id="cgray">7242</td><td id="cmin">3673</td><tr><td>400m.my8028_rel_lto.cy10a4g_gcp_c2s60</td> <td id="cmax">293470</td><td>163774</td><td id="cmin">25541</td><td id="cgray">27342</td><td id="cgray">6440</td><td id="cgray">4613</td><tr><td>400m.my8031_rel_lto.cy10a4g_gcp_c2s60</td> <td>271555</td><td id="cmin">142435</td><td id="cmin">25374</td><td id="cgray">27646</td><td id="cgray">6518</td><td id="cgray">4662</td><tr><td>400m.my8032_rel_lto.cy10a4g_gcp_c2s60</td> <td>267917</td><td id="cmin">143559</td><td id="cmin">24938</td><td id="cgray">26507</td><td id="cgray">6407</td><td id="cgray">4568</td></table>
