@@ -1,0 +1,20 @@
+<style type="text/css">
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>my8031_rel_withdbg.cy9_1g</td><td>392</td><td id="cmin">803</td><td id="cmin">676</td></tr>
+<tr><td>my8031_rel_o2.cy9_1g</td><td>391</td><td id="cmin">800</td><td id="cmin">677</td></tr>
+<tr><td>my8031_rel_native.cy9_1g</td><td>389</td><td id="cmin">789</td><td id="cmin">681</td></tr>
+<tr><td>my8031_rel.cy9_1g</td><td>390</td><td id="cmin">805</td><td id="cmin">689</td></tr>
+<tr><td>my8031_rel_o2_lto.cy9_1g</td><td>389</td><td id="cmin">786</td><td id="cmin">677</td></tr>
+<tr><td>my8031_rel_native_lto.cy9_1g</td><td>394</td><td id="cmin">822</td><td id="cmin">681</td></tr>
+<tr><td>my8031_rel_lto.cy9_1g</td><td>390</td><td id="cmin">802</td><td id="cmin">680</td></tr>
+<tr><td>target</td><td id=cgray>400</td><td id=cgray>2000</td><td id=cgray>4000</td></tr>
+</table>
