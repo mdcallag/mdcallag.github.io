@@ -10,8 +10,8 @@ Benchmark reports for 2023
 * Insert benchmark with deletes (July 2023)
   * MyRocks
     * Small server (Beelink, 8-cores)
-      * 1 client: [cached by RocksDB](reports/23_05_29_ibench.bee.rx68.1u.1tno.cached/all.html) and [cached OS page cache](reports/23_05_29_ibench.bee.rx68.1u.1tno.1g/all.html)
-      * 4 client: [cached by RocksDB](reports/23_05_29_ibench.bee.rx68.4u.1tno.cached/all.html) and [cached OS page cache](reports/23_05_29_ibench.bee.rx68.4u.1tno.1g/all.html)
+      * 1 client: cached [by RocksDB](reports/23_05_29_ibench.bee.rx68.1u.1tno.cached/all.html) and [by OS page cache](reports/23_05_29_ibench.bee.rx68.1u.1tno.1g/all.html)
+      * 4 client: cached [by RocksDB](reports/23_05_29_ibench.bee.rx68.4u.1tno.cached/all.html) and [by OS page cache](reports/23_05_29_ibench.bee.rx68.4u.1tno.1g/all.html)
     * Big server (c2-standard-30, 15-cores)
   * InnoDB
   * Postgres
