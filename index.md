@@ -6,8 +6,8 @@ Pinned:
 Posts for 2020:
 * [Explaining explain to understand index usage in MySQL](posts_2020/20_08_11_explain_explain.md)
 
-Benchmark reports for 2023:
-* Insert benchmark with deletes
+Benchmark reports for 2023
+* Insert benchmark with deletes (July 2023)
   * MyRocks
     * Small server (Beelink, 8-cores)
       * 1 client: [cached by RocksDB](reports/23_05_29_ibench.bee.rx68.1u.1tno.cached/all.html) and [cached OS page cache](reports/23_05_29_ibench.bee.rx68.1u.1tno.1g/all.html)
