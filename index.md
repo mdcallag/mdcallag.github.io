@@ -22,6 +22,9 @@ Benchmark reports for 2023
   * Postgres 15.3, c2-standard-30 server, more tuning, with delete_per_insert
     * [Cached by OS, 8 users, 8 tables](reports/23_05_31_ibench_c2.pg153.8u.1tno.4g.tune/all.html)
     * [Cached by Postgres, 8 users, 8 tables](reports/23_05_31_ibench_c2.pg153.8u.1tno.cached.tune/all.html)
+  * Postgres 15.2, Beelink (8-cores, 16G RAM)
+    * Cached by Postgres: [1 user](reports/23_06_02_ibench.bee.pg152.1u.1tno.cached.tune/all.html) and [4 users](reports/23_06_02_ibench.bee.pg152.1u.1tno.1g.tune/all.html)
+    * Cached by OS: [1 user](reports/23_06_02_ibench.bee.pg152.4u.1tno.1g.tune/all.html) and [4 users](reports/23_06_02_ibench.bee.pg152.4u.1tno.cached.tune/all.html)
 * Postgres 16
   * at git sha 1ab763fc2
     * Beelink (server with 8 cores, 16G RAM)

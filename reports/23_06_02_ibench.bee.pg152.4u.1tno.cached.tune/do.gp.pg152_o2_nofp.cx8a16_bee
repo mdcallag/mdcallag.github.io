@@ -1,0 +1,235 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:87500]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.l.i0.ips.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/l.i0/gpi.ips" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.l.i0.ips.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/l.i0/gpi.ips" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:12591]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.l.i0.imax.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/l.i0/gpi.imax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.l.i0.imax.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/l.i0/gpi.imax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.l.i0.dps.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/l.i0/gpi.dps" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.l.i0.dps.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/l.i0/gpi.dps" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.l.i0.dmax.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/l.i0/gpi.dmax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.l.i0.dmax.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/l.i0/gpi.dmax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:39076]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.l.i1.ips.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/l.i1/gpi.ips" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.l.i1.ips.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/l.i1/gpi.ips" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:142489]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.l.i1.imax.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/l.i1/gpi.imax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.l.i1.imax.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/l.i1/gpi.imax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i1"
+set yrange [0:39136]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.l.i1.dps.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/l.i1/gpi.dps" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.l.i1.dps.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/l.i1/gpi.dps" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i1"
+set yrange [0:158356]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.l.i1.dmax.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/l.i1/gpi.dmax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.l.i1.dmax.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/l.i1/gpi.dmax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L1.ips100"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L1.ips100.ips.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L1.ips100/gpi.ips" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L1.ips100.ips.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L1.ips100/gpi.ips" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L1.ips100"
+set yrange [0:11533]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L1.ips100.imax.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L1.ips100/gpi.imax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L1.ips100.imax.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L1.ips100/gpi.imax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L1.ips100"
+set yrange [0:240]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L1.ips100.dps.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L1.ips100/gpi.dps" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L1.ips100.dps.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L1.ips100/gpi.dps" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L1.ips100"
+set yrange [0:8776]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L1.ips100.dmax.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L1.ips100/gpi.dmax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L1.ips100.dmax.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L1.ips100/gpi.dmax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L1.ips100"
+set yrange [0:13579]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L1.ips100.qps.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L1.ips100/gpi.qps" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L1.ips100.qps.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L1.ips100/gpi.qps" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L1.ips100"
+set yrange [0:5427]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L1.ips100.qmax.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L1.ips100/gpi.qmax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L1.ips100.qmax.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L1.ips100/gpi.qmax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L2.ips500"
+set yrange [0:834]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L2.ips500.ips.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L2.ips500/gpi.ips" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L2.ips500.ips.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L2.ips500/gpi.ips" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L2.ips500"
+set yrange [0:22209]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L2.ips500.imax.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L2.ips500/gpi.imax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L2.ips500.imax.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L2.ips500/gpi.imax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L2.ips500"
+set yrange [0:1072]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L2.ips500.dps.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L2.ips500/gpi.dps" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L2.ips500.dps.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L2.ips500/gpi.dps" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L2.ips500"
+set yrange [0:17660]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L2.ips500.dmax.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L2.ips500/gpi.dmax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L2.ips500.dmax.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L2.ips500/gpi.dmax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L2.ips500"
+set yrange [0:13560]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L2.ips500.qps.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L2.ips500/gpi.qps" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L2.ips500.qps.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L2.ips500/gpi.qps" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L2.ips500"
+set yrange [0:15487]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L2.ips500.qmax.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L2.ips500/gpi.qmax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L2.ips500.qmax.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L2.ips500/gpi.qmax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L3.ips1000"
+set yrange [0:1558]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L3.ips1000.ips.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L3.ips1000/gpi.ips" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L3.ips1000.ips.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L3.ips1000/gpi.ips" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L3.ips1000"
+set yrange [0:21728]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L3.ips1000.imax.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L3.ips1000/gpi.imax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L3.ips1000.imax.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L3.ips1000/gpi.imax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L3.ips1000"
+set yrange [0:1848]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L3.ips1000.dps.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L3.ips1000/gpi.dps" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L3.ips1000.dps.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L3.ips1000/gpi.dps" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L3.ips1000"
+set yrange [0:14794]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L3.ips1000.dmax.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L3.ips1000/gpi.dmax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L3.ips1000.dmax.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L3.ips1000/gpi.dmax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L3.ips1000"
+set yrange [0:13348]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L3.ips1000.qps.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L3.ips1000/gpi.qps" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L3.ips1000.qps.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L3.ips1000/gpi.qps" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L3.ips1000"
+set yrange [0:33283]
+set terminal dumb 200, 50
+set output 'pg152_o2_nofp.cx8a16_bee.q.L3.ips1000.qmax.txt'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L3.ips1000/gpi.qmax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
+set terminal png
+set output 'pg152_o2_nofp.cx8a16_bee.q.L3.ips1000.qmax.png'
+plot "20m.pg152_o2_nofp.cx8a16_bee/q.L3.ips1000/gpi.qmax" using 1:2 title "pg152_o2_nofp.cx8a16_bee", 
