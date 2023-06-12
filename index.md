@@ -15,6 +15,16 @@ Benchmark reports for 2023
     * Big server (c2-standard-30, 15-cores)
   * InnoDB
   * Postgres
+* InnoDB config tuning for the insert benchmark
+  * c2-standard-30
+    * MySQL 5.6.51: [cached by InnoDB](reports/23_06_12_ibench.c2.inno.my56.8u.1tno.cached/all.html), [cached by OS](reports/23_06_12_ibench.c2.inno.my56.8u.1tno.4g/all.html), [IO-bound](reports/23_06_12_ibench.c2.inno.my56.8u.1tno.io/all.html)
+    * MySQL 5.7.40:
+[cached by InnoDB](reports/23_06_12_ibench.c2.inno.my57.8u.1tno.cached/all.html), [cached by OS](reports/23_06_12_ibench.c2.inno.my57.8u.1tno.4g/all.html), [IO-bound](reports/23_06_12_ibench.c2.inno.my57.8u.1tno.io/all.html)
+    * MySQL 8.0.33: [cached by InnoDB](reports/23_06_12_ibench.c2.inno.my80.8u.1tno.cached/all.html), [cached by OS](reports/23_06_12_ibench.c2.inno.my80.8u.1tno.4g/all.html), [IO-bound](reports/23_06_12_ibench.c2.inno.my80.8u.1tno.io/all.html)
+  * Beelink
+    * MySQL 5.6.51
+    * MySQL 5.7.40
+    * MySQL 8.0.33
 * Postgres config tuning for the insert benchmark
   * Postgres 15.3, c2-standard-30 server
     * [Cached by Postgres, 8 users, 8 tables](reports/23_05_23_ibench.c2s30.pg153.8u.1tno.cached/all.html)
