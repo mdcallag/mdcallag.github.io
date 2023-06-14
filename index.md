@@ -35,7 +35,9 @@ Benchmark reports for 2023
   * Postgres 15.3, c2-standard-30 server, more tuning, with delete_per_insert, adds a18 config
     * [Cached by OS, 8 users, 8 tables](reports/23_06_13_ibench.c2.pg153.8u.1tno.4g.tune/all.html)
     * [Cached by Postgres, 8 users, 8 tables](reports/23_06_13_ibench.c2.pg153.8u.1tno.cached.tune/all.html)
-  * Postgres 15.3, c2-standard-30 server, IO-bound: [All configs](reports/23_06_14_ibench.c2.pg153.8u.1tno.io.tune.v2/all.html), [Some configs](reports/23_06_14_ibench.c2.pg153.8u.1tno.io.tune.v3/all.html)
+  * Postgres 15.3, c2-standard-30 server: IO-bound, with delete per insert, configs up to a18
+    * [All configs](reports/23_06_14_ibench.c2.pg153.8u.1tno.io.tune.v2/all.html)
+    * [Some configs](reports/23_06_14_ibench.c2.pg153.8u.1tno.io.tune.v3/all.html)
   * Postgres 15.2, Beelink (8-cores, 16G RAM)
     * Cached by Postgres: [1 user](reports/23_06_13_ibench.bee.pg152.1u.1tno.cached/all.html) and [4 users](reports/23_06_13_ibench.bee.pg152.4u.1tno.cached/all.html)
     * Cached by OS: [1 user](reports/23_06_13_ibench.bee.pg152.1u.1tno.1g/all.html) and [4 users](reports/23_06_13_ibench.bee.pg152.4u.1tno.1g/all.html)
