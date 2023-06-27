@@ -13,7 +13,7 @@ Benchmark reports for 2023
       * 1 client: cached [by RocksDB](reports/23_05_29_ibench.bee.rx68.1u.1tno.cached/all.html) and [by OS page cache](reports/23_05_29_ibench.bee.rx68.1u.1tno.1g/all.html), [IO-bound](reports/23_06_12_ibench.bee.rx68.1u.1tno.io/all.html)
       * 4 clients: cached [by RocksDB](reports/23_05_29_ibench.bee.rx68.4u.1tno.cached/all.html) and [by OS page cache](reports/23_05_29_ibench.bee.rx68.4u.1tno.1g/all.html), [IO-bound](reports/23_06_12_ibench.bee.rx68.4u.1tno.io/all.html)
     * Medium server (c2-standard-30, 15-cores)
-      * With delete-per-insert: [Cached by MyRocks](reports/23_06_27_ibench.c2.rx.8u.1tno.dpi1.4g/all.html), [Cached by OS](reports/23_06_27_ibench.c2.rx.8u.1tno.dpi1.cached/all.html), [IO-bound](reports/23_06_27_ibench.c2.rx.8u.1tno.dpi1.io/all.html)
+      * With delete-per-insert: [Cached by MyRocks](reports/23_06_27_ibench.c2.rx.8u.1tno.dpi1.cached/all.html), [Cached by OS](reports/23_06_27_ibench.c2.rx.8u.1tno.dpi1.4g/all.html), [IO-bound](reports/23_06_27_ibench.c2.rx.8u.1tno.dpi1.io/all.html)
   * InnoDB
   * Postgres
 * InnoDB config tuning for the insert benchmark
