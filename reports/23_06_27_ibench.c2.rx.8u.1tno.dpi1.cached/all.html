@@ -89,6 +89,8 @@ A gray background is used for values that can be ignored because the DBMS did no
 Red backgrounds are not used when the minimum value is within 80&#37 of the max value.
 </p>
 <style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
   table td#cmin { background-color:#FF9A9A }
   table td#cmax { background-color:#81FFA6 }
   table td#csla { background-color:#FFC172 }
@@ -99,12 +101,15 @@ Red backgrounds are not used when the minimum value is within 80&#37 of the max 
 </style>
 <table border="1" cellpadding="8" >
 <tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
-<tr><td>160m.fbmy5635_rel.cy9c_gcp_c2s30_old</td> <td id="cmax">606061</td><td id="cmax">812690</td><td>96223</td><td id="cgray">38202</td><td id="cgray">37164</td><td id="cgray">35696</td><tr><td>160m.fbmy5635_rel.cy9c_gcp_c2s30_new</td> <td id="cmax">590406</td><td>784804</td><td>95488</td><td id="cgray">37743</td><td id="cgray">36443</td><td id="cgray">34891</td><tr><td>160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_old</td> <td>524590</td><td>780976</td><td>96595</td><td id="cgray">45026</td><td id="cgray">43489</td><td id="cgray">41868</td><tr><td>160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_new</td> <td>538720</td><td>804523</td><td id="cmax">98595</td><td id="cgray">46193</td><td id="cgray">44950</td><td id="cgray">43168</td></table>
+<tr><td>fbmy5635_rel.cy9c_gcp_c2s30_old</td> <td id="cmax">606061</td><td id="cmax">812690</td><td>96223</td><td>38202</td><td>37164</td><td>35696</td><tr><td>fbmy5635_rel.cy9c_gcp_c2s30_new</td> <td id="cmax">590406</td><td>784804</td><td>95488</td><td>37743</td><td>36443</td><td>34891</td><tr><td>fbmy8028_rel_lto.cy9c_gcp_c2s30_old</td> <td>524590</td><td>780976</td><td>96595</td><td id="cmax">45026</td><td id="cmax">43489</td><td id="cmax">41868</td><tr><td>fbmy8028_rel_lto.cy9c_gcp_c2s30_new</td> <td>538720</td><td>804523</td><td id="cmax">98595</td><td id="cmax">46193</td><td id="cmax">44950</td><td id="cmax">43168</td></table>
 <p>
 This table has relative throughput, throughput for the DBMS relative to the DBMS in the first line,
 using the absolute throughput from the previous table.
+Values less than 0.95 have a yellow background. Values greater than 1.05 have a blue background.
 </p>
 <style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
   table td#cmin { background-color:#FF9A9A }
   table td#cmax { background-color:#81FFA6 }
   table td#csla { background-color:#FFC172 }
@@ -115,7 +120,7 @@ using the absolute throughput from the previous table.
 </style>
 <table border="1" cellpadding="8" >
 <tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
-<tr><td>160m.fbmy5635_rel.cy9c_gcp_c2s30_old</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><tr><td>160m.fbmy5635_rel.cy9c_gcp_c2s30_new</td> <td>0.97</td><td>0.97</td><td>0.99</td><td>0.99</td><td>0.98</td><td>0.98</td><tr><td>160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_old</td> <td>0.87</td><td>0.96</td><td>1.00</td><td>1.18</td><td>1.17</td><td>1.17</td><tr><td>160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_new</td> <td>0.89</td><td>0.99</td><td>1.02</td><td>1.21</td><td>1.21</td><td>1.21</td></table>
+<tr><td>fbmy5635_rel.cy9c_gcp_c2s30_old</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><tr><td>fbmy5635_rel.cy9c_gcp_c2s30_new</td> <td>0.97</td><td>0.97</td><td>0.99</td><td>0.99</td><td>0.98</td><td>0.98</td><tr><td>fbmy8028_rel_lto.cy9c_gcp_c2s30_old</td> <td id="clo">0.87</td><td>0.96</td><td>1.00</td><td id="chi">1.18</td><td id="chi">1.17</td><td id="chi">1.17</td><tr><td>fbmy8028_rel_lto.cy9c_gcp_c2s30_new</td> <td id="clo">0.89</td><td>0.99</td><td>1.02</td><td id="chi">1.21</td><td id="chi">1.21</td><td id="chi">1.21</td></table>
 <p>
 This lists the average rate of inserts/s for the tests that do inserts concurrent with queries.
 For such tests the query rate is listed in the table above.
@@ -123,6 +128,8 @@ The read+write tests are setup so that the insert rate should match the target r
 Cells that are not at least 95&#37; of the target have a red background to indicate a failure to satisfy the target.
 </p>
 <style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
   table td#cmin { background-color:#FF9A9A }
   table td#cmax { background-color:#81FFA6 }
   table td#csla { background-color:#FFC172 }
@@ -185,8 +192,8 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 </p>
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
-606061	0	0	0.0	520.9	147.6	0.000	0.000	0.001	0.249	81739	70.9	0.135	18	5.2	6.6	NA	0.296	80207	55739	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
-590406	0	0	0.0	499.4	158.3	0.000	0.000	0.001	0.275	80086	70.1	0.136	18	5.4	6.9	NA	0.408	77117	54241	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
+606061	0	0	0.0	520.9	147.6	0.000	0.000	0.001	0.249	81739	70.9	0.135	18	5.2	6.6	1.4	0.296	80207	55739	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
+590406	0	0	0.0	499.4	158.3	0.000	0.000	0.001	0.275	80086	70.1	0.136	18	5.4	6.9	1.5	0.408	77117	54241	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
 524590	0	0	0.0	474.9	130.4	0.000	0.000	0.001	0.254	67660	70.5	0.129	20	5.2	6.9	1.8	0.261	67927	52261	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_old
 538720	0	0	0.0	454.5	141.1	0.000	0.000	0.001	0.268	69666	69.0	0.129	19	5.2	6.9	1.8	0.257	70825	47749	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_new
 </pre>
@@ -201,8 +208,8 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 </p>
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
-812690	0	1	0.1	302.8	106.7	0.000	0.000	0.000	0.134	1052	50.0	0.001	9	10.8	12.3	NA	0.002	NA	NA	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
-784804	0	1	0.1	302.3	105.0	0.000	0.000	0.000	0.137	1224	50.1	0.002	10	10.8	12.3	NA	0.036	NA	NA	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
+812690	0	1	0.1	302.8	106.7	0.000	0.000	0.000	0.134	1052	50.0	0.001	9	10.8	12.3	9.7	0.002	NA	NA	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
+784804	0	1	0.1	302.3	105.0	0.000	0.000	0.000	0.137	1224	50.1	0.002	10	10.8	12.3	10.2	0.036	NA	NA	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
 780976	0	1	0.1	282.0	106.6	0.000	0.000	0.000	0.140	1465	49.9	0.002	10	10.8	12.5	12.0	0.002	NA	NA	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_old
 804523	0	1	0.1	291.3	107.4	0.000	0.000	0.000	0.137	1508	49.7	0.002	9	10.8	12.5	12.0	0.002	NA	NA	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_new
 </pre>
@@ -286,8 +293,8 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 </p>
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
-96223	0	3	1.3	472.7	131.0	0.000	0.014	0.005	1.394	86361	60.9	0.898	95	16.6	17.9	NA	0.379	12236	8889	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
-95488	0	3	1.3	463.0	131.3	0.000	0.014	0.005	1.408	88110	61.6	0.923	97	20.1	21.4	NA	0.656	12186	7442	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
+96223	0	3	1.3	472.7	131.0	0.000	0.014	0.005	1.394	86361	60.9	0.898	95	16.6	17.9	51.9	0.379	12236	8889	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
+95488	0	3	1.3	463.0	131.3	0.000	0.014	0.005	1.408	88110	61.6	0.923	97	20.1	21.4	50.7	0.656	12186	7442	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
 96595	0	3	1.3	495.6	129.4	0.000	0.014	0.005	1.372	73352	64.8	0.759	101	16.8	18.3	50.4	1.171	12586	3996	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_old
 98595	0	3	1.4	501.0	132.1	0.000	0.014	0.005	1.372	75551	64.3	0.766	98	21.6	23.1	50.4	0.628	12936	3947	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_new
 </pre>
@@ -403,8 +410,8 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 </p>
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
-797	38202	0	0.0	13.6	2.1	0.000	0.000	0.017	2.745	147767	53.5	3.868	210	12.0	13.9	NA	0.016	4747	3820	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
-797	37743	0	0.0	13.0	2.1	0.000	0.000	0.016	2.707	146016	53.4	3.869	212	12.0	13.9	NA	0.020	4731	3900	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
+797	38202	0	0.0	13.6	2.1	0.000	0.000	0.017	2.745	147767	53.5	3.868	210	12.0	13.9	70.2	0.016	4747	3820	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
+797	37743	0	0.0	13.0	2.1	0.000	0.000	0.016	2.707	146016	53.4	3.869	212	12.0	13.9	69.7	0.020	4731	3900	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
 797	45026	0	0.0	15.7	2.5	0.000	0.000	0.020	3.272	173448	54.9	3.852	183	11.9	14.0	69.3	0.014	5658	3820	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_old
 797	46193	0	0.0	18.1	2.6	0.000	0.000	0.023	3.303	177824	54.7	3.850	178	11.9	14.1	70.8	0.017	5770	3676	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_new
 </pre>
@@ -520,8 +527,8 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 </p>
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
-3987	37164	0	0.0	28.2	7.3	0.000	0.000	0.007	1.884	145017	55.1	3.902	222	12.2	13.2	NA	0.024	4683	4251	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
-3987	36443	0	0.0	27.9	7.5	0.000	0.000	0.007	1.934	142449	55.2	3.909	227	12.1	13.1	NA	0.021	4571	4140	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
+3987	37164	0	0.0	28.2	7.3	0.000	0.000	0.007	1.884	145017	55.1	3.902	222	12.2	13.2	81.1	0.024	4683	4251	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
+3987	36443	0	0.0	27.9	7.5	0.000	0.000	0.007	1.934	142449	55.2	3.909	227	12.1	13.1	81.0	0.021	4571	4140	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
 3987	43489	0	0.0	29.3	8.1	0.000	0.000	0.007	2.084	168771	56.5	3.881	195	12.0	13.3	81.6	0.012	5466	4987	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_old
 3987	44950	0	0.0	29.1	7.7	0.000	0.000	0.007	1.985	174484	56.0	3.882	187	12.1	13.3	81.5	0.014	5642	5114	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_new
 </pre>
@@ -637,8 +644,8 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 </p>
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
-7973	35696	0	0.0	56.0	15.0	0.000	0.000	0.007	1.931	140059	57.8	3.924	243	12.2	13.4	NA	0.031	4491	4077	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
-7971	34891	0	0.0	55.8	14.5	0.000	0.000	0.007	1.868	137654	57.8	3.945	248	12.3	13.5	NA	0.033	4427	3964	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
+7973	35696	0	0.0	56.0	15.0	0.000	0.000	0.007	1.931	140059	57.8	3.924	243	12.2	13.4	82.2	0.031	4491	4077	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
+7971	34891	0	0.0	55.8	14.5	0.000	0.000	0.007	1.868	137654	57.8	3.945	248	12.3	13.5	82.2	0.033	4427	3964	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
 7973	41868	0	0.0	58.4	15.1	0.000	0.000	0.007	1.937	163515	58.8	3.906	211	12.2	13.6	82.6	0.032	5242	4747	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_old
 7973	43168	0	0.0	58.5	14.9	0.000	0.000	0.007	1.909	168636	58.7	3.907	204	12.3	13.7	82.7	0.031	5402	4891	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_new
 </pre>
@@ -650,8 +657,8 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 </p>
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
-606061	0	0	0.0	520.9	147.6	0.000	0.000	0.001	0.249	81739	70.9	0.135	18	5.2	6.6	NA	0.296	80207	55739	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
-590406	0	0	0.0	499.4	158.3	0.000	0.000	0.001	0.275	80086	70.1	0.136	18	5.4	6.9	NA	0.408	77117	54241	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
+606061	0	0	0.0	520.9	147.6	0.000	0.000	0.001	0.249	81739	70.9	0.135	18	5.2	6.6	1.4	0.296	80207	55739	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
+590406	0	0	0.0	499.4	158.3	0.000	0.000	0.001	0.275	80086	70.1	0.136	18	5.4	6.9	1.5	0.408	77117	54241	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
 524590	0	0	0.0	474.9	130.4	0.000	0.000	0.001	0.254	67660	70.5	0.129	20	5.2	6.9	1.8	0.261	67927	52261	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_old
 538720	0	0	0.0	454.5	141.1	0.000	0.000	0.001	0.268	69666	69.0	0.129	19	5.2	6.9	1.8	0.257	70825	47749	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_new
 </pre>
@@ -663,8 +670,8 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 </p>
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
-812690	0	1	0.1	302.8	106.7	0.000	0.000	0.000	0.134	1052	50.0	0.001	9	10.8	12.3	NA	0.002	NA	NA	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
-784804	0	1	0.1	302.3	105.0	0.000	0.000	0.000	0.137	1224	50.1	0.002	10	10.8	12.3	NA	0.036	NA	NA	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
+812690	0	1	0.1	302.8	106.7	0.000	0.000	0.000	0.134	1052	50.0	0.001	9	10.8	12.3	9.7	0.002	NA	NA	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
+784804	0	1	0.1	302.3	105.0	0.000	0.000	0.000	0.137	1224	50.1	0.002	10	10.8	12.3	10.2	0.036	NA	NA	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
 780976	0	1	0.1	282.0	106.6	0.000	0.000	0.000	0.140	1465	49.9	0.002	10	10.8	12.5	12.0	0.002	NA	NA	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_old
 804523	0	1	0.1	291.3	107.4	0.000	0.000	0.000	0.137	1508	49.7	0.002	9	10.8	12.5	12.0	0.002	NA	NA	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_new
 </pre>
@@ -676,8 +683,8 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 </p>
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
-96223	0	3	1.3	472.7	131.0	0.000	0.014	0.005	1.394	86361	60.9	0.898	95	16.6	17.9	NA	0.379	12236	8889	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
-95488	0	3	1.3	463.0	131.3	0.000	0.014	0.005	1.408	88110	61.6	0.923	97	20.1	21.4	NA	0.656	12186	7442	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
+96223	0	3	1.3	472.7	131.0	0.000	0.014	0.005	1.394	86361	60.9	0.898	95	16.6	17.9	51.9	0.379	12236	8889	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
+95488	0	3	1.3	463.0	131.3	0.000	0.014	0.005	1.408	88110	61.6	0.923	97	20.1	21.4	50.7	0.656	12186	7442	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
 96595	0	3	1.3	495.6	129.4	0.000	0.014	0.005	1.372	73352	64.8	0.759	101	16.8	18.3	50.4	1.171	12586	3996	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_old
 98595	0	3	1.4	501.0	132.1	0.000	0.014	0.005	1.372	75551	64.3	0.766	98	21.6	23.1	50.4	0.628	12936	3947	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_new
 </pre>
@@ -689,8 +696,8 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 </p>
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
-797	38202	0	0.0	13.6	2.1	0.000	0.000	0.017	2.745	147767	53.5	3.868	210	12.0	13.9	NA	0.016	4747	3820	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
-797	37743	0	0.0	13.0	2.1	0.000	0.000	0.016	2.707	146016	53.4	3.869	212	12.0	13.9	NA	0.020	4731	3900	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
+797	38202	0	0.0	13.6	2.1	0.000	0.000	0.017	2.745	147767	53.5	3.868	210	12.0	13.9	70.2	0.016	4747	3820	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
+797	37743	0	0.0	13.0	2.1	0.000	0.000	0.016	2.707	146016	53.4	3.869	212	12.0	13.9	69.7	0.020	4731	3900	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
 797	45026	0	0.0	15.7	2.5	0.000	0.000	0.020	3.272	173448	54.9	3.852	183	11.9	14.0	69.3	0.014	5658	3820	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_old
 797	46193	0	0.0	18.1	2.6	0.000	0.000	0.023	3.303	177824	54.7	3.850	178	11.9	14.1	70.8	0.017	5770	3676	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_new
 </pre>
@@ -702,8 +709,8 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 </p>
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
-3987	37164	0	0.0	28.2	7.3	0.000	0.000	0.007	1.884	145017	55.1	3.902	222	12.2	13.2	NA	0.024	4683	4251	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
-3987	36443	0	0.0	27.9	7.5	0.000	0.000	0.007	1.934	142449	55.2	3.909	227	12.1	13.1	NA	0.021	4571	4140	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
+3987	37164	0	0.0	28.2	7.3	0.000	0.000	0.007	1.884	145017	55.1	3.902	222	12.2	13.2	81.1	0.024	4683	4251	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
+3987	36443	0	0.0	27.9	7.5	0.000	0.000	0.007	1.934	142449	55.2	3.909	227	12.1	13.1	81.0	0.021	4571	4140	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
 3987	43489	0	0.0	29.3	8.1	0.000	0.000	0.007	2.084	168771	56.5	3.881	195	12.0	13.3	81.6	0.012	5466	4987	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_old
 3987	44950	0	0.0	29.1	7.7	0.000	0.000	0.007	1.985	174484	56.0	3.882	187	12.1	13.3	81.5	0.014	5642	5114	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_new
 </pre>
@@ -715,8 +722,8 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 </p>
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
-7973	35696	0	0.0	56.0	15.0	0.000	0.000	0.007	1.931	140059	57.8	3.924	243	12.2	13.4	NA	0.031	4491	4077	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
-7971	34891	0	0.0	55.8	14.5	0.000	0.000	0.007	1.868	137654	57.8	3.945	248	12.3	13.5	NA	0.033	4427	3964	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
+7973	35696	0	0.0	56.0	15.0	0.000	0.000	0.007	1.931	140059	57.8	3.924	243	12.2	13.4	82.2	0.031	4491	4077	160m.fbmy5635_rel.cy9c_gcp_c2s30_old
+7971	34891	0	0.0	55.8	14.5	0.000	0.000	0.007	1.868	137654	57.8	3.945	248	12.3	13.5	82.2	0.033	4427	3964	160m.fbmy5635_rel.cy9c_gcp_c2s30_new
 7973	41868	0	0.0	58.4	15.1	0.000	0.000	0.007	1.937	163515	58.8	3.906	211	12.2	13.6	82.6	0.032	5242	4747	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_old
 7973	43168	0	0.0	58.5	14.9	0.000	0.000	0.007	1.909	168636	58.7	3.907	204	12.3	13.7	82.7	0.031	5402	4891	160m.fbmy8028_rel_lto.cy9c_gcp_c2s30_new
 </pre>
