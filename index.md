@@ -15,6 +15,7 @@ Benchmark reports for 2023
     * Medium server (c2-standard-30, 15-cores)
       * With delete-per-insert: [Cached by MyRocks](reports/23_06_27_ibench.c2.rx.8u.1tno.dpi1.cached/all.html), [Cached by OS](reports/23_06_27_ibench.c2.rx.8u.1tno.dpi1.4g/all.html), [IO-bound](reports/23_06_27_ibench.c2.rx.8u.1tno.dpi1.io/all.html)
   * InnoDB
+    * Write stalls: [big server and cached by OS](reports/23_07_07_ibench.u.in.24u.1tno.dpi1.4g.writestalls/all.html)
   * Postgres
 * InnoDB config tuning for the insert benchmark
   * c2-standard-30

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>q.L2.ips500 per-second graphs</title>
+</head>
+<body>
+<p>
+These have results per 1-second interval for: insert rate (IPS), max insert reponse time, delete rate (DPS), max delete response time, query rate (QPS) and max query response time.
+The results are from 1 client while the test may have N clients where N > 1.
+Deletes might not have been enabled for this benchmark step, in which case those graphs will show zero values.
+The test is run with a rate limit for the number of inserts/s. In some cases the DBMS is unable to sustain that rate. When a DBMS can sustain that rate IPS will be a horizontal line.
+</p>
+<h1 id=\"toc\">Contents</h1>
+<ul>
+<li>my8033_rel_native_lto.cy10_4g_u: <a href="#my8033_rel_native_lto.cy10_4g_u.ips">IPS</a>, <a href="#my8033_rel_native_lto.cy10_4g_u.imax">max insert response time</a>, <a href="#my8033_rel_native_lto.cy10_4g_u.dps">DPS</a>, <a href="#my8033_rel_native_lto.cy10_4g_u.dmax">max delete response time</a>, <a href="#my8033_rel_native_lto.cy10_4g_u.qps">QPS</a> and <a href="#my8033_rel_native_lto.cy10_4g_u.qmax">max query response time</a>
+<li>my8033_rel_native_lto.cy10_4g_ua7: <a href="#my8033_rel_native_lto.cy10_4g_ua7.ips">IPS</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua7.imax">max insert response time</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua7.dps">DPS</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua7.dmax">max delete response time</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua7.qps">QPS</a> and <a href="#my8033_rel_native_lto.cy10_4g_ua7.qmax">max query response time</a>
+<li>my8033_rel_native_lto.cy10_4g_ua8: <a href="#my8033_rel_native_lto.cy10_4g_ua8.ips">IPS</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua8.imax">max insert response time</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua8.dps">DPS</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua8.dmax">max delete response time</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua8.qps">QPS</a> and <a href="#my8033_rel_native_lto.cy10_4g_ua8.qmax">max query response time</a>
+<li>my8033_rel_native_lto.cy10_4g_ua9: <a href="#my8033_rel_native_lto.cy10_4g_ua9.ips">IPS</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua9.imax">max insert response time</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua9.dps">DPS</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua9.dmax">max delete response time</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua9.qps">QPS</a> and <a href="#my8033_rel_native_lto.cy10_4g_ua9.qmax">max query response time</a>
+<li>my8033_rel_native_lto.cy10_4g_ua10: <a href="#my8033_rel_native_lto.cy10_4g_ua10.ips">IPS</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua10.imax">max insert response time</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua10.dps">DPS</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua10.dmax">max delete response time</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua10.qps">QPS</a> and <a href="#my8033_rel_native_lto.cy10_4g_ua10.qmax">max query response time</a>
+<li>my8033_rel_native_lto.cy10_4g_ua17: <a href="#my8033_rel_native_lto.cy10_4g_ua17.ips">IPS</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua17.imax">max insert response time</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua17.dps">DPS</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua17.dmax">max delete response time</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua17.qps">QPS</a> and <a href="#my8033_rel_native_lto.cy10_4g_ua17.qmax">max query response time</a>
+<li>my8033_rel_native_lto.cy10_4g_ua18: <a href="#my8033_rel_native_lto.cy10_4g_ua18.ips">IPS</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua18.imax">max insert response time</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua18.dps">DPS</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua18.dmax">max delete response time</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua18.qps">QPS</a> and <a href="#my8033_rel_native_lto.cy10_4g_ua18.qmax">max query response time</a>
+<li>my8033_rel_native_lto.cy10_4g_ua19: <a href="#my8033_rel_native_lto.cy10_4g_ua19.ips">IPS</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua19.imax">max insert response time</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua19.dps">DPS</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua19.dmax">max delete response time</a>, <a href="#my8033_rel_native_lto.cy10_4g_ua19.qps">QPS</a> and <a href="#my8033_rel_native_lto.cy10_4g_ua19.qmax">max query response time</a>
+</ul>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_u.ips">my8033_rel_native_lto.cy10_4g_u: IPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_u.q.L2.ips500.ips.png">my8033_rel_native_lto.cy10_4g_u</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_u.imax">my8033_rel_native_lto.cy10_4g_u: max insert response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_u.q.L2.ips500.imax.png">my8033_rel_native_lto.cy10_4g_u</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_u.dps">my8033_rel_native_lto.cy10_4g_u: DPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_u.q.L2.ips500.dps.png">my8033_rel_native_lto.cy10_4g_u</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_u.dmax">my8033_rel_native_lto.cy10_4g_u: max delete response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_u.q.L2.ips500.dmax.png">my8033_rel_native_lto.cy10_4g_u</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_u.qps">my8033_rel_native_lto.cy10_4g_u: QPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_u.q.L2.ips500.qps.png">my8033_rel_native_lto.cy10_4g_u</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_u.qmax">my8033_rel_native_lto.cy10_4g_u: max query response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_u.q.L2.ips500.qmax.png">my8033_rel_native_lto.cy10_4g_u</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua7.ips">my8033_rel_native_lto.cy10_4g_ua7: IPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua7.q.L2.ips500.ips.png">my8033_rel_native_lto.cy10_4g_ua7</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua7.imax">my8033_rel_native_lto.cy10_4g_ua7: max insert response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua7.q.L2.ips500.imax.png">my8033_rel_native_lto.cy10_4g_ua7</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua7.dps">my8033_rel_native_lto.cy10_4g_ua7: DPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua7.q.L2.ips500.dps.png">my8033_rel_native_lto.cy10_4g_ua7</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua7.dmax">my8033_rel_native_lto.cy10_4g_ua7: max delete response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua7.q.L2.ips500.dmax.png">my8033_rel_native_lto.cy10_4g_ua7</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua7.qps">my8033_rel_native_lto.cy10_4g_ua7: QPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua7.q.L2.ips500.qps.png">my8033_rel_native_lto.cy10_4g_ua7</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua7.qmax">my8033_rel_native_lto.cy10_4g_ua7: max query response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua7.q.L2.ips500.qmax.png">my8033_rel_native_lto.cy10_4g_ua7</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua8.ips">my8033_rel_native_lto.cy10_4g_ua8: IPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua8.q.L2.ips500.ips.png">my8033_rel_native_lto.cy10_4g_ua8</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua8.imax">my8033_rel_native_lto.cy10_4g_ua8: max insert response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua8.q.L2.ips500.imax.png">my8033_rel_native_lto.cy10_4g_ua8</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua8.dps">my8033_rel_native_lto.cy10_4g_ua8: DPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua8.q.L2.ips500.dps.png">my8033_rel_native_lto.cy10_4g_ua8</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua8.dmax">my8033_rel_native_lto.cy10_4g_ua8: max delete response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua8.q.L2.ips500.dmax.png">my8033_rel_native_lto.cy10_4g_ua8</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua8.qps">my8033_rel_native_lto.cy10_4g_ua8: QPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua8.q.L2.ips500.qps.png">my8033_rel_native_lto.cy10_4g_ua8</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua8.qmax">my8033_rel_native_lto.cy10_4g_ua8: max query response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua8.q.L2.ips500.qmax.png">my8033_rel_native_lto.cy10_4g_ua8</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua9.ips">my8033_rel_native_lto.cy10_4g_ua9: IPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua9.q.L2.ips500.ips.png">my8033_rel_native_lto.cy10_4g_ua9</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua9.imax">my8033_rel_native_lto.cy10_4g_ua9: max insert response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua9.q.L2.ips500.imax.png">my8033_rel_native_lto.cy10_4g_ua9</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua9.dps">my8033_rel_native_lto.cy10_4g_ua9: DPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua9.q.L2.ips500.dps.png">my8033_rel_native_lto.cy10_4g_ua9</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua9.dmax">my8033_rel_native_lto.cy10_4g_ua9: max delete response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua9.q.L2.ips500.dmax.png">my8033_rel_native_lto.cy10_4g_ua9</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua9.qps">my8033_rel_native_lto.cy10_4g_ua9: QPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua9.q.L2.ips500.qps.png">my8033_rel_native_lto.cy10_4g_ua9</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua9.qmax">my8033_rel_native_lto.cy10_4g_ua9: max query response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua9.q.L2.ips500.qmax.png">my8033_rel_native_lto.cy10_4g_ua9</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua10.ips">my8033_rel_native_lto.cy10_4g_ua10: IPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua10.q.L2.ips500.ips.png">my8033_rel_native_lto.cy10_4g_ua10</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua10.imax">my8033_rel_native_lto.cy10_4g_ua10: max insert response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua10.q.L2.ips500.imax.png">my8033_rel_native_lto.cy10_4g_ua10</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua10.dps">my8033_rel_native_lto.cy10_4g_ua10: DPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua10.q.L2.ips500.dps.png">my8033_rel_native_lto.cy10_4g_ua10</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua10.dmax">my8033_rel_native_lto.cy10_4g_ua10: max delete response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua10.q.L2.ips500.dmax.png">my8033_rel_native_lto.cy10_4g_ua10</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua10.qps">my8033_rel_native_lto.cy10_4g_ua10: QPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua10.q.L2.ips500.qps.png">my8033_rel_native_lto.cy10_4g_ua10</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua10.qmax">my8033_rel_native_lto.cy10_4g_ua10: max query response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua10.q.L2.ips500.qmax.png">my8033_rel_native_lto.cy10_4g_ua10</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua17.ips">my8033_rel_native_lto.cy10_4g_ua17: IPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua17.q.L2.ips500.ips.png">my8033_rel_native_lto.cy10_4g_ua17</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua17.imax">my8033_rel_native_lto.cy10_4g_ua17: max insert response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua17.q.L2.ips500.imax.png">my8033_rel_native_lto.cy10_4g_ua17</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua17.dps">my8033_rel_native_lto.cy10_4g_ua17: DPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua17.q.L2.ips500.dps.png">my8033_rel_native_lto.cy10_4g_ua17</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua17.dmax">my8033_rel_native_lto.cy10_4g_ua17: max delete response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua17.q.L2.ips500.dmax.png">my8033_rel_native_lto.cy10_4g_ua17</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua17.qps">my8033_rel_native_lto.cy10_4g_ua17: QPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua17.q.L2.ips500.qps.png">my8033_rel_native_lto.cy10_4g_ua17</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua17.qmax">my8033_rel_native_lto.cy10_4g_ua17: max query response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua17.q.L2.ips500.qmax.png">my8033_rel_native_lto.cy10_4g_ua17</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua18.ips">my8033_rel_native_lto.cy10_4g_ua18: IPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua18.q.L2.ips500.ips.png">my8033_rel_native_lto.cy10_4g_ua18</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua18.imax">my8033_rel_native_lto.cy10_4g_ua18: max insert response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua18.q.L2.ips500.imax.png">my8033_rel_native_lto.cy10_4g_ua18</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua18.dps">my8033_rel_native_lto.cy10_4g_ua18: DPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua18.q.L2.ips500.dps.png">my8033_rel_native_lto.cy10_4g_ua18</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua18.dmax">my8033_rel_native_lto.cy10_4g_ua18: max delete response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua18.q.L2.ips500.dmax.png">my8033_rel_native_lto.cy10_4g_ua18</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua18.qps">my8033_rel_native_lto.cy10_4g_ua18: QPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua18.q.L2.ips500.qps.png">my8033_rel_native_lto.cy10_4g_ua18</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua18.qmax">my8033_rel_native_lto.cy10_4g_ua18: max query response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua18.q.L2.ips500.qmax.png">my8033_rel_native_lto.cy10_4g_ua18</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua19.ips">my8033_rel_native_lto.cy10_4g_ua19: IPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua19.q.L2.ips500.ips.png">my8033_rel_native_lto.cy10_4g_ua19</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua19.imax">my8033_rel_native_lto.cy10_4g_ua19: max insert response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua19.q.L2.ips500.imax.png">my8033_rel_native_lto.cy10_4g_ua19</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua19.dps">my8033_rel_native_lto.cy10_4g_ua19: DPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua19.q.L2.ips500.dps.png">my8033_rel_native_lto.cy10_4g_ua19</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua19.dmax">my8033_rel_native_lto.cy10_4g_ua19: max delete response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua19.q.L2.ips500.dmax.png">my8033_rel_native_lto.cy10_4g_ua19</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua19.qps">my8033_rel_native_lto.cy10_4g_ua19: QPS</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua19.q.L2.ips500.qps.png">my8033_rel_native_lto.cy10_4g_ua19</a>
+<hr />
+<h1 id="my8033_rel_native_lto.cy10_4g_ua19.qmax">my8033_rel_native_lto.cy10_4g_ua19: max query response time</h1>
+<img src="my8033_rel_native_lto.cy10_4g_ua19.q.L2.ips500.qmax.png">my8033_rel_native_lto.cy10_4g_ua19</a>
+</ul>
+</body>
+</html>
