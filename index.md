@@ -28,18 +28,20 @@ Benchmark reports for 2023
     * MySQL 5.7.40
     * MySQL 8.0.33
 * Postgres config tuning for the insert benchmark
-  * Postgres 15.3, c2-standard-30 server
+  * Postgres 15.3, c2-standard-30 server, May 2023
     * [Cached by Postgres, 8 users, 8 tables](reports/23_05_23_ibench.c2s30.pg153.8u.1tno.cached/all.html)
     * [Cached by OS, 8 users, 8 tables](reports/23_05_23_ibench.c2s30.pg153.8u.1tno.4g/all.html)
-  * Postgres 15.3, c2-standard-30 server, more tuning, with delete_per_insert, up to a17 config
+  * Postgres 15.3, c2-standard-30 server, more tuning, with delete_per_insert, up to a17 config, May 2023
     * [Cached by OS, 8 users, 8 tables](reports/23_05_31_ibench_c2.pg153.8u.1tno.4g.tune/all.html)
     * [Cached by Postgres, 8 users, 8 tables](reports/23_05_31_ibench_c2.pg153.8u.1tno.cached.tune/all.html)
-  * Postgres 15.3, c2-standard-30 server, more tuning, with delete_per_insert, adds a18 config
+  * Postgres 15.3, c2-standard-30 server, more tuning, with delete_per_insert, adds a18 config, June 2023
     * [Cached by OS, 8 users, 8 tables](reports/23_06_13_ibench.c2.pg153.8u.1tno.4g.tune/all.html)
     * [Cached by Postgres, 8 users, 8 tables](reports/23_06_13_ibench.c2.pg153.8u.1tno.cached.tune/all.html)
-  * Postgres 15.3, c2-standard-30 server: IO-bound, with delete per insert, configs up to a18
+  * Postgres 15.3, c2-standard-30 server: IO-bound, with delete per insert, configs up to a18, June 2023
     * [All configs](reports/23_06_14_ibench.c2.pg153.8u.1tno.io.tune.v2/all.html)
     * [Some configs](reports/23_06_14_ibench.c2.pg153.8u.1tno.io.tune.v3/all.html)
+  * Postgres 15.3, c2-standard-30 server with delete per insert, configs up to a22, July 2023
+    * [Cached by Postgres](reports/23_07_11_ibench.c2.pg153.8u.1tno.cached.tune/all.html), [Cached by OS](reports/23_07_11_ibench.c2.pg153.8u.1tno.4g.tune/all.html), [IO-bound](reports/23_07_11_ibench.c2.pg153.8u.1tno.io.tune/all.html)
   * Postgres 15.2, Beelink (8-cores, 16G RAM)
     * Cached by Postgres: [1 user](reports/23_06_13_ibench.bee.pg152.1u.1tno.cached/all.html) and [4 users](reports/23_06_13_ibench.bee.pg152.4u.1tno.cached/all.html)
     * Cached by OS: [1 user](reports/23_06_13_ibench.bee.pg152.1u.1tno.1g/all.html) and [4 users](reports/23_06_13_ibench.bee.pg152.4u.1tno.1g/all.html)
