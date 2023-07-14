@@ -1,0 +1,14 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>pg152_o2_nofp.cx8_bee</td> <td id="cmax">72993</td><td>236470</td><td id="cmin">11030</td><td>8062</td><td>8032</td><td>7981</td><tr><td>pg152_o2_nofp.cx8a1_bee</td> <td>72464</td><td>233721</td><td id="cmin">11062</td><td>8228</td><td>8162</td><td>8039</td><tr><td>pg152_o2_nofp.cx8a2_bee</td> <td>71942</td><td>233721</td><td id="cmin">11206</td><td>8097</td><td>8022</td><td>8027</td><tr><td>pg152_o2_nofp.cx8a3_bee</td> <td>72464</td><td>236470</td><td id="cmin">10616</td><td>8061</td><td>8223</td><td id="cmax">8153</td><tr><td>pg152_o2_nofp.cx8a4_bee</td> <td id="cmax">72993</td><td>236470</td><td id="cmin">11436</td><td>8113</td><td>8169</td><td>8043</td><tr><td>pg152_o2_nofp.cx8a9_bee</td> <td>72727</td><td>236470</td><td id="cmin">11035</td><td id="cmax">8300</td><td>8064</td><td>8107</td><tr><td>pg152_o2_nofp.cx8a10_bee</td> <td>72202</td><td>233721</td><td id="cmin">11669</td><td>8177</td><td>8102</td><td id="cmax">8217</td><tr><td>pg152_o2_nofp.cx8a12_bee</td> <td id="cmax">72993</td><td>236470</td><td id="cmin">10900</td><td id="cmax">8312</td><td>8177</td><td>8065</td><tr><td>pg152_o2_nofp.cx8a14_bee</td> <td id="cmax">72993</td><td>236470</td><td id="cmin">10693</td><td>8068</td><td>8073</td><td>7991</td><tr><td>pg152_o2_nofp.cx8a15_bee</td> <td>72727</td><td>236470</td><td id="cmin">11091</td><td>8209</td><td>8113</td><td>8039</td><tr><td>pg152_o2_nofp.cx8a16_bee</td> <td id="cmax">73260</td><td>236470</td><td id="cmax">22635</td><td>8121</td><td>8098</td><td>8088</td><tr><td>pg152_o2_nofp.cx8a17_bee</td> <td>72202</td><td>236470</td><td id="cmin">11104</td><td>8151</td><td>8141</td><td>8059</td><tr><td>pg152_o2_nofp.cx8a18_bee</td> <td>71942</td><td id="cmax">239286</td><td id="cmax">22512</td><td>8083</td><td>8093</td><td>7934</td><tr><td>pg152_o2_nofp.cx8a20_bee</td> <td>71942</td><td id="cmax">239286</td><td id="cmax">22800</td><td>8248</td><td>8151</td><td>8030</td><tr><td>pg152_o2_nofp.cx8a21_bee</td> <td id="cmax">72993</td><td>231034</td><td id="cmax">22810</td><td id="cmax">8310</td><td id="cmax">8319</td><td>8072</td><tr><td>pg152_o2_nofp.cx8a22_bee</td> <td>72464</td><td>236470</td><td id="cmax">22904</td><td>8060</td><td>8092</td><td>8095</td></table>
