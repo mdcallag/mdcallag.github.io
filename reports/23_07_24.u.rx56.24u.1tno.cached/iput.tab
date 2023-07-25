@@ -1,0 +1,19 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>fbmy5635_202203072101.cy9c5_u</td><td>2389</td><td>11948</td><td>23907</td></tr>
+<tr><td>fbmy5635_202304122154.cy9c5_u</td><td>2389</td><td>11947</td><td>23904</td></tr>
+<tr><td>fbmy5635_202305292102.cy9c5_u</td><td>2390</td><td>11948</td><td>23907</td></tr>
+<tr><td>fbmy5635_jun23_7e40af67.cy9c5_u</td><td>2390</td><td>11947</td><td>23907</td></tr>
+<tr><td>target</td><td id=cgray>2400</td><td id=cgray>12000</td><td id=cgray>24000</td></tr>
+</table>
