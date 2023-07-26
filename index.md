@@ -17,6 +17,7 @@ Benchmark reports for 2023
       * With delete-per-insert: [Cached by MyRocks](reports/23_06_27_ibench.c2.rx.8u.1tno.dpi1.cached/all.html), [Cached by OS](reports/23_06_27_ibench.c2.rx.8u.1tno.dpi1.4g/all.html), [IO-bound](reports/23_06_27_ibench.c2.rx.8u.1tno.dpi1.io/all.html)
       * Configuration tuning, medium server, July 2023: [Cached by RocksDB](reports/23_07_14.ibench.c2.fbmy8028.8u.1tno.cached.tune/all.html), [Cached by OS](reports/23_07_14.ibench.c2.fbmy8028.8u.1tno.4g.tune/all.html), [IO-bound](reports/23_07_14.ibench.c2.fbmy8028.8u.1tno.io.tune/all.html)
     * Large server, builds back to 2022: [Cached by RocksDB](reports/23_07_24.u.rx56.24u.1tno.cached/all.html), [IO-bound](reports/23_07_24.u.rx56.24u.1tno.io/all.html)
+    * Large server, my.cnf tuning: [Cached by RocksDB](reports/23_07_26.u.tune.rx.24u.1tno.cached/all.html), [Cached by OS](reports/23_07_26.u.tune.rx.24u.1tno.4g/all.html), [IO-bound](reports/23_07_26.u.tune.rx.24u.1tno.io/all.html)
   * InnoDB
     * Write stalls: [big server and cached by OS](reports/23_07_07_ibench.u.in.24u.1tno.dpi1.4g.writestalls/all.html)
   * Postgres
