@@ -9,6 +9,7 @@ Posts for 2020:
 Benchmark reports for 2023
 * Insert benchmark with deletes (July 2023)
   * MyRocks
+    * Small server, tuning my.cnf (Beelink): [Cached by RocksDB](reports/23_07_26.bee.rx.1u.1tno.cached/all.html), [Cached by OS](reports/23_07_26.bee.rx.1u.1tno.1g/all.html), [IO-bound](reports/23_07_26.bee.rx.1u.1tno.io/all.html)
     * Small server (Beelink, 8-cores)
       * 1 client: cached [by RocksDB](reports/23_05_29_ibench.bee.rx68.1u.1tno.cached/all.html) and [by OS page cache](reports/23_05_29_ibench.bee.rx68.1u.1tno.1g/all.html), [IO-bound](reports/23_06_12_ibench.bee.rx68.1u.1tno.io/all.html)
       * 4 clients: cached [by RocksDB](reports/23_05_29_ibench.bee.rx68.4u.1tno.cached/all.html) and [by OS page cache](reports/23_05_29_ibench.bee.rx68.4u.1tno.1g/all.html), [IO-bound](reports/23_06_12_ibench.bee.rx68.4u.1tno.io/all.html)

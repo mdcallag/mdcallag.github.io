@@ -1,0 +1,235 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:77791]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.l.i0.ips.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/l.i0/gpi.ips" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.l.i0.ips.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/l.i0/gpi.ips" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:108757]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.l.i0.imax.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/l.i0/gpi.imax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.l.i0.imax.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/l.i0/gpi.imax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.l.i0.dps.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/l.i0/gpi.dps" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.l.i0.dps.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/l.i0/gpi.dps" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.l.i0.dmax.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/l.i0/gpi.dmax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.l.i0.dmax.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/l.i0/gpi.dmax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:34701]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.l.i1.ips.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/l.i1/gpi.ips" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.l.i1.ips.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/l.i1/gpi.ips" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:127483]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.l.i1.imax.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/l.i1/gpi.imax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.l.i1.imax.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/l.i1/gpi.imax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i1"
+set yrange [0:34641]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.l.i1.dps.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/l.i1/gpi.dps" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.l.i1.dps.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/l.i1/gpi.dps" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i1"
+set yrange [0:130274]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.l.i1.dmax.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/l.i1/gpi.dmax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.l.i1.dmax.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/l.i1/gpi.dmax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L1.ips100"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L1.ips100.ips.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L1.ips100/gpi.ips" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L1.ips100.ips.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L1.ips100/gpi.ips" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L1.ips100"
+set yrange [0:18847]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L1.ips100.imax.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L1.ips100/gpi.imax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L1.ips100.imax.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L1.ips100/gpi.imax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L1.ips100"
+set yrange [0:240]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L1.ips100.dps.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L1.ips100/gpi.dps" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L1.ips100.dps.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L1.ips100/gpi.dps" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L1.ips100"
+set yrange [0:20959]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L1.ips100.dmax.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L1.ips100/gpi.dmax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L1.ips100.dmax.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L1.ips100/gpi.dmax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L1.ips100"
+set yrange [0:3988]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L1.ips100.qps.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L1.ips100/gpi.qps" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L1.ips100.qps.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L1.ips100/gpi.qps" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L1.ips100"
+set yrange [0:3453]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L1.ips100.qmax.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L1.ips100/gpi.qmax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L1.ips100.qmax.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L1.ips100/gpi.qmax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L2.ips500"
+set yrange [0:600]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L2.ips500.ips.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L2.ips500/gpi.ips" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L2.ips500.ips.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L2.ips500/gpi.ips" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L2.ips500"
+set yrange [0:63625]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L2.ips500.imax.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L2.ips500/gpi.imax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L2.ips500.imax.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L2.ips500/gpi.imax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L2.ips500"
+set yrange [0:600]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L2.ips500.dps.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L2.ips500/gpi.dps" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L2.ips500.dps.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L2.ips500/gpi.dps" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L2.ips500"
+set yrange [0:46832]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L2.ips500.dmax.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L2.ips500/gpi.dmax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L2.ips500.dmax.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L2.ips500/gpi.dmax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L2.ips500"
+set yrange [0:3739]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L2.ips500.qps.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L2.ips500/gpi.qps" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L2.ips500.qps.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L2.ips500/gpi.qps" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L2.ips500"
+set yrange [0:2826]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L2.ips500.qmax.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L2.ips500/gpi.qmax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L2.ips500.qmax.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L2.ips500/gpi.qmax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L3.ips1000"
+set yrange [0:1200]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L3.ips1000.ips.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L3.ips1000/gpi.ips" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L3.ips1000.ips.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L3.ips1000/gpi.ips" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L3.ips1000"
+set yrange [0:48062]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L3.ips1000.imax.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L3.ips1000/gpi.imax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L3.ips1000.imax.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L3.ips1000/gpi.imax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L3.ips1000"
+set yrange [0:1200]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L3.ips1000.dps.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L3.ips1000/gpi.dps" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L3.ips1000.dps.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L3.ips1000/gpi.dps" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L3.ips1000"
+set yrange [0:65977]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L3.ips1000.dmax.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L3.ips1000/gpi.dmax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L3.ips1000.dmax.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L3.ips1000/gpi.dmax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L3.ips1000"
+set yrange [0:3873]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L3.ips1000.qps.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L3.ips1000/gpi.qps" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L3.ips1000.qps.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L3.ips1000/gpi.qps" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L3.ips1000"
+set yrange [0:5998]
+set terminal dumb 200, 50
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L3.ips1000.qmax.txt'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L3.ips1000/gpi.qmax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
+set terminal png
+set output 'fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee.q.L3.ips1000.qmax.png'
+plot "20m.fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee/q.L3.ips1000/gpi.qmax" using 1:2 title "fbmy8028_rel_native_lto_jun23_ef5b9b101_hack.cy10a7_bee", 
