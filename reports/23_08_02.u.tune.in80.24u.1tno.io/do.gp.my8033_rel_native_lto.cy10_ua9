@@ -1,0 +1,235 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:92410]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.l.i0.ips.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/l.i0/gpi.ips" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.l.i0.ips.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/l.i0/gpi.ips" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:469430]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.l.i0.imax.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/l.i0/gpi.imax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.l.i0.imax.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/l.i0/gpi.imax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.l.i0.dps.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/l.i0/gpi.dps" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.l.i0.dps.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/l.i0/gpi.dps" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.l.i0.dmax.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/l.i0/gpi.dmax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.l.i0.dmax.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/l.i0/gpi.dmax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:2997]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.l.i1.ips.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/l.i1/gpi.ips" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.l.i1.ips.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/l.i1/gpi.ips" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:880221]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.l.i1.imax.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/l.i1/gpi.imax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.l.i1.imax.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/l.i1/gpi.imax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i1"
+set yrange [0:2816]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.l.i1.dps.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/l.i1/gpi.dps" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.l.i1.dps.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/l.i1/gpi.dps" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i1"
+set yrange [0:237363]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.l.i1.dmax.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/l.i1/gpi.dmax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.l.i1.dmax.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/l.i1/gpi.dmax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L1.ips100"
+set yrange [0:120]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L1.ips100.ips.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L1.ips100/gpi.ips" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L1.ips100.ips.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L1.ips100/gpi.ips" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L1.ips100"
+set yrange [0:369284]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L1.ips100.imax.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L1.ips100/gpi.imax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L1.ips100.imax.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L1.ips100/gpi.imax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L1.ips100"
+set yrange [0:120]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L1.ips100.dps.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L1.ips100/gpi.dps" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L1.ips100.dps.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L1.ips100/gpi.dps" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L1.ips100"
+set yrange [0:350560]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L1.ips100.dmax.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L1.ips100/gpi.dmax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L1.ips100.dmax.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L1.ips100/gpi.dmax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L1.ips100"
+set yrange [0:1112]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L1.ips100.qps.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L1.ips100/gpi.qps" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L1.ips100.qps.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L1.ips100/gpi.qps" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L1.ips100"
+set yrange [0:249265]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L1.ips100.qmax.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L1.ips100/gpi.qmax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L1.ips100.qmax.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L1.ips100/gpi.qmax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L2.ips500"
+set yrange [0:778]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L2.ips500.ips.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L2.ips500/gpi.ips" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L2.ips500.ips.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L2.ips500/gpi.ips" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L2.ips500"
+set yrange [0:121296]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L2.ips500.imax.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L2.ips500/gpi.imax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L2.ips500.imax.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L2.ips500/gpi.imax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L2.ips500"
+set yrange [0:778]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L2.ips500.dps.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L2.ips500/gpi.dps" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L2.ips500.dps.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L2.ips500/gpi.dps" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L2.ips500"
+set yrange [0:115888]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L2.ips500.dmax.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L2.ips500/gpi.dmax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L2.ips500.dmax.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L2.ips500/gpi.dmax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L2.ips500"
+set yrange [0:1131]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L2.ips500.qps.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L2.ips500/gpi.qps" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L2.ips500.qps.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L2.ips500/gpi.qps" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L2.ips500"
+set yrange [0:60812]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L2.ips500.qmax.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L2.ips500/gpi.qmax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L2.ips500.qmax.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L2.ips500/gpi.qmax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L3.ips1000"
+set yrange [0:1558]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L3.ips1000.ips.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L3.ips1000/gpi.ips" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L3.ips1000.ips.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L3.ips1000/gpi.ips" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L3.ips1000"
+set yrange [0:207516]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L3.ips1000.imax.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L3.ips1000/gpi.imax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L3.ips1000.imax.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L3.ips1000/gpi.imax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L3.ips1000"
+set yrange [0:1558]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L3.ips1000.dps.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L3.ips1000/gpi.dps" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L3.ips1000.dps.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L3.ips1000/gpi.dps" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L3.ips1000"
+set yrange [0:191860]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L3.ips1000.dmax.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L3.ips1000/gpi.dmax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L3.ips1000.dmax.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L3.ips1000/gpi.dmax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L3.ips1000"
+set yrange [0:1112]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L3.ips1000.qps.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L3.ips1000/gpi.qps" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L3.ips1000.qps.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L3.ips1000/gpi.qps" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L3.ips1000"
+set yrange [0:152156]
+set terminal dumb 200, 50
+set output 'my8033_rel_native_lto.cy10_ua9.q.L3.ips1000.qmax.txt'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L3.ips1000/gpi.qmax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 
+set terminal png
+set output 'my8033_rel_native_lto.cy10_ua9.q.L3.ips1000.qmax.png'
+plot "12000m.my8033_rel_native_lto.cy10_ua9/q.L3.ips1000/gpi.qmax" using 1:2 title "my8033_rel_native_lto.cy10_ua9", 

@@ -22,6 +22,10 @@ Benchmark reports for 2023
     * Write stalls: [big server and cached by OS](reports/23_07_07_ibench.u.in.24u.1tno.dpi1.4g.writestalls/all.html)
   * Postgres
 * InnoDB config tuning for the insert benchmark
+  * big server, August 2023
+    * Cached by InnoDB: [MySQL 5.6.51](reports/23_08_02.u.tune.in56.24u.1tno.cached/all.html), [MySQL 5.7.40](reports/23_08_02.u.tune.in57.24u.1tno.cached/all.html), [MySQL 8.0.33](reports/23_08_02.u.tune.in80.24u.1tno.cached/all.html)
+    * Cached by OS: [MySQL 5.6.51](reports/23_08_02.u.tune.in56.24u.1tno.4g/all.html), [MySQL 5.7.40](reports/23_08_02.u.tune.in57.24u.1tno.4g/all.html), [MySQL 8.0.33](reports/23_08_02.u.tune.in80.24u.1tno.4g/all.html)
+    * IO-bound: [MySQL 5.6.51](reports/23_08_02.u.tune.in56.24u.1tno.io/all.html), [MySQL 5.7.40](reports/23_08_02.u.tune.in57.24u.1tno.io/all.html), [MySQL 8.0.33](reports/23_08_02.u.tune.in80.24u.1tno.io/all.html)
   * c2-standard-30, June 2023
     * MySQL 5.6.51: [cached by InnoDB](reports/23_06_12_ibench.c2.inno.my56.8u.1tno.cached/all.html), [cached by OS](reports/23_06_12_ibench.c2.inno.my56.8u.1tno.4g/all.html), [IO-bound](reports/23_06_12_ibench.c2.inno.my56.8u.1tno.io/all.html)
     * MySQL 5.7.40:
