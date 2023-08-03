@@ -1,0 +1,14 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>my5651_rel_native_lto.cy10_4g_u</td> <td id="cmin">480000</td><td id="cmin">361521</td><td>12820</td><td id="cmin">2422</td><td id="cmin">1764</td><td id="cgray">1704</td><tr><td>my5740_rel_native_lto.cy10_4g_u</td> <td id="cmin">565371</td><td id="cmax">2595135</td><td id="cmax">14332</td><td>13544</td><td id="cmax">5825</td><td id="cgray">3725</td><tr><td>my8033_rel_native_lto.cy10_4g_u</td> <td id="cmax">909091</td><td id="cmax">2212442</td><td>12784</td><td id="cmax">22098</td><td id="cgray">5399</td><td id="cgray">5250</td></table>
