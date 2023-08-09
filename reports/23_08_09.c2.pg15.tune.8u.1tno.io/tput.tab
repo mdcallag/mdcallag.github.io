@@ -1,0 +1,14 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>pg153_o3_native_lto.cx7a_gcp_c2s30</td> <td>1088732</td><td>1549826</td><td id="cmin">7923</td><td>107359</td><td>91038</td><td>79360</td><tr><td>pg153_o3_native_lto.cx7a1_gcp_c2s30</td> <td>1083717</td><td id="cmax">1680714</td><td id="cmin">6277</td><td>105093</td><td>92606</td><td>86199</td><tr><td>pg153_o3_native_lto.cx7a3_gcp_c2s30</td> <td>1088732</td><td>1503232</td><td id="cmin">7078</td><td>107267</td><td>90185</td><td>79753</td><tr><td>pg153_o3_native_lto.cx7a4_gcp_c2s30</td> <td>1082837</td><td>1484818</td><td>9102</td><td>108905</td><td>96611</td><td>81530</td><tr><td>pg153_o3_native_lto.cx7a7_gcp_c2s30</td> <td>1091703</td><td>1525010</td><td id="cmin">7707</td><td>107356</td><td>87354</td><td>85311</td><tr><td>pg153_o3_native_lto.cx7a10_gcp_c2s30</td> <td>1079040</td><td>1514042</td><td id="cmin">7117</td><td>106019</td><td>89978</td><td>79587</td><tr><td>pg153_o3_native_lto.cx7a12_gcp_c2s30</td> <td>1101322</td><td>1512325</td><td>9206</td><td>106124</td><td>91038</td><td>84936</td><tr><td>pg153_o3_native_lto.cx7a15_gcp_c2s30</td> <td id="cmax">1107420</td><td id="cmin">1361504</td><td>9692</td><td id="cmax">111163</td><td id="cmax">100752</td><td id="cmax">96531</td><tr><td>pg153_o3_native_lto.cx7a16_gcp_c2s30</td> <td>1079040</td><td>1500413</td><td id="cmax">14189</td><td>102826</td><td>91354</td><td id="cmin">72827</td><tr><td>pg153_o3_native_lto.cx7a23_gcp_c2s30</td> <td>1084599</td><td>1512325</td><td>11981</td><td>104812</td><td>95138</td><td>85161</td><tr><td>pg153_o3_native_lto.cx7a24_gcp_c2s30</td> <td>1067806</td><td>1510612</td><td>9049</td><td>107486</td><td id="cmax">97981</td><td>89136</td><tr><td>pg153_o3_native_lto.cx7a25_gcp_c2s30</td> <td>1072961</td><td id="cmax">1745244</td><td>8967</td><td>108316</td><td>94608</td><td id="cmin">69707</td><tr><td>pg153_o3_native_lto.cx7a26_gcp_c2s30</td> <td>1086071</td><td>1501539</td><td>11559</td><td>104575</td><td>95321</td><td id="cgray">92061</td><tr><td>pg153_o3_native_lto.cx7a27_gcp_c2s30</td> <td id="cmax">1110802</td><td>1624736</td><td>11426</td><td>104467</td><td>94699</td><td id="cmin">74007</td><tr><td>pg153_o3_native_lto.cx7a28_gcp_c2s30</td> <td id="cmax">1114206</td><td>1498726</td><td>10488</td><td>102673</td><td>93484</td><td id="cmin">72343</td></table>

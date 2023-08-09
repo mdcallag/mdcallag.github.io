@@ -38,11 +38,8 @@ Benchmark reports for 2023
     * MySQL 5.7.40: [cached by InnoDB](reports/23_07_17.c2.in57.8u.1tno.cached/all.html), [cached by OS](reports/23_07_17.c2.in57.8u.1tno.4g/all.html), [IO-bound](reports/23_07_17.c2.in57.8u.1tno.io/all.html)
     * MySQL 8.0.33: [cached by InnoDB](reports/23_07_17.c2.in80.8u.1tno.cached/all.html), [cached by OS](reports/23_07_17.c2.in80.8u.1tno.4g/all.html), [IO-bound](reports/23_07_17.c2.in80.8u.1tno.io/all.html)
     * MySQL 5.6, 5.7, 8.0: [cached by InnoDB](reports/23_07_17.c2.in678.8u.1tno.cached/all.html), [cached by OS](reports/23_07_17.c2.in678.8u.1tno.4g/all.html), [IO-bound](reports/23_07_17.c2.in678.8u.1tno.io/all.html)
-  * Beelink
-    * MySQL 5.6.51
-    * MySQL 5.7.40
-    * MySQL 8.0.33
 * Postgres config tuning for the insert benchmark
+  * Postgres 15.2 and 15.3, c2-standard-30 server, Aug 2023: [Cached by Postgres](reports/23_08_09.c2.pg15.tune.8u.1tno.cached/all.html), [IO-bound](reports/23_08_09.c2.pg15.tune.8u.1tno.io/all.html)
   * Postgres 15.3, c2-standard-30 server, May 2023
     * [Cached by Postgres, 8 users, 8 tables](reports/23_05_23_ibench.c2s30.pg153.8u.1tno.cached/all.html)
     * [Cached by OS, 8 users, 8 tables](reports/23_05_23_ibench.c2s30.pg153.8u.1tno.4g/all.html)

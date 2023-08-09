@@ -1,0 +1,14 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>pg153_o3_native_lto.cx7a_gcp_c2s30</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><tr><td>pg153_o3_native_lto.cx7a1_gcp_c2s30</td> <td>0.99</td><td id="chi">1.07</td><td>1.02</td><td>1.01</td><td>1.01</td><td>1.02</td><tr><td>pg153_o3_native_lto.cx7a3_gcp_c2s30</td> <td>0.96</td><td id="chi">1.07</td><td id="clo">0.76</td><td>0.98</td><td>0.97</td><td>0.98</td><tr><td>pg153_o3_native_lto.cx7a4_gcp_c2s30</td> <td>0.99</td><td>1.03</td><td>1.00</td><td>1.01</td><td>1.03</td><td>1.05</td><tr><td>pg153_o3_native_lto.cx7a7_gcp_c2s30</td> <td>1.00</td><td id="chi">1.15</td><td id="clo">0.77</td><td>1.00</td><td>0.99</td><td>0.95</td><tr><td>pg153_o3_native_lto.cx7a10_gcp_c2s30</td> <td>1.00</td><td>1.01</td><td>0.99</td><td>1.00</td><td>0.99</td><td>1.01</td><tr><td>pg153_o3_native_lto.cx7a12_gcp_c2s30</td> <td>1.01</td><td>0.95</td><td>1.00</td><td>1.00</td><td>0.99</td><td>0.98</td><tr><td>pg153_o3_native_lto.cx7a15_gcp_c2s30</td> <td>0.97</td><td id="chi">1.07</td><td id="clo">0.89</td><td>1.00</td><td>0.98</td><td>0.99</td><tr><td>pg153_o3_native_lto.cx7a16_gcp_c2s30</td> <td>0.97</td><td>1.00</td><td id="chi">1.76</td><td>1.00</td><td>1.02</td><td>1.04</td><tr><td>pg153_o3_native_lto.cx7a23_gcp_c2s30</td> <td>0.97</td><td>1.05</td><td id="chi">1.59</td><td>0.99</td><td>0.99</td><td>1.02</td><tr><td>pg153_o3_native_lto.cx7a24_gcp_c2s30</td> <td>0.97</td><td>1.05</td><td id="clo">0.81</td><td>0.98</td><td>0.98</td><td>1.01</td><tr><td>pg153_o3_native_lto.cx7a25_gcp_c2s30</td> <td>0.95</td><td id="chi">1.17</td><td id="clo">0.64</td><td>0.99</td><td>0.98</td><td>1.00</td><tr><td>pg153_o3_native_lto.cx7a26_gcp_c2s30</td> <td>0.97</td><td>1.05</td><td id="chi">1.51</td><td>0.98</td><td>0.97</td><td>1.00</td><tr><td>pg153_o3_native_lto.cx7a27_gcp_c2s30</td> <td>0.98</td><td id="chi">1.12</td><td id="chi">1.60</td><td>0.98</td><td>1.00</td><td>1.03</td><tr><td>pg153_o3_native_lto.cx7a28_gcp_c2s30</td> <td>0.96</td><td id="chi">1.12</td><td id="chi">1.26</td><td>0.98</td><td>0.99</td><td>1.02</td></table>
