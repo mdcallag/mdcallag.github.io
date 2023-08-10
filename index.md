@@ -7,6 +7,10 @@ Posts for 2020:
 * [Explaining explain to understand index usage in MySQL](posts_2020/20_08_11_explain_explain.md)
 
 Benchmark reports for 2023
+* MyRocks perf regressions (Aug 2023)
+  * Medium server (c2-standard-30)
+    * Base config [Cached](reports/23_08_10.c2.56builds.1u.1tno.cached.c/all.html) and [IO-bound](reports/23_08_10.c2.56builds.1u.1tno.io.c/all.html)
+    * c5 config: [Cached](reports/23_08_10.c2.56builds.1u.1tno.cached.c5/all.html) and [IO-bound](reports/23_08_10.c2.56builds.1u.1tno.io.c5/all.html)
 * Insert benchmark vs MyRocks 5.6 builds (Aug 2023)
   * Small server: [Cached by RocksDB](reports/23_08_08.bee.56builds.1u.1tno.cached/all.html), [IO-bound](reports/23_08_08.bee.56builds.1u.1tno.io/all.html)
 * Insert benchmark with deletes (July 2023)

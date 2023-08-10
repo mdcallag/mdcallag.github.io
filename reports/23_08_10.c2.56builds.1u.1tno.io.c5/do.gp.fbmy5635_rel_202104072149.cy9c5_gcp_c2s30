@@ -1,0 +1,235 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:204624]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.l.i0.ips.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/l.i0/gpi.ips" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.l.i0.ips.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/l.i0/gpi.ips" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:531043]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.l.i0.imax.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/l.i0/gpi.imax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.l.i0.imax.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/l.i0/gpi.imax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.l.i0.dps.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/l.i0/gpi.dps" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.l.i0.dps.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/l.i0/gpi.dps" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.l.i0.dmax.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/l.i0/gpi.dmax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.l.i0.dmax.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/l.i0/gpi.dmax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:64305]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.l.i1.ips.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/l.i1/gpi.ips" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.l.i1.ips.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/l.i1/gpi.ips" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:504885]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.l.i1.imax.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/l.i1/gpi.imax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.l.i1.imax.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/l.i1/gpi.imax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i1"
+set yrange [0:64305]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.l.i1.dps.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/l.i1/gpi.dps" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.l.i1.dps.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/l.i1/gpi.dps" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i1"
+set yrange [0:505392]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.l.i1.dmax.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/l.i1/gpi.dmax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.l.i1.dmax.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/l.i1/gpi.dmax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L1.ips100"
+set yrange [0:120]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L1.ips100.ips.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L1.ips100/gpi.ips" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L1.ips100.ips.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L1.ips100/gpi.ips" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L1.ips100"
+set yrange [0:2574]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L1.ips100.imax.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L1.ips100/gpi.imax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L1.ips100.imax.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L1.ips100/gpi.imax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L1.ips100"
+set yrange [0:120]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L1.ips100.dps.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L1.ips100/gpi.dps" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L1.ips100.dps.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L1.ips100/gpi.dps" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L1.ips100"
+set yrange [0:5548]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L1.ips100.dmax.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L1.ips100/gpi.dmax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L1.ips100.dmax.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L1.ips100/gpi.dmax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L1.ips100"
+set yrange [0:5293]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L1.ips100.qps.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L1.ips100/gpi.qps" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L1.ips100.qps.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L1.ips100/gpi.qps" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L1.ips100"
+set yrange [0:391317]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L1.ips100.qmax.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L1.ips100/gpi.qmax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L1.ips100.qmax.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L1.ips100/gpi.qmax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L2.ips500"
+set yrange [0:600]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L2.ips500.ips.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L2.ips500/gpi.ips" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L2.ips500.ips.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L2.ips500/gpi.ips" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L2.ips500"
+set yrange [0:17701]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L2.ips500.imax.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L2.ips500/gpi.imax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L2.ips500.imax.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L2.ips500/gpi.imax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L2.ips500"
+set yrange [0:600]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L2.ips500.dps.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L2.ips500/gpi.dps" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L2.ips500.dps.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L2.ips500/gpi.dps" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L2.ips500"
+set yrange [0:43894]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L2.ips500.dmax.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L2.ips500/gpi.dmax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L2.ips500.dmax.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L2.ips500/gpi.dmax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L2.ips500"
+set yrange [0:5965]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L2.ips500.qps.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L2.ips500/gpi.qps" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L2.ips500.qps.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L2.ips500/gpi.qps" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L2.ips500"
+set yrange [0:42651]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L2.ips500.qmax.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L2.ips500/gpi.qmax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L2.ips500.qmax.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L2.ips500/gpi.qmax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L3.ips1000"
+set yrange [0:1200]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L3.ips1000.ips.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L3.ips1000/gpi.ips" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L3.ips1000.ips.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L3.ips1000/gpi.ips" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L3.ips1000"
+set yrange [0:22564]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L3.ips1000.imax.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L3.ips1000/gpi.imax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L3.ips1000.imax.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L3.ips1000/gpi.imax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L3.ips1000"
+set yrange [0:1200]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L3.ips1000.dps.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L3.ips1000/gpi.dps" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L3.ips1000.dps.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L3.ips1000/gpi.dps" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L3.ips1000"
+set yrange [0:33559]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L3.ips1000.dmax.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L3.ips1000/gpi.dmax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L3.ips1000.dmax.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L3.ips1000/gpi.dmax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L3.ips1000"
+set yrange [0:6042]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L3.ips1000.qps.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L3.ips1000/gpi.qps" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L3.ips1000.qps.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L3.ips1000/gpi.qps" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L3.ips1000"
+set yrange [0:23821]
+set terminal dumb 200, 50
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L3.ips1000.qmax.txt'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L3.ips1000/gpi.qmax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
+set terminal png
+set output 'fbmy5635_rel_202104072149.cy9c5_gcp_c2s30.q.L3.ips1000.qmax.png'
+plot "4000m.fbmy5635_rel_202104072149.cy9c5_gcp_c2s30/q.L3.ips1000/gpi.qmax" using 1:2 title "fbmy5635_rel_202104072149.cy9c5_gcp_c2s30", 
