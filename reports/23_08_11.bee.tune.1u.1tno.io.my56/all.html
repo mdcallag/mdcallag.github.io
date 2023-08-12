@@ -82,7 +82,7 @@ The tested DBMS are:
 <hr />
 <h1 id="summary">Summary</h1>
 <p>
-The numbers are inserts/s for l.i0 and l.i1, indexed docs (or rows) /s for l.x and queries/s for q*.2.
+The numbers are inserts/s for l.i0 and l.i1, indexed docs (or rows) /s for l.x and queries/s for q100, q500, q1000.
 The values are the average rate over the entire test for inserts (IPS) and queries (QPS).
 The range of values for IPS and QPS is split into 3 parts: bottom 25&#37;, middle 50&#37;, top 25&#37;.
 Values in the bottom 25&#37; have a red background, values in the top 25&#37; have a green background and values in the middle have no color.
@@ -90,6 +90,8 @@ A gray background is used for values that can be ignored because the DBMS did no
 Red backgrounds are not used when the minimum value is within 80&#37 of the max value.
 </p>
 <style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
   table td#cmin { background-color:#FF9A9A }
   table td#cmax { background-color:#81FFA6 }
   table td#csla { background-color:#FFC172 }
@@ -100,12 +102,15 @@ Red backgrounds are not used when the minimum value is within 80&#37 of the max 
 </style>
 <table border="1" cellpadding="8" >
 <tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
-<tr><td>800m.my5651_rel.cy10a_bee</td> <td id="cmax">94798</td><td id="cmax">86507</td><td id="cmax">1700</td><td id="cgray">1035</td><td id="cgray">1131</td><td id="cgray">948</td><tr><td>800m.my5651_rel.cy10a1_bee</td> <td id="cmax">96513</td><td id="cmax">78804</td><td id="cmax">1597</td><td id="cgray">1017</td><td id="cgray">1110</td><td id="cgray">932</td><tr><td>800m.my5651_rel.cy10a2_bee</td> <td id="cmax">93864</td><td id="cmax">86413</td><td id="cmax">1670</td><td id="cgray">1018</td><td id="cgray">1127</td><td id="cgray">941</td><tr><td>800m.my5651_rel.cy10a4_bee</td> <td>80678</td><td id="cmin">37988</td><td id="cmin">363</td><td id="cmin">254</td><td id="cmin">161</td><td id="cmin">154</td></table>
+<tr><td>my5651_rel.cy10a_bee</td> <td id="cmax">94798</td><td id="cmax">86507</td><td id="cmax">1700</td><td id="cmax">1035</td><td id="cmax">1131</td><td id="cmax">948</td><tr><td>my5651_rel.cy10a1_bee</td> <td id="cmax">96513</td><td id="cmax">78804</td><td id="cmax">1597</td><td id="cmax">1017</td><td id="cmax">1110</td><td id="cmax">932</td><tr><td>my5651_rel.cy10a2_bee</td> <td id="cmax">93864</td><td id="cmax">86413</td><td id="cmax">1670</td><td id="cmax">1018</td><td id="cmax">1127</td><td id="cmax">941</td><tr><td>my5651_rel.cy10a4_bee</td> <td>80678</td><td id="cmin">37988</td><td id="cmin">363</td><td id="cmin">254</td><td id="cmin">161</td><td id="cmin">154</td></table>
 <p>
 This table has relative throughput, throughput for the DBMS relative to the DBMS in the first line,
 using the absolute throughput from the previous table.
+Values less than 0.95 have a yellow background. Values greater than 1.05 have a blue background.
 </p>
 <style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
   table td#cmin { background-color:#FF9A9A }
   table td#cmax { background-color:#81FFA6 }
   table td#csla { background-color:#FFC172 }
@@ -116,7 +121,7 @@ using the absolute throughput from the previous table.
 </style>
 <table border="1" cellpadding="8" >
 <tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
-<tr><td>800m.my5651_rel.cy10a_bee</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><tr><td>800m.my5651_rel.cy10a1_bee</td> <td>1.02</td><td>0.91</td><td>0.94</td><td>0.98</td><td>0.98</td><td>0.98</td><tr><td>800m.my5651_rel.cy10a2_bee</td> <td>0.99</td><td>1.00</td><td>0.98</td><td>0.98</td><td>1.00</td><td>0.99</td><tr><td>800m.my5651_rel.cy10a4_bee</td> <td>0.85</td><td>0.44</td><td>0.21</td><td>0.25</td><td>0.14</td><td>0.16</td></table>
+<tr><td>my5651_rel.cy10a_bee</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><tr><td>my5651_rel.cy10a1_bee</td> <td>1.02</td><td id="clo">0.91</td><td id="clo">0.94</td><td>0.98</td><td>0.98</td><td>0.98</td><tr><td>my5651_rel.cy10a2_bee</td> <td>0.99</td><td>1.00</td><td>0.98</td><td>0.98</td><td>1.00</td><td>0.99</td><tr><td>my5651_rel.cy10a4_bee</td> <td id="clo">0.85</td><td id="clo">0.44</td><td id="clo">0.21</td><td id="clo">0.25</td><td id="clo">0.14</td><td id="clo">0.16</td></table>
 <p>
 This lists the average rate of inserts/s for the tests that do inserts concurrent with queries.
 For such tests the query rate is listed in the table above.
@@ -124,6 +129,8 @@ The read+write tests are setup so that the insert rate should match the target r
 Cells that are not at least 95&#37; of the target have a red background to indicate a failure to satisfy the target.
 </p>
 <style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
   table td#cmin { background-color:#FF9A9A }
   table td#cmax { background-color:#81FFA6 }
   table td#csla { background-color:#FFC172 }

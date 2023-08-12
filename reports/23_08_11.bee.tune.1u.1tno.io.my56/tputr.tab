@@ -1,4 +1,6 @@
 <style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
   table td#cmin { background-color:#FF9A9A }
   table td#cmax { background-color:#81FFA6 }
   table td#csla { background-color:#FFC172 }
@@ -9,4 +11,4 @@
 </style>
 <table border="1" cellpadding="8" >
 <tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
-<tr><td>800m.my5651_rel.cy10a_bee</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><tr><td>800m.my5651_rel.cy10a1_bee</td> <td>1.02</td><td>0.91</td><td>0.94</td><td>0.98</td><td>0.98</td><td>0.98</td><tr><td>800m.my5651_rel.cy10a2_bee</td> <td>0.99</td><td>1.00</td><td>0.98</td><td>0.98</td><td>1.00</td><td>0.99</td><tr><td>800m.my5651_rel.cy10a4_bee</td> <td>0.85</td><td>0.44</td><td>0.21</td><td>0.25</td><td>0.14</td><td>0.16</td></table>
+<tr><td>my5651_rel.cy10a_bee</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><tr><td>my5651_rel.cy10a1_bee</td> <td>1.02</td><td id="clo">0.91</td><td id="clo">0.94</td><td>0.98</td><td>0.98</td><td>0.98</td><tr><td>my5651_rel.cy10a2_bee</td> <td>0.99</td><td>1.00</td><td>0.98</td><td>0.98</td><td>1.00</td><td>0.99</td><tr><td>my5651_rel.cy10a4_bee</td> <td id="clo">0.85</td><td id="clo">0.44</td><td id="clo">0.21</td><td id="clo">0.25</td><td id="clo">0.14</td><td id="clo">0.16</td></table>
