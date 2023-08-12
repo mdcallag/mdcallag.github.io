@@ -41,6 +41,10 @@ Benchmark reports for 2023
     * MySQL 5.7.40: [cached by InnoDB](reports/23_07_17.c2.in57.8u.1tno.cached/all.html), [cached by OS](reports/23_07_17.c2.in57.8u.1tno.4g/all.html), [IO-bound](reports/23_07_17.c2.in57.8u.1tno.io/all.html)
     * MySQL 8.0.33: [cached by InnoDB](reports/23_07_17.c2.in80.8u.1tno.cached/all.html), [cached by OS](reports/23_07_17.c2.in80.8u.1tno.4g/all.html), [IO-bound](reports/23_07_17.c2.in80.8u.1tno.io/all.html)
     * MySQL 5.6, 5.7, 8.0: [cached by InnoDB](reports/23_07_17.c2.in678.8u.1tno.cached/all.html), [cached by OS](reports/23_07_17.c2.in678.8u.1tno.4g/all.html), [IO-bound](reports/23_07_17.c2.in678.8u.1tno.io/all.html)
+  * small server, August 2023
+    * Cached by InnoDB: [5.6.51](reports/23_08_11.bee.tune.1u.1tno.cached.my56/all.html), [5.7.40](reports/23_08_11.bee.tune.1u.1tno.cached.my57/all.html), [8.0.33](reports/23_08_11.bee.tune.1u.1tno.cached.my80/all.html)
+    * Cached by OS: [5.6.51](reports/23_08_11.bee.tune.1u.1tno.1g.my56/all.html), [5.7.40](reports/23_08_11.bee.tune.1u.1tno.1g.my57/all.html), [8.0.33](reports/23_08_11.bee.tune.1u.1tno.1g.my80/all.html)
+    * IO-bound: [5.6.51](reports/23_08_11.bee.tune.1u.1tno.io.my56/all.html), [5.7.40](reports/23_08_11.bee.tune.1u.1tno.io.my57/all.html), [8.0.33](reports/23_08_11.bee.tune.1u.1tno.io.my80/all.html)
 * Postgres config tuning for the insert benchmark
   * Postgres 15.2 and 15.3, c2-standard-30 server, Aug 2023: [Cached by Postgres](reports/23_08_09.c2.pg15.tune.8u.1tno.cached/all.html), [IO-bound](reports/23_08_09.c2.pg15.tune.8u.1tno.io/all.html)
   * Postgres 15.3, c2-standard-30 server, May 2023
