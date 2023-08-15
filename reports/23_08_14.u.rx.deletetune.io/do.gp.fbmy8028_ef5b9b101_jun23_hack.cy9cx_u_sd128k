@@ -1,0 +1,235 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:97687]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.l.i0.ips.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/l.i0/gpi.ips" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.l.i0.ips.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/l.i0/gpi.ips" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:551582]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.l.i0.imax.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/l.i0/gpi.imax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.l.i0.imax.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/l.i0/gpi.imax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.l.i0.dps.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/l.i0/gpi.dps" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.l.i0.dps.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/l.i0/gpi.dps" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.l.i0.dmax.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/l.i0/gpi.dmax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.l.i0.dmax.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/l.i0/gpi.dmax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:37585]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.l.i1.ips.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/l.i1/gpi.ips" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.l.i1.ips.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/l.i1/gpi.ips" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:499314]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.l.i1.imax.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/l.i1/gpi.imax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.l.i1.imax.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/l.i1/gpi.imax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i1"
+set yrange [0:37345]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.l.i1.dps.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/l.i1/gpi.dps" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.l.i1.dps.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/l.i1/gpi.dps" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i1"
+set yrange [0:500239]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.l.i1.dmax.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/l.i1/gpi.dmax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.l.i1.dmax.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/l.i1/gpi.dmax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L1.ips100"
+set yrange [0:120]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L1.ips100.ips.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L1.ips100/gpi.ips" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L1.ips100.ips.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L1.ips100/gpi.ips" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L1.ips100"
+set yrange [0:10932]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L1.ips100.imax.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L1.ips100/gpi.imax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L1.ips100.imax.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L1.ips100/gpi.imax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L1.ips100"
+set yrange [0:120]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L1.ips100.dps.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L1.ips100/gpi.dps" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L1.ips100.dps.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L1.ips100/gpi.dps" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L1.ips100"
+set yrange [0:10838]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L1.ips100.dmax.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L1.ips100/gpi.dmax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L1.ips100.dmax.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L1.ips100/gpi.dmax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L1.ips100"
+set yrange [0:4276]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L1.ips100.qps.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L1.ips100/gpi.qps" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L1.ips100.qps.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L1.ips100/gpi.qps" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L1.ips100"
+set yrange [0:97234]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L1.ips100.qmax.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L1.ips100/gpi.qmax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L1.ips100.qmax.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L1.ips100/gpi.qmax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L2.ips500"
+set yrange [0:600]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L2.ips500.ips.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L2.ips500/gpi.ips" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L2.ips500.ips.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L2.ips500/gpi.ips" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L2.ips500"
+set yrange [0:60694]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L2.ips500.imax.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L2.ips500/gpi.imax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L2.ips500.imax.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L2.ips500/gpi.imax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L2.ips500"
+set yrange [0:600]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L2.ips500.dps.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L2.ips500/gpi.dps" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L2.ips500.dps.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L2.ips500/gpi.dps" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L2.ips500"
+set yrange [0:109725]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L2.ips500.dmax.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L2.ips500/gpi.dmax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L2.ips500.dmax.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L2.ips500/gpi.dmax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L2.ips500"
+set yrange [0:4774]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L2.ips500.qps.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L2.ips500/gpi.qps" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L2.ips500.qps.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L2.ips500/gpi.qps" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L2.ips500"
+set yrange [0:22280]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L2.ips500.qmax.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L2.ips500/gpi.qmax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L2.ips500.qmax.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L2.ips500/gpi.qmax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L3.ips1000"
+set yrange [0:1618]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L3.ips1000.ips.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L3.ips1000/gpi.ips" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L3.ips1000.ips.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L3.ips1000/gpi.ips" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L3.ips1000"
+set yrange [0:112803]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L3.ips1000.imax.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L3.ips1000/gpi.imax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L3.ips1000.imax.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L3.ips1000/gpi.imax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L3.ips1000"
+set yrange [0:1618]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L3.ips1000.dps.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L3.ips1000/gpi.dps" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L3.ips1000.dps.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L3.ips1000/gpi.dps" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L3.ips1000"
+set yrange [0:112771]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L3.ips1000.dmax.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L3.ips1000/gpi.dmax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L3.ips1000.dmax.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L3.ips1000/gpi.dmax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L3.ips1000"
+set yrange [0:4680]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L3.ips1000.qps.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L3.ips1000/gpi.qps" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L3.ips1000.qps.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L3.ips1000/gpi.qps" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L3.ips1000"
+set yrange [0:20359]
+set terminal dumb 200, 50
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L3.ips1000.qmax.txt'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L3.ips1000/gpi.qmax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
+set terminal png
+set output 'fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k.q.L3.ips1000.qmax.png'
+plot "12000m.fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k/q.L3.ips1000/gpi.qmax" using 1:2 title "fbmy8028_ef5b9b101_jun23_hack.cy9cx_u_sd128k", 
