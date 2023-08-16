@@ -7,6 +7,8 @@ Posts for 2020:
 * [Explaining explain to understand index usage in MySQL](posts_2020/20_08_11_explain_explain.md)
 
 Benchmark reports for 2023
+* Postgres 16 beta (Aug 2023)
+  * Medium server, insert benchmark: [Cached by Postgres](reports/23_08_16.c2.pg16b3.cached/all.html), [IO-bound, wal_compression=lz4](reports/23_08_16.c2.pg16b3.io.27/all.html), [IO-bound, wal_compression=none](reports/23_08_16.c2.pg16b3.io.28/all.html)
 * MyRocks tombstones (Aug 2023)
   * Large server: [Cached by RocksDB](reports/23_08_14.u.rx.deletetune.cached/all.html), [IO-bound](reports/23_08_14.u.rx.deletetune.io/all.html)
 * MyRocks perf regressions with the Insert Benchmark (Aug 2023)
