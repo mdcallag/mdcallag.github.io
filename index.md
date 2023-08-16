@@ -12,8 +12,11 @@ Benchmark reports for 2023
 * MyRocks tombstones (Aug 2023)
   * Large server: [Cached by RocksDB](reports/23_08_14.u.rx.deletetune.cached/all.html), [IO-bound](reports/23_08_14.u.rx.deletetune.io/all.html)
 * MyRocks perf regressions with the Insert Benchmark (Aug 2023)
-  * Medium server (c2-standard-30)
-    * Base config [Cached](reports/23_08_10.c2.56builds.1u.1tno.cached.c/all.html) and [IO-bound](reports/23_08_10.c2.56builds.1u.1tno.io.c/all.html)
+  * Medium server, Aug 2023 part 2
+    * Base config: [Cached](reports/23_08_16.c2.56builds.8u.1tno.cached.c/all.html), [IO-bound](reports/23_08_16.c2.56builds.8u.1tno.io.c/all.html)
+    * c5 config: [Cached](reports/23_08_16.c2.56builds.8u.1tno.cached.c5/all.html), [IO-bound](reports/23_08_16.c2.56builds.8u.1tno.io.c5/all.html)
+  * Medium server, Aug 2023 part 1
+    * Base config: [Cached](reports/23_08_10.c2.56builds.1u.1tno.cached.c/all.html) and [IO-bound](reports/23_08_10.c2.56builds.1u.1tno.io.c/all.html)
     * c5 config: [Cached](reports/23_08_10.c2.56builds.1u.1tno.cached.c5/all.html) and [IO-bound](reports/23_08_10.c2.56builds.1u.1tno.io.c5/all.html)
   * Small server: [Cached by RocksDB](reports/23_08_08.bee.56builds.1u.1tno.cached/all.html), [IO-bound](reports/23_08_08.bee.56builds.1u.1tno.io/all.html)
 * Insert benchmark with deletes (July 2023)

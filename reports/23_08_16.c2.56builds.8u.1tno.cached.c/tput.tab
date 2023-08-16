@@ -1,0 +1,14 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>fbmy5635_rel_202104072149.cy9c_gcp_c2s30</td> <td id="cmax">592592</td><td id="cmax">796517</td><td id="cmax">94096</td><td id="cmax">39033</td><td id="cmax">38007</td><td id="cmax">36741</td><tr><td>fbmy5635_rel_202203072101.cy9c_gcp_c2s30</td> <td>575540</td><td id="cmax">800500</td><td>92054</td><td id="cmax">38256</td><td id="cmax">37122</td><td>35778</td><tr><td>fbmy5635_rel_202205192101.cy9c_gcp_c2s30</td> <td>565371</td><td id="cmax">800500</td><td>90441</td><td>37848</td><td>36874</td><td>35704</td><tr><td>fbmy5635_rel_202208092101.cy9c_gcp_c2s30</td> <td>571428</td><td id="cmax">792574</td><td>89736</td><td>37448</td><td>36564</td><td>35466</td><tr><td>fbmy5635_rel_202210112144.cy9c_gcp_c2s30</td> <td>559440</td><td id="cmax">804523</td><td>90222</td><td>37269</td><td>36276</td><td>35178</td><tr><td>fbmy5635_rel_202302162102.cy9c_gcp_c2s30</td> <td id="cmax">586080</td><td>769712</td><td>90054</td><td>36880</td><td>35754</td><td>34258</td><tr><td>fbmy5635_rel_202304122154.cy9c_gcp_c2s30</td> <td>577617</td><td>769712</td><td>88638</td><td>36839</td><td>35794</td><td>34330</td><tr><td>fbmy5635_rel_202305292102.cy9c_gcp_c2s30</td> <td>579710</td><td>762381</td><td>89221</td><td>36461</td><td>35513</td><td>34036</td><tr><td>fbmy5635_rel_20230529_832.cy9c_gcp_c2s30</td> <td>579710</td><td>737788</td><td>88874</td><td>36268</td><td>35257</td><td>33689</td><tr><td>fbmy5635_rel_20230529_843.cy9c_gcp_c2s30</td> <td>571428</td><td>724434</td><td>87522</td><td>35586</td><td>34367</td><td>32978</td><tr><td>fbmy5635_rel_20230529_850.cy9c_gcp_c2s30</td> <td>571428</td><td>724434</td><td>89410</td><td>35330</td><td>34246</td><td>32899</td></table>
