@@ -75,6 +75,7 @@ Benchmark reports for 2023
     * Cached by Postgres: [1 user](reports/23_07_14.bee.pg152.1u.1tno.cached.tune/all.html) and [4 users](reports/23_07_14.bee.pg152.4u.1tno.cached.tune/all.html)
     * Cached by OS: [1 user](reports/23_07_14.bee.pg152.1u.1tno.1g.tune/all.html) and [4 users](reports/23_07_14.bee.pg152.4u.1tno.1g.tune/all.html)
     * IO-bound: [1 user](reports/23_07_14.bee.pg152.1u.1tno.io.tune/all.html) and [4 users](reports/23_07_14.bee.pg152.4u.1tno.io.tune/all.html)
+  * Postgres 15.2 and 15.3, Beelink Aug 2023: [Cached by Postgres](reports/23_08_16.bee.pg15.cached/all.html), [IO-bound](reports/23_08_16.bee.pg15.io/all.html)
 * Postgres 16
   * at git sha 1ab763fc2
     * Beelink (server with 8 cores, 16G RAM)
