@@ -1,0 +1,14 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>fbmy5635_rel_202104072149.cy10a5_bee</td> <td id="cmax">81086</td><td id="cmax">76019</td><td id="cmax">26745</td><td id="cmax">2028</td><td id="cmax">2048</td><td id="cmax">2044</td><tr><td>fbmy5635_rel_202203072101.cy10a5_bee</td> <td>79499</td><td id="cmax">76026</td><td>26233</td><td>1979</td><td>2001</td><td id="cmax">2043</td><tr><td>fbmy5635_rel_202205192101.cy10a5_bee</td> <td>76716</td><td>75481</td><td>25753</td><td id="cmax">2038</td><td id="cmax">2019</td><td id="cmax">2026</td><tr><td>fbmy5635_rel_202208092101.cy10a5_bee</td> <td>77250</td><td>75212</td><td>25840</td><td>1949</td><td>1984</td><td>1985</td><tr><td>fbmy5635_rel_202210112144.cy10a5_bee</td> <td>76967</td><td>75753</td><td>25773</td><td id="cmax">2002</td><td id="cmax">2024</td><td id="cmax">2051</td><tr><td>fbmy5635_rel_202302162102.cy10a5_bee</td> <td>76908</td><td>75417</td><td>25588</td><td>1930</td><td>1940</td><td>1972</td><tr><td>fbmy5635_rel_202304122154.cy10a5_bee</td> <td>77265</td><td>75738</td><td>25562</td><td>1956</td><td>1922</td><td>1984</td><tr><td>fbmy5635_rel_202305292102.cy10a5_bee</td> <td>75944</td><td id="cmax">75860</td><td>25381</td><td>1972</td><td>1997</td><td>1987</td><tr><td>fbmy5635_rel_20230529_832.cy10a5_bee</td> <td>76307</td><td id="cmax">76004</td><td>25107</td><td>1926</td><td>1914</td><td>1951</td><tr><td>fbmy5635_rel_20230529_843.cy10a5_bee</td> <td>76621</td><td>75467</td><td>25813</td><td>1888</td><td>1933</td><td>1919</td><tr><td>fbmy5635_rel_20230529_850.cy10a5_bee</td> <td>76067</td><td id="cmax">76004</td><td>26076</td><td>1944</td><td>1940</td><td>1957</td></table>
