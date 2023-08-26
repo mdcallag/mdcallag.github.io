@@ -8,6 +8,9 @@ Posts for 2020:
 
 Benchmark reports for 2023
 * Postgres 16 beta (Aug 2023)
+  * Small server, insert benchmark: [
+    * wal_compression=lz4: [Cached by Postgres](reports/23_08_26.bee.pg16beta.1u.1tno.cached.a1/all.html), [IO-bound](reports/23_08_26.bee.pg16beta.1u.1tno.io.a1/all.html)
+    * wal_compression=none: [Cached by Postgres](reports/23_08_26.bee.pg16beta.1u.1tno.cached.a2/all.html), [IO-bound](reports/23_08_26.bee.pg16beta.1u.1tno.io.a2/all.html)
   * Medium server, insert benchmark: [Cached by Postgres](reports/23_08_16.c2.pg16b3.cached/all.html), [IO-bound, wal_compression=lz4](reports/23_08_16.c2.pg16b3.io.27/all.html), [IO-bound, wal_compression=none](reports/23_08_16.c2.pg16b3.io.28/all.html)
 * MyRocks tombstones (Aug 2023)
   * Large server: [Cached by RocksDB](reports/23_08_14.u.rx.deletetune.cached/all.html), [IO-bound](reports/23_08_14.u.rx.deletetune.io/all.html)
