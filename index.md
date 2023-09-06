@@ -15,6 +15,7 @@ Benchmark reports for 2023
 * MyRocks tombstones (Aug 2023)
   * Large server: [Cached by RocksDB](reports/23_08_14.u.rx.deletetune.cached/all.html), [IO-bound](reports/23_08_14.u.rx.deletetune.io/all.html)
 * MyRocks perf regressions with the Insert Benchmark (Aug 2023)
+  * Large server, Sep 2023, part 2: cached workload [base config](reports/23_09_06.u.56builds.20221011.24u.1tno.cached.c), [c5 config](reports/23_09_06.u.56builds.20221011.24u.1tno.cached.c5/all.html)
   * Large server, Aug 2023, part 1
     * Base config: [Cached](reports/23_08_24.u.56builds.24u.1tno.cached.c/all.html), [IO-bound](reports/23_08_24.u.56builds.24u.1tno.io.c/all.html)
     * c5 config: [Cached](reports/23_08_24.u.56builds.24u.1tno.cached.c5/all.html), [IO-bound](reports/23_08_24.u.56builds.24u.1tno.io.c5/all.html)
