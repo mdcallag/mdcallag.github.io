@@ -7,7 +7,7 @@ Posts for 2020:
 * [Explaining explain to understand index usage in MySQL](posts_2020/20_08_11_explain_explain.md)
 
 Posts for 2023:
-* [Chasing down a CPU regression for MyRocks using flamegraphs](posts_2023/
+* [Chasing down a CPU regression for MyRocks using flamegraphs](posts_2023/sep23.ibench.56builds.u.md)
 
 Benchmark reports for 2023
 * Postgres 16 beta (Aug 2023)
