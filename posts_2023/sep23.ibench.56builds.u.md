@@ -1,5 +1,7 @@
 # Chasing down a performance regression in MyRocks 5.6
 
+<img src="../svg/sep23.56builds.ibench.u/480m.fbmy5635_202203072101.cy9c5_u/l.i1/o.perf.g.all.svg">
+
 Flamegraphs for l.i1
 * [2022-03-07](../svg/sep23.56builds.ibench.u/480m.fbmy5635_202203072101.cy9c5_u/l.i1/all_svg.md)
 * [2022-05-19](../svg/sep23.56builds.ibench.u/480m.fbmy5635_202205192101.cy9c5_u/l.i1/all_svg.md)
