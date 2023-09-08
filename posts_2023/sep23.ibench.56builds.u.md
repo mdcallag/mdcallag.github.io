@@ -1,7 +1,7 @@
 # Chasing down a performance regression in MyRocks 5.6
 
 I recently shared two blog posts documenting performance regressions in MyRocks 5.6 releases over the past 2 years. Most are due to new CPU overhead so I used perf and created flamegraphs
-to narrow my search. My focus is on two of the benchmark steps from the [Insert Benchmark](http://smalldatum.blogspot.com/2023/05/updates-to-insert-benchmark.html) -- l.i1 and q100, see below.
+to narrow my search. My focus is on two of the benchmark steps from the [Insert Benchmark](http://smalldatum.blogspot.com/2023/05/updates-to-insert-benchmark.html) -- l.i1 and q100, see below. The results were originally presented [here](http://smalldatum.blogspot.com/2023/09/chasing-performance-regression-in.html) and [here](http://smalldatum.blogspot.com/2023/08/checking-myrocks-56-for-regressions_25.html). I am trying to explain why throughput drops by ~10%.
 
 For the l.i1 benchmark step more time is spent in these functions in newer builds:
 * MemTableInserter::DeleteImpl/SingleDeleteCF under ha_commit_trans
