@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>q.L3.ips1000 per-second graphs</title>
+</head>
+<body>
+<p>
+These have results per 1-second interval for: insert rate (IPS), max insert reponse time, delete rate (DPS), max delete response time, query rate (QPS) and max query response time.
+The results are from 1 client while the test may have N clients where N > 1.
+Deletes might not have been enabled for this benchmark step, in which case those graphs will show zero values.
+The test is run with a rate limit for the number of inserts/s. In some cases the DBMS is unable to sustain that rate. When a DBMS can sustain that rate IPS will be a horizontal line.
+</p>
+<h1 id=\"toc\">Contents</h1>
+<ul>
+<li>pg152_o3_native_lto.cx9a2_bee: <a href="#pg152_o3_native_lto.cx9a2_bee.ips">IPS</a>, <a href="#pg152_o3_native_lto.cx9a2_bee.imax">max insert response time</a>, <a href="#pg152_o3_native_lto.cx9a2_bee.dps">DPS</a>, <a href="#pg152_o3_native_lto.cx9a2_bee.dmax">max delete response time</a>, <a href="#pg152_o3_native_lto.cx9a2_bee.qps">QPS</a> and <a href="#pg152_o3_native_lto.cx9a2_bee.qmax">max query response time</a>
+<li>pg153_o3_native_lto.cx9a2_bee: <a href="#pg153_o3_native_lto.cx9a2_bee.ips">IPS</a>, <a href="#pg153_o3_native_lto.cx9a2_bee.imax">max insert response time</a>, <a href="#pg153_o3_native_lto.cx9a2_bee.dps">DPS</a>, <a href="#pg153_o3_native_lto.cx9a2_bee.dmax">max delete response time</a>, <a href="#pg153_o3_native_lto.cx9a2_bee.qps">QPS</a> and <a href="#pg153_o3_native_lto.cx9a2_bee.qmax">max query response time</a>
+<li>pg154_o3_native_lto.cx9a2_bee: <a href="#pg154_o3_native_lto.cx9a2_bee.ips">IPS</a>, <a href="#pg154_o3_native_lto.cx9a2_bee.imax">max insert response time</a>, <a href="#pg154_o3_native_lto.cx9a2_bee.dps">DPS</a>, <a href="#pg154_o3_native_lto.cx9a2_bee.dmax">max delete response time</a>, <a href="#pg154_o3_native_lto.cx9a2_bee.qps">QPS</a> and <a href="#pg154_o3_native_lto.cx9a2_bee.qmax">max query response time</a>
+<li>pg16beta1_o3_native_lto.cx9a2_bee: <a href="#pg16beta1_o3_native_lto.cx9a2_bee.ips">IPS</a>, <a href="#pg16beta1_o3_native_lto.cx9a2_bee.imax">max insert response time</a>, <a href="#pg16beta1_o3_native_lto.cx9a2_bee.dps">DPS</a>, <a href="#pg16beta1_o3_native_lto.cx9a2_bee.dmax">max delete response time</a>, <a href="#pg16beta1_o3_native_lto.cx9a2_bee.qps">QPS</a> and <a href="#pg16beta1_o3_native_lto.cx9a2_bee.qmax">max query response time</a>
+<li>pg16beta2_o3_native_lto.cx9a2_bee: <a href="#pg16beta2_o3_native_lto.cx9a2_bee.ips">IPS</a>, <a href="#pg16beta2_o3_native_lto.cx9a2_bee.imax">max insert response time</a>, <a href="#pg16beta2_o3_native_lto.cx9a2_bee.dps">DPS</a>, <a href="#pg16beta2_o3_native_lto.cx9a2_bee.dmax">max delete response time</a>, <a href="#pg16beta2_o3_native_lto.cx9a2_bee.qps">QPS</a> and <a href="#pg16beta2_o3_native_lto.cx9a2_bee.qmax">max query response time</a>
+<li>pg16beta3_o3_native_lto.cx9a2_bee: <a href="#pg16beta3_o3_native_lto.cx9a2_bee.ips">IPS</a>, <a href="#pg16beta3_o3_native_lto.cx9a2_bee.imax">max insert response time</a>, <a href="#pg16beta3_o3_native_lto.cx9a2_bee.dps">DPS</a>, <a href="#pg16beta3_o3_native_lto.cx9a2_bee.dmax">max delete response time</a>, <a href="#pg16beta3_o3_native_lto.cx9a2_bee.qps">QPS</a> and <a href="#pg16beta3_o3_native_lto.cx9a2_bee.qmax">max query response time</a>
+<li>pg16rc1_o3_native_lto.cx9a2_bee: <a href="#pg16rc1_o3_native_lto.cx9a2_bee.ips">IPS</a>, <a href="#pg16rc1_o3_native_lto.cx9a2_bee.imax">max insert response time</a>, <a href="#pg16rc1_o3_native_lto.cx9a2_bee.dps">DPS</a>, <a href="#pg16rc1_o3_native_lto.cx9a2_bee.dmax">max delete response time</a>, <a href="#pg16rc1_o3_native_lto.cx9a2_bee.qps">QPS</a> and <a href="#pg16rc1_o3_native_lto.cx9a2_bee.qmax">max query response time</a>
+<li>pg160_o3_native_lto.cx9a2_bee: <a href="#pg160_o3_native_lto.cx9a2_bee.ips">IPS</a>, <a href="#pg160_o3_native_lto.cx9a2_bee.imax">max insert response time</a>, <a href="#pg160_o3_native_lto.cx9a2_bee.dps">DPS</a>, <a href="#pg160_o3_native_lto.cx9a2_bee.dmax">max delete response time</a>, <a href="#pg160_o3_native_lto.cx9a2_bee.qps">QPS</a> and <a href="#pg160_o3_native_lto.cx9a2_bee.qmax">max query response time</a>
+</ul>
+<hr />
+<h1 id="pg152_o3_native_lto.cx9a2_bee.ips">pg152_o3_native_lto.cx9a2_bee: IPS</h1>
+<img src="pg152_o3_native_lto.cx9a2_bee.q.L3.ips1000.ips.png">pg152_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg152_o3_native_lto.cx9a2_bee.imax">pg152_o3_native_lto.cx9a2_bee: max insert response time</h1>
+<img src="pg152_o3_native_lto.cx9a2_bee.q.L3.ips1000.imax.png">pg152_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg152_o3_native_lto.cx9a2_bee.dps">pg152_o3_native_lto.cx9a2_bee: DPS</h1>
+<img src="pg152_o3_native_lto.cx9a2_bee.q.L3.ips1000.dps.png">pg152_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg152_o3_native_lto.cx9a2_bee.dmax">pg152_o3_native_lto.cx9a2_bee: max delete response time</h1>
+<img src="pg152_o3_native_lto.cx9a2_bee.q.L3.ips1000.dmax.png">pg152_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg152_o3_native_lto.cx9a2_bee.qps">pg152_o3_native_lto.cx9a2_bee: QPS</h1>
+<img src="pg152_o3_native_lto.cx9a2_bee.q.L3.ips1000.qps.png">pg152_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg152_o3_native_lto.cx9a2_bee.qmax">pg152_o3_native_lto.cx9a2_bee: max query response time</h1>
+<img src="pg152_o3_native_lto.cx9a2_bee.q.L3.ips1000.qmax.png">pg152_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg153_o3_native_lto.cx9a2_bee.ips">pg153_o3_native_lto.cx9a2_bee: IPS</h1>
+<img src="pg153_o3_native_lto.cx9a2_bee.q.L3.ips1000.ips.png">pg153_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg153_o3_native_lto.cx9a2_bee.imax">pg153_o3_native_lto.cx9a2_bee: max insert response time</h1>
+<img src="pg153_o3_native_lto.cx9a2_bee.q.L3.ips1000.imax.png">pg153_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg153_o3_native_lto.cx9a2_bee.dps">pg153_o3_native_lto.cx9a2_bee: DPS</h1>
+<img src="pg153_o3_native_lto.cx9a2_bee.q.L3.ips1000.dps.png">pg153_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg153_o3_native_lto.cx9a2_bee.dmax">pg153_o3_native_lto.cx9a2_bee: max delete response time</h1>
+<img src="pg153_o3_native_lto.cx9a2_bee.q.L3.ips1000.dmax.png">pg153_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg153_o3_native_lto.cx9a2_bee.qps">pg153_o3_native_lto.cx9a2_bee: QPS</h1>
+<img src="pg153_o3_native_lto.cx9a2_bee.q.L3.ips1000.qps.png">pg153_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg153_o3_native_lto.cx9a2_bee.qmax">pg153_o3_native_lto.cx9a2_bee: max query response time</h1>
+<img src="pg153_o3_native_lto.cx9a2_bee.q.L3.ips1000.qmax.png">pg153_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg154_o3_native_lto.cx9a2_bee.ips">pg154_o3_native_lto.cx9a2_bee: IPS</h1>
+<img src="pg154_o3_native_lto.cx9a2_bee.q.L3.ips1000.ips.png">pg154_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg154_o3_native_lto.cx9a2_bee.imax">pg154_o3_native_lto.cx9a2_bee: max insert response time</h1>
+<img src="pg154_o3_native_lto.cx9a2_bee.q.L3.ips1000.imax.png">pg154_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg154_o3_native_lto.cx9a2_bee.dps">pg154_o3_native_lto.cx9a2_bee: DPS</h1>
+<img src="pg154_o3_native_lto.cx9a2_bee.q.L3.ips1000.dps.png">pg154_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg154_o3_native_lto.cx9a2_bee.dmax">pg154_o3_native_lto.cx9a2_bee: max delete response time</h1>
+<img src="pg154_o3_native_lto.cx9a2_bee.q.L3.ips1000.dmax.png">pg154_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg154_o3_native_lto.cx9a2_bee.qps">pg154_o3_native_lto.cx9a2_bee: QPS</h1>
+<img src="pg154_o3_native_lto.cx9a2_bee.q.L3.ips1000.qps.png">pg154_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg154_o3_native_lto.cx9a2_bee.qmax">pg154_o3_native_lto.cx9a2_bee: max query response time</h1>
+<img src="pg154_o3_native_lto.cx9a2_bee.q.L3.ips1000.qmax.png">pg154_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta1_o3_native_lto.cx9a2_bee.ips">pg16beta1_o3_native_lto.cx9a2_bee: IPS</h1>
+<img src="pg16beta1_o3_native_lto.cx9a2_bee.q.L3.ips1000.ips.png">pg16beta1_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta1_o3_native_lto.cx9a2_bee.imax">pg16beta1_o3_native_lto.cx9a2_bee: max insert response time</h1>
+<img src="pg16beta1_o3_native_lto.cx9a2_bee.q.L3.ips1000.imax.png">pg16beta1_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta1_o3_native_lto.cx9a2_bee.dps">pg16beta1_o3_native_lto.cx9a2_bee: DPS</h1>
+<img src="pg16beta1_o3_native_lto.cx9a2_bee.q.L3.ips1000.dps.png">pg16beta1_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta1_o3_native_lto.cx9a2_bee.dmax">pg16beta1_o3_native_lto.cx9a2_bee: max delete response time</h1>
+<img src="pg16beta1_o3_native_lto.cx9a2_bee.q.L3.ips1000.dmax.png">pg16beta1_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta1_o3_native_lto.cx9a2_bee.qps">pg16beta1_o3_native_lto.cx9a2_bee: QPS</h1>
+<img src="pg16beta1_o3_native_lto.cx9a2_bee.q.L3.ips1000.qps.png">pg16beta1_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta1_o3_native_lto.cx9a2_bee.qmax">pg16beta1_o3_native_lto.cx9a2_bee: max query response time</h1>
+<img src="pg16beta1_o3_native_lto.cx9a2_bee.q.L3.ips1000.qmax.png">pg16beta1_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta2_o3_native_lto.cx9a2_bee.ips">pg16beta2_o3_native_lto.cx9a2_bee: IPS</h1>
+<img src="pg16beta2_o3_native_lto.cx9a2_bee.q.L3.ips1000.ips.png">pg16beta2_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta2_o3_native_lto.cx9a2_bee.imax">pg16beta2_o3_native_lto.cx9a2_bee: max insert response time</h1>
+<img src="pg16beta2_o3_native_lto.cx9a2_bee.q.L3.ips1000.imax.png">pg16beta2_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta2_o3_native_lto.cx9a2_bee.dps">pg16beta2_o3_native_lto.cx9a2_bee: DPS</h1>
+<img src="pg16beta2_o3_native_lto.cx9a2_bee.q.L3.ips1000.dps.png">pg16beta2_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta2_o3_native_lto.cx9a2_bee.dmax">pg16beta2_o3_native_lto.cx9a2_bee: max delete response time</h1>
+<img src="pg16beta2_o3_native_lto.cx9a2_bee.q.L3.ips1000.dmax.png">pg16beta2_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta2_o3_native_lto.cx9a2_bee.qps">pg16beta2_o3_native_lto.cx9a2_bee: QPS</h1>
+<img src="pg16beta2_o3_native_lto.cx9a2_bee.q.L3.ips1000.qps.png">pg16beta2_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta2_o3_native_lto.cx9a2_bee.qmax">pg16beta2_o3_native_lto.cx9a2_bee: max query response time</h1>
+<img src="pg16beta2_o3_native_lto.cx9a2_bee.q.L3.ips1000.qmax.png">pg16beta2_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta3_o3_native_lto.cx9a2_bee.ips">pg16beta3_o3_native_lto.cx9a2_bee: IPS</h1>
+<img src="pg16beta3_o3_native_lto.cx9a2_bee.q.L3.ips1000.ips.png">pg16beta3_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta3_o3_native_lto.cx9a2_bee.imax">pg16beta3_o3_native_lto.cx9a2_bee: max insert response time</h1>
+<img src="pg16beta3_o3_native_lto.cx9a2_bee.q.L3.ips1000.imax.png">pg16beta3_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta3_o3_native_lto.cx9a2_bee.dps">pg16beta3_o3_native_lto.cx9a2_bee: DPS</h1>
+<img src="pg16beta3_o3_native_lto.cx9a2_bee.q.L3.ips1000.dps.png">pg16beta3_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta3_o3_native_lto.cx9a2_bee.dmax">pg16beta3_o3_native_lto.cx9a2_bee: max delete response time</h1>
+<img src="pg16beta3_o3_native_lto.cx9a2_bee.q.L3.ips1000.dmax.png">pg16beta3_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta3_o3_native_lto.cx9a2_bee.qps">pg16beta3_o3_native_lto.cx9a2_bee: QPS</h1>
+<img src="pg16beta3_o3_native_lto.cx9a2_bee.q.L3.ips1000.qps.png">pg16beta3_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16beta3_o3_native_lto.cx9a2_bee.qmax">pg16beta3_o3_native_lto.cx9a2_bee: max query response time</h1>
+<img src="pg16beta3_o3_native_lto.cx9a2_bee.q.L3.ips1000.qmax.png">pg16beta3_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16rc1_o3_native_lto.cx9a2_bee.ips">pg16rc1_o3_native_lto.cx9a2_bee: IPS</h1>
+<img src="pg16rc1_o3_native_lto.cx9a2_bee.q.L3.ips1000.ips.png">pg16rc1_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16rc1_o3_native_lto.cx9a2_bee.imax">pg16rc1_o3_native_lto.cx9a2_bee: max insert response time</h1>
+<img src="pg16rc1_o3_native_lto.cx9a2_bee.q.L3.ips1000.imax.png">pg16rc1_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16rc1_o3_native_lto.cx9a2_bee.dps">pg16rc1_o3_native_lto.cx9a2_bee: DPS</h1>
+<img src="pg16rc1_o3_native_lto.cx9a2_bee.q.L3.ips1000.dps.png">pg16rc1_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16rc1_o3_native_lto.cx9a2_bee.dmax">pg16rc1_o3_native_lto.cx9a2_bee: max delete response time</h1>
+<img src="pg16rc1_o3_native_lto.cx9a2_bee.q.L3.ips1000.dmax.png">pg16rc1_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16rc1_o3_native_lto.cx9a2_bee.qps">pg16rc1_o3_native_lto.cx9a2_bee: QPS</h1>
+<img src="pg16rc1_o3_native_lto.cx9a2_bee.q.L3.ips1000.qps.png">pg16rc1_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg16rc1_o3_native_lto.cx9a2_bee.qmax">pg16rc1_o3_native_lto.cx9a2_bee: max query response time</h1>
+<img src="pg16rc1_o3_native_lto.cx9a2_bee.q.L3.ips1000.qmax.png">pg16rc1_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg160_o3_native_lto.cx9a2_bee.ips">pg160_o3_native_lto.cx9a2_bee: IPS</h1>
+<img src="pg160_o3_native_lto.cx9a2_bee.q.L3.ips1000.ips.png">pg160_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg160_o3_native_lto.cx9a2_bee.imax">pg160_o3_native_lto.cx9a2_bee: max insert response time</h1>
+<img src="pg160_o3_native_lto.cx9a2_bee.q.L3.ips1000.imax.png">pg160_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg160_o3_native_lto.cx9a2_bee.dps">pg160_o3_native_lto.cx9a2_bee: DPS</h1>
+<img src="pg160_o3_native_lto.cx9a2_bee.q.L3.ips1000.dps.png">pg160_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg160_o3_native_lto.cx9a2_bee.dmax">pg160_o3_native_lto.cx9a2_bee: max delete response time</h1>
+<img src="pg160_o3_native_lto.cx9a2_bee.q.L3.ips1000.dmax.png">pg160_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg160_o3_native_lto.cx9a2_bee.qps">pg160_o3_native_lto.cx9a2_bee: QPS</h1>
+<img src="pg160_o3_native_lto.cx9a2_bee.q.L3.ips1000.qps.png">pg160_o3_native_lto.cx9a2_bee</a>
+<hr />
+<h1 id="pg160_o3_native_lto.cx9a2_bee.qmax">pg160_o3_native_lto.cx9a2_bee: max query response time</h1>
+<img src="pg160_o3_native_lto.cx9a2_bee.q.L3.ips1000.qmax.png">pg160_o3_native_lto.cx9a2_bee</a>
+</ul>
+</body>
+</html>
