@@ -1,0 +1,14 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>pg152_o3_native_lto.cx7a27_gcp_c2s30</td> <td id="cmax">1025641</td><td>2320290</td><td id="cmax">240577</td><td id="cmax">113260</td><td>109208</td><td>108046</td><tr><td>pg153_o3_native_lto.cx7a27_gcp_c2s30</td> <td>1012658</td><td>2320290</td><td>225225</td><td>112255</td><td>108780</td><td>107108</td><tr><td>pg154_o3_native_lto.cx7a27_gcp_c2s30</td> <td>1000000</td><td id="cmax">2354412</td><td>228397</td><td>112526</td><td>109057</td><td>107912</td><tr><td>pg16beta1_o3_native_lto.cx7a27_gcp_c2s30</td> <td>987654</td><td id="cmax">2389552</td><td id="cmax">237624</td><td>111648</td><td>109118</td><td>108317</td><tr><td>pg16beta2_o3_native_lto.cx7a27_gcp_c2s30</td> <td>1012658</td><td id="cmax">2389552</td><td>231080</td><td id="cmax">113283</td><td id="cmax">109922</td><td id="cmax">109074</td><tr><td>pg16beta3_o3_native_lto.cx7a27_gcp_c2s30</td> <td>993789</td><td id="cmax">2389552</td><td>231481</td><td>112842</td><td>109647</td><td>108294</td><tr><td>pg16rc1_o3_native_lto.cx7a27_gcp_c2s30</td> <td>1012658</td><td id="cmax">2354412</td><td>231258</td><td id="cmax">113090</td><td>109345</td><td>108139</td><tr><td>pg160_o3_native_lto.cx7a27_gcp_c2s30</td> <td>1000000</td><td>2193151</td><td>224278</td><td id="cmax">113084</td><td id="cmax">110163</td><td>107879</td></table>
