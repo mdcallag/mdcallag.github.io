@@ -1,0 +1,14 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
+<tr><td>my5621_rel.cy10a_bee</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><tr><td>my5651_rel.cy10a_bee</td> <td>0.96</td><td>0.96</td><td>0.99</td><td>0.96</td><td>0.95</td><td>0.96</td><tr><td>my5710_rel.cy10a_bee</td> <td id="clo">0.85</td><td id="chi">1.39</td><td id="chi">1.12</td><td id="clo">0.74</td><td id="clo">0.75</td><td id="clo">0.74</td><tr><td>my5721_rel.cy10a_bee</td> <td id="clo">0.82</td><td id="chi">1.35</td><td id="chi">1.09</td><td id="clo">0.72</td><td id="clo">0.72</td><td id="clo">0.72</td><tr><td>my5732_rel.cy10a_bee</td> <td id="clo">0.83</td><td id="chi">1.29</td><td id="chi">1.11</td><td id="clo">0.72</td><td id="clo">0.71</td><td id="clo">0.73</td><tr><td>my5743_rel.cy10a_bee</td> <td id="clo">0.80</td><td id="chi">1.28</td><td id="chi">1.08</td><td id="clo">0.70</td><td id="clo">0.70</td><td id="clo">0.71</td><tr><td>my8013_rel.cy10a_bee</td> <td id="clo">0.66</td><td id="chi">1.20</td><td id="clo">0.83</td><td id="clo">0.62</td><td id="clo">0.64</td><td id="clo">0.65</td><tr><td>my8020_rel.cy10a_bee</td> <td id="clo">0.61</td><td id="chi">1.16</td><td id="clo">0.87</td><td id="clo">0.60</td><td id="clo">0.60</td><td id="clo">0.61</td><tr><td>my8027_rel.cy10a_bee</td> <td id="clo">0.60</td><td id="chi">1.33</td><td>0.95</td><td id="clo">0.52</td><td id="clo">0.52</td><td id="clo">0.53</td><tr><td>my8034_rel.cy10a_bee</td> <td id="clo">0.53</td><td id="chi">1.21</td><td id="clo">0.83</td><td id="clo">0.52</td><td id="clo">0.52</td><td id="clo">0.53</td></table>
