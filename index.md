@@ -10,6 +10,8 @@ Posts for 2023:
 * [Chasing down a CPU regression for MyRocks using flamegraphs](posts_2023/sep23.ibench.56builds.u.md)
 
 Benchmark reports for 2023
+* jemalloc
+  * Medium server, focus on jemalloc 5.2.1: IO-bound with [LRU block cache](reports/23_09_25.c2.ib.jemalloc521.io.c5/all.html), [Hyper Clock cache](reports/23_09_25.c2.ib.jemalloc521.io.c7/all.html)
 * Postgres 16 (Sep 2023)
   * Small server, insert benchmark
     * wal_compression=lz4: [Cached by Postgres](reports/23_09_18.bee.ib.pg160.1u.1tno.cached.a1/all.html), [IO-bound](reports/23_09_18.bee.ib.pg160.1u.1tno.io.a1/all.html)
