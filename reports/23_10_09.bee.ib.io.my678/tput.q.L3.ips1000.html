@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>q.L3.ips1000 per-second graphs</title>
+</head>
+<body>
+<p>
+These have results per 1-second interval for: insert rate (IPS), max insert reponse time, delete rate (DPS), max delete response time, query rate (QPS) and max query response time.
+The results are from 1 client while the test may have N clients where N > 1.
+Deletes might not have been enabled for this benchmark step, in which case those graphs will show zero values.
+The test is run with a rate limit for the number of inserts/s. In some cases the DBMS is unable to sustain that rate. When a DBMS can sustain that rate IPS will be a horizontal line.
+</p>
+<h1 id=\"toc\">Contents</h1>
+<ul>
+<li>my5621_rel.cy10a_bee: <a href="#my5621_rel.cy10a_bee.ips">IPS</a>, <a href="#my5621_rel.cy10a_bee.imax">max insert response time</a>, <a href="#my5621_rel.cy10a_bee.dps">DPS</a>, <a href="#my5621_rel.cy10a_bee.dmax">max delete response time</a>, <a href="#my5621_rel.cy10a_bee.qps">QPS</a> and <a href="#my5621_rel.cy10a_bee.qmax">max query response time</a>
+<li>my5651_rel.cy10a_bee: <a href="#my5651_rel.cy10a_bee.ips">IPS</a>, <a href="#my5651_rel.cy10a_bee.imax">max insert response time</a>, <a href="#my5651_rel.cy10a_bee.dps">DPS</a>, <a href="#my5651_rel.cy10a_bee.dmax">max delete response time</a>, <a href="#my5651_rel.cy10a_bee.qps">QPS</a> and <a href="#my5651_rel.cy10a_bee.qmax">max query response time</a>
+<li>my5710_rel.cy10a_bee: <a href="#my5710_rel.cy10a_bee.ips">IPS</a>, <a href="#my5710_rel.cy10a_bee.imax">max insert response time</a>, <a href="#my5710_rel.cy10a_bee.dps">DPS</a>, <a href="#my5710_rel.cy10a_bee.dmax">max delete response time</a>, <a href="#my5710_rel.cy10a_bee.qps">QPS</a> and <a href="#my5710_rel.cy10a_bee.qmax">max query response time</a>
+<li>my5721_rel.cy10a_bee: <a href="#my5721_rel.cy10a_bee.ips">IPS</a>, <a href="#my5721_rel.cy10a_bee.imax">max insert response time</a>, <a href="#my5721_rel.cy10a_bee.dps">DPS</a>, <a href="#my5721_rel.cy10a_bee.dmax">max delete response time</a>, <a href="#my5721_rel.cy10a_bee.qps">QPS</a> and <a href="#my5721_rel.cy10a_bee.qmax">max query response time</a>
+<li>my5732_rel.cy10a_bee: <a href="#my5732_rel.cy10a_bee.ips">IPS</a>, <a href="#my5732_rel.cy10a_bee.imax">max insert response time</a>, <a href="#my5732_rel.cy10a_bee.dps">DPS</a>, <a href="#my5732_rel.cy10a_bee.dmax">max delete response time</a>, <a href="#my5732_rel.cy10a_bee.qps">QPS</a> and <a href="#my5732_rel.cy10a_bee.qmax">max query response time</a>
+<li>my5743_rel.cy10a_bee: <a href="#my5743_rel.cy10a_bee.ips">IPS</a>, <a href="#my5743_rel.cy10a_bee.imax">max insert response time</a>, <a href="#my5743_rel.cy10a_bee.dps">DPS</a>, <a href="#my5743_rel.cy10a_bee.dmax">max delete response time</a>, <a href="#my5743_rel.cy10a_bee.qps">QPS</a> and <a href="#my5743_rel.cy10a_bee.qmax">max query response time</a>
+<li>my8013_rel.cy10a_bee: <a href="#my8013_rel.cy10a_bee.ips">IPS</a>, <a href="#my8013_rel.cy10a_bee.imax">max insert response time</a>, <a href="#my8013_rel.cy10a_bee.dps">DPS</a>, <a href="#my8013_rel.cy10a_bee.dmax">max delete response time</a>, <a href="#my8013_rel.cy10a_bee.qps">QPS</a> and <a href="#my8013_rel.cy10a_bee.qmax">max query response time</a>
+<li>my8020_rel.cy10a_bee: <a href="#my8020_rel.cy10a_bee.ips">IPS</a>, <a href="#my8020_rel.cy10a_bee.imax">max insert response time</a>, <a href="#my8020_rel.cy10a_bee.dps">DPS</a>, <a href="#my8020_rel.cy10a_bee.dmax">max delete response time</a>, <a href="#my8020_rel.cy10a_bee.qps">QPS</a> and <a href="#my8020_rel.cy10a_bee.qmax">max query response time</a>
+<li>my8027_rel.cy10a_bee: <a href="#my8027_rel.cy10a_bee.ips">IPS</a>, <a href="#my8027_rel.cy10a_bee.imax">max insert response time</a>, <a href="#my8027_rel.cy10a_bee.dps">DPS</a>, <a href="#my8027_rel.cy10a_bee.dmax">max delete response time</a>, <a href="#my8027_rel.cy10a_bee.qps">QPS</a> and <a href="#my8027_rel.cy10a_bee.qmax">max query response time</a>
+<li>my8034_rel.cy10a_bee: <a href="#my8034_rel.cy10a_bee.ips">IPS</a>, <a href="#my8034_rel.cy10a_bee.imax">max insert response time</a>, <a href="#my8034_rel.cy10a_bee.dps">DPS</a>, <a href="#my8034_rel.cy10a_bee.dmax">max delete response time</a>, <a href="#my8034_rel.cy10a_bee.qps">QPS</a> and <a href="#my8034_rel.cy10a_bee.qmax">max query response time</a>
+</ul>
+<hr />
+<h1 id="my5621_rel.cy10a_bee.ips">my5621_rel.cy10a_bee: IPS</h1>
+<img src="my5621_rel.cy10a_bee.q.L3.ips1000.ips.png">my5621_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5621_rel.cy10a_bee.imax">my5621_rel.cy10a_bee: max insert response time</h1>
+<img src="my5621_rel.cy10a_bee.q.L3.ips1000.imax.png">my5621_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5621_rel.cy10a_bee.dps">my5621_rel.cy10a_bee: DPS</h1>
+<img src="my5621_rel.cy10a_bee.q.L3.ips1000.dps.png">my5621_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5621_rel.cy10a_bee.dmax">my5621_rel.cy10a_bee: max delete response time</h1>
+<img src="my5621_rel.cy10a_bee.q.L3.ips1000.dmax.png">my5621_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5621_rel.cy10a_bee.qps">my5621_rel.cy10a_bee: QPS</h1>
+<img src="my5621_rel.cy10a_bee.q.L3.ips1000.qps.png">my5621_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5621_rel.cy10a_bee.qmax">my5621_rel.cy10a_bee: max query response time</h1>
+<img src="my5621_rel.cy10a_bee.q.L3.ips1000.qmax.png">my5621_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5651_rel.cy10a_bee.ips">my5651_rel.cy10a_bee: IPS</h1>
+<img src="my5651_rel.cy10a_bee.q.L3.ips1000.ips.png">my5651_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5651_rel.cy10a_bee.imax">my5651_rel.cy10a_bee: max insert response time</h1>
+<img src="my5651_rel.cy10a_bee.q.L3.ips1000.imax.png">my5651_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5651_rel.cy10a_bee.dps">my5651_rel.cy10a_bee: DPS</h1>
+<img src="my5651_rel.cy10a_bee.q.L3.ips1000.dps.png">my5651_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5651_rel.cy10a_bee.dmax">my5651_rel.cy10a_bee: max delete response time</h1>
+<img src="my5651_rel.cy10a_bee.q.L3.ips1000.dmax.png">my5651_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5651_rel.cy10a_bee.qps">my5651_rel.cy10a_bee: QPS</h1>
+<img src="my5651_rel.cy10a_bee.q.L3.ips1000.qps.png">my5651_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5651_rel.cy10a_bee.qmax">my5651_rel.cy10a_bee: max query response time</h1>
+<img src="my5651_rel.cy10a_bee.q.L3.ips1000.qmax.png">my5651_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5710_rel.cy10a_bee.ips">my5710_rel.cy10a_bee: IPS</h1>
+<img src="my5710_rel.cy10a_bee.q.L3.ips1000.ips.png">my5710_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5710_rel.cy10a_bee.imax">my5710_rel.cy10a_bee: max insert response time</h1>
+<img src="my5710_rel.cy10a_bee.q.L3.ips1000.imax.png">my5710_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5710_rel.cy10a_bee.dps">my5710_rel.cy10a_bee: DPS</h1>
+<img src="my5710_rel.cy10a_bee.q.L3.ips1000.dps.png">my5710_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5710_rel.cy10a_bee.dmax">my5710_rel.cy10a_bee: max delete response time</h1>
+<img src="my5710_rel.cy10a_bee.q.L3.ips1000.dmax.png">my5710_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5710_rel.cy10a_bee.qps">my5710_rel.cy10a_bee: QPS</h1>
+<img src="my5710_rel.cy10a_bee.q.L3.ips1000.qps.png">my5710_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5710_rel.cy10a_bee.qmax">my5710_rel.cy10a_bee: max query response time</h1>
+<img src="my5710_rel.cy10a_bee.q.L3.ips1000.qmax.png">my5710_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5721_rel.cy10a_bee.ips">my5721_rel.cy10a_bee: IPS</h1>
+<img src="my5721_rel.cy10a_bee.q.L3.ips1000.ips.png">my5721_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5721_rel.cy10a_bee.imax">my5721_rel.cy10a_bee: max insert response time</h1>
+<img src="my5721_rel.cy10a_bee.q.L3.ips1000.imax.png">my5721_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5721_rel.cy10a_bee.dps">my5721_rel.cy10a_bee: DPS</h1>
+<img src="my5721_rel.cy10a_bee.q.L3.ips1000.dps.png">my5721_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5721_rel.cy10a_bee.dmax">my5721_rel.cy10a_bee: max delete response time</h1>
+<img src="my5721_rel.cy10a_bee.q.L3.ips1000.dmax.png">my5721_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5721_rel.cy10a_bee.qps">my5721_rel.cy10a_bee: QPS</h1>
+<img src="my5721_rel.cy10a_bee.q.L3.ips1000.qps.png">my5721_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5721_rel.cy10a_bee.qmax">my5721_rel.cy10a_bee: max query response time</h1>
+<img src="my5721_rel.cy10a_bee.q.L3.ips1000.qmax.png">my5721_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5732_rel.cy10a_bee.ips">my5732_rel.cy10a_bee: IPS</h1>
+<img src="my5732_rel.cy10a_bee.q.L3.ips1000.ips.png">my5732_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5732_rel.cy10a_bee.imax">my5732_rel.cy10a_bee: max insert response time</h1>
+<img src="my5732_rel.cy10a_bee.q.L3.ips1000.imax.png">my5732_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5732_rel.cy10a_bee.dps">my5732_rel.cy10a_bee: DPS</h1>
+<img src="my5732_rel.cy10a_bee.q.L3.ips1000.dps.png">my5732_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5732_rel.cy10a_bee.dmax">my5732_rel.cy10a_bee: max delete response time</h1>
+<img src="my5732_rel.cy10a_bee.q.L3.ips1000.dmax.png">my5732_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5732_rel.cy10a_bee.qps">my5732_rel.cy10a_bee: QPS</h1>
+<img src="my5732_rel.cy10a_bee.q.L3.ips1000.qps.png">my5732_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5732_rel.cy10a_bee.qmax">my5732_rel.cy10a_bee: max query response time</h1>
+<img src="my5732_rel.cy10a_bee.q.L3.ips1000.qmax.png">my5732_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5743_rel.cy10a_bee.ips">my5743_rel.cy10a_bee: IPS</h1>
+<img src="my5743_rel.cy10a_bee.q.L3.ips1000.ips.png">my5743_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5743_rel.cy10a_bee.imax">my5743_rel.cy10a_bee: max insert response time</h1>
+<img src="my5743_rel.cy10a_bee.q.L3.ips1000.imax.png">my5743_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5743_rel.cy10a_bee.dps">my5743_rel.cy10a_bee: DPS</h1>
+<img src="my5743_rel.cy10a_bee.q.L3.ips1000.dps.png">my5743_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5743_rel.cy10a_bee.dmax">my5743_rel.cy10a_bee: max delete response time</h1>
+<img src="my5743_rel.cy10a_bee.q.L3.ips1000.dmax.png">my5743_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5743_rel.cy10a_bee.qps">my5743_rel.cy10a_bee: QPS</h1>
+<img src="my5743_rel.cy10a_bee.q.L3.ips1000.qps.png">my5743_rel.cy10a_bee</a>
+<hr />
+<h1 id="my5743_rel.cy10a_bee.qmax">my5743_rel.cy10a_bee: max query response time</h1>
+<img src="my5743_rel.cy10a_bee.q.L3.ips1000.qmax.png">my5743_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8013_rel.cy10a_bee.ips">my8013_rel.cy10a_bee: IPS</h1>
+<img src="my8013_rel.cy10a_bee.q.L3.ips1000.ips.png">my8013_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8013_rel.cy10a_bee.imax">my8013_rel.cy10a_bee: max insert response time</h1>
+<img src="my8013_rel.cy10a_bee.q.L3.ips1000.imax.png">my8013_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8013_rel.cy10a_bee.dps">my8013_rel.cy10a_bee: DPS</h1>
+<img src="my8013_rel.cy10a_bee.q.L3.ips1000.dps.png">my8013_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8013_rel.cy10a_bee.dmax">my8013_rel.cy10a_bee: max delete response time</h1>
+<img src="my8013_rel.cy10a_bee.q.L3.ips1000.dmax.png">my8013_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8013_rel.cy10a_bee.qps">my8013_rel.cy10a_bee: QPS</h1>
+<img src="my8013_rel.cy10a_bee.q.L3.ips1000.qps.png">my8013_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8013_rel.cy10a_bee.qmax">my8013_rel.cy10a_bee: max query response time</h1>
+<img src="my8013_rel.cy10a_bee.q.L3.ips1000.qmax.png">my8013_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8020_rel.cy10a_bee.ips">my8020_rel.cy10a_bee: IPS</h1>
+<img src="my8020_rel.cy10a_bee.q.L3.ips1000.ips.png">my8020_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8020_rel.cy10a_bee.imax">my8020_rel.cy10a_bee: max insert response time</h1>
+<img src="my8020_rel.cy10a_bee.q.L3.ips1000.imax.png">my8020_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8020_rel.cy10a_bee.dps">my8020_rel.cy10a_bee: DPS</h1>
+<img src="my8020_rel.cy10a_bee.q.L3.ips1000.dps.png">my8020_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8020_rel.cy10a_bee.dmax">my8020_rel.cy10a_bee: max delete response time</h1>
+<img src="my8020_rel.cy10a_bee.q.L3.ips1000.dmax.png">my8020_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8020_rel.cy10a_bee.qps">my8020_rel.cy10a_bee: QPS</h1>
+<img src="my8020_rel.cy10a_bee.q.L3.ips1000.qps.png">my8020_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8020_rel.cy10a_bee.qmax">my8020_rel.cy10a_bee: max query response time</h1>
+<img src="my8020_rel.cy10a_bee.q.L3.ips1000.qmax.png">my8020_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8027_rel.cy10a_bee.ips">my8027_rel.cy10a_bee: IPS</h1>
+<img src="my8027_rel.cy10a_bee.q.L3.ips1000.ips.png">my8027_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8027_rel.cy10a_bee.imax">my8027_rel.cy10a_bee: max insert response time</h1>
+<img src="my8027_rel.cy10a_bee.q.L3.ips1000.imax.png">my8027_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8027_rel.cy10a_bee.dps">my8027_rel.cy10a_bee: DPS</h1>
+<img src="my8027_rel.cy10a_bee.q.L3.ips1000.dps.png">my8027_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8027_rel.cy10a_bee.dmax">my8027_rel.cy10a_bee: max delete response time</h1>
+<img src="my8027_rel.cy10a_bee.q.L3.ips1000.dmax.png">my8027_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8027_rel.cy10a_bee.qps">my8027_rel.cy10a_bee: QPS</h1>
+<img src="my8027_rel.cy10a_bee.q.L3.ips1000.qps.png">my8027_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8027_rel.cy10a_bee.qmax">my8027_rel.cy10a_bee: max query response time</h1>
+<img src="my8027_rel.cy10a_bee.q.L3.ips1000.qmax.png">my8027_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8034_rel.cy10a_bee.ips">my8034_rel.cy10a_bee: IPS</h1>
+<img src="my8034_rel.cy10a_bee.q.L3.ips1000.ips.png">my8034_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8034_rel.cy10a_bee.imax">my8034_rel.cy10a_bee: max insert response time</h1>
+<img src="my8034_rel.cy10a_bee.q.L3.ips1000.imax.png">my8034_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8034_rel.cy10a_bee.dps">my8034_rel.cy10a_bee: DPS</h1>
+<img src="my8034_rel.cy10a_bee.q.L3.ips1000.dps.png">my8034_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8034_rel.cy10a_bee.dmax">my8034_rel.cy10a_bee: max delete response time</h1>
+<img src="my8034_rel.cy10a_bee.q.L3.ips1000.dmax.png">my8034_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8034_rel.cy10a_bee.qps">my8034_rel.cy10a_bee: QPS</h1>
+<img src="my8034_rel.cy10a_bee.q.L3.ips1000.qps.png">my8034_rel.cy10a_bee</a>
+<hr />
+<h1 id="my8034_rel.cy10a_bee.qmax">my8034_rel.cy10a_bee: max query response time</h1>
+<img src="my8034_rel.cy10a_bee.q.L3.ips1000.qmax.png">my8034_rel.cy10a_bee</a>
+</ul>
+</body>
+</html>

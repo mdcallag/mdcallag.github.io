@@ -1,0 +1,235 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:109383]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.l.i0.ips.txt'
+plot "800m.my5712_rel.cy10a_bee/l.i0/gpi.ips" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.l.i0.ips.png'
+plot "800m.my5712_rel.cy10a_bee/l.i0/gpi.ips" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:283392]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.l.i0.imax.txt'
+plot "800m.my5712_rel.cy10a_bee/l.i0/gpi.imax" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.l.i0.imax.png'
+plot "800m.my5712_rel.cy10a_bee/l.i0/gpi.imax" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.l.i0.dps.txt'
+plot "800m.my5712_rel.cy10a_bee/l.i0/gpi.dps" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.l.i0.dps.png'
+plot "800m.my5712_rel.cy10a_bee/l.i0/gpi.dps" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.l.i0.dmax.txt'
+plot "800m.my5712_rel.cy10a_bee/l.i0/gpi.dmax" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.l.i0.dmax.png'
+plot "800m.my5712_rel.cy10a_bee/l.i0/gpi.dmax" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:4255]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.l.i1.ips.txt'
+plot "800m.my5712_rel.cy10a_bee/l.i1/gpi.ips" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.l.i1.ips.png'
+plot "800m.my5712_rel.cy10a_bee/l.i1/gpi.ips" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:413493]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.l.i1.imax.txt'
+plot "800m.my5712_rel.cy10a_bee/l.i1/gpi.imax" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.l.i1.imax.png'
+plot "800m.my5712_rel.cy10a_bee/l.i1/gpi.imax" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i1"
+set yrange [0:4255]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.l.i1.dps.txt'
+plot "800m.my5712_rel.cy10a_bee/l.i1/gpi.dps" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.l.i1.dps.png'
+plot "800m.my5712_rel.cy10a_bee/l.i1/gpi.dps" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i1"
+set yrange [0:118501]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.l.i1.dmax.txt'
+plot "800m.my5712_rel.cy10a_bee/l.i1/gpi.dmax" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.l.i1.dmax.png'
+plot "800m.my5712_rel.cy10a_bee/l.i1/gpi.dmax" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L1.ips100"
+set yrange [0:120]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L1.ips100.ips.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L1.ips100/gpi.ips" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L1.ips100.ips.png'
+plot "800m.my5712_rel.cy10a_bee/q.L1.ips100/gpi.ips" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L1.ips100"
+set yrange [0:136846]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L1.ips100.imax.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L1.ips100/gpi.imax" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L1.ips100.imax.png'
+plot "800m.my5712_rel.cy10a_bee/q.L1.ips100/gpi.imax" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L1.ips100"
+set yrange [0:120]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L1.ips100.dps.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L1.ips100/gpi.dps" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L1.ips100.dps.png'
+plot "800m.my5712_rel.cy10a_bee/q.L1.ips100/gpi.dps" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L1.ips100"
+set yrange [0:46663]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L1.ips100.dmax.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L1.ips100/gpi.dmax" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L1.ips100.dmax.png'
+plot "800m.my5712_rel.cy10a_bee/q.L1.ips100/gpi.dmax" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L1.ips100"
+set yrange [0:1458]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L1.ips100.qps.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L1.ips100/gpi.qps" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L1.ips100.qps.png'
+plot "800m.my5712_rel.cy10a_bee/q.L1.ips100/gpi.qps" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L1.ips100"
+set yrange [0:77061]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L1.ips100.qmax.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L1.ips100/gpi.qmax" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L1.ips100.qmax.png'
+plot "800m.my5712_rel.cy10a_bee/q.L1.ips100/gpi.qmax" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L2.ips500"
+set yrange [0:600]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L2.ips500.ips.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L2.ips500/gpi.ips" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L2.ips500.ips.png'
+plot "800m.my5712_rel.cy10a_bee/q.L2.ips500/gpi.ips" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L2.ips500"
+set yrange [0:119727]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L2.ips500.imax.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L2.ips500/gpi.imax" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L2.ips500.imax.png'
+plot "800m.my5712_rel.cy10a_bee/q.L2.ips500/gpi.imax" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L2.ips500"
+set yrange [0:718]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L2.ips500.dps.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L2.ips500/gpi.dps" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L2.ips500.dps.png'
+plot "800m.my5712_rel.cy10a_bee/q.L2.ips500/gpi.dps" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L2.ips500"
+set yrange [0:21991]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L2.ips500.dmax.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L2.ips500/gpi.dmax" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L2.ips500.dmax.png'
+plot "800m.my5712_rel.cy10a_bee/q.L2.ips500/gpi.dmax" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L2.ips500"
+set yrange [0:1420]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L2.ips500.qps.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L2.ips500/gpi.qps" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L2.ips500.qps.png'
+plot "800m.my5712_rel.cy10a_bee/q.L2.ips500/gpi.qps" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L2.ips500"
+set yrange [0:46915]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L2.ips500.qmax.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L2.ips500/gpi.qmax" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L2.ips500.qmax.png'
+plot "800m.my5712_rel.cy10a_bee/q.L2.ips500/gpi.qmax" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for q.L3.ips1000"
+set yrange [0:1498]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L3.ips1000.ips.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L3.ips1000/gpi.ips" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L3.ips1000.ips.png'
+plot "800m.my5712_rel.cy10a_bee/q.L3.ips1000/gpi.ips" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for q.L3.ips1000"
+set yrange [0:106762]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L3.ips1000.imax.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L3.ips1000/gpi.imax" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L3.ips1000.imax.png'
+plot "800m.my5712_rel.cy10a_bee/q.L3.ips1000/gpi.imax" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for q.L3.ips1000"
+set yrange [0:1498]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L3.ips1000.dps.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L3.ips1000/gpi.dps" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L3.ips1000.dps.png'
+plot "800m.my5712_rel.cy10a_bee/q.L3.ips1000/gpi.dps" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for q.L3.ips1000"
+set yrange [0:25208]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L3.ips1000.dmax.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L3.ips1000/gpi.dmax" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L3.ips1000.dmax.png'
+plot "800m.my5712_rel.cy10a_bee/q.L3.ips1000/gpi.dmax" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for q.L3.ips1000"
+set yrange [0:1401]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L3.ips1000.qps.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L3.ips1000/gpi.qps" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L3.ips1000.qps.png'
+plot "800m.my5712_rel.cy10a_bee/q.L3.ips1000/gpi.qps" using 1:2 title "my5712_rel.cy10a_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for q.L3.ips1000"
+set yrange [0:58922]
+set terminal dumb 200, 50
+set output 'my5712_rel.cy10a_bee.q.L3.ips1000.qmax.txt'
+plot "800m.my5712_rel.cy10a_bee/q.L3.ips1000/gpi.qmax" using 1:2 title "my5712_rel.cy10a_bee", 
+set terminal png
+set output 'my5712_rel.cy10a_bee.q.L3.ips1000.qmax.png'
+plot "800m.my5712_rel.cy10a_bee/q.L3.ips1000/gpi.qmax" using 1:2 title "my5712_rel.cy10a_bee", 

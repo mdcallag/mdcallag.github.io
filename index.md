@@ -26,8 +26,9 @@ Benchmark reports for 2023
   * Medium server, insert benchmark: [Cached by Postgres](reports/23_08_16.c2.pg16b3.cached/all.html), [IO-bound, wal_compression=lz4](reports/23_08_16.c2.pg16b3.io.27/all.html), [IO-bound, wal_compression=none](reports/23_08_16.c2.pg16b3.io.28/all.html)
 * MyRocks tombstones (Aug 2023)
   * Large server: [Cached by RocksDB](reports/23_08_14.u.rx.deletetune.cached/all.html), [IO-bound](reports/23_08_14.u.rx.deletetune.io/all.html)
-* MyRocks perf regressions with the Insert Benchmark (Aug 2023)
-  * Small Server, Sep 2023, 5.6 to 8.0 all versions, cached: [5.6](reports/23_09_18.bee.ib.my56.1u.1tno.cached/all.html), [5.7](reports/23_09_18.bee.ib.my57.1u.1tno.cached/all.html), [8.0](reports/23_09_18.bee.ib.my80.1u.1tno.cached/all.html), [5.6, 5.7, 8.0](reports/23_09_18.bee.ib.my678.1u.1tno.cached/all.html)
+* MySQL perf regressions with the Insert Benchmark (Aug 2023)
+  * Small server, Oct 2023, 5.6 to 8.0, IO-bound: [InnoDB 5.6](reports/23_10_09.bee.ib.io.my56/all.html), [InnoDB 5.7](reports/23_10_09.bee.ib.io.my57/all.html), [InnoDB 8.0](reports/23_10_09.bee.ib.io.my80/all.html), [InnoDB 5.6, 5.7 and 8.0](reports/23_10_09.bee.ib.io.my678/all.html)
+  * Small server, Sep 2023, 5.6 to 8.0 all versions, cached: [5.6](reports/23_09_18.bee.ib.my56.1u.1tno.cached/all.html), [5.7](reports/23_09_18.bee.ib.my57.1u.1tno.cached/all.html), [8.0](reports/23_09_18.bee.ib.my80.1u.1tno.cached/all.html), [5.6, 5.7, 8.0](reports/23_09_18.bee.ib.my678.1u.1tno.cached/all.html)
   * Large server, Sep 2023, part 3 (oops): [cached workload](reports/23_09_25.u.ib.fbmy56builds.24u.1tno.cached/all.html), [IO-bound workload](reports/23_09_25.u.ib.fbmy56builds.24u.1tno.io/all.html)
   * Large server, Sep 2023, part 2: cached workload [base config](reports/23_09_06.u.56builds.20221011.24u.1tno.cached.c/all.html), [c5 config](reports/23_09_06.u.56builds.20221011.24u.1tno.cached.c5/all.html)
   * Large server, Aug 2023, part 1
