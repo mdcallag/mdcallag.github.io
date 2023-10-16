@@ -174,6 +174,7 @@ Benchmark reports for 2023
 Others from 2023:
 * Insert Benchmark with Postgres 16 storage engines
   * Beelink: [Cached](reports/23_10_16.bee.pg16oriole.ib.cached/all.html), [IO-bound](reports/23_10_16.bee.pg16oriole.ib.io/all.html)
+  * c2-standard-30: [Cached](reports/23_10_16.c2.pg16oriole.ib.cached/all.html), [IO-bound](reports/23_10_16.c2.pg16oriole.ib.io/all.html)
 
 Benchmark reports for 2022:
 * Insert Benchmark on c2-standard-60 (GCP, 30 cores, 240G RAM), Postgres
