@@ -171,6 +171,10 @@ Benchmark reports for 2023
 * Insert benchmark on Intel NUC to show the benefit from the insert buffer
   * [1 client, 500M rows, IO-bound](reports/23_02_08_ibench.500m.ibuf.nuc/all.html)
 
+Others from 2023:
+* Insert Benchmark with Postgres 16 storage engines
+  * Beelink: [Cached](reports/23_10_16.bee.pg16oriole.ib.cached/all.html), [IO-bound](reports/23_10_16.bee.pg16oriole.ib.io/all.html)
+
 Benchmark reports for 2022:
 * Insert Benchmark on c2-standard-60 (GCP, 30 cores, 240G RAM), Postgres
   * Cached by Postgres, 20 clients, table per client for versions [11.19](reports/23_04_10_ibench.400m.pg11.c2s60.20u.1tno.cached/all.html), [12.14](reports/23_04_10_ibench.400m.pg12.c2s60.20u.1tno.cached/all.html), [13.10](reports/23_04_10_ibench.400m.pg13.c2s60.20u.1tno.cached/all.html), [14.7](reports/23_04_10_ibench.400m.pg14.c2s60.20u.1tno.cached/all.html), [15.1](reports/23_04_10_ibench.400m.pg151.c2s60.20u.1tno.cached/all.html), [15.2](reports/23_04_10_ibench.400m.pg152.c2s60.20u.1tno.cached/all.html), [11 to 15](reports/23_04_10_ibench.400m.pgall.c2s60.20u.1tno.cached/all.html)
