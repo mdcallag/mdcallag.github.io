@@ -1,7 +1,7 @@
 set xlabel "Time(s)"
 set ylabel "IPS"
 set title "IPS vs Time for l.i0"
-set yrange [0:87150]
+set yrange [0:86320]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.l.i0.ips.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/l.i0/gpi.ips" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -10,7 +10,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.l.i0.ips.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/l.i0/gpi.ips" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "maxInsertUsecs"
 set title "maxInsertUsecs vs Time for l.i0"
-set yrange [0:3862]
+set yrange [0:43154]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.l.i0.imax.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/l.i0/gpi.imax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -37,7 +37,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.l.i0.dmax.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/l.i0/gpi.dmax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "IPS"
 set title "IPS vs Time for l.i1"
-set yrange [0:21576]
+set yrange [0:37533]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.l.i1.ips.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/l.i1/gpi.ips" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -46,7 +46,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.l.i1.ips.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/l.i1/gpi.ips" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "maxInsertUsecs"
 set title "maxInsertUsecs vs Time for l.i1"
-set yrange [0:161181]
+set yrange [0:1076318]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.l.i1.imax.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/l.i1/gpi.imax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -55,7 +55,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.l.i1.imax.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/l.i1/gpi.imax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "DPS"
 set title "DPS vs Time for l.i1"
-set yrange [0:21636]
+set yrange [0:37518]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.l.i1.dps.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/l.i1/gpi.dps" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -64,7 +64,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.l.i1.dps.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/l.i1/gpi.dps" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "maxDeleteUsecs"
 set title "maxDeleteUsecs vs Time for l.i1"
-set yrange [0:112291]
+set yrange [0:1060374]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.l.i1.dmax.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/l.i1/gpi.dmax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -73,7 +73,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.l.i1.dmax.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/l.i1/gpi.dmax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "IPS"
 set title "IPS vs Time for q.L1.ips100"
-set yrange [0:238]
+set yrange [0:240]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L1.ips100.ips.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L1.ips100/gpi.ips" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -82,7 +82,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L1.ips100.ips.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L1.ips100/gpi.ips" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "maxInsertUsecs"
 set title "maxInsertUsecs vs Time for q.L1.ips100"
-set yrange [0:15430]
+set yrange [0:96261]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L1.ips100.imax.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L1.ips100/gpi.imax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -100,7 +100,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L1.ips100.dps.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L1.ips100/gpi.dps" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "maxDeleteUsecs"
 set title "maxDeleteUsecs vs Time for q.L1.ips100"
-set yrange [0:14143]
+set yrange [0:6872]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L1.ips100.dmax.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L1.ips100/gpi.dmax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -109,7 +109,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L1.ips100.dmax.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L1.ips100/gpi.dmax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "QPS"
 set title "QPS vs Time for q.L1.ips100"
-set yrange [0:12410]
+set yrange [0:13915]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L1.ips100.qps.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L1.ips100/gpi.qps" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -118,7 +118,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L1.ips100.qps.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L1.ips100/gpi.qps" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "maxQueryUsecs"
 set title "maxQueryUsecs vs Time for q.L1.ips100"
-set yrange [0:11710]
+set yrange [0:1087989]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L1.ips100.qmax.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L1.ips100/gpi.qmax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -127,7 +127,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L1.ips100.qmax.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L1.ips100/gpi.qmax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "IPS"
 set title "IPS vs Time for q.L2.ips500"
-set yrange [0:718]
+set yrange [0:944]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L2.ips500.ips.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L2.ips500/gpi.ips" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -136,7 +136,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L2.ips500.ips.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L2.ips500/gpi.ips" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "maxInsertUsecs"
 set title "maxInsertUsecs vs Time for q.L2.ips500"
-set yrange [0:14898]
+set yrange [0:77336]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L2.ips500.imax.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L2.ips500/gpi.imax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -145,7 +145,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L2.ips500.imax.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L2.ips500/gpi.imax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "DPS"
 set title "DPS vs Time for q.L2.ips500"
-set yrange [0:1078]
+set yrange [0:1180]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L2.ips500.dps.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L2.ips500/gpi.dps" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -154,7 +154,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L2.ips500.dps.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L2.ips500/gpi.dps" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "maxDeleteUsecs"
 set title "maxDeleteUsecs vs Time for q.L2.ips500"
-set yrange [0:18352]
+set yrange [0:59346]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L2.ips500.dmax.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L2.ips500/gpi.dmax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -163,7 +163,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L2.ips500.dmax.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L2.ips500/gpi.dmax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "QPS"
 set title "QPS vs Time for q.L2.ips500"
-set yrange [0:11928]
+set yrange [0:13789]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L2.ips500.qps.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L2.ips500/gpi.qps" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -172,7 +172,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L2.ips500.qps.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L2.ips500/gpi.qps" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "maxQueryUsecs"
 set title "maxQueryUsecs vs Time for q.L2.ips500"
-set yrange [0:11281]
+set yrange [0:81619]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L2.ips500.qmax.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L2.ips500/gpi.qmax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -181,7 +181,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L2.ips500.qmax.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L2.ips500/gpi.qmax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "IPS"
 set title "IPS vs Time for q.L3.ips1000"
-set yrange [0:1473]
+set yrange [0:1525]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L3.ips1000.ips.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L3.ips1000/gpi.ips" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -190,7 +190,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L3.ips1000.ips.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L3.ips1000/gpi.ips" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "maxInsertUsecs"
 set title "maxInsertUsecs vs Time for q.L3.ips1000"
-set yrange [0:10009]
+set yrange [0:99310]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L3.ips1000.imax.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L3.ips1000/gpi.imax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -199,7 +199,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L3.ips1000.imax.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L3.ips1000/gpi.imax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "DPS"
 set title "DPS vs Time for q.L3.ips1000"
-set yrange [0:1550]
+set yrange [0:1819]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L3.ips1000.dps.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L3.ips1000/gpi.dps" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -208,7 +208,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L3.ips1000.dps.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L3.ips1000/gpi.dps" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "maxDeleteUsecs"
 set title "maxDeleteUsecs vs Time for q.L3.ips1000"
-set yrange [0:14454]
+set yrange [0:95304]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L3.ips1000.dmax.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L3.ips1000/gpi.dmax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -217,7 +217,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L3.ips1000.dmax.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L3.ips1000/gpi.dmax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "QPS"
 set title "QPS vs Time for q.L3.ips1000"
-set yrange [0:11900]
+set yrange [0:13806]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L3.ips1000.qps.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L3.ips1000/gpi.qps" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
@@ -226,7 +226,7 @@ set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L3.ips1000.qps.png'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L3.ips1000/gpi.qps" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 
 set ylabel "maxQueryUsecs"
 set title "maxQueryUsecs vs Time for q.L3.ips1000"
-set yrange [0:28136]
+set yrange [0:86539]
 set terminal dumb 200, 50
 set output 'pg16oriole_o2_nofp_patches16_18.cx9a2_bee.q.L3.ips1000.qmax.txt'
 plot "20m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee/q.L3.ips1000/gpi.qmax" using 1:2 title "pg16oriole_o2_nofp_patches16_18.cx9a2_bee", 

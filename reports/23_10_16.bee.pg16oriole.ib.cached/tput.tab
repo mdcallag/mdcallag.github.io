@@ -11,4 +11,4 @@
 </style>
 <table border="1" cellpadding="8" >
 <tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
-<tr><td>pg160_o2_nofp.cx9a2_bee</td> <td id="cmax">72727</td><td id="cmax">236470</td><td id="cmax">24031</td><td id="cmax">7922</td><td id="cmax">8123</td><td id="cmax">8175</td><tr><td>pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td> <td>71684</td><td id="cmax">236470</td><td id="cmin">14666</td><td>7678</td><td>7227</td><td>7182</td></table>
+<tr><td>pg160_o2_nofp.cx9a2_bee</td> <td id="cmax">72727</td><td id="cmax">236470</td><td>24031</td><td id="cmax">7922</td><td>8123</td><td>8175</td><tr><td>pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td> <td>70175</td><td id="cmin">157031</td><td id="cmax">27855</td><td>7744</td><td id="cmax">8415</td><td id="cmax">8335</td></table>
