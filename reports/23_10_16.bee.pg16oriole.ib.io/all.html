@@ -104,7 +104,7 @@ Red backgrounds are not used when the minimum value is within 80&#37 of the max 
 </style>
 <table border="1" cellpadding="8" >
 <tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
-<tr><td>pg160_o2_nofp.cx9a2_bee</td> <td id="cmax">72946</td><td id="cmax">197604</td><td id="cmax">2583</td><td id="cmax">8000</td><td id="cmax">7594</td><td id="cgray">7641</td><tr><td>pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td> <td>71910</td><td>197507</td><td id="cmin">416</td><td>6779</td><td>6942</td><td id="cmax">6617</td></table>
+<tr><td>pg160_o2_nofp.cx9a2_bee</td> <td id="cmax">72946</td><td id="cmax">197604</td><td>2583</td><td>8000</td><td>7594</td><td id="cgray">7641</td><tr><td>pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td> <td>69851</td><td id="cmin">125309</td><td id="cmax">2882</td><td id="cmax">8456</td><td id="cmax">8385</td><td id="cmax">8016</td></table>
 <p>
 This table has relative throughput, throughput for the DBMS relative to the DBMS in the first line,
 using the absolute throughput from the previous table.
@@ -123,7 +123,7 @@ Values less than 0.95 have a yellow background. Values greater than 1.05 have a 
 </style>
 <table border="1" cellpadding="8" >
 <tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>q100.1</th><th>q500.1</th><th>q1000.1</th></tr>
-<tr><td>pg160_o2_nofp.cx9a2_bee</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><tr><td>pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td> <td>0.99</td><td>1.00</td><td id="clo">0.16</td><td id="clo">0.85</td><td id="clo">0.91</td><td id="clo">0.87</td></table>
+<tr><td>pg160_o2_nofp.cx9a2_bee</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><tr><td>pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td> <td>0.96</td><td id="clo">0.63</td><td id="chi">1.12</td><td id="chi">1.06</td><td id="chi">1.10</td><td>1.05</td></table>
 <p>
 This lists the average rate of inserts/s for the tests that do inserts concurrent with queries.
 For such tests the query rate is listed in the table above.
@@ -183,8 +183,8 @@ table td#cminr { background-color:#81FFA6 }
 <table border="1" cellpadding="8" >
 <tr>
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
-<tr><td id="c0">pg160_o2_nofp.cx9a2_bee</td><td></td><td></td><td id="c20">99.999</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.060</td></tr>
-<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td></td><td></td><td id="c20">100.000</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.017</td></tr>
+<tr><td id="c0">pg160_o2_nofp.cx9a2_bee</td><td></td><td></td><td id="c20">99.999</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.060</td></tr>
+<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td></td><td></td><td id="c20">99.985</td><td>nonzero</td><td id="c0">0.015</td><td></td><td>nonzero</td><td></td><td></td><td></td><td id="cmaxr">0.304</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -192,7 +192,7 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 72946	0	32	0.3	105.6	30.2	0.000	0.004	0.001	0.423	8879	22.4	0.122	25	76.5	116.6	1.8	0.060	73120	71148	800m.pg160_o2_nofp.cx9a2_bee
-71910	0	57	1.2	141.2	32.5	0.001	0.017	0.002	0.462	8953	22.7	0.125	25	76.5	116.6	0.0	0.017	72119	70313	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+69851	0	0	0.0	50.9	14.3	0.000	0.000	0.001	0.210	8123	22.6	0.116	26	0.0	82.6	9.5	0.304	70025	67525	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <hr />
 <h1 id="l.x.graph">l.x</h1>
@@ -206,7 +206,7 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 197604	0	574	71.2	182.2	67.2	0.003	0.369	0.001	0.348	509	12.4	0.003	5	147.0	187.1	10.1	0.013	NA	NA	800m.pg160_o2_nofp.cx9a2_bee
-197507	0	609	75.2	163.6	66.1	0.003	0.390	0.001	0.342	540	12.3	0.003	5	147.0	187.1	0.2	0.006	NA	NA	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+125309	0	1016	89.4	237.1	68.4	0.008	0.730	0.002	0.559	1191	12.1	0.010	8	0.0	169.9	8.8	0.004	NA	NA	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <hr />
 <h1 id="l.i1.graph">l.i1</h1>
@@ -244,8 +244,8 @@ table td#cminr { background-color:#81FFA6 }
 <table border="1" cellpadding="8" >
 <tr>
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
-<tr><td id="c0">pg160_o2_nofp.cx9a2_bee</td><td></td><td></td><td></td><td id="c17">86.557</td><td id="c3">13.439</td><td id="c0">0.004</td><td></td><td></td><td></td><td></td><td>0.208</td></tr>
-<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td></td><td></td><td></td><td id="c11">56.136</td><td id="c9">43.832</td><td id="c0">0.033</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.255</td></tr>
+<tr><td id="c0">pg160_o2_nofp.cx9a2_bee</td><td></td><td></td><td></td><td id="c17">86.557</td><td id="c3">13.439</td><td id="c0">0.004</td><td></td><td></td><td></td><td></td><td id="cminr">0.208</td></tr>
+<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td></td><td></td><td></td><td id="c11">54.536</td><td id="c9">44.541</td><td id="c0">0.922</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td id="cmaxr">1.346</td></tr>
 </table>
 <p>Delete response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For the <b>max</b> column values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -277,7 +277,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr>
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg160_o2_nofp.cx9a2_bee</td><td>nonzero</td><td id="c15">77.366</td><td id="c0">0.838</td><td id="c1">4.279</td><td id="c3">15.829</td><td id="c0">1.688</td><td></td><td></td><td></td><td></td><td id="cminr">0.082</td></tr>
-<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td id="c0">0.002</td><td id="c9">45.845</td><td id="c0">0.949</td><td id="c1">5.150</td><td id="c3">13.505</td><td id="c2">10.633</td><td id="c5">23.916</td><td id="c0">0.001</td><td></td><td></td><td id="cmaxr">1.492</td></tr>
+<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td></td><td></td><td></td><td id="c19">93.415</td><td id="c1">5.805</td><td id="c0">0.780</td><td>nonzero</td><td></td><td></td><td></td><td id="cmaxr">0.264</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -285,7 +285,7 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 2583	0	4118	32.9	4765.8	67.1	1.594	13.060	1.845	26.605	9757	10.5	3.777	325	152.2	192.2	1.3	0.208	3398	749	800m.pg160_o2_nofp.cx9a2_bee
-416	0	737	7.3	1302.9	16.6	1.770	18.000	3.129	40.828	1897	12.2	4.556	2344	150.5	170.5	0.2	0.255	150	100	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+2882	0	11412	90.2	9364.7	118.1	3.961	32.046	3.250	41.985	24232	13.7	8.410	380	0.0	352.5	8.6	1.346	2946	2099	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <hr />
 <h1 id="q100.1.graph">q100.1</h1>
@@ -321,8 +321,8 @@ table td#cminr { background-color:#81FFA6 }
 <table border="1" cellpadding="8" >
 <tr>
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
-<tr><td id="c0">pg160_o2_nofp.cx9a2_bee</td><td id="c20">99.818</td><td id="c0">0.180</td><td>nonzero</td><td id="c0">0.002</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.016</td></tr>
-<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td id="c20">99.389</td><td id="c0">0.604</td><td id="c0">0.001</td><td id="c0">0.005</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.016</td></tr>
+<tr><td id="c0">pg160_o2_nofp.cx9a2_bee</td><td id="c20">99.818</td><td id="c0">0.180</td><td>nonzero</td><td id="c0">0.002</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.016</td></tr>
+<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td id="c20">99.790</td><td id="c0">0.203</td><td id="c0">0.002</td><td id="c0">0.005</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.046</td></tr>
 </table>
 <p>Insert response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -353,8 +353,8 @@ table td#cminr { background-color:#81FFA6 }
 <table border="1" cellpadding="8" >
 <tr>
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
-<tr><td id="c0">pg160_o2_nofp.cx9a2_bee</td><td></td><td></td><td></td><td id="c14">72.264</td><td id="c6">27.736</td><td></td><td></td><td></td><td></td><td></td><td>0.032</td></tr>
-<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td></td><td></td><td></td><td id="c17">85.792</td><td id="c3">14.208</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.036</td></tr>
+<tr><td id="c0">pg160_o2_nofp.cx9a2_bee</td><td></td><td></td><td></td><td id="c14">72.264</td><td id="c6">27.736</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.032</td></tr>
+<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td></td><td></td><td></td><td id="c11">56.597</td><td id="c9">43.396</td><td id="c0">0.007</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.069</td></tr>
 </table>
 <p>Delete response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -385,8 +385,8 @@ table td#cminr { background-color:#81FFA6 }
 <table border="1" cellpadding="8" >
 <tr>
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
-<tr><td id="c0">pg160_o2_nofp.cx9a2_bee</td><td id="c0">0.111</td><td id="c20">99.507</td><td id="c0">0.042</td><td id="c0">0.340</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.010</td></tr>
-<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td></td><td id="c1">7.257</td><td id="c8">38.000</td><td id="c11">54.743</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.009</td></tr>
+<tr><td id="c0">pg160_o2_nofp.cx9a2_bee</td><td id="c0">0.111</td><td id="c20">99.507</td><td id="c0">0.042</td><td id="c0">0.340</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.010</td></tr>
+<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td></td><td></td><td></td><td id="c12">57.806</td><td id="c8">42.188</td><td id="c0">0.007</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.083</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -394,7 +394,7 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 100	8000	174	1.4	202.2	3.4	0.022	0.178	2.026	34.689	31181	12.6	3.898	126	152.2	188.5	10.1	0.016	7527	6952	800m.pg160_o2_nofp.cx9a2_bee
-100	6779	205	1.7	417.7	5.0	0.030	0.254	4.185	51.774	26649	13.1	3.931	155	150.6	182.7	0.4	0.016	6600	6032	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+100	8456	395	3.1	345.0	4.5	0.047	0.381	3.457	46.062	33346	12.8	3.944	121	0.0	347.1	9.5	0.046	8036	7130	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <hr />
 <h1 id="q500.1.graph">q500.1</h1>
@@ -431,7 +431,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr>
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg160_o2_nofp.cx9a2_bee</td><td id="c20">99.868</td><td id="c0">0.127</td><td id="c0">0.001</td><td id="c0">0.004</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.016</td></tr>
-<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td id="c20">99.369</td><td id="c0">0.629</td><td id="c0">0.002</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.026</td></tr>
+<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td id="c20">99.580</td><td id="c0">0.411</td><td id="c0">0.006</td><td id="c0">0.004</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.050</td></tr>
 </table>
 <p>Insert response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -463,7 +463,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr>
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg160_o2_nofp.cx9a2_bee</td><td></td><td></td><td></td><td id="c19">93.549</td><td id="c1">6.451</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.030</td></tr>
-<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td></td><td></td><td></td><td id="c18">89.657</td><td id="c2">10.343</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.051</td></tr>
+<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td></td><td></td><td></td><td id="c19">95.465</td><td id="c1">4.438</td><td id="c0">0.097</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.166</td></tr>
 </table>
 <p>Delete response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -495,7 +495,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr>
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg160_o2_nofp.cx9a2_bee</td><td id="c1">3.872</td><td id="c19">95.885</td><td id="c0">0.062</td><td id="c0">0.181</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.010</td></tr>
-<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td id="c1">3.254</td><td id="c18">90.950</td><td id="c0">0.039</td><td id="c1">5.757</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.015</td></tr>
+<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td></td><td></td><td></td><td id="c19">95.894</td><td id="c1">4.019</td><td id="c0">0.086</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.132</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -503,7 +503,7 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 499	7594	802	6.4	963.4	14.5	0.106	0.863	1.931	29.784	31080	13.6	4.093	143	152.3	182.8	10.1	0.016	7272	7016	800m.pg160_o2_nofp.cx9a2_bee
-499	6942	874	7.3	2015.8	22.5	0.126	1.077	4.040	46.218	28734	13.6	4.139	157	150.9	180.3	0.4	0.026	6583	6296	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+499	8385	1900	15.0	1563.3	17.8	0.227	1.826	3.133	36.490	36161	14.7	4.312	140	0.0	347.3	9.5	0.050	7848	7545	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <hr />
 <h1 id="q1000.1.graph">q1000.1</h1>
@@ -540,7 +540,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr>
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg160_o2_nofp.cx9a2_bee</td><td id="c20">99.892</td><td id="c0">0.107</td><td id="c0">0.001</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.024</td></tr>
-<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td id="c20">98.223</td><td id="c0">1.764</td><td id="c0">0.013</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.031</td></tr>
+<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td id="c20">97.620</td><td id="c0">2.337</td><td id="c0">0.037</td><td id="c0">0.005</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.049</td></tr>
 </table>
 <p>Insert response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -572,7 +572,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr>
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg160_o2_nofp.cx9a2_bee</td><td></td><td></td><td></td><td id="c19">94.832</td><td id="c1">5.168</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.046</td></tr>
-<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td></td><td></td><td></td><td id="c16">77.506</td><td id="c4">22.494</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.060</td></tr>
+<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td></td><td></td><td></td><td id="c19">93.614</td><td id="c1">5.872</td><td id="c0">0.515</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.240</td></tr>
 </table>
 <p>Delete response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -604,7 +604,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr>
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg160_o2_nofp.cx9a2_bee</td><td id="c0">0.331</td><td id="c3">15.674</td><td id="c0">0.022</td><td id="c0">0.015</td><td id="c4">19.998</td><td id="c13">63.960</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.213</td></tr>
-<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td id="c0">2.269</td><td id="c20">97.678</td><td id="c0">0.053</td><td id="c0">0.001</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.005</td></tr>
+<tr><td id="c0">pg16oriole_o2_nofp_patches16_18.cx9a2_bee</td><td></td><td></td><td></td><td id="c19">95.651</td><td id="c1">3.919</td><td id="c0">0.430</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.213</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -612,7 +612,7 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 663	7641	1086	8.7	1318.5	19.5	0.142	1.165	1.988	30.133	31955	24.8	4.182	260	152.9	187.8	9.8	0.024	7303	7054	800m.pg160_o2_nofp.cx9a2_bee
-998	6617	1825	15.1	4043.3	43.0	0.276	2.337	4.051	44.078	29485	15.2	4.456	184	151.5	180.9	0.4	0.031	6361	6009	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+998	8016	3989	31.4	3584.9	35.9	0.498	4.006	3.592	36.881	39047	16.3	4.871	163	0.0	366.5	9.4	0.049	7927	6776	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <hr />
 <h1 id="l.i0.metrics">l.i0</h1>
@@ -623,7 +623,7 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 72946	0	32	0.3	105.6	30.2	0.000	0.004	0.001	0.423	8879	22.4	0.122	25	76.5	116.6	1.8	0.060	73120	71148	800m.pg160_o2_nofp.cx9a2_bee
-71910	0	57	1.2	141.2	32.5	0.001	0.017	0.002	0.462	8953	22.7	0.125	25	76.5	116.6	0.0	0.017	72119	70313	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+69851	0	0	0.0	50.9	14.3	0.000	0.000	0.001	0.210	8123	22.6	0.116	26	0.0	82.6	9.5	0.304	70025	67525	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <hr />
 <h1 id="l.x.metrics">l.x</h1>
@@ -634,7 +634,7 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 197604	0	574	71.2	182.2	67.2	0.003	0.369	0.001	0.348	509	12.4	0.003	5	147.0	187.1	10.1	0.013	NA	NA	800m.pg160_o2_nofp.cx9a2_bee
-197507	0	609	75.2	163.6	66.1	0.003	0.390	0.001	0.342	540	12.3	0.003	5	147.0	187.1	0.2	0.006	NA	NA	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+125309	0	1016	89.4	237.1	68.4	0.008	0.730	0.002	0.559	1191	12.1	0.010	8	0.0	169.9	8.8	0.004	NA	NA	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <hr />
 <h1 id="l.i1.metrics">l.i1</h1>
@@ -645,7 +645,7 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 2583	0	4118	32.9	4765.8	67.1	1.594	13.060	1.845	26.605	9757	10.5	3.777	325	152.2	192.2	1.3	0.208	3398	749	800m.pg160_o2_nofp.cx9a2_bee
-416	0	737	7.3	1302.9	16.6	1.770	18.000	3.129	40.828	1897	12.2	4.556	2344	150.5	170.5	0.2	0.255	150	100	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+2882	0	11412	90.2	9364.7	118.1	3.961	32.046	3.250	41.985	24232	13.7	8.410	380	0.0	352.5	8.6	1.346	2946	2099	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <hr />
 <h1 id="q100.1.metrics">q100.1</h1>
@@ -656,7 +656,7 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 100	8000	174	1.4	202.2	3.4	0.022	0.178	2.026	34.689	31181	12.6	3.898	126	152.2	188.5	10.1	0.016	7527	6952	800m.pg160_o2_nofp.cx9a2_bee
-100	6779	205	1.7	417.7	5.0	0.030	0.254	4.185	51.774	26649	13.1	3.931	155	150.6	182.7	0.4	0.016	6600	6032	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+100	8456	395	3.1	345.0	4.5	0.047	0.381	3.457	46.062	33346	12.8	3.944	121	0.0	347.1	9.5	0.046	8036	7130	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <hr />
 <h1 id="q500.1.metrics">q500.1</h1>
@@ -667,7 +667,7 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 499	7594	802	6.4	963.4	14.5	0.106	0.863	1.931	29.784	31080	13.6	4.093	143	152.3	182.8	10.1	0.016	7272	7016	800m.pg160_o2_nofp.cx9a2_bee
-499	6942	874	7.3	2015.8	22.5	0.126	1.077	4.040	46.218	28734	13.6	4.139	157	150.9	180.3	0.4	0.026	6583	6296	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+499	8385	1900	15.0	1563.3	17.8	0.227	1.826	3.133	36.490	36161	14.7	4.312	140	0.0	347.3	9.5	0.050	7848	7545	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <hr />
 <h1 id="q1000.1.metrics">q1000.1</h1>
@@ -678,7 +678,7 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 <pre>
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 663	7641	1086	8.7	1318.5	19.5	0.142	1.165	1.988	30.133	31955	24.8	4.182	260	152.9	187.8	9.8	0.024	7303	7054	800m.pg160_o2_nofp.cx9a2_bee
-998	6617	1825	15.1	4043.3	43.0	0.276	2.337	4.051	44.078	29485	15.2	4.456	184	151.5	180.9	0.4	0.031	6361	6009	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+998	8016	3989	31.4	3584.9	35.9	0.498	4.006	3.592	36.881	39047	16.3	4.871	163	0.0	366.5	9.4	0.049	7927	6776	800m.pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <hr />
 <h1 id="l.i0.rt">l.i0</h1>
@@ -693,7 +693,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 <pre>
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	0.000	99.999	0.001	nonzero	0.000	0.000	0.000	0.000	0.000	0.060	pg160_o2_nofp.cx9a2_bee
-0.000	0.000	100.000	nonzero	nonzero	0.000	0.000	0.000	0.000	0.000	0.017	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+0.000	0.000	99.985	nonzero	0.015	0.000	nonzero	0.000	0.000	0.000	0.304	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <hr />
 <h1 id="l.x.rt">l.x</h1>
@@ -718,13 +718,13 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 <pre>
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	0.000	0.000	86.557	13.439	0.004	0.000	0.000	0.000	0.000	0.208	pg160_o2_nofp.cx9a2_bee
-0.000	0.000	0.000	56.136	43.832	0.033	0.000	0.000	0.000	0.000	0.255	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+0.000	0.000	0.000	54.536	44.541	0.922	0.001	nonzero	0.000	0.000	1.346	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <p>Delete response time histogram</p>
 <pre>
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 nonzero	77.366	0.838	4.279	15.829	1.688	0.000	0.000	0.000	0.000	0.082	pg160_o2_nofp.cx9a2_bee
-0.002	45.845	0.949	5.150	13.505	10.633	23.916	0.001	0.000	0.000	1.492	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+0.000	0.000	0.000	93.415	5.805	0.780	nonzero	0.000	0.000	0.000	0.264	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <hr />
 <h1 id="q100.1.rt">q100.1</h1>
@@ -739,19 +739,19 @@ nonzero	77.366	0.838	4.279	15.829	1.688	0.000	0.000	0.000	0.000	0.082	pg160_o2_n
 <pre>
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 99.818	0.180	nonzero	0.002	0.000	0.000	0.000	0.000	0.000	0.000	0.016	pg160_o2_nofp.cx9a2_bee
-99.389	0.604	0.001	0.005	0.000	0.000	0.000	0.000	0.000	0.000	0.016	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+99.790	0.203	0.002	0.005	nonzero	0.000	0.000	0.000	0.000	0.000	0.046	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <p>Insert response time histogram</p>
 <pre>
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	0.000	0.000	72.264	27.736	0.000	0.000	0.000	0.000	0.000	0.032	pg160_o2_nofp.cx9a2_bee
-0.000	0.000	0.000	85.792	14.208	0.000	0.000	0.000	0.000	0.000	0.036	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+0.000	0.000	0.000	56.597	43.396	0.007	0.000	0.000	0.000	0.000	0.069	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <p>Delete response time histogram</p>
 <pre>
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.111	99.507	0.042	0.340	0.000	0.000	0.000	0.000	0.000	0.000	0.010	pg160_o2_nofp.cx9a2_bee
-0.000	7.257	38.000	54.743	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+0.000	0.000	0.000	57.806	42.188	0.007	0.000	0.000	0.000	0.000	0.083	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <hr />
 <h1 id="q500.1.rt">q500.1</h1>
@@ -766,19 +766,19 @@ nonzero	77.366	0.838	4.279	15.829	1.688	0.000	0.000	0.000	0.000	0.082	pg160_o2_n
 <pre>
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 99.868	0.127	0.001	0.004	nonzero	0.000	0.000	0.000	0.000	0.000	0.016	pg160_o2_nofp.cx9a2_bee
-99.369	0.629	0.002	nonzero	nonzero	0.000	0.000	0.000	0.000	0.000	0.026	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+99.580	0.411	0.006	0.004	nonzero	0.000	0.000	0.000	0.000	0.000	0.050	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <p>Insert response time histogram</p>
 <pre>
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	0.000	0.000	93.549	6.451	0.000	0.000	0.000	0.000	0.000	0.030	pg160_o2_nofp.cx9a2_bee
-0.000	0.000	0.000	89.657	10.343	0.000	0.000	0.000	0.000	0.000	0.051	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+0.000	0.000	0.000	95.465	4.438	0.097	0.000	0.000	0.000	0.000	0.166	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <p>Delete response time histogram</p>
 <pre>
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 3.872	95.885	0.062	0.181	0.000	0.000	0.000	0.000	0.000	0.000	0.010	pg160_o2_nofp.cx9a2_bee
-3.254	90.950	0.039	5.757	0.000	0.000	0.000	0.000	0.000	0.000	0.015	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+0.000	0.000	0.000	95.894	4.019	0.086	0.000	0.000	0.000	0.000	0.132	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <hr />
 <h1 id="q1000.1.rt">q1000.1</h1>
@@ -793,19 +793,19 @@ nonzero	77.366	0.838	4.279	15.829	1.688	0.000	0.000	0.000	0.000	0.082	pg160_o2_n
 <pre>
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 99.892	0.107	0.001	0.001	nonzero	0.000	0.000	0.000	0.000	0.000	0.024	pg160_o2_nofp.cx9a2_bee
-98.223	1.764	0.013	nonzero	nonzero	0.000	0.000	0.000	0.000	0.000	0.031	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+97.620	2.337	0.037	0.005	nonzero	0.000	0.000	0.000	0.000	0.000	0.049	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <p>Insert response time histogram</p>
 <pre>
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	0.000	0.000	94.832	5.168	0.000	0.000	0.000	0.000	0.000	0.046	pg160_o2_nofp.cx9a2_bee
-0.000	0.000	0.000	77.506	22.494	0.000	0.000	0.000	0.000	0.000	0.060	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+0.000	0.000	0.000	93.614	5.872	0.515	0.000	0.000	0.000	0.000	0.240	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 <p>Delete response time histogram</p>
 <pre>
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.331	15.674	0.022	0.015	19.998	63.960	0.000	0.000	0.000	0.000	0.213	pg160_o2_nofp.cx9a2_bee
-2.269	97.678	0.053	0.001	0.000	0.000	0.000	0.000	0.000	0.000	0.005	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
+0.000	0.000	0.000	95.651	3.919	0.430	0.000	0.000	0.000	0.000	0.213	pg16oriole_o2_nofp_patches16_18.cx9a2_bee
 </pre>
 </body>
 </html>
