@@ -1,235 +1,235 @@
 set xlabel "Time(s)"
 set ylabel "IPS"
 set title "IPS vs Time for l.i0"
-set yrange [0:178837]
+set yrange [0:178710]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.l.i0.ips.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i0/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i0/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.l.i0.ips.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i0/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i0/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "maxInsertUsecs"
 set title "maxInsertUsecs vs Time for l.i0"
-set yrange [0:711728]
+set yrange [0:483561]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.l.i0.imax.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i0/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i0/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.l.i0.imax.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i0/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i0/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "DPS"
 set title "DPS vs Time for l.i0"
 set yrange [0:1]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.l.i0.dps.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i0/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i0/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.l.i0.dps.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i0/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i0/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "maxDeleteUsecs"
 set title "maxDeleteUsecs vs Time for l.i0"
 set yrange [0:1]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.l.i0.dmax.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i0/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i0/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.l.i0.dmax.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i0/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i0/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "IPS"
 set title "IPS vs Time for l.i1"
-set yrange [0:42553]
+set yrange [0:46928]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.l.i1.ips.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i1/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i1/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.l.i1.ips.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i1/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i1/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "maxInsertUsecs"
 set title "maxInsertUsecs vs Time for l.i1"
-set yrange [0:952699]
+set yrange [0:21685198]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.l.i1.imax.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i1/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i1/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.l.i1.imax.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i1/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i1/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "DPS"
 set title "DPS vs Time for l.i1"
-set yrange [0:42493]
+set yrange [0:46928]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.l.i1.dps.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i1/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i1/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.l.i1.dps.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i1/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i1/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "maxDeleteUsecs"
 set title "maxDeleteUsecs vs Time for l.i1"
-set yrange [0:772516]
+set yrange [0:41794806]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.l.i1.dmax.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i1/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i1/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.l.i1.dmax.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i1/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/l.i1/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "IPS"
 set title "IPS vs Time for q.L1.ips100"
 set yrange [0:120]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L1.ips100.ips.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L1.ips100.ips.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "maxInsertUsecs"
 set title "maxInsertUsecs vs Time for q.L1.ips100"
-set yrange [0:315057]
+set yrange [0:11924]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L1.ips100.imax.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L1.ips100.imax.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "DPS"
 set title "DPS vs Time for q.L1.ips100"
 set yrange [0:120]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L1.ips100.dps.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L1.ips100.dps.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "maxDeleteUsecs"
 set title "maxDeleteUsecs vs Time for q.L1.ips100"
-set yrange [0:10833]
+set yrange [0:3424]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L1.ips100.dmax.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L1.ips100.dmax.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "QPS"
 set title "QPS vs Time for q.L1.ips100"
-set yrange [0:15612]
+set yrange [0:15579]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L1.ips100.qps.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.qps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.qps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L1.ips100.qps.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.qps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.qps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "maxQueryUsecs"
 set title "maxQueryUsecs vs Time for q.L1.ips100"
-set yrange [0:36094]
+set yrange [0:124413]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L1.ips100.qmax.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.qmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.qmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L1.ips100.qmax.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.qmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L1.ips100/gpi.qmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "IPS"
 set title "IPS vs Time for q.L2.ips500"
-set yrange [0:778]
+set yrange [0:838]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L2.ips500.ips.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L2.ips500.ips.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "maxInsertUsecs"
 set title "maxInsertUsecs vs Time for q.L2.ips500"
-set yrange [0:66787]
+set yrange [0:71809]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L2.ips500.imax.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L2.ips500.imax.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "DPS"
 set title "DPS vs Time for q.L2.ips500"
 set yrange [0:898]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L2.ips500.dps.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L2.ips500.dps.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "maxDeleteUsecs"
 set title "maxDeleteUsecs vs Time for q.L2.ips500"
-set yrange [0:82302]
+set yrange [0:19717]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L2.ips500.dmax.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L2.ips500.dmax.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "QPS"
 set title "QPS vs Time for q.L2.ips500"
-set yrange [0:17852]
+set yrange [0:18277]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L2.ips500.qps.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.qps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.qps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L2.ips500.qps.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.qps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.qps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "maxQueryUsecs"
 set title "maxQueryUsecs vs Time for q.L2.ips500"
-set yrange [0:32515]
+set yrange [0:31716]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L2.ips500.qmax.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.qmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.qmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L2.ips500.qmax.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.qmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L2.ips500/gpi.qmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "IPS"
 set title "IPS vs Time for q.L3.ips1000"
-set yrange [0:1737]
+set yrange [0:2277]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L3.ips1000.ips.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L3.ips1000.ips.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.ips" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "maxInsertUsecs"
 set title "maxInsertUsecs vs Time for q.L3.ips1000"
-set yrange [0:78898]
+set yrange [0:1712532]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L3.ips1000.imax.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L3.ips1000.imax.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.imax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "DPS"
 set title "DPS vs Time for q.L3.ips1000"
-set yrange [0:1498]
+set yrange [0:2218]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L3.ips1000.dps.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L3.ips1000.dps.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.dps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "maxDeleteUsecs"
 set title "maxDeleteUsecs vs Time for q.L3.ips1000"
-set yrange [0:18060]
+set yrange [0:1684482]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L3.ips1000.dmax.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L3.ips1000.dmax.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.dmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "QPS"
 set title "QPS vs Time for q.L3.ips1000"
-set yrange [0:17356]
+set yrange [0:20042]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L3.ips1000.qps.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.qps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.qps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L3.ips1000.qps.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.qps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.qps" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set ylabel "maxQueryUsecs"
 set title "maxQueryUsecs vs Time for q.L3.ips1000"
-set yrange [0:29170]
+set yrange [0:1683042]
 set terminal dumb 200, 50
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L3.ips1000.qmax.txt'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.qmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.qmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
 set terminal png
 set output 'pg160_o2_nofp.cx7a28_gcp_c2s30.q.L3.ips1000.qmax.png'
-plot "4000m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.qmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
+plot "1600m.pg160_o2_nofp.cx7a28_gcp_c2s30/q.L3.ips1000/gpi.qmax" using 1:2 title "pg160_o2_nofp.cx7a28_gcp_c2s30", 
