@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>l.i0 per-second graphs</title>
+</head>
+<body>
+<p>
+These have results per 1-second interval for: insert rate (IPS), max insert response time, delete rate (DPS) and max delete response time.
+The results are from 1 client while the test may have N clients where N > 1.
+Deletes might not have been enabled for this benchmark step, in which case those graphs will show zero values.
+</p>
+<h1 id=\"toc\">Contents</h1>
+<ul>
+<li>my5621_rel.cz10a_bee: <a href="#my5621_rel.cz10a_bee.ips">IPS</a> and <a href="#my5621_rel.cz10a_bee.imax">max insert response time</a>
+<li>my5651_rel.cz10a_bee: <a href="#my5651_rel.cz10a_bee.ips">IPS</a> and <a href="#my5651_rel.cz10a_bee.imax">max insert response time</a>
+<li>my575_rel.cz10a_bee: <a href="#my575_rel.cz10a_bee.ips">IPS</a> and <a href="#my575_rel.cz10a_bee.imax">max insert response time</a>
+<li>my576_rel.cz10a_bee: <a href="#my576_rel.cz10a_bee.ips">IPS</a> and <a href="#my576_rel.cz10a_bee.imax">max insert response time</a>
+<li>my577_rel.cz10a_bee: <a href="#my577_rel.cz10a_bee.ips">IPS</a> and <a href="#my577_rel.cz10a_bee.imax">max insert response time</a>
+<li>my578_rel.cz10a_bee: <a href="#my578_rel.cz10a_bee.ips">IPS</a> and <a href="#my578_rel.cz10a_bee.imax">max insert response time</a>
+<li>my579_rel.cz10a_bee: <a href="#my579_rel.cz10a_bee.ips">IPS</a> and <a href="#my579_rel.cz10a_bee.imax">max insert response time</a>
+<li>my5710_rel.cz10a_bee: <a href="#my5710_rel.cz10a_bee.ips">IPS</a> and <a href="#my5710_rel.cz10a_bee.imax">max insert response time</a>
+<li>my5720_rel.cz10a_bee: <a href="#my5720_rel.cz10a_bee.ips">IPS</a> and <a href="#my5720_rel.cz10a_bee.imax">max insert response time</a>
+<li>my5730_rel.cz10a_bee: <a href="#my5730_rel.cz10a_bee.ips">IPS</a> and <a href="#my5730_rel.cz10a_bee.imax">max insert response time</a>
+<li>my5744_rel.cz10a_bee: <a href="#my5744_rel.cz10a_bee.ips">IPS</a> and <a href="#my5744_rel.cz10a_bee.imax">max insert response time</a>
+<li>my800_rel.cz10a_bee: <a href="#my800_rel.cz10a_bee.ips">IPS</a> and <a href="#my800_rel.cz10a_bee.imax">max insert response time</a>
+<li>my801_rel.cz10a_bee: <a href="#my801_rel.cz10a_bee.ips">IPS</a> and <a href="#my801_rel.cz10a_bee.imax">max insert response time</a>
+<li>my802_rel.cz10a_bee: <a href="#my802_rel.cz10a_bee.ips">IPS</a> and <a href="#my802_rel.cz10a_bee.imax">max insert response time</a>
+<li>my803_rel.cz10a_bee: <a href="#my803_rel.cz10a_bee.ips">IPS</a> and <a href="#my803_rel.cz10a_bee.imax">max insert response time</a>
+<li>my804_rel.cz10a_bee: <a href="#my804_rel.cz10a_bee.ips">IPS</a> and <a href="#my804_rel.cz10a_bee.imax">max insert response time</a>
+<li>my8011_rel.cz10a_bee: <a href="#my8011_rel.cz10a_bee.ips">IPS</a> and <a href="#my8011_rel.cz10a_bee.imax">max insert response time</a>
+<li>my8012_rel.cz10a_bee: <a href="#my8012_rel.cz10a_bee.ips">IPS</a> and <a href="#my8012_rel.cz10a_bee.imax">max insert response time</a>
+<li>my8013_rel.cz10a_bee: <a href="#my8013_rel.cz10a_bee.ips">IPS</a> and <a href="#my8013_rel.cz10a_bee.imax">max insert response time</a>
+<li>my8014_rel.cz10a_bee: <a href="#my8014_rel.cz10a_bee.ips">IPS</a> and <a href="#my8014_rel.cz10a_bee.imax">max insert response time</a>
+<li>my8020_rel.cz10a_bee: <a href="#my8020_rel.cz10a_bee.ips">IPS</a> and <a href="#my8020_rel.cz10a_bee.imax">max insert response time</a>
+<li>my8022_rel.cz10a_bee: <a href="#my8022_rel.cz10a_bee.ips">IPS</a> and <a href="#my8022_rel.cz10a_bee.imax">max insert response time</a>
+<li>my8028_rel.cz10a_bee: <a href="#my8028_rel.cz10a_bee.ips">IPS</a> and <a href="#my8028_rel.cz10a_bee.imax">max insert response time</a>
+<li>my8030_rel.cz10a_bee: <a href="#my8030_rel.cz10a_bee.ips">IPS</a> and <a href="#my8030_rel.cz10a_bee.imax">max insert response time</a>
+<li>my8034_rel.cz10a_bee: <a href="#my8034_rel.cz10a_bee.ips">IPS</a> and <a href="#my8034_rel.cz10a_bee.imax">max insert response time</a>
+<li>my8035_rel.cz10a_bee: <a href="#my8035_rel.cz10a_bee.ips">IPS</a> and <a href="#my8035_rel.cz10a_bee.imax">max insert response time</a>
+</ul>
+<hr />
+<h1 id="my5621_rel.cz10a_bee.ips">my5621_rel.cz10a_bee: IPS</h1>
+<img src="my5621_rel.cz10a_bee.l.i0.ips.png">my5621_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5621_rel.cz10a_bee.imax">my5621_rel.cz10a_bee: max insert response time</h1>
+<img src="my5621_rel.cz10a_bee.l.i0.imax.png">my5621_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5621_rel.cz10a_bee.dps">my5621_rel.cz10a_bee: DPS</h1>
+<img src="my5621_rel.cz10a_bee.l.i0.dps.png">my5621_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5621_rel.cz10a_bee.dmax">my5621_rel.cz10a_bee: max delete response time</h1>
+<img src="my5621_rel.cz10a_bee.l.i0.dmax.png">my5621_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5651_rel.cz10a_bee.ips">my5651_rel.cz10a_bee: IPS</h1>
+<img src="my5651_rel.cz10a_bee.l.i0.ips.png">my5651_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5651_rel.cz10a_bee.imax">my5651_rel.cz10a_bee: max insert response time</h1>
+<img src="my5651_rel.cz10a_bee.l.i0.imax.png">my5651_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5651_rel.cz10a_bee.dps">my5651_rel.cz10a_bee: DPS</h1>
+<img src="my5651_rel.cz10a_bee.l.i0.dps.png">my5651_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5651_rel.cz10a_bee.dmax">my5651_rel.cz10a_bee: max delete response time</h1>
+<img src="my5651_rel.cz10a_bee.l.i0.dmax.png">my5651_rel.cz10a_bee</a>
+<hr />
+<h1 id="my575_rel.cz10a_bee.ips">my575_rel.cz10a_bee: IPS</h1>
+<img src="my575_rel.cz10a_bee.l.i0.ips.png">my575_rel.cz10a_bee</a>
+<hr />
+<h1 id="my575_rel.cz10a_bee.imax">my575_rel.cz10a_bee: max insert response time</h1>
+<img src="my575_rel.cz10a_bee.l.i0.imax.png">my575_rel.cz10a_bee</a>
+<hr />
+<h1 id="my575_rel.cz10a_bee.dps">my575_rel.cz10a_bee: DPS</h1>
+<img src="my575_rel.cz10a_bee.l.i0.dps.png">my575_rel.cz10a_bee</a>
+<hr />
+<h1 id="my575_rel.cz10a_bee.dmax">my575_rel.cz10a_bee: max delete response time</h1>
+<img src="my575_rel.cz10a_bee.l.i0.dmax.png">my575_rel.cz10a_bee</a>
+<hr />
+<h1 id="my576_rel.cz10a_bee.ips">my576_rel.cz10a_bee: IPS</h1>
+<img src="my576_rel.cz10a_bee.l.i0.ips.png">my576_rel.cz10a_bee</a>
+<hr />
+<h1 id="my576_rel.cz10a_bee.imax">my576_rel.cz10a_bee: max insert response time</h1>
+<img src="my576_rel.cz10a_bee.l.i0.imax.png">my576_rel.cz10a_bee</a>
+<hr />
+<h1 id="my576_rel.cz10a_bee.dps">my576_rel.cz10a_bee: DPS</h1>
+<img src="my576_rel.cz10a_bee.l.i0.dps.png">my576_rel.cz10a_bee</a>
+<hr />
+<h1 id="my576_rel.cz10a_bee.dmax">my576_rel.cz10a_bee: max delete response time</h1>
+<img src="my576_rel.cz10a_bee.l.i0.dmax.png">my576_rel.cz10a_bee</a>
+<hr />
+<h1 id="my577_rel.cz10a_bee.ips">my577_rel.cz10a_bee: IPS</h1>
+<img src="my577_rel.cz10a_bee.l.i0.ips.png">my577_rel.cz10a_bee</a>
+<hr />
+<h1 id="my577_rel.cz10a_bee.imax">my577_rel.cz10a_bee: max insert response time</h1>
+<img src="my577_rel.cz10a_bee.l.i0.imax.png">my577_rel.cz10a_bee</a>
+<hr />
+<h1 id="my577_rel.cz10a_bee.dps">my577_rel.cz10a_bee: DPS</h1>
+<img src="my577_rel.cz10a_bee.l.i0.dps.png">my577_rel.cz10a_bee</a>
+<hr />
+<h1 id="my577_rel.cz10a_bee.dmax">my577_rel.cz10a_bee: max delete response time</h1>
+<img src="my577_rel.cz10a_bee.l.i0.dmax.png">my577_rel.cz10a_bee</a>
+<hr />
+<h1 id="my578_rel.cz10a_bee.ips">my578_rel.cz10a_bee: IPS</h1>
+<img src="my578_rel.cz10a_bee.l.i0.ips.png">my578_rel.cz10a_bee</a>
+<hr />
+<h1 id="my578_rel.cz10a_bee.imax">my578_rel.cz10a_bee: max insert response time</h1>
+<img src="my578_rel.cz10a_bee.l.i0.imax.png">my578_rel.cz10a_bee</a>
+<hr />
+<h1 id="my578_rel.cz10a_bee.dps">my578_rel.cz10a_bee: DPS</h1>
+<img src="my578_rel.cz10a_bee.l.i0.dps.png">my578_rel.cz10a_bee</a>
+<hr />
+<h1 id="my578_rel.cz10a_bee.dmax">my578_rel.cz10a_bee: max delete response time</h1>
+<img src="my578_rel.cz10a_bee.l.i0.dmax.png">my578_rel.cz10a_bee</a>
+<hr />
+<h1 id="my579_rel.cz10a_bee.ips">my579_rel.cz10a_bee: IPS</h1>
+<img src="my579_rel.cz10a_bee.l.i0.ips.png">my579_rel.cz10a_bee</a>
+<hr />
+<h1 id="my579_rel.cz10a_bee.imax">my579_rel.cz10a_bee: max insert response time</h1>
+<img src="my579_rel.cz10a_bee.l.i0.imax.png">my579_rel.cz10a_bee</a>
+<hr />
+<h1 id="my579_rel.cz10a_bee.dps">my579_rel.cz10a_bee: DPS</h1>
+<img src="my579_rel.cz10a_bee.l.i0.dps.png">my579_rel.cz10a_bee</a>
+<hr />
+<h1 id="my579_rel.cz10a_bee.dmax">my579_rel.cz10a_bee: max delete response time</h1>
+<img src="my579_rel.cz10a_bee.l.i0.dmax.png">my579_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5710_rel.cz10a_bee.ips">my5710_rel.cz10a_bee: IPS</h1>
+<img src="my5710_rel.cz10a_bee.l.i0.ips.png">my5710_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5710_rel.cz10a_bee.imax">my5710_rel.cz10a_bee: max insert response time</h1>
+<img src="my5710_rel.cz10a_bee.l.i0.imax.png">my5710_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5710_rel.cz10a_bee.dps">my5710_rel.cz10a_bee: DPS</h1>
+<img src="my5710_rel.cz10a_bee.l.i0.dps.png">my5710_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5710_rel.cz10a_bee.dmax">my5710_rel.cz10a_bee: max delete response time</h1>
+<img src="my5710_rel.cz10a_bee.l.i0.dmax.png">my5710_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5720_rel.cz10a_bee.ips">my5720_rel.cz10a_bee: IPS</h1>
+<img src="my5720_rel.cz10a_bee.l.i0.ips.png">my5720_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5720_rel.cz10a_bee.imax">my5720_rel.cz10a_bee: max insert response time</h1>
+<img src="my5720_rel.cz10a_bee.l.i0.imax.png">my5720_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5720_rel.cz10a_bee.dps">my5720_rel.cz10a_bee: DPS</h1>
+<img src="my5720_rel.cz10a_bee.l.i0.dps.png">my5720_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5720_rel.cz10a_bee.dmax">my5720_rel.cz10a_bee: max delete response time</h1>
+<img src="my5720_rel.cz10a_bee.l.i0.dmax.png">my5720_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5730_rel.cz10a_bee.ips">my5730_rel.cz10a_bee: IPS</h1>
+<img src="my5730_rel.cz10a_bee.l.i0.ips.png">my5730_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5730_rel.cz10a_bee.imax">my5730_rel.cz10a_bee: max insert response time</h1>
+<img src="my5730_rel.cz10a_bee.l.i0.imax.png">my5730_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5730_rel.cz10a_bee.dps">my5730_rel.cz10a_bee: DPS</h1>
+<img src="my5730_rel.cz10a_bee.l.i0.dps.png">my5730_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5730_rel.cz10a_bee.dmax">my5730_rel.cz10a_bee: max delete response time</h1>
+<img src="my5730_rel.cz10a_bee.l.i0.dmax.png">my5730_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5744_rel.cz10a_bee.ips">my5744_rel.cz10a_bee: IPS</h1>
+<img src="my5744_rel.cz10a_bee.l.i0.ips.png">my5744_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5744_rel.cz10a_bee.imax">my5744_rel.cz10a_bee: max insert response time</h1>
+<img src="my5744_rel.cz10a_bee.l.i0.imax.png">my5744_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5744_rel.cz10a_bee.dps">my5744_rel.cz10a_bee: DPS</h1>
+<img src="my5744_rel.cz10a_bee.l.i0.dps.png">my5744_rel.cz10a_bee</a>
+<hr />
+<h1 id="my5744_rel.cz10a_bee.dmax">my5744_rel.cz10a_bee: max delete response time</h1>
+<img src="my5744_rel.cz10a_bee.l.i0.dmax.png">my5744_rel.cz10a_bee</a>
+<hr />
+<h1 id="my800_rel.cz10a_bee.ips">my800_rel.cz10a_bee: IPS</h1>
+<img src="my800_rel.cz10a_bee.l.i0.ips.png">my800_rel.cz10a_bee</a>
+<hr />
+<h1 id="my800_rel.cz10a_bee.imax">my800_rel.cz10a_bee: max insert response time</h1>
+<img src="my800_rel.cz10a_bee.l.i0.imax.png">my800_rel.cz10a_bee</a>
+<hr />
+<h1 id="my800_rel.cz10a_bee.dps">my800_rel.cz10a_bee: DPS</h1>
+<img src="my800_rel.cz10a_bee.l.i0.dps.png">my800_rel.cz10a_bee</a>
+<hr />
+<h1 id="my800_rel.cz10a_bee.dmax">my800_rel.cz10a_bee: max delete response time</h1>
+<img src="my800_rel.cz10a_bee.l.i0.dmax.png">my800_rel.cz10a_bee</a>
+<hr />
+<h1 id="my801_rel.cz10a_bee.ips">my801_rel.cz10a_bee: IPS</h1>
+<img src="my801_rel.cz10a_bee.l.i0.ips.png">my801_rel.cz10a_bee</a>
+<hr />
+<h1 id="my801_rel.cz10a_bee.imax">my801_rel.cz10a_bee: max insert response time</h1>
+<img src="my801_rel.cz10a_bee.l.i0.imax.png">my801_rel.cz10a_bee</a>
+<hr />
+<h1 id="my801_rel.cz10a_bee.dps">my801_rel.cz10a_bee: DPS</h1>
+<img src="my801_rel.cz10a_bee.l.i0.dps.png">my801_rel.cz10a_bee</a>
+<hr />
+<h1 id="my801_rel.cz10a_bee.dmax">my801_rel.cz10a_bee: max delete response time</h1>
+<img src="my801_rel.cz10a_bee.l.i0.dmax.png">my801_rel.cz10a_bee</a>
+<hr />
+<h1 id="my802_rel.cz10a_bee.ips">my802_rel.cz10a_bee: IPS</h1>
+<img src="my802_rel.cz10a_bee.l.i0.ips.png">my802_rel.cz10a_bee</a>
+<hr />
+<h1 id="my802_rel.cz10a_bee.imax">my802_rel.cz10a_bee: max insert response time</h1>
+<img src="my802_rel.cz10a_bee.l.i0.imax.png">my802_rel.cz10a_bee</a>
+<hr />
+<h1 id="my802_rel.cz10a_bee.dps">my802_rel.cz10a_bee: DPS</h1>
+<img src="my802_rel.cz10a_bee.l.i0.dps.png">my802_rel.cz10a_bee</a>
+<hr />
+<h1 id="my802_rel.cz10a_bee.dmax">my802_rel.cz10a_bee: max delete response time</h1>
+<img src="my802_rel.cz10a_bee.l.i0.dmax.png">my802_rel.cz10a_bee</a>
+<hr />
+<h1 id="my803_rel.cz10a_bee.ips">my803_rel.cz10a_bee: IPS</h1>
+<img src="my803_rel.cz10a_bee.l.i0.ips.png">my803_rel.cz10a_bee</a>
+<hr />
+<h1 id="my803_rel.cz10a_bee.imax">my803_rel.cz10a_bee: max insert response time</h1>
+<img src="my803_rel.cz10a_bee.l.i0.imax.png">my803_rel.cz10a_bee</a>
+<hr />
+<h1 id="my803_rel.cz10a_bee.dps">my803_rel.cz10a_bee: DPS</h1>
+<img src="my803_rel.cz10a_bee.l.i0.dps.png">my803_rel.cz10a_bee</a>
+<hr />
+<h1 id="my803_rel.cz10a_bee.dmax">my803_rel.cz10a_bee: max delete response time</h1>
+<img src="my803_rel.cz10a_bee.l.i0.dmax.png">my803_rel.cz10a_bee</a>
+<hr />
+<h1 id="my804_rel.cz10a_bee.ips">my804_rel.cz10a_bee: IPS</h1>
+<img src="my804_rel.cz10a_bee.l.i0.ips.png">my804_rel.cz10a_bee</a>
+<hr />
+<h1 id="my804_rel.cz10a_bee.imax">my804_rel.cz10a_bee: max insert response time</h1>
+<img src="my804_rel.cz10a_bee.l.i0.imax.png">my804_rel.cz10a_bee</a>
+<hr />
+<h1 id="my804_rel.cz10a_bee.dps">my804_rel.cz10a_bee: DPS</h1>
+<img src="my804_rel.cz10a_bee.l.i0.dps.png">my804_rel.cz10a_bee</a>
+<hr />
+<h1 id="my804_rel.cz10a_bee.dmax">my804_rel.cz10a_bee: max delete response time</h1>
+<img src="my804_rel.cz10a_bee.l.i0.dmax.png">my804_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8011_rel.cz10a_bee.ips">my8011_rel.cz10a_bee: IPS</h1>
+<img src="my8011_rel.cz10a_bee.l.i0.ips.png">my8011_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8011_rel.cz10a_bee.imax">my8011_rel.cz10a_bee: max insert response time</h1>
+<img src="my8011_rel.cz10a_bee.l.i0.imax.png">my8011_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8011_rel.cz10a_bee.dps">my8011_rel.cz10a_bee: DPS</h1>
+<img src="my8011_rel.cz10a_bee.l.i0.dps.png">my8011_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8011_rel.cz10a_bee.dmax">my8011_rel.cz10a_bee: max delete response time</h1>
+<img src="my8011_rel.cz10a_bee.l.i0.dmax.png">my8011_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8012_rel.cz10a_bee.ips">my8012_rel.cz10a_bee: IPS</h1>
+<img src="my8012_rel.cz10a_bee.l.i0.ips.png">my8012_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8012_rel.cz10a_bee.imax">my8012_rel.cz10a_bee: max insert response time</h1>
+<img src="my8012_rel.cz10a_bee.l.i0.imax.png">my8012_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8012_rel.cz10a_bee.dps">my8012_rel.cz10a_bee: DPS</h1>
+<img src="my8012_rel.cz10a_bee.l.i0.dps.png">my8012_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8012_rel.cz10a_bee.dmax">my8012_rel.cz10a_bee: max delete response time</h1>
+<img src="my8012_rel.cz10a_bee.l.i0.dmax.png">my8012_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8013_rel.cz10a_bee.ips">my8013_rel.cz10a_bee: IPS</h1>
+<img src="my8013_rel.cz10a_bee.l.i0.ips.png">my8013_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8013_rel.cz10a_bee.imax">my8013_rel.cz10a_bee: max insert response time</h1>
+<img src="my8013_rel.cz10a_bee.l.i0.imax.png">my8013_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8013_rel.cz10a_bee.dps">my8013_rel.cz10a_bee: DPS</h1>
+<img src="my8013_rel.cz10a_bee.l.i0.dps.png">my8013_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8013_rel.cz10a_bee.dmax">my8013_rel.cz10a_bee: max delete response time</h1>
+<img src="my8013_rel.cz10a_bee.l.i0.dmax.png">my8013_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8014_rel.cz10a_bee.ips">my8014_rel.cz10a_bee: IPS</h1>
+<img src="my8014_rel.cz10a_bee.l.i0.ips.png">my8014_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8014_rel.cz10a_bee.imax">my8014_rel.cz10a_bee: max insert response time</h1>
+<img src="my8014_rel.cz10a_bee.l.i0.imax.png">my8014_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8014_rel.cz10a_bee.dps">my8014_rel.cz10a_bee: DPS</h1>
+<img src="my8014_rel.cz10a_bee.l.i0.dps.png">my8014_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8014_rel.cz10a_bee.dmax">my8014_rel.cz10a_bee: max delete response time</h1>
+<img src="my8014_rel.cz10a_bee.l.i0.dmax.png">my8014_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8020_rel.cz10a_bee.ips">my8020_rel.cz10a_bee: IPS</h1>
+<img src="my8020_rel.cz10a_bee.l.i0.ips.png">my8020_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8020_rel.cz10a_bee.imax">my8020_rel.cz10a_bee: max insert response time</h1>
+<img src="my8020_rel.cz10a_bee.l.i0.imax.png">my8020_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8020_rel.cz10a_bee.dps">my8020_rel.cz10a_bee: DPS</h1>
+<img src="my8020_rel.cz10a_bee.l.i0.dps.png">my8020_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8020_rel.cz10a_bee.dmax">my8020_rel.cz10a_bee: max delete response time</h1>
+<img src="my8020_rel.cz10a_bee.l.i0.dmax.png">my8020_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8022_rel.cz10a_bee.ips">my8022_rel.cz10a_bee: IPS</h1>
+<img src="my8022_rel.cz10a_bee.l.i0.ips.png">my8022_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8022_rel.cz10a_bee.imax">my8022_rel.cz10a_bee: max insert response time</h1>
+<img src="my8022_rel.cz10a_bee.l.i0.imax.png">my8022_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8022_rel.cz10a_bee.dps">my8022_rel.cz10a_bee: DPS</h1>
+<img src="my8022_rel.cz10a_bee.l.i0.dps.png">my8022_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8022_rel.cz10a_bee.dmax">my8022_rel.cz10a_bee: max delete response time</h1>
+<img src="my8022_rel.cz10a_bee.l.i0.dmax.png">my8022_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8028_rel.cz10a_bee.ips">my8028_rel.cz10a_bee: IPS</h1>
+<img src="my8028_rel.cz10a_bee.l.i0.ips.png">my8028_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8028_rel.cz10a_bee.imax">my8028_rel.cz10a_bee: max insert response time</h1>
+<img src="my8028_rel.cz10a_bee.l.i0.imax.png">my8028_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8028_rel.cz10a_bee.dps">my8028_rel.cz10a_bee: DPS</h1>
+<img src="my8028_rel.cz10a_bee.l.i0.dps.png">my8028_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8028_rel.cz10a_bee.dmax">my8028_rel.cz10a_bee: max delete response time</h1>
+<img src="my8028_rel.cz10a_bee.l.i0.dmax.png">my8028_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8030_rel.cz10a_bee.ips">my8030_rel.cz10a_bee: IPS</h1>
+<img src="my8030_rel.cz10a_bee.l.i0.ips.png">my8030_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8030_rel.cz10a_bee.imax">my8030_rel.cz10a_bee: max insert response time</h1>
+<img src="my8030_rel.cz10a_bee.l.i0.imax.png">my8030_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8030_rel.cz10a_bee.dps">my8030_rel.cz10a_bee: DPS</h1>
+<img src="my8030_rel.cz10a_bee.l.i0.dps.png">my8030_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8030_rel.cz10a_bee.dmax">my8030_rel.cz10a_bee: max delete response time</h1>
+<img src="my8030_rel.cz10a_bee.l.i0.dmax.png">my8030_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8034_rel.cz10a_bee.ips">my8034_rel.cz10a_bee: IPS</h1>
+<img src="my8034_rel.cz10a_bee.l.i0.ips.png">my8034_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8034_rel.cz10a_bee.imax">my8034_rel.cz10a_bee: max insert response time</h1>
+<img src="my8034_rel.cz10a_bee.l.i0.imax.png">my8034_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8034_rel.cz10a_bee.dps">my8034_rel.cz10a_bee: DPS</h1>
+<img src="my8034_rel.cz10a_bee.l.i0.dps.png">my8034_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8034_rel.cz10a_bee.dmax">my8034_rel.cz10a_bee: max delete response time</h1>
+<img src="my8034_rel.cz10a_bee.l.i0.dmax.png">my8034_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8035_rel.cz10a_bee.ips">my8035_rel.cz10a_bee: IPS</h1>
+<img src="my8035_rel.cz10a_bee.l.i0.ips.png">my8035_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8035_rel.cz10a_bee.imax">my8035_rel.cz10a_bee: max insert response time</h1>
+<img src="my8035_rel.cz10a_bee.l.i0.imax.png">my8035_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8035_rel.cz10a_bee.dps">my8035_rel.cz10a_bee: DPS</h1>
+<img src="my8035_rel.cz10a_bee.l.i0.dps.png">my8035_rel.cz10a_bee</a>
+<hr />
+<h1 id="my8035_rel.cz10a_bee.dmax">my8035_rel.cz10a_bee: max delete response time</h1>
+<img src="my8035_rel.cz10a_bee.l.i0.dmax.png">my8035_rel.cz10a_bee</a>
+</ul>
+</body>
+</html>

@@ -27,6 +27,9 @@ Benchmark reports for 2023
 * MyRocks tombstones (Aug 2023)
   * Large server: [Cached by RocksDB](reports/23_08_14.u.rx.deletetune.cached/all.html), [IO-bound](reports/23_08_14.u.rx.deletetune.io/all.html)
 * MySQL perf regressions with the Insert Benchmark
+  * Small server, Dec 2023, cached workload, MySQL with InnoDB
+    * Some point releases: [5.6](reports/23_12_18.bee.1u.1tno.cached.my56/all.html), [5.7](reports/23_12_18.bee.1u.1tno.cached.my57/all.html), [8.0](reports/23_12_18.bee.1u.1tno.cached.my80/all.html), [5.6, 5.7 and 8.0](reports/23_12_18.bee.1u.1tno.cached.myall/all.html)
+    * One point release, different my.cnf: [5.7.44](reports/23_12_18.bee.1u.1tno.cached.my5744/all.html), [8.0.35](reports/23_12_18.bee.1u.1tno.cached.my8035/all.html)
   * Medium server, Nov 2023, 5.6 to 8.0
     * Cached: [some 5.6 releases](reports/23_11_14.c2.8u.1tno.cached.my56/all.html), [all 5.7 releases](reports/23_11_14.c2.8u.1tno.cached.my57/all.html), [All 8.0 releases](reports/23_11_14.c2.8u.1tno.cached.my678/all.html), [some 5.6, 5.7 and 8.0 releases](reports/23_11_14.c2.8u.1tno.cached.my80/all.html)
     * IO-bound
