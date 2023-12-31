@@ -27,6 +27,8 @@ Benchmark reports for 2023
 * MyRocks tombstones (Aug 2023)
   * Large server: [Cached by RocksDB](reports/23_08_14.u.rx.deletetune.cached/all.html), [IO-bound](reports/23_08_14.u.rx.deletetune.io/all.html)
 * MySQL perf regressions with the Insert Benchmark
+  * Large server, Dec 2023, FB MySQL with MyRocks 5.6.35, 8.0.28, 8.0.32
+    * Cached database: [latest builds](reports/23_12_31_24u.1tno.cached.fbmy.latest/all.html)
   * Large server, Dec 2023, MySQL with InnoDB
     * Cached workload: [without NUMA interleave](reports/23_12_31_24u.1tno.cached.inno.int0/all.html)
   * Small server, Dec 2023, cached workload, MySQL with InnoDB
