@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>qp500.L4 per-second graphs</title>
+</head>
+<body>
+<p>
+These have results per 1-second interval for: insert rate (IPS), max insert reponse time, delete rate (DPS), max delete response time, query rate (QPS) and max query response time.
+The results are from 1 client while the test may have N clients where N > 1.
+Deletes might not have been enabled for this benchmark step, in which case those graphs will show zero values.
+The test is run with a rate limit for the number of inserts/s. In some cases the DBMS is unable to sustain that rate. When a DBMS can sustain that rate IPS will be a horizontal line.
+</p>
+<h1 id=\"toc\">Contents</h1>
+<ul>
+<li>my576_rel.cz10a_gcp_c2s30: <a href="#my576_rel.cz10a_gcp_c2s30.ips">IPS</a>, <a href="#my576_rel.cz10a_gcp_c2s30.imax">max insert response time</a>, <a href="#my576_rel.cz10a_gcp_c2s30.dps">DPS</a>, <a href="#my576_rel.cz10a_gcp_c2s30.dmax">max delete response time</a>, <a href="#my576_rel.cz10a_gcp_c2s30.qps">QPS</a> and <a href="#my576_rel.cz10a_gcp_c2s30.qmax">max query response time</a>
+<li>my577_rel.cz10a_gcp_c2s30: <a href="#my577_rel.cz10a_gcp_c2s30.ips">IPS</a>, <a href="#my577_rel.cz10a_gcp_c2s30.imax">max insert response time</a>, <a href="#my577_rel.cz10a_gcp_c2s30.dps">DPS</a>, <a href="#my577_rel.cz10a_gcp_c2s30.dmax">max delete response time</a>, <a href="#my577_rel.cz10a_gcp_c2s30.qps">QPS</a> and <a href="#my577_rel.cz10a_gcp_c2s30.qmax">max query response time</a>
+<li>my578_rel.cz10a_gcp_c2s30: <a href="#my578_rel.cz10a_gcp_c2s30.ips">IPS</a>, <a href="#my578_rel.cz10a_gcp_c2s30.imax">max insert response time</a>, <a href="#my578_rel.cz10a_gcp_c2s30.dps">DPS</a>, <a href="#my578_rel.cz10a_gcp_c2s30.dmax">max delete response time</a>, <a href="#my578_rel.cz10a_gcp_c2s30.qps">QPS</a> and <a href="#my578_rel.cz10a_gcp_c2s30.qmax">max query response time</a>
+<li>my579_rel.cz10a_gcp_c2s30: <a href="#my579_rel.cz10a_gcp_c2s30.ips">IPS</a>, <a href="#my579_rel.cz10a_gcp_c2s30.imax">max insert response time</a>, <a href="#my579_rel.cz10a_gcp_c2s30.dps">DPS</a>, <a href="#my579_rel.cz10a_gcp_c2s30.dmax">max delete response time</a>, <a href="#my579_rel.cz10a_gcp_c2s30.qps">QPS</a> and <a href="#my579_rel.cz10a_gcp_c2s30.qmax">max query response time</a>
+<li>my5710_rel.cz10a_gcp_c2s30: <a href="#my5710_rel.cz10a_gcp_c2s30.ips">IPS</a>, <a href="#my5710_rel.cz10a_gcp_c2s30.imax">max insert response time</a>, <a href="#my5710_rel.cz10a_gcp_c2s30.dps">DPS</a>, <a href="#my5710_rel.cz10a_gcp_c2s30.dmax">max delete response time</a>, <a href="#my5710_rel.cz10a_gcp_c2s30.qps">QPS</a> and <a href="#my5710_rel.cz10a_gcp_c2s30.qmax">max query response time</a>
+<li>my5711_rel.cz10a_gcp_c2s30: <a href="#my5711_rel.cz10a_gcp_c2s30.ips">IPS</a>, <a href="#my5711_rel.cz10a_gcp_c2s30.imax">max insert response time</a>, <a href="#my5711_rel.cz10a_gcp_c2s30.dps">DPS</a>, <a href="#my5711_rel.cz10a_gcp_c2s30.dmax">max delete response time</a>, <a href="#my5711_rel.cz10a_gcp_c2s30.qps">QPS</a> and <a href="#my5711_rel.cz10a_gcp_c2s30.qmax">max query response time</a>
+<li>my5720_rel.cz10a_gcp_c2s30: <a href="#my5720_rel.cz10a_gcp_c2s30.ips">IPS</a>, <a href="#my5720_rel.cz10a_gcp_c2s30.imax">max insert response time</a>, <a href="#my5720_rel.cz10a_gcp_c2s30.dps">DPS</a>, <a href="#my5720_rel.cz10a_gcp_c2s30.dmax">max delete response time</a>, <a href="#my5720_rel.cz10a_gcp_c2s30.qps">QPS</a> and <a href="#my5720_rel.cz10a_gcp_c2s30.qmax">max query response time</a>
+<li>my5730_rel.cz10a_gcp_c2s30: <a href="#my5730_rel.cz10a_gcp_c2s30.ips">IPS</a>, <a href="#my5730_rel.cz10a_gcp_c2s30.imax">max insert response time</a>, <a href="#my5730_rel.cz10a_gcp_c2s30.dps">DPS</a>, <a href="#my5730_rel.cz10a_gcp_c2s30.dmax">max delete response time</a>, <a href="#my5730_rel.cz10a_gcp_c2s30.qps">QPS</a> and <a href="#my5730_rel.cz10a_gcp_c2s30.qmax">max query response time</a>
+<li>my5743_rel.cz10a_gcp_c2s30: <a href="#my5743_rel.cz10a_gcp_c2s30.ips">IPS</a>, <a href="#my5743_rel.cz10a_gcp_c2s30.imax">max insert response time</a>, <a href="#my5743_rel.cz10a_gcp_c2s30.dps">DPS</a>, <a href="#my5743_rel.cz10a_gcp_c2s30.dmax">max delete response time</a>, <a href="#my5743_rel.cz10a_gcp_c2s30.qps">QPS</a> and <a href="#my5743_rel.cz10a_gcp_c2s30.qmax">max query response time</a>
+</ul>
+<hr />
+<h1 id="my576_rel.cz10a_gcp_c2s30.ips">my576_rel.cz10a_gcp_c2s30: IPS</h1>
+<img src="my576_rel.cz10a_gcp_c2s30.qp500.L4.ips.png">my576_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my576_rel.cz10a_gcp_c2s30.imax">my576_rel.cz10a_gcp_c2s30: max insert response time</h1>
+<img src="my576_rel.cz10a_gcp_c2s30.qp500.L4.imax.png">my576_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my576_rel.cz10a_gcp_c2s30.dps">my576_rel.cz10a_gcp_c2s30: DPS</h1>
+<img src="my576_rel.cz10a_gcp_c2s30.qp500.L4.dps.png">my576_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my576_rel.cz10a_gcp_c2s30.dmax">my576_rel.cz10a_gcp_c2s30: max delete response time</h1>
+<img src="my576_rel.cz10a_gcp_c2s30.qp500.L4.dmax.png">my576_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my576_rel.cz10a_gcp_c2s30.qps">my576_rel.cz10a_gcp_c2s30: QPS</h1>
+<img src="my576_rel.cz10a_gcp_c2s30.qp500.L4.qps.png">my576_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my576_rel.cz10a_gcp_c2s30.qmax">my576_rel.cz10a_gcp_c2s30: max query response time</h1>
+<img src="my576_rel.cz10a_gcp_c2s30.qp500.L4.qmax.png">my576_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my577_rel.cz10a_gcp_c2s30.ips">my577_rel.cz10a_gcp_c2s30: IPS</h1>
+<img src="my577_rel.cz10a_gcp_c2s30.qp500.L4.ips.png">my577_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my577_rel.cz10a_gcp_c2s30.imax">my577_rel.cz10a_gcp_c2s30: max insert response time</h1>
+<img src="my577_rel.cz10a_gcp_c2s30.qp500.L4.imax.png">my577_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my577_rel.cz10a_gcp_c2s30.dps">my577_rel.cz10a_gcp_c2s30: DPS</h1>
+<img src="my577_rel.cz10a_gcp_c2s30.qp500.L4.dps.png">my577_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my577_rel.cz10a_gcp_c2s30.dmax">my577_rel.cz10a_gcp_c2s30: max delete response time</h1>
+<img src="my577_rel.cz10a_gcp_c2s30.qp500.L4.dmax.png">my577_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my577_rel.cz10a_gcp_c2s30.qps">my577_rel.cz10a_gcp_c2s30: QPS</h1>
+<img src="my577_rel.cz10a_gcp_c2s30.qp500.L4.qps.png">my577_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my577_rel.cz10a_gcp_c2s30.qmax">my577_rel.cz10a_gcp_c2s30: max query response time</h1>
+<img src="my577_rel.cz10a_gcp_c2s30.qp500.L4.qmax.png">my577_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my578_rel.cz10a_gcp_c2s30.ips">my578_rel.cz10a_gcp_c2s30: IPS</h1>
+<img src="my578_rel.cz10a_gcp_c2s30.qp500.L4.ips.png">my578_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my578_rel.cz10a_gcp_c2s30.imax">my578_rel.cz10a_gcp_c2s30: max insert response time</h1>
+<img src="my578_rel.cz10a_gcp_c2s30.qp500.L4.imax.png">my578_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my578_rel.cz10a_gcp_c2s30.dps">my578_rel.cz10a_gcp_c2s30: DPS</h1>
+<img src="my578_rel.cz10a_gcp_c2s30.qp500.L4.dps.png">my578_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my578_rel.cz10a_gcp_c2s30.dmax">my578_rel.cz10a_gcp_c2s30: max delete response time</h1>
+<img src="my578_rel.cz10a_gcp_c2s30.qp500.L4.dmax.png">my578_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my578_rel.cz10a_gcp_c2s30.qps">my578_rel.cz10a_gcp_c2s30: QPS</h1>
+<img src="my578_rel.cz10a_gcp_c2s30.qp500.L4.qps.png">my578_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my578_rel.cz10a_gcp_c2s30.qmax">my578_rel.cz10a_gcp_c2s30: max query response time</h1>
+<img src="my578_rel.cz10a_gcp_c2s30.qp500.L4.qmax.png">my578_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my579_rel.cz10a_gcp_c2s30.ips">my579_rel.cz10a_gcp_c2s30: IPS</h1>
+<img src="my579_rel.cz10a_gcp_c2s30.qp500.L4.ips.png">my579_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my579_rel.cz10a_gcp_c2s30.imax">my579_rel.cz10a_gcp_c2s30: max insert response time</h1>
+<img src="my579_rel.cz10a_gcp_c2s30.qp500.L4.imax.png">my579_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my579_rel.cz10a_gcp_c2s30.dps">my579_rel.cz10a_gcp_c2s30: DPS</h1>
+<img src="my579_rel.cz10a_gcp_c2s30.qp500.L4.dps.png">my579_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my579_rel.cz10a_gcp_c2s30.dmax">my579_rel.cz10a_gcp_c2s30: max delete response time</h1>
+<img src="my579_rel.cz10a_gcp_c2s30.qp500.L4.dmax.png">my579_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my579_rel.cz10a_gcp_c2s30.qps">my579_rel.cz10a_gcp_c2s30: QPS</h1>
+<img src="my579_rel.cz10a_gcp_c2s30.qp500.L4.qps.png">my579_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my579_rel.cz10a_gcp_c2s30.qmax">my579_rel.cz10a_gcp_c2s30: max query response time</h1>
+<img src="my579_rel.cz10a_gcp_c2s30.qp500.L4.qmax.png">my579_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5710_rel.cz10a_gcp_c2s30.ips">my5710_rel.cz10a_gcp_c2s30: IPS</h1>
+<img src="my5710_rel.cz10a_gcp_c2s30.qp500.L4.ips.png">my5710_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5710_rel.cz10a_gcp_c2s30.imax">my5710_rel.cz10a_gcp_c2s30: max insert response time</h1>
+<img src="my5710_rel.cz10a_gcp_c2s30.qp500.L4.imax.png">my5710_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5710_rel.cz10a_gcp_c2s30.dps">my5710_rel.cz10a_gcp_c2s30: DPS</h1>
+<img src="my5710_rel.cz10a_gcp_c2s30.qp500.L4.dps.png">my5710_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5710_rel.cz10a_gcp_c2s30.dmax">my5710_rel.cz10a_gcp_c2s30: max delete response time</h1>
+<img src="my5710_rel.cz10a_gcp_c2s30.qp500.L4.dmax.png">my5710_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5710_rel.cz10a_gcp_c2s30.qps">my5710_rel.cz10a_gcp_c2s30: QPS</h1>
+<img src="my5710_rel.cz10a_gcp_c2s30.qp500.L4.qps.png">my5710_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5710_rel.cz10a_gcp_c2s30.qmax">my5710_rel.cz10a_gcp_c2s30: max query response time</h1>
+<img src="my5710_rel.cz10a_gcp_c2s30.qp500.L4.qmax.png">my5710_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5711_rel.cz10a_gcp_c2s30.ips">my5711_rel.cz10a_gcp_c2s30: IPS</h1>
+<img src="my5711_rel.cz10a_gcp_c2s30.qp500.L4.ips.png">my5711_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5711_rel.cz10a_gcp_c2s30.imax">my5711_rel.cz10a_gcp_c2s30: max insert response time</h1>
+<img src="my5711_rel.cz10a_gcp_c2s30.qp500.L4.imax.png">my5711_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5711_rel.cz10a_gcp_c2s30.dps">my5711_rel.cz10a_gcp_c2s30: DPS</h1>
+<img src="my5711_rel.cz10a_gcp_c2s30.qp500.L4.dps.png">my5711_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5711_rel.cz10a_gcp_c2s30.dmax">my5711_rel.cz10a_gcp_c2s30: max delete response time</h1>
+<img src="my5711_rel.cz10a_gcp_c2s30.qp500.L4.dmax.png">my5711_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5711_rel.cz10a_gcp_c2s30.qps">my5711_rel.cz10a_gcp_c2s30: QPS</h1>
+<img src="my5711_rel.cz10a_gcp_c2s30.qp500.L4.qps.png">my5711_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5711_rel.cz10a_gcp_c2s30.qmax">my5711_rel.cz10a_gcp_c2s30: max query response time</h1>
+<img src="my5711_rel.cz10a_gcp_c2s30.qp500.L4.qmax.png">my5711_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5720_rel.cz10a_gcp_c2s30.ips">my5720_rel.cz10a_gcp_c2s30: IPS</h1>
+<img src="my5720_rel.cz10a_gcp_c2s30.qp500.L4.ips.png">my5720_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5720_rel.cz10a_gcp_c2s30.imax">my5720_rel.cz10a_gcp_c2s30: max insert response time</h1>
+<img src="my5720_rel.cz10a_gcp_c2s30.qp500.L4.imax.png">my5720_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5720_rel.cz10a_gcp_c2s30.dps">my5720_rel.cz10a_gcp_c2s30: DPS</h1>
+<img src="my5720_rel.cz10a_gcp_c2s30.qp500.L4.dps.png">my5720_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5720_rel.cz10a_gcp_c2s30.dmax">my5720_rel.cz10a_gcp_c2s30: max delete response time</h1>
+<img src="my5720_rel.cz10a_gcp_c2s30.qp500.L4.dmax.png">my5720_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5720_rel.cz10a_gcp_c2s30.qps">my5720_rel.cz10a_gcp_c2s30: QPS</h1>
+<img src="my5720_rel.cz10a_gcp_c2s30.qp500.L4.qps.png">my5720_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5720_rel.cz10a_gcp_c2s30.qmax">my5720_rel.cz10a_gcp_c2s30: max query response time</h1>
+<img src="my5720_rel.cz10a_gcp_c2s30.qp500.L4.qmax.png">my5720_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5730_rel.cz10a_gcp_c2s30.ips">my5730_rel.cz10a_gcp_c2s30: IPS</h1>
+<img src="my5730_rel.cz10a_gcp_c2s30.qp500.L4.ips.png">my5730_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5730_rel.cz10a_gcp_c2s30.imax">my5730_rel.cz10a_gcp_c2s30: max insert response time</h1>
+<img src="my5730_rel.cz10a_gcp_c2s30.qp500.L4.imax.png">my5730_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5730_rel.cz10a_gcp_c2s30.dps">my5730_rel.cz10a_gcp_c2s30: DPS</h1>
+<img src="my5730_rel.cz10a_gcp_c2s30.qp500.L4.dps.png">my5730_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5730_rel.cz10a_gcp_c2s30.dmax">my5730_rel.cz10a_gcp_c2s30: max delete response time</h1>
+<img src="my5730_rel.cz10a_gcp_c2s30.qp500.L4.dmax.png">my5730_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5730_rel.cz10a_gcp_c2s30.qps">my5730_rel.cz10a_gcp_c2s30: QPS</h1>
+<img src="my5730_rel.cz10a_gcp_c2s30.qp500.L4.qps.png">my5730_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5730_rel.cz10a_gcp_c2s30.qmax">my5730_rel.cz10a_gcp_c2s30: max query response time</h1>
+<img src="my5730_rel.cz10a_gcp_c2s30.qp500.L4.qmax.png">my5730_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5743_rel.cz10a_gcp_c2s30.ips">my5743_rel.cz10a_gcp_c2s30: IPS</h1>
+<img src="my5743_rel.cz10a_gcp_c2s30.qp500.L4.ips.png">my5743_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5743_rel.cz10a_gcp_c2s30.imax">my5743_rel.cz10a_gcp_c2s30: max insert response time</h1>
+<img src="my5743_rel.cz10a_gcp_c2s30.qp500.L4.imax.png">my5743_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5743_rel.cz10a_gcp_c2s30.dps">my5743_rel.cz10a_gcp_c2s30: DPS</h1>
+<img src="my5743_rel.cz10a_gcp_c2s30.qp500.L4.dps.png">my5743_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5743_rel.cz10a_gcp_c2s30.dmax">my5743_rel.cz10a_gcp_c2s30: max delete response time</h1>
+<img src="my5743_rel.cz10a_gcp_c2s30.qp500.L4.dmax.png">my5743_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5743_rel.cz10a_gcp_c2s30.qps">my5743_rel.cz10a_gcp_c2s30: QPS</h1>
+<img src="my5743_rel.cz10a_gcp_c2s30.qp500.L4.qps.png">my5743_rel.cz10a_gcp_c2s30</a>
+<hr />
+<h1 id="my5743_rel.cz10a_gcp_c2s30.qmax">my5743_rel.cz10a_gcp_c2s30: max query response time</h1>
+<img src="my5743_rel.cz10a_gcp_c2s30.qp500.L4.qmax.png">my5743_rel.cz10a_gcp_c2s30</a>
+</ul>
+</body>
+</html>

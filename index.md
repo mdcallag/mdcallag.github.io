@@ -12,7 +12,9 @@ Posts for 2023:
 Benchmark reports for 2024
 * Insert Benchmark
   * Small server
-    * Postgres: [cached](reports/24_01_01.1u.1tno.bee.cached.pg/all.html)
+    * Postgres, Jan24: [cached](reports/24_01_01.1u.1tno.bee.cached.pg/all.html)
+  * Medium server
+    * MySQL, InnoDB, cached workload, Jan24: [MySQL 5.6](reports/24_01_01.8u.1tno.c2.cached.my56/all.html), [MySQL 5.7](reports/24_01_01.8u.1tno.c2.cached.my57/all.html), [MySQL 8.0](reports/24_01_01.8u.1tno.c2.cached.my678/all.html), [MySQL 5.6, 5.7 and 8.0](reports/24_01_01.8u.1tno.c2.cached.my80/all.html)
 
 Benchmark reports for 2023
 * jemalloc
