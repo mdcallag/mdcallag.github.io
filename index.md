@@ -9,6 +9,11 @@ Posts for 2020:
 Posts for 2023:
 * [Chasing down a CPU regression for MyRocks using flamegraphs](posts_2023/sep23.ibench.56builds.u.md)
 
+Benchmark reports for 2024
+* Insert Benchmark
+  * Small server
+    * Postgres: [cached](reports/24_01_01.1u.1tno.bee.cached.pg/all.html)
+
 Benchmark reports for 2023
 * jemalloc
   * Medium server, focus on jemalloc 5.2.1: IO-bound with [LRU block cache](reports/23_09_25.c2.ib.jemalloc521.io.c5/all.html), [Hyper Clock cache](reports/23_09_25.c2.ib.jemalloc521.io.c7/all.html)
