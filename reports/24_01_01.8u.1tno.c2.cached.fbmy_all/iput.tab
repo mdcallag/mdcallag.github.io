@@ -1,0 +1,32 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>qr100.L1</th><th>qp100.L2</th><th>qr500.L3</th><th>qp500.L4</th><th>qr1000.L5</th><th>qp1000.L6</th></tr>
+<tr><td>fbmy5635_rel_202104072149.cza1_gcp_c2s30</td><td>794</td><td>793</td><td>3967</td><td>3970</td><td>7947</td><td>7947</td></tr>
+<tr><td>fbmy5635_rel_202203072101.cza1_gcp_c2s30</td><td>794</td><td>794</td><td>3970</td><td>3967</td><td>7940</td><td>7940</td></tr>
+<tr><td>fbmy5635_rel_202205192101.cza1_gcp_c2s30</td><td>794</td><td>793</td><td>3967</td><td>3970</td><td>7947</td><td>7947</td></tr>
+<tr><td>fbmy5635_rel_202208092101.cza1_gcp_c2s30</td><td>793</td><td>793</td><td>3970</td><td>3970</td><td>7947</td><td>7947</td></tr>
+<tr><td>fbmy5635_rel_202210112144.cza1_gcp_c2s30</td><td>793</td><td>794</td><td>3970</td><td>3970</td><td>7947</td><td>7940</td></tr>
+<tr><td>fbmy5635_rel_202302162102.cza1_gcp_c2s30</td><td>793</td><td>794</td><td>3970</td><td>3970</td><td>7947</td><td>7940</td></tr>
+<tr><td>fbmy5635_rel_202304122154.cza1_gcp_c2s30</td><td>793</td><td>793</td><td>3970</td><td>3970</td><td>7947</td><td>7947</td></tr>
+<tr><td>fbmy5635_rel_202305292102.cza1_gcp_c2s30</td><td>793</td><td>793</td><td>3970</td><td>3970</td><td>7947</td><td>7947</td></tr>
+<tr><td>fbmy5635_rel_20230529_832.cza1_gcp_c2s30</td><td>793</td><td>794</td><td>3970</td><td>3970</td><td>7947</td><td>7940</td></tr>
+<tr><td>fbmy5635_rel_20230529_843.cza1_gcp_c2s30</td><td>794</td><td>794</td><td>3970</td><td>3967</td><td>7940</td><td>7940</td></tr>
+<tr><td>fbmy5635_rel_20230529_850.cza1_gcp_c2s30</td><td>794</td><td>793</td><td>3970</td><td>3970</td><td>7947</td><td>7947</td></tr>
+<tr><td>fbmy5635_rel_221222.cza1_gcp_c2s30</td><td>794</td><td>794</td><td>3967</td><td>3970</td><td>7947</td><td>7947</td></tr>
+<tr><td>fbmy8028_rel_221222.cza1_gcp_c2s30</td><td>794</td><td>794</td><td>3970</td><td>3970</td><td>7947</td><td>7947</td></tr>
+<tr><td>fbmy8028_rel_221222.cza1ps0_gcp_c2s30</td><td>793</td><td>793</td><td>3970</td><td>3970</td><td>7947</td><td>7947</td></tr>
+<tr><td>fbmy8032_rel_221222.cza1_gcp_c2s30</td><td>793</td><td>794</td><td>3970</td><td>3970</td><td>7947</td><td>7947</td></tr>
+<tr><td>fbmy8032_rel_221222.cza1ps0_gcp_c2s30</td><td>793</td><td>793</td><td>3970</td><td>3970</td><td>7947</td><td>7947</td></tr>
+<tr><td>target</td><td id=cgray>800</td><td id=cgray>800</td><td id=cgray>4000</td><td id=cgray>4000</td><td id=cgray>8000</td><td id=cgray>8000</td>
+</tr>
+</table>
