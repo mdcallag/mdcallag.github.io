@@ -12,8 +12,9 @@ Posts for 2023:
 Benchmark reports for 2024
 * Insert Benchmark
   * Small server
-    * Postgres, Beelink 16G RAM, Jan24: [cached](reports/24_01_01.1u.1tno.bee.cached.pg/all.html)
-    * Postgres, Beelink 32G RAM, Jan24: [cached](reports/24_01_01.1u.1tno.ser7.cached.pg/all.html)
+    * Postgres, Beelink 16G RAM (SER4), Jan24: [cached](reports/24_01_01.1u.1tno.bee.cached.pg/all.html)
+    * Postgres, Beelink 32G RAM (SER7), Jan24: [cached](reports/24_01_01.1u.1tno.ser7.cached.pg/all.html)
+    * MyRocks, Beelink 32G RAM (SER7), cached, Jan24: [5.6.35](reports/24_01_01.1u.1tno.bee.cached.fbmy56/all.html), [8.0.28](reports/24_01_01.1u.1tno.bee.cached.fbmy8028/all.html), [8.0.32](reports/24_01_01.1u.1tno.bee.cached.fbmy8032/all.html), [8.0](reports/24_01_01.1u.1tno.bee.cached.fbmy80/all.html), [all](reports/24_01_01.1u.1tno.bee.cached.fbmyall/all.html)
   * Medium server (GCP)
     * MySQL, InnoDB, cached workload, Jan24: [MySQL 5.6](reports/24_01_01.8u.1tno.c2.cached.my56/all.html), [MySQL 5.7](reports/24_01_01.8u.1tno.c2.cached.my57/all.html), [MySQL 8.0](reports/24_01_01.8u.1tno.c2.cached.my80/all.html), [MySQL 5.6, 5.7 and 8.0](reports/24_01_01.8u.1tno.c2.cached.my678/all.html)
     * MyRocks, cached workload, Jan24: [5.6.35](reports/24_01_01.8u.1tno.c2.cached.fbmy56/all.html), [8.0.28, 8.0.32](reports/24_01_01.8u.1tno.c2.cached.fbmy80/all.html), [5.6.35, 8.0.28, 8.0.32 - many versions](reports/24_01_01.8u.1tno.c2.cached.fbmy_all/all.html), [5.6.35, 8.0.28, 8.0.32 - latest versions](reports/24_01_01.8u.1tno.c2.cached.fbmy_latest/all.html)
