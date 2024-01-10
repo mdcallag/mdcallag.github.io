@@ -1,0 +1,451 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:72307]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.l.i0.ips.txt'
+plot "30m.pg9224_def.cx9a2_bee/l.i0/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.l.i0.ips.png'
+plot "30m.pg9224_def.cx9a2_bee/l.i0/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:46912]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.l.i0.imax.txt'
+plot "30m.pg9224_def.cx9a2_bee/l.i0/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.l.i0.imax.png'
+plot "30m.pg9224_def.cx9a2_bee/l.i0/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.l.i0.dps.txt'
+plot "30m.pg9224_def.cx9a2_bee/l.i0/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.l.i0.dps.png'
+plot "30m.pg9224_def.cx9a2_bee/l.i0/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.l.i0.dmax.txt'
+plot "30m.pg9224_def.cx9a2_bee/l.i0/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.l.i0.dmax.png'
+plot "30m.pg9224_def.cx9a2_bee/l.i0/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:12710]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.l.i1.ips.txt'
+plot "30m.pg9224_def.cx9a2_bee/l.i1/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.l.i1.ips.png'
+plot "30m.pg9224_def.cx9a2_bee/l.i1/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:82326]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.l.i1.imax.txt'
+plot "30m.pg9224_def.cx9a2_bee/l.i1/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.l.i1.imax.png'
+plot "30m.pg9224_def.cx9a2_bee/l.i1/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i1"
+set yrange [0:12651]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.l.i1.dps.txt'
+plot "30m.pg9224_def.cx9a2_bee/l.i1/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.l.i1.dps.png'
+plot "30m.pg9224_def.cx9a2_bee/l.i1/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i1"
+set yrange [0:112773]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.l.i1.dmax.txt'
+plot "30m.pg9224_def.cx9a2_bee/l.i1/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.l.i1.dmax.png'
+plot "30m.pg9224_def.cx9a2_bee/l.i1/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i2"
+set yrange [0:9562]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.l.i2.ips.txt'
+plot "30m.pg9224_def.cx9a2_bee/l.i2/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.l.i2.ips.png'
+plot "30m.pg9224_def.cx9a2_bee/l.i2/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i2"
+set yrange [0:44584]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.l.i2.imax.txt'
+plot "30m.pg9224_def.cx9a2_bee/l.i2/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.l.i2.imax.png'
+plot "30m.pg9224_def.cx9a2_bee/l.i2/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i2"
+set yrange [0:9556]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.l.i2.dps.txt'
+plot "30m.pg9224_def.cx9a2_bee/l.i2/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.l.i2.dps.png'
+plot "30m.pg9224_def.cx9a2_bee/l.i2/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i2"
+set yrange [0:93434]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.l.i2.dmax.txt'
+plot "30m.pg9224_def.cx9a2_bee/l.i2/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.l.i2.dmax.png'
+plot "30m.pg9224_def.cx9a2_bee/l.i2/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for l.i2"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.l.i2.qps.txt'
+plot "30m.pg9224_def.cx9a2_bee/l.i2/gpi.qps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.l.i2.qps.png'
+plot "30m.pg9224_def.cx9a2_bee/l.i2/gpi.qps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for l.i2"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.l.i2.qmax.txt'
+plot "30m.pg9224_def.cx9a2_bee/l.i2/gpi.qmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.l.i2.qmax.png'
+plot "30m.pg9224_def.cx9a2_bee/l.i2/gpi.qmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qr100.L1"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr100.L1.ips.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr100.L1/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr100.L1.ips.png'
+plot "30m.pg9224_def.cx9a2_bee/qr100.L1/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr100.L1"
+set yrange [0:16683]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr100.L1.imax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr100.L1/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr100.L1.imax.png'
+plot "30m.pg9224_def.cx9a2_bee/qr100.L1/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qr100.L1"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr100.L1.dps.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr100.L1/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr100.L1.dps.png'
+plot "30m.pg9224_def.cx9a2_bee/qr100.L1/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr100.L1"
+set yrange [0:6878]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr100.L1.dmax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr100.L1/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr100.L1.dmax.png'
+plot "30m.pg9224_def.cx9a2_bee/qr100.L1/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qr100.L1"
+set yrange [0:14032]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr100.L1.qps.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr100.L1/gpi.qps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr100.L1.qps.png'
+plot "30m.pg9224_def.cx9a2_bee/qr100.L1/gpi.qps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr100.L1"
+set yrange [0:4993]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr100.L1.qmax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr100.L1/gpi.qmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr100.L1.qmax.png'
+plot "30m.pg9224_def.cx9a2_bee/qr100.L1/gpi.qmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qp100.L2"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp100.L2.ips.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp100.L2/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp100.L2.ips.png'
+plot "30m.pg9224_def.cx9a2_bee/qp100.L2/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp100.L2"
+set yrange [0:14991]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp100.L2.imax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp100.L2/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp100.L2.imax.png'
+plot "30m.pg9224_def.cx9a2_bee/qp100.L2/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qp100.L2"
+set yrange [0:240]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp100.L2.dps.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp100.L2/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp100.L2.dps.png'
+plot "30m.pg9224_def.cx9a2_bee/qp100.L2/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp100.L2"
+set yrange [0:9940]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp100.L2.dmax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp100.L2/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp100.L2.dmax.png'
+plot "30m.pg9224_def.cx9a2_bee/qp100.L2/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qp100.L2"
+set yrange [0:4928]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp100.L2.qps.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp100.L2/gpi.qps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp100.L2.qps.png'
+plot "30m.pg9224_def.cx9a2_bee/qp100.L2/gpi.qps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp100.L2"
+set yrange [0:5871]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp100.L2.qmax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp100.L2/gpi.qmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp100.L2.qmax.png'
+plot "30m.pg9224_def.cx9a2_bee/qp100.L2/gpi.qmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qr500.L3"
+set yrange [0:650]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr500.L3.ips.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr500.L3/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr500.L3.ips.png'
+plot "30m.pg9224_def.cx9a2_bee/qr500.L3/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr500.L3"
+set yrange [0:32502]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr500.L3.imax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr500.L3/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr500.L3.imax.png'
+plot "30m.pg9224_def.cx9a2_bee/qr500.L3/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qr500.L3"
+set yrange [0:1124]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr500.L3.dps.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr500.L3/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr500.L3.dps.png'
+plot "30m.pg9224_def.cx9a2_bee/qr500.L3/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr500.L3"
+set yrange [0:21194]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr500.L3.dmax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr500.L3/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr500.L3.dmax.png'
+plot "30m.pg9224_def.cx9a2_bee/qr500.L3/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qr500.L3"
+set yrange [0:12102]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr500.L3.qps.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr500.L3/gpi.qps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr500.L3.qps.png'
+plot "30m.pg9224_def.cx9a2_bee/qr500.L3/gpi.qps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr500.L3"
+set yrange [0:17571]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr500.L3.qmax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr500.L3/gpi.qmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr500.L3.qmax.png'
+plot "30m.pg9224_def.cx9a2_bee/qr500.L3/gpi.qmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qp500.L4"
+set yrange [0:720]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp500.L4.ips.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp500.L4/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp500.L4.ips.png'
+plot "30m.pg9224_def.cx9a2_bee/qp500.L4/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp500.L4"
+set yrange [0:17314]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp500.L4.imax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp500.L4/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp500.L4.imax.png'
+plot "30m.pg9224_def.cx9a2_bee/qp500.L4/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qp500.L4"
+set yrange [0:1012]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp500.L4.dps.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp500.L4/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp500.L4.dps.png'
+plot "30m.pg9224_def.cx9a2_bee/qp500.L4/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp500.L4"
+set yrange [0:12764]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp500.L4.dmax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp500.L4/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp500.L4.dmax.png'
+plot "30m.pg9224_def.cx9a2_bee/qp500.L4/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qp500.L4"
+set yrange [0:5293]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp500.L4.qps.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp500.L4/gpi.qps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp500.L4.qps.png'
+plot "30m.pg9224_def.cx9a2_bee/qp500.L4/gpi.qps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp500.L4"
+set yrange [0:7352]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp500.L4.qmax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp500.L4/gpi.qmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp500.L4.qmax.png'
+plot "30m.pg9224_def.cx9a2_bee/qp500.L4/gpi.qmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qr1000.L5"
+set yrange [0:1320]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr1000.L5.ips.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr1000.L5/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr1000.L5.ips.png'
+plot "30m.pg9224_def.cx9a2_bee/qr1000.L5/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr1000.L5"
+set yrange [0:25988]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr1000.L5.imax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr1000.L5/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr1000.L5.imax.png'
+plot "30m.pg9224_def.cx9a2_bee/qr1000.L5/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qr1000.L5"
+set yrange [0:1717]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr1000.L5.dps.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr1000.L5/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr1000.L5.dps.png'
+plot "30m.pg9224_def.cx9a2_bee/qr1000.L5/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr1000.L5"
+set yrange [0:15988]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr1000.L5.dmax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr1000.L5/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr1000.L5.dmax.png'
+plot "30m.pg9224_def.cx9a2_bee/qr1000.L5/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qr1000.L5"
+set yrange [0:13419]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr1000.L5.qps.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr1000.L5/gpi.qps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr1000.L5.qps.png'
+plot "30m.pg9224_def.cx9a2_bee/qr1000.L5/gpi.qps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr1000.L5"
+set yrange [0:12541]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qr1000.L5.qmax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qr1000.L5/gpi.qmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qr1000.L5.qmax.png'
+plot "30m.pg9224_def.cx9a2_bee/qr1000.L5/gpi.qmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qp1000.L6"
+set yrange [0:2037]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp1000.L6.ips.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp1000.L6/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp1000.L6.ips.png'
+plot "30m.pg9224_def.cx9a2_bee/qp1000.L6/gpi.ips" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp1000.L6"
+set yrange [0:29962]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp1000.L6.imax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp1000.L6/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp1000.L6.imax.png'
+plot "30m.pg9224_def.cx9a2_bee/qp1000.L6/gpi.imax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qp1000.L6"
+set yrange [0:1797]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp1000.L6.dps.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp1000.L6/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp1000.L6.dps.png'
+plot "30m.pg9224_def.cx9a2_bee/qp1000.L6/gpi.dps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp1000.L6"
+set yrange [0:20911]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp1000.L6.dmax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp1000.L6/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp1000.L6.dmax.png'
+plot "30m.pg9224_def.cx9a2_bee/qp1000.L6/gpi.dmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qp1000.L6"
+set yrange [0:5043]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp1000.L6.qps.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp1000.L6/gpi.qps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp1000.L6.qps.png'
+plot "30m.pg9224_def.cx9a2_bee/qp1000.L6/gpi.qps" using 1:2 title "pg9224_def.cx9a2_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp1000.L6"
+set yrange [0:8270]
+set terminal dumb 200, 50
+set output 'pg9224_def.cx9a2_bee.qp1000.L6.qmax.txt'
+plot "30m.pg9224_def.cx9a2_bee/qp1000.L6/gpi.qmax" using 1:2 title "pg9224_def.cx9a2_bee", 
+set terminal png
+set output 'pg9224_def.cx9a2_bee.qp1000.L6.qmax.png'
+plot "30m.pg9224_def.cx9a2_bee/qp1000.L6/gpi.qmax" using 1:2 title "pg9224_def.cx9a2_bee", 
