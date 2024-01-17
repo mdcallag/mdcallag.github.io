@@ -22,6 +22,7 @@ Benchmark reports for 2024
     * MySQL, InnoDB, cached workload, Jan24: [MySQL 5.6](reports/24_01_01.8u.1tno.c2.cached.my56/all.html), [MySQL 5.7](reports/24_01_01.8u.1tno.c2.cached.my57/all.html), [MySQL 8.0](reports/24_01_01.8u.1tno.c2.cached.my80/all.html), [MySQL 5.6, 5.7 and 8.0](reports/24_01_01.8u.1tno.c2.cached.my678/all.html)
     * MyRocks, cached workload, Jan24: [5.6.35](reports/24_01_01.8u.1tno.c2.cached.fbmy56/all.html), [8.0.28, 8.0.32](reports/24_01_01.8u.1tno.c2.cached.fbmy80/all.html), [5.6.35, 8.0.28, 8.0.32 - many versions](reports/24_01_01.8u.1tno.c2.cached.fbmy_all/all.html), [5.6.35, 8.0.28, 8.0.32 - latest versions](reports/24_01_01.8u.1tno.c2.cached.fbmy_latest/all.html)
     * MyRocks, cached workload, Jan24, v2: [5.6.35](reports/24_01_11.8u.1tno.cached.fbmy56/all.html), [8.0](reports/24_01_11.8u.1tno.cached.fbmy80/all.html), [latest 5.6, 8.0](reports/24_01_11.8u.1tno.cached.fbmy.latest/all.html), [all](reports/24_01_11.8u.1tno.cached.fbmy.all/all.html)
+    * MyRocks, IO-bound workload, Jan24, v2: [5.6.35](reports/24_01_17.8u.1tno.io.c2.fbmy.56/all.html), [8.0](reports/24_01_17.8u.1tno.io.c2.fbmy.80/all.html), [all](reports/24_01_17.8u.1tno.io.c2.fbmy.all/all.html), [latest](reports/24_01_17.8u.1tno.io.c2.fbmy.latest/all.html)
   * Medium/large server (2-socket, 24-core)
     * MyRocks, cached workload, Jan24: [5.6.35, 8.0.28, 8.0.32](reports/24_01_01.12u.1tno.socket2.cached.fbmy/all.html)
   * Large server (2-socket, 20 cores/socket)
