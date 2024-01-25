@@ -1,0 +1,18 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>my5621_rel.cz10a_bee</td> <td id="cmax">103448</td><td>101352</td><td id="cmax">18527</td><td id="cmax">12165</td><td id="cmax">5688</td><td id="cmax">4652</td><td id="cmax">5671</td><td id="cmax">4641</td><td id="cmax">5680</td><td id="cmax">4607</td></tr>
+<tr><td>my5631_rel.cz10a_bee</td> <td>98361</td><td>102740</td><td>17969</td><td>11962</td><td>5577</td><td>4558</td><td>5598</td><td>4518</td><td>5562</td><td>4553</td></tr>
+<tr><td>my5641_rel.cz10a_bee</td> <td>98039</td><td>100000</td><td>17905</td><td>11919</td><td>5592</td><td>4563</td><td>5601</td><td>4605</td><td>5596</td><td>4572</td></tr>
+<tr><td>my5651_rel.cz10a_bee</td> <td>100000</td><td id="cmax">107914</td><td>18124</td><td id="cmax">12106</td><td>5570</td><td>4574</td><td>5547</td><td>4507</td><td>5573</td><td>4528</td></tr>
+</table>
