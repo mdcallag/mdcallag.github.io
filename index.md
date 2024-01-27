@@ -15,6 +15,7 @@ Benchmark reports for 2024
     * Postgres, Beelink 16G RAM (SER4), Jan24: [cached](reports/24_01_01.1u.1tno.bee.cached.pg/all.html)
     * Postgres, Beelink 16G RAM (SER4), Jan24, v2: [cached](reports/24_01_10.1u.1tno.bee.cached.pg/all.html)
     * Postgres, Beelink 16G RAM (SER4), Jan24, v3: [cached](reports/24_01_24.8u.1tno.mem.bee.pg/all.html)
+    * Postgres, Beelink 16G RAM (SER4), Jan24: [IO-bound](reports/24_01_27.1u.1tno.io.bee.pg/all.html)
     * MyRocks, Beelink 16G RAM (SER4), Jan24, v2, cached: [5.6.35](reports/24_01_12.1u.1tno.cached.bee.30m.fbmy.56/all.html), [8.0](reports/24_01_12.1u.1tno.cached.bee.30m.fbmy.80/all.html), [all](reports/24_01_12.1u.1tno.cached.bee.30m.fbmy.all/all.html), [latest](reports/24_01_12.1u.1tno.cached.bee.30m.fbmy.latest/all.html)
     * InnoDB, Beelink 16G RAM (SER4), Jan24, cached: [5.6](reports/24_01_25.8u.1tno.mem.bee.my.56/all.html), [5.7](reports/24_01_25.8u.1tno.mem.bee.my.57/all.html), [8.0](reports/24_01_25.8u.1tno.mem.bee.my.80/all.html), [all](reports/24_01_25.8u.1tno.mem.bee.my.all/all.html)
     * Postgres, Beelink 32G RAM (SER7), Jan24: [cached](reports/24_01_01.1u.1tno.ser7.cached.pg/all.html)

@@ -1,0 +1,451 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:92898]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.l.i0.ips.txt'
+plot "800m.pg1313_def.cx9a2_bee/l.i0/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.l.i0.ips.png'
+plot "800m.pg1313_def.cx9a2_bee/l.i0/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:67928]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.l.i0.imax.txt'
+plot "800m.pg1313_def.cx9a2_bee/l.i0/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.l.i0.imax.png'
+plot "800m.pg1313_def.cx9a2_bee/l.i0/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.l.i0.dps.txt'
+plot "800m.pg1313_def.cx9a2_bee/l.i0/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.l.i0.dps.png'
+plot "800m.pg1313_def.cx9a2_bee/l.i0/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.l.i0.dmax.txt'
+plot "800m.pg1313_def.cx9a2_bee/l.i0/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.l.i0.dmax.png'
+plot "800m.pg1313_def.cx9a2_bee/l.i0/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:4497]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.l.i1.ips.txt'
+plot "800m.pg1313_def.cx9a2_bee/l.i1/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.l.i1.ips.png'
+plot "800m.pg1313_def.cx9a2_bee/l.i1/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:78667]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.l.i1.imax.txt'
+plot "800m.pg1313_def.cx9a2_bee/l.i1/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.l.i1.imax.png'
+plot "800m.pg1313_def.cx9a2_bee/l.i1/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i1"
+set yrange [0:4555]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.l.i1.dps.txt'
+plot "800m.pg1313_def.cx9a2_bee/l.i1/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.l.i1.dps.png'
+plot "800m.pg1313_def.cx9a2_bee/l.i1/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i1"
+set yrange [0:51697]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.l.i1.dmax.txt'
+plot "800m.pg1313_def.cx9a2_bee/l.i1/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.l.i1.dmax.png'
+plot "800m.pg1313_def.cx9a2_bee/l.i1/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i2"
+set yrange [0:186]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.l.i2.ips.txt'
+plot "800m.pg1313_def.cx9a2_bee/l.i2/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.l.i2.ips.png'
+plot "800m.pg1313_def.cx9a2_bee/l.i2/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i2"
+set yrange [0:32880]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.l.i2.imax.txt'
+plot "800m.pg1313_def.cx9a2_bee/l.i2/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.l.i2.imax.png'
+plot "800m.pg1313_def.cx9a2_bee/l.i2/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i2"
+set yrange [0:150]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.l.i2.dps.txt'
+plot "800m.pg1313_def.cx9a2_bee/l.i2/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.l.i2.dps.png'
+plot "800m.pg1313_def.cx9a2_bee/l.i2/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i2"
+set yrange [0:122896]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.l.i2.dmax.txt'
+plot "800m.pg1313_def.cx9a2_bee/l.i2/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.l.i2.dmax.png'
+plot "800m.pg1313_def.cx9a2_bee/l.i2/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for l.i2"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.l.i2.qps.txt'
+plot "800m.pg1313_def.cx9a2_bee/l.i2/gpi.qps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.l.i2.qps.png'
+plot "800m.pg1313_def.cx9a2_bee/l.i2/gpi.qps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for l.i2"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.l.i2.qmax.txt'
+plot "800m.pg1313_def.cx9a2_bee/l.i2/gpi.qmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.l.i2.qmax.png'
+plot "800m.pg1313_def.cx9a2_bee/l.i2/gpi.qmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qr100.L1"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr100.L1.ips.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr100.L1/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr100.L1.ips.png'
+plot "800m.pg1313_def.cx9a2_bee/qr100.L1/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr100.L1"
+set yrange [0:36433]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr100.L1.imax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr100.L1/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr100.L1.imax.png'
+plot "800m.pg1313_def.cx9a2_bee/qr100.L1/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qr100.L1"
+set yrange [0:240]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr100.L1.dps.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr100.L1/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr100.L1.dps.png'
+plot "800m.pg1313_def.cx9a2_bee/qr100.L1/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr100.L1"
+set yrange [0:10917]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr100.L1.dmax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr100.L1/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr100.L1.dmax.png'
+plot "800m.pg1313_def.cx9a2_bee/qr100.L1/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qr100.L1"
+set yrange [0:14025]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr100.L1.qps.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr100.L1/gpi.qps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr100.L1.qps.png'
+plot "800m.pg1313_def.cx9a2_bee/qr100.L1/gpi.qps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr100.L1"
+set yrange [0:11972]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr100.L1.qmax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr100.L1/gpi.qmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr100.L1.qmax.png'
+plot "800m.pg1313_def.cx9a2_bee/qr100.L1/gpi.qmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qp100.L2"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp100.L2.ips.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp100.L2/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp100.L2.ips.png'
+plot "800m.pg1313_def.cx9a2_bee/qp100.L2/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp100.L2"
+set yrange [0:37406]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp100.L2.imax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp100.L2/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp100.L2.imax.png'
+plot "800m.pg1313_def.cx9a2_bee/qp100.L2/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qp100.L2"
+set yrange [0:237]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp100.L2.dps.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp100.L2/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp100.L2.dps.png'
+plot "800m.pg1313_def.cx9a2_bee/qp100.L2/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp100.L2"
+set yrange [0:10324]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp100.L2.dmax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp100.L2/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp100.L2.dmax.png'
+plot "800m.pg1313_def.cx9a2_bee/qp100.L2/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qp100.L2"
+set yrange [0:499]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp100.L2.qps.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp100.L2/gpi.qps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp100.L2.qps.png'
+plot "800m.pg1313_def.cx9a2_bee/qp100.L2/gpi.qps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp100.L2"
+set yrange [0:15032]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp100.L2.qmax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp100.L2/gpi.qmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp100.L2.qmax.png'
+plot "800m.pg1313_def.cx9a2_bee/qp100.L2/gpi.qmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qr500.L3"
+set yrange [0:600]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr500.L3.ips.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr500.L3/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr500.L3.ips.png'
+plot "800m.pg1313_def.cx9a2_bee/qr500.L3/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr500.L3"
+set yrange [0:101959]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr500.L3.imax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr500.L3/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr500.L3.imax.png'
+plot "800m.pg1313_def.cx9a2_bee/qr500.L3/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qr500.L3"
+set yrange [0:658]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr500.L3.dps.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr500.L3/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr500.L3.dps.png'
+plot "800m.pg1313_def.cx9a2_bee/qr500.L3/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr500.L3"
+set yrange [0:26314]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr500.L3.dmax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr500.L3/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr500.L3.dmax.png'
+plot "800m.pg1313_def.cx9a2_bee/qr500.L3/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qr500.L3"
+set yrange [0:13520]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr500.L3.qps.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr500.L3/gpi.qps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr500.L3.qps.png'
+plot "800m.pg1313_def.cx9a2_bee/qr500.L3/gpi.qps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr500.L3"
+set yrange [0:44530]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr500.L3.qmax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr500.L3/gpi.qmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr500.L3.qmax.png'
+plot "800m.pg1313_def.cx9a2_bee/qr500.L3/gpi.qmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qp500.L4"
+set yrange [0:660]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp500.L4.ips.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp500.L4/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp500.L4.ips.png'
+plot "800m.pg1313_def.cx9a2_bee/qp500.L4/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp500.L4"
+set yrange [0:111751]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp500.L4.imax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp500.L4/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp500.L4.imax.png'
+plot "800m.pg1313_def.cx9a2_bee/qp500.L4/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qp500.L4"
+set yrange [0:660]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp500.L4.dps.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp500.L4/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp500.L4.dps.png'
+plot "800m.pg1313_def.cx9a2_bee/qp500.L4/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp500.L4"
+set yrange [0:57240]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp500.L4.dmax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp500.L4/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp500.L4.dmax.png'
+plot "800m.pg1313_def.cx9a2_bee/qp500.L4/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qp500.L4"
+set yrange [0:480]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp500.L4.qps.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp500.L4/gpi.qps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp500.L4.qps.png'
+plot "800m.pg1313_def.cx9a2_bee/qp500.L4/gpi.qps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp500.L4"
+set yrange [0:56004]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp500.L4.qmax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp500.L4/gpi.qmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp500.L4.qmax.png'
+plot "800m.pg1313_def.cx9a2_bee/qp500.L4/gpi.qmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qr1000.L5"
+set yrange [0:1318]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr1000.L5.ips.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr1000.L5/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr1000.L5.ips.png'
+plot "800m.pg1313_def.cx9a2_bee/qr1000.L5/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr1000.L5"
+set yrange [0:105445]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr1000.L5.imax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr1000.L5/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr1000.L5.imax.png'
+plot "800m.pg1313_def.cx9a2_bee/qr1000.L5/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qr1000.L5"
+set yrange [0:1258]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr1000.L5.dps.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr1000.L5/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr1000.L5.dps.png'
+plot "800m.pg1313_def.cx9a2_bee/qr1000.L5/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr1000.L5"
+set yrange [0:68703]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr1000.L5.dmax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr1000.L5/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr1000.L5.dmax.png'
+plot "800m.pg1313_def.cx9a2_bee/qr1000.L5/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qr1000.L5"
+set yrange [0:11352]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr1000.L5.qps.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr1000.L5/gpi.qps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr1000.L5.qps.png'
+plot "800m.pg1313_def.cx9a2_bee/qr1000.L5/gpi.qps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr1000.L5"
+set yrange [0:159865]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qr1000.L5.qmax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qr1000.L5/gpi.qmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qr1000.L5.qmax.png'
+plot "800m.pg1313_def.cx9a2_bee/qr1000.L5/gpi.qmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qp1000.L6"
+set yrange [0:1378]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp1000.L6.ips.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp1000.L6/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp1000.L6.ips.png'
+plot "800m.pg1313_def.cx9a2_bee/qp1000.L6/gpi.ips" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp1000.L6"
+set yrange [0:100167]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp1000.L6.imax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp1000.L6/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp1000.L6.imax.png'
+plot "800m.pg1313_def.cx9a2_bee/qp1000.L6/gpi.imax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qp1000.L6"
+set yrange [0:1260]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp1000.L6.dps.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp1000.L6/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp1000.L6.dps.png'
+plot "800m.pg1313_def.cx9a2_bee/qp1000.L6/gpi.dps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp1000.L6"
+set yrange [0:114082]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp1000.L6.dmax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp1000.L6/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp1000.L6.dmax.png'
+plot "800m.pg1313_def.cx9a2_bee/qp1000.L6/gpi.dmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qp1000.L6"
+set yrange [0:460]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp1000.L6.qps.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp1000.L6/gpi.qps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp1000.L6.qps.png'
+plot "800m.pg1313_def.cx9a2_bee/qp1000.L6/gpi.qps" using 1:2 title "pg1313_def.cx9a2_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp1000.L6"
+set yrange [0:47864]
+set terminal dumb 200, 50
+set output 'pg1313_def.cx9a2_bee.qp1000.L6.qmax.txt'
+plot "800m.pg1313_def.cx9a2_bee/qp1000.L6/gpi.qmax" using 1:2 title "pg1313_def.cx9a2_bee", 
+set terminal png
+set output 'pg1313_def.cx9a2_bee.qp1000.L6.qmax.png'
+plot "800m.pg1313_def.cx9a2_bee/qp1000.L6/gpi.qmax" using 1:2 title "pg1313_def.cx9a2_bee", 
