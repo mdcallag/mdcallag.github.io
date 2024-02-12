@@ -1,0 +1,31 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>pg9023_def.cx9a2_bee</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr>
+<tr><td>pg9124_def.cx9a2_bee</td> <td>1.00</td><td>1.01</td><td id="chi">1.09</td><td>1.03</td><td>1.04</td><td>0.99</td><td>1.03</td><td>0.99</td><td id="chi">1.06</td><td>1.01</td></tr>
+<tr><td>pg9224_def.cx9a2_bee</td> <td>0.97</td><td>1.03</td><td id="chi">1.12</td><td id="clo">0.88</td><td id="chi">1.11</td><td id="chi">1.13</td><td id="chi">1.11</td><td id="chi">1.15</td><td id="chi">1.14</td><td id="chi">1.06</td></tr>
+<tr><td>pg9325_def.cx9a2_bee</td> <td>1.01</td><td>1.03</td><td id="chi">1.15</td><td id="chi">1.16</td><td id="chi">1.12</td><td id="chi">1.12</td><td id="chi">1.08</td><td id="chi">1.12</td><td id="chi">1.09</td><td>1.02</td></tr>
+<tr><td>pg9426_def.cx9a2_bee</td> <td id="chi">1.08</td><td id="clo">0.94</td><td id="chi">1.18</td><td id="chi">1.13</td><td id="chi">1.13</td><td id="chi">1.13</td><td id="chi">1.08</td><td id="chi">1.14</td><td id="chi">1.10</td><td>1.04</td></tr>
+<tr><td>pg9525_def.cx9a2_bee</td> <td id="chi">1.10</td><td id="chi">1.09</td><td id="chi">1.66</td><td id="clo">0.62</td><td id="chi">1.14</td><td id="chi">1.14</td><td id="chi">1.09</td><td id="chi">1.14</td><td id="chi">1.07</td><td>1.05</td></tr>
+<tr><td>pg9624_def.cx9a2_bee</td> <td>1.05</td><td id="chi">1.51</td><td id="chi">1.61</td><td id="chi">1.10</td><td id="chi">1.10</td><td id="chi">1.12</td><td id="chi">1.10</td><td id="chi">1.12</td><td id="chi">1.09</td><td>1.04</td></tr>
+<tr><td>pg1023_def.cx9a2_bee</td> <td>1.05</td><td id="chi">1.74</td><td id="chi">1.38</td><td id="clo">0.86</td><td id="chi">1.14</td><td id="chi">1.11</td><td id="chi">1.11</td><td id="chi">1.13</td><td id="chi">1.11</td><td>1.03</td></tr>
+<tr><td>pg1122_def.cx9a2_bee</td> <td id="chi">1.22</td><td id="chi">1.70</td><td id="chi">1.79</td><td id="chi">1.15</td><td id="chi">1.18</td><td id="chi">1.11</td><td id="chi">1.14</td><td id="chi">1.12</td><td id="chi">1.13</td><td>1.03</td></tr>
+<tr><td>pg1217_def.cx9a2_bee</td> <td id="chi">1.19</td><td id="chi">1.74</td><td id="chi">3.27</td><td id="chi">1.21</td><td id="chi">1.18</td><td id="chi">1.11</td><td id="chi">1.18</td><td id="chi">1.12</td><td id="chi">1.19</td><td>1.03</td></tr>
+<tr><td>pg1313_def.cx9a2_bee</td> <td id="chi">1.23</td><td id="chi">1.66</td><td id="chi">2.56</td><td id="chi">1.27</td><td id="chi">1.17</td><td id="chi">1.09</td><td id="chi">1.20</td><td id="chi">1.11</td><td id="chi">1.20</td><td>1.02</td></tr>
+<tr><td>pg1410_def.cx9a2_bee</td> <td id="chi">1.20</td><td id="chi">1.68</td><td id="chi">2.89</td><td id="chi">2.35</td><td id="chi">1.16</td><td id="chi">1.11</td><td id="chi">1.18</td><td id="chi">1.12</td><td id="chi">1.21</td><td>1.02</td></tr>
+<tr><td>pg1411_def.cx9a2_bee</td> <td id="chi">1.20</td><td id="chi">1.64</td><td id="chi">3.37</td><td id="chi">1.95</td><td id="chi">1.24</td><td id="chi">1.12</td><td id="chi">1.25</td><td id="chi">1.13</td><td id="chi">1.25</td><td>1.04</td></tr>
+<tr><td>pg155_def.cx9a2_bee</td> <td id="chi">1.24</td><td id="chi">1.73</td><td id="chi">3.18</td><td id="chi">1.95</td><td id="chi">1.20</td><td id="chi">1.09</td><td id="chi">1.23</td><td id="chi">1.11</td><td id="chi">1.21</td><td>1.01</td></tr>
+<tr><td>pg156_def.cx9a2_bee</td> <td id="chi">1.21</td><td id="chi">1.77</td><td id="chi">3.33</td><td id="chi">1.78</td><td id="chi">1.18</td><td id="chi">1.10</td><td id="chi">1.23</td><td id="chi">1.10</td><td id="chi">1.22</td><td>1.00</td></tr>
+<tr><td>pg161_def.cx9a2_bee</td> <td id="chi">1.23</td><td id="chi">1.81</td><td id="chi">2.82</td><td id="chi">2.69</td><td id="chi">1.20</td><td id="chi">1.10</td><td id="chi">1.24</td><td id="chi">1.09</td><td id="chi">1.25</td><td>1.00</td></tr>
+<tr><td>pg162_def.cx9a2_bee</td> <td id="chi">1.22</td><td id="chi">1.79</td><td id="chi">3.38</td><td id="chi">2.36</td><td id="chi">1.20</td><td id="chi">1.08</td><td id="chi">1.19</td><td id="chi">1.10</td><td id="chi">1.23</td><td>1.01</td></tr>
+</table>
