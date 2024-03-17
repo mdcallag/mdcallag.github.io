@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>qp100.L2 per-second graphs</title>
+</head>
+<body>
+<p>
+These have results per 1-second interval for: insert rate (IPS), max insert reponse time, delete rate (DPS), max delete response time, query rate (QPS) and max query response time.
+The results are from 1 client while the test may have N clients where N > 1.
+Deletes might not have been enabled for this benchmark step, in which case those graphs will show zero values.
+The test is run with a rate limit for the number of inserts/s. In some cases the DBMS is unable to sustain that rate. When a DBMS can sustain that rate IPS will be a horizontal line.
+</p>
+<h1 id=\"toc\">Contents</h1>
+<ul>
+<li>pg162_def.cx9a2_bee: <a href="#pg162_def.cx9a2_bee.ips">IPS</a>, <a href="#pg162_def.cx9a2_bee.imax">max insert response time</a>, <a href="#pg162_def.cx9a2_bee.dps">DPS</a>, <a href="#pg162_def.cx9a2_bee.dmax">max delete response time</a>, <a href="#pg162_def.cx9a2_bee.qps">QPS</a> and <a href="#pg162_def.cx9a2_bee.qmax">max query response time</a>
+<li>pg162_def.cx9a2a_bee: <a href="#pg162_def.cx9a2a_bee.ips">IPS</a>, <a href="#pg162_def.cx9a2a_bee.imax">max insert response time</a>, <a href="#pg162_def.cx9a2a_bee.dps">DPS</a>, <a href="#pg162_def.cx9a2a_bee.dmax">max delete response time</a>, <a href="#pg162_def.cx9a2a_bee.qps">QPS</a> and <a href="#pg162_def.cx9a2a_bee.qmax">max query response time</a>
+<li>pg162_def.cx9a2b_bee: <a href="#pg162_def.cx9a2b_bee.ips">IPS</a>, <a href="#pg162_def.cx9a2b_bee.imax">max insert response time</a>, <a href="#pg162_def.cx9a2b_bee.dps">DPS</a>, <a href="#pg162_def.cx9a2b_bee.dmax">max delete response time</a>, <a href="#pg162_def.cx9a2b_bee.qps">QPS</a> and <a href="#pg162_def.cx9a2b_bee.qmax">max query response time</a>
+<li>pg162_def.cx9a2c_bee: <a href="#pg162_def.cx9a2c_bee.ips">IPS</a>, <a href="#pg162_def.cx9a2c_bee.imax">max insert response time</a>, <a href="#pg162_def.cx9a2c_bee.dps">DPS</a>, <a href="#pg162_def.cx9a2c_bee.dmax">max delete response time</a>, <a href="#pg162_def.cx9a2c_bee.qps">QPS</a> and <a href="#pg162_def.cx9a2c_bee.qmax">max query response time</a>
+<li>pg162_def.cx9a2e_bee: <a href="#pg162_def.cx9a2e_bee.ips">IPS</a>, <a href="#pg162_def.cx9a2e_bee.imax">max insert response time</a>, <a href="#pg162_def.cx9a2e_bee.dps">DPS</a>, <a href="#pg162_def.cx9a2e_bee.dmax">max delete response time</a>, <a href="#pg162_def.cx9a2e_bee.qps">QPS</a> and <a href="#pg162_def.cx9a2e_bee.qmax">max query response time</a>
+<li>pg162_def.cx9a2f_bee: <a href="#pg162_def.cx9a2f_bee.ips">IPS</a>, <a href="#pg162_def.cx9a2f_bee.imax">max insert response time</a>, <a href="#pg162_def.cx9a2f_bee.dps">DPS</a>, <a href="#pg162_def.cx9a2f_bee.dmax">max delete response time</a>, <a href="#pg162_def.cx9a2f_bee.qps">QPS</a> and <a href="#pg162_def.cx9a2f_bee.qmax">max query response time</a>
+<li>pg162_def.cx9a2g_bee: <a href="#pg162_def.cx9a2g_bee.ips">IPS</a>, <a href="#pg162_def.cx9a2g_bee.imax">max insert response time</a>, <a href="#pg162_def.cx9a2g_bee.dps">DPS</a>, <a href="#pg162_def.cx9a2g_bee.dmax">max delete response time</a>, <a href="#pg162_def.cx9a2g_bee.qps">QPS</a> and <a href="#pg162_def.cx9a2g_bee.qmax">max query response time</a>
+<li>pg162_def.cx9a2acef_bee: <a href="#pg162_def.cx9a2acef_bee.ips">IPS</a>, <a href="#pg162_def.cx9a2acef_bee.imax">max insert response time</a>, <a href="#pg162_def.cx9a2acef_bee.dps">DPS</a>, <a href="#pg162_def.cx9a2acef_bee.dmax">max delete response time</a>, <a href="#pg162_def.cx9a2acef_bee.qps">QPS</a> and <a href="#pg162_def.cx9a2acef_bee.qmax">max query response time</a>
+<li>pg162_def.cx9a2bcef_bee: <a href="#pg162_def.cx9a2bcef_bee.ips">IPS</a>, <a href="#pg162_def.cx9a2bcef_bee.imax">max insert response time</a>, <a href="#pg162_def.cx9a2bcef_bee.dps">DPS</a>, <a href="#pg162_def.cx9a2bcef_bee.dmax">max delete response time</a>, <a href="#pg162_def.cx9a2bcef_bee.qps">QPS</a> and <a href="#pg162_def.cx9a2bcef_bee.qmax">max query response time</a>
+</ul>
+<hr />
+<h1 id="pg162_def.cx9a2_bee.ips">pg162_def.cx9a2_bee: IPS</h1>
+<img src="pg162_def.cx9a2_bee.qp100.L2.ips.png">pg162_def.cx9a2_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2_bee.imax">pg162_def.cx9a2_bee: max insert response time</h1>
+<img src="pg162_def.cx9a2_bee.qp100.L2.imax.png">pg162_def.cx9a2_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2_bee.dps">pg162_def.cx9a2_bee: DPS</h1>
+<img src="pg162_def.cx9a2_bee.qp100.L2.dps.png">pg162_def.cx9a2_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2_bee.dmax">pg162_def.cx9a2_bee: max delete response time</h1>
+<img src="pg162_def.cx9a2_bee.qp100.L2.dmax.png">pg162_def.cx9a2_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2_bee.qps">pg162_def.cx9a2_bee: QPS</h1>
+<img src="pg162_def.cx9a2_bee.qp100.L2.qps.png">pg162_def.cx9a2_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2_bee.qmax">pg162_def.cx9a2_bee: max query response time</h1>
+<img src="pg162_def.cx9a2_bee.qp100.L2.qmax.png">pg162_def.cx9a2_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2a_bee.ips">pg162_def.cx9a2a_bee: IPS</h1>
+<img src="pg162_def.cx9a2a_bee.qp100.L2.ips.png">pg162_def.cx9a2a_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2a_bee.imax">pg162_def.cx9a2a_bee: max insert response time</h1>
+<img src="pg162_def.cx9a2a_bee.qp100.L2.imax.png">pg162_def.cx9a2a_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2a_bee.dps">pg162_def.cx9a2a_bee: DPS</h1>
+<img src="pg162_def.cx9a2a_bee.qp100.L2.dps.png">pg162_def.cx9a2a_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2a_bee.dmax">pg162_def.cx9a2a_bee: max delete response time</h1>
+<img src="pg162_def.cx9a2a_bee.qp100.L2.dmax.png">pg162_def.cx9a2a_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2a_bee.qps">pg162_def.cx9a2a_bee: QPS</h1>
+<img src="pg162_def.cx9a2a_bee.qp100.L2.qps.png">pg162_def.cx9a2a_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2a_bee.qmax">pg162_def.cx9a2a_bee: max query response time</h1>
+<img src="pg162_def.cx9a2a_bee.qp100.L2.qmax.png">pg162_def.cx9a2a_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2b_bee.ips">pg162_def.cx9a2b_bee: IPS</h1>
+<img src="pg162_def.cx9a2b_bee.qp100.L2.ips.png">pg162_def.cx9a2b_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2b_bee.imax">pg162_def.cx9a2b_bee: max insert response time</h1>
+<img src="pg162_def.cx9a2b_bee.qp100.L2.imax.png">pg162_def.cx9a2b_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2b_bee.dps">pg162_def.cx9a2b_bee: DPS</h1>
+<img src="pg162_def.cx9a2b_bee.qp100.L2.dps.png">pg162_def.cx9a2b_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2b_bee.dmax">pg162_def.cx9a2b_bee: max delete response time</h1>
+<img src="pg162_def.cx9a2b_bee.qp100.L2.dmax.png">pg162_def.cx9a2b_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2b_bee.qps">pg162_def.cx9a2b_bee: QPS</h1>
+<img src="pg162_def.cx9a2b_bee.qp100.L2.qps.png">pg162_def.cx9a2b_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2b_bee.qmax">pg162_def.cx9a2b_bee: max query response time</h1>
+<img src="pg162_def.cx9a2b_bee.qp100.L2.qmax.png">pg162_def.cx9a2b_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2c_bee.ips">pg162_def.cx9a2c_bee: IPS</h1>
+<img src="pg162_def.cx9a2c_bee.qp100.L2.ips.png">pg162_def.cx9a2c_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2c_bee.imax">pg162_def.cx9a2c_bee: max insert response time</h1>
+<img src="pg162_def.cx9a2c_bee.qp100.L2.imax.png">pg162_def.cx9a2c_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2c_bee.dps">pg162_def.cx9a2c_bee: DPS</h1>
+<img src="pg162_def.cx9a2c_bee.qp100.L2.dps.png">pg162_def.cx9a2c_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2c_bee.dmax">pg162_def.cx9a2c_bee: max delete response time</h1>
+<img src="pg162_def.cx9a2c_bee.qp100.L2.dmax.png">pg162_def.cx9a2c_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2c_bee.qps">pg162_def.cx9a2c_bee: QPS</h1>
+<img src="pg162_def.cx9a2c_bee.qp100.L2.qps.png">pg162_def.cx9a2c_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2c_bee.qmax">pg162_def.cx9a2c_bee: max query response time</h1>
+<img src="pg162_def.cx9a2c_bee.qp100.L2.qmax.png">pg162_def.cx9a2c_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2e_bee.ips">pg162_def.cx9a2e_bee: IPS</h1>
+<img src="pg162_def.cx9a2e_bee.qp100.L2.ips.png">pg162_def.cx9a2e_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2e_bee.imax">pg162_def.cx9a2e_bee: max insert response time</h1>
+<img src="pg162_def.cx9a2e_bee.qp100.L2.imax.png">pg162_def.cx9a2e_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2e_bee.dps">pg162_def.cx9a2e_bee: DPS</h1>
+<img src="pg162_def.cx9a2e_bee.qp100.L2.dps.png">pg162_def.cx9a2e_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2e_bee.dmax">pg162_def.cx9a2e_bee: max delete response time</h1>
+<img src="pg162_def.cx9a2e_bee.qp100.L2.dmax.png">pg162_def.cx9a2e_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2e_bee.qps">pg162_def.cx9a2e_bee: QPS</h1>
+<img src="pg162_def.cx9a2e_bee.qp100.L2.qps.png">pg162_def.cx9a2e_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2e_bee.qmax">pg162_def.cx9a2e_bee: max query response time</h1>
+<img src="pg162_def.cx9a2e_bee.qp100.L2.qmax.png">pg162_def.cx9a2e_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2f_bee.ips">pg162_def.cx9a2f_bee: IPS</h1>
+<img src="pg162_def.cx9a2f_bee.qp100.L2.ips.png">pg162_def.cx9a2f_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2f_bee.imax">pg162_def.cx9a2f_bee: max insert response time</h1>
+<img src="pg162_def.cx9a2f_bee.qp100.L2.imax.png">pg162_def.cx9a2f_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2f_bee.dps">pg162_def.cx9a2f_bee: DPS</h1>
+<img src="pg162_def.cx9a2f_bee.qp100.L2.dps.png">pg162_def.cx9a2f_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2f_bee.dmax">pg162_def.cx9a2f_bee: max delete response time</h1>
+<img src="pg162_def.cx9a2f_bee.qp100.L2.dmax.png">pg162_def.cx9a2f_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2f_bee.qps">pg162_def.cx9a2f_bee: QPS</h1>
+<img src="pg162_def.cx9a2f_bee.qp100.L2.qps.png">pg162_def.cx9a2f_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2f_bee.qmax">pg162_def.cx9a2f_bee: max query response time</h1>
+<img src="pg162_def.cx9a2f_bee.qp100.L2.qmax.png">pg162_def.cx9a2f_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2g_bee.ips">pg162_def.cx9a2g_bee: IPS</h1>
+<img src="pg162_def.cx9a2g_bee.qp100.L2.ips.png">pg162_def.cx9a2g_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2g_bee.imax">pg162_def.cx9a2g_bee: max insert response time</h1>
+<img src="pg162_def.cx9a2g_bee.qp100.L2.imax.png">pg162_def.cx9a2g_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2g_bee.dps">pg162_def.cx9a2g_bee: DPS</h1>
+<img src="pg162_def.cx9a2g_bee.qp100.L2.dps.png">pg162_def.cx9a2g_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2g_bee.dmax">pg162_def.cx9a2g_bee: max delete response time</h1>
+<img src="pg162_def.cx9a2g_bee.qp100.L2.dmax.png">pg162_def.cx9a2g_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2g_bee.qps">pg162_def.cx9a2g_bee: QPS</h1>
+<img src="pg162_def.cx9a2g_bee.qp100.L2.qps.png">pg162_def.cx9a2g_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2g_bee.qmax">pg162_def.cx9a2g_bee: max query response time</h1>
+<img src="pg162_def.cx9a2g_bee.qp100.L2.qmax.png">pg162_def.cx9a2g_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2acef_bee.ips">pg162_def.cx9a2acef_bee: IPS</h1>
+<img src="pg162_def.cx9a2acef_bee.qp100.L2.ips.png">pg162_def.cx9a2acef_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2acef_bee.imax">pg162_def.cx9a2acef_bee: max insert response time</h1>
+<img src="pg162_def.cx9a2acef_bee.qp100.L2.imax.png">pg162_def.cx9a2acef_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2acef_bee.dps">pg162_def.cx9a2acef_bee: DPS</h1>
+<img src="pg162_def.cx9a2acef_bee.qp100.L2.dps.png">pg162_def.cx9a2acef_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2acef_bee.dmax">pg162_def.cx9a2acef_bee: max delete response time</h1>
+<img src="pg162_def.cx9a2acef_bee.qp100.L2.dmax.png">pg162_def.cx9a2acef_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2acef_bee.qps">pg162_def.cx9a2acef_bee: QPS</h1>
+<img src="pg162_def.cx9a2acef_bee.qp100.L2.qps.png">pg162_def.cx9a2acef_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2acef_bee.qmax">pg162_def.cx9a2acef_bee: max query response time</h1>
+<img src="pg162_def.cx9a2acef_bee.qp100.L2.qmax.png">pg162_def.cx9a2acef_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2bcef_bee.ips">pg162_def.cx9a2bcef_bee: IPS</h1>
+<img src="pg162_def.cx9a2bcef_bee.qp100.L2.ips.png">pg162_def.cx9a2bcef_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2bcef_bee.imax">pg162_def.cx9a2bcef_bee: max insert response time</h1>
+<img src="pg162_def.cx9a2bcef_bee.qp100.L2.imax.png">pg162_def.cx9a2bcef_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2bcef_bee.dps">pg162_def.cx9a2bcef_bee: DPS</h1>
+<img src="pg162_def.cx9a2bcef_bee.qp100.L2.dps.png">pg162_def.cx9a2bcef_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2bcef_bee.dmax">pg162_def.cx9a2bcef_bee: max delete response time</h1>
+<img src="pg162_def.cx9a2bcef_bee.qp100.L2.dmax.png">pg162_def.cx9a2bcef_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2bcef_bee.qps">pg162_def.cx9a2bcef_bee: QPS</h1>
+<img src="pg162_def.cx9a2bcef_bee.qp100.L2.qps.png">pg162_def.cx9a2bcef_bee</a>
+<hr />
+<h1 id="pg162_def.cx9a2bcef_bee.qmax">pg162_def.cx9a2bcef_bee: max query response time</h1>
+<img src="pg162_def.cx9a2bcef_bee.qp100.L2.qmax.png">pg162_def.cx9a2bcef_bee</a>
+</ul>
+</body>
+</html>
