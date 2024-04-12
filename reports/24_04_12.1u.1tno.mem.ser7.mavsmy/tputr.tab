@@ -1,0 +1,24 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>ma101107_rel.cz11a_bee</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr>
+<tr><td>ma101107_rel.cz11b_bee</td> <td>1.00</td><td>1.00</td><td id="clo">0.93</td><td>0.98</td><td>1.03</td><td>0.96</td><td>1.03</td><td>0.99</td><td>1.00</td><td>0.99</td></tr>
+<tr><td>ma101107_rel.cz11c_bee</td> <td>1.01</td><td>1.00</td><td id="clo">0.90</td><td>0.97</td><td>1.01</td><td>0.98</td><td>1.01</td><td>0.98</td><td>0.99</td><td>1.02</td></tr>
+<tr><td>ma101107_rel.cz11d_bee</td> <td>1.00</td><td>1.00</td><td>1.01</td><td>1.01</td><td>1.01</td><td>1.00</td><td>1.02</td><td>1.00</td><td>1.01</td><td>1.00</td></tr>
+<tr><td>ma110401_rel.cz11b_bee</td> <td>0.98</td><td>0.98</td><td id="clo">0.93</td><td>0.97</td><td>1.03</td><td>1.00</td><td>1.02</td><td>1.00</td><td>1.01</td><td>1.00</td></tr>
+<tr><td>ma110401_rel.cz11c_bee</td> <td>0.99</td><td>0.98</td><td id="clo">0.91</td><td>0.96</td><td>1.02</td><td>0.96</td><td>1.03</td><td>1.01</td><td>1.02</td><td>1.00</td></tr>
+<tr><td>my8036_rel.cz11a_bee</td> <td id="clo">0.68</td><td>1.05</td><td id="clo">0.88</td><td id="clo">0.78</td><td>1.02</td><td id="clo">0.76</td><td>1.04</td><td id="clo">0.74</td><td>1.04</td><td id="clo">0.75</td></tr>
+<tr><td>my8036_rel.cz11b_bee</td> <td id="clo">0.68</td><td id="clo">0.24</td><td id="clo">0.72</td><td id="clo">0.63</td><td>0.99</td><td id="clo">0.77</td><td>1.03</td><td id="clo">0.74</td><td>1.04</td><td id="clo">0.77</td></tr>
+<tr><td>my8036_rel.cz11c_bee</td> <td id="clo">0.67</td><td id="clo">0.17</td><td id="clo">0.78</td><td id="clo">0.70</td><td>1.00</td><td id="clo">0.76</td><td>1.01</td><td id="clo">0.76</td><td>1.03</td><td id="clo">0.77</td></tr>
+<tr><td>my8036_rel.cz11d_bee</td> <td id="clo">0.68</td><td id="chi">1.06</td><td id="clo">0.89</td><td id="clo">0.78</td><td>1.01</td><td id="clo">0.75</td><td>1.02</td><td id="clo">0.74</td><td>1.01</td><td id="clo">0.75</td></tr>
+</table>

@@ -1,0 +1,23 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>ma100244_rel.cz11a_bee</td> <td id="cmax">95541</td><td id="cmax">155441</td><td id="cmin">16454</td><td>10111</td><td id="cmax">4128</td><td id="cmax">4106</td><td id="cmax">4184</td><td id="cmax">4231</td><td id="cmax">4232</td><td id="cmax">4350</td></tr>
+<tr><td>ma100339_rel.cz11a_bee</td> <td>83565</td><td id="cmax">150000</td><td id="cmin">16320</td><td>10194</td><td>3970</td><td>3970</td><td id="cmax">4062</td><td>4055</td><td id="cmax">4182</td><td>4093</td></tr>
+<tr><td>ma100433_rel.cz11a_bee</td> <td>83102</td><td id="cmax">152285</td><td id="cmin">16522</td><td>10040</td><td>3713</td><td>3764</td><td>3757</td><td>3805</td><td>3814</td><td>3920</td></tr>
+<tr><td>ma100524_rel.cz11a_bee</td> <td>76726</td><td>132744</td><td id="cmax">21345</td><td id="cmax">11947</td><td>3607</td><td>3801</td><td>3650</td><td>4015</td><td>3619</td><td>4107</td></tr>
+<tr><td>ma100617_rel.cz11a_bee</td> <td>81081</td><td>131005</td><td>19286</td><td>11186</td><td>3613</td><td>3698</td><td>3573</td><td>3813</td><td>3580</td><td>3727</td></tr>
+<tr><td>ma101107_rel.cz11a_bee</td> <td>83799</td><td>130435</td><td>19066</td><td>11136</td><td>3565</td><td>3729</td><td>3516</td><td>3818</td><td>3574</td><td>3824</td></tr>
+<tr><td>ma101107_rel.cz11b_bee</td> <td>83565</td><td>130435</td><td>17730</td><td>10941</td><td>3670</td><td>3588</td><td>3621</td><td>3791</td><td>3578</td><td>3768</td></tr>
+<tr><td>ma101107_rel.cz11d_bee</td> <td>83799</td><td>130435</td><td>19175</td><td>11198</td><td>3614</td><td>3720</td><td>3580</td><td>3802</td><td>3597</td><td>3807</td></tr>
+<tr><td>ma110401_rel.cz11b_bee</td> <td>82192</td><td>128206</td><td>17770</td><td>10799</td><td>3667</td><td>3728</td><td>3593</td><td>3835</td><td>3618</td><td>3836</td></tr>
+</table>
