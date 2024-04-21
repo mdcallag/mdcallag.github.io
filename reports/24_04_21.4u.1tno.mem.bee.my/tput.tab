@@ -1,0 +1,20 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>my5651_rel.cz11a_bee</td> <td id="cmax">313725</td><td>278262</td><td>32720</td><td>16577</td><td id="cmax">25385</td><td id="cmax">23759</td><td id="cmax">25032</td><td id="cmax">22473</td><td id="cmax">24346</td><td id="cmax">22694</td></tr>
+<tr><td>my5744_rel.cz11a_bee</td> <td>262295</td><td id="cmax">561405</td><td id="cmax">43396</td><td id="cmax">19455</td><td>20161</td><td>19410</td><td>20016</td><td>19275</td><td>19462</td><td>18429</td></tr>
+<tr><td>my8036_rel.cz11a_bee</td> <td id="cmin">189349</td><td>421054</td><td>25429</td><td id="cmin">12001</td><td id="cmin">17519</td><td id="cmin">15251</td><td id="cmin">17092</td><td id="cmin">15105</td><td id="cmin">16872</td><td id="cmin">14562</td></tr>
+<tr><td>my8036_rel.cz11b_bee</td> <td id="cmin">182857</td><td id="cmin">58608</td><td id="cmin">20377</td><td id="cmin">11419</td><td id="cmin">17494</td><td id="cmin">15441</td><td id="cmin">17524</td><td id="cmin">14684</td><td id="cmin">17422</td><td id="cmin">13780</td></tr>
+<tr><td>my8036_rel.cz11c_bee</td> <td id="cmin">184971</td><td id="cmin">34115</td><td id="cmin">14981</td><td id="cmin">11096</td><td id="cmin">18224</td><td id="cmin">15200</td><td id="cmin">17884</td><td id="cmin">14462</td><td id="cmin">17538</td><td id="cmin">13360</td></tr>
+<tr><td>my8036_rel.cz11d_bee</td> <td id="cmin">189349</td><td>400001</td><td>25584</td><td id="cmin">12023</td><td id="cmin">17496</td><td id="cmin">15584</td><td id="cmin">17152</td><td id="cmin">15134</td><td id="cmin">16875</td><td id="cmin">14476</td></tr>
+</table>
