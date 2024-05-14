@@ -1,0 +1,19 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>qr100.L1</th><th>qp100.L2</th><th>qr500.L3</th><th>qp500.L4</th><th>qr1000.L5</th><th>qp1000.L6</th></tr>
+<tr><td>ma101107_rel.cz11a_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma110401_rel.cz11b_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>my8036_rel.cz11a_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>target</td><td id=cgray>100</td><td id=cgray>100</td><td id=cgray>500</td><td id=cgray>500</td><td id=cgray>1000</td><td id=cgray>1000</td>
+</tr>
+</table>
