@@ -20,7 +20,7 @@ An example is <b>my8020.c10b40</b> where <b>my</b> means MySQL, 8020 is version 
 </p>
 <p>
 The test server has 8 AMD cores, 32G RAM and an NVMe SSD. It is described <a href="http://smalldatum.blogspot.com/2022/10/small-servers-for-performance-testing-v4.html">here</a> as the ASUS PN53.
-The benchmark was run with 1 client and there were 1 or 3 connections per client (1 for queries or inserts without rate limits, 1+1 for rate limited inserts+deletes).
+The benchmark was run with 4 clients and there were 1 or 3 connections per client (1 for queries or inserts without rate limits, 1+1 for rate limited inserts+deletes).
 It uses 4 tables with a table per client.
 It loads 12M rows per table without secondary indexes, creates 3 secondary indexes per table, then inserts 40 rows per table with a delete per insert to avoid growing the table.
 It then does 6 read+write tests for 1800s each that do queries as fast as possible with 100,100,500,500,1000,1000 inserts/s and the same for deletes/s per client concurrent with the queries.
