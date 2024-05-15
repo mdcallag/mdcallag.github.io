@@ -1,0 +1,451 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:105578]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.l.i0.ips.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i0/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.l.i0.ips.png'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i0/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:227492]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.l.i0.imax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i0/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.l.i0.imax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i0/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.l.i0.dps.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i0/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.l.i0.dps.png'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i0/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.l.i0.dmax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i0/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.l.i0.dmax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i0/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:1378]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.l.i1.ips.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i1/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.l.i1.ips.png'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i1/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:1140076]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.l.i1.imax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i1/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.l.i1.imax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i1/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i1"
+set yrange [0:1378]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.l.i1.dps.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i1/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.l.i1.dps.png'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i1/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i1"
+set yrange [0:1084389]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.l.i1.dmax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i1/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.l.i1.dmax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i1/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i2"
+set yrange [0:1444]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.l.i2.ips.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i2/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.l.i2.ips.png'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i2/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i2"
+set yrange [0:205520]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.l.i2.imax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i2/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.l.i2.imax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i2/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i2"
+set yrange [0:1444]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.l.i2.dps.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i2/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.l.i2.dps.png'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i2/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i2"
+set yrange [0:197062]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.l.i2.dmax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i2/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.l.i2.dmax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i2/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for l.i2"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.l.i2.qps.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i2/gpi.qps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.l.i2.qps.png'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i2/gpi.qps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for l.i2"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.l.i2.qmax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i2/gpi.qmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.l.i2.qmax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/l.i2/gpi.qmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qr100.L1"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr100.L1.ips.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr100.L1/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr100.L1.ips.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr100.L1/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr100.L1"
+set yrange [0:695487]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr100.L1.imax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr100.L1/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr100.L1.imax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr100.L1/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qr100.L1"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr100.L1.dps.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr100.L1/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr100.L1.dps.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr100.L1/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr100.L1"
+set yrange [0:660428]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr100.L1.dmax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr100.L1/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr100.L1.dmax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr100.L1/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qr100.L1"
+set yrange [0:4564]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr100.L1.qps.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr100.L1/gpi.qps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr100.L1.qps.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr100.L1/gpi.qps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr100.L1"
+set yrange [0:81856]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr100.L1.qmax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr100.L1/gpi.qmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr100.L1.qmax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr100.L1/gpi.qmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qp100.L2"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp100.L2.ips.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp100.L2/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp100.L2.ips.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp100.L2/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp100.L2"
+set yrange [0:131296]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp100.L2.imax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp100.L2/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp100.L2.imax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp100.L2/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qp100.L2"
+set yrange [0:240]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp100.L2.dps.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp100.L2/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp100.L2.dps.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp100.L2/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp100.L2"
+set yrange [0:122097]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp100.L2.dmax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp100.L2/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp100.L2.dmax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp100.L2/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qp100.L2"
+set yrange [0:672]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp100.L2.qps.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp100.L2/gpi.qps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp100.L2.qps.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp100.L2/gpi.qps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp100.L2"
+set yrange [0:67023]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp100.L2.qmax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp100.L2/gpi.qmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp100.L2.qmax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp100.L2/gpi.qmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qr500.L3"
+set yrange [0:778]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr500.L3.ips.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr500.L3/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr500.L3.ips.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr500.L3/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr500.L3"
+set yrange [0:337543]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr500.L3.imax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr500.L3/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr500.L3.imax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr500.L3/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qr500.L3"
+set yrange [0:780]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr500.L3.dps.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr500.L3/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr500.L3.dps.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr500.L3/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr500.L3"
+set yrange [0:309885]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr500.L3.dmax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr500.L3/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr500.L3.dmax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr500.L3/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qr500.L3"
+set yrange [0:2034]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr500.L3.qps.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr500.L3/gpi.qps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr500.L3.qps.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr500.L3/gpi.qps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr500.L3"
+set yrange [0:108616]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr500.L3.qmax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr500.L3/gpi.qmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr500.L3.qmax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr500.L3/gpi.qmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qp500.L4"
+set yrange [0:780]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp500.L4.ips.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp500.L4/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp500.L4.ips.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp500.L4/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp500.L4"
+set yrange [0:225844]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp500.L4.imax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp500.L4/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp500.L4.imax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp500.L4/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qp500.L4"
+set yrange [0:900]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp500.L4.dps.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp500.L4/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp500.L4.dps.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp500.L4/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp500.L4"
+set yrange [0:203066]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp500.L4.dmax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp500.L4/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp500.L4.dmax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp500.L4/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qp500.L4"
+set yrange [0:384]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp500.L4.qps.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp500.L4/gpi.qps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp500.L4.qps.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp500.L4/gpi.qps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp500.L4"
+set yrange [0:101980]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp500.L4.qmax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp500.L4/gpi.qmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp500.L4.qmax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp500.L4/gpi.qmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qr1000.L5"
+set yrange [0:1378]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr1000.L5.ips.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr1000.L5/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr1000.L5.ips.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr1000.L5/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr1000.L5"
+set yrange [0:392588]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr1000.L5.imax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr1000.L5/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr1000.L5.imax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr1000.L5/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qr1000.L5"
+set yrange [0:1378]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr1000.L5.dps.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr1000.L5/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr1000.L5.dps.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr1000.L5/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr1000.L5"
+set yrange [0:383618]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr1000.L5.dmax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr1000.L5/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr1000.L5.dmax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr1000.L5/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qr1000.L5"
+set yrange [0:901]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr1000.L5.qps.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr1000.L5/gpi.qps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr1000.L5.qps.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr1000.L5/gpi.qps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr1000.L5"
+set yrange [0:161724]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qr1000.L5.qmax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qr1000.L5/gpi.qmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qr1000.L5.qmax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qr1000.L5/gpi.qmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qp1000.L6"
+set yrange [0:1737]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp1000.L6.ips.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp1000.L6/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp1000.L6.ips.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp1000.L6/gpi.ips" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp1000.L6"
+set yrange [0:601317]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp1000.L6.imax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp1000.L6/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp1000.L6.imax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp1000.L6/gpi.imax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qp1000.L6"
+set yrange [0:1737]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp1000.L6.dps.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp1000.L6/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp1000.L6.dps.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp1000.L6/gpi.dps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp1000.L6"
+set yrange [0:603402]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp1000.L6.dmax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp1000.L6/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp1000.L6.dmax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp1000.L6/gpi.dmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qp1000.L6"
+set yrange [0:595]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp1000.L6.qps.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp1000.L6/gpi.qps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp1000.L6.qps.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp1000.L6/gpi.qps" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp1000.L6"
+set yrange [0:122673]
+set terminal dumb 200, 50
+set output 'ma101107_rel.cz11apur1_bee.qp1000.L6.qmax.txt'
+plot "800m.ma101107_rel.cz11apur1_bee/qp1000.L6/gpi.qmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
+set terminal png
+set output 'ma101107_rel.cz11apur1_bee.qp1000.L6.qmax.png'
+plot "800m.ma101107_rel.cz11apur1_bee/qp1000.L6/gpi.qmax" using 1:2 title "ma101107_rel.cz11apur1_bee", 
