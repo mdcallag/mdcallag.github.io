@@ -42,6 +42,7 @@ Benchmark reports for 2024
       * 4 users: [all](reports/24_05_14.4u.1tno.mem.pn53.all/all.html), [MariaDB, 1 purge thread](reports/24_05_14.4u.1tno.mem.pn53.map1/all.html), [MariaDB, 4 purge threads](reports/24_05_14.4u.1tno.mem.pn53.map4/all.html), [MySQL](reports/24_05_14.4u.1tno.mem.pn53.my/all.html), [MariaDB vs MySQL, 1 purge thread](reports/24_05_14.4u.1tno.mem.pn53.map1vsmy/all.html), [MariaDB vs MySQL, 4 purge threads](reports/24_05_14.4u.1tno.mem.pn53.map4vsmy/all.html)
     * Postgres 17beta1, PN53, May34:
       * cached: [1 user](reports/24_05_27.ib.1u.1tno.mem.pn53.pg/all.html)
+    * Postgres 16.3 with and without full_page_writes vs the Insert Benchmark, PN53: [cached](reports/24_06_03.ib.mem.pn53.pg.nofpw/all.html)
   * Medium server (GCP, c2-standard-30)
     * MySQL, InnoDB, cached workload, Jan24: [MySQL 5.6](reports/24_01_01.8u.1tno.c2.cached.my56/all.html), [MySQL 5.7](reports/24_01_01.8u.1tno.c2.cached.my57/all.html), [MySQL 8.0](reports/24_01_01.8u.1tno.c2.cached.my80/all.html), [MySQL 5.6, 5.7 and 8.0](reports/24_01_01.8u.1tno.c2.cached.my678/all.html)
     * MyRocks, cached workload, Jan24: [5.6.35](reports/24_01_01.8u.1tno.c2.cached.fbmy56/all.html), [8.0.28, 8.0.32](reports/24_01_01.8u.1tno.c2.cached.fbmy80/all.html), [5.6.35, 8.0.28, 8.0.32 - many versions](reports/24_01_01.8u.1tno.c2.cached.fbmy_all/all.html), [5.6.35, 8.0.28, 8.0.32 - latest versions](reports/24_01_01.8u.1tno.c2.cached.fbmy_latest/all.html)
