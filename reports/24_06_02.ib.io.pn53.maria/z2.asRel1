@@ -1,0 +1,6 @@
+<tr><td>ma100433_rel.cz11a_c8r32</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr>
+<tr><td>ma100524_rel.cz11a_c8r32</td> <td>1.04</td><td id="clo">0.86</td><td>1.03</td><td>1.02</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.05</td><td>0.99</td><td>1.02</td></tr>
+<tr><td>ma100617_rel.cz11a_c8r32</td> <td>1.02</td><td id="clo">0.85</td><td id="clo">0.74</td><td id="clo">0.69</td><td>0.98</td><td id="clo">0.90</td><td id="clo">0.92</td><td id="clo">0.77</td><td id="clo">0.81</td><td id="clo">0.64</td></tr>
+<tr><td>ma100617_rel.cz11apur1_c8r32</td> <td>1.05</td><td id="clo">0.86</td><td id="clo">0.70</td><td id="clo">0.68</td><td>0.98</td><td id="clo">0.93</td><td id="clo">0.91</td><td id="clo">0.79</td><td id="clo">0.81</td><td id="clo">0.64</td></tr>
+<tr><td>ma100617_rel_nops.cz11a_c8r32</td> <td id="chi">1.08</td><td id="clo">0.94</td><td id="clo">0.76</td><td id="clo">0.76</td><td>1.03</td><td id="clo">0.93</td><td>0.96</td><td id="clo">0.80</td><td id="clo">0.85</td><td id="clo">0.64</td></tr>
+<tr><td>ma100617marko_rel.cz11a_c8r32</td> <td id="chi">1.07</td><td id="clo">0.86</td><td id="clo">0.75</td><td id="clo">0.73</td><td>0.97</td><td id="clo">0.94</td><td id="clo">0.92</td><td id="clo">0.80</td><td id="clo">0.82</td><td id="clo">0.65</td></tr>
