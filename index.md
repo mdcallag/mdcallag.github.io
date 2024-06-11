@@ -44,8 +44,9 @@ Benchmark reports for 2024
       * cached: [1 user](reports/24_05_27.ib.1u.1tno.mem.pn53.pg/all.html)
     * Postgres 16.3 with and without full_page_writes vs the Insert Benchmark, PN53: [cached, v1](reports/24_06_03.ib.mem.pn53.pg.nofpw/all.html), [cached, v2](reports/24_06_05.ib.mem.pn53.pg.nofpw/all.html)
     * Postgres 17beta1 with patch that enforces VISITED_PAGES_LIMIT during get_actual_value_range calls: [cached](reports/24_06_07.ib.mem.pn53.pg.hack10/all.html)
-    * MyRocks and InnoDB, Insert Benchmark on SER4 and PN53:
-      * cached, 1u.1t: [all](reports/24_06_11.ib.mem.bee.1u.1tno.all/all.html), [MyRocks](reports/24_06_11.ib.mem.bee.1u.1tno.fbmy/all.html), [InnoDB](reports/24_06_11.ib.mem.bee.1u.1tno.my/all.html)
+    * MyRocks and InnoDB, Insert Benchmark on SER4 and PN53, Jun24:
+      * cached, 1u.1t, SER4: [all](reports/24_06_11.ib.mem.bee.1u.1tno.all/all.html), [MyRocks](reports/24_06_11.ib.mem.bee.1u.1tno.fbmy/all.html), [InnoDB](reports/24_06_11.ib.mem.bee.1u.1tno.my/all.html)
+      * cached, 1u.1t, PN53: [all](reports/24_06_11.ib.mem.pn53.1u.1tno.all/all.html), [MyRocks](reports/24_06_11.ib.mem.pn53.1u.1tno.fbmy/all.html), [InnoDB](reports/24_06_11.ib.mem.pn53.1u.1tno.my/all.html)
   * Medium server (GCP, c2-standard-30)
     * MySQL, InnoDB, cached workload, Jan24: [MySQL 5.6](reports/24_01_01.8u.1tno.c2.cached.my56/all.html), [MySQL 5.7](reports/24_01_01.8u.1tno.c2.cached.my57/all.html), [MySQL 8.0](reports/24_01_01.8u.1tno.c2.cached.my80/all.html), [MySQL 5.6, 5.7 and 8.0](reports/24_01_01.8u.1tno.c2.cached.my678/all.html)
     * MyRocks, cached workload, Jan24: [5.6.35](reports/24_01_01.8u.1tno.c2.cached.fbmy56/all.html), [8.0.28, 8.0.32](reports/24_01_01.8u.1tno.c2.cached.fbmy80/all.html), [5.6.35, 8.0.28, 8.0.32 - many versions](reports/24_01_01.8u.1tno.c2.cached.fbmy_all/all.html), [5.6.35, 8.0.28, 8.0.32 - latest versions](reports/24_01_01.8u.1tno.c2.cached.fbmy_latest/all.html)

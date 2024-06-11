@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>qr1000.L5 per-second graphs</title>
+</head>
+<body>
+<p>
+These have results per 1-second interval for: insert rate (IPS), max insert reponse time, delete rate (DPS), max delete response time, query rate (QPS) and max query response time.
+The results are from 1 client while the test may have N clients where N > 1.
+Deletes might not have been enabled for this benchmark step, in which case those graphs will show zero values.
+The test is run with a rate limit for the number of inserts/s. In some cases the DBMS is unable to sustain that rate. When a DBMS can sustain that rate IPS will be a horizontal line.
+</p>
+<h1 id=\"toc\">Contents</h1>
+<ul>
+<li>my5651_rel.cz11a_c8r32: <a href="#my5651_rel.cz11a_c8r32.ips">IPS</a>, <a href="#my5651_rel.cz11a_c8r32.imax">max insert response time</a>, <a href="#my5651_rel.cz11a_c8r32.dps">DPS</a>, <a href="#my5651_rel.cz11a_c8r32.dmax">max delete response time</a>, <a href="#my5651_rel.cz11a_c8r32.qps">QPS</a> and <a href="#my5651_rel.cz11a_c8r32.qmax">max query response time</a>
+<li>my5744_rel.cz11a_c8r32: <a href="#my5744_rel.cz11a_c8r32.ips">IPS</a>, <a href="#my5744_rel.cz11a_c8r32.imax">max insert response time</a>, <a href="#my5744_rel.cz11a_c8r32.dps">DPS</a>, <a href="#my5744_rel.cz11a_c8r32.dmax">max delete response time</a>, <a href="#my5744_rel.cz11a_c8r32.qps">QPS</a> and <a href="#my5744_rel.cz11a_c8r32.qmax">max query response time</a>
+<li>my8028_rel.cz11a_c8r32: <a href="#my8028_rel.cz11a_c8r32.ips">IPS</a>, <a href="#my8028_rel.cz11a_c8r32.imax">max insert response time</a>, <a href="#my8028_rel.cz11a_c8r32.dps">DPS</a>, <a href="#my8028_rel.cz11a_c8r32.dmax">max delete response time</a>, <a href="#my8028_rel.cz11a_c8r32.qps">QPS</a> and <a href="#my8028_rel.cz11a_c8r32.qmax">max query response time</a>
+<li>my8032_rel.cz11a_c8r32: <a href="#my8032_rel.cz11a_c8r32.ips">IPS</a>, <a href="#my8032_rel.cz11a_c8r32.imax">max insert response time</a>, <a href="#my8032_rel.cz11a_c8r32.dps">DPS</a>, <a href="#my8032_rel.cz11a_c8r32.dmax">max delete response time</a>, <a href="#my8032_rel.cz11a_c8r32.qps">QPS</a> and <a href="#my8032_rel.cz11a_c8r32.qmax">max query response time</a>
+<li>my8036_rel.cz11a_c8r32: <a href="#my8036_rel.cz11a_c8r32.ips">IPS</a>, <a href="#my8036_rel.cz11a_c8r32.imax">max insert response time</a>, <a href="#my8036_rel.cz11a_c8r32.dps">DPS</a>, <a href="#my8036_rel.cz11a_c8r32.dmax">max delete response time</a>, <a href="#my8036_rel.cz11a_c8r32.qps">QPS</a> and <a href="#my8036_rel.cz11a_c8r32.qmax">max query response time</a>
+<li>my8037_rel.cz11a_c8r32: <a href="#my8037_rel.cz11a_c8r32.ips">IPS</a>, <a href="#my8037_rel.cz11a_c8r32.imax">max insert response time</a>, <a href="#my8037_rel.cz11a_c8r32.dps">DPS</a>, <a href="#my8037_rel.cz11a_c8r32.dmax">max delete response time</a>, <a href="#my8037_rel.cz11a_c8r32.qps">QPS</a> and <a href="#my8037_rel.cz11a_c8r32.qmax">max query response time</a>
+<li>fbmy5635_rel_240606_4f3a57a1.cza1_c8r32: <a href="#fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.ips">IPS</a>, <a href="#fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.imax">max insert response time</a>, <a href="#fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.dps">DPS</a>, <a href="#fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.dmax">max delete response time</a>, <a href="#fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.qps">QPS</a> and <a href="#fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.qmax">max query response time</a>
+<li>fbmy8028_rel_240606_c6c83b18.cza1_c8r32: <a href="#fbmy8028_rel_240606_c6c83b18.cza1_c8r32.ips">IPS</a>, <a href="#fbmy8028_rel_240606_c6c83b18.cza1_c8r32.imax">max insert response time</a>, <a href="#fbmy8028_rel_240606_c6c83b18.cza1_c8r32.dps">DPS</a>, <a href="#fbmy8028_rel_240606_c6c83b18.cza1_c8r32.dmax">max delete response time</a>, <a href="#fbmy8028_rel_240606_c6c83b18.cza1_c8r32.qps">QPS</a> and <a href="#fbmy8028_rel_240606_c6c83b18.cza1_c8r32.qmax">max query response time</a>
+<li>fbmy8032_rel_240606_59f03d5a.cza1_c8r32: <a href="#fbmy8032_rel_240606_59f03d5a.cza1_c8r32.ips">IPS</a>, <a href="#fbmy8032_rel_240606_59f03d5a.cza1_c8r32.imax">max insert response time</a>, <a href="#fbmy8032_rel_240606_59f03d5a.cza1_c8r32.dps">DPS</a>, <a href="#fbmy8032_rel_240606_59f03d5a.cza1_c8r32.dmax">max delete response time</a>, <a href="#fbmy8032_rel_240606_59f03d5a.cza1_c8r32.qps">QPS</a> and <a href="#fbmy8032_rel_240606_59f03d5a.cza1_c8r32.qmax">max query response time</a>
+</ul>
+<hr />
+<h1 id="my5651_rel.cz11a_c8r32.ips">my5651_rel.cz11a_c8r32: IPS</h1>
+<img src="my5651_rel.cz11a_c8r32.qr1000.L5.ips.png">my5651_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my5651_rel.cz11a_c8r32.imax">my5651_rel.cz11a_c8r32: max insert response time</h1>
+<img src="my5651_rel.cz11a_c8r32.qr1000.L5.imax.png">my5651_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my5651_rel.cz11a_c8r32.dps">my5651_rel.cz11a_c8r32: DPS</h1>
+<img src="my5651_rel.cz11a_c8r32.qr1000.L5.dps.png">my5651_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my5651_rel.cz11a_c8r32.dmax">my5651_rel.cz11a_c8r32: max delete response time</h1>
+<img src="my5651_rel.cz11a_c8r32.qr1000.L5.dmax.png">my5651_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my5651_rel.cz11a_c8r32.qps">my5651_rel.cz11a_c8r32: QPS</h1>
+<img src="my5651_rel.cz11a_c8r32.qr1000.L5.qps.png">my5651_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my5651_rel.cz11a_c8r32.qmax">my5651_rel.cz11a_c8r32: max query response time</h1>
+<img src="my5651_rel.cz11a_c8r32.qr1000.L5.qmax.png">my5651_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my5744_rel.cz11a_c8r32.ips">my5744_rel.cz11a_c8r32: IPS</h1>
+<img src="my5744_rel.cz11a_c8r32.qr1000.L5.ips.png">my5744_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my5744_rel.cz11a_c8r32.imax">my5744_rel.cz11a_c8r32: max insert response time</h1>
+<img src="my5744_rel.cz11a_c8r32.qr1000.L5.imax.png">my5744_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my5744_rel.cz11a_c8r32.dps">my5744_rel.cz11a_c8r32: DPS</h1>
+<img src="my5744_rel.cz11a_c8r32.qr1000.L5.dps.png">my5744_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my5744_rel.cz11a_c8r32.dmax">my5744_rel.cz11a_c8r32: max delete response time</h1>
+<img src="my5744_rel.cz11a_c8r32.qr1000.L5.dmax.png">my5744_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my5744_rel.cz11a_c8r32.qps">my5744_rel.cz11a_c8r32: QPS</h1>
+<img src="my5744_rel.cz11a_c8r32.qr1000.L5.qps.png">my5744_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my5744_rel.cz11a_c8r32.qmax">my5744_rel.cz11a_c8r32: max query response time</h1>
+<img src="my5744_rel.cz11a_c8r32.qr1000.L5.qmax.png">my5744_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8028_rel.cz11a_c8r32.ips">my8028_rel.cz11a_c8r32: IPS</h1>
+<img src="my8028_rel.cz11a_c8r32.qr1000.L5.ips.png">my8028_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8028_rel.cz11a_c8r32.imax">my8028_rel.cz11a_c8r32: max insert response time</h1>
+<img src="my8028_rel.cz11a_c8r32.qr1000.L5.imax.png">my8028_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8028_rel.cz11a_c8r32.dps">my8028_rel.cz11a_c8r32: DPS</h1>
+<img src="my8028_rel.cz11a_c8r32.qr1000.L5.dps.png">my8028_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8028_rel.cz11a_c8r32.dmax">my8028_rel.cz11a_c8r32: max delete response time</h1>
+<img src="my8028_rel.cz11a_c8r32.qr1000.L5.dmax.png">my8028_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8028_rel.cz11a_c8r32.qps">my8028_rel.cz11a_c8r32: QPS</h1>
+<img src="my8028_rel.cz11a_c8r32.qr1000.L5.qps.png">my8028_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8028_rel.cz11a_c8r32.qmax">my8028_rel.cz11a_c8r32: max query response time</h1>
+<img src="my8028_rel.cz11a_c8r32.qr1000.L5.qmax.png">my8028_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8032_rel.cz11a_c8r32.ips">my8032_rel.cz11a_c8r32: IPS</h1>
+<img src="my8032_rel.cz11a_c8r32.qr1000.L5.ips.png">my8032_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8032_rel.cz11a_c8r32.imax">my8032_rel.cz11a_c8r32: max insert response time</h1>
+<img src="my8032_rel.cz11a_c8r32.qr1000.L5.imax.png">my8032_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8032_rel.cz11a_c8r32.dps">my8032_rel.cz11a_c8r32: DPS</h1>
+<img src="my8032_rel.cz11a_c8r32.qr1000.L5.dps.png">my8032_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8032_rel.cz11a_c8r32.dmax">my8032_rel.cz11a_c8r32: max delete response time</h1>
+<img src="my8032_rel.cz11a_c8r32.qr1000.L5.dmax.png">my8032_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8032_rel.cz11a_c8r32.qps">my8032_rel.cz11a_c8r32: QPS</h1>
+<img src="my8032_rel.cz11a_c8r32.qr1000.L5.qps.png">my8032_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8032_rel.cz11a_c8r32.qmax">my8032_rel.cz11a_c8r32: max query response time</h1>
+<img src="my8032_rel.cz11a_c8r32.qr1000.L5.qmax.png">my8032_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8036_rel.cz11a_c8r32.ips">my8036_rel.cz11a_c8r32: IPS</h1>
+<img src="my8036_rel.cz11a_c8r32.qr1000.L5.ips.png">my8036_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8036_rel.cz11a_c8r32.imax">my8036_rel.cz11a_c8r32: max insert response time</h1>
+<img src="my8036_rel.cz11a_c8r32.qr1000.L5.imax.png">my8036_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8036_rel.cz11a_c8r32.dps">my8036_rel.cz11a_c8r32: DPS</h1>
+<img src="my8036_rel.cz11a_c8r32.qr1000.L5.dps.png">my8036_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8036_rel.cz11a_c8r32.dmax">my8036_rel.cz11a_c8r32: max delete response time</h1>
+<img src="my8036_rel.cz11a_c8r32.qr1000.L5.dmax.png">my8036_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8036_rel.cz11a_c8r32.qps">my8036_rel.cz11a_c8r32: QPS</h1>
+<img src="my8036_rel.cz11a_c8r32.qr1000.L5.qps.png">my8036_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8036_rel.cz11a_c8r32.qmax">my8036_rel.cz11a_c8r32: max query response time</h1>
+<img src="my8036_rel.cz11a_c8r32.qr1000.L5.qmax.png">my8036_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8037_rel.cz11a_c8r32.ips">my8037_rel.cz11a_c8r32: IPS</h1>
+<img src="my8037_rel.cz11a_c8r32.qr1000.L5.ips.png">my8037_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8037_rel.cz11a_c8r32.imax">my8037_rel.cz11a_c8r32: max insert response time</h1>
+<img src="my8037_rel.cz11a_c8r32.qr1000.L5.imax.png">my8037_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8037_rel.cz11a_c8r32.dps">my8037_rel.cz11a_c8r32: DPS</h1>
+<img src="my8037_rel.cz11a_c8r32.qr1000.L5.dps.png">my8037_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8037_rel.cz11a_c8r32.dmax">my8037_rel.cz11a_c8r32: max delete response time</h1>
+<img src="my8037_rel.cz11a_c8r32.qr1000.L5.dmax.png">my8037_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8037_rel.cz11a_c8r32.qps">my8037_rel.cz11a_c8r32: QPS</h1>
+<img src="my8037_rel.cz11a_c8r32.qr1000.L5.qps.png">my8037_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="my8037_rel.cz11a_c8r32.qmax">my8037_rel.cz11a_c8r32: max query response time</h1>
+<img src="my8037_rel.cz11a_c8r32.qr1000.L5.qmax.png">my8037_rel.cz11a_c8r32</a>
+<hr />
+<h1 id="fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.ips">fbmy5635_rel_240606_4f3a57a1.cza1_c8r32: IPS</h1>
+<img src="fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.qr1000.L5.ips.png">fbmy5635_rel_240606_4f3a57a1.cza1_c8r32</a>
+<hr />
+<h1 id="fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.imax">fbmy5635_rel_240606_4f3a57a1.cza1_c8r32: max insert response time</h1>
+<img src="fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.qr1000.L5.imax.png">fbmy5635_rel_240606_4f3a57a1.cza1_c8r32</a>
+<hr />
+<h1 id="fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.dps">fbmy5635_rel_240606_4f3a57a1.cza1_c8r32: DPS</h1>
+<img src="fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.qr1000.L5.dps.png">fbmy5635_rel_240606_4f3a57a1.cza1_c8r32</a>
+<hr />
+<h1 id="fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.dmax">fbmy5635_rel_240606_4f3a57a1.cza1_c8r32: max delete response time</h1>
+<img src="fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.qr1000.L5.dmax.png">fbmy5635_rel_240606_4f3a57a1.cza1_c8r32</a>
+<hr />
+<h1 id="fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.qps">fbmy5635_rel_240606_4f3a57a1.cza1_c8r32: QPS</h1>
+<img src="fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.qr1000.L5.qps.png">fbmy5635_rel_240606_4f3a57a1.cza1_c8r32</a>
+<hr />
+<h1 id="fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.qmax">fbmy5635_rel_240606_4f3a57a1.cza1_c8r32: max query response time</h1>
+<img src="fbmy5635_rel_240606_4f3a57a1.cza1_c8r32.qr1000.L5.qmax.png">fbmy5635_rel_240606_4f3a57a1.cza1_c8r32</a>
+<hr />
+<h1 id="fbmy8028_rel_240606_c6c83b18.cza1_c8r32.ips">fbmy8028_rel_240606_c6c83b18.cza1_c8r32: IPS</h1>
+<img src="fbmy8028_rel_240606_c6c83b18.cza1_c8r32.qr1000.L5.ips.png">fbmy8028_rel_240606_c6c83b18.cza1_c8r32</a>
+<hr />
+<h1 id="fbmy8028_rel_240606_c6c83b18.cza1_c8r32.imax">fbmy8028_rel_240606_c6c83b18.cza1_c8r32: max insert response time</h1>
+<img src="fbmy8028_rel_240606_c6c83b18.cza1_c8r32.qr1000.L5.imax.png">fbmy8028_rel_240606_c6c83b18.cza1_c8r32</a>
+<hr />
+<h1 id="fbmy8028_rel_240606_c6c83b18.cza1_c8r32.dps">fbmy8028_rel_240606_c6c83b18.cza1_c8r32: DPS</h1>
+<img src="fbmy8028_rel_240606_c6c83b18.cza1_c8r32.qr1000.L5.dps.png">fbmy8028_rel_240606_c6c83b18.cza1_c8r32</a>
+<hr />
+<h1 id="fbmy8028_rel_240606_c6c83b18.cza1_c8r32.dmax">fbmy8028_rel_240606_c6c83b18.cza1_c8r32: max delete response time</h1>
+<img src="fbmy8028_rel_240606_c6c83b18.cza1_c8r32.qr1000.L5.dmax.png">fbmy8028_rel_240606_c6c83b18.cza1_c8r32</a>
+<hr />
+<h1 id="fbmy8028_rel_240606_c6c83b18.cza1_c8r32.qps">fbmy8028_rel_240606_c6c83b18.cza1_c8r32: QPS</h1>
+<img src="fbmy8028_rel_240606_c6c83b18.cza1_c8r32.qr1000.L5.qps.png">fbmy8028_rel_240606_c6c83b18.cza1_c8r32</a>
+<hr />
+<h1 id="fbmy8028_rel_240606_c6c83b18.cza1_c8r32.qmax">fbmy8028_rel_240606_c6c83b18.cza1_c8r32: max query response time</h1>
+<img src="fbmy8028_rel_240606_c6c83b18.cza1_c8r32.qr1000.L5.qmax.png">fbmy8028_rel_240606_c6c83b18.cza1_c8r32</a>
+<hr />
+<h1 id="fbmy8032_rel_240606_59f03d5a.cza1_c8r32.ips">fbmy8032_rel_240606_59f03d5a.cza1_c8r32: IPS</h1>
+<img src="fbmy8032_rel_240606_59f03d5a.cza1_c8r32.qr1000.L5.ips.png">fbmy8032_rel_240606_59f03d5a.cza1_c8r32</a>
+<hr />
+<h1 id="fbmy8032_rel_240606_59f03d5a.cza1_c8r32.imax">fbmy8032_rel_240606_59f03d5a.cza1_c8r32: max insert response time</h1>
+<img src="fbmy8032_rel_240606_59f03d5a.cza1_c8r32.qr1000.L5.imax.png">fbmy8032_rel_240606_59f03d5a.cza1_c8r32</a>
+<hr />
+<h1 id="fbmy8032_rel_240606_59f03d5a.cza1_c8r32.dps">fbmy8032_rel_240606_59f03d5a.cza1_c8r32: DPS</h1>
+<img src="fbmy8032_rel_240606_59f03d5a.cza1_c8r32.qr1000.L5.dps.png">fbmy8032_rel_240606_59f03d5a.cza1_c8r32</a>
+<hr />
+<h1 id="fbmy8032_rel_240606_59f03d5a.cza1_c8r32.dmax">fbmy8032_rel_240606_59f03d5a.cza1_c8r32: max delete response time</h1>
+<img src="fbmy8032_rel_240606_59f03d5a.cza1_c8r32.qr1000.L5.dmax.png">fbmy8032_rel_240606_59f03d5a.cza1_c8r32</a>
+<hr />
+<h1 id="fbmy8032_rel_240606_59f03d5a.cza1_c8r32.qps">fbmy8032_rel_240606_59f03d5a.cza1_c8r32: QPS</h1>
+<img src="fbmy8032_rel_240606_59f03d5a.cza1_c8r32.qr1000.L5.qps.png">fbmy8032_rel_240606_59f03d5a.cza1_c8r32</a>
+<hr />
+<h1 id="fbmy8032_rel_240606_59f03d5a.cza1_c8r32.qmax">fbmy8032_rel_240606_59f03d5a.cza1_c8r32: max query response time</h1>
+<img src="fbmy8032_rel_240606_59f03d5a.cza1_c8r32.qr1000.L5.qmax.png">fbmy8032_rel_240606_59f03d5a.cza1_c8r32</a>
+</ul>
+</body>
+</html>
