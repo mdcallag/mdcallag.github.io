@@ -1,0 +1,19 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>my8032_rel.cz11a_bee</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr>
+<tr><td>my8037_rel.cz11a_bee</td> <td>1.01</td><td>1.00</td><td>1.03</td><td>1.01</td><td id="chi">1.20</td><td>0.99</td><td id="chi">1.20</td><td>1.01</td><td id="chi">1.22</td><td>1.01</td></tr>
+<tr><td>fbmy5635_rel_240606_4f3a57a1.cza1_bee</td> <td id="chi">1.41</td><td id="clo">0.61</td><td id="chi">1.29</td><td>0.96</td><td id="clo">0.63</td><td>0.95</td><td id="clo">0.48</td><td>0.96</td><td id="clo">0.48</td><td id="clo">0.94</td></tr>
+<tr><td>fbmy8028_rel_240606_c6c83b18.cza1_bee</td> <td>1.01</td><td id="clo">0.54</td><td id="chi">1.16</td><td id="clo">0.81</td><td id="clo">0.46</td><td id="clo">0.93</td><td id="clo">0.50</td><td id="clo">0.92</td><td id="clo">0.50</td><td id="clo">0.87</td></tr>
+<tr><td>fbmy8032_rel_240606_59f03d5a.cza1_bee</td> <td>0.95</td><td id="clo">0.53</td><td id="chi">1.18</td><td id="clo">0.79</td><td id="clo">0.40</td><td id="clo">0.83</td><td id="clo">0.44</td><td id="clo">0.85</td><td id="clo">0.41</td><td id="clo">0.83</td></tr>
+</table>
