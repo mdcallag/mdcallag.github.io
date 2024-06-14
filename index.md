@@ -46,6 +46,7 @@ Benchmark reports for 2024
     * Postgres 17beta1 with patch that enforces VISITED_PAGES_LIMIT during get_actual_value_range calls: [cached](reports/24_06_07.ib.mem.pn53.pg.hack10/all.html)
     * MyRocks and InnoDB, Insert Benchmark on SER4 and PN53, Jun24:
       * cached, 1u.1t, SER4: [all](reports/24_06_11.ib.mem.bee.1u.1tno.all/all.html), [MyRocks](reports/24_06_11.ib.mem.bee.1u.1tno.fbmy/all.html), [InnoDB](reports/24_06_11.ib.mem.bee.1u.1tno.my/all.html), [MyRocks vs InnoDB](reports/24_06_11.ib.mem.bee.1u.1tno.rxvsin/all.html)
+      * IO-bound, 1u.1t, SER4: [all](reports/24_06_11.ib.io.bee.1u.1tno.all/all.html), [MyRocks](reports/24_06_11.ib.io.bee.1u.1tno.fbmy/all.html), [InnoDB](reports/24_06_11.ib.io.bee.1u.1tno.my/all.html), [MyRocks vs InnoDB](reports/24_06_11.ib.io.bee.1u.1tno.rxvsin/all.html)
       * cached, 1u.1t, PN53: [all](reports/24_06_11.ib.mem.pn53.1u.1tno.all/all.html), [MyRocks](reports/24_06_11.ib.mem.pn53.1u.1tno.fbmy/all.html), [InnoDB](reports/24_06_11.ib.mem.pn53.1u.1tno.my/all.html), [MyRocks vs InnoDB](reports/24_06_11.ib.mem.pn53.1u.1tno.rxvsin/all.html)
   * Medium server (GCP, c2-standard-30)
     * MySQL, InnoDB, cached workload, Jan24: [MySQL 5.6](reports/24_01_01.8u.1tno.c2.cached.my56/all.html), [MySQL 5.7](reports/24_01_01.8u.1tno.c2.cached.my57/all.html), [MySQL 8.0](reports/24_01_01.8u.1tno.c2.cached.my80/all.html), [MySQL 5.6, 5.7 and 8.0](reports/24_01_01.8u.1tno.c2.cached.my678/all.html)
