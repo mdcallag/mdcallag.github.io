@@ -1,0 +1,451 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:212056]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.l.i0.ips.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i0/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.l.i0.ips.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i0/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:615306]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.l.i0.imax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i0/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.l.i0.imax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i0/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.l.i0.dps.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i0/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.l.i0.dps.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i0/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.l.i0.dmax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i0/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.l.i0.dmax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i0/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:4255]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.l.i1.ips.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i1/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.l.i1.ips.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i1/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:234258]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.l.i1.imax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i1/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.l.i1.imax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i1/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i1"
+set yrange [0:4315]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.l.i1.dps.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i1/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.l.i1.dps.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i1/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i1"
+set yrange [0:196916]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.l.i1.dmax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i1/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.l.i1.dmax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i1/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i2"
+set yrange [0:270]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.l.i2.ips.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i2/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.l.i2.ips.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i2/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i2"
+set yrange [0:46723]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.l.i2.imax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i2/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.l.i2.imax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i2/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i2"
+set yrange [0:270]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.l.i2.dps.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i2/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.l.i2.dps.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i2/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i2"
+set yrange [0:184629]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.l.i2.dmax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i2/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.l.i2.dmax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i2/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "QPS"
+set title "QPS vs Time for l.i2"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.l.i2.qps.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i2/gpi.qps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.l.i2.qps.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i2/gpi.qps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for l.i2"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.l.i2.qmax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i2/gpi.qmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.l.i2.qmax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/l.i2/gpi.qmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "IPS"
+set title "IPS vs Time for qr100.L1"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr100.L1.ips.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr100.L1/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr100.L1.ips.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr100.L1/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr100.L1"
+set yrange [0:34189]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr100.L1.imax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr100.L1/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr100.L1.imax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr100.L1/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for qr100.L1"
+set yrange [0:240]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr100.L1.dps.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr100.L1/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr100.L1.dps.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr100.L1/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr100.L1"
+set yrange [0:12132]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr100.L1.dmax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr100.L1/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr100.L1.dmax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr100.L1/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "QPS"
+set title "QPS vs Time for qr100.L1"
+set yrange [0:19953]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr100.L1.qps.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr100.L1/gpi.qps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr100.L1.qps.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr100.L1/gpi.qps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr100.L1"
+set yrange [0:11755]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr100.L1.qmax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr100.L1/gpi.qmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr100.L1.qmax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr100.L1/gpi.qmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "IPS"
+set title "IPS vs Time for qp100.L2"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp100.L2.ips.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp100.L2/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp100.L2.ips.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp100.L2/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp100.L2"
+set yrange [0:89634]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp100.L2.imax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp100.L2/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp100.L2.imax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp100.L2/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for qp100.L2"
+set yrange [0:238]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp100.L2.dps.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp100.L2/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp100.L2.dps.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp100.L2/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp100.L2"
+set yrange [0:14749]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp100.L2.dmax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp100.L2/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp100.L2.dmax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp100.L2/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "QPS"
+set title "QPS vs Time for qp100.L2"
+set yrange [0:633]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp100.L2.qps.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp100.L2/gpi.qps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp100.L2.qps.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp100.L2/gpi.qps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp100.L2"
+set yrange [0:49273]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp100.L2.qmax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp100.L2/gpi.qmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp100.L2.qmax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp100.L2/gpi.qmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "IPS"
+set title "IPS vs Time for qr500.L3"
+set yrange [0:660]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr500.L3.ips.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr500.L3/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr500.L3.ips.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr500.L3/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr500.L3"
+set yrange [0:67182]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr500.L3.imax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr500.L3/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr500.L3.imax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr500.L3/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for qr500.L3"
+set yrange [0:660]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr500.L3.dps.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr500.L3/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr500.L3.dps.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr500.L3/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr500.L3"
+set yrange [0:30387]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr500.L3.dmax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr500.L3/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr500.L3.dmax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr500.L3/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "QPS"
+set title "QPS vs Time for qr500.L3"
+set yrange [0:18910]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr500.L3.qps.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr500.L3/gpi.qps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr500.L3.qps.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr500.L3/gpi.qps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr500.L3"
+set yrange [0:50846]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr500.L3.qmax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr500.L3/gpi.qmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr500.L3.qmax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr500.L3/gpi.qmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "IPS"
+set title "IPS vs Time for qp500.L4"
+set yrange [0:780]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp500.L4.ips.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp500.L4/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp500.L4.ips.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp500.L4/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp500.L4"
+set yrange [0:100293]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp500.L4.imax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp500.L4/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp500.L4.imax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp500.L4/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for qp500.L4"
+set yrange [0:780]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp500.L4.dps.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp500.L4/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp500.L4.dps.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp500.L4/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp500.L4"
+set yrange [0:63506]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp500.L4.dmax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp500.L4/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp500.L4.dmax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp500.L4/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "QPS"
+set title "QPS vs Time for qp500.L4"
+set yrange [0:555]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp500.L4.qps.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp500.L4/gpi.qps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp500.L4.qps.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp500.L4/gpi.qps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp500.L4"
+set yrange [0:50181]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp500.L4.qmax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp500.L4/gpi.qmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp500.L4.qmax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp500.L4/gpi.qmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "IPS"
+set title "IPS vs Time for qr1000.L5"
+set yrange [0:1678]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr1000.L5.ips.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr1000.L5/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr1000.L5.ips.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr1000.L5/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr1000.L5"
+set yrange [0:124516]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr1000.L5.imax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr1000.L5/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr1000.L5.imax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr1000.L5/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for qr1000.L5"
+set yrange [0:1498]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr1000.L5.dps.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr1000.L5/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr1000.L5.dps.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr1000.L5/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr1000.L5"
+set yrange [0:118496]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr1000.L5.dmax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr1000.L5/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr1000.L5.dmax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr1000.L5/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "QPS"
+set title "QPS vs Time for qr1000.L5"
+set yrange [0:14518]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr1000.L5.qps.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr1000.L5/gpi.qps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr1000.L5.qps.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr1000.L5/gpi.qps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr1000.L5"
+set yrange [0:250666]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qr1000.L5.qmax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr1000.L5/gpi.qmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qr1000.L5.qmax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qr1000.L5/gpi.qmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "IPS"
+set title "IPS vs Time for qp1000.L6"
+set yrange [0:1498]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp1000.L6.ips.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp1000.L6/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp1000.L6.ips.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp1000.L6/gpi.ips" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp1000.L6"
+set yrange [0:133836]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp1000.L6.imax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp1000.L6/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp1000.L6.imax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp1000.L6/gpi.imax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for qp1000.L6"
+set yrange [0:1558]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp1000.L6.dps.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp1000.L6/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp1000.L6.dps.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp1000.L6/gpi.dps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp1000.L6"
+set yrange [0:157165]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp1000.L6.dmax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp1000.L6/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp1000.L6.dmax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp1000.L6/gpi.dmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "QPS"
+set title "QPS vs Time for qp1000.L6"
+set yrange [0:441]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp1000.L6.qps.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp1000.L6/gpi.qps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp1000.L6.qps.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp1000.L6/gpi.qps" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp1000.L6"
+set yrange [0:80905]
+set terminal dumb 200, 50
+set output 'pg157_def.cx9a2a_c32r128.qp1000.L6.qmax.txt'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp1000.L6/gpi.qmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
+set terminal png
+set output 'pg157_def.cx9a2a_c32r128.qp1000.L6.qmax.png'
+plot "3600m.pg157_def.cx9a2a_c32r128/qp1000.L6/gpi.qmax" using 1:2 title "pg157_def.cx9a2a_c32r128", 
