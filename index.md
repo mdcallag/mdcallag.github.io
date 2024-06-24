@@ -57,7 +57,7 @@ Benchmark reports for 2024
     * MyRocks, cached workload, Jan24: [5.6.35, 8.0.28, 8.0.32](reports/24_01_01.12u.1tno.socket2.cached.fbmy/all.html)
     * Postgres, Feb24: [cached workload](reports/24_02_01.16u.1tno.socket2.mem.pg/all.html)
   * Large server (32-core)
-    * Postgres, Jun24, up to pg17beta1: [cached](reports/24_06_10.ib.mem.dell32.pg.hack10/all.html), [IO-bound](reports/24_06_24.ib.io.dell32.pg.hack10)
+    * Postgres, Jun24, up to pg17beta1: [cached](reports/24_06_10.ib.mem.dell32.pg.hack10/all.html), [IO-bound](reports/24_06_24.ib.io.dell32.pg.hack10/all.html)
   * Large server (2-socket, 20 cores/socket)
     * InnoDB, v2: [cached](reports/24_01_10.24u.1tno.cached.inno.int1.v2/all.html)
 
