@@ -56,7 +56,9 @@ Benchmark reports for 2024
   * Medium server (GCP, c2d-standard-32, high-compute)
     * Insert Benchmark, Postgres 17beta2, Jul24: [cached](reports/24_07_12.ib.mem.c2d.pg17beta2/all.html), [IO-bound](reports/24_07_12.ib.io.c2d.pg17beta2/all.html)
     * Insert Benchmark, MySQL 8.0.38, Jul24: [cached](reports/24_07_15.ib.mem.c2d.my8038/all.html), [IO-bound](reports/24_07_15.ib.io.c2d.my8038/all.html)
-    * Insert Benchmark, MariaDB, Aug24: [cached, 10.2 as base](reports/24_08_06.ib.c2d.maria.all.mem/all.html), [cached, 10.6 as base](reports/24_08_06.ib.c2d.maria.some.mem/all.html), [IO-bound, 10.2 as base](reports/24_08_06.ib.c2d.maria.all.io/all.html), [IO-bound, 10.6 as base](reports/24_08_06.ib.c2d.maria.some.io/all.html)
+    * Insert Benchmark, MariaDB, Aug24:
+      * Cached: [10.2 as base](reports/24_08_06.ib.c2d.maria.all.mem/all.html), [10.6 as base](reports/24_08_06.ib.c2d.maria.some.mem/all.html), [vs MySQL](reports/24_08_06.ib.c2d.maria.vsmy.mem/all.html)
+      * IO-bound: [10.2 as base](reports/24_08_06.ib.c2d.maria.all.io/all.html), [10.6 as base](reports/24_08_06.ib.c2d.maria.some.io/all.html), [vs MySQL](reports/24_08_06.ib.c2d.maria.vsmy.io/all.html)
   * Large server (2-socket, 24-core)
     * MyRocks, cached workload, Jan24: [5.6.35, 8.0.28, 8.0.32](reports/24_01_01.12u.1tno.socket2.cached.fbmy/all.html)
     * Postgres, Feb24: [cached workload](reports/24_02_01.16u.1tno.socket2.mem.pg/all.html)
