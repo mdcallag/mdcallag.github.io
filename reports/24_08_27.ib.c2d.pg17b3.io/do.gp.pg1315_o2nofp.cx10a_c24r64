@@ -1,0 +1,451 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:198145]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i0.ips.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i0/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i0.ips.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i0/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:1157348]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i0.imax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i0/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i0.imax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i0/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i0.dps.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i0/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i0.dps.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i0/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i0.dmax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i0/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i0.dmax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i0/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:9044]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i1.ips.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i1/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i1.ips.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i1/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:378622]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i1.imax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i1/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i1.imax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i1/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i1"
+set yrange [0:9823]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i1.dps.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i1/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i1.dps.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i1/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i1"
+set yrange [0:369446]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i1.dmax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i1/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i1.dmax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i1/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i2"
+set yrange [0:9997]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i2.ips.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i2/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i2.ips.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i2/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i2"
+set yrange [0:11379]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i2.imax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i2/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i2.imax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i2/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i2"
+set yrange [0:9997]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i2.dps.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i2/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i2.dps.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i2/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i2"
+set yrange [0:133044]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i2.dmax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i2/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i2.dmax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i2/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "QPS"
+set title "QPS vs Time for l.i2"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i2.qps.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i2/gpi.qps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i2.qps.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i2/gpi.qps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for l.i2"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i2.qmax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i2/gpi.qmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.l.i2.qmax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/l.i2/gpi.qmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "IPS"
+set title "IPS vs Time for qr100.L1"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr100.L1.ips.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr100.L1/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr100.L1.ips.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr100.L1/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr100.L1"
+set yrange [0:13491]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr100.L1.imax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr100.L1/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr100.L1.imax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr100.L1/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for qr100.L1"
+set yrange [0:240]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr100.L1.dps.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr100.L1/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr100.L1.dps.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr100.L1/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr100.L1"
+set yrange [0:3042]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr100.L1.dmax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr100.L1/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr100.L1.dmax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr100.L1/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "QPS"
+set title "QPS vs Time for qr100.L1"
+set yrange [0:15555]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr100.L1.qps.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr100.L1/gpi.qps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr100.L1.qps.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr100.L1/gpi.qps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr100.L1"
+set yrange [0:3350]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr100.L1.qmax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr100.L1/gpi.qmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr100.L1.qmax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr100.L1/gpi.qmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "IPS"
+set title "IPS vs Time for qp100.L2"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp100.L2.ips.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp100.L2/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp100.L2.ips.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp100.L2/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp100.L2"
+set yrange [0:36927]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp100.L2.imax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp100.L2/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp100.L2.imax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp100.L2/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for qp100.L2"
+set yrange [0:240]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp100.L2.dps.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp100.L2/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp100.L2.dps.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp100.L2/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp100.L2"
+set yrange [0:11863]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp100.L2.dmax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp100.L2/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp100.L2.dmax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp100.L2/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "QPS"
+set title "QPS vs Time for qp100.L2"
+set yrange [0:805]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp100.L2.qps.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp100.L2/gpi.qps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp100.L2.qps.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp100.L2/gpi.qps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp100.L2"
+set yrange [0:10579]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp100.L2.qmax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp100.L2/gpi.qmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp100.L2.qmax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp100.L2/gpi.qmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "IPS"
+set title "IPS vs Time for qr500.L3"
+set yrange [0:898]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr500.L3.ips.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr500.L3/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr500.L3.ips.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr500.L3/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr500.L3"
+set yrange [0:84624]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr500.L3.imax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr500.L3/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr500.L3.imax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr500.L3/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for qr500.L3"
+set yrange [0:1198]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr500.L3.dps.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr500.L3/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr500.L3.dps.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr500.L3/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr500.L3"
+set yrange [0:51880]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr500.L3.dmax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr500.L3/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr500.L3.dmax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr500.L3/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "QPS"
+set title "QPS vs Time for qr500.L3"
+set yrange [0:15132]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr500.L3.qps.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr500.L3/gpi.qps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr500.L3.qps.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr500.L3/gpi.qps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr500.L3"
+set yrange [0:94269]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr500.L3.qmax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr500.L3/gpi.qmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr500.L3.qmax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr500.L3/gpi.qmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "IPS"
+set title "IPS vs Time for qp500.L4"
+set yrange [0:660]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp500.L4.ips.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp500.L4/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp500.L4.ips.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp500.L4/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp500.L4"
+set yrange [0:60867]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp500.L4.imax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp500.L4/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp500.L4.imax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp500.L4/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for qp500.L4"
+set yrange [0:1018]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp500.L4.dps.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp500.L4/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp500.L4.dps.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp500.L4/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp500.L4"
+set yrange [0:61298]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp500.L4.dmax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp500.L4/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp500.L4.dmax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp500.L4/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "QPS"
+set title "QPS vs Time for qp500.L4"
+set yrange [0:690]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp500.L4.qps.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp500.L4/gpi.qps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp500.L4.qps.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp500.L4/gpi.qps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp500.L4"
+set yrange [0:37908]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp500.L4.qmax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp500.L4/gpi.qmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp500.L4.qmax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp500.L4/gpi.qmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "IPS"
+set title "IPS vs Time for qr1000.L5"
+set yrange [0:1738]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr1000.L5.ips.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr1000.L5/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr1000.L5.ips.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr1000.L5/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr1000.L5"
+set yrange [0:155661]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr1000.L5.imax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr1000.L5/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr1000.L5.imax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr1000.L5/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for qr1000.L5"
+set yrange [0:1917]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr1000.L5.dps.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr1000.L5/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr1000.L5.dps.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr1000.L5/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr1000.L5"
+set yrange [0:97915]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr1000.L5.dmax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr1000.L5/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr1000.L5.dmax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr1000.L5/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "QPS"
+set title "QPS vs Time for qr1000.L5"
+set yrange [0:13546]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr1000.L5.qps.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr1000.L5/gpi.qps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr1000.L5.qps.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr1000.L5/gpi.qps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr1000.L5"
+set yrange [0:330778]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qr1000.L5.qmax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr1000.L5/gpi.qmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qr1000.L5.qmax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qr1000.L5/gpi.qmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "IPS"
+set title "IPS vs Time for qp1000.L6"
+set yrange [0:1497]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp1000.L6.ips.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp1000.L6/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp1000.L6.ips.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp1000.L6/gpi.ips" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp1000.L6"
+set yrange [0:88315]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp1000.L6.imax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp1000.L6/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp1000.L6.imax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp1000.L6/gpi.imax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for qp1000.L6"
+set yrange [0:1677]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp1000.L6.dps.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp1000.L6/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp1000.L6.dps.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp1000.L6/gpi.dps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp1000.L6"
+set yrange [0:128731]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp1000.L6.dmax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp1000.L6/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp1000.L6.dmax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp1000.L6/gpi.dmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "QPS"
+set title "QPS vs Time for qp1000.L6"
+set yrange [0:556]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp1000.L6.qps.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp1000.L6/gpi.qps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp1000.L6.qps.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp1000.L6/gpi.qps" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp1000.L6"
+set yrange [0:83589]
+set terminal dumb 200, 50
+set output 'pg1315_o2nofp.cx10a_c24r64.qp1000.L6.qmax.txt'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp1000.L6/gpi.qmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 
+set terminal png
+set output 'pg1315_o2nofp.cx10a_c24r64.qp1000.L6.qmax.png'
+plot "1024m.pg1315_o2nofp.cx10a_c24r64/qp1000.L6/gpi.qmax" using 1:2 title "pg1315_o2nofp.cx10a_c24r64", 

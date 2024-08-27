@@ -1,0 +1,29 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>qr100.L1</th><th>qp100.L2</th><th>qr500.L3</th><th>qp500.L4</th><th>qr1000.L5</th><th>qp1000.L6</th></tr>
+<tr><td>pg1219_o2nofp.cx10a_c24r64</td><td>796</td><td>796</td><td>3980</td><td>3980</td><td>7956</td><td>7960</td></tr>
+<tr><td>pg1220_o2nofp.cx10a_c24r64</td><td>796</td><td>796</td><td>3980</td><td>3980</td><td>7960</td><td>7960</td></tr>
+<tr><td>pg1315_o2nofp.cx10a_c24r64</td><td>796</td><td>796</td><td>3980</td><td>3980</td><td>7960</td><td>7960</td></tr>
+<tr><td>pg1316_o2nofp.cx10a_c24r64</td><td>796</td><td>796</td><td>3980</td><td>3980</td><td>7960</td><td>7960</td></tr>
+<tr><td>pg1412_o2nofp.cx10a_c24r64</td><td>796</td><td>796</td><td>3980</td><td>3980</td><td>7960</td><td>7960</td></tr>
+<tr><td>pg1413_o2nofp.cx10a_c24r64</td><td>796</td><td>796</td><td>3980</td><td>3980</td><td>7960</td><td>7960</td></tr>
+<tr><td>pg157_o2nofp.cx10a_c24r64</td><td>796</td><td>796</td><td>3980</td><td>3980</td><td>7960</td><td>7960</td></tr>
+<tr><td>pg158_o2nofp.cx10a_c24r64</td><td>796</td><td>796</td><td>3980</td><td>3980</td><td>7960</td><td>7960</td></tr>
+<tr><td>pg163_o2nofp.cx10a_c24r64</td><td>796</td><td>796</td><td>3980</td><td>3980</td><td>7960</td><td>7960</td></tr>
+<tr><td>pg164_o2nofp.cx10a_c24r64</td><td>796</td><td>796</td><td>3980</td><td>3980</td><td>7960</td><td>7960</td></tr>
+<tr><td>pg17beta1_o2nofp.cx10a_c24r64</td><td>796</td><td>796</td><td>3980</td><td>3980</td><td>7960</td><td>7960</td></tr>
+<tr><td>pg17beta2_o2nofp.cx10a_c24r64</td><td>796</td><td>796</td><td>3980</td><td>3980</td><td>7960</td><td>7960</td></tr>
+<tr><td>pg17beta3_o2nofp.cx10a_c24r64</td><td>796</td><td>796</td><td>3980</td><td>3980</td><td>7956</td><td>7960</td></tr>
+<tr><td>target</td><td id=cgray>800</td><td id=cgray>800</td><td id=cgray>4000</td><td id=cgray>4000</td><td id=cgray>8000</td><td id=cgray>8000</td>
+</tr>
+</table>
