@@ -1,0 +1,27 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>qr100.L1</th><th>qp100.L2</th><th>qr500.L3</th><th>qp500.L4</th><th>qr1000.L5</th><th>qp1000.L6</th></tr>
+<tr><td>ma100339_rel_withdbg.cz11a_c32r128</td><td>1976</td><td>1976</td><td>9704</td><td id="cmin">6881</td><td id="cmin">6479</td><td id="cmin">5638</td></tr>
+<tr><td>ma100434_rel_withdbg.cz11a_c32r128</td><td>1976</td><td>1976</td><td id="cmin">6272</td><td id="cmin">6112</td><td id="cmin">2433</td><td id="cmin">5544</td></tr>
+<tr><td>ma100526_rel_withdbg.cz11a_c32r128</td><td>1976</td><td>1977</td><td id="cmin">5417</td><td id="cmin">4425</td><td id="cmin">6179</td><td id="cmin">3845</td></tr>
+<tr><td>ma100619_rel_withdbg.cz11a_c32r128</td><td>1976</td><td>1976</td><td id="cmin">8490</td><td id="cmin">4729</td><td id="cmin">6540</td><td id="cmin">5625</td></tr>
+<tr><td>ma101109_rel_withdbg.cz11a_c32r128</td><td>1976</td><td>1976</td><td id="cmin">8411</td><td id="cmin">3771</td><td id="cmin">6235</td><td id="cmin">4249</td></tr>
+<tr><td>ma110403_rel_withdbg.cz11b_c32r128</td><td>1976</td><td>1976</td><td id="cmin">8459</td><td id="cmin">3909</td><td id="cmin">6319</td><td id="cmin">4254</td></tr>
+<tr><td>ma110502_rel_withdbg.cz11b_c32r128</td><td>1976</td><td>1976</td><td id="cmin">8046</td><td id="cmin">4003</td><td id="cmin">6332</td><td id="cmin">4245</td></tr>
+<tr><td>ma110601_rel_withdbg.cz11b_c32r128</td><td>1976</td><td>1976</td><td id="cmin">7732</td><td id="cmin">4049</td><td id="cmin">6104</td><td id="cmin">4300</td></tr>
+<tr><td>my5651_rel_o2nofp.cz11a_c32r128</td><td>1977</td><td>1977</td><td>9885</td><td>9885</td><td id="cmin">11378</td><td id="cmin">3193</td></tr>
+<tr><td>my5744_rel_o2nofp.cz11a_c32r128</td><td>1977</td><td>1977</td><td>9885</td><td>9885</td><td>19748</td><td id="cmin">10873</td></tr>
+<tr><td>my8039_rel_o2nofp.cz11a_c32r128</td><td>1977</td><td>1977</td><td>9885</td><td>9885</td><td>19769</td><td id="cmin">12609</td></tr>
+<tr><td>target</td><td id=cgray>2000</td><td id=cgray>2000</td><td id=cgray>10000</td><td id=cgray>10000</td><td id=cgray>20000</td><td id=cgray>20000</td>
+</tr>
+</table>
