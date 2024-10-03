@@ -75,7 +75,8 @@ Benchmark reports for 2024
   * Large server (48-core, Hetzner ax162-s)
     * Cached database: [MySQL vs Postgres](reports/24_09_14.ib.ax162s.myvspg.mem/all.html), [MySQL](reports/24_09_14.ib.ax162s.my.mem/all.html), [Postgres](reports/24_09_14.ib.ax162s.pg.mem/all.html)
     * Less IO-bound (1280m rows): [MySQL vs Postgres](reports/24_09_14.ib.ax162s.myvspg.io64m/all.html), [MySQL](reports/24_09_14.ib.ax162s.my.io64m/all.html), [Postgres](reports/24_09_14.ib.ax162s.pg.io64m/all.html)
-    * More IO-bound (m rows): [MySQL vs Postgres](reports/24_09_14.ib.ax162s.myvspg.io200m/all.html), [MySQL](reports/24_09_14.ib.ax162s.my.io200m/all.html), [Postgres](reports/24_09_14.ib.ax162s.pg.io200m/all.html)
+    * More IO-bound (4000m rows): [MySQL vs Postgres](reports/24_09_14.ib.ax162s.myvspg.io200m/all.html), [MySQL](reports/24_09_14.ib.ax162s.my.io200m/all.html), [Postgres](reports/24_09_14.ib.ax162s.pg.io200m/all.html)
+    * More IO-bound (4000m rows): [MariaDB 10.6, 10.11](reports/24_10_03.ib.ax162s.maria.io/all.html)
 
 Benchmark reports for 2023
 * jemalloc

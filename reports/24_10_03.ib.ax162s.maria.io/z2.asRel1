@@ -1,0 +1,7 @@
+<tr><td>ma100618_rel_withdbg.cz11a_c32r128</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr>
+<tr><td>ma100618_rel_withdbg.cz11a_lwas4k_c32r128</td> <td>0.98</td><td>0.95</td><td>1.00</td><td>0.96</td><td>1.01</td><td>1.01</td><td>0.99</td><td>1.01</td><td>1.03</td><td id="clo">0.94</td></tr>
+<tr><td>ma100619_rel_withdbg.cz11a_c32r128</td> <td>0.98</td><td>0.96</td><td>1.03</td><td id="clo">0.92</td><td>1.00</td><td>1.00</td><td>0.97</td><td id="clo">0.89</td><td>0.99</td><td>0.99</td></tr>
+<tr><td>ma100619_rel_withdbg.cz11a_lwas4k_c32r128</td> <td>0.98</td><td>0.96</td><td>1.02</td><td id="clo">0.94</td><td>1.00</td><td>0.99</td><td>0.98</td><td id="clo">0.81</td><td>1.00</td><td>0.97</td></tr>
+<tr><td>ma101108_rel_withdbg.cz11a_c32r128</td> <td id="clo">0.85</td><td>1.02</td><td>0.95</td><td id="clo">0.90</td><td>1.01</td><td>0.97</td><td>0.99</td><td id="clo">0.74</td><td>1.00</td><td id="clo">0.74</td></tr>
+<tr><td>ma101109_rel_withdbg.cz11a_c32r128</td> <td id="clo">0.84</td><td>0.97</td><td>0.98</td><td id="clo">0.82</td><td>1.03</td><td>0.97</td><td>1.01</td><td id="clo">0.58</td><td>1.01</td><td id="clo">0.70</td></tr>
+<tr><td>ma101109_rel_withdbg.cz11a_lwas4k_c32r128</td> <td id="clo">0.84</td><td>0.97</td><td>0.96</td><td id="clo">0.89</td><td>1.02</td><td>0.97</td><td>0.99</td><td id="clo">0.67</td><td>1.00</td><td id="clo">0.78</td></tr>
