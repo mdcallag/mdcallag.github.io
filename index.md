@@ -53,6 +53,7 @@ Benchmark reports for 2024
     * MyRocks, cached workload, Jan24: [5.6.35](reports/24_01_01.8u.1tno.c2.cached.fbmy56/all.html), [8.0.28, 8.0.32](reports/24_01_01.8u.1tno.c2.cached.fbmy80/all.html), [5.6.35, 8.0.28, 8.0.32 - many versions](reports/24_01_01.8u.1tno.c2.cached.fbmy_all/all.html), [5.6.35, 8.0.28, 8.0.32 - latest versions](reports/24_01_01.8u.1tno.c2.cached.fbmy_latest/all.html)
     * MyRocks, cached workload, Jan24, v2: [5.6.35](reports/24_01_11.8u.1tno.cached.fbmy56/all.html), [8.0](reports/24_01_11.8u.1tno.cached.fbmy80/all.html), [latest 5.6, 8.0](reports/24_01_11.8u.1tno.cached.fbmy.latest/all.html), [all](reports/24_01_11.8u.1tno.cached.fbmy.all/all.html)
     * MyRocks, IO-bound workload, Jan24, v2: [5.6.35](reports/24_01_17.8u.1tno.io.c2.fbmy.56/all.html), [8.0](reports/24_01_17.8u.1tno.io.c2.fbmy.80/all.html), [all](reports/24_01_17.8u.1tno.io.c2.fbmy.all/all.html), [latest](reports/24_01_17.8u.1tno.io.c2.fbmy.latest/all.html)
+    * MySQL 8.0.28, Insert Benchmark, PGO and LTO [cached](reports/24_10_21.ib.bee.my8028.mem/all.html)
   * Medium server (GCP, c2d-standard-32, high-compute)
     * Insert Benchmark, Postgres 17beta2, Jul24: [cached](reports/24_07_12.ib.mem.c2d.pg17beta2/all.html), [IO-bound](reports/24_07_12.ib.io.c2d.pg17beta2/all.html)
     * Insert Benchmark, Postgres 17beta3, Aug24: [cached](reports/24_08_27.ib.c2d.pg17b3.mem/all.html), [IO-bound](reports/24_08_27.ib.c2d.pg17b3.io/all.html)

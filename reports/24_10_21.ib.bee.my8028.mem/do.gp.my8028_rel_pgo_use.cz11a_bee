@@ -1,0 +1,451 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:94942]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i0.ips.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i0/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i0.ips.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i0/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:40986]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i0.imax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i0/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i0.imax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i0/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i0.dps.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i0/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i0.dps.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i0/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i0.dmax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i0/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i0.dmax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i0/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:30870]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i1.ips.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i1/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i1.ips.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i1/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:123868]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i1.imax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i1/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i1.imax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i1/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i1"
+set yrange [0:30870]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i1.dps.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i1/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i1.dps.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i1/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i1"
+set yrange [0:124530]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i1.dmax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i1/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i1.dmax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i1/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i2"
+set yrange [0:19017]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i2.ips.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i2/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i2.ips.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i2/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i2"
+set yrange [0:153872]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i2.imax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i2/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i2.imax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i2/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i2"
+set yrange [0:18957]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i2.dps.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i2/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i2.dps.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i2/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i2"
+set yrange [0:145989]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i2.dmax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i2/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i2.dmax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i2/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for l.i2"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i2.qps.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i2/gpi.qps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i2.qps.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i2/gpi.qps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for l.i2"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i2.qmax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i2/gpi.qmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.l.i2.qmax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/l.i2/gpi.qmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qr100.L1"
+set yrange [0:238]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr100.L1.ips.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr100.L1/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr100.L1.ips.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr100.L1/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr100.L1"
+set yrange [0:3354]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr100.L1.imax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr100.L1/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr100.L1.imax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr100.L1/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qr100.L1"
+set yrange [0:238]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr100.L1.dps.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr100.L1/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr100.L1.dps.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr100.L1/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr100.L1"
+set yrange [0:4423]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr100.L1.dmax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr100.L1/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr100.L1.dmax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr100.L1/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qr100.L1"
+set yrange [0:8096]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr100.L1.qps.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr100.L1/gpi.qps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr100.L1.qps.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr100.L1/gpi.qps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr100.L1"
+set yrange [0:1896]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr100.L1.qmax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr100.L1/gpi.qmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr100.L1.qmax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr100.L1/gpi.qmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qp100.L2"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp100.L2.ips.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp100.L2/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp100.L2.ips.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp100.L2/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp100.L2"
+set yrange [0:4830]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp100.L2.imax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp100.L2/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp100.L2.imax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp100.L2/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qp100.L2"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp100.L2.dps.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp100.L2/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp100.L2.dps.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp100.L2/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp100.L2"
+set yrange [0:4694]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp100.L2.dmax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp100.L2/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp100.L2.dmax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp100.L2/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qp100.L2"
+set yrange [0:6043]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp100.L2.qps.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp100.L2/gpi.qps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp100.L2.qps.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp100.L2/gpi.qps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp100.L2"
+set yrange [0:2756]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp100.L2.qmax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp100.L2/gpi.qmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp100.L2.qmax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp100.L2/gpi.qmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qr500.L3"
+set yrange [0:715]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr500.L3.ips.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr500.L3/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr500.L3.ips.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr500.L3/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr500.L3"
+set yrange [0:5149]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr500.L3.imax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr500.L3/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr500.L3.imax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr500.L3/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qr500.L3"
+set yrange [0:835]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr500.L3.dps.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr500.L3/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr500.L3.dps.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr500.L3/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr500.L3"
+set yrange [0:4184]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr500.L3.dmax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr500.L3/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr500.L3.dmax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr500.L3/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qr500.L3"
+set yrange [0:8055]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr500.L3.qps.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr500.L3/gpi.qps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr500.L3.qps.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr500.L3/gpi.qps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr500.L3"
+set yrange [0:6678]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr500.L3.qmax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr500.L3/gpi.qmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr500.L3.qmax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr500.L3/gpi.qmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qp500.L4"
+set yrange [0:715]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp500.L4.ips.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp500.L4/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp500.L4.ips.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp500.L4/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp500.L4"
+set yrange [0:5826]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp500.L4.imax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp500.L4/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp500.L4.imax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp500.L4/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qp500.L4"
+set yrange [0:658]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp500.L4.dps.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp500.L4/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp500.L4.dps.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp500.L4/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp500.L4"
+set yrange [0:2636]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp500.L4.dmax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp500.L4/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp500.L4.dmax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp500.L4/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qp500.L4"
+set yrange [0:6006]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp500.L4.qps.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp500.L4/gpi.qps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp500.L4.qps.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp500.L4/gpi.qps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp500.L4"
+set yrange [0:5054]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp500.L4.qmax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp500.L4/gpi.qmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp500.L4.qmax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp500.L4/gpi.qmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qr1000.L5"
+set yrange [0:1419]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr1000.L5.ips.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr1000.L5/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr1000.L5.ips.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr1000.L5/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr1000.L5"
+set yrange [0:6150]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr1000.L5.imax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr1000.L5/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr1000.L5.imax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr1000.L5/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qr1000.L5"
+set yrange [0:1478]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr1000.L5.dps.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr1000.L5/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr1000.L5.dps.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr1000.L5/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr1000.L5"
+set yrange [0:5971]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr1000.L5.dmax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr1000.L5/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr1000.L5.dmax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr1000.L5/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qr1000.L5"
+set yrange [0:8019]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr1000.L5.qps.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr1000.L5/gpi.qps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr1000.L5.qps.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr1000.L5/gpi.qps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr1000.L5"
+set yrange [0:2336]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qr1000.L5.qmax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr1000.L5/gpi.qmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qr1000.L5.qmax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qr1000.L5/gpi.qmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "IPS"
+set title "IPS vs Time for qp1000.L6"
+set yrange [0:1428]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp1000.L6.ips.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp1000.L6/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp1000.L6.ips.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp1000.L6/gpi.ips" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp1000.L6"
+set yrange [0:4358]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp1000.L6.imax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp1000.L6/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp1000.L6.imax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp1000.L6/gpi.imax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "DPS"
+set title "DPS vs Time for qp1000.L6"
+set yrange [0:1488]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp1000.L6.dps.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp1000.L6/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp1000.L6.dps.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp1000.L6/gpi.dps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp1000.L6"
+set yrange [0:3205]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp1000.L6.dmax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp1000.L6/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp1000.L6.dmax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp1000.L6/gpi.dmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "QPS"
+set title "QPS vs Time for qp1000.L6"
+set yrange [0:6040]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp1000.L6.qps.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp1000.L6/gpi.qps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp1000.L6.qps.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp1000.L6/gpi.qps" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp1000.L6"
+set yrange [0:2362]
+set terminal dumb 200, 50
+set output 'my8028_rel_pgo_use.cz11a_bee.qp1000.L6.qmax.txt'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp1000.L6/gpi.qmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
+set terminal png
+set output 'my8028_rel_pgo_use.cz11a_bee.qp1000.L6.qmax.png'
+plot "20m.my8028_rel_pgo_use.cz11a_bee/qp1000.L6/gpi.qmax" using 1:2 title "my8028_rel_pgo_use.cz11a_bee", 
