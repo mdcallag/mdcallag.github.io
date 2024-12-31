@@ -48,6 +48,7 @@ Benchmark reports for 2024
       * cached, 1u.1t, SER4: [all](reports/24_06_11.ib.mem.bee.1u.1tno.all/all.html), [MyRocks](reports/24_06_11.ib.mem.bee.1u.1tno.fbmy/all.html), [InnoDB](reports/24_06_11.ib.mem.bee.1u.1tno.my/all.html), [MyRocks vs InnoDB](reports/24_06_11.ib.mem.bee.1u.1tno.rxvsin/all.html)
       * IO-bound, 1u.1t, SER4: [all](reports/24_06_14.ib.io.bee.1u.1tno.all/all.html), [MyRocks](reports/24_06_14.ib.io.bee.1u.1tno.fbmy/all.html), [InnoDB](reports/24_06_14.ib.io.bee.1u.1tno.my/all.html), [MyRocks vs InnoDB](reports/24_06_14.ib.io.bee.1u.1tno.rxvsin/all.html)
       * cached, 1u.1t, PN53: [all](reports/24_06_11.ib.mem.pn53.1u.1tno.all/all.html), [MyRocks](reports/24_06_11.ib.mem.pn53.1u.1tno.fbmy/all.html), [InnoDB](reports/24_06_11.ib.mem.pn53.1u.1tno.my/all.html), [MyRocks vs InnoDB](reports/24_06_11.ib.mem.pn53.1u.1tno.rxvsin/all.html)
+    * MariaDB: [cached, 1 user](reports/24_12_30.ib.pn53.maria.1u.mem/all.html), [cached, 6 users](reports/24_12_30.ib.pn53.maria.6u.mem/all.html), [IO-bound, 1 user](reports/24_12_30.ib.pn53.maria.1u.io/all.html), [IO-bound, 6 users](reports/24_12_30.ib.pn53.maria.6u.io/all.html)
   * Medium server (GCP, c2-standard-30)
     * MySQL, InnoDB, cached workload, Jan24: [MySQL 5.6](reports/24_01_01.8u.1tno.c2.cached.my56/all.html), [MySQL 5.7](reports/24_01_01.8u.1tno.c2.cached.my57/all.html), [MySQL 8.0](reports/24_01_01.8u.1tno.c2.cached.my80/all.html), [MySQL 5.6, 5.7 and 8.0](reports/24_01_01.8u.1tno.c2.cached.my678/all.html)
     * MyRocks, cached workload, Jan24: [5.6.35](reports/24_01_01.8u.1tno.c2.cached.fbmy56/all.html), [8.0.28, 8.0.32](reports/24_01_01.8u.1tno.c2.cached.fbmy80/all.html), [5.6.35, 8.0.28, 8.0.32 - many versions](reports/24_01_01.8u.1tno.c2.cached.fbmy_all/all.html), [5.6.35, 8.0.28, 8.0.32 - latest versions](reports/24_01_01.8u.1tno.c2.cached.fbmy_latest/all.html)
@@ -78,6 +79,7 @@ Benchmark reports for 2024
     * Less IO-bound (1280m rows): [MySQL vs Postgres](reports/24_09_14.ib.ax162s.myvspg.io64m/all.html), [MySQL](reports/24_09_14.ib.ax162s.my.io64m/all.html), [Postgres](reports/24_09_14.ib.ax162s.pg.io64m/all.html)
     * More IO-bound (4000m rows): [MySQL vs Postgres](reports/24_09_14.ib.ax162s.myvspg.io200m/all.html), [MySQL](reports/24_09_14.ib.ax162s.my.io200m/all.html), [Postgres](reports/24_09_14.ib.ax162s.pg.io200m/all.html)
     * More IO-bound (4000m rows): [MariaDB 10.6, 10.11](reports/24_10_03.ib.ax162s.maria.io/all.html)
+    * MariaDB: [cached, 20 users](reports/24_12_30.ib.hetz.maria.20u.io/all.html), [IO-bound, 20 users](reports/24_12_30.ib.hetz.maria.20u.mem/all.html)
 
 Benchmark reports for 2023
 * jemalloc

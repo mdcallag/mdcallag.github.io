@@ -1,0 +1,45 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>qr100.L1</th><th>qp100.L2</th><th>qr500.L3</th><th>qp500.L4</th><th>qr1000.L5</th><th>qp1000.L6</th></tr>
+<tr><td>ma100244_rel_withdbg.cz11a_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma100339_rel_withdbg.cz11a_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma100434_rel_withdbg.cz11a_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma100526_rel_withdbg.cz11a_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma100527_rel_withdbg.cz11a_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma100619_rel_withdbg.cz11a_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma100619_rel_withdbg.cz11a_lwas4k_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma100620_rel_withdbg.cz11a_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>998</td><td>999</td></tr>
+<tr><td>ma100620_rel_withdbg.cz11a_lwas4k_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma101109_rel_withdbg.cz11a_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma101109_rel_withdbg.cz11a_lwas4k_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma101110_rel_withdbg.cz11a_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma101110_rel_withdbg.cz11a_lwas4k_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma110403_rel_withdbg.cz11b_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma110403_rel_withdbg.cz11b_lwas4k_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma110404_rel_withdbg.cz11b_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma110404_rel_withdbg.cz11b_lwas4k_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>998</td><td>999</td></tr>
+<tr><td>ma110502_rel_withdbg.cz11b_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma110502_rel_withdbg.cz11b_lwas4k_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma110601_rel_withdbg.cz11b_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma110601_rel_withdbg.cz11b_lwas4k_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma110602_rel_withdbg.cz11b_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma110602_rel_withdbg.cz11b_lwas4k_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma110700_rel_withdbg.cz11b_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma110700_rel_withdbg.cz11b_lwas4k_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma110701_rel_withdbg.cz11b_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>ma110701_rel_withdbg.cz11b_lwas4k_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>my5744_rel_o2nofp.cz11a_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>my8040_rel_o2nofp.cz11a_c8r32</td><td>100</td><td>100</td><td>499</td><td>499</td><td>999</td><td>999</td></tr>
+<tr><td>target</td><td id=cgray>100</td><td id=cgray>100</td><td id=cgray>500</td><td id=cgray>500</td><td id=cgray>1000</td><td id=cgray>1000</td>
+</tr>
+</table>

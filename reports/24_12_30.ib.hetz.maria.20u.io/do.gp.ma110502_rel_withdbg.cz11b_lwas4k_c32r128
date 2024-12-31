@@ -1,0 +1,451 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:203908]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i0.ips.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i0/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i0.ips.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i0/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:775414]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i0.imax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i0/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i0.imax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i0/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i0.dps.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i0/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i0.dps.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i0/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i0.dmax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i0/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i0.dmax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i0/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:1797]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i1.ips.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i1/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i1.ips.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i1/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:74641753]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i1.imax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i1/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i1.imax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i1/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i1"
+set yrange [0:1797]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i1.dps.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i1/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i1.dps.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i1/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i1"
+set yrange [0:74617748]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i1.dmax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i1/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i1.dmax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i1/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i2"
+set yrange [0:3020]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i2.ips.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i2/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i2.ips.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i2/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i2"
+set yrange [0:5005138]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i2.imax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i2/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i2.imax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i2/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i2"
+set yrange [0:3020]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i2.dps.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i2/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i2.dps.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i2/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i2"
+set yrange [0:5004835]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i2.dmax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i2/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i2.dmax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i2/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "QPS"
+set title "QPS vs Time for l.i2"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i2.qps.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i2/gpi.qps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i2.qps.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i2/gpi.qps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for l.i2"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i2.qmax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i2/gpi.qmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.l.i2.qmax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/l.i2/gpi.qmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "IPS"
+set title "IPS vs Time for qr100.L1"
+set yrange [0:120]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr100.L1.ips.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr100.L1/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr100.L1.ips.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr100.L1/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr100.L1"
+set yrange [0:91017]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr100.L1.imax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr100.L1/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr100.L1.imax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr100.L1/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for qr100.L1"
+set yrange [0:120]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr100.L1.dps.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr100.L1/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr100.L1.dps.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr100.L1/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr100.L1"
+set yrange [0:91447]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr100.L1.dmax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr100.L1/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr100.L1.dmax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr100.L1/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "QPS"
+set title "QPS vs Time for qr100.L1"
+set yrange [0:10591]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr100.L1.qps.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr100.L1/gpi.qps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr100.L1.qps.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr100.L1/gpi.qps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr100.L1"
+set yrange [0:37522]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr100.L1.qmax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr100.L1/gpi.qmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr100.L1.qmax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr100.L1/gpi.qmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "IPS"
+set title "IPS vs Time for qp100.L2"
+set yrange [0:120]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp100.L2.ips.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp100.L2/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp100.L2.ips.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp100.L2/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp100.L2"
+set yrange [0:506863]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp100.L2.imax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp100.L2/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp100.L2.imax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp100.L2/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for qp100.L2"
+set yrange [0:120]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp100.L2.dps.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp100.L2/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp100.L2.dps.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp100.L2/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp100.L2"
+set yrange [0:433891]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp100.L2.dmax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp100.L2/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp100.L2.dmax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp100.L2/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "QPS"
+set title "QPS vs Time for qp100.L2"
+set yrange [0:1208]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp100.L2.qps.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp100.L2/gpi.qps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp100.L2.qps.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp100.L2/gpi.qps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp100.L2"
+set yrange [0:330250]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp100.L2.qmax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp100.L2/gpi.qmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp100.L2.qmax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp100.L2/gpi.qmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "IPS"
+set title "IPS vs Time for qr500.L3"
+set yrange [0:1198]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr500.L3.ips.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr500.L3/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr500.L3.ips.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr500.L3/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr500.L3"
+set yrange [0:1160397]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr500.L3.imax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr500.L3/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr500.L3.imax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr500.L3/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for qr500.L3"
+set yrange [0:1198]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr500.L3.dps.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr500.L3/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr500.L3.dps.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr500.L3/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr500.L3"
+set yrange [0:1111495]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr500.L3.dmax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr500.L3/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr500.L3.dmax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr500.L3/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "QPS"
+set title "QPS vs Time for qr500.L3"
+set yrange [0:9554]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr500.L3.qps.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr500.L3/gpi.qps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr500.L3.qps.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr500.L3/gpi.qps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr500.L3"
+set yrange [0:444156]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr500.L3.qmax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr500.L3/gpi.qmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr500.L3.qmax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr500.L3/gpi.qmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "IPS"
+set title "IPS vs Time for qp500.L4"
+set yrange [0:718]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp500.L4.ips.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp500.L4/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp500.L4.ips.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp500.L4/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp500.L4"
+set yrange [0:936159]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp500.L4.imax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp500.L4/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp500.L4.imax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp500.L4/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for qp500.L4"
+set yrange [0:718]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp500.L4.dps.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp500.L4/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp500.L4.dps.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp500.L4/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp500.L4"
+set yrange [0:902862]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp500.L4.dmax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp500.L4/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp500.L4.dmax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp500.L4/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "QPS"
+set title "QPS vs Time for qp500.L4"
+set yrange [0:862]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp500.L4.qps.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp500.L4/gpi.qps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp500.L4.qps.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp500.L4/gpi.qps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp500.L4"
+set yrange [0:489195]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp500.L4.qmax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp500.L4/gpi.qmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp500.L4.qmax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp500.L4/gpi.qmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "IPS"
+set title "IPS vs Time for qr1000.L5"
+set yrange [0:1677]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr1000.L5.ips.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr1000.L5/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr1000.L5.ips.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr1000.L5/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr1000.L5"
+set yrange [0:785798]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr1000.L5.imax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr1000.L5/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr1000.L5.imax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr1000.L5/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for qr1000.L5"
+set yrange [0:1737]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr1000.L5.dps.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr1000.L5/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr1000.L5.dps.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr1000.L5/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr1000.L5"
+set yrange [0:763382]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr1000.L5.dmax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr1000.L5/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr1000.L5.dmax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr1000.L5/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "QPS"
+set title "QPS vs Time for qr1000.L5"
+set yrange [0:8938]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr1000.L5.qps.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr1000.L5/gpi.qps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr1000.L5.qps.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr1000.L5/gpi.qps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr1000.L5"
+set yrange [0:388627]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr1000.L5.qmax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr1000.L5/gpi.qmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qr1000.L5.qmax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qr1000.L5/gpi.qmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "IPS"
+set title "IPS vs Time for qp1000.L6"
+set yrange [0:1200]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp1000.L6.ips.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp1000.L6/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp1000.L6.ips.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp1000.L6/gpi.ips" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp1000.L6"
+set yrange [0:894814]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp1000.L6.imax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp1000.L6/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp1000.L6.imax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp1000.L6/gpi.imax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "DPS"
+set title "DPS vs Time for qp1000.L6"
+set yrange [0:1200]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp1000.L6.dps.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp1000.L6/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp1000.L6.dps.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp1000.L6/gpi.dps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp1000.L6"
+set yrange [0:885080]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp1000.L6.dmax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp1000.L6/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp1000.L6.dmax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp1000.L6/gpi.dmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "QPS"
+set title "QPS vs Time for qp1000.L6"
+set yrange [0:920]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp1000.L6.qps.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp1000.L6/gpi.qps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp1000.L6.qps.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp1000.L6/gpi.qps" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp1000.L6"
+set yrange [0:481335]
+set terminal dumb 200, 50
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp1000.L6.qmax.txt'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp1000.L6/gpi.qmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
+set terminal png
+set output 'ma110502_rel_withdbg.cz11b_lwas4k_c32r128.qp1000.L6.qmax.png'
+plot "4000m.ma110502_rel_withdbg.cz11b_lwas4k_c32r128/qp1000.L6/gpi.qmax" using 1:2 title "ma110502_rel_withdbg.cz11b_lwas4k_c32r128", 
