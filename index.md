@@ -9,6 +9,10 @@ Posts for 2020:
 Posts for 2023:
 * [Chasing down a CPU regression for MyRocks using flamegraphs](posts_2023/sep23.ibench.56builds.u.md)
 
+Benchmark reports for 2025
+* Insert Benchmark
+    * InnoDB 8.0.41 and doublewrite buffer options: [IO-bound](reports/25_05_01.20u.io.hetz.my8041.doublewrite/all.html)
+
 Benchmark reports for 2024
 * Insert Benchmark
   * Small server
