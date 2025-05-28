@@ -1,0 +1,6 @@
+<tr><td>pg18b1git_o2nofp.cx10cw2_c32r128</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr>
+<tr><td>pg18b1git_o2nofp.cx10cw4_c32r128</td> <td>1.03</td><td id="chi">1.06</td><td>0.98</td><td id="clo">0.84</td><td>0.99</td><td>0.98</td><td>0.98</td><td>1.00</td><td>1.01</td><td>0.99</td></tr>
+<tr><td>pg18b1git_o2nofp.cx10cw6_c32r128</td> <td>1.03</td><td>1.05</td><td>0.99</td><td>0.95</td><td>0.99</td><td>0.98</td><td>0.98</td><td>0.98</td><td>1.00</td><td>0.95</td></tr>
+<tr><td>pg18b1git_o2nofp.cx10cw8_c32r128</td> <td>1.02</td><td id="chi">1.07</td><td>0.99</td><td id="clo">0.90</td><td>0.99</td><td>0.97</td><td>0.98</td><td>0.97</td><td>0.99</td><td id="clo">0.93</td></tr>
+<tr><td>pg18b1git_o2nofp.cx10cw16_c32r128</td> <td>1.04</td><td id="chi">1.12</td><td>0.96</td><td id="clo">0.88</td><td>0.99</td><td id="clo">0.94</td><td>0.97</td><td id="clo">0.89</td><td>0.98</td><td id="clo">0.86</td></tr>
+<tr><td>pg18b1git_o2nofp.cx10cw32_c32r128</td> <td>1.00</td><td id="chi">1.11</td><td id="clo">0.94</td><td id="clo">0.88</td><td>0.99</td><td id="clo">0.90</td><td>0.97</td><td id="clo">0.81</td><td>0.97</td><td id="clo">0.76</td></tr>
