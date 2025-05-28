@@ -14,6 +14,7 @@ Benchmark reports for 2025
     * InnoDB 8.0.41 and doublewrite buffer options: [IO-bound](reports/25_05_01.20u.io.hetz.my8041.doublewrite/all.html)
     * Postgres 18 beta1
       * Small server (pn53, 8 cores, 32G RAM), cached: [14.0 through 18beta1](reports/25_05_26.pg.all.mem.pn53/all.html), [17.5 vs 18beta1](reports/25_05_26.pg.18b1.mem.pn53/all.html)
+      * Small server (pn53, 8 cores, 32G RAM), IO-bound: [14.0 through 18beta1](reports/25_05_28.pg.all.io.pn53/all.html), [17.5 vs 18beta1](reports/25_05_28.pg.18b1.io.pn53/all.html)
 
 Benchmark reports for 2024
 * Insert Benchmark
