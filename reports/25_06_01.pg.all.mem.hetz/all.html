@@ -32,7 +32,6 @@ The tested DBMS are:
 <ul>
 <li>pg174_o2nofp.cx10a_c32r128 - Postgres 17.4 with the cx10a_c32r128 config
 <li>pg18b1git_o2nofp.cx10b_c32r128 - Postgres 18 beta1 with the cx10b_c32r128 config
-<li>pg18b1git_o2nofp.cx10c_c32r128 - Postgres 18 beta1 with the cx10c_c32r128 config
 <li>pg18b1git_o2nofp.cx10cw2_c32r128 - Postgres 18 beta1 with the cx10cw2_c32r128 config
 <li>pg18b1git_o2nofp.cx10d_c32r128 - Postgres 18 beta1 with the cx10d_c32r128 config
 </ul>
@@ -130,7 +129,6 @@ Red backgrounds are not used when the minimum value is within 80&#37 of the max 
 <tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
 <tr><td>pg174_o2nofp.cx10a_c32r128</td> <td>1652892</td><td>2597404</td><td>389294</td><td id="cmax">104302</td><td id="cmax">395352</td><td id="cmax">127814</td><td id="cmax">380694</td><td id="cmax">126936</td><td id="cmax">375704</td><td id="cmax">125548</td></tr>
 <tr><td>pg18b1git_o2nofp.cx10b_c32r128</td> <td id="cmax">1709402</td><td>2666668</td><td id="cmax">401002</td><td>101266</td><td>386634</td><td id="cmax">122969</td><td>374216</td><td id="cmax">122137</td><td>370528</td><td id="cmax">120865</td></tr>
-<tr><td>pg18b1git_o2nofp.cx10c_c32r128</td> <td id="cmax">1709402</td><td>2739727</td><td id="cmax">400501</td><td>101781</td><td>389111</td><td id="cmax">124532</td><td>375987</td><td id="cmax">124012</td><td>372776</td><td id="cmax">122292</td></tr>
 <tr><td>pg18b1git_o2nofp.cx10cw2_c32r128</td> <td>1680672</td><td>2666668</td><td>395550</td><td id="cmax">104439</td><td>391631</td><td id="cmax">125804</td><td>376837</td><td id="cmax">124833</td><td id="cmax">376508</td><td id="cmax">123498</td></tr>
 <tr><td>pg18b1git_o2nofp.cx10d_c32r128</td> <td id="cmax">1724138</td><td id="cmax">2816903</td><td id="cmax">401002</td><td>102302</td><td>389751</td><td id="cmin">101388</td><td>378644</td><td id="cmin">101394</td><td>373151</td><td>102795</td></tr>
 </table>
@@ -154,7 +152,6 @@ Values less than 0.95 have a yellow background. Values greater than 1.05 have a 
 <tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
 <tr><td>pg174_o2nofp.cx10a_c32r128</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr>
 <tr><td>pg18b1git_o2nofp.cx10b_c32r128</td> <td>1.03</td><td>1.03</td><td>1.03</td><td>0.97</td><td>0.98</td><td>0.96</td><td>0.98</td><td>0.96</td><td>0.99</td><td>0.96</td></tr>
-<tr><td>pg18b1git_o2nofp.cx10c_c32r128</td> <td>1.03</td><td>1.05</td><td>1.03</td><td>0.98</td><td>0.98</td><td>0.97</td><td>0.99</td><td>0.98</td><td>0.99</td><td>0.97</td></tr>
 <tr><td>pg18b1git_o2nofp.cx10cw2_c32r128</td> <td>1.02</td><td>1.03</td><td>1.02</td><td>1.00</td><td>0.99</td><td>0.98</td><td>0.99</td><td>0.98</td><td>1.00</td><td>0.98</td></tr>
 <tr><td>pg18b1git_o2nofp.cx10d_c32r128</td> <td>1.04</td><td id="chi">1.08</td><td>1.03</td><td>0.98</td><td>0.99</td><td id="clo">0.79</td><td>0.99</td><td id="clo">0.80</td><td>0.99</td><td id="clo">0.82</td></tr>
 </table>
@@ -179,7 +176,6 @@ Cells that are not at least 95&#37; of the target have a red background to indic
 <tr><th>dbms</th><th>qr100.L1</th><th>qp100.L2</th><th>qr500.L3</th><th>qp500.L4</th><th>qr1000.L5</th><th>qp1000.L6</th></tr>
 <tr><td>pg174_o2nofp.cx10a_c32r128</td><td>1977</td><td>1977</td><td>9885</td><td>9885</td><td>19758</td><td>19769</td></tr>
 <tr><td>pg18b1git_o2nofp.cx10b_c32r128</td><td>1977</td><td>1977</td><td>9885</td><td>9879</td><td>19769</td><td>19769</td></tr>
-<tr><td>pg18b1git_o2nofp.cx10c_c32r128</td><td>1977</td><td>1976</td><td>9879</td><td>9885</td><td>19758</td><td>19769</td></tr>
 <tr><td>pg18b1git_o2nofp.cx10cw2_c32r128</td><td>1977</td><td>1977</td><td>9879</td><td>9885</td><td>19758</td><td>19769</td></tr>
 <tr><td>pg18b1git_o2nofp.cx10d_c32r128</td><td>1977</td><td>1977</td><td>9885</td><td>9885</td><td>19758</td><td>19769</td></tr>
 <tr><td>target</td><td id=cgray>2000</td><td id=cgray>2000</td><td id=cgray>10000</td><td id=cgray>10000</td><td id=cgray>20000</td><td id=cgray>20000</td>
@@ -223,7 +219,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td></td><td id="c18">92.362</td><td id="c2">7.590</td><td id="c0">0.030</td><td id="c0">0.001</td><td id="c0">0.007</td><td id="c0">0.010</td><td></td><td></td><td></td><td id="cmaxr">0.859</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td></td><td id="c19">94.290</td><td id="c1">5.650</td><td id="c0">0.033</td><td id="c0">0.011</td><td id="c0">0.008</td><td id="c0">0.008</td><td></td><td></td><td></td><td>0.702</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td></td><td id="c19">94.138</td><td id="c1">5.802</td><td id="c0">0.036</td><td id="c0">0.008</td><td id="c0">0.010</td><td id="c0">0.007</td><td></td><td></td><td></td><td>0.643</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td></td><td id="c19">94.137</td><td id="c1">5.802</td><td id="c0">0.032</td><td id="c0">0.013</td><td id="c0">0.007</td><td id="c0">0.009</td><td></td><td></td><td></td><td id="cmaxr">0.911</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td></td><td id="c19">93.770</td><td id="c1">6.159</td><td id="c0">0.038</td><td id="c0">0.015</td><td id="c0">0.011</td><td id="c0">0.006</td><td></td><td></td><td></td><td id="cminr">0.486</td></tr>
 </table>
@@ -234,7 +229,6 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 1652892	0	2	0.0	6632.7	705.8	0.000	0.000	0.004	0.437	269603	44.1	0.163	13	19.1	51.7	1.4	0.859	112017	22375	pg174_o2nofp.cx10a_c32r128
 1709402	0	3	0.0	6819.9	719.8	0.000	0.000	0.004	0.431	256346	45.4	0.150	13	19.1	51.7	0.4	0.702	115091	35361	pg18b1git_o2nofp.cx10b_c32r128
-1709402	0	1	0.0	6854.8	722.5	0.000	0.000	0.004	0.433	256196	45.6	0.150	13	19.1	51.7	1.4	0.643	114613	24773	pg18b1git_o2nofp.cx10c_c32r128
 1680672	0	4	0.0	6708.2	707.0	0.000	0.000	0.004	0.431	252469	43.9	0.150	13	19.1	51.7	1.4	0.911	114233	10093	pg18b1git_o2nofp.cx10cw2_c32r128
 1724138	0	3	0.0	6829.9	722.9	0.000	0.000	0.004	0.429	263952	45.8	0.153	13	19.1	51.7	0.4	0.486	113513	55559	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -251,7 +245,6 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 2597404	0	4	0.0	6599.1	769.3	0.000	0.000	0.003	0.303	41405	15.0	0.016	3	38.4	88.5	7.2	0.037	NA	NA	pg174_o2nofp.cx10a_c32r128
 2666668	0	4	0.0	6907.6	800.7	0.000	0.000	0.003	0.307	35110	15.0	0.013	3	38.4	88.5	7.2	0.043	NA	NA	pg18b1git_o2nofp.cx10b_c32r128
-2739727	0	0	0.0	7151.3	828.4	0.000	0.000	0.003	0.310	35382	15.6	0.013	3	38.4	88.5	6.4	0.047	NA	NA	pg18b1git_o2nofp.cx10c_c32r128
 2666668	0	4	0.0	6889.9	798.5	0.000	0.000	0.003	0.307	33934	14.8	0.013	3	38.4	88.5	7.2	0.031	NA	NA	pg18b1git_o2nofp.cx10cw2_c32r128
 2816903	0	4	0.0	7300.3	848.2	0.000	0.000	0.003	0.308	37787	15.6	0.013	3	38.4	88.5	7.0	0.036	NA	NA	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -293,7 +286,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td></td><td id="c0">1.868</td><td id="c18">90.131</td><td id="c1">7.445</td><td id="c0">0.548</td><td id="c0">0.006</td><td id="c0">0.002</td><td>nonzero</td><td></td><td></td><td id="cmaxr">1.020</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td></td><td id="c0">1.851</td><td id="c18">90.964</td><td id="c1">6.509</td><td id="c0">0.668</td><td id="c0">0.006</td><td id="c0">0.001</td><td></td><td></td><td></td><td id="cminr">0.568</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td></td><td id="c0">2.138</td><td id="c18">90.818</td><td id="c1">6.410</td><td id="c0">0.628</td><td id="c0">0.003</td><td id="c0">0.002</td><td></td><td></td><td></td><td>0.836</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td></td><td id="c0">2.208</td><td id="c18">90.925</td><td id="c1">6.212</td><td id="c0">0.649</td><td id="c0">0.005</td><td id="c0">0.002</td><td></td><td></td><td></td><td>0.744</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td></td><td id="c0">2.108</td><td id="c18">90.842</td><td id="c1">6.421</td><td id="c0">0.624</td><td id="c0">0.005</td><td>nonzero</td><td></td><td></td><td></td><td>0.885</td></tr>
 </table>
@@ -328,7 +320,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td></td><td id="c4">22.015</td><td id="c15">75.053</td><td id="c1">2.680</td><td id="c0">0.246</td><td id="c0">0.005</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td id="cmaxr">1.019</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td></td><td id="c4">21.378</td><td id="c15">75.804</td><td id="c0">2.446</td><td id="c0">0.367</td><td id="c0">0.005</td><td id="c0">0.001</td><td></td><td></td><td></td><td id="cminr">0.561</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td></td><td id="c4">21.440</td><td id="c15">75.628</td><td id="c1">2.585</td><td id="c0">0.343</td><td id="c0">0.002</td><td id="c0">0.001</td><td></td><td></td><td></td><td>0.835</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td></td><td id="c4">21.160</td><td id="c15">75.880</td><td id="c1">2.609</td><td id="c0">0.345</td><td id="c0">0.004</td><td id="c0">0.001</td><td></td><td></td><td></td><td>0.711</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td></td><td id="c4">21.334</td><td id="c15">75.743</td><td id="c1">2.599</td><td id="c0">0.321</td><td id="c0">0.003</td><td>nonzero</td><td></td><td></td><td></td><td id="cmaxr">0.910</td></tr>
 </table>
@@ -339,7 +330,6 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 389294	0	637	2.9	6376.2	606.6	0.002	0.008	0.016	1.596	253356	52.6	0.651	65	56.0	152.0	23.3	1.020	22562	3097	pg174_o2nofp.cx10a_c32r128
 401002	0	64	0.3	6580.3	626.4	0.000	0.001	0.016	1.599	247357	54.0	0.617	65	55.7	151.8	9.6	0.568	22974	3246	pg18b1git_o2nofp.cx10b_c32r128
-400501	0	78	0.4	6530.1	620.8	0.000	0.001	0.016	1.587	243533	54.0	0.608	65	56.0	152.0	17.5	0.836	23075	3299	pg18b1git_o2nofp.cx10c_c32r128
 395550	0	109	0.6	6460.0	612.8	0.000	0.001	0.016	1.586	238154	53.5	0.602	65	56.2	152.2	24.0	0.744	23175	3396	pg18b1git_o2nofp.cx10cw2_c32r128
 401002	0	83	0.4	6556.8	625.2	0.000	0.001	0.016	1.597	245868	54.3	0.613	65	55.6	151.7	49.7	0.885	22975	3248	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -381,7 +371,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td id="c18">90.290</td><td id="c2">9.387</td><td id="c0">0.314</td><td id="c0">0.010</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td>0.066</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td id="c18">90.195</td><td id="c2">9.492</td><td id="c0">0.298</td><td id="c0">0.014</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td>0.068</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td id="c18">90.250</td><td id="c2">9.442</td><td id="c0">0.285</td><td id="c0">0.024</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td>0.066</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td id="c18">89.653</td><td id="c2">10.014</td><td id="c0">0.311</td><td id="c0">0.021</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td>0.058</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td id="c18">89.616</td><td id="c2">10.024</td><td id="c0">0.334</td><td id="c0">0.026</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.072</td></tr>
 </table>
@@ -416,7 +405,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td id="c1">3.634</td><td id="c12">59.404</td><td id="c7">36.918</td><td id="c0">0.044</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.067</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td id="c1">2.999</td><td id="c12">59.893</td><td id="c7">37.051</td><td id="c0">0.056</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.068</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td id="c1">3.049</td><td id="c13">62.953</td><td id="c7">33.923</td><td id="c0">0.075</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.066</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td id="c1">3.092</td><td id="c12">60.534</td><td id="c7">36.308</td><td id="c0">0.065</td><td id="c0">0.001</td><td></td><td></td><td></td><td></td><td></td><td>0.059</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td id="c1">2.917</td><td id="c11">56.106</td><td id="c8">40.902</td><td id="c0">0.074</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.068</td></tr>
 </table>
@@ -427,7 +415,6 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 104302	0	2	0.0	1577.1	150.6	0.000	0.000	0.015	1.479	395579	54.1	3.793	249	56.2	152.3	39.4	0.066	4885	2073	pg174_o2nofp.cx10a_c32r128
 101266	0	2	0.0	1509.4	144.1	0.000	0.000	0.015	1.458	382770	52.9	3.780	251	55.9	152.0	30.8	0.068	4825	2273	pg18b1git_o2nofp.cx10b_c32r128
-101781	0	3	0.0	1554.7	148.7	0.000	0.000	0.015	1.496	384753	52.8	3.780	249	56.2	152.3	27.9	0.066	4860	2327	pg18b1git_o2nofp.cx10c_c32r128
 104439	0	0	0.0	1600.6	152.9	0.000	0.000	0.015	1.499	394047	54.2	3.773	249	56.3	152.4	19.8	0.058	4222	2707	pg18b1git_o2nofp.cx10cw2_c32r128
 102302	0	0	0.0	1531.2	146.7	0.000	0.000	0.015	1.469	387672	54.1	3.790	254	55.9	152.0	16.3	0.072	4795	3603	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -467,7 +454,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td id="c20">99.997</td><td id="c0">0.002</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.012</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td id="c20">99.996</td><td id="c0">0.002</td><td id="c0">0.002</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.008</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td id="c20">99.996</td><td id="c0">0.002</td><td id="c0">0.002</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.012</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td id="c20">99.997</td><td id="c0">0.002</td><td id="c0">0.002</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.009</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td id="c20">99.997</td><td id="c0">0.002</td><td id="c0">0.002</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.016</td></tr>
 </table>
@@ -502,7 +488,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td></td><td id="c0">0.004</td><td id="c20">99.724</td><td id="c0">0.272</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.009</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td></td><td id="c0">0.003</td><td id="c20">99.706</td><td id="c0">0.292</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.013</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td></td><td id="c0">0.007</td><td id="c20">99.657</td><td id="c0">0.336</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.009</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td></td><td id="c0">0.004</td><td id="c20">99.744</td><td id="c0">0.251</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.009</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td></td><td id="c0">0.010</td><td id="c20">99.719</td><td id="c0">0.271</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.015</td></tr>
 </table>
@@ -537,7 +522,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td></td><td id="c13">67.388</td><td id="c7">32.593</td><td id="c0">0.019</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.005</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td></td><td id="c13">64.167</td><td id="c7">35.807</td><td id="c0">0.026</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.009</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td></td><td id="c13">66.299</td><td id="c7">33.685</td><td id="c0">0.017</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.007</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td></td><td id="c13">65.692</td><td id="c7">34.278</td><td id="c0">0.031</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.009</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td></td><td id="c13">64.571</td><td id="c7">35.400</td><td id="c0">0.029</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.008</td></tr>
 </table>
@@ -548,7 +532,6 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 1977	395352	0	0.0	122.8	10.4	0.000	0.000	0.062	5.410	1503014	42.5	3.802	52	56.2	152.3	0.5	0.012	19921	18284	pg174_o2nofp.cx10a_c32r128
 1977	386634	0	0.0	126.7	10.5	0.000	0.000	0.064	5.423	1469681	42.5	3.801	53	55.9	152.0	0.5	0.008	19371	17756	pg18b1git_o2nofp.cx10b_c32r128
-1977	389111	1	0.0	128.7	10.5	0.000	0.000	0.065	5.426	1478783	42.5	3.800	52	56.2	152.3	0.4	0.012	19754	18084	pg18b1git_o2nofp.cx10c_c32r128
 1977	391631	0	0.0	128.7	10.4	0.000	0.000	0.065	5.402	1488753	42.5	3.801	52	56.3	152.4	0.5	0.009	19721	17869	pg18b1git_o2nofp.cx10cw2_c32r128
 1977	389751	1	0.0	123.1	10.5	0.000	0.000	0.062	5.419	1481576	42.5	3.801	52	55.9	151.9	0.5	0.016	19548	17981	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -588,7 +571,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td id="c20">99.701</td><td id="c0">0.232</td><td id="c0">0.067</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.010</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td id="c20">99.696</td><td id="c0">0.244</td><td id="c0">0.060</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.009</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td id="c20">99.701</td><td id="c0">0.238</td><td id="c0">0.060</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.009</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td id="c20">99.696</td><td id="c0">0.241</td><td id="c0">0.063</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.007</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td id="c20">99.898</td><td id="c0">0.084</td><td id="c0">0.018</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.008</td></tr>
 </table>
@@ -623,7 +605,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td></td><td></td><td id="c20">99.600</td><td id="c0">0.400</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.012</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td></td><td></td><td id="c20">99.597</td><td id="c0">0.403</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.009</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td></td><td></td><td id="c20">99.621</td><td id="c0">0.379</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.011</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td></td><td></td><td id="c20">99.658</td><td id="c0">0.342</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.008</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td></td><td></td><td id="c20">99.747</td><td id="c0">0.253</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.009</td></tr>
 </table>
@@ -658,7 +639,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td></td><td id="c1">6.093</td><td id="c19">93.806</td><td id="c0">0.101</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.009</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td></td><td id="c1">6.829</td><td id="c19">93.074</td><td id="c0">0.097</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.010</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td></td><td id="c3">13.467</td><td id="c17">86.429</td><td id="c0">0.104</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.010</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td></td><td id="c1">3.025</td><td id="c19">96.879</td><td id="c0">0.096</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.009</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td></td><td id="c1">3.411</td><td id="c19">96.524</td><td id="c0">0.065</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.010</td></tr>
 </table>
@@ -669,7 +649,6 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 1977	127814	0	0.0	347.0	17.9	0.000	0.000	0.176	9.259	512487	44.4	4.010	167	56.2	149.1	0.5	0.010	6475	6313	pg174_o2nofp.cx10a_c32r128
 1977	122969	0	0.0	345.2	17.8	0.000	0.000	0.175	9.224	495346	45.3	4.028	177	55.9	148.7	0.5	0.009	6265	6124	pg18b1git_o2nofp.cx10b_c32r128
-1976	124532	0	0.0	343.2	17.8	0.000	0.000	0.174	9.231	500538	45.3	4.019	175	56.2	149.2	0.4	0.009	6345	6217	pg18b1git_o2nofp.cx10c_c32r128
 1977	125804	0	0.0	349.8	17.9	0.000	0.000	0.177	9.257	505076	44.8	4.015	171	56.4	149.2	0.5	0.007	6425	6284	pg18b1git_o2nofp.cx10cw2_c32r128
 1977	101388	0	0.0	342.7	17.8	0.000	0.000	0.173	9.240	404930	38.3	3.994	181	55.9	148.7	0.5	0.008	5131	5003	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -709,7 +688,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td id="c20">99.987</td><td id="c0">0.006</td><td id="c0">0.007</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.076</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td id="c20">99.987</td><td id="c0">0.006</td><td id="c0">0.007</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.072</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td id="c20">99.987</td><td id="c0">0.006</td><td id="c0">0.007</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.068</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td id="c20">99.987</td><td id="c0">0.006</td><td id="c0">0.007</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td>0.058</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td id="c20">99.987</td><td id="c0">0.006</td><td id="c0">0.007</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.018</td></tr>
 </table>
@@ -744,7 +722,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td></td><td id="c2">7.587</td><td id="c18">91.469</td><td id="c0">0.920</td><td id="c0">0.024</td><td></td><td></td><td></td><td></td><td></td><td>0.029</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td></td><td id="c1">6.623</td><td id="c18">92.271</td><td id="c0">1.059</td><td id="c0">0.048</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.035</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td></td><td id="c1">6.811</td><td id="c18">92.206</td><td id="c0">0.941</td><td id="c0">0.042</td><td></td><td></td><td></td><td></td><td></td><td>0.029</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td></td><td id="c2">9.593</td><td id="c18">89.381</td><td id="c0">0.972</td><td id="c0">0.054</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.036</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td></td><td id="c1">6.182</td><td id="c19">92.909</td><td id="c0">0.867</td><td id="c0">0.042</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.034</td></tr>
 </table>
@@ -779,7 +756,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td></td><td id="c11">52.816</td><td id="c9">46.565</td><td id="c0">0.617</td><td id="c0">0.003</td><td></td><td></td><td></td><td></td><td></td><td>0.023</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td></td><td id="c10">48.671</td><td id="c10">50.592</td><td id="c0">0.713</td><td id="c0">0.024</td><td></td><td></td><td></td><td></td><td></td><td>0.022</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td></td><td id="c10">47.677</td><td id="c10">51.684</td><td id="c0">0.615</td><td id="c0">0.024</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.027</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td></td><td id="c10">49.910</td><td id="c10">49.430</td><td id="c0">0.634</td><td id="c0">0.025</td><td></td><td></td><td></td><td></td><td></td><td>0.024</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td></td><td id="c10">49.289</td><td id="c10">50.114</td><td id="c0">0.580</td><td id="c0">0.016</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.028</td></tr>
 </table>
@@ -790,7 +766,6 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 9885	380694	0	0.0	515.6	27.4	0.000	0.000	0.052	2.839	1441340	43.1	3.786	54	56.2	142.4	9.3	0.076	19234	17022	pg174_o2nofp.cx10a_c32r128
 9885	374216	0	0.0	515.9	27.9	0.000	0.000	0.052	2.888	1416677	43.2	3.786	55	56.0	142.1	6.0	0.072	19099	16565	pg18b1git_o2nofp.cx10b_c32r128
-9879	375987	0	0.0	513.2	27.9	0.000	0.000	0.052	2.890	1424072	43.3	3.788	55	56.3	142.5	9.9	0.068	19033	16974	pg18b1git_o2nofp.cx10c_c32r128
 9879	376837	0	0.0	522.3	27.9	0.000	0.000	0.053	2.892	1427671	43.2	3.789	55	56.4	142.5	17.6	0.058	19052	16894	pg18b1git_o2nofp.cx10cw2_c32r128
 9885	378644	0	0.0	510.0	27.4	0.000	0.000	0.052	2.836	1433199	43.2	3.785	55	56.0	142.1	1.4	0.018	19339	17005	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -830,7 +805,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td id="c20">99.630</td><td id="c0">0.279</td><td id="c0">0.090</td><td id="c0">0.001</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.071</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td id="c20">99.614</td><td id="c0">0.300</td><td id="c0">0.086</td><td id="c0">0.001</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.078</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td id="c20">99.627</td><td id="c0">0.289</td><td id="c0">0.083</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.017</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td id="c20">99.619</td><td id="c0">0.293</td><td id="c0">0.087</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.016</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td id="c20">99.841</td><td id="c0">0.122</td><td id="c0">0.037</td><td id="c0">0.001</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.018</td></tr>
 </table>
@@ -865,7 +839,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td></td><td id="c1">2.566</td><td id="c19">96.621</td><td id="c0">0.801</td><td id="c0">0.011</td><td></td><td></td><td></td><td></td><td></td><td>0.038</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td></td><td id="c0">2.237</td><td id="c19">96.998</td><td id="c0">0.754</td><td id="c0">0.011</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.054</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td></td><td id="c1">6.619</td><td id="c19">92.786</td><td id="c0">0.565</td><td id="c0">0.031</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.035</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td></td><td id="c0">1.498</td><td id="c20">97.781</td><td id="c0">0.702</td><td id="c0">0.019</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.032</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td></td><td id="c0">1.415</td><td id="c20">97.758</td><td id="c0">0.805</td><td id="c0">0.022</td><td></td><td></td><td></td><td></td><td></td><td>0.041</td></tr>
 </table>
@@ -900,7 +873,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td></td><td id="c9">42.622</td><td id="c11">56.830</td><td id="c0">0.538</td><td id="c0">0.009</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.034</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td></td><td id="c9">44.728</td><td id="c11">54.731</td><td id="c0">0.527</td><td id="c0">0.014</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.022</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td></td><td id="c9">47.264</td><td id="c10">52.324</td><td id="c0">0.389</td><td id="c0">0.022</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.034</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td></td><td id="c8">42.373</td><td id="c11">57.021</td><td id="c0">0.591</td><td id="c0">0.016</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.038</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td></td><td id="c8">42.200</td><td id="c11">57.199</td><td id="c0">0.577</td><td id="c0">0.024</td><td></td><td></td><td></td><td></td><td></td><td>0.032</td></tr>
 </table>
@@ -911,7 +883,6 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 9885	126936	0	0.0	350.0	29.2	0.000	0.000	0.035	3.021	509658	45.4	4.015	172	56.2	138.3	14.9	0.071	6441	6249	pg174_o2nofp.cx10a_c32r128
 9879	122137	1	0.0	345.4	27.3	0.000	0.000	0.035	2.833	492990	45.7	4.036	180	56.1	138.1	1.9	0.078	6217	6033	pg18b1git_o2nofp.cx10b_c32r128
-9885	124012	0	0.0	346.8	27.6	0.000	0.000	0.035	2.864	499452	45.8	4.027	177	56.3	138.5	1.5	0.017	6297	6105	pg18b1git_o2nofp.cx10c_c32r128
 9885	124833	0	0.0	355.8	27.8	0.000	0.000	0.036	2.881	502132	45.6	4.022	175	56.5	138.5	15.4	0.016	6361	6185	pg18b1git_o2nofp.cx10cw2_c32r128
 9885	101394	0	0.0	344.0	27.6	0.000	0.000	0.035	2.862	406526	39.2	4.009	186	56.0	138.0	2.8	0.018	5131	4939	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -951,7 +922,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td id="c20">99.977</td><td id="c0">0.011</td><td id="c0">0.011</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td>0.091</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td id="c20">99.976</td><td id="c0">0.012</td><td id="c0">0.011</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.099</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td id="c20">99.977</td><td id="c0">0.012</td><td id="c0">0.011</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.102</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td id="c20">99.976</td><td id="c0">0.013</td><td id="c0">0.011</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td>0.086</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td id="c20">99.976</td><td id="c0">0.012</td><td id="c0">0.011</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.099</td></tr>
 </table>
@@ -986,7 +956,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td></td><td id="c5">23.917</td><td id="c15">75.466</td><td id="c0">0.604</td><td id="c0">0.014</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.042</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td></td><td id="c5">23.332</td><td id="c15">76.115</td><td id="c0">0.520</td><td id="c0">0.034</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.052</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td></td><td id="c5">26.703</td><td id="c15">72.774</td><td id="c0">0.489</td><td id="c0">0.034</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.041</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td></td><td id="c6">30.402</td><td id="c14">68.989</td><td id="c0">0.587</td><td id="c0">0.022</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.039</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td></td><td id="c5">23.850</td><td id="c15">75.630</td><td id="c0">0.478</td><td id="c0">0.042</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.051</td></tr>
 </table>
@@ -1021,7 +990,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td></td><td id="c11">53.522</td><td id="c9">46.112</td><td id="c0">0.359</td><td id="c0">0.006</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.042</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td></td><td id="c10">51.889</td><td id="c10">47.667</td><td id="c0">0.426</td><td id="c0">0.018</td><td></td><td></td><td></td><td></td><td></td><td>0.037</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td></td><td id="c11">54.666</td><td id="c9">44.891</td><td id="c0">0.430</td><td id="c0">0.013</td><td></td><td></td><td></td><td></td><td></td><td>0.035</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td></td><td id="c11">56.181</td><td id="c9">43.329</td><td id="c0">0.478</td><td id="c0">0.011</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.030</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td></td><td id="c10">48.966</td><td id="c10">50.574</td><td id="c0">0.439</td><td id="c0">0.021</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.033</td></tr>
 </table>
@@ -1032,7 +1000,6 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 19758	375704	0	0.0	401.2	33.4	0.000	0.000	0.020	1.733	1417844	44.1	3.774	56	56.3	134.7	33.4	0.091	19083	16670	pg174_o2nofp.cx10a_c32r128
 19769	370528	0	0.0	413.1	35.3	0.000	0.000	0.021	1.827	1398748	44.2	3.775	57	56.0	134.5	9.2	0.099	18812	16474	pg18b1git_o2nofp.cx10b_c32r128
-19758	372776	0	0.0	407.6	34.9	0.000	0.000	0.021	1.807	1408171	44.3	3.778	57	56.0	134.6	3.3	0.102	18859	16531	pg18b1git_o2nofp.cx10c_c32r128
 19758	376508	0	0.0	416.9	34.9	0.000	0.000	0.021	1.810	1421640	44.2	3.776	56	56.6	135.1	3.1	0.086	19163	16996	pg18b1git_o2nofp.cx10cw2_c32r128
 19758	373151	0	0.0	404.7	35.3	0.000	0.000	0.020	1.829	1408300	44.2	3.774	57	56.1	134.5	4.4	0.099	19019	16494	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1072,7 +1039,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td id="c20">99.504</td><td id="c0">0.370</td><td id="c0">0.124</td><td id="c0">0.002</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td>0.086</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td id="c20">99.477</td><td id="c0">0.402</td><td id="c0">0.119</td><td id="c0">0.002</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.094</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td id="c20">99.488</td><td id="c0">0.391</td><td id="c0">0.119</td><td id="c0">0.002</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.095</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td id="c20">99.494</td><td id="c0">0.383</td><td id="c0">0.120</td><td id="c0">0.002</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.097</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td id="c20">99.734</td><td id="c0">0.200</td><td id="c0">0.064</td><td id="c0">0.002</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td>0.083</td></tr>
 </table>
@@ -1107,7 +1073,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td></td><td id="c2">9.332</td><td id="c18">89.626</td><td id="c0">0.990</td><td id="c0">0.052</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.050</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td></td><td id="c2">9.046</td><td id="c18">89.992</td><td id="c0">0.887</td><td id="c0">0.074</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.081</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td></td><td id="c3">15.283</td><td id="c17">83.663</td><td id="c0">1.010</td><td id="c0">0.044</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.052</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td></td><td id="c2">8.065</td><td id="c18">90.992</td><td id="c0">0.895</td><td id="c0">0.048</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.044</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td></td><td id="c2">8.378</td><td id="c18">90.797</td><td id="c0">0.803</td><td id="c0">0.021</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.043</td></tr>
 </table>
@@ -1142,7 +1107,6 @@ table td#cminr { background-color:#81FFA6 }
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg174_o2nofp.cx10a_c32r128</td><td></td><td id="c11">53.062</td><td id="c9">46.147</td><td id="c0">0.765</td><td id="c0">0.026</td><td></td><td></td><td></td><td></td><td></td><td>0.041</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10b_c32r128</td><td></td><td id="c11">52.753</td><td id="c9">46.126</td><td id="c0">1.033</td><td id="c0">0.088</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.081</td></tr>
-<tr><td id="c0">pg18b1git_o2nofp.cx10c_c32r128</td><td></td><td id="c11">53.779</td><td id="c9">45.216</td><td id="c0">0.969</td><td id="c0">0.037</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.031</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10cw2_c32r128</td><td></td><td id="c11">53.516</td><td id="c9">45.249</td><td id="c0">1.185</td><td id="c0">0.049</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.034</td></tr>
 <tr><td id="c0">pg18b1git_o2nofp.cx10d_c32r128</td><td></td><td id="c10">51.127</td><td id="c10">47.914</td><td id="c0">0.938</td><td id="c0">0.021</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.026</td></tr>
 </table>
@@ -1153,7 +1117,6 @@ Performance metrics for the DBMS listed above. Some are normalized by throughput
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 19769	125548	0	0.0	415.9	35.8	0.000	0.000	0.021	1.856	505877	46.1	4.029	176	56.0	133.3	11.4	0.086	6379	6121	pg174_o2nofp.cx10a_c32r128
 19769	120865	13	0.3	405.8	35.0	0.000	0.003	0.021	1.811	489781	46.5	4.052	185	55.8	133.0	7.9	0.094	6137	5866	pg18b1git_o2nofp.cx10b_c32r128
-19769	122292	1	0.0	401.9	35.0	0.000	0.000	0.020	1.811	495300	46.5	4.050	183	55.8	133.1	8.2	0.095	6233	5913	pg18b1git_o2nofp.cx10c_c32r128
 19769	123498	0	0.0	411.1	35.1	0.000	0.000	0.021	1.818	498096	46.2	4.033	180	56.0	133.3	12.3	0.097	6297	6009	pg18b1git_o2nofp.cx10cw2_c32r128
 19769	102795	0	0.0	402.2	35.0	0.000	0.000	0.020	1.811	414649	41.1	4.034	192	55.9	133.1	18.6	0.083	5210	5019	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1167,7 +1130,6 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 1652892	0	2	0.0	6632.7	705.8	0.000	0.000	0.004	0.437	269603	44.1	0.163	13	19.1	51.7	1.4	0.859	112017	22375	pg174_o2nofp.cx10a_c32r128
 1709402	0	3	0.0	6819.9	719.8	0.000	0.000	0.004	0.431	256346	45.4	0.150	13	19.1	51.7	0.4	0.702	115091	35361	pg18b1git_o2nofp.cx10b_c32r128
-1709402	0	1	0.0	6854.8	722.5	0.000	0.000	0.004	0.433	256196	45.6	0.150	13	19.1	51.7	1.4	0.643	114613	24773	pg18b1git_o2nofp.cx10c_c32r128
 1680672	0	4	0.0	6708.2	707.0	0.000	0.000	0.004	0.431	252469	43.9	0.150	13	19.1	51.7	1.4	0.911	114233	10093	pg18b1git_o2nofp.cx10cw2_c32r128
 1724138	0	3	0.0	6829.9	722.9	0.000	0.000	0.004	0.429	263952	45.8	0.153	13	19.1	51.7	0.4	0.486	113513	55559	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1181,7 +1143,6 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 2597404	0	4	0.0	6599.1	769.3	0.000	0.000	0.003	0.303	41405	15.0	0.016	3	38.4	88.5	7.2	0.037	NA	NA	pg174_o2nofp.cx10a_c32r128
 2666668	0	4	0.0	6907.6	800.7	0.000	0.000	0.003	0.307	35110	15.0	0.013	3	38.4	88.5	7.2	0.043	NA	NA	pg18b1git_o2nofp.cx10b_c32r128
-2739727	0	0	0.0	7151.3	828.4	0.000	0.000	0.003	0.310	35382	15.6	0.013	3	38.4	88.5	6.4	0.047	NA	NA	pg18b1git_o2nofp.cx10c_c32r128
 2666668	0	4	0.0	6889.9	798.5	0.000	0.000	0.003	0.307	33934	14.8	0.013	3	38.4	88.5	7.2	0.031	NA	NA	pg18b1git_o2nofp.cx10cw2_c32r128
 2816903	0	4	0.0	7300.3	848.2	0.000	0.000	0.003	0.308	37787	15.6	0.013	3	38.4	88.5	7.0	0.036	NA	NA	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1195,7 +1156,6 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 389294	0	637	2.9	6376.2	606.6	0.002	0.008	0.016	1.596	253356	52.6	0.651	65	56.0	152.0	23.3	1.020	22562	3097	pg174_o2nofp.cx10a_c32r128
 401002	0	64	0.3	6580.3	626.4	0.000	0.001	0.016	1.599	247357	54.0	0.617	65	55.7	151.8	9.6	0.568	22974	3246	pg18b1git_o2nofp.cx10b_c32r128
-400501	0	78	0.4	6530.1	620.8	0.000	0.001	0.016	1.587	243533	54.0	0.608	65	56.0	152.0	17.5	0.836	23075	3299	pg18b1git_o2nofp.cx10c_c32r128
 395550	0	109	0.6	6460.0	612.8	0.000	0.001	0.016	1.586	238154	53.5	0.602	65	56.2	152.2	24.0	0.744	23175	3396	pg18b1git_o2nofp.cx10cw2_c32r128
 401002	0	83	0.4	6556.8	625.2	0.000	0.001	0.016	1.597	245868	54.3	0.613	65	55.6	151.7	49.7	0.885	22975	3248	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1209,7 +1169,6 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 104302	0	2	0.0	1577.1	150.6	0.000	0.000	0.015	1.479	395579	54.1	3.793	249	56.2	152.3	39.4	0.066	4885	2073	pg174_o2nofp.cx10a_c32r128
 101266	0	2	0.0	1509.4	144.1	0.000	0.000	0.015	1.458	382770	52.9	3.780	251	55.9	152.0	30.8	0.068	4825	2273	pg18b1git_o2nofp.cx10b_c32r128
-101781	0	3	0.0	1554.7	148.7	0.000	0.000	0.015	1.496	384753	52.8	3.780	249	56.2	152.3	27.9	0.066	4860	2327	pg18b1git_o2nofp.cx10c_c32r128
 104439	0	0	0.0	1600.6	152.9	0.000	0.000	0.015	1.499	394047	54.2	3.773	249	56.3	152.4	19.8	0.058	4222	2707	pg18b1git_o2nofp.cx10cw2_c32r128
 102302	0	0	0.0	1531.2	146.7	0.000	0.000	0.015	1.469	387672	54.1	3.790	254	55.9	152.0	16.3	0.072	4795	3603	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1223,7 +1182,6 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 1977	395352	0	0.0	122.8	10.4	0.000	0.000	0.062	5.410	1503014	42.5	3.802	52	56.2	152.3	0.5	0.012	19921	18284	pg174_o2nofp.cx10a_c32r128
 1977	386634	0	0.0	126.7	10.5	0.000	0.000	0.064	5.423	1469681	42.5	3.801	53	55.9	152.0	0.5	0.008	19371	17756	pg18b1git_o2nofp.cx10b_c32r128
-1977	389111	1	0.0	128.7	10.5	0.000	0.000	0.065	5.426	1478783	42.5	3.800	52	56.2	152.3	0.4	0.012	19754	18084	pg18b1git_o2nofp.cx10c_c32r128
 1977	391631	0	0.0	128.7	10.4	0.000	0.000	0.065	5.402	1488753	42.5	3.801	52	56.3	152.4	0.5	0.009	19721	17869	pg18b1git_o2nofp.cx10cw2_c32r128
 1977	389751	1	0.0	123.1	10.5	0.000	0.000	0.062	5.419	1481576	42.5	3.801	52	55.9	151.9	0.5	0.016	19548	17981	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1237,7 +1195,6 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 1977	127814	0	0.0	347.0	17.9	0.000	0.000	0.176	9.259	512487	44.4	4.010	167	56.2	149.1	0.5	0.010	6475	6313	pg174_o2nofp.cx10a_c32r128
 1977	122969	0	0.0	345.2	17.8	0.000	0.000	0.175	9.224	495346	45.3	4.028	177	55.9	148.7	0.5	0.009	6265	6124	pg18b1git_o2nofp.cx10b_c32r128
-1976	124532	0	0.0	343.2	17.8	0.000	0.000	0.174	9.231	500538	45.3	4.019	175	56.2	149.2	0.4	0.009	6345	6217	pg18b1git_o2nofp.cx10c_c32r128
 1977	125804	0	0.0	349.8	17.9	0.000	0.000	0.177	9.257	505076	44.8	4.015	171	56.4	149.2	0.5	0.007	6425	6284	pg18b1git_o2nofp.cx10cw2_c32r128
 1977	101388	0	0.0	342.7	17.8	0.000	0.000	0.173	9.240	404930	38.3	3.994	181	55.9	148.7	0.5	0.008	5131	5003	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1251,7 +1208,6 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 9885	380694	0	0.0	515.6	27.4	0.000	0.000	0.052	2.839	1441340	43.1	3.786	54	56.2	142.4	9.3	0.076	19234	17022	pg174_o2nofp.cx10a_c32r128
 9885	374216	0	0.0	515.9	27.9	0.000	0.000	0.052	2.888	1416677	43.2	3.786	55	56.0	142.1	6.0	0.072	19099	16565	pg18b1git_o2nofp.cx10b_c32r128
-9879	375987	0	0.0	513.2	27.9	0.000	0.000	0.052	2.890	1424072	43.3	3.788	55	56.3	142.5	9.9	0.068	19033	16974	pg18b1git_o2nofp.cx10c_c32r128
 9879	376837	0	0.0	522.3	27.9	0.000	0.000	0.053	2.892	1427671	43.2	3.789	55	56.4	142.5	17.6	0.058	19052	16894	pg18b1git_o2nofp.cx10cw2_c32r128
 9885	378644	0	0.0	510.0	27.4	0.000	0.000	0.052	2.836	1433199	43.2	3.785	55	56.0	142.1	1.4	0.018	19339	17005	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1265,7 +1221,6 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 9885	126936	0	0.0	350.0	29.2	0.000	0.000	0.035	3.021	509658	45.4	4.015	172	56.2	138.3	14.9	0.071	6441	6249	pg174_o2nofp.cx10a_c32r128
 9879	122137	1	0.0	345.4	27.3	0.000	0.000	0.035	2.833	492990	45.7	4.036	180	56.1	138.1	1.9	0.078	6217	6033	pg18b1git_o2nofp.cx10b_c32r128
-9885	124012	0	0.0	346.8	27.6	0.000	0.000	0.035	2.864	499452	45.8	4.027	177	56.3	138.5	1.5	0.017	6297	6105	pg18b1git_o2nofp.cx10c_c32r128
 9885	124833	0	0.0	355.8	27.8	0.000	0.000	0.036	2.881	502132	45.6	4.022	175	56.5	138.5	15.4	0.016	6361	6185	pg18b1git_o2nofp.cx10cw2_c32r128
 9885	101394	0	0.0	344.0	27.6	0.000	0.000	0.035	2.862	406526	39.2	4.009	186	56.0	138.0	2.8	0.018	5131	4939	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1279,7 +1234,6 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 19758	375704	0	0.0	401.2	33.4	0.000	0.000	0.020	1.733	1417844	44.1	3.774	56	56.3	134.7	33.4	0.091	19083	16670	pg174_o2nofp.cx10a_c32r128
 19769	370528	0	0.0	413.1	35.3	0.000	0.000	0.021	1.827	1398748	44.2	3.775	57	56.0	134.5	9.2	0.099	18812	16474	pg18b1git_o2nofp.cx10b_c32r128
-19758	372776	0	0.0	407.6	34.9	0.000	0.000	0.021	1.807	1408171	44.3	3.778	57	56.0	134.6	3.3	0.102	18859	16531	pg18b1git_o2nofp.cx10c_c32r128
 19758	376508	0	0.0	416.9	34.9	0.000	0.000	0.021	1.810	1421640	44.2	3.776	56	56.6	135.1	3.1	0.086	19163	16996	pg18b1git_o2nofp.cx10cw2_c32r128
 19758	373151	0	0.0	404.7	35.3	0.000	0.000	0.020	1.829	1408300	44.2	3.774	57	56.1	134.5	4.4	0.099	19019	16494	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1293,7 +1247,6 @@ Performance metrics for all DBMS, not just the ones listed above. Some are norma
 ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb2	rss	maxop	p50	p99	tag
 19769	125548	0	0.0	415.9	35.8	0.000	0.000	0.021	1.856	505877	46.1	4.029	176	56.0	133.3	11.4	0.086	6379	6121	pg174_o2nofp.cx10a_c32r128
 19769	120865	13	0.3	405.8	35.0	0.000	0.003	0.021	1.811	489781	46.5	4.052	185	55.8	133.0	7.9	0.094	6137	5866	pg18b1git_o2nofp.cx10b_c32r128
-19769	122292	1	0.0	401.9	35.0	0.000	0.000	0.020	1.811	495300	46.5	4.050	183	55.8	133.1	8.2	0.095	6233	5913	pg18b1git_o2nofp.cx10c_c32r128
 19769	123498	0	0.0	411.1	35.1	0.000	0.000	0.021	1.818	498096	46.2	4.033	180	56.0	133.3	12.3	0.097	6297	6009	pg18b1git_o2nofp.cx10cw2_c32r128
 19769	102795	0	0.0	402.2	35.0	0.000	0.000	0.020	1.811	414649	41.1	4.034	192	55.9	133.1	18.6	0.083	5210	5019	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1311,7 +1264,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	92.362	7.590	0.030	0.001	0.007	0.010	0.000	0.000	0.000	0.859	pg174_o2nofp.cx10a_c32r128
 0.000	94.290	5.650	0.033	0.011	0.008	0.008	0.000	0.000	0.000	0.702	pg18b1git_o2nofp.cx10b_c32r128
-0.000	94.138	5.802	0.036	0.008	0.010	0.007	0.000	0.000	0.000	0.643	pg18b1git_o2nofp.cx10c_c32r128
 0.000	94.137	5.802	0.032	0.013	0.007	0.009	0.000	0.000	0.000	0.911	pg18b1git_o2nofp.cx10cw2_c32r128
 0.000	93.770	6.159	0.038	0.015	0.011	0.006	0.000	0.000	0.000	0.486	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1339,7 +1291,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	1.868	90.131	7.445	0.548	0.006	0.002	nonzero	0.000	0.000	1.020	pg174_o2nofp.cx10a_c32r128
 0.000	1.851	90.964	6.509	0.668	0.006	0.001	0.000	0.000	0.000	0.568	pg18b1git_o2nofp.cx10b_c32r128
-0.000	2.138	90.818	6.410	0.628	0.003	0.002	0.000	0.000	0.000	0.836	pg18b1git_o2nofp.cx10c_c32r128
 0.000	2.208	90.925	6.212	0.649	0.005	0.002	0.000	0.000	0.000	0.744	pg18b1git_o2nofp.cx10cw2_c32r128
 0.000	2.108	90.842	6.421	0.624	0.005	nonzero	0.000	0.000	0.000	0.885	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1348,7 +1299,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	22.015	75.053	2.680	0.246	0.005	0.001	nonzero	0.000	0.000	1.019	pg174_o2nofp.cx10a_c32r128
 0.000	21.378	75.804	2.446	0.367	0.005	0.001	0.000	0.000	0.000	0.561	pg18b1git_o2nofp.cx10b_c32r128
-0.000	21.440	75.628	2.585	0.343	0.002	0.001	0.000	0.000	0.000	0.835	pg18b1git_o2nofp.cx10c_c32r128
 0.000	21.160	75.880	2.609	0.345	0.004	0.001	0.000	0.000	0.000	0.711	pg18b1git_o2nofp.cx10cw2_c32r128
 0.000	21.334	75.743	2.599	0.321	0.003	nonzero	0.000	0.000	0.000	0.910	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1366,7 +1316,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 90.290	9.387	0.314	0.010	nonzero	nonzero	0.000	0.000	0.000	0.000	0.066	pg174_o2nofp.cx10a_c32r128
 90.195	9.492	0.298	0.014	nonzero	nonzero	0.000	0.000	0.000	0.000	0.068	pg18b1git_o2nofp.cx10b_c32r128
-90.250	9.442	0.285	0.024	nonzero	nonzero	0.000	0.000	0.000	0.000	0.066	pg18b1git_o2nofp.cx10c_c32r128
 89.653	10.014	0.311	0.021	nonzero	0.000	0.000	0.000	0.000	0.000	0.058	pg18b1git_o2nofp.cx10cw2_c32r128
 89.616	10.024	0.334	0.026	nonzero	nonzero	0.000	0.000	0.000	0.000	0.072	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1375,7 +1324,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 3.634	59.404	36.918	0.044	0.001	nonzero	0.000	0.000	0.000	0.000	0.067	pg174_o2nofp.cx10a_c32r128
 2.999	59.893	37.051	0.056	nonzero	nonzero	0.000	0.000	0.000	0.000	0.068	pg18b1git_o2nofp.cx10b_c32r128
-3.049	62.953	33.923	0.075	nonzero	nonzero	0.000	0.000	0.000	0.000	0.066	pg18b1git_o2nofp.cx10c_c32r128
 3.092	60.534	36.308	0.065	0.001	0.000	0.000	0.000	0.000	0.000	0.059	pg18b1git_o2nofp.cx10cw2_c32r128
 2.917	56.106	40.902	0.074	0.001	nonzero	0.000	0.000	0.000	0.000	0.068	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1393,7 +1341,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 99.997	0.002	0.001	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.012	pg174_o2nofp.cx10a_c32r128
 99.996	0.002	0.002	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.008	pg18b1git_o2nofp.cx10b_c32r128
-99.996	0.002	0.002	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.012	pg18b1git_o2nofp.cx10c_c32r128
 99.997	0.002	0.002	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg18b1git_o2nofp.cx10cw2_c32r128
 99.997	0.002	0.002	nonzero	nonzero	0.000	0.000	0.000	0.000	0.000	0.016	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1402,7 +1349,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	0.004	99.724	0.272	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg174_o2nofp.cx10a_c32r128
 0.000	0.003	99.706	0.292	0.000	0.000	0.000	0.000	0.000	0.000	0.013	pg18b1git_o2nofp.cx10b_c32r128
-0.000	0.007	99.657	0.336	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg18b1git_o2nofp.cx10c_c32r128
 0.000	0.004	99.744	0.251	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg18b1git_o2nofp.cx10cw2_c32r128
 0.000	0.010	99.719	0.271	0.000	0.000	0.000	0.000	0.000	0.000	0.015	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1411,7 +1357,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	67.388	32.593	0.019	0.000	0.000	0.000	0.000	0.000	0.000	0.005	pg174_o2nofp.cx10a_c32r128
 0.000	64.167	35.807	0.026	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg18b1git_o2nofp.cx10b_c32r128
-0.000	66.299	33.685	0.017	0.000	0.000	0.000	0.000	0.000	0.000	0.007	pg18b1git_o2nofp.cx10c_c32r128
 0.000	65.692	34.278	0.031	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg18b1git_o2nofp.cx10cw2_c32r128
 0.000	64.571	35.400	0.029	0.000	0.000	0.000	0.000	0.000	0.000	0.008	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1429,7 +1374,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 99.701	0.232	0.067	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.010	pg174_o2nofp.cx10a_c32r128
 99.696	0.244	0.060	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg18b1git_o2nofp.cx10b_c32r128
-99.701	0.238	0.060	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg18b1git_o2nofp.cx10c_c32r128
 99.696	0.241	0.063	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.007	pg18b1git_o2nofp.cx10cw2_c32r128
 99.898	0.084	0.018	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.008	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1438,7 +1382,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	0.000	99.600	0.400	0.000	0.000	0.000	0.000	0.000	0.000	0.012	pg174_o2nofp.cx10a_c32r128
 0.000	0.000	99.597	0.403	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg18b1git_o2nofp.cx10b_c32r128
-0.000	0.000	99.621	0.379	0.000	0.000	0.000	0.000	0.000	0.000	0.011	pg18b1git_o2nofp.cx10c_c32r128
 0.000	0.000	99.658	0.342	0.000	0.000	0.000	0.000	0.000	0.000	0.008	pg18b1git_o2nofp.cx10cw2_c32r128
 0.000	0.000	99.747	0.253	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1447,7 +1390,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	6.093	93.806	0.101	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg174_o2nofp.cx10a_c32r128
 0.000	6.829	93.074	0.097	0.000	0.000	0.000	0.000	0.000	0.000	0.010	pg18b1git_o2nofp.cx10b_c32r128
-0.000	13.467	86.429	0.104	0.000	0.000	0.000	0.000	0.000	0.000	0.010	pg18b1git_o2nofp.cx10c_c32r128
 0.000	3.025	96.879	0.096	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg18b1git_o2nofp.cx10cw2_c32r128
 0.000	3.411	96.524	0.065	0.000	0.000	0.000	0.000	0.000	0.000	0.010	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1465,7 +1407,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 99.987	0.006	0.007	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.076	pg174_o2nofp.cx10a_c32r128
 99.987	0.006	0.007	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.072	pg18b1git_o2nofp.cx10b_c32r128
-99.987	0.006	0.007	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.068	pg18b1git_o2nofp.cx10c_c32r128
 99.987	0.006	0.007	nonzero	nonzero	0.000	0.000	0.000	0.000	0.000	0.058	pg18b1git_o2nofp.cx10cw2_c32r128
 99.987	0.006	0.007	nonzero	nonzero	0.000	0.000	0.000	0.000	0.000	0.018	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1474,7 +1415,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	7.587	91.469	0.920	0.024	0.000	0.000	0.000	0.000	0.000	0.029	pg174_o2nofp.cx10a_c32r128
 0.000	6.623	92.271	1.059	0.048	0.000	0.000	0.000	0.000	0.000	0.035	pg18b1git_o2nofp.cx10b_c32r128
-0.000	6.811	92.206	0.941	0.042	0.000	0.000	0.000	0.000	0.000	0.029	pg18b1git_o2nofp.cx10c_c32r128
 0.000	9.593	89.381	0.972	0.054	0.000	0.000	0.000	0.000	0.000	0.036	pg18b1git_o2nofp.cx10cw2_c32r128
 0.000	6.182	92.909	0.867	0.042	0.000	0.000	0.000	0.000	0.000	0.034	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1483,7 +1423,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	52.816	46.565	0.617	0.003	0.000	0.000	0.000	0.000	0.000	0.023	pg174_o2nofp.cx10a_c32r128
 0.000	48.671	50.592	0.713	0.024	0.000	0.000	0.000	0.000	0.000	0.022	pg18b1git_o2nofp.cx10b_c32r128
-0.000	47.677	51.684	0.615	0.024	0.000	0.000	0.000	0.000	0.000	0.027	pg18b1git_o2nofp.cx10c_c32r128
 0.000	49.910	49.430	0.634	0.025	0.000	0.000	0.000	0.000	0.000	0.024	pg18b1git_o2nofp.cx10cw2_c32r128
 0.000	49.289	50.114	0.580	0.016	0.000	0.000	0.000	0.000	0.000	0.028	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1501,7 +1440,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 99.630	0.279	0.090	0.001	nonzero	nonzero	0.000	0.000	0.000	0.000	0.071	pg174_o2nofp.cx10a_c32r128
 99.614	0.300	0.086	0.001	nonzero	nonzero	0.000	0.000	0.000	0.000	0.078	pg18b1git_o2nofp.cx10b_c32r128
-99.627	0.289	0.083	0.001	nonzero	0.000	0.000	0.000	0.000	0.000	0.017	pg18b1git_o2nofp.cx10c_c32r128
 99.619	0.293	0.087	0.001	nonzero	0.000	0.000	0.000	0.000	0.000	0.016	pg18b1git_o2nofp.cx10cw2_c32r128
 99.841	0.122	0.037	0.001	nonzero	0.000	0.000	0.000	0.000	0.000	0.018	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1510,7 +1448,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	2.566	96.621	0.801	0.011	0.000	0.000	0.000	0.000	0.000	0.038	pg174_o2nofp.cx10a_c32r128
 0.000	2.237	96.998	0.754	0.011	0.000	0.000	0.000	0.000	0.000	0.054	pg18b1git_o2nofp.cx10b_c32r128
-0.000	6.619	92.786	0.565	0.031	0.000	0.000	0.000	0.000	0.000	0.035	pg18b1git_o2nofp.cx10c_c32r128
 0.000	1.498	97.781	0.702	0.019	0.000	0.000	0.000	0.000	0.000	0.032	pg18b1git_o2nofp.cx10cw2_c32r128
 0.000	1.415	97.758	0.805	0.022	0.000	0.000	0.000	0.000	0.000	0.041	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1519,7 +1456,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	42.622	56.830	0.538	0.009	0.000	0.000	0.000	0.000	0.000	0.034	pg174_o2nofp.cx10a_c32r128
 0.000	44.728	54.731	0.527	0.014	0.000	0.000	0.000	0.000	0.000	0.022	pg18b1git_o2nofp.cx10b_c32r128
-0.000	47.264	52.324	0.389	0.022	0.000	0.000	0.000	0.000	0.000	0.034	pg18b1git_o2nofp.cx10c_c32r128
 0.000	42.373	57.021	0.591	0.016	0.000	0.000	0.000	0.000	0.000	0.038	pg18b1git_o2nofp.cx10cw2_c32r128
 0.000	42.200	57.199	0.577	0.024	0.000	0.000	0.000	0.000	0.000	0.032	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1537,7 +1473,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 99.977	0.011	0.011	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.091	pg174_o2nofp.cx10a_c32r128
 99.976	0.012	0.011	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.099	pg18b1git_o2nofp.cx10b_c32r128
-99.977	0.012	0.011	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.102	pg18b1git_o2nofp.cx10c_c32r128
 99.976	0.013	0.011	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.086	pg18b1git_o2nofp.cx10cw2_c32r128
 99.976	0.012	0.011	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.099	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1546,7 +1481,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	23.917	75.466	0.604	0.014	0.000	0.000	0.000	0.000	0.000	0.042	pg174_o2nofp.cx10a_c32r128
 0.000	23.332	76.115	0.520	0.034	0.000	0.000	0.000	0.000	0.000	0.052	pg18b1git_o2nofp.cx10b_c32r128
-0.000	26.703	72.774	0.489	0.034	0.000	0.000	0.000	0.000	0.000	0.041	pg18b1git_o2nofp.cx10c_c32r128
 0.000	30.402	68.989	0.587	0.022	0.000	0.000	0.000	0.000	0.000	0.039	pg18b1git_o2nofp.cx10cw2_c32r128
 0.000	23.850	75.630	0.478	0.042	0.000	0.000	0.000	0.000	0.000	0.051	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1555,7 +1489,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	53.522	46.112	0.359	0.006	0.000	0.000	0.000	0.000	0.000	0.042	pg174_o2nofp.cx10a_c32r128
 0.000	51.889	47.667	0.426	0.018	0.000	0.000	0.000	0.000	0.000	0.037	pg18b1git_o2nofp.cx10b_c32r128
-0.000	54.666	44.891	0.430	0.013	0.000	0.000	0.000	0.000	0.000	0.035	pg18b1git_o2nofp.cx10c_c32r128
 0.000	56.181	43.329	0.478	0.011	0.000	0.000	0.000	0.000	0.000	0.030	pg18b1git_o2nofp.cx10cw2_c32r128
 0.000	48.966	50.574	0.439	0.021	0.000	0.000	0.000	0.000	0.000	0.033	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1573,7 +1506,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 99.504	0.370	0.124	0.002	nonzero	nonzero	0.000	0.000	0.000	0.000	0.086	pg174_o2nofp.cx10a_c32r128
 99.477	0.402	0.119	0.002	nonzero	nonzero	0.000	0.000	0.000	0.000	0.094	pg18b1git_o2nofp.cx10b_c32r128
-99.488	0.391	0.119	0.002	nonzero	nonzero	0.000	0.000	0.000	0.000	0.095	pg18b1git_o2nofp.cx10c_c32r128
 99.494	0.383	0.120	0.002	nonzero	nonzero	0.000	0.000	0.000	0.000	0.097	pg18b1git_o2nofp.cx10cw2_c32r128
 99.734	0.200	0.064	0.002	nonzero	nonzero	0.000	0.000	0.000	0.000	0.083	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1582,7 +1514,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	9.332	89.626	0.990	0.052	0.000	0.000	0.000	0.000	0.000	0.050	pg174_o2nofp.cx10a_c32r128
 0.000	9.046	89.992	0.887	0.074	nonzero	0.000	0.000	0.000	0.000	0.081	pg18b1git_o2nofp.cx10b_c32r128
-0.000	15.283	83.663	1.010	0.044	0.000	0.000	0.000	0.000	0.000	0.052	pg18b1git_o2nofp.cx10c_c32r128
 0.000	8.065	90.992	0.895	0.048	0.000	0.000	0.000	0.000	0.000	0.044	pg18b1git_o2nofp.cx10cw2_c32r128
 0.000	8.378	90.797	0.803	0.021	0.000	0.000	0.000	0.000	0.000	0.043	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
@@ -1591,7 +1522,6 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 256us	1ms	4ms	16ms	64ms	256ms	1s	4s	16s	gt	max	tag
 0.000	53.062	46.147	0.765	0.026	0.000	0.000	0.000	0.000	0.000	0.041	pg174_o2nofp.cx10a_c32r128
 0.000	52.753	46.126	1.033	0.088	nonzero	0.000	0.000	0.000	0.000	0.081	pg18b1git_o2nofp.cx10b_c32r128
-0.000	53.779	45.216	0.969	0.037	0.000	0.000	0.000	0.000	0.000	0.031	pg18b1git_o2nofp.cx10c_c32r128
 0.000	53.516	45.249	1.185	0.049	0.000	0.000	0.000	0.000	0.000	0.034	pg18b1git_o2nofp.cx10cw2_c32r128
 0.000	51.127	47.914	0.938	0.021	0.000	0.000	0.000	0.000	0.000	0.026	pg18b1git_o2nofp.cx10d_c32r128
 </pre>
