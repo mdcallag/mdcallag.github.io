@@ -15,7 +15,9 @@ Benchmark reports for 2025
     * Postgres 18 beta1
       * Small server (pn53, 8 cores, 32G RAM), cached: [14.0 through 18beta1](reports/25_05_26.pg.all.mem.pn53/all.html), [17.5 vs 18beta1](reports/25_05_26.pg.18b1.mem.pn53/all.html)
       * Small server (pn53, 8 cores, 32G RAM), IO-bound: [14.0 through 18beta1](reports/25_05_28.pg.all.io.pn53/all.html), [17.5 vs 18beta1](reports/25_05_28.pg.18b1.io.pn53/all.html)
-      * Large server (48 cores, 128G RAM), IO-bound: [io_method=workers](reports/25_05_28.pg.18b1workers.io.hetz/all.html)
+      * Large server (48 cores, 128G RAM), IO-bound, bad configs: [io_method=workers](reports/25_05_28.pg.18b1workers.io.hetz/all.html)
+      * Large server (48 cores, 128G RAM): [cached](reports/25_06_01.pg.all.mem.hetz/all.html), [IO-bound, all](reports/25_06_01.pg.all.io.hetz/all.html), [IO-bound, 18beta1 configs](reports/25_06_01.pg.workers.io.hetz/all.html)
+
 
 Benchmark reports for 2024
 * Insert Benchmark
