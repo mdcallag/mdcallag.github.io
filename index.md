@@ -17,7 +17,7 @@ Benchmark reports for 2025
       * Small server (pn53, 8 cores, 32G RAM), IO-bound: [14.0 through 18beta1](reports/25_05_28.pg.all.io.pn53/all.html), [17.5 vs 18beta1](reports/25_05_28.pg.18b1.io.pn53/all.html)
       * May 28, Large server (48 cores, 128G RAM), IO-bound, bad configs: [io_method=workers](reports/25_05_28.pg.18b1workers.io.hetz/all.html)
       * Jun 1, Large server (48 cores, 128G RAM), with regression from slow connection create: [cached](reports/25_06_01.pg.all.mem.hetz/all.html), [IO-bound, all](reports/25_06_01.pg.all.io.hetz/all.html), [IO-bound, 18beta1 configs](reports/25_06_01.pg.workers.io.hetz/all.html)
-      * Jun 4, Large server (48 cores, 128G RAM), without regression from slow connection create: [cached](reports/25_06_04.pg.all.mem.hetz/all.html)
+      * Jun 4, Large server (48 cores, 128G RAM), without regression from slow connection create: [cached](reports/25_06_04.pg.all.mem.hetz/all.html), [IO-bound](reports/25_06_06.pg.all.io.hetz/all.html)
 
 Benchmark reports for 2024
 * Insert Benchmark
