@@ -1,0 +1,11 @@
+<tr><td>pg140_o2nofp.cx10a_c8r32</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr>
+<tr><td>pg1418_o2nofp.cx10a_c8r32</td> <td>0.97</td><td>1.01</td><td id="chi">1.08</td><td>1.02</td><td>1.00</td><td>1.00</td><td>0.98</td><td>0.99</td><td>1.00</td><td>0.99</td></tr>
+<tr><td>pg150_o2nofp.cx10a_c8r32</td> <td>1.02</td><td id="chi">1.08</td><td>0.99</td><td>0.96</td><td>1.01</td><td>1.00</td><td>1.00</td><td>1.00</td><td>0.99</td><td>0.97</td></tr>
+<tr><td>pg1513_o2nofp.cx10a_c8r32</td> <td>1.02</td><td id="chi">1.09</td><td>0.99</td><td id="clo">0.91</td><td>1.00</td><td>1.00</td><td>0.98</td><td>0.99</td><td>0.98</td><td>0.97</td></tr>
+<tr><td>pg160_o2nofp.cx10a_c8r32</td> <td>1.02</td><td id="chi">1.09</td><td>1.00</td><td>0.95</td><td>1.02</td><td>1.01</td><td>1.01</td><td>0.99</td><td>1.00</td><td>0.98</td></tr>
+<tr><td>pg169_o2nofp.cx10a_c8r32</td> <td>1.02</td><td id="chi">1.07</td><td>1.03</td><td id="clo">0.93</td><td>1.00</td><td>1.00</td><td>0.98</td><td>0.99</td><td>0.98</td><td>0.97</td></tr>
+<tr><td>pg170_o2nofp.cx10a_c8r32</td> <td>1.01</td><td id="chi">1.09</td><td>0.96</td><td id="clo">0.87</td><td>1.01</td><td>0.99</td><td>0.99</td><td>0.98</td><td>0.98</td><td>0.96</td></tr>
+<tr><td>pg175_o2nofp.cx10a_c8r32</td> <td>1.00</td><td id="chi">1.11</td><td id="clo">0.93</td><td id="clo">0.86</td><td>1.00</td><td>1.00</td><td>0.97</td><td>0.99</td><td>0.97</td><td>0.97</td></tr>
+<tr><td>pg18beta1_o2nofp.cx10b_c8r32</td> <td>0.99</td><td id="chi">1.12</td><td id="clo">0.94</td><td id="clo">0.82</td><td>0.99</td><td>0.98</td><td>0.98</td><td>0.98</td><td>0.95</td><td>0.96</td></tr>
+<tr><td>pg18beta1_o2nofp.cx10c_c8r32</td> <td>1.01</td><td id="chi">1.14</td><td id="clo">0.92</td><td id="clo">0.80</td><td>0.99</td><td>0.99</td><td>0.95</td><td>0.98</td><td>0.95</td><td>0.96</td></tr>
+<tr><td>pg18beta1_o2nofp.cx10d_c8r32</td> <td>1.00</td><td id="chi">1.13</td><td id="clo">0.94</td><td id="clo">0.81</td><td>0.99</td><td>0.99</td><td>0.97</td><td>0.99</td><td id="clo">0.94</td><td>0.96</td></tr>
