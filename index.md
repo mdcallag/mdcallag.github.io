@@ -20,6 +20,7 @@ Benchmark reports for 2025
       * Jun 4, Large server (48 cores, 128G RAM), without regression from slow connection create: [cached](reports/25_06_04.pg.all.mem.hetz/all.html), [IO-bound](reports/25_06_06.pg.all.io.hetz/all.html)
       * Jun 8, Small server (pn53, 8 cores, 32G RAM), CPU-bound: [14.0 through 18beta1](reports/25_06_08.pg.all.mem.pn53/all.html), [17.5 vs 18beta1](reports/25_06_08.pg.18b1.mem.pn53/all.html)
       * Jun 11, Small server (pn53, 8 cores, 32G RAM), IO-bound: [14.0 through 18beta1](reports/25_06_11.pg.all.io.pn53/all.html), [17.5 vs 18beta1](reports/25_06_11.pg.18b1.io.pn53/all.html)
+    * Postgres 18 beta2, July 27, large server (48 cores, 128G RAM): [cached, 1 client](reports/25_07_27.pg18b2.io.20u.200m.5m/all.html), [cached, 20 clients](reports/25_07_27.pg18b2.mem.1u.50m.20m/all.html), [IO-bound, 20 clients](reports/25_07_27.pg18b2.mem.20u.10m.20m/all.html)
 
 Benchmark reports for 2024
 * Insert Benchmark
