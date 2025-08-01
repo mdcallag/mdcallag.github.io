@@ -1,0 +1,22 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>pg174_o2nofp.cx10a_c32r128</td> <td id="cmax">160256</td><td>378789</td><td id="cmax">13704</td><td>1636</td><td id="cmax">20020</td><td id="cmax">9862</td><td id="cmax">18464</td><td>9800</td><td>18108</td><td>9762</td></tr>
+<tr><td>pg175_o2nofp.cx10a_c32r128</td> <td>158228</td><td>378789</td><td>13560</td><td>1611</td><td>19666</td><td id="cmax">9856</td><td>17955</td><td id="cmax">9849</td><td>17744</td><td id="cmax">9846</td></tr>
+<tr><td>pg18beta1_o2nofp.cx10b_c32r128</td> <td>156250</td><td>373135</td><td id="cmax">13735</td><td id="cmax">1791</td><td>19772</td><td>9782</td><td>18009</td><td>9668</td><td>18064</td><td id="cmax">9854</td></tr>
+<tr><td>pg18beta1_o2nofp.cx10cw4_c32r128</td> <td>158730</td><td id="cmax">381680</td><td>13619</td><td id="cmax">1798</td><td>19557</td><td>9739</td><td>18168</td><td id="cmax">9872</td><td>18033</td><td id="cmax">9842</td></tr>
+<tr><td>pg18beta1_o2nofp.cx10d_c32r128</td> <td>155763</td><td id="cmax">381680</td><td>13336</td><td id="cmax">1781</td><td>19655</td><td>9764</td><td>17943</td><td>9796</td><td>18048</td><td>9785</td></tr>
+<tr><td>pg18beta2_o2nofp.cx10b_c32r128</td> <td id="cmax">161290</td><td>378789</td><td id="cmax">13752</td><td id="cmax">1831</td><td>19699</td><td>9792</td><td>18204</td><td>9771</td><td id="cmax">18258</td><td id="cmax">9870</td></tr>
+<tr><td>pg18beta2_o2nofp.cx10cw4_c32r128</td> <td id="cmax">160772</td><td>378789</td><td>13587</td><td id="cmax">1784</td><td>19852</td><td>9804</td><td>18269</td><td>9725</td><td id="cmax">18163</td><td>9762</td></tr>
+<tr><td>pg18beta2_o2nofp.cx10d_c32r128</td> <td>158730</td><td>378789</td><td id="cmax">13736</td><td>1731</td><td>19751</td><td>9733</td><td>18257</td><td>9682</td><td id="cmax">18132</td><td>9669</td></tr>
+</table>
