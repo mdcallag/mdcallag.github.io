@@ -23,6 +23,7 @@ Benchmark reports for 2025
     * Postgres 18 beta2, July 27, large server (48 cores, 128G RAM): [cached, 1 client](reports/25_07_27.pg18b2.io.20u.200m.5m/all.html), [cached, 20 clients](reports/25_07_27.pg18b2.mem.1u.50m.20m/all.html), [IO-bound, 20 clients](reports/25_07_27.pg18b2.mem.20u.10m.20m/all.html)
     * Postgres 18 beta2, Aug 1, large server (48 cores, 128G RAM): [cached, 1 client, 200m writes](reports/25_08_01.pg18b2.mem.1u.50m.200m/all.html)
     * MySQL 5.6 thru 9.4, Insert Benchmark, small server: [cached, 1 client, 30M rows, 1 table](reports/25_08_25.ib.my.mem.1u.30m.50m/all.html)
+    * Small Server, Sep 15, insert benchmark, Postgres: [cached](reports/25_09_16.ib.pg.mem.1u.30m.50m/all.html), [IO-bound v1](reports/25_09_16.ib.pg.io1.1u.800m.5m/all.html), [IO-bound v2](reports/25_09_16.ib.pg.io2.1u.800m.5m/all.html)
 
 Benchmark reports for 2024
 * Insert Benchmark
