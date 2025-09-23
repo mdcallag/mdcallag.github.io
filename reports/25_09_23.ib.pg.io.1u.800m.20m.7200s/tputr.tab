@@ -1,0 +1,18 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>pg176_o2nofp.cx10a_c8r32</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr>
+<tr><td>pg18rc1_o2nofp.cx10b_c8r32</td> <td>0.97</td><td>1.01</td><td id="clo">0.90</td><td id="chi">2.85</td><td>0.99</td><td>0.99</td><td>0.99</td><td>1.03</td><td>1.01</td><td>0.98</td></tr>
+<tr><td>pg18rc1_o2nofp.cx10c_c8r32</td> <td>0.98</td><td id="chi">1.06</td><td id="clo">0.76</td><td id="chi">2.10</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.02</td><td>1.01</td><td>0.98</td></tr>
+<tr><td>pg18rc1_o2nofp.cx10d_c8r32</td> <td>0.98</td><td>1.02</td><td id="clo">0.70</td><td id="chi">1.95</td><td>1.00</td><td>0.99</td><td>1.01</td><td>0.98</td><td>1.01</td><td>0.99</td></tr>
+</table>
