@@ -26,7 +26,7 @@ Benchmark reports for 2025
     * Small Server, Sep 15, insert benchmark, Postgres: [cached](reports/25_09_16.ib.pg.mem.1u.30m.50m/all.html), [IO-bound v1](reports/25_09_16.ib.pg.io1.1u.800m.5m/all.html), [IO-bound v2](reports/25_09_16.ib.pg.io2.1u.800m.5m/all.html)
     * Small Server, Sep 23, insert benchmark, Postgres: [IO-bound](reports/25_09_23.ib.pg.io.1u.800m.20m.7200s/all.html)
     * Hetzner, MariaDB 10.6+: [IO-bound, MariaDB 10.6+](reports/oct25.hetz48.ib.maria106/all.html), [IO-bound, MariaDB, MySQL, Postgres](reports/25_10_16.ib.ma.my.pg.io.20u.200m.5m.3600s.hetz48/all.html)
-
+    * Small Server, October 25, alternative configurations: [cached](reports/25_10_20.ib.ma.mem.30m.50m.1800s.pn53.altconf/all.html), [IO-bound](reports/25_10_20.ib.ma.io.800m.5m.1800s.pn53.altconf/all.html)
 
 Benchmark reports for 2024
 * Insert Benchmark
