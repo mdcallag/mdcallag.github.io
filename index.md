@@ -27,6 +27,9 @@ Benchmark reports for 2025
     * Small Server, Sep 23, insert benchmark, Postgres: [IO-bound](reports/25_09_23.ib.pg.io.1u.800m.20m.7200s/all.html)
     * Hetzner, MariaDB 10.6+: [IO-bound, MariaDB 10.6+](reports/oct25.hetz48.ib.maria106/all.html), [IO-bound, MariaDB, MySQL, Postgres](reports/25_10_16.ib.ma.my.pg.io.20u.200m.5m.3600s.hetz48/all.html)
     * Small Server, October 25, alternative configurations: [cached](reports/25_10_20.ib.ma.mem.30m.50m.1800s.pn53.altconf/all.html), [IO-bound](reports/25_10_20.ib.ma.io.800m.5m.1800s.pn53.altconf/all.html)
+    * Small server, December 10:
+      * Postgres : [cached, all versions](reports/dec25.ib.pn53.pg.all.mem.30m.50m.1800s/all.html), [cached, latest versions](reports/dec25.ib.pn53.pg.latest.mem.30m.50m.1800s/all.html), [IO-bound, all versions](reports/dec25.ib.pn53.pg.all.io.800m.5m.1800s/all.html), [IO-bound, latest versions](reports/dec25.ib.pn53.pg.latest.io.800m.5m.1800s/all.html)
+      * MySQL : [cached, all versions](reports/dec25.ib.pn53.my.all.mem.30m.50m.1800s/all.html), [cached, latest versions](reports/dec25.ib.pn53.my.latest.mem.30m.50m.1800s/all.html), [IO-bound, all versions](reports/dec25.ib.pn53.my.all.io.800m.5m.1800s/all.html), [IO-bound, latest versions](reports/dec25.ib.pn53.my.latest.io.800m.5m.1800s/all.html)
 
 Benchmark reports for 2024
 * Insert Benchmark

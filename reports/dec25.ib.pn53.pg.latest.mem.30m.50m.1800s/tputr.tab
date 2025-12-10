@@ -1,0 +1,21 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>pg1222_o2nofp.cx10a_c8r32</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr>
+<tr><td>pg1323_o2nofp.cx10a_c8r32</td> <td>1.01</td><td>0.98</td><td>1.00</td><td>1.02</td><td>1.02</td><td>1.00</td><td>1.01</td><td>0.99</td><td>1.01</td><td>1.00</td></tr>
+<tr><td>pg1420_o2nofp.cx10a_c8r32</td> <td>0.98</td><td>0.95</td><td>0.98</td><td id="clo">0.92</td><td>1.01</td><td>0.99</td><td>1.00</td><td>0.98</td><td>1.00</td><td>0.99</td></tr>
+<tr><td>pg1515_o2nofp.cx10a_c8r32</td> <td>1.02</td><td id="chi">1.06</td><td>1.03</td><td>0.98</td><td>1.01</td><td>0.99</td><td>1.00</td><td>1.00</td><td>1.01</td><td>1.00</td></tr>
+<tr><td>pg1611_o2nofp.cx10a_c8r32</td> <td>1.02</td><td id="chi">1.09</td><td>1.01</td><td>1.02</td><td>1.01</td><td>1.00</td><td>1.02</td><td>1.00</td><td>1.01</td><td>1.00</td></tr>
+<tr><td>pg177_o2nofp.cx10a_c8r32</td> <td>1.00</td><td id="chi">1.11</td><td id="clo">0.92</td><td id="clo">0.84</td><td>1.03</td><td>0.99</td><td>1.00</td><td>0.99</td><td>1.01</td><td>0.99</td></tr>
+<tr><td>pg181_o2nofp.cx10b_c8r32</td> <td>1.00</td><td>1.05</td><td>1.00</td><td>0.95</td><td>1.00</td><td>0.98</td><td>0.98</td><td>0.98</td><td>0.98</td><td>0.99</td></tr>
+</table>

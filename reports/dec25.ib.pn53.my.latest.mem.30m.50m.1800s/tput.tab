@@ -1,0 +1,20 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>my5651_rel_o2nofp.cz12a_c8r32</td> <td id="cmax">185185</td><td id="cmin">145632</td><td>33473</td><td>23419</td><td id="cmax">13136</td><td id="cmax">11193</td><td id="cmax">13110</td><td id="cmax">11124</td><td id="cmax">13020</td><td id="cmax">11214</td></tr>
+<tr><td>my5744_rel_o2nofp.cz12a_c8r32</td> <td id="cmax">167598</td><td>222223</td><td id="cmax">38797</td><td id="cmax">25510</td><td>10838</td><td>9291</td><td>10885</td><td>9346</td><td>10864</td><td>9255</td></tr>
+<tr><td>my8044_rel_o2nofp.cz12a_c8r32</td> <td id="cmin">111940</td><td id="cmax">352942</td><td>35180</td><td id="cmin">20284</td><td id="cmin">9128</td><td id="cmin">6986</td><td id="cmin">9132</td><td id="cmin">6943</td><td id="cmin">9097</td><td id="cmin">6943</td></tr>
+<tr><td>my8407_rel_o2nofp.cz12a_c8r32</td> <td id="cmin">108696</td><td id="cmax">370372</td><td>34752</td><td id="cmin">20040</td><td id="cmin">8874</td><td id="cmin">6800</td><td id="cmin">8884</td><td id="cmin">6744</td><td id="cmin">8768</td><td id="cmin">6689</td></tr>
+<tr><td>my9400_rel_o2nofp.cz12a_c8r32</td> <td id="cmin">109890</td><td id="cmax">375001</td><td>34632</td><td id="cmin">20121</td><td id="cmin">9022</td><td id="cmin">6932</td><td id="cmin">9024</td><td id="cmin">6901</td><td id="cmin">9101</td><td id="cmin">6886</td></tr>
+<tr><td>my9500_rel_o2nofp.cz12a_c8r32</td> <td id="cmin">108696</td><td id="cmax">379748</td><td>35026</td><td id="cmin">19881</td><td id="cmin">9046</td><td id="cmin">6950</td><td id="cmin">8992</td><td id="cmin">6926</td><td id="cmin">8965</td><td id="cmin">6923</td></tr>
+</table>
