@@ -1,0 +1,16 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>ma101115_rel_withdbg.cz12a_c8r32</td> <td>156280</td><td>132604</td><td id="cmax">2478</td><td id="cmax">3067</td><td id="cmax">8978</td><td id="cmax">1382</td><td id="cmax">8701</td><td id="cmax">1206</td><td id="cmax">8395</td><td id="cmax">1078</td></tr>
+<tr><td>ma101115_rel_withdbg.cz12b_c8r32</td> <td id="cmax">160096</td><td id="cmax">134862</td><td id="cmin">1729</td><td id="cmin">2070</td><td>8931</td><td>1350</td><td>8475</td><td>1074</td><td>7930</td><td>882</td></tr>
+</table>
