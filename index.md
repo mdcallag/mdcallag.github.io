@@ -30,6 +30,7 @@ Benchmark reports for 2025
     * Small server, December 10:
       * Postgres : [cached, all versions](reports/dec25.ib.pn53.pg.all.mem.30m.50m.1800s/all.html), [cached, latest versions](reports/dec25.ib.pn53.pg.latest.mem.30m.50m.1800s/all.html), [IO-bound, all versions](reports/dec25.ib.pn53.pg.all.io.800m.5m.1800s/all.html), [IO-bound, latest versions](reports/dec25.ib.pn53.pg.latest.io.800m.5m.1800s/all.html)
       * MySQL : [cached, all versions](reports/dec25.ib.pn53.my.all.mem.30m.50m.1800s/all.html), [cached, latest versions](reports/dec25.ib.pn53.my.latest.mem.30m.50m.1800s/all.html), [IO-bound, all versions](reports/dec25.ib.pn53.my.all.io.800m.5m.1800s/all.html), [IO-bound, latest versions](reports/dec25.ib.pn53.my.latest.io.800m.5m.1800s/all.html)
+    * MariaDB, small server, Dec 17: [cached, latest versions](reports/dec25.ib.pn53.ma.latest.mem.30m.50m.1800s/all.html), [IO-bound, latest versions](reports/dec25.ib.pn53.ma.latest.io.800m.5m.1800s/all.html), [IO-bound, all versions](reports/dec25.ib.pn53.ma.all.io.800m.5m.1800s/all.html)
 
 Benchmark reports for 2024
 * Insert Benchmark

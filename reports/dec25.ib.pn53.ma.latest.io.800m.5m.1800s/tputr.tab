@@ -1,0 +1,25 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>ma100230_rel_withdbg.cz12a_c8r32</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr>
+<tr><td>ma100244_rel_withdbg.cz12a_c8r32</td> <td>1.01</td><td id="clo">0.94</td><td>1.00</td><td>0.98</td><td id="clo">0.84</td><td>0.96</td><td id="clo">0.84</td><td>0.95</td><td id="clo">0.85</td><td>1.01</td></tr>
+<tr><td>ma100339_rel_withdbg.cz12a_c8r32</td> <td id="clo">0.87</td><td id="clo">0.93</td><td>0.98</td><td>0.97</td><td id="clo">0.81</td><td>0.95</td><td id="clo">0.80</td><td>0.95</td><td id="clo">0.81</td><td id="clo">0.92</td></tr>
+<tr><td>ma100434_rel_withdbg.cz12a_c8r32</td> <td id="clo">0.87</td><td id="clo">0.94</td><td id="clo">0.93</td><td>0.97</td><td id="clo">0.78</td><td id="clo">0.93</td><td id="clo">0.77</td><td id="clo">0.92</td><td id="clo">0.77</td><td id="clo">0.87</td></tr>
+<tr><td>ma100529_rel_withdbg.cz12a_c8r32</td> <td id="clo">0.89</td><td id="clo">0.81</td><td id="clo">0.93</td><td id="clo">0.93</td><td id="clo">0.79</td><td id="clo">0.90</td><td id="clo">0.78</td><td id="clo">0.92</td><td id="clo">0.76</td><td id="clo">0.93</td></tr>
+<tr><td>ma100624_rel_withdbg.cz12a_c8r32</td> <td>0.96</td><td id="clo">0.81</td><td id="clo">0.94</td><td>0.95</td><td id="clo">0.92</td><td>0.99</td><td id="clo">0.90</td><td>1.04</td><td id="clo">0.89</td><td id="chi">1.11</td></tr>
+<tr><td>ma101115_rel_withdbg.cz12a_c8r32</td> <td id="clo">0.94</td><td id="clo">0.79</td><td id="clo">0.94</td><td>0.95</td><td id="clo">0.92</td><td>0.99</td><td id="clo">0.91</td><td>1.04</td><td id="clo">0.90</td><td id="chi">1.11</td></tr>
+<tr><td>ma110409_rel_withdbg.cz12b_c8r32</td> <td id="clo">0.93</td><td id="clo">0.79</td><td id="clo">0.67</td><td id="clo">0.65</td><td id="clo">0.90</td><td>0.97</td><td id="clo">0.87</td><td>0.96</td><td id="clo">0.84</td><td id="clo">0.90</td></tr>
+<tr><td>ma110805_rel_withdbg.cz12b_c8r32</td> <td>0.96</td><td id="clo">0.79</td><td id="clo">0.67</td><td id="clo">0.65</td><td id="clo">0.89</td><td>0.97</td><td id="clo">0.86</td><td>0.95</td><td id="clo">0.84</td><td id="clo">0.91</td></tr>
+<tr><td>ma120102_rel_withdbg.cz12b_c8r32</td> <td>0.98</td><td id="clo">0.80</td><td id="clo">0.67</td><td id="clo">0.65</td><td id="clo">0.89</td><td>0.97</td><td id="clo">0.85</td><td id="clo">0.94</td><td id="clo">0.81</td><td id="clo">0.91</td></tr>
+<tr><td>ma120201_rel_withdbg.cz12b_c8r32</td> <td>0.96</td><td id="clo">0.80</td><td id="clo">0.67</td><td id="clo">0.66</td><td id="clo">0.88</td><td>0.97</td><td id="clo">0.85</td><td id="clo">0.94</td><td id="clo">0.82</td><td id="clo">0.91</td></tr>
+</table>
