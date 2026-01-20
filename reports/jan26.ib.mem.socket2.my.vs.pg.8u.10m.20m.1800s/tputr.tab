@@ -1,0 +1,17 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>my8407_rel_o2nofp.cz12a_c24r64</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr>
+<tr><td>my8407_rel_o2nofp.cz12a_nocb_c24r64</td> <td>0.99</td><td>1.03</td><td>1.01</td><td>0.99</td><td>1.00</td><td>1.00</td><td>0.99</td><td>1.00</td><td>0.99</td><td>1.00</td></tr>
+<tr><td>pg181_o2nofp.cx10b_c24r64</td> <td id="chi">1.40</td><td id="chi">1.37</td><td id="chi">1.36</td><td id="clo">0.49</td><td id="chi">1.67</td><td id="chi">1.24</td><td id="chi">1.64</td><td id="chi">1.24</td><td id="chi">1.66</td><td id="chi">1.25</td></tr>
+</table>

@@ -1,0 +1,26 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>qr100.L1</th><th>qp100.L2</th><th>qr500.L3</th><th>qp500.L4</th><th>qr1000.L5</th><th>qp1000.L6</th></tr>
+<tr><td>my5651_rel_o2nofp.cz12a_c32r128</td><td>1193</td><td>1191</td><td id="cmin">5599</td><td>5729</td><td id="cmin">7619</td><td id="cmin">2589</td></tr>
+<tr><td>my5744_rel_o2nofp.cz12a_c32r128</td><td>1193</td><td>1191</td><td id="cmin">5328</td><td id="cmin">5304</td><td id="cmin">10445</td><td id="cmin">3731</td></tr>
+<tr><td>my8043_rel_o2nofp.cz12a_c32r128</td><td>1193</td><td>1177</td><td id="cmin">5138</td><td id="cmin">4966</td><td id="cmin">9922</td><td id="cmin">4324</td></tr>
+<tr><td>my8044_rel_o2nofp.cz12a_c32r128</td><td>1193</td><td>1181</td><td id="cmin">5158</td><td id="cmin">5005</td><td id="cmin">10023</td><td id="cmin">4479</td></tr>
+<tr><td>my8406_rel_o2nofp.cz12a_c32r128</td><td>1192</td><td>1193</td><td>5717</td><td>5778</td><td id="cmin">9760</td><td id="cmin">3584</td></tr>
+<tr><td>my8407_rel_o2nofp.cz12a_c32r128</td><td>1193</td><td>1192</td><td id="cmin">5622</td><td>5800</td><td id="cmin">9954</td><td id="cmin">3659</td></tr>
+<tr><td>my8407_rel_o2nofp.cz12a_nocb_c32r128</td><td>1193</td><td>1193</td><td id="cmin">3662</td><td id="cmin">3361</td><td id="cmin">2819</td><td id="cmin">1833</td></tr>
+<tr><td>my9400_rel_o2nofp.cz12a_c32r128</td><td>1193</td><td>1192</td><td>5806</td><td>5835</td><td id="cmin">9515</td><td id="cmin">3532</td></tr>
+<tr><td>my9500_rel_o2nofp.cz12a_c32r128</td><td>1193</td><td>1189</td><td id="cmin">5657</td><td id="cmin">5640</td><td id="cmin">4375</td><td id="cmin">2906</td></tr>
+<tr><td>my9500_rel_o2nofp.cz13a_c32r128</td><td>1193</td><td>1193</td><td id="cmin">5654</td><td id="cmin">5681</td><td id="cmin">10189</td><td id="cmin">3642</td></tr>
+<tr><td>target</td><td id=cgray>1200</td><td id=cgray>1200</td><td id=cgray>6000</td><td id=cgray>6000</td><td id=cgray>12000</td><td id=cgray>12000</td>
+</tr>
+</table>

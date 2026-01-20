@@ -9,6 +9,16 @@ Posts for 2020:
 Posts for 2023:
 * [Chasing down a CPU regression for MyRocks using flamegraphs](posts_2023/sep23.ibench.56builds.u.md)
 
+Benchmark reports for 2026
+* Insert Benchmark
+  * MySQL, January, 2026
+    * 24-core server  
+      * Cached workload: [Latest point releases](reports/jan26.ib.mem.socket2.my.latest.8u.10m.20m.1800s/all.html), [All releases](reports/jan26.ib.mem.socket2.my.all.8u.10m.20m.1800s/all.html), [MySQL vs Postgres](reports/jan26.ib.mem.socket2.my.vs.pg.8u.10m.20m.1800s/all.html)
+      * IO-bound workload: [Latest point releases](reports/jan26.ib.io.socket2.my.latest.8u.250m.5m.1800s/all.html), [All releases](reports/jan26.ib.io.socket2.my.all.8u.250m.5m.1800s/all.html), [MySQL vs Postgres](reports/jan26.ib.io.socket2.my.vs.pg.8u.250m.5m.1800s/all.html)
+    * 32-core server  
+      * Cached workload: [Latest point releases](reports/jan26.ib.mem.dell32.my.latest.12u.10m.20m.1800s/all.html), [All releases](reports/jan26.ib.mem.dell32.my.all.12u.10m.20m.1800s/all.html), [MySQL vs Postgres](reports/jan26.ib.mem.dell32.my.vs.pg.12u.10m.20m.1800s/all.html)
+      * IO-bound workload: [Latest point releases](reports/jan26.ib.io.dell32.my.latest.12u.300m.5m.1800s/all.html), [All releases](reports/jan26.ib.io.dell32.my.all.12u.300m.5m.1800s/all.html), [MySQL vs Postgres](reports/jan26.ib.io.dell32.my.vs.pg.12u.300m.5m.1800s/all.html)
+
 Benchmark reports for 2025
 * Insert Benchmark
     * InnoDB 8.0.41 and doublewrite buffer options: [IO-bound](reports/25_05_01.20u.io.hetz.my8041.doublewrite/all.html)

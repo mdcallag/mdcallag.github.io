@@ -1,0 +1,21 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>my5651_rel_o2nofp.cz12a_c32r128</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr>
+<tr><td>my5744_rel_o2nofp.cz12a_c32r128</td> <td id="chi">1.16</td><td id="chi">4.06</td><td id="chi">1.37</td><td id="chi">1.62</td><td id="clo">0.83</td><td id="clo">0.85</td><td id="clo">0.84</td><td id="clo">0.86</td><td id="clo">0.86</td><td id="clo">0.87</td></tr>
+<tr><td>my8044_rel_o2nofp.cz12a_c32r128</td> <td id="chi">1.38</td><td id="chi">4.68</td><td id="chi">2.43</td><td id="chi">1.92</td><td id="clo">0.70</td><td id="clo">0.63</td><td id="clo">0.72</td><td id="clo">0.64</td><td id="clo">0.73</td><td id="clo">0.65</td></tr>
+<tr><td>my8407_rel_o2nofp.cz12a_c32r128</td> <td id="chi">1.37</td><td id="chi">4.84</td><td id="chi">2.42</td><td id="chi">1.91</td><td id="clo">0.70</td><td id="clo">0.63</td><td id="clo">0.71</td><td id="clo">0.63</td><td id="clo">0.72</td><td id="clo">0.65</td></tr>
+<tr><td>my9400_rel_o2nofp.cz12a_c32r128</td> <td id="chi">1.36</td><td id="chi">4.76</td><td id="chi">2.40</td><td id="chi">1.89</td><td id="clo">0.71</td><td id="clo">0.64</td><td id="clo">0.73</td><td id="clo">0.65</td><td id="clo">0.74</td><td id="clo">0.66</td></tr>
+<tr><td>my9500_rel_o2nofp.cz12a_c32r128</td> <td id="chi">1.35</td><td id="chi">4.84</td><td id="chi">2.19</td><td id="chi">2.00</td><td id="clo">0.72</td><td id="clo">0.64</td><td id="clo">0.73</td><td id="clo">0.65</td><td id="clo">0.75</td><td id="clo">0.66</td></tr>
+<tr><td>my9500_rel_o2nofp.cz13a_c32r128</td> <td id="chi">1.36</td><td id="chi">4.84</td><td id="chi">2.41</td><td id="chi">1.89</td><td id="clo">0.70</td><td id="clo">0.64</td><td id="clo">0.72</td><td id="clo">0.65</td><td id="clo">0.73</td><td id="clo">0.66</td></tr>
+</table>

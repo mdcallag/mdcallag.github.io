@@ -1,0 +1,451 @@
+set xlabel "Time(s)"
+set ylabel "IPS"
+set title "IPS vs Time for l.i0"
+set yrange [0:87810]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i0.ips.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i0/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i0.ips.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i0/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i0"
+set yrange [0:269324]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i0.imax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i0/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i0.imax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i0/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i0.dps.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i0/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i0.dps.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i0/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i0"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i0.dmax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i0/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i0.dmax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i0/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i1"
+set yrange [0:22616]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i1.ips.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i1/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i1.ips.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i1/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i1"
+set yrange [0:439100]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i1.imax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i1/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i1.imax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i1/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i1"
+set yrange [0:22616]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i1.dps.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i1/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i1.dps.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i1/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i1"
+set yrange [0:438466]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i1.dmax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i1/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i1.dmax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i1/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "IPS"
+set title "IPS vs Time for l.i2"
+set yrange [0:11476]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i2.ips.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i2/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i2.ips.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i2/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for l.i2"
+set yrange [0:374419]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i2.imax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i2/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i2.imax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i2/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for l.i2"
+set yrange [0:11380]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i2.dps.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i2/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i2.dps.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i2/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for l.i2"
+set yrange [0:374618]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i2.dmax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i2/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i2.dmax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i2/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "QPS"
+set title "QPS vs Time for l.i2"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i2.qps.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i2/gpi.qps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i2.qps.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i2/gpi.qps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for l.i2"
+set yrange [0:1]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i2.qmax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i2/gpi.qmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.l.i2.qmax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/l.i2/gpi.qmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "IPS"
+set title "IPS vs Time for qr100.L1"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr100.L1.ips.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr100.L1/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr100.L1.ips.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr100.L1/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr100.L1"
+set yrange [0:5071]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr100.L1.imax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr100.L1/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr100.L1.imax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr100.L1/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for qr100.L1"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr100.L1.dps.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr100.L1/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr100.L1.dps.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr100.L1/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr100.L1"
+set yrange [0:6585]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr100.L1.dmax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr100.L1/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr100.L1.dmax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr100.L1/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "QPS"
+set title "QPS vs Time for qr100.L1"
+set yrange [0:9560]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr100.L1.qps.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr100.L1/gpi.qps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr100.L1.qps.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr100.L1/gpi.qps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr100.L1"
+set yrange [0:2892]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr100.L1.qmax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr100.L1/gpi.qmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr100.L1.qmax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr100.L1/gpi.qmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "IPS"
+set title "IPS vs Time for qp100.L2"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp100.L2.ips.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp100.L2/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp100.L2.ips.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp100.L2/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp100.L2"
+set yrange [0:5142]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp100.L2.imax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp100.L2/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp100.L2.imax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp100.L2/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for qp100.L2"
+set yrange [0:180]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp100.L2.dps.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp100.L2/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp100.L2.dps.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp100.L2/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp100.L2"
+set yrange [0:5318]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp100.L2.dmax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp100.L2/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp100.L2.dmax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp100.L2/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "QPS"
+set title "QPS vs Time for qp100.L2"
+set yrange [0:6756]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp100.L2.qps.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp100.L2/gpi.qps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp100.L2.qps.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp100.L2/gpi.qps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp100.L2"
+set yrange [0:4262]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp100.L2.qmax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp100.L2/gpi.qmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp100.L2.qmax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp100.L2/gpi.qmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "IPS"
+set title "IPS vs Time for qr500.L3"
+set yrange [0:720]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr500.L3.ips.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr500.L3/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr500.L3.ips.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr500.L3/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr500.L3"
+set yrange [0:18577]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr500.L3.imax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr500.L3/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr500.L3.imax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr500.L3/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for qr500.L3"
+set yrange [0:660]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr500.L3.dps.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr500.L3/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr500.L3.dps.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr500.L3/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr500.L3"
+set yrange [0:16327]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr500.L3.dmax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr500.L3/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr500.L3.dmax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr500.L3/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "QPS"
+set title "QPS vs Time for qr500.L3"
+set yrange [0:9483]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr500.L3.qps.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr500.L3/gpi.qps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr500.L3.qps.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr500.L3/gpi.qps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr500.L3"
+set yrange [0:4680]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr500.L3.qmax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr500.L3/gpi.qmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr500.L3.qmax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr500.L3/gpi.qmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "IPS"
+set title "IPS vs Time for qp500.L4"
+set yrange [0:720]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp500.L4.ips.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp500.L4/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp500.L4.ips.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp500.L4/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp500.L4"
+set yrange [0:14364]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp500.L4.imax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp500.L4/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp500.L4.imax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp500.L4/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for qp500.L4"
+set yrange [0:720]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp500.L4.dps.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp500.L4/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp500.L4.dps.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp500.L4/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp500.L4"
+set yrange [0:18013]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp500.L4.dmax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp500.L4/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp500.L4.dmax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp500.L4/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "QPS"
+set title "QPS vs Time for qp500.L4"
+set yrange [0:6699]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp500.L4.qps.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp500.L4/gpi.qps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp500.L4.qps.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp500.L4/gpi.qps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp500.L4"
+set yrange [0:8727]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp500.L4.qmax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp500.L4/gpi.qmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp500.L4.qmax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp500.L4/gpi.qmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "IPS"
+set title "IPS vs Time for qr1000.L5"
+set yrange [0:1440]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr1000.L5.ips.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr1000.L5/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr1000.L5.ips.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr1000.L5/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qr1000.L5"
+set yrange [0:25767]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr1000.L5.imax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr1000.L5/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr1000.L5.imax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr1000.L5/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for qr1000.L5"
+set yrange [0:1434]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr1000.L5.dps.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr1000.L5/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr1000.L5.dps.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr1000.L5/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qr1000.L5"
+set yrange [0:24883]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr1000.L5.dmax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr1000.L5/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr1000.L5.dmax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr1000.L5/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "QPS"
+set title "QPS vs Time for qr1000.L5"
+set yrange [0:9520]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr1000.L5.qps.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr1000.L5/gpi.qps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr1000.L5.qps.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr1000.L5/gpi.qps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qr1000.L5"
+set yrange [0:4888]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr1000.L5.qmax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr1000.L5/gpi.qmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qr1000.L5.qmax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qr1000.L5/gpi.qmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "IPS"
+set title "IPS vs Time for qp1000.L6"
+set yrange [0:1440]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp1000.L6.ips.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp1000.L6/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp1000.L6.ips.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp1000.L6/gpi.ips" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxInsertUsecs"
+set title "maxInsertUsecs vs Time for qp1000.L6"
+set yrange [0:16624]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp1000.L6.imax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp1000.L6/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp1000.L6.imax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp1000.L6/gpi.imax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "DPS"
+set title "DPS vs Time for qp1000.L6"
+set yrange [0:1500]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp1000.L6.dps.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp1000.L6/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp1000.L6.dps.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp1000.L6/gpi.dps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxDeleteUsecs"
+set title "maxDeleteUsecs vs Time for qp1000.L6"
+set yrange [0:16867]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp1000.L6.dmax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp1000.L6/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp1000.L6.dmax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp1000.L6/gpi.dmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "QPS"
+set title "QPS vs Time for qp1000.L6"
+set yrange [0:6661]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp1000.L6.qps.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp1000.L6/gpi.qps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp1000.L6.qps.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp1000.L6/gpi.qps" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set ylabel "maxQueryUsecs"
+set title "maxQueryUsecs vs Time for qp1000.L6"
+set yrange [0:5524]
+set terminal dumb 200, 50
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp1000.L6.qmax.txt'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp1000.L6/gpi.qmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
+set terminal png
+set output 'my8406_rel_o2nofp.cz12a_c24r64.qp1000.L6.qmax.png'
+plot "80m.my8406_rel_o2nofp.cz12a_c24r64/qp1000.L6/gpi.qmax" using 1:2 title "my8406_rel_o2nofp.cz12a_c24r64", 
