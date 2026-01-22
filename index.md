@@ -18,6 +18,13 @@ Benchmark reports for 2026
     * 32-core server  
       * Cached workload: [Latest point releases](reports/jan26.ib.mem.dell32.my.latest.12u.10m.20m.1800s/all.html), [All releases](reports/jan26.ib.mem.dell32.my.all.12u.10m.20m.1800s/all.html), [MySQL vs Postgres](reports/jan26.ib.mem.dell32.my.vs.pg.12u.10m.20m.1800s/all.html)
       * IO-bound workload: [Latest point releases](reports/jan26.ib.io.dell32.my.latest.12u.300m.5m.1800s/all.html), [All releases](reports/jan26.ib.io.dell32.my.all.12u.300m.5m.1800s/all.html), [MySQL vs Postgres](reports/jan26.ib.io.dell32.my.vs.pg.12u.300m.5m.1800s/all.html)
+  * Postgres, January, 2026
+    * 24-core server
+      * Cached workload: [Latest point releases](reports/jan26.ib.mem.socket2.pg.latest.8u.10m.20m.1800s/all.html), [All releases](reports/jan26.ib.mem.socket2.pg.all.8u.10m.20m.1800s/all.html)
+      * IO-bound workload: [Latest point releases](reports/jan26.ib.io.socket2.pg.latest.8u.250m.5m.1800s/all.html), [All releases](reports/jan26.ib.io.socket2.pg.all.8u.250m.5m.1800s/all.html)
+    * 32-core server  
+      * Cached workload: [Latest point releases](reports/jan26.ib.mem.dell32.pg.latest.12u.10m.20m.1800s/all.html), [All releases](reports/jan26.ib.mem.dell32.pg.all.12u.10m.20m.1800s/all.html)
+      * IO-bound workload: :[Latest point releases](reports/jan26.ib.io.dell32.pg.latest.12u.300m.5m.1800s/all.html), [All releases](reports/jan26.ib.io.dell32.pg.all.12u.300m.5m.1800s/all.html)
 
 Benchmark reports for 2025
 * Insert Benchmark

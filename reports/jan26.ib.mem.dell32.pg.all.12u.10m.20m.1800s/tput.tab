@@ -1,0 +1,30 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>pg1222_o2nofp.cx10a_c32r128</td> <td id="cmax">1111111</td><td>2307694</td><td>283604</td><td id="cmax">63660</td><td>145403</td><td id="cmax">84167</td><td>141614</td><td id="cmax">83672</td><td>140003</td><td id="cmax">83116</td></tr>
+<tr><td>pg1322_o2nofp.cx10a_c32r128</td> <td id="cmax">1111111</td><td>2222224</td><td>280702</td><td>57075</td><td id="cmax">147514</td><td id="cmax">84362</td><td>143022</td><td id="cmax">83909</td><td>140977</td><td id="cmax">83483</td></tr>
+<tr><td>pg1323_o2nofp.cx10a_c32r128</td> <td>991736</td><td>2222224</td><td>284024</td><td>58896</td><td>145900</td><td>83804</td><td>142306</td><td>83248</td><td>140701</td><td>82771</td></tr>
+<tr><td>pg1419_o2nofp.cx10a_c32r128</td> <td>1081081</td><td>2222224</td><td>280702</td><td>57623</td><td id="cmax">147762</td><td>83456</td><td>143472</td><td>82904</td><td>142032</td><td>82368</td></tr>
+<tr><td>pg1420_o2nofp.cx10a_c32r128</td> <td>1061947</td><td>2264153</td><td id="cmax">288722</td><td>60226</td><td id="cmax">147709</td><td>83017</td><td>143579</td><td>82785</td><td id="cmax">142100</td><td>82164</td></tr>
+<tr><td>pg1514_o2nofp.cx10a_c32r128</td> <td id="cmax">1090909</td><td>2352943</td><td>269663</td><td>58465</td><td>146855</td><td>83934</td><td>143310</td><td id="cmax">83766</td><td id="cmax">142691</td><td>82991</td></tr>
+<tr><td>pg1515_o2nofp.cx10a_c32r128</td> <td id="cmax">1121495</td><td>2307694</td><td>275862</td><td>61856</td><td>145769</td><td>83422</td><td>141957</td><td>83123</td><td>140543</td><td>82480</td></tr>
+<tr><td>pg1610_o2nofp.cx10a_c32r128</td> <td id="cmax">1090909</td><td>2307694</td><td>282353</td><td>56470</td><td>146336</td><td>83910</td><td>142324</td><td>83323</td><td>141056</td><td>82979</td></tr>
+<tr><td>pg1611_o2nofp.cx10a_c32r128</td> <td id="cmax">1100917</td><td>2352943</td><td>278665</td><td>59776</td><td id="cmax">147343</td><td>83928</td><td>143416</td><td id="cmax">83798</td><td>142041</td><td>83029</td></tr>
+<tr><td>pg176_o2nofp.cx10a_c32r128</td> <td id="cmax">1111111</td><td id="cmax">2448982</td><td id="cmax">290469</td><td>58182</td><td id="cmax">147895</td><td>84004</td><td>143641</td><td id="cmax">83858</td><td id="cmax">142470</td><td id="cmax">83130</td></tr>
+<tr><td>pg177_o2nofp.cx10a_c32r128</td> <td id="cmax">1090909</td><td id="cmax">2448982</td><td>282353</td><td id="cmax">62419</td><td id="cmax">147861</td><td>83776</td><td id="cmax">144168</td><td>83214</td><td id="cmax">142705</td><td>82601</td></tr>
+<tr><td>pg180_o2nofp.cx10b_c32r128</td> <td id="cmax">1111111</td><td id="cmax">2448982</td><td id="cmax">294478</td><td>58323</td><td>145280</td><td>83033</td><td>141266</td><td>82581</td><td>140568</td><td>81989</td></tr>
+<tr><td>pg180_o2nofp.cx10c_c32r128</td> <td id="cmax">1100917</td><td id="cmax">2448982</td><td>286567</td><td>60991</td><td>145197</td><td>83119</td><td>141197</td><td>82692</td><td>139959</td><td>81936</td></tr>
+<tr><td>pg180_o2nofp.cx10d_c32r128</td> <td id="cmax">1100917</td><td id="cmax">2448982</td><td>282769</td><td>60150</td><td>145155</td><td>83027</td><td>141555</td><td>82453</td><td>140450</td><td>81955</td></tr>
+<tr><td>pg181_o2nofp.cx10b_c32r128</td> <td id="cmax">1100917</td><td id="cmax">2448982</td><td>286140</td><td>60759</td><td id="cmax">147902</td><td>83614</td><td id="cmax">144498</td><td>83212</td><td id="cmax">142783</td><td>82561</td></tr>
+<tr><td>pg181_o2nofp.cx10d_c32r128</td> <td id="cmax">1090909</td><td id="cmax">2448982</td><td>285714</td><td>59480</td><td>145710</td><td>83576</td><td>142304</td><td>82966</td><td>140533</td><td>82582</td></tr>
+</table>

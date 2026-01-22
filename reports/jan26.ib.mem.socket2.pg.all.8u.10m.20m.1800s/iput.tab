@@ -1,0 +1,30 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>qr100.L1</th><th>qp100.L2</th><th>qr500.L3</th><th>qp500.L4</th><th>qr1000.L5</th><th>qp1000.L6</th></tr>
+<tr><td>pg1222_o2nofp.cx10a_c24r64</td><td>797</td><td>797</td><td>3982</td><td>3984</td><td>7969</td><td>7965</td></tr>
+<tr><td>pg1322_o2nofp.cx10a_c24r64</td><td>797</td><td>797</td><td>3982</td><td>3984</td><td>7969</td><td>7965</td></tr>
+<tr><td>pg1419_o2nofp.cx10a_c24r64</td><td>797</td><td>797</td><td>3982</td><td>3984</td><td>7969</td><td>7965</td></tr>
+<tr><td>pg1514_o2nofp.cx10a_c24r64</td><td>797</td><td>797</td><td>3982</td><td>3984</td><td>7965</td><td>7965</td></tr>
+<tr><td>pg1515_o2nofp.cx10a_c24r64</td><td>796</td><td>797</td><td>3982</td><td>3982</td><td>7969</td><td>7969</td></tr>
+<tr><td>pg1610_o2nofp.cx10a_c24r64</td><td>797</td><td>797</td><td>3982</td><td>3984</td><td>7969</td><td>7965</td></tr>
+<tr><td>pg1611_o2nofp.cx10a_c24r64</td><td>796</td><td>797</td><td>3982</td><td>3982</td><td>7969</td><td>7969</td></tr>
+<tr><td>pg176_o2nofp.cx10a_c24r64</td><td>797</td><td>796</td><td>3984</td><td>3984</td><td>7965</td><td>7969</td></tr>
+<tr><td>pg177_o2nofp.cx10a_c24r64</td><td>797</td><td>796</td><td>3984</td><td>3984</td><td>7965</td><td>7965</td></tr>
+<tr><td>pg180_o2nofp.cx10b_c24r64</td><td>797</td><td>797</td><td>3982</td><td>3982</td><td>7969</td><td>7965</td></tr>
+<tr><td>pg180_o2nofp.cx10c_c24r64</td><td>797</td><td>796</td><td>3982</td><td>3984</td><td>7969</td><td>7965</td></tr>
+<tr><td>pg180_o2nofp.cx10d_c24r64</td><td>797</td><td>796</td><td>3982</td><td>3984</td><td>7969</td><td>7965</td></tr>
+<tr><td>pg181_o2nofp.cx10b_c24r64</td><td>796</td><td>797</td><td>3984</td><td>3982</td><td>7965</td><td>7969</td></tr>
+<tr><td>pg181_o2nofp.cx10d_c24r64</td><td>797</td><td>797</td><td>3982</td><td>3982</td><td>7969</td><td>7969</td></tr>
+<tr><td>target</td><td id=cgray>800</td><td id=cgray>800</td><td id=cgray>4000</td><td id=cgray>4000</td><td id=cgray>8000</td><td id=cgray>8000</td>
+</tr>
+</table>
