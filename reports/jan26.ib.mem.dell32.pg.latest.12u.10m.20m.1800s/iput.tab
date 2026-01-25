@@ -18,6 +18,7 @@
 <tr><td>pg1611_o2nofp.cx10a_c32r128</td><td>1192</td><td>1192</td><td>5964</td><td>5964</td><td>11927</td><td>11927</td></tr>
 <tr><td>pg177_o2nofp.cx10a_c32r128</td><td>1193</td><td>1193</td><td>5964</td><td>5964</td><td>11927</td><td>11920</td></tr>
 <tr><td>pg181_o2nofp.cx10b_c32r128</td><td>1192</td><td>1192</td><td>5964</td><td>5964</td><td>11927</td><td>11927</td></tr>
+<tr><td>pg181_o2nofp.cx10b_walsize_c32r128</td><td>1192</td><td>1192</td><td>5960</td><td>5964</td><td>11927</td><td>11927</td></tr>
 <tr><td>target</td><td id=cgray>1200</td><td id=cgray>1200</td><td id=cgray>6000</td><td id=cgray>6000</td><td id=cgray>12000</td><td id=cgray>12000</td>
 </tr>
 </table>

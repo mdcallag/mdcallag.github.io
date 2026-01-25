@@ -37,6 +37,7 @@ The tested DBMS are:
 <li>pg1611_o2nofp.cx10a_c24r64 - Postgres 16.11 with the cx10a_c24r64 config
 <li>pg177_o2nofp.cx10a_c24r64 - Postgres 17.7 with the cx10a_c24r64 config
 <li>pg181_o2nofp.cx10b_c24r64 - Postgres 18.1 with the cx10b_c24r64 config that uses io_method=sync
+<li>pg181_o2nofp.cx10b_walsize_c24r64 - Postgres 18.1 with the cx10b_c24r64 config that uses io_method=sync and min_wal_size == max_wal_size
 </ul>
 </p>
 <div id="toc">
@@ -136,6 +137,7 @@ Red backgrounds are not used when the minimum value is within 80&#37 of the max 
 <tr><td>pg1611_o2nofp.cx10a_c24r64</td> <td id="cmax">661157</td><td>1379312</td><td>159800</td><td>26913</td><td id="cmax">105607</td><td id="cmax">55928</td><td id="cmax">102482</td><td id="cmax">55184</td><td id="cmax">101642</td><td id="cmax">54513</td></tr>
 <tr><td>pg177_o2nofp.cx10a_c24r64</td> <td>655738</td><td>1379312</td><td>164313</td><td>27119</td><td id="cmax">105289</td><td id="cmax">55909</td><td>101930</td><td id="cmax">55242</td><td>101118</td><td id="cmax">54625</td></tr>
 <tr><td>pg181_o2nofp.cx10b_c24r64</td> <td>655738</td><td>1403510</td><td>162643</td><td>26468</td><td>103714</td><td>55134</td><td>100668</td><td>54378</td><td>99674</td><td>53849</td></tr>
+<tr><td>pg181_o2nofp.cx10b_walsize_c24r64</td> <td id="cmax">661157</td><td id="cmax">1428573</td><td>164102</td><td>24335</td><td>104108</td><td>55002</td><td>100763</td><td>54373</td><td>100005</td><td>53672</td></tr>
 </table>
 <p>
 This table has relative throughput, throughput for the DBMS relative to the DBMS in the first line,
@@ -162,6 +164,7 @@ Values less than 0.95 have a yellow background. Values greater than 1.05 have a 
 <tr><td>pg1611_o2nofp.cx10a_c24r64</td> <td>1.02</td><td>0.98</td><td>1.04</td><td>0.98</td><td>1.02</td><td>1.02</td><td>1.02</td><td>1.02</td><td>1.02</td><td>1.02</td></tr>
 <tr><td>pg177_o2nofp.cx10a_c24r64</td> <td>1.02</td><td>0.98</td><td id="chi">1.07</td><td>0.99</td><td>1.02</td><td>1.02</td><td>1.02</td><td>1.02</td><td>1.02</td><td>1.02</td></tr>
 <tr><td>pg181_o2nofp.cx10b_c24r64</td> <td>1.02</td><td>1.00</td><td id="chi">1.06</td><td>0.97</td><td>1.00</td><td>1.01</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.01</td></tr>
+<tr><td>pg181_o2nofp.cx10b_walsize_c24r64</td> <td>1.02</td><td>1.02</td><td id="chi">1.07</td><td id="clo">0.89</td><td>1.01</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr>
 </table>
 <p>
 This lists the average rate of inserts/s for the tests that do inserts concurrent with queries.
@@ -189,6 +192,7 @@ Cells that are not at least 95&#37; of the target have a red background to indic
 <tr><td>pg1611_o2nofp.cx10a_c24r64</td><td>796</td><td>797</td><td>3982</td><td>3982</td><td>7969</td><td>7969</td></tr>
 <tr><td>pg177_o2nofp.cx10a_c24r64</td><td>797</td><td>796</td><td>3984</td><td>3984</td><td>7965</td><td>7965</td></tr>
 <tr><td>pg181_o2nofp.cx10b_c24r64</td><td>796</td><td>797</td><td>3984</td><td>3982</td><td>7965</td><td>7969</td></tr>
+<tr><td>pg181_o2nofp.cx10b_walsize_c24r64</td><td>797</td><td>796</td><td>3984</td><td>3984</td><td>7965</td><td>7965</td></tr>
 <tr><td>target</td><td id=cgray>800</td><td id=cgray>800</td><td id=cgray>4000</td><td id=cgray>4000</td><td id=cgray>8000</td><td id=cgray>8000</td>
 </tr>
 </table>
@@ -235,6 +239,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td></td><td id="c8">37.939</td><td id="c12">61.995</td><td id="c0">0.040</td><td id="c0">0.025</td><td id="c0">0.001</td><td></td><td></td><td></td><td></td><td>0.075</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td></td><td id="c6">28.680</td><td id="c14">71.272</td><td id="c0">0.020</td><td id="c0">0.024</td><td id="c0">0.004</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.167</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td></td><td id="c6">30.006</td><td id="c14">69.944</td><td id="c0">0.022</td><td id="c0">0.020</td><td id="c0">0.009</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.165</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td></td><td id="c5">26.481</td><td id="c15">73.458</td><td id="c0">0.050</td><td id="c0">0.011</td><td id="c0">0.001</td><td></td><td></td><td></td><td></td><td>0.070</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -248,6 +253,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 661157	0	1	0.0	2462.5	284.6	0.000	0.000	0.004	0.441	71330	46.1	0.108	17	7.7	20.7	5.1	0.075	96489	78589	pg1611_o2nofp.cx10a_c24r64
 655738	0	0	0.0	2441.3	282.8	0.000	0.000	0.004	0.442	63363	45.7	0.097	17	7.7	20.7	0.2	0.167	95587	78392	pg177_o2nofp.cx10a_c24r64
 655738	0	0	0.0	2436.5	283.3	0.000	0.000	0.004	0.442	63331	45.8	0.097	17	7.7	20.7	0.2	0.165	95588	64192	pg181_o2nofp.cx10b_c24r64
+661157	0	1	0.0	2472.7	284.1	0.000	0.000	0.004	0.440	63741	46.0	0.096	17	7.7	20.7	0.2	0.070	95288	83789	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>
 Average values from iostat.
@@ -261,6 +267,7 @@ r/s	rkB/s	rrqm/s	%rrqm	r_await	rareq-s	w/s	wkB/s	wrqm/s	%wrqm	w_await	wareq-s	d/
 0.842	3.366	0.000	0.000	0.531	3.667	2462.5	291472	162.4	6.967	3.539	118.7	0.592	6.600	0.000	0.000	0.117	12.97	0.000	0.000	12.89	16.58		pg1611_o2nofp.cx10a_c24r64
 0.050	0.200	0.000	0.000	0.833	0.667	2441.3	289630	153.0	6.291	3.992	118.9	0.492	7.633	0.000	0.000	0.185	10.92	0.000	0.000	14.09	16.59		pg177_o2nofp.cx10a_c24r64
 0.025	0.100	0.000	0.000	0.750	0.500	2436.5	290141	158.7	6.821	4.156	119.2	0.425	9.233	0.000	0.000	0.145	10.37	0.000	0.000	15.49	16.51		pg181_o2nofp.cx10b_c24r64
+0.942	3.767	0.000	0.000	0.393	3.333	2472.7	290890	164.9	6.641	3.118	118.2	0.625	8.967	0.000	0.000	0.086	10.63	0.000	0.000	10.59	16.83		pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="l.x.graph">l.x</h1>
@@ -280,6 +287,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 1379312	0	1	0.0	3283.2	371.6	0.000	0.000	0.002	0.276	5722	25.0	0.004	4	15.4	35.5	6.7	0.003	NA	NA	pg1611_o2nofp.cx10a_c24r64
 1379312	0	0	0.0	3862.3	438.7	0.000	0.000	0.003	0.326	3626	24.1	0.003	4	15.4	35.4	6.1	0.003	NA	NA	pg177_o2nofp.cx10a_c24r64
 1403510	0	0	0.0	3758.5	426.6	0.000	0.000	0.003	0.311	3709	23.8	0.003	4	15.4	35.4	6.7	0.003	NA	NA	pg181_o2nofp.cx10b_c24r64
+1428573	0	1	0.0	3851.0	436.9	0.000	0.000	0.003	0.313	3900	23.8	0.003	4	15.4	35.4	6.7	0.003	NA	NA	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>
 Average values from iostat.
@@ -293,6 +301,7 @@ r/s	rkB/s	rrqm/s	%rrqm	r_await	rareq-s	w/s	wkB/s	wrqm/s	%wrqm	w_await	wareq-s	d/
 0.855	3.418	0.000	0.000	2.720	3.273	3283.2	380512	123.1	12.65	10.64	102.8	0.273	1.745	0.000	0.000	0.136	3.909	0.000	0.000	44.39	24.90		pg1611_o2nofp.cx10a_c24r64
 0.182	0.727	0.000	0.000	0.818	2.182	3862.3	449260	126.9	7.466	7.203	110.2	3.200	36051.2	0.000	0.000	0.303	6418.1	0.000	0.000	43.15	30.42		pg177_o2nofp.cx10a_c24r64
 0.036	0.145	0.000	0.000	0.500	0.364	3758.5	436871	131.9	13.85	6.635	99.84	3.327	33289.5	0.000	0.000	0.300	7377.9	0.000	0.000	40.33	28.73		pg181_o2nofp.cx10b_c24r64
+1.055	4.218	0.000	0.000	0.642	3.273	3851.0	447418	135.2	9.423	6.035	107.4	2.927	38773.4	0.000	0.000	0.483	7035.0	0.000	0.000	32.38	29.67		pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="l.i1.graph">l.i1</h1>
@@ -337,6 +346,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.696</td><td id="c0">0.178</td><td id="c0">0.126</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cminr">0.074</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.628</td><td id="c0">0.225</td><td id="c0">0.147</td><td>nonzero</td><td></td><td></td><td></td><td></td><td>0.095</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td></td><td></td><td id="c20">99.704</td><td id="c0">0.185</td><td id="c0">0.110</td><td id="c0">0.001</td><td></td><td></td><td></td><td></td><td>0.089</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td></td><td></td><td id="c20">99.659</td><td id="c0">0.206</td><td id="c0">0.134</td><td id="c0">0.001</td><td></td><td></td><td></td><td></td><td>0.098</td></tr>
 </table>
 <p>Delete response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For the <b>max</b> column values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -374,6 +384,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td></td><td id="c3">16.831</td><td id="c16">78.282</td><td id="c1">4.757</td><td id="c0">0.130</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cminr">0.075</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td></td><td id="c3">15.785</td><td id="c16">79.922</td><td id="c1">4.148</td><td id="c0">0.145</td><td>nonzero</td><td></td><td></td><td></td><td></td><td>0.094</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td></td><td id="c3">13.214</td><td id="c17">83.440</td><td id="c1">3.226</td><td id="c0">0.119</td><td id="c0">0.001</td><td></td><td></td><td></td><td></td><td>0.090</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td></td><td id="c3">13.911</td><td id="c16">81.922</td><td id="c1">4.035</td><td id="c0">0.131</td><td id="c0">0.001</td><td></td><td></td><td></td><td></td><td>0.098</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -387,6 +398,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 159800	0	0	0.0	1910.2	224.5	0.000	0.000	0.012	1.439	82404	61.0	0.516	92	21.6	85.7	14.0	0.074	19847	4149	pg1611_o2nofp.cx10a_c24r64
 164313	0	0	0.0	1968.9	231.0	0.000	0.000	0.012	1.440	75298	60.4	0.458	88	21.6	85.7	15.2	0.095	18148	4249	pg177_o2nofp.cx10a_c24r64
 162643	0	0	0.0	1974.2	230.1	0.000	0.000	0.012	1.449	74951	60.3	0.461	89	21.6	85.7	10.9	0.089	16898	4949	pg181_o2nofp.cx10b_c24r64
+164102	0	0	0.0	1977.8	231.4	0.000	0.000	0.012	1.444	75700	61.4	0.461	90	21.6	85.6	11.9	0.098	17897	4999	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>
 Average values from iostat.
@@ -400,6 +412,7 @@ r/s	rkB/s	rrqm/s	%rrqm	r_await	rareq-s	w/s	wkB/s	wrqm/s	%wrqm	w_await	wareq-s	d/
 0.310	1.240	0.000	0.000	0.082	1.600	1910.2	229917	105.3	4.328	1.458	120.0	0.116	45.33	0.000	0.000	0.024	6.012	0.000	0.000	3.249	11.70		pg1611_o2nofp.cx10a_c24r64
 0.023	0.092	0.000	0.000	0.093	0.359	1968.9	236529	101.8	4.197	1.623	119.6	0.083	164.8	0.000	0.000	0.026	185.2	0.000	0.000	3.679	12.14		pg177_o2nofp.cx10a_c24r64
 0.009	0.036	0.000	0.000	0.038	0.178	1974.2	235658	101.8	4.157	1.768	119.0	0.079	103.3	0.000	0.000	0.030	146.6	0.000	0.000	3.961	12.07		pg181_o2nofp.cx10b_c24r64
+0.437	1.750	0.000	0.000	0.158	2.142	1977.8	236997	102.8	4.243	1.445	119.3	0.071	69.71	0.000	0.000	0.028	37.88	0.000	0.000	3.288	12.17		pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="l.i2.graph">l.i2</h1>
@@ -444,6 +457,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td id="c3">15.511</td><td id="c17">84.488</td><td id="c0">0.001</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.002</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td id="c5">24.554</td><td id="c15">75.446</td><td id="c0">0.001</td><td></td><td></td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.080</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td id="c5">26.150</td><td id="c15">73.850</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.002</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td id="c5">23.519</td><td id="c15">76.480</td><td id="c0">0.001</td><td></td><td></td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.071</td></tr>
 </table>
 <p>Delete response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For the <b>max</b> column values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -481,6 +495,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td id="c0">0.022</td><td id="c6">29.932</td><td id="c14">70.045</td><td id="c0">0.002</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.023</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td id="c0">0.062</td><td id="c7">33.861</td><td id="c13">65.753</td><td id="c0">0.324</td><td></td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.080</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td id="c0">0.005</td><td id="c7">34.018</td><td id="c13">65.558</td><td id="c0">0.420</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.012</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td id="c0">0.007</td><td id="c8">37.998</td><td id="c12">61.056</td><td id="c0">0.939</td><td></td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.072</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -494,6 +509,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 26913	0	0	0.0	221.0	26.5	0.000	0.000	0.008	1.009	132588	42.6	4.926	380	21.8	85.9	7.2	0.002	3060	1715	pg1611_o2nofp.cx10a_c24r64
 27119	0	0	0.0	222.7	26.7	0.000	0.000	0.008	1.007	115426	42.0	4.256	372	21.8	85.9	10.3	0.080	2460	995	pg177_o2nofp.cx10a_c24r64
 26468	0	0	0.0	218.0	26.1	0.000	0.000	0.008	1.011	113515	42.2	4.289	383	21.8	85.9	15.3	0.002	2360	1200	pg181_o2nofp.cx10b_c24r64
+24335	0	0	0.0	200.7	24.0	0.000	0.000	0.008	1.011	104255	40.2	4.284	396	21.8	85.8	15.6	0.071	2150	1280	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>
 Average values from iostat.
@@ -507,6 +523,7 @@ r/s	rkB/s	rrqm/s	%rrqm	r_await	rareq-s	w/s	wkB/s	wrqm/s	%wrqm	w_await	wareq-s	d/
 0.000	0.000	0.000	0.000	0.000	0.000	221.0	27142.7	4.965	2.396	0.138	123.1	0.005	0.300	0.000	0.000	0.006	0.534	0.000	0.000	0.030	1.143		pg1611_o2nofp.cx10a_c24r64
 0.000	0.000	0.000	0.000	0.000	0.000	222.7	27315.4	4.575	2.257	0.139	122.6	0.005	7.027	0.000	0.000	0.006	34.16	0.000	0.000	0.031	1.140		pg177_o2nofp.cx10a_c24r64
 0.000	0.000	0.000	0.000	0.000	0.000	218.0	26764.0	4.547	2.223	0.139	122.8	0.002	0.010	0.000	0.000	0.004	0.050	0.000	0.000	0.031	1.118		pg181_o2nofp.cx10b_c24r64
+0.002	0.009	0.000	0.000	0.004	0.046	200.7	24595.0	4.167	2.388	0.139	122.0	0.002	2.732	0.000	0.000	0.000	6.829	0.000	0.000	0.029	1.043		pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qr100.L1.graph">qr100.L1</h1>
@@ -549,6 +566,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td id="c20">99.998</td><td id="c0">0.002</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.002</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td id="c20">99.998</td><td id="c0">0.002</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.003</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td id="c20">99.998</td><td id="c0">0.002</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.002</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td id="c20">99.998</td><td id="c0">0.002</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.002</td></tr>
 </table>
 <p>Insert response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -586,6 +604,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.726</td><td id="c0">0.274</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.009</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.802</td><td id="c0">0.198</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.009</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td></td><td></td><td id="c20">99.795</td><td id="c0">0.205</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.009</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td></td><td></td><td id="c20">99.743</td><td id="c0">0.257</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.009</td></tr>
 </table>
 <p>Delete response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -623,6 +642,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td></td><td id="c6">29.927</td><td id="c14">70.069</td><td id="c0">0.003</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.004</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td></td><td id="c7">34.497</td><td id="c13">65.503</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.004</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td></td><td id="c5">25.583</td><td id="c15">74.417</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.003</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td></td><td id="c5">26.729</td><td id="c15">73.271</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.004</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -636,6 +656,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 796	105607	0	0.0	35.9	3.7	0.000	0.000	0.045	4.707	403556	33.3	3.821	76	21.8	85.8	1.2	0.002	13326	12765	pg1611_o2nofp.cx10a_c24r64
 797	105289	0	0.0	36.0	3.7	0.000	0.000	0.045	4.711	402179	33.3	3.820	76	21.8	85.8	0.4	0.003	13246	12654	pg177_o2nofp.cx10a_c24r64
 796	103714	0	0.0	36.3	3.7	0.000	0.000	0.046	4.718	396398	33.3	3.822	77	21.8	85.8	0.4	0.002	13038	12413	pg181_o2nofp.cx10b_c24r64
+797	104108	0	0.0	36.0	3.7	0.000	0.000	0.045	4.706	397812	33.3	3.821	77	21.8	85.8	0.0	0.002	13069	12494	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>
 Average values from iostat.
@@ -649,6 +670,7 @@ r/s	rkB/s	rrqm/s	%rrqm	r_await	rareq-s	w/s	wkB/s	wrqm/s	%wrqm	w_await	wareq-s	d/
 0.000	0.000	0.000	0.000	0.000	0.000	35.93	3748.9	0.793	2.755	0.169	103.2	0.001	0.002	0.000	0.000	0.000	0.011	0.000	0.000	0.007	0.182		pg1611_o2nofp.cx10a_c24r64
 0.000	0.000	0.000	0.000	0.000	0.000	36.02	3754.5	0.648	2.299	0.173	102.6	0.001	0.002	0.000	0.000	0.003	0.011	0.000	0.000	0.006	0.210		pg177_o2nofp.cx10a_c24r64
 0.000	0.000	0.000	0.000	0.000	0.000	36.32	3757.7	0.800	2.851	0.172	102.0	0.001	0.002	0.000	0.000	0.000	0.011	0.000	0.000	0.006	0.235		pg181_o2nofp.cx10b_c24r64
+0.000	0.000	0.000	0.000	0.000	0.000	36.05	3750.3	0.639	2.354	0.178	102.3	0.001	0.002	0.000	0.000	0.000	0.011	0.000	0.000	0.007	0.215		pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qp100.L2.graph">qp100.L2</h1>
@@ -691,6 +713,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td id="c20">99.981</td><td id="c0">0.019</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.004</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td id="c20">99.985</td><td id="c0">0.015</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.003</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td id="c20">99.981</td><td id="c0">0.019</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.001</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td id="c20">99.982</td><td id="c0">0.018</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.003</td></tr>
 </table>
 <p>Insert response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -728,6 +751,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.833</td><td id="c0">0.167</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.009</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.858</td><td id="c0">0.142</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.008</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td></td><td></td><td id="c20">99.840</td><td id="c0">0.160</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.009</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td></td><td></td><td id="c20">99.847</td><td id="c0">0.153</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.009</td></tr>
 </table>
 <p>Delete response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -765,6 +789,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.965</td><td id="c0">0.035</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.008</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.972</td><td id="c0">0.028</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.008</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td></td><td></td><td id="c20">99.924</td><td id="c0">0.076</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.008</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td></td><td></td><td id="c20">99.972</td><td id="c0">0.028</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.008</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -778,6 +803,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 797	55928	0	0.0	102.8	7.1	0.000	0.000	0.129	9.148	216314	32.9	3.868	141	21.8	85.3	0.4	0.004	7007	6767	pg1611_o2nofp.cx10a_c24r64
 796	55909	0	0.0	102.3	7.1	0.000	0.000	0.128	9.152	216335	32.9	3.869	141	21.8	85.2	3.7	0.003	7055	6735	pg177_o2nofp.cx10a_c24r64
 797	55134	0	0.0	102.3	7.1	0.000	0.000	0.128	9.146	213220	33.0	3.867	144	21.8	85.3	0.4	0.001	6895	6607	pg181_o2nofp.cx10b_c24r64
+796	55002	0	0.0	102.4	7.1	0.000	0.000	0.129	9.138	212984	33.2	3.872	145	21.8	85.8	0.4	0.003	6927	6671	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>
 Average values from iostat.
@@ -791,6 +817,7 @@ r/s	rkB/s	rrqm/s	%rrqm	r_await	rareq-s	w/s	wkB/s	wrqm/s	%wrqm	w_await	wareq-s	d/
 0.000	0.000	0.000	0.000	0.000	0.000	102.8	7290.4	3.029	3.712	0.093	73.49	0.024	336.1	0.000	0.000	0.001	40.02	0.000	0.000	0.011	0.332		pg1611_o2nofp.cx10a_c24r64
 0.000	0.000	0.000	0.000	0.000	0.000	102.3	7288.9	2.565	3.049	0.087	73.84	0.025	363.3	0.000	0.000	0.001	40.38	0.000	0.000	0.010	0.355		pg177_o2nofp.cx10a_c24r64
 0.000	0.000	0.000	0.000	0.000	0.000	102.3	7288.2	2.704	3.273	0.090	73.98	0.024	327.0	0.000	0.000	0.001	38.03	0.000	0.000	0.010	0.346		pg181_o2nofp.cx10b_c24r64
+0.000	0.000	0.000	0.000	0.000	0.000	102.4	7277.6	2.760	3.575	0.090	73.77	0.002	0.215	0.000	0.000	0.001	0.366	0.000	0.000	0.010	0.352		pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qr500.L3.graph">qr500.L3</h1>
@@ -833,6 +860,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td id="c20">99.994</td><td id="c0">0.006</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.067</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td id="c20">99.994</td><td id="c0">0.005</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.024</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td id="c20">99.994</td><td id="c0">0.006</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.022</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td id="c20">99.994</td><td id="c0">0.006</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.069</td></tr>
 </table>
 <p>Insert response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -870,6 +898,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.511</td><td id="c0">0.325</td><td id="c0">0.164</td><td></td><td></td><td></td><td></td><td></td><td>0.031</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.551</td><td id="c0">0.340</td><td id="c0">0.110</td><td></td><td></td><td></td><td></td><td></td><td>0.030</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td></td><td></td><td id="c20">99.592</td><td id="c0">0.305</td><td id="c0">0.103</td><td></td><td></td><td></td><td></td><td></td><td>0.032</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td></td><td></td><td id="c20">99.526</td><td id="c0">0.308</td><td id="c0">0.166</td><td></td><td></td><td></td><td></td><td></td><td>0.032</td></tr>
 </table>
 <p>Delete response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -901,12 +930,13 @@ table td#cminr { background-color:#81FFA6 }
 <tr>
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg1222_o2nofp.cx10a_c24r64</td><td></td><td id="c6">29.035</td><td id="c14">70.844</td><td id="c0">0.101</td><td id="c0">0.020</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.030</td></tr>
-<tr><td id="c0">pg1322_o2nofp.cx10a_c24r64</td><td></td><td id="c6">31.033</td><td id="c14">68.851</td><td id="c0">0.089</td><td id="c0">0.027</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.029</td></tr>
+<tr><td id="c0">pg1322_o2nofp.cx10a_c24r64</td><td></td><td id="c6">31.033</td><td id="c14">68.851</td><td id="c0">0.089</td><td id="c0">0.027</td><td></td><td></td><td></td><td></td><td></td><td>0.029</td></tr>
 <tr><td id="c0">pg1419_o2nofp.cx10a_c24r64</td><td></td><td id="c6">28.698</td><td id="c14">71.079</td><td id="c0">0.199</td><td id="c0">0.024</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.030</td></tr>
 <tr><td id="c0">pg1515_o2nofp.cx10a_c24r64</td><td></td><td id="c6">30.274</td><td id="c14">69.640</td><td id="c0">0.053</td><td id="c0">0.032</td><td></td><td></td><td></td><td></td><td></td><td>0.028</td></tr>
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td></td><td id="c4">21.471</td><td id="c15">77.376</td><td id="c0">1.123</td><td id="c0">0.031</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.030</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td></td><td id="c5">23.113</td><td id="c15">76.420</td><td id="c0">0.440</td><td id="c0">0.027</td><td></td><td></td><td></td><td></td><td></td><td>0.027</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td></td><td id="c3">15.689</td><td id="c17">83.783</td><td id="c0">0.460</td><td id="c0">0.069</td><td></td><td></td><td></td><td></td><td></td><td>0.028</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td></td><td id="c3">15.134</td><td id="c17">84.438</td><td id="c0">0.303</td><td id="c0">0.124</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.031</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -920,6 +950,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 3982	102482	0	0.0	170.4	10.4	0.000	0.000	0.043	2.672	391917	34.5	3.824	81	21.9	80.4	16.2	0.067	12894	12157	pg1611_o2nofp.cx10a_c24r64
 3984	101930	0	0.0	171.2	10.4	0.000	0.000	0.043	2.680	389362	34.5	3.820	81	22.0	80.4	21.0	0.024	12862	12045	pg177_o2nofp.cx10a_c24r64
 3984	100668	0	0.0	170.4	10.4	0.000	0.000	0.043	2.670	384638	34.4	3.821	82	21.9	80.4	13.1	0.022	12654	11854	pg181_o2nofp.cx10b_c24r64
+3984	100763	0	0.0	170.6	10.4	0.000	0.000	0.043	2.665	384935	34.2	3.820	81	21.9	85.9	3.9	0.069	12606	11838	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>
 Average values from iostat.
@@ -933,6 +964,7 @@ r/s	rkB/s	rrqm/s	%rrqm	r_await	rareq-s	w/s	wkB/s	wrqm/s	%wrqm	w_await	wareq-s	d/
 0.001	0.002	0.000	0.000	0.000	0.011	170.4	10640.4	4.594	2.180	0.152	64.39	0.203	2907.2	0.000	0.000	0.006	50.82	0.000	0.000	0.038	0.528		pg1611_o2nofp.cx10a_c24r64
 0.000	0.000	0.000	0.000	0.000	0.000	171.2	10677.8	4.633	2.336	0.143	64.17	0.193	2895.6	0.000	0.000	0.001	83.14	0.000	0.000	0.035	0.536		pg177_o2nofp.cx10a_c24r64
 0.000	0.000	0.000	0.000	0.000	0.000	170.4	10639.1	4.290	2.173	0.149	64.06	0.188	2895.6	0.000	0.000	0.003	42.87	0.000	0.000	0.036	0.543		pg181_o2nofp.cx10b_c24r64
+0.000	0.000	0.000	0.000	0.000	0.000	170.6	10617.7	3.452	2.276	0.153	63.36	0.002	0.937	0.000	0.000	0.003	4.554	0.000	0.000	0.041	0.556		pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qp500.L4.graph">qp500.L4</h1>
@@ -975,6 +1007,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td id="c20">99.964</td><td id="c0">0.036</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td>0.079</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td id="c20">99.969</td><td id="c0">0.030</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.017</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td id="c20">99.967</td><td id="c0">0.033</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.020</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td id="c20">99.967</td><td id="c0">0.033</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.023</td></tr>
 </table>
 <p>Insert response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -1012,6 +1045,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.617</td><td id="c0">0.287</td><td id="c0">0.097</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.031</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.612</td><td id="c0">0.292</td><td id="c0">0.097</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.023</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td></td><td></td><td id="c20">99.617</td><td id="c0">0.299</td><td id="c0">0.085</td><td></td><td></td><td></td><td></td><td></td><td>0.037</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td></td><td></td><td id="c20">99.598</td><td id="c0">0.250</td><td id="c0">0.152</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.029</td></tr>
 </table>
 <p>Delete response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -1049,6 +1083,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td></td><td id="c4">19.472</td><td id="c16">79.778</td><td id="c0">0.737</td><td id="c0">0.013</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.030</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td></td><td id="c4">22.343</td><td id="c15">77.137</td><td id="c0">0.512</td><td id="c0">0.008</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.021</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td></td><td id="c4">17.674</td><td id="c16">82.092</td><td id="c0">0.185</td><td id="c0">0.049</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.027</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td></td><td id="c4">18.837</td><td id="c16">80.886</td><td id="c0">0.189</td><td id="c0">0.088</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.028</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -1062,6 +1097,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 3982	55184	0	0.0	104.3	10.9	0.000	0.000	0.026	2.800	214106	34.0	3.880	148	22.0	76.2	8.3	0.079	6927	6687	pg1611_o2nofp.cx10a_c24r64
 3984	55242	0	0.0	104.4	10.9	0.000	0.000	0.026	2.801	213946	34.0	3.873	148	22.0	76.2	3.5	0.017	6943	6687	pg177_o2nofp.cx10a_c24r64
 3982	54378	0	0.0	106.7	10.9	0.000	0.000	0.027	2.813	210871	33.9	3.878	150	22.0	76.2	0.3	0.020	6847	6575	pg181_o2nofp.cx10b_c24r64
+3984	54373	0	0.0	106.7	10.9	0.000	0.000	0.027	2.808	210934	34.0	3.879	150	21.9	86.0	2.3	0.023	6847	6623	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>
 Average values from iostat.
@@ -1075,6 +1111,7 @@ r/s	rkB/s	rrqm/s	%rrqm	r_await	rareq-s	w/s	wkB/s	wrqm/s	%wrqm	w_await	wareq-s	d/
 0.001	0.007	0.000	0.000	0.000	0.033	104.3	11149.8	4.529	3.031	0.168	108.6	0.181	2484.9	0.000	0.000	0.008	99.46	0.000	0.000	0.030	0.520		pg1611_o2nofp.cx10a_c24r64
 0.000	0.000	0.000	0.000	0.000	0.000	104.4	11160.6	4.368	2.959	0.165	108.1	0.165	2460.1	0.000	0.000	0.001	83.43	0.000	0.000	0.027	0.540		pg177_o2nofp.cx10a_c24r64
 0.000	0.000	0.000	0.000	0.000	0.000	106.7	11204.1	4.302	2.852	0.163	105.9	0.166	2478.2	0.000	0.000	0.004	76.12	0.000	0.000	0.028	0.530		pg181_o2nofp.cx10b_c24r64
+0.000	0.000	0.000	0.000	0.000	0.000	106.7	11190.2	3.568	2.716	0.173	106.0	0.003	1.571	0.000	0.000	0.004	7.176	0.000	0.000	0.032	0.553		pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qr1000.L5.graph">qr1000.L5</h1>
@@ -1117,6 +1154,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td id="c20">99.991</td><td id="c0">0.008</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cminr">0.076</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td id="c20">99.993</td><td id="c0">0.007</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td>0.093</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td id="c20">99.992</td><td id="c0">0.007</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td>0.098</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td id="c20">99.992</td><td id="c0">0.007</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td>0.091</td></tr>
 </table>
 <p>Insert response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -1154,6 +1192,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.581</td><td id="c0">0.326</td><td id="c0">0.093</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.025</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.611</td><td id="c0">0.302</td><td id="c0">0.087</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.029</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td></td><td></td><td id="c20">99.653</td><td id="c0">0.257</td><td id="c0">0.090</td><td></td><td></td><td></td><td></td><td></td><td>0.033</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td></td><td></td><td id="c20">99.614</td><td id="c0">0.259</td><td id="c0">0.126</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.043</td></tr>
 </table>
 <p>Delete response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -1184,13 +1223,14 @@ table td#cminr { background-color:#81FFA6 }
 <table border="1" cellpadding="8" >
 <tr>
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
-<tr><td id="c0">pg1222_o2nofp.cx10a_c24r64</td><td></td><td id="c5">25.356</td><td id="c15">74.474</td><td id="c0">0.141</td><td id="c0">0.028</td><td></td><td></td><td></td><td></td><td></td><td>0.024</td></tr>
+<tr><td id="c0">pg1222_o2nofp.cx10a_c24r64</td><td></td><td id="c5">25.356</td><td id="c15">74.474</td><td id="c0">0.141</td><td id="c0">0.028</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.024</td></tr>
 <tr><td id="c0">pg1322_o2nofp.cx10a_c24r64</td><td></td><td id="c5">24.006</td><td id="c15">75.776</td><td id="c0">0.191</td><td id="c0">0.027</td><td></td><td></td><td></td><td></td><td></td><td>0.028</td></tr>
 <tr><td id="c0">pg1419_o2nofp.cx10a_c24r64</td><td></td><td id="c5">25.149</td><td id="c15">74.616</td><td id="c0">0.177</td><td id="c0">0.057</td><td></td><td></td><td></td><td></td><td></td><td>0.028</td></tr>
-<tr><td id="c0">pg1515_o2nofp.cx10a_c24r64</td><td></td><td id="c5">25.438</td><td id="c15">74.360</td><td id="c0">0.156</td><td id="c0">0.047</td><td></td><td></td><td></td><td></td><td></td><td>0.026</td></tr>
-<tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td></td><td id="c3">15.901</td><td id="c17">83.640</td><td id="c0">0.410</td><td id="c0">0.049</td><td></td><td></td><td></td><td></td><td></td><td>0.025</td></tr>
+<tr><td id="c0">pg1515_o2nofp.cx10a_c24r64</td><td></td><td id="c5">25.438</td><td id="c15">74.360</td><td id="c0">0.156</td><td id="c0">0.047</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.026</td></tr>
+<tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td></td><td id="c3">15.901</td><td id="c17">83.640</td><td id="c0">0.410</td><td id="c0">0.049</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.025</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td></td><td id="c4">19.389</td><td id="c16">80.202</td><td id="c0">0.353</td><td id="c0">0.056</td><td></td><td></td><td></td><td></td><td></td><td>0.028</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td></td><td id="c4">20.899</td><td id="c16">78.822</td><td id="c0">0.236</td><td id="c0">0.044</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.030</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td></td><td id="c4">21.730</td><td id="c16">77.981</td><td id="c0">0.217</td><td id="c0">0.072</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.032</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -1204,6 +1244,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 7969	101642	0	0.0	126.4	13.9	0.000	0.000	0.016	1.783	388068	35.9	3.818	85	22.0	72.7	6.2	0.076	12766	11982	pg1611_o2nofp.cx10a_c24r64
 7965	101118	0	0.0	127.5	13.9	0.000	0.000	0.016	1.789	386416	35.8	3.821	85	22.0	72.7	4.4	0.093	12670	11838	pg177_o2nofp.cx10a_c24r64
 7965	99674	0	0.0	129.8	14.1	0.000	0.000	0.016	1.812	381247	35.8	3.825	86	21.9	72.6	0.5	0.098	12526	11742	pg181_o2nofp.cx10b_c24r64
+7965	100005	0	0.0	131.0	14.2	0.000	0.000	0.016	1.821	381559	35.8	3.815	86	21.9	86.0	0.5	0.091	12542	11823	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>
 Average values from iostat.
@@ -1217,6 +1258,7 @@ r/s	rkB/s	rrqm/s	%rrqm	r_await	rareq-s	w/s	wkB/s	wrqm/s	%wrqm	w_await	wareq-s	d/
 0.001	0.004	0.000	0.000	0.000	0.022	126.4	14207.2	4.794	2.740	0.160	114.3	0.156	2085.7	0.000	0.000	0.002	107.8	0.000	0.000	0.035	0.666		pg1611_o2nofp.cx10a_c24r64
 0.000	0.000	0.000	0.000	0.000	0.000	127.5	14246.0	4.683	2.496	0.160	113.3	0.143	2128.6	0.000	0.000	0.006	177.9	0.000	0.000	0.035	0.659		pg177_o2nofp.cx10a_c24r64
 0.000	0.000	0.000	0.000	0.000	0.000	129.8	14435.2	4.668	2.712	0.161	112.9	0.141	2127.1	0.000	0.000	0.005	248.8	0.000	0.000	0.044	0.667		pg181_o2nofp.cx10b_c24r64
+0.000	0.000	0.000	0.000	0.000	0.000	131.0	14504.6	4.142	2.673	0.161	112.2	0.008	57.68	0.000	0.000	0.006	154.4	0.000	0.000	0.049	0.668		pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qp1000.L6.graph">qp1000.L6</h1>
@@ -1259,6 +1301,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td id="c20">99.944</td><td id="c0">0.056</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.090</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td id="c20">99.950</td><td id="c0">0.050</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.086</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td id="c20">99.944</td><td id="c0">0.056</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.074</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td id="c20">99.941</td><td id="c0">0.058</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td>nonzero</td><td></td><td></td><td></td><td></td><td id="cmaxr">0.078</td></tr>
 </table>
 <p>Insert response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -1290,12 +1333,13 @@ table td#cminr { background-color:#81FFA6 }
 <tr>
 <th>dbms</th><th>256us</th><th>1ms</th><th>4ms</th><th>16ms</th><th>64ms</th><th>256ms</th><th>1s</th><th>4s</th><th>16s</th><th>gt</th><th>max</th></tr>
 <tr><td id="c0">pg1222_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.682</td><td id="c0">0.241</td><td id="c0">0.077</td><td></td><td></td><td></td><td></td><td></td><td>0.038</td></tr>
-<tr><td id="c0">pg1322_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.653</td><td id="c0">0.260</td><td id="c0">0.086</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.037</td></tr>
+<tr><td id="c0">pg1322_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.653</td><td id="c0">0.260</td><td id="c0">0.086</td><td></td><td></td><td></td><td></td><td></td><td>0.037</td></tr>
 <tr><td id="c0">pg1419_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.770</td><td id="c0">0.153</td><td id="c0">0.077</td><td></td><td></td><td></td><td></td><td></td><td>0.044</td></tr>
 <tr><td id="c0">pg1515_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.698</td><td id="c0">0.201</td><td id="c0">0.101</td><td></td><td></td><td></td><td></td><td></td><td id="cmaxr">0.058</td></tr>
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.733</td><td id="c0">0.199</td><td id="c0">0.068</td><td></td><td></td><td></td><td></td><td></td><td>0.038</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td></td><td></td><td id="c20">99.680</td><td id="c0">0.211</td><td id="c0">0.108</td><td></td><td></td><td></td><td></td><td></td><td>0.047</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td></td><td></td><td id="c20">99.729</td><td id="c0">0.211</td><td id="c0">0.060</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.030</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td></td><td></td><td id="c20">99.632</td><td id="c0">0.259</td><td id="c0">0.109</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.029</td></tr>
 </table>
 <p>Delete response time histogram: each cell has the percentage of responses that take <= the time in the header and <b>max</b> is the max response time in seconds. For <b>max</b> values in the top 25&#37; of the range have a red background and in the bottom 25&#37; of the range have a green background. The red background is not used when the min value is within 80&#37 of the max value.</p><style type="text/css">
 table td#c0 { background-color:#fefefe }
@@ -1333,6 +1377,7 @@ table td#cminr { background-color:#81FFA6 }
 <tr><td id="c0">pg1611_o2nofp.cx10a_c24r64</td><td></td><td id="c4">21.678</td><td id="c16">77.763</td><td id="c0">0.494</td><td id="c0">0.066</td><td></td><td></td><td></td><td></td><td></td><td>0.037</td></tr>
 <tr><td id="c0">pg177_o2nofp.cx10a_c24r64</td><td></td><td id="c5">24.240</td><td id="c15">75.022</td><td id="c0">0.660</td><td id="c0">0.077</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.031</td></tr>
 <tr><td id="c0">pg181_o2nofp.cx10b_c24r64</td><td></td><td id="c4">21.577</td><td id="c16">77.675</td><td id="c0">0.706</td><td id="c0">0.042</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.025</td></tr>
+<tr><td id="c0">pg181_o2nofp.cx10b_walsize_c24r64</td><td></td><td id="c4">21.530</td><td id="c15">77.285</td><td id="c0">1.101</td><td id="c0">0.084</td><td></td><td></td><td></td><td></td><td></td><td id="cminr">0.028</td></tr>
 </table>
 <p>
 Performance metrics for the DBMS listed above. Some are normalized by throughput, others are not. Legend for results <a href="https://mdcallag.github.io/ibench-results.html">is here</a>.
@@ -1346,6 +1391,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 7969	54513	0	0.0	128.9	14.2	0.000	0.000	0.016	1.829	212137	35.3	3.892	155	22.0	70.3	7.3	0.090	6799	6527	pg1611_o2nofp.cx10a_c24r64
 7965	54625	0	0.0	128.8	14.2	0.000	0.000	0.016	1.820	211959	35.2	3.880	155	22.1	70.3	2.0	0.086	6847	6591	pg177_o2nofp.cx10a_c24r64
 7969	53849	0	0.0	128.0	14.0	0.000	0.000	0.016	1.803	209127	35.3	3.884	157	22.0	70.3	4.9	0.074	6783	6495	pg181_o2nofp.cx10b_c24r64
+7965	53672	0	0.0	127.7	14.0	0.000	0.000	0.016	1.797	208566	35.3	3.886	158	22.0	86.0	7.4	0.078	6751	6446	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>
 Average values from iostat.
@@ -1359,6 +1405,7 @@ r/s	rkB/s	rrqm/s	%rrqm	r_await	rareq-s	w/s	wkB/s	wrqm/s	%wrqm	w_await	wareq-s	d/
 0.000	0.000	0.000	0.000	0.000	0.000	128.9	14571.5	5.070	2.899	0.159	113.1	0.115	1417.6	0.000	0.000	0.007	112.6	0.000	0.000	0.046	0.680		pg1611_o2nofp.cx10a_c24r64
 0.000	0.000	0.000	0.000	0.000	0.000	128.8	14495.7	4.812	2.668	0.166	112.9	0.095	1398.9	0.000	0.000	0.002	66.12	0.000	0.000	0.062	0.702		pg177_o2nofp.cx10a_c24r64
 0.000	0.000	0.000	0.000	0.000	0.000	128.0	14367.8	5.008	2.708	0.163	112.6	0.090	1372.5	0.000	0.000	0.002	69.76	0.000	0.000	0.033	0.665		pg181_o2nofp.cx10b_c24r64
+0.000	0.000	0.000	0.000	0.000	0.000	127.7	14314.5	4.781	2.872	0.179	112.8	0.005	30.79	0.000	0.000	0.002	107.2	0.000	0.000	0.044	0.672		pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="l.i0.metrics">l.i0</h1>
@@ -1375,6 +1422,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 661157	0	1	0.0	2462.5	284.6	0.000	0.000	0.004	0.441	71330	46.1	0.108	17	7.7	20.7	5.1	0.075	96489	78589	pg1611_o2nofp.cx10a_c24r64
 655738	0	0	0.0	2441.3	282.8	0.000	0.000	0.004	0.442	63363	45.7	0.097	17	7.7	20.7	0.2	0.167	95587	78392	pg177_o2nofp.cx10a_c24r64
 655738	0	0	0.0	2436.5	283.3	0.000	0.000	0.004	0.442	63331	45.8	0.097	17	7.7	20.7	0.2	0.165	95588	64192	pg181_o2nofp.cx10b_c24r64
+661157	0	1	0.0	2472.7	284.1	0.000	0.000	0.004	0.440	63741	46.0	0.096	17	7.7	20.7	0.2	0.070	95288	83789	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="l.x.metrics">l.x</h1>
@@ -1391,6 +1439,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 1379312	0	1	0.0	3283.2	371.6	0.000	0.000	0.002	0.276	5722	25.0	0.004	4	15.4	35.5	6.7	0.003	NA	NA	pg1611_o2nofp.cx10a_c24r64
 1379312	0	0	0.0	3862.3	438.7	0.000	0.000	0.003	0.326	3626	24.1	0.003	4	15.4	35.4	6.1	0.003	NA	NA	pg177_o2nofp.cx10a_c24r64
 1403510	0	0	0.0	3758.5	426.6	0.000	0.000	0.003	0.311	3709	23.8	0.003	4	15.4	35.4	6.7	0.003	NA	NA	pg181_o2nofp.cx10b_c24r64
+1428573	0	1	0.0	3851.0	436.9	0.000	0.000	0.003	0.313	3900	23.8	0.003	4	15.4	35.4	6.7	0.003	NA	NA	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="l.i1.metrics">l.i1</h1>
@@ -1407,6 +1456,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 159800	0	0	0.0	1910.2	224.5	0.000	0.000	0.012	1.439	82404	61.0	0.516	92	21.6	85.7	14.0	0.074	19847	4149	pg1611_o2nofp.cx10a_c24r64
 164313	0	0	0.0	1968.9	231.0	0.000	0.000	0.012	1.440	75298	60.4	0.458	88	21.6	85.7	15.2	0.095	18148	4249	pg177_o2nofp.cx10a_c24r64
 162643	0	0	0.0	1974.2	230.1	0.000	0.000	0.012	1.449	74951	60.3	0.461	89	21.6	85.7	10.9	0.089	16898	4949	pg181_o2nofp.cx10b_c24r64
+164102	0	0	0.0	1977.8	231.4	0.000	0.000	0.012	1.444	75700	61.4	0.461	90	21.6	85.6	11.9	0.098	17897	4999	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="l.i2.metrics">l.i2</h1>
@@ -1423,6 +1473,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 26913	0	0	0.0	221.0	26.5	0.000	0.000	0.008	1.009	132588	42.6	4.926	380	21.8	85.9	7.2	0.002	3060	1715	pg1611_o2nofp.cx10a_c24r64
 27119	0	0	0.0	222.7	26.7	0.000	0.000	0.008	1.007	115426	42.0	4.256	372	21.8	85.9	10.3	0.080	2460	995	pg177_o2nofp.cx10a_c24r64
 26468	0	0	0.0	218.0	26.1	0.000	0.000	0.008	1.011	113515	42.2	4.289	383	21.8	85.9	15.3	0.002	2360	1200	pg181_o2nofp.cx10b_c24r64
+24335	0	0	0.0	200.7	24.0	0.000	0.000	0.008	1.011	104255	40.2	4.284	396	21.8	85.8	15.6	0.071	2150	1280	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qr100.L1.metrics">qr100.L1</h1>
@@ -1439,6 +1490,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 796	105607	0	0.0	35.9	3.7	0.000	0.000	0.045	4.707	403556	33.3	3.821	76	21.8	85.8	1.2	0.002	13326	12765	pg1611_o2nofp.cx10a_c24r64
 797	105289	0	0.0	36.0	3.7	0.000	0.000	0.045	4.711	402179	33.3	3.820	76	21.8	85.8	0.4	0.003	13246	12654	pg177_o2nofp.cx10a_c24r64
 796	103714	0	0.0	36.3	3.7	0.000	0.000	0.046	4.718	396398	33.3	3.822	77	21.8	85.8	0.4	0.002	13038	12413	pg181_o2nofp.cx10b_c24r64
+797	104108	0	0.0	36.0	3.7	0.000	0.000	0.045	4.706	397812	33.3	3.821	77	21.8	85.8	0.0	0.002	13069	12494	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qp100.L2.metrics">qp100.L2</h1>
@@ -1455,6 +1507,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 797	55928	0	0.0	102.8	7.1	0.000	0.000	0.129	9.148	216314	32.9	3.868	141	21.8	85.3	0.4	0.004	7007	6767	pg1611_o2nofp.cx10a_c24r64
 796	55909	0	0.0	102.3	7.1	0.000	0.000	0.128	9.152	216335	32.9	3.869	141	21.8	85.2	3.7	0.003	7055	6735	pg177_o2nofp.cx10a_c24r64
 797	55134	0	0.0	102.3	7.1	0.000	0.000	0.128	9.146	213220	33.0	3.867	144	21.8	85.3	0.4	0.001	6895	6607	pg181_o2nofp.cx10b_c24r64
+796	55002	0	0.0	102.4	7.1	0.000	0.000	0.129	9.138	212984	33.2	3.872	145	21.8	85.8	0.4	0.003	6927	6671	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qr500.L3.metrics">qr500.L3</h1>
@@ -1471,6 +1524,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 3982	102482	0	0.0	170.4	10.4	0.000	0.000	0.043	2.672	391917	34.5	3.824	81	21.9	80.4	16.2	0.067	12894	12157	pg1611_o2nofp.cx10a_c24r64
 3984	101930	0	0.0	171.2	10.4	0.000	0.000	0.043	2.680	389362	34.5	3.820	81	22.0	80.4	21.0	0.024	12862	12045	pg177_o2nofp.cx10a_c24r64
 3984	100668	0	0.0	170.4	10.4	0.000	0.000	0.043	2.670	384638	34.4	3.821	82	21.9	80.4	13.1	0.022	12654	11854	pg181_o2nofp.cx10b_c24r64
+3984	100763	0	0.0	170.6	10.4	0.000	0.000	0.043	2.665	384935	34.2	3.820	81	21.9	85.9	3.9	0.069	12606	11838	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qp500.L4.metrics">qp500.L4</h1>
@@ -1487,6 +1541,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 3982	55184	0	0.0	104.3	10.9	0.000	0.000	0.026	2.800	214106	34.0	3.880	148	22.0	76.2	8.3	0.079	6927	6687	pg1611_o2nofp.cx10a_c24r64
 3984	55242	0	0.0	104.4	10.9	0.000	0.000	0.026	2.801	213946	34.0	3.873	148	22.0	76.2	3.5	0.017	6943	6687	pg177_o2nofp.cx10a_c24r64
 3982	54378	0	0.0	106.7	10.9	0.000	0.000	0.027	2.813	210871	33.9	3.878	150	22.0	76.2	0.3	0.020	6847	6575	pg181_o2nofp.cx10b_c24r64
+3984	54373	0	0.0	106.7	10.9	0.000	0.000	0.027	2.808	210934	34.0	3.879	150	21.9	86.0	2.3	0.023	6847	6623	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qr1000.L5.metrics">qr1000.L5</h1>
@@ -1503,6 +1558,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 7969	101642	0	0.0	126.4	13.9	0.000	0.000	0.016	1.783	388068	35.9	3.818	85	22.0	72.7	6.2	0.076	12766	11982	pg1611_o2nofp.cx10a_c24r64
 7965	101118	0	0.0	127.5	13.9	0.000	0.000	0.016	1.789	386416	35.8	3.821	85	22.0	72.7	4.4	0.093	12670	11838	pg177_o2nofp.cx10a_c24r64
 7965	99674	0	0.0	129.8	14.1	0.000	0.000	0.016	1.812	381247	35.8	3.825	86	21.9	72.6	0.5	0.098	12526	11742	pg181_o2nofp.cx10b_c24r64
+7965	100005	0	0.0	131.0	14.2	0.000	0.000	0.016	1.821	381559	35.8	3.815	86	21.9	86.0	0.5	0.091	12542	11823	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qp1000.L6.metrics">qp1000.L6</h1>
@@ -1519,6 +1575,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 7969	54513	0	0.0	128.9	14.2	0.000	0.000	0.016	1.829	212137	35.3	3.892	155	22.0	70.3	7.3	0.090	6799	6527	pg1611_o2nofp.cx10a_c24r64
 7965	54625	0	0.0	128.8	14.2	0.000	0.000	0.016	1.820	211959	35.2	3.880	155	22.1	70.3	2.0	0.086	6847	6591	pg177_o2nofp.cx10a_c24r64
 7969	53849	0	0.0	128.0	14.0	0.000	0.000	0.016	1.803	209127	35.3	3.884	157	22.0	70.3	4.9	0.074	6783	6495	pg181_o2nofp.cx10b_c24r64
+7965	53672	0	0.0	127.7	14.0	0.000	0.000	0.016	1.797	208566	35.3	3.886	158	22.0	86.0	7.4	0.078	6751	6446	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="l.i0.rt">l.i0</h1>
@@ -1539,6 +1596,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	37.939	61.995	0.040	0.025	0.001	0.000	0.000	0.000	0.000	0.075	pg1611_o2nofp.cx10a_c24r64
 0.000	28.680	71.272	0.020	0.024	0.004	0.000	0.000	0.000	0.000	0.167	pg177_o2nofp.cx10a_c24r64
 0.000	30.006	69.944	0.022	0.020	0.009	0.000	0.000	0.000	0.000	0.165	pg181_o2nofp.cx10b_c24r64
+0.000	26.481	73.458	0.050	0.011	0.001	0.000	0.000	0.000	0.000	0.070	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="l.x.rt">l.x</h1>
@@ -1569,6 +1627,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	0.000	99.696	0.178	0.126	nonzero	0.000	0.000	0.000	0.000	0.074	pg1611_o2nofp.cx10a_c24r64
 0.000	0.000	99.628	0.225	0.147	nonzero	0.000	0.000	0.000	0.000	0.095	pg177_o2nofp.cx10a_c24r64
 0.000	0.000	99.704	0.185	0.110	0.001	0.000	0.000	0.000	0.000	0.089	pg181_o2nofp.cx10b_c24r64
+0.000	0.000	99.659	0.206	0.134	0.001	0.000	0.000	0.000	0.000	0.098	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>Delete response time histogram</p>
 <pre>
@@ -1580,6 +1639,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	16.831	78.282	4.757	0.130	nonzero	0.000	0.000	0.000	0.000	0.075	pg1611_o2nofp.cx10a_c24r64
 0.000	15.785	79.922	4.148	0.145	nonzero	0.000	0.000	0.000	0.000	0.094	pg177_o2nofp.cx10a_c24r64
 0.000	13.214	83.440	3.226	0.119	0.001	0.000	0.000	0.000	0.000	0.090	pg181_o2nofp.cx10b_c24r64
+0.000	13.911	81.922	4.035	0.131	0.001	0.000	0.000	0.000	0.000	0.098	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="l.i2.rt">l.i2</h1>
@@ -1600,6 +1660,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 15.511	84.488	0.001	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.002	pg1611_o2nofp.cx10a_c24r64
 24.554	75.446	0.001	0.000	0.000	nonzero	0.000	0.000	0.000	0.000	0.080	pg177_o2nofp.cx10a_c24r64
 26.150	73.850	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.002	pg181_o2nofp.cx10b_c24r64
+23.519	76.480	0.001	0.000	0.000	nonzero	0.000	0.000	0.000	0.000	0.071	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>Delete response time histogram</p>
 <pre>
@@ -1611,6 +1672,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.022	29.932	70.045	0.002	nonzero	0.000	0.000	0.000	0.000	0.000	0.023	pg1611_o2nofp.cx10a_c24r64
 0.062	33.861	65.753	0.324	0.000	nonzero	0.000	0.000	0.000	0.000	0.080	pg177_o2nofp.cx10a_c24r64
 0.005	34.018	65.558	0.420	0.000	0.000	0.000	0.000	0.000	0.000	0.012	pg181_o2nofp.cx10b_c24r64
+0.007	37.998	61.056	0.939	0.000	nonzero	0.000	0.000	0.000	0.000	0.072	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qr100.L1.rt">qr100.L1</h1>
@@ -1631,6 +1693,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 99.998	0.002	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.002	pg1611_o2nofp.cx10a_c24r64
 99.998	0.002	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.003	pg177_o2nofp.cx10a_c24r64
 99.998	0.002	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.002	pg181_o2nofp.cx10b_c24r64
+99.998	0.002	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.002	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>Insert response time histogram</p>
 <pre>
@@ -1642,6 +1705,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	0.000	99.726	0.274	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg1611_o2nofp.cx10a_c24r64
 0.000	0.000	99.802	0.198	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg177_o2nofp.cx10a_c24r64
 0.000	0.000	99.795	0.205	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg181_o2nofp.cx10b_c24r64
+0.000	0.000	99.743	0.257	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>Delete response time histogram</p>
 <pre>
@@ -1653,6 +1717,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	29.927	70.069	0.003	0.000	0.000	0.000	0.000	0.000	0.000	0.004	pg1611_o2nofp.cx10a_c24r64
 0.000	34.497	65.503	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.004	pg177_o2nofp.cx10a_c24r64
 0.000	25.583	74.417	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.003	pg181_o2nofp.cx10b_c24r64
+0.000	26.729	73.271	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.004	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qp100.L2.rt">qp100.L2</h1>
@@ -1673,6 +1738,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 99.981	0.019	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.004	pg1611_o2nofp.cx10a_c24r64
 99.985	0.015	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.003	pg177_o2nofp.cx10a_c24r64
 99.981	0.019	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.001	pg181_o2nofp.cx10b_c24r64
+99.982	0.018	nonzero	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.003	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>Insert response time histogram</p>
 <pre>
@@ -1684,6 +1750,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	0.000	99.833	0.167	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg1611_o2nofp.cx10a_c24r64
 0.000	0.000	99.858	0.142	0.000	0.000	0.000	0.000	0.000	0.000	0.008	pg177_o2nofp.cx10a_c24r64
 0.000	0.000	99.840	0.160	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg181_o2nofp.cx10b_c24r64
+0.000	0.000	99.847	0.153	0.000	0.000	0.000	0.000	0.000	0.000	0.009	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>Delete response time histogram</p>
 <pre>
@@ -1695,6 +1762,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	0.000	99.965	0.035	0.000	0.000	0.000	0.000	0.000	0.000	0.008	pg1611_o2nofp.cx10a_c24r64
 0.000	0.000	99.972	0.028	0.000	0.000	0.000	0.000	0.000	0.000	0.008	pg177_o2nofp.cx10a_c24r64
 0.000	0.000	99.924	0.076	0.000	0.000	0.000	0.000	0.000	0.000	0.008	pg181_o2nofp.cx10b_c24r64
+0.000	0.000	99.972	0.028	0.000	0.000	0.000	0.000	0.000	0.000	0.008	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qr500.L3.rt">qr500.L3</h1>
@@ -1715,6 +1783,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 99.994	0.006	nonzero	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.067	pg1611_o2nofp.cx10a_c24r64
 99.994	0.005	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.000	0.024	pg177_o2nofp.cx10a_c24r64
 99.994	0.006	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.000	0.022	pg181_o2nofp.cx10b_c24r64
+99.994	0.006	nonzero	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.069	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>Insert response time histogram</p>
 <pre>
@@ -1726,6 +1795,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	0.000	99.511	0.325	0.164	0.000	0.000	0.000	0.000	0.000	0.031	pg1611_o2nofp.cx10a_c24r64
 0.000	0.000	99.551	0.340	0.110	0.000	0.000	0.000	0.000	0.000	0.030	pg177_o2nofp.cx10a_c24r64
 0.000	0.000	99.592	0.305	0.103	0.000	0.000	0.000	0.000	0.000	0.032	pg181_o2nofp.cx10b_c24r64
+0.000	0.000	99.526	0.308	0.166	0.000	0.000	0.000	0.000	0.000	0.032	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>Delete response time histogram</p>
 <pre>
@@ -1737,6 +1807,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	21.471	77.376	1.123	0.031	0.000	0.000	0.000	0.000	0.000	0.030	pg1611_o2nofp.cx10a_c24r64
 0.000	23.113	76.420	0.440	0.027	0.000	0.000	0.000	0.000	0.000	0.027	pg177_o2nofp.cx10a_c24r64
 0.000	15.689	83.783	0.460	0.069	0.000	0.000	0.000	0.000	0.000	0.028	pg181_o2nofp.cx10b_c24r64
+0.000	15.134	84.438	0.303	0.124	0.000	0.000	0.000	0.000	0.000	0.031	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qp500.L4.rt">qp500.L4</h1>
@@ -1757,6 +1828,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 99.964	0.036	nonzero	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.079	pg1611_o2nofp.cx10a_c24r64
 99.969	0.030	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.000	0.017	pg177_o2nofp.cx10a_c24r64
 99.967	0.033	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.000	0.020	pg181_o2nofp.cx10b_c24r64
+99.967	0.033	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.000	0.023	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>Insert response time histogram</p>
 <pre>
@@ -1768,6 +1840,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	0.000	99.617	0.287	0.097	0.000	0.000	0.000	0.000	0.000	0.031	pg1611_o2nofp.cx10a_c24r64
 0.000	0.000	99.612	0.292	0.097	0.000	0.000	0.000	0.000	0.000	0.023	pg177_o2nofp.cx10a_c24r64
 0.000	0.000	99.617	0.299	0.085	0.000	0.000	0.000	0.000	0.000	0.037	pg181_o2nofp.cx10b_c24r64
+0.000	0.000	99.598	0.250	0.152	0.000	0.000	0.000	0.000	0.000	0.029	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>Delete response time histogram</p>
 <pre>
@@ -1779,6 +1852,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	19.472	79.778	0.737	0.013	0.000	0.000	0.000	0.000	0.000	0.030	pg1611_o2nofp.cx10a_c24r64
 0.000	22.343	77.137	0.512	0.008	0.000	0.000	0.000	0.000	0.000	0.021	pg177_o2nofp.cx10a_c24r64
 0.000	17.674	82.092	0.185	0.049	0.000	0.000	0.000	0.000	0.000	0.027	pg181_o2nofp.cx10b_c24r64
+0.000	18.837	80.886	0.189	0.088	0.000	0.000	0.000	0.000	0.000	0.028	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qr1000.L5.rt">qr1000.L5</h1>
@@ -1799,6 +1873,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 99.991	0.008	nonzero	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.076	pg1611_o2nofp.cx10a_c24r64
 99.993	0.007	nonzero	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.093	pg177_o2nofp.cx10a_c24r64
 99.992	0.007	nonzero	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.098	pg181_o2nofp.cx10b_c24r64
+99.992	0.007	nonzero	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.091	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>Insert response time histogram</p>
 <pre>
@@ -1810,6 +1885,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	0.000	99.581	0.326	0.093	0.000	0.000	0.000	0.000	0.000	0.025	pg1611_o2nofp.cx10a_c24r64
 0.000	0.000	99.611	0.302	0.087	0.000	0.000	0.000	0.000	0.000	0.029	pg177_o2nofp.cx10a_c24r64
 0.000	0.000	99.653	0.257	0.090	0.000	0.000	0.000	0.000	0.000	0.033	pg181_o2nofp.cx10b_c24r64
+0.000	0.000	99.614	0.259	0.126	0.000	0.000	0.000	0.000	0.000	0.043	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>Delete response time histogram</p>
 <pre>
@@ -1821,6 +1897,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	15.901	83.640	0.410	0.049	0.000	0.000	0.000	0.000	0.000	0.025	pg1611_o2nofp.cx10a_c24r64
 0.000	19.389	80.202	0.353	0.056	0.000	0.000	0.000	0.000	0.000	0.028	pg177_o2nofp.cx10a_c24r64
 0.000	20.899	78.822	0.236	0.044	0.000	0.000	0.000	0.000	0.000	0.030	pg181_o2nofp.cx10b_c24r64
+0.000	21.730	77.981	0.217	0.072	0.000	0.000	0.000	0.000	0.000	0.032	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <hr />
 <h1 id="qp1000.L6.rt">qp1000.L6</h1>
@@ -1841,6 +1918,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 99.944	0.056	nonzero	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.090	pg1611_o2nofp.cx10a_c24r64
 99.950	0.050	nonzero	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.086	pg177_o2nofp.cx10a_c24r64
 99.944	0.056	nonzero	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.074	pg181_o2nofp.cx10b_c24r64
+99.941	0.058	nonzero	nonzero	nonzero	nonzero	0.000	0.000	0.000	0.000	0.078	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>Insert response time histogram</p>
 <pre>
@@ -1852,6 +1930,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	0.000	99.733	0.199	0.068	0.000	0.000	0.000	0.000	0.000	0.038	pg1611_o2nofp.cx10a_c24r64
 0.000	0.000	99.680	0.211	0.108	0.000	0.000	0.000	0.000	0.000	0.047	pg177_o2nofp.cx10a_c24r64
 0.000	0.000	99.729	0.211	0.060	0.000	0.000	0.000	0.000	0.000	0.030	pg181_o2nofp.cx10b_c24r64
+0.000	0.000	99.632	0.259	0.109	0.000	0.000	0.000	0.000	0.000	0.029	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 <p>Delete response time histogram</p>
 <pre>
@@ -1863,6 +1942,7 @@ ips	qps	rps	rmbps	wps	wmbps	rpq	rkbpq	wpi	wkbpi	csps	cpups	cspq	cpupq	dbgb1	dbgb
 0.000	21.678	77.763	0.494	0.066	0.000	0.000	0.000	0.000	0.000	0.037	pg1611_o2nofp.cx10a_c24r64
 0.000	24.240	75.022	0.660	0.077	0.000	0.000	0.000	0.000	0.000	0.031	pg177_o2nofp.cx10a_c24r64
 0.000	21.577	77.675	0.706	0.042	0.000	0.000	0.000	0.000	0.000	0.025	pg181_o2nofp.cx10b_c24r64
+0.000	21.530	77.285	1.101	0.084	0.000	0.000	0.000	0.000	0.000	0.028	pg181_o2nofp.cx10b_walsize_c24r64
 </pre>
 </body>
 </html>

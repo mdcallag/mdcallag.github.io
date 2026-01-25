@@ -5,3 +5,4 @@
 <tr><td>pg1611_o2nofp.cx10a_c32r128</td> <td>0.99</td><td>1.02</td><td>0.98</td><td id="clo">0.94</td><td>1.01</td><td>1.00</td><td>1.01</td><td>1.00</td><td>1.01</td><td>1.00</td></tr>
 <tr><td>pg177_o2nofp.cx10a_c32r128</td> <td>0.98</td><td id="chi">1.06</td><td>1.00</td><td>0.98</td><td>1.02</td><td>1.00</td><td>1.02</td><td>0.99</td><td>1.02</td><td>0.99</td></tr>
 <tr><td>pg181_o2nofp.cx10b_c32r128</td> <td>0.99</td><td id="chi">1.06</td><td>1.01</td><td>0.95</td><td>1.02</td><td>0.99</td><td>1.02</td><td>0.99</td><td>1.02</td><td>0.99</td></tr>
+<tr><td>pg181_o2nofp.cx10b_walsize_c32r128</td> <td id="clo">0.84</td><td id="clo">0.88</td><td id="clo">0.82</td><td id="clo">0.93</td><td>1.00</td><td>0.99</td><td>1.00</td><td>0.99</td><td>1.01</td><td>0.99</td></tr>

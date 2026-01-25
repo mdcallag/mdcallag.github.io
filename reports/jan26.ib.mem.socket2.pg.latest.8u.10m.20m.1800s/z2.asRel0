@@ -5,3 +5,4 @@
 <tr><td>pg1611_o2nofp.cx10a_c24r64</td> <td id="cmax">661157</td><td>1379312</td><td>159800</td><td>26913</td><td id="cmax">105607</td><td id="cmax">55928</td><td id="cmax">102482</td><td id="cmax">55184</td><td id="cmax">101642</td><td id="cmax">54513</td></tr>
 <tr><td>pg177_o2nofp.cx10a_c24r64</td> <td>655738</td><td>1379312</td><td>164313</td><td>27119</td><td id="cmax">105289</td><td id="cmax">55909</td><td>101930</td><td id="cmax">55242</td><td>101118</td><td id="cmax">54625</td></tr>
 <tr><td>pg181_o2nofp.cx10b_c24r64</td> <td>655738</td><td>1403510</td><td>162643</td><td>26468</td><td>103714</td><td>55134</td><td>100668</td><td>54378</td><td>99674</td><td>53849</td></tr>
+<tr><td>pg181_o2nofp.cx10b_walsize_c24r64</td> <td id="cmax">661157</td><td id="cmax">1428573</td><td>164102</td><td>24335</td><td>104108</td><td>55002</td><td>100763</td><td>54373</td><td>100005</td><td>53672</td></tr>
