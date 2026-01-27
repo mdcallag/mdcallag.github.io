@@ -1,0 +1,27 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>qr100.L1</th><th>qp100.L2</th><th>qr500.L3</th><th>qp500.L4</th><th>qr1000.L5</th><th>qp1000.L6</th></tr>
+<tr><td>ma100244_rel_withdbg.cz12a_c32r128</td><td>1987</td><td>1987</td><td id="cmin">590</td><td id="cmin">4741</td><td id="cmin">826</td><td id="cmin">5478</td></tr>
+<tr><td>ma100339_rel_withdbg.cz12a_c32r128</td><td>1987</td><td>1987</td><td id="cmin">7888</td><td id="cmin">5494</td><td id="cmin">6630</td><td id="cmin">5976</td></tr>
+<tr><td>ma100434_rel_withdbg.cz12a_c32r128</td><td>1987</td><td>1987</td><td id="cmin">2211</td><td id="cmin">5621</td><td id="cmin">2110</td><td id="cmin">5841</td></tr>
+<tr><td>ma100529_rel_withdbg.cz12a_c32r128</td><td>1987</td><td>1987</td><td id="cmin">6073</td><td id="cmin">4017</td><td id="cmin">6516</td><td id="cmin">3954</td></tr>
+<tr><td>ma100624_rel_withdbg.cz12a_c32r128</td><td>1987</td><td>1987</td><td>9936</td><td id="cmin">9451</td><td id="cmin">9082</td><td id="cmin">7324</td></tr>
+<tr><td>ma100624_rel_withdbg.cz12a_cb_c32r128</td><td>1987</td><td>1987</td><td>9936</td><td>9936</td><td id="cmin">17033</td><td id="cmin">8210</td></tr>
+<tr><td>ma101115_rel_withdbg.cz12a_c32r128</td><td>1987</td><td>1987</td><td>9936</td><td id="cmin">5906</td><td id="cmin">7637</td><td id="cmin">6253</td></tr>
+<tr><td>ma110409_rel_withdbg.cz12b_c32r128</td><td>1987</td><td>1987</td><td>9934</td><td id="cmin">5729</td><td id="cmin">7580</td><td id="cmin">5873</td></tr>
+<tr><td>ma110805_rel_withdbg.cz12b_c32r128</td><td>1987</td><td>1988</td><td>9936</td><td id="cmin">5848</td><td id="cmin">7774</td><td id="cmin">6304</td></tr>
+<tr><td>ma120102_rel_withdbg.cz12b_c32r128</td><td>1987</td><td>1987</td><td>9934</td><td id="cmin">5947</td><td id="cmin">7744</td><td id="cmin">6196</td></tr>
+<tr><td>ma120201_rel_withdbg.cz12b_c32r128</td><td>1987</td><td>1987</td><td>9934</td><td id="cmin">6046</td><td id="cmin">7680</td><td id="cmin">6300</td></tr>
+<tr><td>target</td><td id=cgray>2000</td><td id=cgray>2000</td><td id=cgray>10000</td><td id=cgray>10000</td><td id=cgray>20000</td><td id=cgray>20000</td>
+</tr>
+</table>

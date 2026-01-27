@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>qp1000.L6 per-second graphs</title>
+</head>
+<body>
+<p>
+These have results per 1-second interval for: insert rate (IPS), max insert reponse time, delete rate (DPS), max delete response time, query rate (QPS) and max query response time.
+The results are from 1 client while the test may have N clients where N > 1.
+Deletes might not have been enabled for this benchmark step, in which case those graphs will show zero values.
+The test is run with a rate limit for the number of inserts/s. In some cases the DBMS is unable to sustain that rate. When a DBMS can sustain that rate IPS will be a horizontal line.
+</p>
+<h1 id=\"toc\">Contents</h1>
+<ul>
+<li>ma100244_rel_withdbg.cz12a_c32r128: <a href="#ma100244_rel_withdbg.cz12a_c32r128.ips">IPS</a>, <a href="#ma100244_rel_withdbg.cz12a_c32r128.imax">max insert response time</a>, <a href="#ma100244_rel_withdbg.cz12a_c32r128.dps">DPS</a>, <a href="#ma100244_rel_withdbg.cz12a_c32r128.dmax">max delete response time</a>, <a href="#ma100244_rel_withdbg.cz12a_c32r128.qps">QPS</a> and <a href="#ma100244_rel_withdbg.cz12a_c32r128.qmax">max query response time</a>
+<li>ma100339_rel_withdbg.cz12a_c32r128: <a href="#ma100339_rel_withdbg.cz12a_c32r128.ips">IPS</a>, <a href="#ma100339_rel_withdbg.cz12a_c32r128.imax">max insert response time</a>, <a href="#ma100339_rel_withdbg.cz12a_c32r128.dps">DPS</a>, <a href="#ma100339_rel_withdbg.cz12a_c32r128.dmax">max delete response time</a>, <a href="#ma100339_rel_withdbg.cz12a_c32r128.qps">QPS</a> and <a href="#ma100339_rel_withdbg.cz12a_c32r128.qmax">max query response time</a>
+<li>ma100434_rel_withdbg.cz12a_c32r128: <a href="#ma100434_rel_withdbg.cz12a_c32r128.ips">IPS</a>, <a href="#ma100434_rel_withdbg.cz12a_c32r128.imax">max insert response time</a>, <a href="#ma100434_rel_withdbg.cz12a_c32r128.dps">DPS</a>, <a href="#ma100434_rel_withdbg.cz12a_c32r128.dmax">max delete response time</a>, <a href="#ma100434_rel_withdbg.cz12a_c32r128.qps">QPS</a> and <a href="#ma100434_rel_withdbg.cz12a_c32r128.qmax">max query response time</a>
+<li>ma100529_rel_withdbg.cz12a_c32r128: <a href="#ma100529_rel_withdbg.cz12a_c32r128.ips">IPS</a>, <a href="#ma100529_rel_withdbg.cz12a_c32r128.imax">max insert response time</a>, <a href="#ma100529_rel_withdbg.cz12a_c32r128.dps">DPS</a>, <a href="#ma100529_rel_withdbg.cz12a_c32r128.dmax">max delete response time</a>, <a href="#ma100529_rel_withdbg.cz12a_c32r128.qps">QPS</a> and <a href="#ma100529_rel_withdbg.cz12a_c32r128.qmax">max query response time</a>
+<li>ma100624_rel_withdbg.cz12a_c32r128: <a href="#ma100624_rel_withdbg.cz12a_c32r128.ips">IPS</a>, <a href="#ma100624_rel_withdbg.cz12a_c32r128.imax">max insert response time</a>, <a href="#ma100624_rel_withdbg.cz12a_c32r128.dps">DPS</a>, <a href="#ma100624_rel_withdbg.cz12a_c32r128.dmax">max delete response time</a>, <a href="#ma100624_rel_withdbg.cz12a_c32r128.qps">QPS</a> and <a href="#ma100624_rel_withdbg.cz12a_c32r128.qmax">max query response time</a>
+<li>ma100624_rel_withdbg.cz12a_cb_c32r128: <a href="#ma100624_rel_withdbg.cz12a_cb_c32r128.ips">IPS</a>, <a href="#ma100624_rel_withdbg.cz12a_cb_c32r128.imax">max insert response time</a>, <a href="#ma100624_rel_withdbg.cz12a_cb_c32r128.dps">DPS</a>, <a href="#ma100624_rel_withdbg.cz12a_cb_c32r128.dmax">max delete response time</a>, <a href="#ma100624_rel_withdbg.cz12a_cb_c32r128.qps">QPS</a> and <a href="#ma100624_rel_withdbg.cz12a_cb_c32r128.qmax">max query response time</a>
+<li>ma101115_rel_withdbg.cz12a_c32r128: <a href="#ma101115_rel_withdbg.cz12a_c32r128.ips">IPS</a>, <a href="#ma101115_rel_withdbg.cz12a_c32r128.imax">max insert response time</a>, <a href="#ma101115_rel_withdbg.cz12a_c32r128.dps">DPS</a>, <a href="#ma101115_rel_withdbg.cz12a_c32r128.dmax">max delete response time</a>, <a href="#ma101115_rel_withdbg.cz12a_c32r128.qps">QPS</a> and <a href="#ma101115_rel_withdbg.cz12a_c32r128.qmax">max query response time</a>
+<li>ma110409_rel_withdbg.cz12b_c32r128: <a href="#ma110409_rel_withdbg.cz12b_c32r128.ips">IPS</a>, <a href="#ma110409_rel_withdbg.cz12b_c32r128.imax">max insert response time</a>, <a href="#ma110409_rel_withdbg.cz12b_c32r128.dps">DPS</a>, <a href="#ma110409_rel_withdbg.cz12b_c32r128.dmax">max delete response time</a>, <a href="#ma110409_rel_withdbg.cz12b_c32r128.qps">QPS</a> and <a href="#ma110409_rel_withdbg.cz12b_c32r128.qmax">max query response time</a>
+<li>ma110805_rel_withdbg.cz12b_c32r128: <a href="#ma110805_rel_withdbg.cz12b_c32r128.ips">IPS</a>, <a href="#ma110805_rel_withdbg.cz12b_c32r128.imax">max insert response time</a>, <a href="#ma110805_rel_withdbg.cz12b_c32r128.dps">DPS</a>, <a href="#ma110805_rel_withdbg.cz12b_c32r128.dmax">max delete response time</a>, <a href="#ma110805_rel_withdbg.cz12b_c32r128.qps">QPS</a> and <a href="#ma110805_rel_withdbg.cz12b_c32r128.qmax">max query response time</a>
+<li>ma120102_rel_withdbg.cz12b_c32r128: <a href="#ma120102_rel_withdbg.cz12b_c32r128.ips">IPS</a>, <a href="#ma120102_rel_withdbg.cz12b_c32r128.imax">max insert response time</a>, <a href="#ma120102_rel_withdbg.cz12b_c32r128.dps">DPS</a>, <a href="#ma120102_rel_withdbg.cz12b_c32r128.dmax">max delete response time</a>, <a href="#ma120102_rel_withdbg.cz12b_c32r128.qps">QPS</a> and <a href="#ma120102_rel_withdbg.cz12b_c32r128.qmax">max query response time</a>
+<li>ma120201_rel_withdbg.cz12b_c32r128: <a href="#ma120201_rel_withdbg.cz12b_c32r128.ips">IPS</a>, <a href="#ma120201_rel_withdbg.cz12b_c32r128.imax">max insert response time</a>, <a href="#ma120201_rel_withdbg.cz12b_c32r128.dps">DPS</a>, <a href="#ma120201_rel_withdbg.cz12b_c32r128.dmax">max delete response time</a>, <a href="#ma120201_rel_withdbg.cz12b_c32r128.qps">QPS</a> and <a href="#ma120201_rel_withdbg.cz12b_c32r128.qmax">max query response time</a>
+</ul>
+<hr />
+<h1 id="ma100244_rel_withdbg.cz12a_c32r128.ips">ma100244_rel_withdbg.cz12a_c32r128: IPS</h1>
+<img src="ma100244_rel_withdbg.cz12a_c32r128.qp1000.L6.ips.png">ma100244_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100244_rel_withdbg.cz12a_c32r128.imax">ma100244_rel_withdbg.cz12a_c32r128: max insert response time</h1>
+<img src="ma100244_rel_withdbg.cz12a_c32r128.qp1000.L6.imax.png">ma100244_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100244_rel_withdbg.cz12a_c32r128.dps">ma100244_rel_withdbg.cz12a_c32r128: DPS</h1>
+<img src="ma100244_rel_withdbg.cz12a_c32r128.qp1000.L6.dps.png">ma100244_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100244_rel_withdbg.cz12a_c32r128.dmax">ma100244_rel_withdbg.cz12a_c32r128: max delete response time</h1>
+<img src="ma100244_rel_withdbg.cz12a_c32r128.qp1000.L6.dmax.png">ma100244_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100244_rel_withdbg.cz12a_c32r128.qps">ma100244_rel_withdbg.cz12a_c32r128: QPS</h1>
+<img src="ma100244_rel_withdbg.cz12a_c32r128.qp1000.L6.qps.png">ma100244_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100244_rel_withdbg.cz12a_c32r128.qmax">ma100244_rel_withdbg.cz12a_c32r128: max query response time</h1>
+<img src="ma100244_rel_withdbg.cz12a_c32r128.qp1000.L6.qmax.png">ma100244_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100339_rel_withdbg.cz12a_c32r128.ips">ma100339_rel_withdbg.cz12a_c32r128: IPS</h1>
+<img src="ma100339_rel_withdbg.cz12a_c32r128.qp1000.L6.ips.png">ma100339_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100339_rel_withdbg.cz12a_c32r128.imax">ma100339_rel_withdbg.cz12a_c32r128: max insert response time</h1>
+<img src="ma100339_rel_withdbg.cz12a_c32r128.qp1000.L6.imax.png">ma100339_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100339_rel_withdbg.cz12a_c32r128.dps">ma100339_rel_withdbg.cz12a_c32r128: DPS</h1>
+<img src="ma100339_rel_withdbg.cz12a_c32r128.qp1000.L6.dps.png">ma100339_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100339_rel_withdbg.cz12a_c32r128.dmax">ma100339_rel_withdbg.cz12a_c32r128: max delete response time</h1>
+<img src="ma100339_rel_withdbg.cz12a_c32r128.qp1000.L6.dmax.png">ma100339_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100339_rel_withdbg.cz12a_c32r128.qps">ma100339_rel_withdbg.cz12a_c32r128: QPS</h1>
+<img src="ma100339_rel_withdbg.cz12a_c32r128.qp1000.L6.qps.png">ma100339_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100339_rel_withdbg.cz12a_c32r128.qmax">ma100339_rel_withdbg.cz12a_c32r128: max query response time</h1>
+<img src="ma100339_rel_withdbg.cz12a_c32r128.qp1000.L6.qmax.png">ma100339_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100434_rel_withdbg.cz12a_c32r128.ips">ma100434_rel_withdbg.cz12a_c32r128: IPS</h1>
+<img src="ma100434_rel_withdbg.cz12a_c32r128.qp1000.L6.ips.png">ma100434_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100434_rel_withdbg.cz12a_c32r128.imax">ma100434_rel_withdbg.cz12a_c32r128: max insert response time</h1>
+<img src="ma100434_rel_withdbg.cz12a_c32r128.qp1000.L6.imax.png">ma100434_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100434_rel_withdbg.cz12a_c32r128.dps">ma100434_rel_withdbg.cz12a_c32r128: DPS</h1>
+<img src="ma100434_rel_withdbg.cz12a_c32r128.qp1000.L6.dps.png">ma100434_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100434_rel_withdbg.cz12a_c32r128.dmax">ma100434_rel_withdbg.cz12a_c32r128: max delete response time</h1>
+<img src="ma100434_rel_withdbg.cz12a_c32r128.qp1000.L6.dmax.png">ma100434_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100434_rel_withdbg.cz12a_c32r128.qps">ma100434_rel_withdbg.cz12a_c32r128: QPS</h1>
+<img src="ma100434_rel_withdbg.cz12a_c32r128.qp1000.L6.qps.png">ma100434_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100434_rel_withdbg.cz12a_c32r128.qmax">ma100434_rel_withdbg.cz12a_c32r128: max query response time</h1>
+<img src="ma100434_rel_withdbg.cz12a_c32r128.qp1000.L6.qmax.png">ma100434_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100529_rel_withdbg.cz12a_c32r128.ips">ma100529_rel_withdbg.cz12a_c32r128: IPS</h1>
+<img src="ma100529_rel_withdbg.cz12a_c32r128.qp1000.L6.ips.png">ma100529_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100529_rel_withdbg.cz12a_c32r128.imax">ma100529_rel_withdbg.cz12a_c32r128: max insert response time</h1>
+<img src="ma100529_rel_withdbg.cz12a_c32r128.qp1000.L6.imax.png">ma100529_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100529_rel_withdbg.cz12a_c32r128.dps">ma100529_rel_withdbg.cz12a_c32r128: DPS</h1>
+<img src="ma100529_rel_withdbg.cz12a_c32r128.qp1000.L6.dps.png">ma100529_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100529_rel_withdbg.cz12a_c32r128.dmax">ma100529_rel_withdbg.cz12a_c32r128: max delete response time</h1>
+<img src="ma100529_rel_withdbg.cz12a_c32r128.qp1000.L6.dmax.png">ma100529_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100529_rel_withdbg.cz12a_c32r128.qps">ma100529_rel_withdbg.cz12a_c32r128: QPS</h1>
+<img src="ma100529_rel_withdbg.cz12a_c32r128.qp1000.L6.qps.png">ma100529_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100529_rel_withdbg.cz12a_c32r128.qmax">ma100529_rel_withdbg.cz12a_c32r128: max query response time</h1>
+<img src="ma100529_rel_withdbg.cz12a_c32r128.qp1000.L6.qmax.png">ma100529_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100624_rel_withdbg.cz12a_c32r128.ips">ma100624_rel_withdbg.cz12a_c32r128: IPS</h1>
+<img src="ma100624_rel_withdbg.cz12a_c32r128.qp1000.L6.ips.png">ma100624_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100624_rel_withdbg.cz12a_c32r128.imax">ma100624_rel_withdbg.cz12a_c32r128: max insert response time</h1>
+<img src="ma100624_rel_withdbg.cz12a_c32r128.qp1000.L6.imax.png">ma100624_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100624_rel_withdbg.cz12a_c32r128.dps">ma100624_rel_withdbg.cz12a_c32r128: DPS</h1>
+<img src="ma100624_rel_withdbg.cz12a_c32r128.qp1000.L6.dps.png">ma100624_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100624_rel_withdbg.cz12a_c32r128.dmax">ma100624_rel_withdbg.cz12a_c32r128: max delete response time</h1>
+<img src="ma100624_rel_withdbg.cz12a_c32r128.qp1000.L6.dmax.png">ma100624_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100624_rel_withdbg.cz12a_c32r128.qps">ma100624_rel_withdbg.cz12a_c32r128: QPS</h1>
+<img src="ma100624_rel_withdbg.cz12a_c32r128.qp1000.L6.qps.png">ma100624_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100624_rel_withdbg.cz12a_c32r128.qmax">ma100624_rel_withdbg.cz12a_c32r128: max query response time</h1>
+<img src="ma100624_rel_withdbg.cz12a_c32r128.qp1000.L6.qmax.png">ma100624_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma100624_rel_withdbg.cz12a_cb_c32r128.ips">ma100624_rel_withdbg.cz12a_cb_c32r128: IPS</h1>
+<img src="ma100624_rel_withdbg.cz12a_cb_c32r128.qp1000.L6.ips.png">ma100624_rel_withdbg.cz12a_cb_c32r128</a>
+<hr />
+<h1 id="ma100624_rel_withdbg.cz12a_cb_c32r128.imax">ma100624_rel_withdbg.cz12a_cb_c32r128: max insert response time</h1>
+<img src="ma100624_rel_withdbg.cz12a_cb_c32r128.qp1000.L6.imax.png">ma100624_rel_withdbg.cz12a_cb_c32r128</a>
+<hr />
+<h1 id="ma100624_rel_withdbg.cz12a_cb_c32r128.dps">ma100624_rel_withdbg.cz12a_cb_c32r128: DPS</h1>
+<img src="ma100624_rel_withdbg.cz12a_cb_c32r128.qp1000.L6.dps.png">ma100624_rel_withdbg.cz12a_cb_c32r128</a>
+<hr />
+<h1 id="ma100624_rel_withdbg.cz12a_cb_c32r128.dmax">ma100624_rel_withdbg.cz12a_cb_c32r128: max delete response time</h1>
+<img src="ma100624_rel_withdbg.cz12a_cb_c32r128.qp1000.L6.dmax.png">ma100624_rel_withdbg.cz12a_cb_c32r128</a>
+<hr />
+<h1 id="ma100624_rel_withdbg.cz12a_cb_c32r128.qps">ma100624_rel_withdbg.cz12a_cb_c32r128: QPS</h1>
+<img src="ma100624_rel_withdbg.cz12a_cb_c32r128.qp1000.L6.qps.png">ma100624_rel_withdbg.cz12a_cb_c32r128</a>
+<hr />
+<h1 id="ma100624_rel_withdbg.cz12a_cb_c32r128.qmax">ma100624_rel_withdbg.cz12a_cb_c32r128: max query response time</h1>
+<img src="ma100624_rel_withdbg.cz12a_cb_c32r128.qp1000.L6.qmax.png">ma100624_rel_withdbg.cz12a_cb_c32r128</a>
+<hr />
+<h1 id="ma101115_rel_withdbg.cz12a_c32r128.ips">ma101115_rel_withdbg.cz12a_c32r128: IPS</h1>
+<img src="ma101115_rel_withdbg.cz12a_c32r128.qp1000.L6.ips.png">ma101115_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma101115_rel_withdbg.cz12a_c32r128.imax">ma101115_rel_withdbg.cz12a_c32r128: max insert response time</h1>
+<img src="ma101115_rel_withdbg.cz12a_c32r128.qp1000.L6.imax.png">ma101115_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma101115_rel_withdbg.cz12a_c32r128.dps">ma101115_rel_withdbg.cz12a_c32r128: DPS</h1>
+<img src="ma101115_rel_withdbg.cz12a_c32r128.qp1000.L6.dps.png">ma101115_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma101115_rel_withdbg.cz12a_c32r128.dmax">ma101115_rel_withdbg.cz12a_c32r128: max delete response time</h1>
+<img src="ma101115_rel_withdbg.cz12a_c32r128.qp1000.L6.dmax.png">ma101115_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma101115_rel_withdbg.cz12a_c32r128.qps">ma101115_rel_withdbg.cz12a_c32r128: QPS</h1>
+<img src="ma101115_rel_withdbg.cz12a_c32r128.qp1000.L6.qps.png">ma101115_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma101115_rel_withdbg.cz12a_c32r128.qmax">ma101115_rel_withdbg.cz12a_c32r128: max query response time</h1>
+<img src="ma101115_rel_withdbg.cz12a_c32r128.qp1000.L6.qmax.png">ma101115_rel_withdbg.cz12a_c32r128</a>
+<hr />
+<h1 id="ma110409_rel_withdbg.cz12b_c32r128.ips">ma110409_rel_withdbg.cz12b_c32r128: IPS</h1>
+<img src="ma110409_rel_withdbg.cz12b_c32r128.qp1000.L6.ips.png">ma110409_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma110409_rel_withdbg.cz12b_c32r128.imax">ma110409_rel_withdbg.cz12b_c32r128: max insert response time</h1>
+<img src="ma110409_rel_withdbg.cz12b_c32r128.qp1000.L6.imax.png">ma110409_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma110409_rel_withdbg.cz12b_c32r128.dps">ma110409_rel_withdbg.cz12b_c32r128: DPS</h1>
+<img src="ma110409_rel_withdbg.cz12b_c32r128.qp1000.L6.dps.png">ma110409_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma110409_rel_withdbg.cz12b_c32r128.dmax">ma110409_rel_withdbg.cz12b_c32r128: max delete response time</h1>
+<img src="ma110409_rel_withdbg.cz12b_c32r128.qp1000.L6.dmax.png">ma110409_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma110409_rel_withdbg.cz12b_c32r128.qps">ma110409_rel_withdbg.cz12b_c32r128: QPS</h1>
+<img src="ma110409_rel_withdbg.cz12b_c32r128.qp1000.L6.qps.png">ma110409_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma110409_rel_withdbg.cz12b_c32r128.qmax">ma110409_rel_withdbg.cz12b_c32r128: max query response time</h1>
+<img src="ma110409_rel_withdbg.cz12b_c32r128.qp1000.L6.qmax.png">ma110409_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma110805_rel_withdbg.cz12b_c32r128.ips">ma110805_rel_withdbg.cz12b_c32r128: IPS</h1>
+<img src="ma110805_rel_withdbg.cz12b_c32r128.qp1000.L6.ips.png">ma110805_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma110805_rel_withdbg.cz12b_c32r128.imax">ma110805_rel_withdbg.cz12b_c32r128: max insert response time</h1>
+<img src="ma110805_rel_withdbg.cz12b_c32r128.qp1000.L6.imax.png">ma110805_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma110805_rel_withdbg.cz12b_c32r128.dps">ma110805_rel_withdbg.cz12b_c32r128: DPS</h1>
+<img src="ma110805_rel_withdbg.cz12b_c32r128.qp1000.L6.dps.png">ma110805_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma110805_rel_withdbg.cz12b_c32r128.dmax">ma110805_rel_withdbg.cz12b_c32r128: max delete response time</h1>
+<img src="ma110805_rel_withdbg.cz12b_c32r128.qp1000.L6.dmax.png">ma110805_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma110805_rel_withdbg.cz12b_c32r128.qps">ma110805_rel_withdbg.cz12b_c32r128: QPS</h1>
+<img src="ma110805_rel_withdbg.cz12b_c32r128.qp1000.L6.qps.png">ma110805_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma110805_rel_withdbg.cz12b_c32r128.qmax">ma110805_rel_withdbg.cz12b_c32r128: max query response time</h1>
+<img src="ma110805_rel_withdbg.cz12b_c32r128.qp1000.L6.qmax.png">ma110805_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma120102_rel_withdbg.cz12b_c32r128.ips">ma120102_rel_withdbg.cz12b_c32r128: IPS</h1>
+<img src="ma120102_rel_withdbg.cz12b_c32r128.qp1000.L6.ips.png">ma120102_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma120102_rel_withdbg.cz12b_c32r128.imax">ma120102_rel_withdbg.cz12b_c32r128: max insert response time</h1>
+<img src="ma120102_rel_withdbg.cz12b_c32r128.qp1000.L6.imax.png">ma120102_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma120102_rel_withdbg.cz12b_c32r128.dps">ma120102_rel_withdbg.cz12b_c32r128: DPS</h1>
+<img src="ma120102_rel_withdbg.cz12b_c32r128.qp1000.L6.dps.png">ma120102_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma120102_rel_withdbg.cz12b_c32r128.dmax">ma120102_rel_withdbg.cz12b_c32r128: max delete response time</h1>
+<img src="ma120102_rel_withdbg.cz12b_c32r128.qp1000.L6.dmax.png">ma120102_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma120102_rel_withdbg.cz12b_c32r128.qps">ma120102_rel_withdbg.cz12b_c32r128: QPS</h1>
+<img src="ma120102_rel_withdbg.cz12b_c32r128.qp1000.L6.qps.png">ma120102_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma120102_rel_withdbg.cz12b_c32r128.qmax">ma120102_rel_withdbg.cz12b_c32r128: max query response time</h1>
+<img src="ma120102_rel_withdbg.cz12b_c32r128.qp1000.L6.qmax.png">ma120102_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma120201_rel_withdbg.cz12b_c32r128.ips">ma120201_rel_withdbg.cz12b_c32r128: IPS</h1>
+<img src="ma120201_rel_withdbg.cz12b_c32r128.qp1000.L6.ips.png">ma120201_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma120201_rel_withdbg.cz12b_c32r128.imax">ma120201_rel_withdbg.cz12b_c32r128: max insert response time</h1>
+<img src="ma120201_rel_withdbg.cz12b_c32r128.qp1000.L6.imax.png">ma120201_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma120201_rel_withdbg.cz12b_c32r128.dps">ma120201_rel_withdbg.cz12b_c32r128: DPS</h1>
+<img src="ma120201_rel_withdbg.cz12b_c32r128.qp1000.L6.dps.png">ma120201_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma120201_rel_withdbg.cz12b_c32r128.dmax">ma120201_rel_withdbg.cz12b_c32r128: max delete response time</h1>
+<img src="ma120201_rel_withdbg.cz12b_c32r128.qp1000.L6.dmax.png">ma120201_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma120201_rel_withdbg.cz12b_c32r128.qps">ma120201_rel_withdbg.cz12b_c32r128: QPS</h1>
+<img src="ma120201_rel_withdbg.cz12b_c32r128.qp1000.L6.qps.png">ma120201_rel_withdbg.cz12b_c32r128</a>
+<hr />
+<h1 id="ma120201_rel_withdbg.cz12b_c32r128.qmax">ma120201_rel_withdbg.cz12b_c32r128: max query response time</h1>
+<img src="ma120201_rel_withdbg.cz12b_c32r128.qp1000.L6.qmax.png">ma120201_rel_withdbg.cz12b_c32r128</a>
+</ul>
+</body>
+</html>

@@ -25,6 +25,9 @@ Benchmark reports for 2026
     * 32-core server  
       * Cached workload: [Latest point releases](reports/jan26.ib.mem.dell32.pg.latest.12u.10m.20m.1800s/all.html), [All releases](reports/jan26.ib.mem.dell32.pg.all.12u.10m.20m.1800s/all.html)
       * IO-bound workload: :[Latest point releases](reports/jan26.ib.io.dell32.pg.latest.12u.300m.5m.1800s/all.html), [All releases](reports/jan26.ib.io.dell32.pg.all.12u.300m.5m.1800s/all.html)
+   * MariaDB, January 2026, 48-core server
+     * Cached workload: [Latest point releases since 10.2](reports/jan26.ib.mem.hetz.ma.latest.20u.10m.50m.3600s/all.html), [Latest point releases since 10.6](reports/jan26.ib.mem.hetz.ma.latest106plus.20u.10m.50m.3600s/all.html)
+     * IO-bound workload: [Latest point releases since 10.2](reports/jan26.ib.io.hetz.ma.latest.20u.200m.5m.3600s/all.html), [Latest point releases since 10.6](reports/jan26.ib.io.hetz.ma.latest106plus.20u.200m.5m.3600s/all.html)
 
 Benchmark reports for 2025
 * Insert Benchmark
