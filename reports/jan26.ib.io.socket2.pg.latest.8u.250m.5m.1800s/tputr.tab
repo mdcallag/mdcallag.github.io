@@ -19,4 +19,5 @@
 <tr><td>pg177_o2nofp.cx10a_c24r64</td> <td>1.00</td><td id="chi">1.25</td><td id="clo">0.82</td><td id="chi">1.30</td><td>1.01</td><td>1.03</td><td>1.00</td><td id="clo">0.93</td><td>0.97</td><td>0.99</td></tr>
 <tr><td>pg181_o2nofp.cx10b_c24r64</td> <td>1.03</td><td id="chi">1.22</td><td id="clo">0.64</td><td id="chi">1.27</td><td>1.00</td><td>0.99</td><td>0.99</td><td>0.97</td><td>0.96</td><td>0.98</td></tr>
 <tr><td>pg181_o2nofp.cx10b_walsize_c24r64</td> <td>1.00</td><td id="chi">1.24</td><td id="clo">0.79</td><td id="chi">1.29</td><td>0.99</td><td>0.97</td><td>0.99</td><td>0.97</td><td>0.97</td><td>0.98</td></tr>
+<tr><td>pg181_o2nofp.cx10b_walsize8G_c24r64</td> <td>1.00</td><td id="chi">1.23</td><td id="clo">0.66</td><td id="clo">0.72</td><td>1.00</td><td>1.02</td><td>0.99</td><td>0.99</td><td>0.96</td><td>0.96</td></tr>
 </table>
