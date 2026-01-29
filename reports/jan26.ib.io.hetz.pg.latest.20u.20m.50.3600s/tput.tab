@@ -1,0 +1,21 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>pg1222_o2nofp.cx10a_c32r128</td> <td id="cmax">2058672</td><td id="cmin">2147075</td><td id="cmax">22529</td><td id="cmax">3184</td><td id="cmax">361060</td><td>6398</td><td id="cmax">306152</td><td id="cgray">3826</td><td id="cgray">153763</td><td id="cgray">1989</td></tr>
+<tr><td>pg1323_o2nofp.cx10a_c32r128</td> <td>2025316</td><td>2735978</td><td>20450</td><td id="cmax">3372</td><td>343541</td><td>6540</td><td>289408</td><td id="cgray">3816</td><td id="cgray">144708</td><td id="cgray">1959</td></tr>
+<tr><td>pg1420_o2nofp.cx10a_c32r128</td> <td>1986097</td><td>2793296</td><td id="cmax">22051</td><td>2869</td><td>346912</td><td>6591</td><td>289071</td><td id="cgray">3847</td><td id="cgray">142684</td><td id="cgray">1964</td></tr>
+<tr><td>pg1515_o2nofp.cx10a_c32r128</td> <td>1993024</td><td>2647254</td><td id="cmax">22087</td><td>2896</td><td>345942</td><td>6490</td><td>290091</td><td id="cgray">3887</td><td id="cgray">144307</td><td id="cgray">1945</td></tr>
+<tr><td>pg1611_o2nofp.cx10a_c32r128</td> <td>2002002</td><td>2791347</td><td id="cmax">22057</td><td id="cmin">2597</td><td>343245</td><td id="cmax">6901</td><td>285527</td><td id="cgray">4039</td><td id="cgray">143551</td><td id="cgray">2052</td></tr>
+<tr><td>pg177_o2nofp.cx10a_c32r128</td> <td>2027369</td><td id="cmax">3341688</td><td id="cmax">22415</td><td id="cmin">2437</td><td>344865</td><td id="cmax">6972</td><td>286298</td><td id="cgray">3963</td><td id="cgray">139108</td><td id="cgray">2090</td></tr>
+<tr><td>pg181_o2nofp.cx10b_c32r128</td> <td id="cmax">2073613</td><td id="cmax">3319502</td><td id="cmax">22516</td><td id="cmin">2486</td><td>341583</td><td id="cmax">6905</td><td>283872</td><td id="cmax">4087</td><td id="cgray">140474</td><td id="cgray">2294</td></tr>
+</table>

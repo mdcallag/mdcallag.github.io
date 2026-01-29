@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>qr100.L1 per-second graphs</title>
+</head>
+<body>
+<p>
+These have results per 1-second interval for: insert rate (IPS), max insert reponse time, delete rate (DPS), max delete response time, query rate (QPS) and max query response time.
+The results are from 1 client while the test may have N clients where N > 1.
+Deletes might not have been enabled for this benchmark step, in which case those graphs will show zero values.
+The test is run with a rate limit for the number of inserts/s. In some cases the DBMS is unable to sustain that rate. When a DBMS can sustain that rate IPS will be a horizontal line.
+</p>
+<h1 id=\"toc\">Contents</h1>
+<ul>
+<li>pg1222_o2nofp.cx10a_c32r128: <a href="#pg1222_o2nofp.cx10a_c32r128.ips">IPS</a>, <a href="#pg1222_o2nofp.cx10a_c32r128.imax">max insert response time</a>, <a href="#pg1222_o2nofp.cx10a_c32r128.dps">DPS</a>, <a href="#pg1222_o2nofp.cx10a_c32r128.dmax">max delete response time</a>, <a href="#pg1222_o2nofp.cx10a_c32r128.qps">QPS</a> and <a href="#pg1222_o2nofp.cx10a_c32r128.qmax">max query response time</a>
+<li>pg1323_o2nofp.cx10a_c32r128: <a href="#pg1323_o2nofp.cx10a_c32r128.ips">IPS</a>, <a href="#pg1323_o2nofp.cx10a_c32r128.imax">max insert response time</a>, <a href="#pg1323_o2nofp.cx10a_c32r128.dps">DPS</a>, <a href="#pg1323_o2nofp.cx10a_c32r128.dmax">max delete response time</a>, <a href="#pg1323_o2nofp.cx10a_c32r128.qps">QPS</a> and <a href="#pg1323_o2nofp.cx10a_c32r128.qmax">max query response time</a>
+<li>pg1420_o2nofp.cx10a_c32r128: <a href="#pg1420_o2nofp.cx10a_c32r128.ips">IPS</a>, <a href="#pg1420_o2nofp.cx10a_c32r128.imax">max insert response time</a>, <a href="#pg1420_o2nofp.cx10a_c32r128.dps">DPS</a>, <a href="#pg1420_o2nofp.cx10a_c32r128.dmax">max delete response time</a>, <a href="#pg1420_o2nofp.cx10a_c32r128.qps">QPS</a> and <a href="#pg1420_o2nofp.cx10a_c32r128.qmax">max query response time</a>
+<li>pg1515_o2nofp.cx10a_c32r128: <a href="#pg1515_o2nofp.cx10a_c32r128.ips">IPS</a>, <a href="#pg1515_o2nofp.cx10a_c32r128.imax">max insert response time</a>, <a href="#pg1515_o2nofp.cx10a_c32r128.dps">DPS</a>, <a href="#pg1515_o2nofp.cx10a_c32r128.dmax">max delete response time</a>, <a href="#pg1515_o2nofp.cx10a_c32r128.qps">QPS</a> and <a href="#pg1515_o2nofp.cx10a_c32r128.qmax">max query response time</a>
+<li>pg1611_o2nofp.cx10a_c32r128: <a href="#pg1611_o2nofp.cx10a_c32r128.ips">IPS</a>, <a href="#pg1611_o2nofp.cx10a_c32r128.imax">max insert response time</a>, <a href="#pg1611_o2nofp.cx10a_c32r128.dps">DPS</a>, <a href="#pg1611_o2nofp.cx10a_c32r128.dmax">max delete response time</a>, <a href="#pg1611_o2nofp.cx10a_c32r128.qps">QPS</a> and <a href="#pg1611_o2nofp.cx10a_c32r128.qmax">max query response time</a>
+<li>pg177_o2nofp.cx10a_c32r128: <a href="#pg177_o2nofp.cx10a_c32r128.ips">IPS</a>, <a href="#pg177_o2nofp.cx10a_c32r128.imax">max insert response time</a>, <a href="#pg177_o2nofp.cx10a_c32r128.dps">DPS</a>, <a href="#pg177_o2nofp.cx10a_c32r128.dmax">max delete response time</a>, <a href="#pg177_o2nofp.cx10a_c32r128.qps">QPS</a> and <a href="#pg177_o2nofp.cx10a_c32r128.qmax">max query response time</a>
+<li>pg181_o2nofp.cx10b_c32r128: <a href="#pg181_o2nofp.cx10b_c32r128.ips">IPS</a>, <a href="#pg181_o2nofp.cx10b_c32r128.imax">max insert response time</a>, <a href="#pg181_o2nofp.cx10b_c32r128.dps">DPS</a>, <a href="#pg181_o2nofp.cx10b_c32r128.dmax">max delete response time</a>, <a href="#pg181_o2nofp.cx10b_c32r128.qps">QPS</a> and <a href="#pg181_o2nofp.cx10b_c32r128.qmax">max query response time</a>
+</ul>
+<hr />
+<h1 id="pg1222_o2nofp.cx10a_c32r128.ips">pg1222_o2nofp.cx10a_c32r128: IPS</h1>
+<img src="pg1222_o2nofp.cx10a_c32r128.qr100.L1.ips.png">pg1222_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1222_o2nofp.cx10a_c32r128.imax">pg1222_o2nofp.cx10a_c32r128: max insert response time</h1>
+<img src="pg1222_o2nofp.cx10a_c32r128.qr100.L1.imax.png">pg1222_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1222_o2nofp.cx10a_c32r128.dps">pg1222_o2nofp.cx10a_c32r128: DPS</h1>
+<img src="pg1222_o2nofp.cx10a_c32r128.qr100.L1.dps.png">pg1222_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1222_o2nofp.cx10a_c32r128.dmax">pg1222_o2nofp.cx10a_c32r128: max delete response time</h1>
+<img src="pg1222_o2nofp.cx10a_c32r128.qr100.L1.dmax.png">pg1222_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1222_o2nofp.cx10a_c32r128.qps">pg1222_o2nofp.cx10a_c32r128: QPS</h1>
+<img src="pg1222_o2nofp.cx10a_c32r128.qr100.L1.qps.png">pg1222_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1222_o2nofp.cx10a_c32r128.qmax">pg1222_o2nofp.cx10a_c32r128: max query response time</h1>
+<img src="pg1222_o2nofp.cx10a_c32r128.qr100.L1.qmax.png">pg1222_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1323_o2nofp.cx10a_c32r128.ips">pg1323_o2nofp.cx10a_c32r128: IPS</h1>
+<img src="pg1323_o2nofp.cx10a_c32r128.qr100.L1.ips.png">pg1323_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1323_o2nofp.cx10a_c32r128.imax">pg1323_o2nofp.cx10a_c32r128: max insert response time</h1>
+<img src="pg1323_o2nofp.cx10a_c32r128.qr100.L1.imax.png">pg1323_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1323_o2nofp.cx10a_c32r128.dps">pg1323_o2nofp.cx10a_c32r128: DPS</h1>
+<img src="pg1323_o2nofp.cx10a_c32r128.qr100.L1.dps.png">pg1323_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1323_o2nofp.cx10a_c32r128.dmax">pg1323_o2nofp.cx10a_c32r128: max delete response time</h1>
+<img src="pg1323_o2nofp.cx10a_c32r128.qr100.L1.dmax.png">pg1323_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1323_o2nofp.cx10a_c32r128.qps">pg1323_o2nofp.cx10a_c32r128: QPS</h1>
+<img src="pg1323_o2nofp.cx10a_c32r128.qr100.L1.qps.png">pg1323_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1323_o2nofp.cx10a_c32r128.qmax">pg1323_o2nofp.cx10a_c32r128: max query response time</h1>
+<img src="pg1323_o2nofp.cx10a_c32r128.qr100.L1.qmax.png">pg1323_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1420_o2nofp.cx10a_c32r128.ips">pg1420_o2nofp.cx10a_c32r128: IPS</h1>
+<img src="pg1420_o2nofp.cx10a_c32r128.qr100.L1.ips.png">pg1420_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1420_o2nofp.cx10a_c32r128.imax">pg1420_o2nofp.cx10a_c32r128: max insert response time</h1>
+<img src="pg1420_o2nofp.cx10a_c32r128.qr100.L1.imax.png">pg1420_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1420_o2nofp.cx10a_c32r128.dps">pg1420_o2nofp.cx10a_c32r128: DPS</h1>
+<img src="pg1420_o2nofp.cx10a_c32r128.qr100.L1.dps.png">pg1420_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1420_o2nofp.cx10a_c32r128.dmax">pg1420_o2nofp.cx10a_c32r128: max delete response time</h1>
+<img src="pg1420_o2nofp.cx10a_c32r128.qr100.L1.dmax.png">pg1420_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1420_o2nofp.cx10a_c32r128.qps">pg1420_o2nofp.cx10a_c32r128: QPS</h1>
+<img src="pg1420_o2nofp.cx10a_c32r128.qr100.L1.qps.png">pg1420_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1420_o2nofp.cx10a_c32r128.qmax">pg1420_o2nofp.cx10a_c32r128: max query response time</h1>
+<img src="pg1420_o2nofp.cx10a_c32r128.qr100.L1.qmax.png">pg1420_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1515_o2nofp.cx10a_c32r128.ips">pg1515_o2nofp.cx10a_c32r128: IPS</h1>
+<img src="pg1515_o2nofp.cx10a_c32r128.qr100.L1.ips.png">pg1515_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1515_o2nofp.cx10a_c32r128.imax">pg1515_o2nofp.cx10a_c32r128: max insert response time</h1>
+<img src="pg1515_o2nofp.cx10a_c32r128.qr100.L1.imax.png">pg1515_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1515_o2nofp.cx10a_c32r128.dps">pg1515_o2nofp.cx10a_c32r128: DPS</h1>
+<img src="pg1515_o2nofp.cx10a_c32r128.qr100.L1.dps.png">pg1515_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1515_o2nofp.cx10a_c32r128.dmax">pg1515_o2nofp.cx10a_c32r128: max delete response time</h1>
+<img src="pg1515_o2nofp.cx10a_c32r128.qr100.L1.dmax.png">pg1515_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1515_o2nofp.cx10a_c32r128.qps">pg1515_o2nofp.cx10a_c32r128: QPS</h1>
+<img src="pg1515_o2nofp.cx10a_c32r128.qr100.L1.qps.png">pg1515_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1515_o2nofp.cx10a_c32r128.qmax">pg1515_o2nofp.cx10a_c32r128: max query response time</h1>
+<img src="pg1515_o2nofp.cx10a_c32r128.qr100.L1.qmax.png">pg1515_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1611_o2nofp.cx10a_c32r128.ips">pg1611_o2nofp.cx10a_c32r128: IPS</h1>
+<img src="pg1611_o2nofp.cx10a_c32r128.qr100.L1.ips.png">pg1611_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1611_o2nofp.cx10a_c32r128.imax">pg1611_o2nofp.cx10a_c32r128: max insert response time</h1>
+<img src="pg1611_o2nofp.cx10a_c32r128.qr100.L1.imax.png">pg1611_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1611_o2nofp.cx10a_c32r128.dps">pg1611_o2nofp.cx10a_c32r128: DPS</h1>
+<img src="pg1611_o2nofp.cx10a_c32r128.qr100.L1.dps.png">pg1611_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1611_o2nofp.cx10a_c32r128.dmax">pg1611_o2nofp.cx10a_c32r128: max delete response time</h1>
+<img src="pg1611_o2nofp.cx10a_c32r128.qr100.L1.dmax.png">pg1611_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1611_o2nofp.cx10a_c32r128.qps">pg1611_o2nofp.cx10a_c32r128: QPS</h1>
+<img src="pg1611_o2nofp.cx10a_c32r128.qr100.L1.qps.png">pg1611_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg1611_o2nofp.cx10a_c32r128.qmax">pg1611_o2nofp.cx10a_c32r128: max query response time</h1>
+<img src="pg1611_o2nofp.cx10a_c32r128.qr100.L1.qmax.png">pg1611_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg177_o2nofp.cx10a_c32r128.ips">pg177_o2nofp.cx10a_c32r128: IPS</h1>
+<img src="pg177_o2nofp.cx10a_c32r128.qr100.L1.ips.png">pg177_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg177_o2nofp.cx10a_c32r128.imax">pg177_o2nofp.cx10a_c32r128: max insert response time</h1>
+<img src="pg177_o2nofp.cx10a_c32r128.qr100.L1.imax.png">pg177_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg177_o2nofp.cx10a_c32r128.dps">pg177_o2nofp.cx10a_c32r128: DPS</h1>
+<img src="pg177_o2nofp.cx10a_c32r128.qr100.L1.dps.png">pg177_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg177_o2nofp.cx10a_c32r128.dmax">pg177_o2nofp.cx10a_c32r128: max delete response time</h1>
+<img src="pg177_o2nofp.cx10a_c32r128.qr100.L1.dmax.png">pg177_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg177_o2nofp.cx10a_c32r128.qps">pg177_o2nofp.cx10a_c32r128: QPS</h1>
+<img src="pg177_o2nofp.cx10a_c32r128.qr100.L1.qps.png">pg177_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg177_o2nofp.cx10a_c32r128.qmax">pg177_o2nofp.cx10a_c32r128: max query response time</h1>
+<img src="pg177_o2nofp.cx10a_c32r128.qr100.L1.qmax.png">pg177_o2nofp.cx10a_c32r128</a>
+<hr />
+<h1 id="pg181_o2nofp.cx10b_c32r128.ips">pg181_o2nofp.cx10b_c32r128: IPS</h1>
+<img src="pg181_o2nofp.cx10b_c32r128.qr100.L1.ips.png">pg181_o2nofp.cx10b_c32r128</a>
+<hr />
+<h1 id="pg181_o2nofp.cx10b_c32r128.imax">pg181_o2nofp.cx10b_c32r128: max insert response time</h1>
+<img src="pg181_o2nofp.cx10b_c32r128.qr100.L1.imax.png">pg181_o2nofp.cx10b_c32r128</a>
+<hr />
+<h1 id="pg181_o2nofp.cx10b_c32r128.dps">pg181_o2nofp.cx10b_c32r128: DPS</h1>
+<img src="pg181_o2nofp.cx10b_c32r128.qr100.L1.dps.png">pg181_o2nofp.cx10b_c32r128</a>
+<hr />
+<h1 id="pg181_o2nofp.cx10b_c32r128.dmax">pg181_o2nofp.cx10b_c32r128: max delete response time</h1>
+<img src="pg181_o2nofp.cx10b_c32r128.qr100.L1.dmax.png">pg181_o2nofp.cx10b_c32r128</a>
+<hr />
+<h1 id="pg181_o2nofp.cx10b_c32r128.qps">pg181_o2nofp.cx10b_c32r128: QPS</h1>
+<img src="pg181_o2nofp.cx10b_c32r128.qr100.L1.qps.png">pg181_o2nofp.cx10b_c32r128</a>
+<hr />
+<h1 id="pg181_o2nofp.cx10b_c32r128.qmax">pg181_o2nofp.cx10b_c32r128: max query response time</h1>
+<img src="pg181_o2nofp.cx10b_c32r128.qr100.L1.qmax.png">pg181_o2nofp.cx10b_c32r128</a>
+</ul>
+</body>
+</html>

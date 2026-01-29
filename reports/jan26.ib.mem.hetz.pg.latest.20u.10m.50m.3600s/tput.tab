@@ -1,0 +1,21 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>pg1222_o2nofp.cx10a_c32r128</td> <td id="cmax">1724138</td><td id="cmax">2597404</td><td>384615</td><td>106838</td><td id="cmax">381257</td><td id="cmax">197134</td><td id="cmax">373679</td><td id="cmax">196399</td><td id="cmax">368957</td><td id="cmax">194906</td></tr>
+<tr><td>pg1323_o2nofp.cx10a_c32r128</td> <td>1709402</td><td>2564104</td><td>384615</td><td>96946</td><td>352616</td><td>189507</td><td>346789</td><td>188208</td><td>342124</td><td>186676</td></tr>
+<tr><td>pg1420_o2nofp.cx10a_c32r128</td> <td>1666667</td><td id="cmax">2597404</td><td>398605</td><td>95238</td><td id="cmax">378340</td><td>192993</td><td id="cmax">368460</td><td>191950</td><td id="cmax">366756</td><td>190800</td></tr>
+<tr><td>pg1515_o2nofp.cx10a_c32r128</td> <td>1666667</td><td>2469137</td><td>395648</td><td>107066</td><td>360188</td><td>189561</td><td>353318</td><td>188414</td><td>351054</td><td>186865</td></tr>
+<tr><td>pg1611_o2nofp.cx10a_c32r128</td> <td>1666667</td><td>2409640</td><td>389484</td><td>95831</td><td>363641</td><td>192349</td><td>358226</td><td>191676</td><td>354700</td><td>190167</td></tr>
+<tr><td>pg177_o2nofp.cx10a_c32r128</td> <td>1652892</td><td>2500001</td><td>391965</td><td>103413</td><td>365850</td><td>190048</td><td>357294</td><td>188399</td><td>354246</td><td>186922</td></tr>
+<tr><td>pg181_o2nofp.cx10b_c32r128</td> <td id="cmax">1739130</td><td id="cmax">2631580</td><td id="cmax">406091</td><td id="cmax">115741</td><td>367323</td><td>187489</td><td>360974</td><td>186654</td><td>353185</td><td>184865</td></tr>
+</table>

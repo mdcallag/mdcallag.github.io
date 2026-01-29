@@ -1,0 +1,32 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>pg1222_o2nofp.cx10a_c32r128</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr>
+<tr><td>pg1322_o2nofp.cx10a_c32r128</td> <td>0.97</td><td id="chi">1.30</td><td>0.97</td><td id="clo">0.87</td><td>1.01</td><td>1.02</td><td>1.00</td><td>1.00</td><td>0.98</td><td>0.98</td></tr>
+<tr><td>pg1323_o2nofp.cx10a_c32r128</td> <td>0.98</td><td id="chi">1.27</td><td id="clo">0.91</td><td id="chi">1.06</td><td>0.95</td><td>1.02</td><td>0.95</td><td>1.00</td><td id="clo">0.94</td><td>0.98</td></tr>
+<tr><td>pg1419_o2nofp.cx10a_c32r128</td> <td>0.96</td><td id="chi">1.28</td><td>0.99</td><td>0.99</td><td>1.03</td><td>1.03</td><td>1.01</td><td>1.01</td><td>0.98</td><td>1.00</td></tr>
+<tr><td>pg1420_o2nofp.cx10a_c32r128</td> <td>0.96</td><td id="chi">1.30</td><td>0.98</td><td id="clo">0.90</td><td>0.96</td><td>1.03</td><td id="clo">0.94</td><td>1.01</td><td id="clo">0.93</td><td>0.99</td></tr>
+<tr><td>pg1514_o2nofp.cx10a_c32r128</td> <td>0.96</td><td id="chi">1.23</td><td>1.00</td><td id="clo">0.88</td><td>1.03</td><td>1.00</td><td>1.01</td><td>1.04</td><td>0.99</td><td>0.98</td></tr>
+<tr><td>pg1515_o2nofp.cx10a_c32r128</td> <td>0.97</td><td id="chi">1.23</td><td>0.98</td><td id="clo">0.91</td><td>0.96</td><td>1.01</td><td>0.95</td><td>1.02</td><td id="clo">0.94</td><td>0.98</td></tr>
+<tr><td>pg1610_o2nofp.cx10a_c32r128</td> <td>0.97</td><td id="chi">1.31</td><td>1.00</td><td id="clo">0.78</td><td>1.02</td><td id="chi">1.10</td><td>1.00</td><td id="chi">1.10</td><td>0.99</td><td>1.05</td></tr>
+<tr><td>pg1611_o2nofp.cx10a_c32r128</td> <td>0.97</td><td id="chi">1.30</td><td>0.98</td><td id="clo">0.82</td><td>0.95</td><td id="chi">1.08</td><td id="clo">0.93</td><td id="chi">1.06</td><td id="clo">0.93</td><td>1.03</td></tr>
+<tr><td>pg176_o2nofp.cx10a_c32r128</td> <td>0.98</td><td id="chi">1.57</td><td>1.00</td><td id="clo">0.80</td><td>1.02</td><td id="chi">1.12</td><td>0.99</td><td id="chi">1.10</td><td>0.95</td><td id="chi">1.07</td></tr>
+<tr><td>pg177_o2nofp.cx10a_c32r128</td> <td>0.98</td><td id="chi">1.56</td><td>0.99</td><td id="clo">0.77</td><td>0.96</td><td id="chi">1.09</td><td id="clo">0.94</td><td>1.04</td><td id="clo">0.90</td><td>1.05</td></tr>
+<tr><td>pg180_o2nofp.cx10b_c32r128</td> <td>1.03</td><td id="chi">1.61</td><td>1.00</td><td id="clo">0.81</td><td>1.01</td><td id="chi">1.13</td><td>1.00</td><td id="chi">1.08</td><td>0.97</td><td id="chi">1.16</td></tr>
+<tr><td>pg180_o2nofp.cx10c_c32r128</td> <td>1.00</td><td id="chi">1.55</td><td>0.99</td><td id="clo">0.80</td><td>1.01</td><td id="chi">1.13</td><td>0.99</td><td>1.03</td><td>0.96</td><td id="chi">1.16</td></tr>
+<tr><td>pg180_o2nofp.cx10d_c32r128</td> <td>1.01</td><td id="chi">1.69</td><td>1.02</td><td id="clo">0.80</td><td>1.00</td><td id="chi">1.10</td><td>0.98</td><td>1.05</td><td>0.95</td><td id="chi">1.18</td></tr>
+<tr><td>pg181_o2nofp.cx10b_c32r128</td> <td>1.01</td><td id="chi">1.55</td><td>1.00</td><td id="clo">0.78</td><td>0.95</td><td id="chi">1.08</td><td id="clo">0.93</td><td id="chi">1.07</td><td id="clo">0.91</td><td id="chi">1.15</td></tr>
+<tr><td>pg181_o2nofp.cx10b_walsize_c32r128</td> <td>1.03</td><td id="chi">1.58</td><td>1.00</td><td id="clo">0.84</td><td id="clo">0.94</td><td id="chi">1.09</td><td id="clo">0.92</td><td id="chi">1.08</td><td id="clo">0.92</td><td id="chi">1.15</td></tr>
+<tr><td>pg181_o2nofp.cx10c_c32r128</td> <td>1.00</td><td id="chi">1.53</td><td>0.98</td><td id="clo">0.81</td><td>0.95</td><td id="chi">1.12</td><td id="clo">0.93</td><td>1.03</td><td id="clo">0.92</td><td id="chi">1.15</td></tr>
+<tr><td>pg181_o2nofp.cx10d_c32r128</td> <td>1.01</td><td id="chi">1.69</td><td>0.99</td><td id="clo">0.76</td><td>0.96</td><td id="chi">1.09</td><td id="clo">0.94</td><td id="chi">1.06</td><td id="clo">0.93</td><td id="chi">1.17</td></tr>
+</table>
