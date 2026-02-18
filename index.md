@@ -31,6 +31,8 @@ Benchmark reports for 2026
    * MariaDB, January 2026, 48-core server
      * Cached workload: [Latest point releases since 10.2](reports/jan26.ib.mem.hetz.ma.latest.20u.10m.50m.3600s/all.html), [Latest point releases since 10.6](reports/jan26.ib.mem.hetz.ma.latest106plus.20u.10m.50m.3600s/all.html)
      * IO-bound workload: [Latest point releases since 10.2](reports/jan26.ib.io.hetz.ma.latest.20u.200m.5m.3600s/all.html), [Latest point releases since 10.6](reports/jan26.ib.io.hetz.ma.latest106plus.20u.200m.5m.3600s/all.html)
+   * MariaDB, February 2026, binlog_storage_engine
+     * 8-core server, 1 user: [cached, no-sync and sync](reports/feb26.ib.mem.pn53.ma1203.syncall.30m.50m.1800s/all.html), [cached, sync](reports/feb26.ib.mem.pn53.ma1203.synconly.30m.50m.1800s/all.html), [IO-bound, no-sync and sync](reports/feb26.ib.mem.pn53.ma1203.syncall.800m.5m.1800s/all.html), [IO-bound, sync](reports/feb26.ib.mem.pn53.ma1203.synconly.800m.5m.1800s/all.html)
 
 Benchmark reports for 2025
 * Insert Benchmark
