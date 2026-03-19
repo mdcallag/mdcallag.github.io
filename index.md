@@ -35,6 +35,7 @@ Benchmark reports for 2026
      * 8-core server, 1 user: [cached, no-sync and sync](reports/feb26.ib.mem.pn53.ma1203.syncall.30m.50m.1800s/all.html), [cached, sync](reports/feb26.ib.mem.pn53.ma1203.synconly.30m.50m.1800s/all.html), [IO-bound, no-sync and sync](reports/feb26.ib.mem.pn53.ma1203.syncall.800m.5m.1800s/all.html), [IO-bound, sync](reports/feb26.ib.mem.pn53.ma1203.synconly.800m.5m.1800s/all.html)
      * 32-core server, 12 users: [cached, no-sync and sync](reports/feb26.ib.mem.dell32.ma1203.syncall.10m.20m.1800s/all.html), [cached, sync](reports/feb26.ib.mem.dell32.ma1203.synconly.10m.20m.1800s/all.html), [IO-bound, no-sync and sync](reports/feb26.ib.io.dell32.ma1203.syncall.300m.5m.1800s/all.html), [IO-bound, sync](reports/feb26.ib.io.dell32.ma1203.synconly.300m.5m.1800s/all.html)
    * MariaDB, March 2026, binlog_storage_engine
+     * 32-core server, 12 users: [cached, nosync](reports/mar26.ib.mem.dell32.ma1203.nosync.10m.20m.1800s/all.html), [cached, sync](reports/mar26.ib.mem.dell32.ma1203.sync.10m.20m.1800s/all.html), [IO-bound, nosync](reports/mar26.ib.io.dell32.ma1203.nosync.300m.5m.1800s/all.html), [IO-bound, sync](reports/mar26.ib.io.dell32.ma1203.sync.300m.5m.1800s/all.html)
      * 48-core server, 20 users: [cached, sync](reports/mar26.ib.mem.hetz.ma1203synconly.10m.50m.3600s/all.html), [IO-bound, sync](reports/mar26.ib.io.hetz.ma1203synconly.200m.5m.3600s/all.html)
 
 Benchmark reports for 2025

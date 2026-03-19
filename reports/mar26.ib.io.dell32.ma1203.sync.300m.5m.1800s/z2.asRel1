@@ -1,0 +1,4 @@
+<tr><td>ma120301_rel_withdbg.cz12b_sync_c32r128</td> <td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr>
+<tr><td>ma120301_rel_withdbg.cz12c_sync_c32r128</td> <td id="chi">3.05</td><td>0.96</td><td id="chi">1.22</td><td id="chi">1.58</td><td>1.04</td><td id="chi">1.71</td><td>0.98</td><td id="chi">1.30</td><td>0.99</td><td id="chi">1.23</td></tr>
+<tr><td>ma120301_rel_withdbg.cz12b_sync_dw0_c32r128</td> <td>1.01</td><td id="clo">0.94</td><td id="chi">2.06</td><td id="chi">1.59</td><td>1.05</td><td id="chi">2.92</td><td id="chi">1.16</td><td id="chi">1.54</td><td>1.02</td><td id="chi">1.86</td></tr>
+<tr><td>ma120301_rel_withdbg.cz12c_sync_dw0_c32r128</td> <td id="chi">3.01</td><td>1.03</td><td id="chi">3.26</td><td id="chi">2.78</td><td id="chi">1.08</td><td id="chi">3.76</td><td id="chi">1.43</td><td id="chi">2.87</td><td>1.02</td><td id="chi">2.64</td></tr>
