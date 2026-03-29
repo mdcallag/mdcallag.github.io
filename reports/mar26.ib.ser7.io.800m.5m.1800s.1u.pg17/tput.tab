@@ -1,0 +1,24 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>pg170_o2nofp.cx10a_c8r32</td> <td id="cmax">213447</td><td>396040</td><td>3509</td><td id="cmax">169</td><td>25516</td><td id="cmin">938</td><td id="cmax">23940</td><td id="cmin">902</td><td>19334</td><td id="cmin">759</td></tr>
+<tr><td>pg171_o2nofp.cx10a_c8r32</td> <td>210084</td><td>402820</td><td>3549</td><td>168</td><td>25342</td><td id="cmin">941</td><td>23525</td><td id="cmin">897</td><td>19301</td><td id="cmin">804</td></tr>
+<tr><td>pg172_o2nofp.cx10a_c8r32</td> <td id="cmax">215517</td><td id="cmax">407125</td><td id="cmax">3578</td><td id="cmax">169</td><td id="cmax">25707</td><td id="cmin">941</td><td>23741</td><td id="cmin">898</td><td>19171</td><td id="cmin">803</td></tr>
+<tr><td>pg173_o2nofp.cx10a_c8r32</td> <td id="cmax">213618</td><td>397417</td><td id="cmax">3575</td><td>168</td><td>25423</td><td id="cmin">938</td><td id="cmax">23899</td><td id="cmin">897</td><td id="cmax">19526</td><td id="cmin">804</td></tr>
+<tr><td>pg174_o2nofp.cx10a_c8r32</td> <td id="cmax">213618</td><td id="cmax">410046</td><td>3546</td><td>168</td><td>25381</td><td id="cmin">939</td><td id="cmax">23910</td><td id="cmin">899</td><td>19015</td><td id="cmin">806</td></tr>
+<tr><td>pg175_o2nofp.cx10a_c8r32</td> <td id="cmax">212314</td><td>406091</td><td id="cmax">3578</td><td id="cmax">170</td><td id="cmax">25596</td><td id="cmin">945</td><td>23782</td><td id="cmin">902</td><td>19108</td><td id="cmin">808</td></tr>
+<tr><td>pg176_o2nofp.cx10a_c8r32</td> <td>210970</td><td id="cmax">411946</td><td>3568</td><td>168</td><td id="cmax">25630</td><td id="cmin">947</td><td>23866</td><td id="cmin">906</td><td>19156</td><td id="cmin">816</td></tr>
+<tr><td>pg177_o2nofp.cx10a_c8r32</td> <td id="cmax">213846</td><td id="cmax">409626</td><td>3537</td><td>168</td><td>25268</td><td id="cmin">943</td><td>23820</td><td id="cmin">900</td><td>19111</td><td id="cmin">809</td></tr>
+<tr><td>pg178_o2nofp.cx10a_c8r32</td> <td>198610</td><td>390244</td><td id="cmax">3575</td><td>168</td><td>25406</td><td id="cmin">943</td><td id="cmax">23996</td><td id="cmin">899</td><td>19138</td><td id="cmin">809</td></tr>
+<tr><td>pg179_o2nofp.cx10a_c8r32</td> <td id="cmax">211977</td><td>400601</td><td id="cmax">3597</td><td>166</td><td>25204</td><td id="cmax">1301</td><td>23672</td><td id="cmax">1265</td><td>19186</td><td id="cmax">1182</td></tr>
+</table>

@@ -1,0 +1,21 @@
+<style type="text/css">
+  table td#clo { background-color:#FFDD81 }
+  table td#chi { background-color:#81FFF9 }
+  table td#cmin { background-color:#FF9A9A }
+  table td#cmax { background-color:#81FFA6 }
+  table td#csla { background-color:#FFC172 }
+  table td#cgray { background-color:#D7D7D7 }
+  td {
+    text-align:right
+  }
+</style>
+<table border="1" cellpadding="8" >
+<tr><th>dbms</th><th>l.i0</th><th>l.x</th><th>l.i1</th><th>l.i2</th><th>qr100</th><th>qp100</th><th>qr500</th><th>qp500</th><th>qr1000</th><th>qp1000</th></tr>
+<tr><td>pg1222_o2nofp.cx10a_c8r32</td> <td>588235</td><td>1428575</td><td>130081</td><td>24390</td><td>101056</td><td>50947</td><td>97696</td><td>50840</td><td>95571</td><td>50435</td></tr>
+<tr><td>pg1323_o2nofp.cx10a_c8r32</td> <td id="cmax">606061</td><td>1379314</td><td>125245</td><td>22346</td><td>100737</td><td>51234</td><td>96584</td><td id="cmax">51176</td><td>95182</td><td id="cmax">50667</td></tr>
+<tr><td>pg1422_o2nofp.cx10a_c8r32</td> <td>588235</td><td>1428575</td><td id="cmax">133612</td><td>23564</td><td>102514</td><td>50424</td><td>98269</td><td>50143</td><td>96532</td><td>49590</td></tr>
+<tr><td>pg1517_o2nofp.cx10a_c8r32</td> <td id="cmax">606061</td><td>1481485</td><td>130612</td><td id="cmax">24578</td><td>102359</td><td>51137</td><td>98448</td><td>50958</td><td>96837</td><td id="cmax">50636</td></tr>
+<tr><td>pg1613_o2nofp.cx10a_c8r32</td> <td>597015</td><td>1481485</td><td id="cmax">131687</td><td id="cmax">25276</td><td>103167</td><td id="cmax">51798</td><td>99476</td><td id="cmax">51290</td><td>97852</td><td id="cmax">50950</td></tr>
+<tr><td>pg179_o2nofp.cx10a_c8r32</td> <td>571428</td><td id="cmax">1538465</td><td>129817</td><td id="cmax">24730</td><td id="cmax">105325</td><td>51365</td><td id="cmax">100836</td><td>50993</td><td id="cmax">99068</td><td>49554</td></tr>
+<tr><td>pg183_o2nofp.cx10b_c8r32</td> <td>571428</td><td id="cmax">1538465</td><td id="cmax">132780</td><td id="cmax">25276</td><td>103250</td><td>51440</td><td id="cmax">99923</td><td>50920</td><td id="cmax">98416</td><td>50412</td></tr>
+</table>

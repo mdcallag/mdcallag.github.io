@@ -37,6 +37,11 @@ Benchmark reports for 2026
    * MariaDB, March 2026, binlog_storage_engine
      * 32-core server, 12 users: [cached, nosync](reports/mar26.ib.mem.dell32.ma1203.nosync.10m.20m.1800s/all.html), [cached, sync](reports/mar26.ib.mem.dell32.ma1203.sync.10m.20m.1800s/all.html), [IO-bound, nosync](reports/mar26.ib.io.dell32.ma1203.nosync.300m.5m.1800s/all.html), [IO-bound, sync](reports/mar26.ib.io.dell32.ma1203.sync.300m.5m.1800s/all.html)
      * 48-core server, 20 users: [cached, sync](reports/mar26.ib.mem.hetz.ma1203synconly.10m.50m.3600s/all.html), [IO-bound, sync](reports/mar26.ib.io.hetz.ma1203synconly.200m.5m.3600s/all.html)
+   * Postgres, March 2026, 8-core server
+     * 1-user, CPU-bound: [latest releases](reports/mar26.ib.ser7.mem.30m.50m.1800s.1u.pglatest/all.html), [17.x releases](reports/mar26.ib.ser7.mem.30m.50m.1800s.1u.pg17/all.html), [full-page writes](reports/mar26.ib.ser7.mem.30m.50m.1800s.1u.pg.fpw/all.html)
+     * 1-user, IO-bound: [latest releases](reports/mar26.ib.ser7.io.800m.5m.1800s.1u.pglatest/all.html), [17.x releases](reports/mar26.ib.ser7.io.800m.5m.1800s.1u.pg17/all.html), [full-page writes](reports/mar26.ib.ser7.io.800m.5m.1800s.1u.pg.fpw/all.html)
+     * 4-users, CPU-bound: [latest releases](reports/mar26.ib.ser7.mem.10m.20m.1800s.4u.pglatest/all.html), [17.x releases](reports/mar26.ib.ser7.mem.10m.20m.1800s.4u.pg17/all.html), [full-page writes](reports/mar26.ib.ser7.mem.10m.20m.1800s.4u.pg.fpw/all.html)
+     * 4-users, IO-bound: [latest releases](reports/mar26.ib.ser7.io.200m.5m.1800s.4u.pglatest/all.html), [17.x releases](reports/mar26.ib.ser7.io.200m.5m.1800s.4u.pg17/all.html), [full-page writes](reports/mar26.ib.ser7.io.200m.5m.1800s.4u.pg.fpw/all.html)
 
 Benchmark reports for 2025
 * Insert Benchmark
