@@ -42,6 +42,8 @@ Benchmark reports for 2026
      * 1-user, IO-bound: [latest releases](reports/mar26.ib.ser7.io.800m.5m.1800s.1u.pglatest/all.html), [17.x releases](reports/mar26.ib.ser7.io.800m.5m.1800s.1u.pg17/all.html), [full-page writes](reports/mar26.ib.ser7.io.800m.5m.1800s.1u.pg.fpw/all.html)
      * 4-users, CPU-bound: [latest releases](reports/mar26.ib.ser7.mem.10m.20m.1800s.4u.pglatest/all.html), [17.x releases](reports/mar26.ib.ser7.mem.10m.20m.1800s.4u.pg17/all.html), [full-page writes](reports/mar26.ib.ser7.mem.10m.20m.1800s.4u.pg.fpw/all.html)
      * 4-users, IO-bound: [latest releases](reports/mar26.ib.ser7.io.200m.5m.1800s.4u.pglatest/all.html), [17.x releases](reports/mar26.ib.ser7.io.200m.5m.1800s.4u.pg17/all.html), [full-page writes](reports/mar26.ib.ser7.io.200m.5m.1800s.4u.pg.fpw/all.html)
+   * MariaDB, April 2026
+     * 24-core server, 8 users: [CPU-bound](reports/apr26.ib.io.250m.5m.1800s.8u.maria/all.html), [IO-bound](reports/apr26.ib.mem.10m.20m.1800s.8u.maria/all.html)
 
 Benchmark reports for 2025
 * Insert Benchmark
