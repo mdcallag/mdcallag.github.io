@@ -46,7 +46,7 @@ Benchmark reports for 2026
      * 24-core server, 8 users: [IO-bound](reports/apr26.ib.io.250m.5m.1800s.8u.maria/all.html), [CPU-bound](reports/apr26.ib.mem.10m.20m.1800s.8u.maria/all.html)
      * 32-core server, 12 users: [IO-bound](reports/apr26.ib.dell32.io.300m.5m.1800s.12u.maria/all.html), [CPU-bound](reports/apr26.ib.dell32.mem.10m.20m.1800s.12u.maria/all.html)
   * Postgres, June 2026
-    * 1-user, small server: [cached](reports/jun26.ib.pn52.mem.30m.50m.3600s.1u.pg/all.html)
+    * 1-user, small server: [cached](reports/jun26.ib.pn52.mem.30m.50m.3600s.1u.pg/all.html), [IO-bound](reports/jun26.ib.pn53.io.800m.5m.3600s.1u.pg.my/all.html)
 
 Benchmark reports for 2025
 * Insert Benchmark
